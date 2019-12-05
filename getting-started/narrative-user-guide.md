@@ -4,19 +4,19 @@ description: A more leisurely introduction to KBase's narrative interface
 
 # Narrative User Guide
 
-1. [ About This Guide](narrative-user-guide.md)
-2. [ ](https://kbase.us/narrative-guide/before-getting-started/)[Access the Narrative Interface](narrative-user-guide.md)
-3. [ Tour the Narrative Interface](https://kbase.us/narrative-guide/tour-the-narrative-interface/)
-4. [ Your Dashboard](https://kbase.us/narrative-guide/your-dashboard/)
-5. [ Job Browser](https://kbase.us/narrative-guide/job-browser/)
-6. [ Create a Narrative](https://kbase.us/narrative-guide/create-a-narrative/)
-7. [ Explore Data](https://kbase.us/narrative-guide/explore-data/)
-8. [ Add Data to Your Narrative](https://kbase.us/narrative-guide/add-data-to-your-narrative-2/)
-9. [ Browse KBase Analysis Tools](https://kbase.us/narrative-guide/browse-apps-and-methods/)
-10. [ Analyze Data Using KBase Apps](https://kbase.us/narrative-guide/run-apps-and-methods-to-analyze-your-data/)
-11. [ Revise Your Narrative](https://kbase.us/narrative-guide/revise-your-narrative/)
-12. [ Share Narratives](https://kbase.us/narrative-guide/share-narratives/)
-13. [ Access and Copy Narratives](https://kbase.us/narrative-guide/access-and-copy-narratives/)
+1. [ About This Guide](#about-this-guide)
+2. [ Access the Narrative Interface](#access-the-narrative-interface)
+3. [ Tour the Narrative Interface](#tour-the-narrative-interface/)
+4. [ Your Dashboard](#your-dashboard)
+5. [ Job Browser](#job-browser)
+6. [ Create a Narrative](#create-a-narrative/)
+7. [ Explore Data](#explore-data/)
+8. [ Add Data to Your Narrative](#add-data-to-your-narrative/)
+9. [ Browse KBase Analysis Tools](#browse-kbase-analysis-tools/)
+10. [ Analyze Data Using KBase Apps](#analyze-data-using-kbase/)
+11. [ Revise Your Narrative](#revise-your-narrative/)
+12. [ Share Narratives](#share-narratives/)
+13. [ Access and Copy Narratives](#access-and-copy-narratives/)
 
 {% tabs %}
 {% tab title="1" %}
