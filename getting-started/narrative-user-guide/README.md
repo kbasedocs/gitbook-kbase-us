@@ -4,36 +4,35 @@ description: A more leisurely introduction to KBase's narrative interface
 
 # Narrative User Guide
 
-1. [ About This Guide](#about-this-guide)
-2. [ Access the Narrative Interface](#access-the-narrative-interface)
-3. [ Tour the Narrative Interface](#tour-the-narrative-interface/)
-4. [ Your Dashboard](#your-dashboard)
-5. [ Job Browser](#job-browser)
-6. [ Create a Narrative](#create-a-narrative/)
-7. [ Explore Data](#explore-data/)
-8. [ Add Data to Your Narrative](#add-data-to-your-narrative/)
-9. [ Browse KBase Analysis Tools](#browse-kbase-analysis-tools/)
-10. [ Analyze Data Using KBase Apps](#analyze-data-using-kbase/)
-11. [ Revise Your Narrative](#revise-your-narrative/)
-12. [ Share Narratives](#share-narratives/)
-13. [ Access and Copy Narratives](#access-and-copy-narratives/)
+1. [ About This Guide](./#about-this-guide)
+2. [ Access the Narrative Interface](./#access-the-narrative-interface)
+3. [ Tour the Narrative Interface](./#tour-the-narrative-interface/)
+4. [ Your Dashboard](./#your-dashboard)
+5. [ Job Browser](./#job-browser)
+6. [ Create a Narrative](./#create-a-narrative/)
+7. [ Explore Data](./#explore-data/)
+8. [ Add Data to Your Narrative](./#add-data-to-your-narrative/)
+9. [ Browse KBase Analysis Tools](./#browse-kbase-analysis-tools/)
+10. [ Analyze Data Using KBase Apps](./#analyze-data-using-kbase/)
+11. [ Revise Your Narrative](./#revise-your-narrative/)
+12. [ Share Narratives](./#share-narratives/)
+13. [ Access and Copy Narratives](./#access-and-copy-narratives/)
 
 {% tabs %}
 {% tab title="1" %}
-### About This Guide
+## About This Guide
 
 This is the user guide for the Narrative Interface, the graphical user interface for accessing KBase’s functionality and data. If you are looking for a very quick \(one-page\) introduction to the Narrative Interface, please see the [Narrative Quick Start](https://kbase.us/narrative-quick-start/).
 
-### What is the Narrative Interface?
+## What is the Narrative Interface?
 
-The Narrative Interface enables researchers to design and carry out computational experiments while creating interactive, reproducible records of the data, computational steps, and thought processes underpinning their results. These records can be shared with collaborators and published as **“active papers,” called Narratives,** that let others repeat the computational experiment and even alter parameters or input data to achieve different or improved results. The Narrative Interface is built on top of the [Jupyter Notebook](http://jupyter.org/) framework.    
+The Narrative Interface enables researchers to design and carry out computational experiments while creating interactive, reproducible records of the data, computational steps, and thought processes underpinning their results. These records can be shared with collaborators and published as **“active papers,” called Narratives,** that let others repeat the computational experiment and even alter parameters or input data to achieve different or improved results. The Narrative Interface is built on top of the [Jupyter Notebook](http://jupyter.org/) framework.
 
-
-![](../.gitbook/assets/narrative-quickstart-11-17-small.png)
+![](../../.gitbook/assets/narrative-quickstart-11-17-small.png)
 {% endtab %}
 
 {% tab title="2" %}
-### Access the Narrative Interface
+## Access the Narrative Interface
 
 The Narrative Interface is available at [narrative.kbase.us](https://narrative.kbase.us/). Once you sign in, you will see your Dashboard.
 
@@ -44,18 +43,16 @@ There are several ways to enter the Narrative Interface from your Dashboard:
 * Start a new Narrative by clicking the “+ New Narrative” button
 
 {% hint style="warning" %}
-#### Make sure you have the latest version
+### Make sure you have the latest version
 
 New versions of the Narrative Interface are released periodically. In most cases, KBase will automatically update to the latest version. However, if you had an older version already running, you will see a green button near the top right of your Narrative that says “New Version Available.”  
 ![Screen Shot 2015-02-03 at 8.16.19 PM](https://kbase.us/wp-content/uploads/2014/11/Screen-Shot-2015-02-03-at-8.16.19-PM.png)  
 Click this button to update and reload the interface. You also may need to do a hard refresh \(shift-reload\) in your browser window.
 {% endhint %}
-
-#### 
 {% endtab %}
 
 {% tab title="3" %}
-### Tour the Narrative Interface
+## Tour the Narrative Interface
 
 {% hint style="info" %}
 **Take the tour!**
@@ -69,7 +66,7 @@ Before adding data and analysis steps to your Narrative, take some time to explo
 
 ![](https://kbase.us/wp-content/uploads/2014/12/Tour-Narrative-Multicolor.png)
 
-#### Managing Narratives and accessing resources
+### Managing Narratives and accessing resources
 
 **1. Top menu**
 
@@ -96,7 +93,7 @@ Before adding data and analysis steps to your Narrative, take some time to explo
 * _Analyze_ tab consists of the Data Panel \(see \#8\) and the Apps Panel below it \(see \#11\).
 * _Narratives_ tab allows you to create a new Narrative, copy an existing Narrative, and see a list of other Narratives created by or shared with you.
 
-#### Adding data and apps
+### Adding data and apps
 
 **7.** **Data Panel** — You can add data to your Narrative by searching KBase’s reference collection, importing datasets from external sources, or generating new data from KBase analyses. All data objects from these activities will be listed in this panel, which is empty when you create or open a new Narrative.
 
@@ -108,9 +105,9 @@ Before adding data and analysis steps to your Narrative, take some time to explo
 
 **11. Apps Panel** — This panel lists KBase analysis functions. Clicking the app name or icon beside it will add an analysis cell to your Narrative \(see “[Analyze Your Data Using KBase Apps](https://kbase.us/narrative-guide/run-apps-and-methods-to-analyze-your-data/)” for details\).
 
-**12. App controls** — ****Use these icons to search and refresh the list of apps, as well as expose apps that are available but still in beta. The right arrow will open the [App Catalog](https://narrative.kbase.us/#appcatalog), which provides advanced options for browsing apps; designating them as favorites; and filtering them based on analysis type, popularity, and more. For additional information, see [Browse KBase Analysis Tools](https://kbase.us/narrative-guide/browse-apps-and-methods/).
+**12. App controls** — _\*\*_Use these icons to search and refresh the list of apps, as well as expose apps that are available but still in beta. The right arrow will open the [App Catalog](https://narrative.kbase.us/#appcatalog), which provides advanced options for browsing apps; designating them as favorites; and filtering them based on analysis type, popularity, and more. For additional information, see [Browse KBase Analysis Tools](https://kbase.us/narrative-guide/browse-apps-and-methods/).
 
-#### Running analyses and adding commentary
+### Running analyses and adding commentary
 
 **13. Markdown cell** — Use [Markdown language](https://blog.ghost.org/markdown/) to add rich text commentary and graphics to your Narrative.
 
@@ -120,13 +117,13 @@ Before adding data and analysis steps to your Narrative, take some time to explo
 {% endtab %}
 
 {% tab title="4" %}
-### Your Dashboard
+## Your Dashboard
 
 After signing into the Narrative Interface, you will be taken to your Dashboard, which provides an overview of your work in and use of KBase. From the Dashboard you can access existing Narratives, create new ones, contact collaborators, update your profile, and more. Main features of the Dashboard are described below.
 
 ![](https://kbase.us/wp-content/uploads/2015/02/Dashboard1-1.png)
 
-### What’s in my Dashboard?
+## What’s in my Dashboard?
 
 **Narratives**
 
@@ -149,9 +146,9 @@ Note that **Public Narratives** have not necessarily been reviewed or tested by 
 
 **Common Collaborator Network**
 
-*  People with whom you share Narratives.
+* People with whom you share Narratives.
 
-### Where can I go from here?
+## Where can I go from here?
 
 The Dashboard offers many launch points. To the left of the **Your Narratives** panel you will see five icons allowing you to toggle between the **Dashboard**, **Catalog**, **Search**, **Jobs**, and **Account** tabs.
 
@@ -183,7 +180,7 @@ The Dashboard offers many launch points. To the left of the **Your Narratives** 
 * From this tab you can also get to your Profile Page which gives an overview of your Narratives and your Collaborators.
 * You can access the user profile of any of your Collaborators by simply clicking on the name under the **Your Collaborators** panel while in your Profile Page.
 
-### Top-Level Menu
+## Top-Level Menu
 
 The top-level menu \(accessed by clicking the three small horizontal lines on the upper left of the window\) offers additional possibilities:
 
@@ -205,7 +202,7 @@ In the next section, we’ll discuss [how to create a new Narrative](https://kba
 {% endtab %}
 
 {% tab title="5" %}
-### Job Browser
+## Job Browser
 
 The Job Browser is one of the buttons on the left sidebar of the Dashboard. In addition to watching jobs within the narratives, the Job Browser allows you to monitor and manage your jobs. By default, it shows all jobs submitted within the last 48 hours. You can change the timeframe to an hour, a week, a month, or a custom range of dates.
 
@@ -215,14 +212,14 @@ The check boxes allow you to filter the jobs by _Finished_, _Queued_, _Running_,
 
 The results display basic information for the jobs such as the Narrative they can be found in, App ID, Submission Time, Queue Time, Run Time, and Status. The name of the Narrative is hot-linked, and clicking on it will open a new tab with the Narrative. The App ID is hot-linked and clicking on it will open a new tab with the catalog page for the app.
 
-The job status cell has the status, an icon for the log, and a red cancel button. Click the log icon to expand the table and show the contents of the log. Click the icon again to collapse the table. Canceling the job will prompt you to make sure you didn’t click it accidentally.  Jobs that have been canceled may continue to show up as “Queued” or “Running” until they clear the system.
+The job status cell has the status, an icon for the log, and a red cancel button. Click the log icon to expand the table and show the contents of the log. Click the icon again to collapse the table. Canceling the job will prompt you to make sure you didn’t click it accidentally. Jobs that have been canceled may continue to show up as “Queued” or “Running” until they clear the system.
 {% endtab %}
 
 {% tab title="6" %}
-### Create a Narrative
+## Create a Narrative
 
 [![](https://kbase.us/wp-content/uploads/2014/11/Screen-Shot-2017-01-30-at-11.06.58-AM.png)](https://kbase.us/wp-content/uploads/2014/11/Screen-Shot-2017-01-30-at-11.06.58-AM.png)  
-You can create a new Narrative from your [Dashboard](https://kbase.us/narrative-guide/your-dashboard/) by clicking the “+ New Narrative” button, which will take you to the main Narrative Interface. If you are already in the Narrative Interface, you can start a new Narrative by selecting the _Narratives_ tab \(next to  _Analyze_\) and clicking the button labeled “+ New Narrative.”
+You can create a new Narrative from your [Dashboard](https://kbase.us/narrative-guide/your-dashboard/) by clicking the “+ New Narrative” button, which will take you to the main Narrative Interface. If you are already in the Narrative Interface, you can start a new Narrative by selecting the _Narratives_ tab \(next to _Analyze_\) and clicking the button labeled “+ New Narrative.”
 
 Your Narrative will open in a new browser tab and contain a default “Welcome” cell that provides brief instructions for using the Narrative Interface. You can retain this cell or delete it with the “Delete cell” item in the “…” menu in the upper right corner of the cell.
 
@@ -232,17 +229,17 @@ We hope that after working on your Narrative, you will want to [share it](https:
 
 In the sections that follow, we will explain how to [explore data](https://kbase.us/narrative-guide/explore-data/), [add data to your Narrative](https://kbase.us/narrative-guide/add-data-to-your-narrative/), and use [apps](https://kbase.us/narrative-guide/browse-apps-and-methods/) to analyze it.
 
-#### Copy and run Narratives created by others
+### Copy and run Narratives created by others
 
 If you don’t feel quite ready to create your own Narrative, you can copy and run a Narrative that someone else has shared with you. Please see the [Access and Copy Narratives](https://kbase.us/narrative-guide/access-and-copy-narratives/) section for more information.
 {% endtab %}
 
 {% tab title="7" %}
-### Explore Data
+## Explore Data
 
 There are several ways to find data and add it to your Narrative. You can select data available within KBase, [upload your own files, or import datasets from external resources](https://kbase.us/data-upload-download-guide/uploading-data/) such as the DOE Joint Genome Institute \(JGI\) or NCBI. This section will describe how to explore data already in KBase. Instructions for adding data to your Narrative and importing external files are provided in the next section, “[Add Data to Your Narrative](https://kbase.us/narrative-guide/add-data-to-your-narrative/).”
 
-#### The Data Slideout
+### The Data Slideout
 
 There are several ways to explore the [wide range of data available in KBase](https://kbase.us/data-summary/).
 
@@ -270,17 +267,17 @@ The data-type selector at the top left of the browser window defaults to Genomes
 
 You can also use the “Search data” field in the Data Browser to find data objects whose names include the text you’ve typed in the search box. \(Note that searches are not case-sensitive\). Enter “Vibrio brasiliensis” in the search field.
 
-If you hover over a data object in the Data Browser panel, three small images appear: an Add button to the left of the object name and binoculars and a graph-like icon to the right. These latter two icons open a  Data Landing page and a Provenance page, respectively \(see below for details\).
+If you hover over a data object in the Data Browser panel, three small images appear: an Add button to the left of the object name and binoculars and a graph-like icon to the right. These latter two icons open a Data Landing page and a Provenance page, respectively \(see below for details\).
 
 ![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2015-02-12-at-9.17.28-PM-e1423804700430.png)
 
-Go ahead and click the Add  button to add the Vibrio brasiliensis LMG 20546 genome to your Narrative. Notice that this genome now shows up in your Data Panel \(see image\).
+Go ahead and click the Add button to add the Vibrio brasiliensis LMG 20546 genome to your Narrative. Notice that this genome now shows up in your Data Panel \(see image\).
 
 [![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-11.52.34-AM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-11.52.34-AM.png)
 
-#### Information in the Data Panel
+### Information in the Data Panel
 
-The Data Panel shows all the data that you’ve added to your Narrative. \(The [next section](https://kbase.us/narrative-guide/add-data-to-your-narrative/) of  this guide discusses in more detail how to add data to your Narrative.\)
+The Data Panel shows all the data that you’ve added to your Narrative. \(The [next section](https://kbase.us/narrative-guide/add-data-to-your-narrative/) of this guide discusses in more detail how to add data to your Narrative.\)
 
 You should have at least one object \(Vibrio brasiliensis LMG 20546\) in your Data Panel. As you add or generate more data during the course of your analyses, the number of objects in this panel will increase. You can search, sort, or filter the list using the icons in the Data Panel header.
 
@@ -297,7 +294,7 @@ This expanded view of the data object also reveals icons that let you examine or
 * The “A” icon lets you rename your data object. Use caution when doing this, though. If a Narrative was already using the old object name in analyses, they might stop working. Also note that object names can contain only letters, digits, and underscores; no spaces or other special characters are allowed.
 * Finally, the trash icon lets you delete a data object from your Narrative. \(If the data came from a public or shared data source, the original will not be deleted, just the copy that’s in your Narrative.\)
 
-#### Data viewers
+### Data viewers
 
 Many \(but not yet all\) types of data in KBase have viewers that allow you to find out more about the data. These viewers can be accessed two ways from the Data Panel:
 
@@ -315,7 +312,7 @@ Notice that this genome viewer has tabs for an overview \(including GC content, 
 **Sorting table entries in the viewer**
 
 You can sort the table entries by clicking on a column header to sort by that field \(e.g., Length\). Clicking the same column header again will reverse the sort order. For example, the screenshots below show the table sorted in descending order by Contig name and then in descending order by length:  
- ![Screen Shot 2015-02-09 at 12.48.23 PM](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2015-02-09-at-12.48.23-PM.png)
+![Screen Shot 2015-02-09 at 12.48.23 PM](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2015-02-09-at-12.48.23-PM.png)
 
 ![Screen Shot 2015-02-09 at 12.48.36 PM](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2015-02-09-at-12.48.36-PM.png)
 
@@ -327,7 +324,7 @@ There are many other types of viewers in KBase in addition to the Genome viewer 
 
 To remove a viewer from your Narrative, click the trashcan icon in the top right of the viewer cell. \(You can always re-add the viewer; removing it from your Narrative doesn’t delete the data object itself.\)
 
-#### Data Landing and Provenance pages
+### Data Landing and Provenance pages
 
 Data Landing \(also known as Data Summary\) and Provenance pages are ways to find out even more information about a data object. You can access these pages using the icons that appear when you hover over a data object in the Data Browser or click on one of the objects in your Data Panel. The binoculars icon opens \(in a new browser tab\) a Data Landing page about that particular data object, while the graph-like icon opens a Provenance page.
 
@@ -344,7 +341,7 @@ Data Landing \(also known as Data Summary\) and Provenance pages are ways to fin
 * Functional categories
 * and more
 
-**Provenance pages** are one way to facilitate reproducibility and transparency of scientific results, two key principles of KBase design. All data in KBase is versioned, and older versions of a data object can be accessed from the Provenance page. This page records and illustrates how data is derived and modified in KBase, including how it entered the system, whether it was produced through analysis of other objects, who generated the data, and when. You also can identify the original “owners”  of the data, allowing you to contact them or see their shared analyses.
+**Provenance pages** are one way to facilitate reproducibility and transparency of scientific results, two key principles of KBase design. All data in KBase is versioned, and older versions of a data object can be accessed from the Provenance page. This page records and illustrates how data is derived and modified in KBase, including how it entered the system, whether it was produced through analysis of other objects, who generated the data, and when. You also can identify the original “owners” of the data, allowing you to contact them or see their shared analyses.
 
 The image below shows the Provenance page for a flux balance analysis model that was generated in KBase.
 
@@ -354,7 +351,7 @@ In the [next section](https://kbase.us/narrative-guide/add-data-to-your-narrativ
 {% endtab %}
 
 {% tab title="8" %}
-### Add Data to Your Narrative
+## Add Data to Your Narrative
 
 Now that you are familiar with ways to find and explore data in KBase, you can select or upload data to analyze. The Data Panel in a Narrative shows the data objects that are currently available in that particular Narrative. From the Data Panel, you can access the data slideout, which allows you to search for data of interest and add it to your Narrative. In the Data Panel, click the Add Data button, the red “+” button, or the right arrow at the upper right of the panel to access the data slideout \(also referred to as the “data browser”\).
 
@@ -373,7 +370,7 @@ The first four tabs of the data slideout \(“My Data”, “Shared With Me”, 
 * The tab that’s labeled Import is the legacy importer that will soon be retired. Please use the new import tab \(see next bullet point\) instead.
 * Finally, the **new Import** tab allows you to upload your own datasets for analysis. \(This capability is still under development.\) This is explained in more detail below.
 
-#### Data available in KBase
+### Data available in KBase
 
 If you hover your cursor over any data object under the first four tabs, options will appear allowing you to add that object to your Narrative or find out more about it.
 
@@ -385,7 +382,7 @@ In the [previous section](https://kbase.us/narrative-guide/explore-data/), we de
 
 As described in the previous section, the Add button next to these icons lets you add the data object to your Narrative. You can add more more data to your Narrative from the Example tab to try out various KBase apps.
 
-#### Uploading data from external sources
+### Uploading data from external sources
 
 The new \(early 2018\) Import tab lets you drag & drop data from your computer into your Staging Area to import into your Narrative, where you can then analyze it using KBase’s analysis apps.
 
@@ -416,7 +413,7 @@ It’s more robust and extensible this way. Unlike our previous importer, the st
 In this documentation, we will use “Upload” to refer to getting data from your computer into your Staging Area and “Import” to refer to the process of converting a data file from your Staging Area into a data object in your Narrative that you can analyze with any of our analysis apps. Sometimes we use the term “Import” to cover the whole Upload+Import process.
 {% endhint %}
 
-#### Drag & drop data files into your Staging Area
+### Drag & drop data files into your Staging Area
 
 {% hint style="warning" %}
 **Drag & Drop Limitations**  
@@ -442,7 +439,7 @@ When the file is done uploading, you will see it appear in the list of files in 
 Your Staging Area is meant to be a temporary holding area for data you want to import into your KBase account. After adding files to your Staging Area, be sure to import them into your Narrative soon, as files in the Staging Area are automatically removed after 90 days. \(Data objects that you have imported to your Narrative last indefinitely.\)
 {% endhint %}
 
-#### Transferring data from a Globus endpoint
+### Transferring data from a Globus endpoint
 
 Globus is a data management and file transfer system that can facilitate bulk transfer of data \(either large data files or a large number of files\) between two endpoints. The endpoints that apply here are KBase, JGI, and your local computer. The KBase endpoint is called “KBase Bulk Share,” and JGI has their own way to link to Globus. To do any transfer using Globus, you will [need a Globus account](https://www.globusid.org/create).
 
@@ -452,13 +449,12 @@ Globus is a data management and file transfer system that can facilitate bulk tr
 
 {% hint style="info" %}
 **Uploading data from JGI**  
-If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [this page](https://kbase.us/transfer-jgi-data/) for instructions.  
+If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [this page](https://kbase.us/transfer-jgi-data/) for instructions.
 {% endhint %}
 
-#### Uploading data from a URL
+### Uploading data from a URL
 
-Below the link to Globus, another link says “Click here to use an App to upload from a public URL” \(for example, a GenBank ftp URL, or a Dropbox or Google Drive URL that is publicly accessible\).  
- 
+Below the link to Globus, another link says “Click here to use an App to upload from a public URL” \(for example, a GenBank ftp URL, or a Dropbox or Google Drive URL that is publicly accessible\).
 
 ![](https://kbase.us/wp-content/uploads/2018/01/load-from-url.png)
 
@@ -468,10 +464,10 @@ Clicking this link adds the “Upload File to Staging from Web” app to your Na
 
 There are also several apps that import specific file types \(single- or paired-end reads or SRA files\) from a URL directly to your Narrative, bypassing your Staging Area. These are available from the Apps panel and the [App Catalog](https://narrative.kbase.us/#appcatalog).
 
-#### Importing files from your Staging Area to your KBase Narrative
+### Importing files from your Staging Area to your KBase Narrative
 
 The files in your Staging Area are ready to import into your Narrative as KBase data objects that can be used in your analyses. \(You can think of a Narrative as a project or folder, which includes data that you will analyze, as well as results from those analyses.\)  
- To import a file from your Staging Area, choose a format \(data type\) from the pulldown menu to the right of the file’s age. \(You can find out more about KBase data types and accepted formats in the [Upload/Download Guide](https://kbase.us/data-upload-download-guide/).\) Then click the “import” icon to the right of the format menu.
+To import a file from your Staging Area, choose a format \(data type\) from the pulldown menu to the right of the file’s age. \(You can find out more about KBase data types and accepted formats in the [Upload/Download Guide](https://kbase.us/data-upload-download-guide/).\) Then click the “import” icon to the right of the format menu.
 
 ![](https://kbase.us/wp-content/uploads/2018/01/image11.png)
 
@@ -481,7 +477,7 @@ When you click the “import” icon, the data slideout slides shut and an Impor
 
 {% hint style="info" %}
 **Importing different types of data**  
-This example shows how to import GenBank data. Please see the [Upload/Download Guide](https://kbase.us/data-upload-download-guide/) for detailed instructions for other supported data types.  
+This example shows how to import GenBank data. Please see the [Upload/Download Guide](https://kbase.us/data-upload-download-guide/) for detailed instructions for other supported data types.
 {% endhint %}
 
 If the GenBank file came from a different source, use the pulldown menu to select it. You can change the output object name, if desired, and then click the Run button to start the import. When the import is done, you should see the message “Finished with success” near the top of the app cell, and some information about the app run.
@@ -489,7 +485,7 @@ If the GenBank file came from a different source, use the pulldown menu to selec
 ![](https://kbase.us/wp-content/uploads/2018/01/image2.png)
 
 If you look at your Data Panel, you should see the new data object created by the import:  
- [![](https://kbase.us/wp-content/uploads/2018/01/image1.png)](https://kbase.us/wp-content/uploads/2018/01/image1.png)
+[![](https://kbase.us/wp-content/uploads/2018/01/image1.png)](https://kbase.us/wp-content/uploads/2018/01/image1.png)
 
 You can now use this data object as input into the relevant KBase apps. If you want to see which apps accept a particular data type as input, you can click the “…” menu in the data object cell that appears when you hover over it, and then use the “Show Apps with this as input” icon to filter the apps in the Apps Panel:
 
@@ -503,9 +499,9 @@ Sometimes an import doesn’t work. One of the most common causes of failure is 
 ![](https://kbase.us/wp-content/uploads/2018/01/image4.png)
 
 If the importer objected to something in your file, check the [Data Upload/Download guide](https://kbase.us/data-upload-download-guide/) for details about the relevant format.  
- In some cases, the cause of an import error will not be obvious. If you can’t figure out why your import isn’t working, please contact us \(via the Help Board\) for help. Note, however, that no one besides you has access to your Staging Area, so we will not be able to see the files you uploaded to your Staging Area. You may need to attach your input file to your Help Board ticket in order for us to diagnose the problem.
+In some cases, the cause of an import error will not be obvious. If you can’t figure out why your import isn’t working, please contact us \(via the Help Board\) for help. Note, however, that no one besides you has access to your Staging Area, so we will not be able to see the files you uploaded to your Staging Area. You may need to attach your input file to your Help Board ticket in order for us to diagnose the problem.
 
-#### Getting more information about files in your Staging Area
+### Getting more information about files in your Staging Area
 
 The list of files in your Staging Area includes their name, size, and age \(when they were uploaded\). If you have a lot of files in your Staging Area, you may want to use the Search box to locate specific files.
 
@@ -522,30 +518,30 @@ You can click “First 10 lines” or “Last 10 lines” to see that portion of
 ![](https://kbase.us/wp-content/uploads/2018/01/image13.png)
 
 Opening the information about a file in your Staging Area also reveals a trash can icon that allows you to remove the file from your staging area.  
- [![](https://kbase.us/wp-content/uploads/2018/01/image18.png)](https://kbase.us/wp-content/uploads/2018/01/image18.png)  
- You will be asked to confirm that you want to delete the file. This action is not reversible.  
- Note that if you had already imported the file to your Narrative as a data object, that object won’t go away when you delete the file in your Staging Area. If you want to delete a data object, you can do that in your Data Panel.
+[![](https://kbase.us/wp-content/uploads/2018/01/image18.png)](https://kbase.us/wp-content/uploads/2018/01/image18.png)  
+You will be asked to confirm that you want to delete the file. This action is not reversible.  
+Note that if you had already imported the file to your Narrative as a data object, that object won’t go away when you delete the file in your Staging Area. If you want to delete a data object, you can do that in your Data Panel.
 
 {% hint style="info" %}
 **In progress**  
-KBase’s import functionality and user interface are under active development. We [welcome your bug reports and suggestions](https://kbase.us/contact-us/) for future upload functionality.  
+KBase’s import functionality and user interface are under active development. We [welcome your bug reports and suggestions](https://kbase.us/contact-us/) for future upload functionality.
 {% endhint %}
 
-#### Now what?
+### Now what?
 
 Once you have added data–your own data or reference data that is already in KBase–to your Narrative, you will be ready for the exciting part: analyzing it! The next two sections describe how to [choose](https://kbase.us/narrative-guide/browse-apps-and-methods/) and [run an app](https://kbase.us/narrative-guide/run-apps-and-methods-to-analyze-your-data/) to analyze your data.
 {% endtab %}
 
 {% tab title="9" %}
-### Browse KBase Analysis Tools
+## Browse KBase Analysis Tools
 
 A Narrative can include any number of analysis steps that are added by selecting one or more apps from the Apps Panel directly below your data. The apps are grouped by category. Click the arrow to the left of a category name to see the individual apps in that category.
 
 [![](https://kbase.us/wp-content/uploads/2015/03/App-Panel-Open.png)](https://kbase.us/wp-content/uploads/2015/03/App-Panel-Open.png)
 
-You can browse KBase apps by \(1\) scrolling through the list in the Apps Panel; \(2\) searching for an app by name; or \(3\) using the App Catalog \(click the right arrow in the top right corner of the Apps Panel to open it\)  to further explore, filter, and designate apps as favorites.
+You can browse KBase apps by \(1\) scrolling through the list in the Apps Panel; \(2\) searching for an app by name; or \(3\) using the App Catalog \(click the right arrow in the top right corner of the Apps Panel to open it\) to further explore, filter, and designate apps as favorites.
 
-#### **Search for Apps in the Apps Panel**
+### **Search for Apps in the Apps Panel**
 
 [![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-11-28-at-3.03.38-PM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-11-28-at-3.03.38-PM.png)
 
@@ -555,7 +551,7 @@ Click the search icon at the top of the panel to begin a text search for apps. O
 
 Clicking the “more…” link opens an app details page featuring an expanded description of the app, along with technical information about its inputs, outputs, parameters, and more. Links to additional documentation such as tutorials or FAQs also may be provided.
 
-#### **Access the App Catalog**
+### **Access the App Catalog**
 
 All available apps can be found in the App Catalog, which is accessible two ways:
 
@@ -568,22 +564,21 @@ Much like the [Data Browser](https://kbase.us/narrative-guide/add-data-to-your-n
 
 **Add your own app!**
 
-The App Catalog is growing to contain not only the apps generated by KBase staff, but also those created and contributed by outside developers. KBase’s [software development toolkit \(SDK\)](https://kbase.us/developer/), provides a mechanism for users to add their own open-source, open-license tools to the system as new KBase apps.  
+The App Catalog is growing to contain not only the apps generated by KBase staff, but also those created and contributed by outside developers. KBase’s [software development toolkit \(SDK\)](https://kbase.us/developer/), provides a mechanism for users to add their own open-source, open-license tools to the system as new KBase apps.
 
-
-#### **Sort and Filter Apps**
+### **Sort and Filter Apps**
 
 [![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-31-at-10.11.24-PM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-31-at-10.11.24-PM.png)From the App Catalog, you can search for apps by name and use several options to organize and filter how they are displayed \(the default sort is by category\). Click the “Organize by” drop-down menu to see these options.
 
 * **My Favorites** — Lists your favorite apps \(those you’ve clicked the star icon to “favorite”\) at the top of the catalog.
 * **Favorites Count and Run Count** — Suggests some of the most popular and frequently used apps in KBase.
 * **Name** — Filters apps by name \(alphabetically or reverse alphabetically\).
-* **Category** \(default sort\) ****— Displays apps in groups by analysis type including annotation, assembly, communities, comparative genomics, expression, metabolic modeling, and more.
+* **Category** \(default sort\) _\*\*_— Displays apps in groups by analysis type including annotation, assembly, communities, comparative genomics, expression, metabolic modeling, and more.
 * **Module** — Sorts apps based on which SDK module they belong to.
 * **Developer** — Displays apps alphabetically by developers’ KBase usernames, which are linked to their profile pages.[![apps\_organized\_by\_input\_type](https://kbase.us/wp-content/uploads/2014/12/apps_organized_by_input_type-300x230.png)](https://kbase.us/wp-content/uploads/2014/12/apps_organized_by_input_type.png)
 * **Input Types and Output Types** —Groups apps based on the type of data that they take as input or generate as output. Each data type is linked to a specification page that provides some technical details, including version, description, structure, and more. This sort can be useful for determining the data you must add to your Narrative before using a specific app. The _**Example**_ tab of the [Data Browser](https://kbase.us/narrative-guide/add-data-to-your-narrative/) provides access to various data types to help you get started.
 
-#### **Explore Individual Apps**
+### **Explore Individual Apps**
 
 [![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-31-at-10.20.03-PM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-31-at-10.20.03-PM.png)[![Screen Shot 2017-01-31 at 10.20.11 PM](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-31-at-10.20.11-PM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-31-at-10.20.11-PM.png)
 
@@ -595,22 +590,22 @@ You can access the app module \(a group of related apps\) by clicking its hyperl
 
 **Feeling adventurous?**
 
- [![Bucking\_Horse\_and\_Rider\_logo](https://kbase.us/wp-content/uploads/2014/12/Bucking_Horse_and_Rider_logo.png)](https://kbase.us/wp-content/uploads/2014/12/Bucking_Horse_and_Rider_logo.png)
+[![Bucking\_Horse\_and\_Rider\_logo](https://kbase.us/wp-content/uploads/2014/12/Bucking_Horse_and_Rider_logo.png)](https://kbase.us/wp-content/uploads/2014/12/Bucking_Horse_and_Rider_logo.png)
 
 If you want to try out apps that are still in development, you can click the little “R” in the Apps Panel, changing it to a “B”. This will show apps that are in Beta \(i.e., still being tested and debugged\). Click the “B” again to go back to “R” \(show only released apps\).  
- [![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-10-19-at-11.43.02-AM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-10-19-at-11.43.02-AM.png)
+[![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-10-19-at-11.43.02-AM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-10-19-at-11.43.02-AM.png)
 
 Now that you know how to find an app of interest, the [next section](https://kbase.us/narrative-guide/run-apps-and-methods-to-analyze-your-data/) will discuss how to add it to your Narrative so you can begin analyzing data.
 {% endtab %}
 
 {% tab title="10" %}
-### Analyze Data Using KBase Apps
+## Analyze Data Using KBase Apps
 
 Now that you have explored the available apps and determined which ones work with the data objects in your Narrative, you can begin analyzing your data.
 
-#### Add an app to your Narrative
+### Add an app to your Narrative
 
-To add an app to your Narrative, find the app of interest and click its name or the icon to the left of the app  name. A box \(called a _cell_\) containing the chosen app will appear in the main Narrative panel.
+To add an app to your Narrative, find the app of interest and click its name or the icon to the left of the app name. A box \(called a _cell_\) containing the chosen app will appear in the main Narrative panel.
 
 [![](https://kbase.us/wp-content/uploads/2015/03/Screen-Shot-2017-03-13-at-9.47.25-AM.png)](https://kbase.us/wp-content/uploads/2015/03/Screen-Shot-2017-03-13-at-9.47.25-AM.png)
 
@@ -624,7 +619,7 @@ A few things to notice about the app cell:
 * The “…” menu offers several options for collapsing/expanding the cell; showing the code that will execute the app; getting more info \(in a separate browser window\) about the app; and deleting the cell. These are discussed more in the section called “[Revise Your Narrative](https://kbase.us/narrative-guide/revise-your-narrative/)“.
 * Every app has some parameters \(fields\) that must be filled in before you can run the app.
 
-#### Fill in parameters
+### Fill in parameters
 
 After you add an app to your Narrative, the required parameters must be filled in before you can run it. For example, for most apps, you will need to select the input data object\(s\). Other parameters may also need to be set. A red arrow to the right of a field indicates that it is a required field and you have not yet entered a valid value in it. Once you enter a value, the red arrow should disappear.
 
@@ -640,7 +635,7 @@ Some apps have optional “advanced options” that you can reveal by clicking o
 
 As you add to your Narrative, be sure to save your work frequently, using the Save button at the top right of the screen.
 
-#### Run the app
+### Run the app
 
 When you have filled in all the required fields, the _Run_ button on the left side of the app will be enabled; click it to start running the app. Once clicked, the green _Run_ button will turn to a red _Cancel_ button. When the analysis starts running, you will see information in the _Job Status_ tab_**.**_
 
@@ -668,19 +663,19 @@ In addition to creating a new output cell, the app we ran created a new data obj
 
 Remember that you can hover over an object in the Data Panel and click the “. . .” that appears to see more information and options, including an option \(see image\) for downloading the object in GenBank or JSON format \(see the [Download Guide](https://kbase.us/data-upload-download-guide/downloading-data/) for more information\). In the future, you will be able to choose from a wider variety of common formats, allowing you to download results to use with other tools and send to colleagues.
 
- **KBase’s download functionality is still in development–please check back soon for new download options and improvements, and report any problems to us.**
+**KBase’s download functionality is still in development–please check back soon for new download options and improvements, and report any problems to us.**
 
-#### **Conduct further analyses**
+### **Conduct further analyses**
 
 Once you have reviewed your results, you can use your newly generated data in additional analysis steps. Remember, you can click on the data object in the Data Panel to see which KBase apps work with that data type.
 
 For example, our annotated genome can be used in a number of analyses because it now includes the standard KBase annotations. If you click on the genome in the Data Panel, you see several apps that apply. Among them are the [_Insert Genomes into Species Tree_ app](https://kbase.us/insert-genomes-into-species-tree-app/) that constructs a phylogenetic tree allowing you to see species closely related to your genome. You also can use the [_Build a Metabolic Model_ app](https://kbase.us/metabolic-modeling-in-kbase/) to draft a metabolic model from the annotated genome.
 
-#### **Re-run apps with the same or different parameters**
+### **Re-run apps with the same or different parameters**
 
 App input cells that have already been run have a “Reset” button that allows you to redo the analysis, with the option to change any of the parameter settings \(including, perhaps, the input data\) before rerunning. Rerunning an app will overwrite the information in the app cells, but will not overwrite any data objects in your Narrative _unless_ you use the same output object name again.
 
-#### **Report errors**
+### **Report errors**
 
 If a job fails, you will see an error message in the output cell and/or in the _Result_ tab. If you need help figuring out what went wrong, please [contact us](https://kbase.us/contact-us/) with details about what you were doing when the error occurred and what the error message said. Including the contents of the _Job Status_ tab and the URL of your Narrative will help us debug the problem. We are here to help and appreciate your feedback and error reports!
 
@@ -688,15 +683,15 @@ In the [next section](https://kbase.us/narrative-guide/revise-your-narrative/), 
 {% endtab %}
 
 {% tab title="11" %}
-### Revise Your Narrative
+## Revise Your Narrative
 
- You can browse a list of your Narratives in the Narratives tab:
+You can browse a list of your Narratives in the Narratives tab:
 
 [![Screen Shot 2017-02-02 at 11.14.14 AM](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-02-02-at-11.14.14-AM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-02-02-at-11.14.14-AM.png)
 
 Your Narratives are shown in the _Narratives_ tab in reverse chronological order, with the most recently changed Narratives first. After your Narratives, Narratives owned by others and shared with you are listed.
 
-#### View Narrative history and revert to earlier versions
+### View Narrative history and revert to earlier versions
 
 KBase stores a history of everything you’ve done to your Narrative, so if you want, you can revert changes and go back to an earlier version. When you hover your cursor over one of your Narratives in the Narratives panel, three icons will appear.
 
@@ -706,25 +701,25 @@ The first of these icons lets you expose the entire history of autosaves of your
 
 You can then, if you wish, choose an earlier version to revert to. This capability is still in the early phase of development and should become easier to use soon.
 
-#### Add text to your Narrative
+### Add text to your Narrative
 
 Adding text cells to your Narrative to explain what you were doing and what the results might mean will help others understand your computational experiments, as well as helping to remind you what you were doing. You can add formatted text to your Narrative in “Markdown Cells”. Markdown is a markup language \(like, for example, HTML\). It’s pretty easy to learn but does require knowing some syntax. A good “cheat sheet” for Markdown language can be found [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
 You can add Markdown cells to a Narrative using the translucent blue buttons at the bottom right of the main Narrative panel.
 
-![Screen Shot 2015-02-10 at 10.01.21 PM](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2015-02-10-at-10.01.21-PM.png) 
+![Screen Shot 2015-02-10 at 10.01.21 PM](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2015-02-10-at-10.01.21-PM.png)
 
 The button on the right is the “Add Markdown Cell” button and will add a Markdown cell under the currently selected Narrative cell.
 
-New Markdown cells contain the placeholder text “\[Empty Markdown / LaTeX cell\]” \(LaTeX is another formatting language\). To edit a Markdown cell, double-click it to enter edit mode. When you’re done, press Shift-Return to exit the cell. 
+New Markdown cells contain the placeholder text “\[Empty Markdown / LaTeX cell\]” \(LaTeX is another formatting language\). To edit a Markdown cell, double-click it to enter edit mode. When you’re done, press Shift-Return to exit the cell.
 
 \(The &gt;\_ button adds a code cell, which is beyond the scope of this user guide. However, we will share one useful tip if you do want to try using a code cell: press Shift-Return in the cell to execute the code.\)
 
-#### [![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-02-02-at-11.16.05-AM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-02-02-at-11.16.05-AM.png)Cell commands: move, delete, etc.
+### [![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-02-02-at-11.16.05-AM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-02-02-at-11.16.05-AM.png)Cell commands: move, delete, etc.
 
 Via the arrows and menu items in a Narrative cell, you can move the cell up or down, collapse or expand it, show the code that runs the analysis, get more info about the app, or delete the app cell. The cell menu can be opened by clicking the “…” in the upper right corner of a cell.
 
-#### Rename or delete a Narrative
+### Rename or delete a Narrative
 
 To rename a Narrative, click on its name at the top of the Narrative window. A window will pop up to let you change the name.
 
@@ -732,20 +727,19 @@ If you decide to delete a Narrative that you own, click the trashcan icon. Delet
 
 ![](https://kbase.us/wp-content/uploads/2014/12/image31.png)
 
-#### Advanced controls
+### Advanced controls
 
 The “Show Advanced Controls” option under the “Narratives” tab lets you “Set the Active Narrative for a Workspace”. \(Workspace is an older term for a project–a collection of data and analyses.\) You will probably not need to use this option, unless you are trying to retrieve old Narratives that you created in an old version of the Narrative Interface.
 
 **Save your work!**
 
- Although your Narrative is periodically autosaved, it’s always a good idea to save your work frequently, using the Save button at the top right of the screen.  
-
+Although your Narrative is periodically autosaved, it’s always a good idea to save your work frequently, using the Save button at the top right of the screen.
 
 Once you’re happy with your Narrative, you will probably want to share it with others. The [next section](https://kbase.us/narrative-guide/share-narratives/) describes how to do that.
 {% endtab %}
 
 {% tab title="12" %}
-### Share Narratives
+## Share Narratives
 
 Narratives are _collaborative_ \(multiple people on your project can work on a Narrative together\), _shareable_ \(you can share your Narrative with specific people or with everyone\), _publishable_ \(a finished Narrative is similar to a research paper, and can be cited as a URL\), and _reproducible_ \(you can repeat or even change another scientist’s computational experiment if they publish it as a Narrative\). We believe that you will ultimately help both yourself and other researchers by sharing your Narratives so that others can see what you were thinking, what you did, and what you concluded from your analyses. However, rest assured that **all of your Narratives are private \(viewable only by you\) until you decide to share them.**
 
@@ -773,7 +767,7 @@ Click the “Apply” button to add the chosen user\(s\) to the sharing list for
 
 You can also choose to share your Narrative with all KBase users by clicking the “make public?” link.
 
-When you’re done sharing, click the x  to close the Share panel.
+When you’re done sharing, click the x to close the Share panel.
 
 You can change the access permissions at any time by clicking the Share button again. The up/down arrows next to each user’s permissions let you change the permissions.
 
@@ -781,7 +775,7 @@ Note that unless you alert another user that you have shared a Narrative with th
 
 If you are working on a shared Narrative, and a collaborator is working on it at the same time, watch for a red box at the top of the screen that says “Narrative updated in another session.” You can update to the latest version by refreshing the page, but note that any changes that you made to the Narrative will be lost, and if you try to save your changes, you might overwrite your collaborator’s changes. We are working on better ways to allow simultaneous editing.
 
-#### Create or modify your user profile
+### Create or modify your user profile
 
 Every KBase user has a user profile. Filling in your KBase user profile helps you become part of the social web that KBase is building, making it easier to find and collaborate with other scientists and share data and Narratives. You are not required to complete your user profile in order to use KBase, but we encourage you to.
 
@@ -803,9 +797,9 @@ The user profile editor, and KBase’s social networking layer, are in developme
 {% endtab %}
 
 {% tab title="13" %}
-### Access and Copy Narratives
+## Access and Copy Narratives
 
-#### View Narratives created by or shared with you
+### View Narratives created by or shared with you
 
 The Narratives tab has two sections that list Narratives that you have created \(“My Narratives”\) and, below that list, those that have been shared with you by other users. The “Shared With Me” list includes only those Narratives that were explicitly shared with you, not those that are viewable by everyone \(public Narratives\). The public Narratives can be accessed from your Dashboard.
 
@@ -824,9 +818,9 @@ Why can’t you run a Narrative owned by someone else? Because, as we’ve seen,
 The blue box with a small white arrow on the top left of a View-only Narrative opens the Data Panel \(so you can see the data objects in this Narrative\) and the Narratives list \(so that you can go to another Narrative\).
 
 TIP: You can switch a Narrative that you own to view-only mode by clicking the pencil icon under the title of the Narrative.  
- If you ever want to print out a Narrative, switch it to view-only mode first, so it doesn’t waste the left side of the page with empty space.
+If you ever want to print out a Narrative, switch it to view-only mode first, so it doesn’t waste the left side of the page with empty space.
 
-#### Copy a Narrative
+### Copy a Narrative
 
 To copy a Narrative that has been shared with you, so that you can run or change it, you can use the blue “Copy This Narrative” button at the top of the Narratives panel \(or, in View-only mode, at the top right of the screen\). This will copy the Narrative that you are currently viewing \(which is marked with a green dot in the list of Narratives\). You can choose a name for the copy \(or leave the default name, which is the original name with “Copy” at the end\).
 
@@ -836,7 +830,7 @@ When you click Copy, the Narrative and its associated data objects are copied to
 
 **Copy of a copy warning**
 
- Please be aware that if you copy a copy of a Narrative, some things may not work right in the copy of a copy. We are working on resolving this problem. See [this page](https://kbase.us/copying-narratives-issues-and-workarounds/) for more information.
+Please be aware that if you copy a copy of a Narrative, some things may not work right in the copy of a copy. We are working on resolving this problem. See [this page](https://kbase.us/copying-narratives-issues-and-workarounds/) for more information.
 
 You can also copy any Narrative by hovering your cursor over its name in your Narratives panel to reveal the icons and clicking the Copy icon \(the one that looks like two pieces of paper\).
 
@@ -847,8 +841,4 @@ The copy is now yours–you can open it, run it, edit it, or even share it with 
 Copying Narratives is the key to leveraging KBase’s commitment to reproducibility and reusability. By making it easy to build on previous work and go through rapid cycles of analysis, KBase aims to accelerate the pace of systems biology research.
 {% endtab %}
 {% endtabs %}
-
-
-
-
 
