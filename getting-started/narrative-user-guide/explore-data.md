@@ -8,7 +8,7 @@ There are several ways to explore the [wide range of data available in KBase](ht
 
 The Data Slideout is accessed by clicking the right arrow or Add Data button in the Data Panel.
 
-[![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-11.11.52-AM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-11.11.52-AM.png)  
+![](../../.gitbook/assets/screen-shot-2017-01-30-at-11.11.52-am.png)  
 The Data Slideout will slide out, with tabs that show several data sources that will be discussed in more detail later:
 
 * **My Data** — data you have already loaded or analyzed in another Narrative
@@ -17,26 +17,26 @@ The Data Slideout will slide out, with tabs that show several data sources that 
 * **Example** — example datasets that can be used as inputs to apps and methods
 * **Import** — mechanism allowing you to import your own data \(of supported types\) to your Narrative
 
-[![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-11.14.27-AM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-11.14.27-AM.png)
+![](../../.gitbook/assets/screen-shot-2017-01-30-at-11.14.27-am.png)
 
 For now, we will find a public reference genome available under the Public tab and then examine information and metadata about that genome.
 
 Clicking the Public tab displays a list of data objects available in KBase’s reference collection.
 
-![Screen Shot 2015-02-07 at 3.49.38 PM](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2015-02-07-at-3.49.38-PM.png)
+![](../../.gitbook/assets/screen-shot-2015-02-07-at-3.49.38-pm.png)
 
-[![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-11.19.14-AM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-11.19.14-AM.png)  
+![](../../.gitbook/assets/screen-shot-2017-01-30-at-11.19.14-am.png)  
 The data-type selector at the top left of the browser window defaults to Genomes \(Note that Phytozome plant genomes are currently listed as another data type–this will change soon.\) You can change which type of data is displayed under the _Public_ tab by using this pulldown menu. More data types will be added soon.
 
 You can also use the “Search data” field in the Data Browser to find data objects whose names include the text you’ve typed in the search box. \(Note that searches are not case-sensitive\). Enter “Vibrio brasiliensis” in the search field.
 
 If you hover over a data object in the Data Browser panel, three small images appear: an Add button to the left of the object name and binoculars and a graph-like icon to the right. These latter two icons open a Data Landing page and a Provenance page, respectively \(see below for details\).
 
-![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2015-02-12-at-9.17.28-PM-e1423804700430.png)
+![](../../.gitbook/assets/screen-shot-2015-02-12-at-9.17.28-pm-e1423804700430.png)
 
 Go ahead and click the Add button to add the Vibrio brasiliensis LMG 20546 genome to your Narrative. Notice that this genome now shows up in your Data Panel \(see image\).
 
-[![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-11.52.34-AM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-11.52.34-AM.png)
+[![](../../.gitbook/assets/screen-shot-2017-01-30-at-11.52.34-am.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-11.52.34-AM.png)
 
 ## Information in the Data Panel
 
@@ -44,7 +44,7 @@ The Data Panel shows all the data that you’ve added to your Narrative. \(The [
 
 You should have at least one object \(Vibrio brasiliensis LMG 20546\) in your Data Panel. As you add or generate more data during the course of your analyses, the number of objects in this panel will increase. You can search, sort, or filter the list using the icons in the Data Panel header.
 
-[![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-12.01.44-PM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-12.01.44-PM.png)  
+![](../../.gitbook/assets/assets-lres-tqcrledlhbwqs-lvn_mpksnct1wpfepdt-lvnxhwckqdrazzylz_4-screen-shot-2017-01-30-at-12.01.44.png)  
 You can access more details about a particular data object by hovering over the object and clicking the ” . . .” that appears to its right.
 
 This expanded view of the data object also reveals icons that let you examine or manage the data.
@@ -66,22 +66,22 @@ Many \(but not yet all\) types of data in KBase have viewers that allow you to f
 
 Below is the genome viewer for the Vibrio brasiliensis LMG 20546 genome that is in our Data Panel.
 
-[![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-12.15.29-PM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-12.15.29-PM.png)
+[![](../../.gitbook/assets/screen-shot-2017-01-30-at-12.15.29-pm.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-12.15.29-PM.png)
 
 Notice that this genome viewer has tabs for an overview \(including GC content, taxonomy information, size, and more\) and a list of contigs and genes. Each contig and gene entry in these lists is clickable, opening either a contig browser or a tab with expanded information about the gene \(see image.\)
 
-![image24](https://kbase.us/wp-content/uploads/2014/12/image24.png)
+![](../../.gitbook/assets/image24.png)
 
 **Sorting table entries in the viewer**
 
 You can sort the table entries by clicking on a column header to sort by that field \(e.g., Length\). Clicking the same column header again will reverse the sort order. For example, the screenshots below show the table sorted in descending order by Contig name and then in descending order by length:  
-![Screen Shot 2015-02-09 at 12.48.23 PM](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2015-02-09-at-12.48.23-PM.png)
+![Screen Shot 2015-02-09 at 12.48.23 PM](../../.gitbook/assets/screen-shot-2015-02-09-at-12.48.23-pm.png)
 
 ![Screen Shot 2015-02-09 at 12.48.36 PM](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2015-02-09-at-12.48.36-PM.png)
 
 You can even sort by more than one column at a time by clicking one column header and then Shift-clicking other column headers. For example, here we have sorted in ascending order by contig length, and then \(by shift-clicking the Genes column header\) in ascending or descending order by number of genes. Notice how the two rows with length=253 \(the bottom two, in these screenshots\) have switched places.
 
-![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2015-02-09-at-12.49.05-PM-e1423803707173.png)![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2015-02-09-at-12.49.21-PM-e1423803657964.png)
+![](../../.gitbook/assets/screen-shot-2015-02-09-at-12.49.05-pm-e1423803707173.png)![](../../.gitbook/assets/screen-shot-2015-02-09-at-12.49.21-pm-e1423803657964.png)
 
 There are many other types of viewers in KBase in addition to the Genome viewer discussed here. \(Documentation on these other viewers is coming soon.\) Different viewers may have different options; give them a whirl! Don’t be afraid to click on anything you see in a viewer.
 
@@ -108,7 +108,7 @@ Data Landing \(also known as Data Summary\) and Provenance pages are ways to fin
 
 The image below shows the Provenance page for a flux balance analysis model that was generated in KBase.
 
-![image13](https://kbase.us/wp-content/uploads/2014/12/image13-1024x575.png)
+![](../../.gitbook/assets/image13-1024x575.png)
 
 In the [next section](https://kbase.us/narrative-guide/add-data-to-your-narrative/) of this guide, we will discuss in more detail how to add data to your Narrative.
 

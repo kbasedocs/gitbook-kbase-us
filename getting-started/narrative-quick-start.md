@@ -6,30 +6,30 @@ description: 'A fast, one-page introduction to KBase''s narrative interface'
 
 {% embed url="https://youtu.be/FVS3MI5gCU8" caption="Watch the “Introduction to the Narrative Interface” video tutorial \(12 minutes\)" %}
 
-#### [Download the printable version of this Quick Start guide](https://kbase.us/wp-content/uploads/2017/03/KBase_QuickStart_V8_March2017.pdf)
+{% file src="../.gitbook/assets/kbase\_quickstart\_v8\_march2017.pdf" caption="Download the printable version of this Quick Start guide" %}
 
 \(Last updated March 2017\)
 
 ### **What is a Narrative?**
 
-In KBase, you can create shareable, reproducible workflows called **Narratives** that include data, analysis steps, results, visualizations and commentary. This Quick Start provides an overview of how to create and use the features of Narratives. For more detailed information, please see the [Narrative Interface User Guide](https://kbase.us/narrative-guide/).
+In KBase, you can create shareable, reproducible workflows called **Narratives** that include data, analysis steps, results, visualizations and commentary. This Quick Start provides an overview of how to create and use the features of Narratives.
 
 ### **Step 1. Sign up for a KBase user account**
 
-To begin using KBase, you will first need to [Sign up for a KBase Account](https://kbase.us/sign-up-for-a-kbase-account/). You can now use your existing Google or Globus username and password to get a free KBase account.
+To begin using KBase, you will first need to [Sign up for a KBase Account](signing-up-and-signing-in/#signing-up). You can now use your existing Google or Globus username and password to get a free KBase account.
 
 ### **Step 2. Sign in to the Dashboard**
 
 After you sign in, you will be taken to your Dashboard \(details of which can be found [here](https://kbase.us/narrative-guide/your-dashboard/)\). From the Dashboard, you can open your existing Narratives, access others that have been shared with you, and create new Narratives. These Narratives can be accessed at [narrative.kbase.us](https://narrative.kbase.us/).  
 If you are a new user, your Dashboard will be mostly empty, since you haven’t created any Narratives yet.
 
-![](https://kbase.us/wp-content/uploads/2015/03/Dashboard-Quickstart.png)
+![](../.gitbook/assets/dashboard-quickstart.png)
 
 ### **Step 3. Create a new Narrative**
 
 Click the “+ New Narrative” button in the Dashboard to open a new untitled Narrative. A “Welcome to the Narrative Interface” box offers some suggestions for adding content to your Narrative. You can collapse or delete this box using the “…” menu in its top right corner.
 
-![](https://kbase.us/wp-content/uploads/2015/03/New-Narrative.png)
+![](../.gitbook/assets/new-narrative.png)
 
 **Try the Narrative tour!**
 
@@ -40,7 +40,7 @@ Select the “Narrative Tour” from the Help menu. This new feature walks you t
 
 To load data to your Narrative, click the “Add Data” button, which can be found under the Analyze tab near the top left of the Narrative. The [Data Browser](https://kbase.us/narrative-guide/explore-data/) will slide out with tabs that show several data sources.
 
-![Screen Shot 2017-01-27 at 11.12.33 AM](https://kbase.us/wp-content/uploads/2015/03/Screen-Shot-2017-01-27-at-11.12.33-AM.png)
+![](../.gitbook/assets/screen-shot-2017-01-27-at-11.12.33-am.png)
 
 You can choose a dataset already in KBase by selecting any of the first four tabs. The _Example_ tab, for instance, contains sample data from KBase’s reference data collection that can be used to try out the apps.
 
@@ -56,10 +56,10 @@ When you hover over a [data object](https://kbase.us/narrative-guide/explore-dat
 
 Notice that the data object now appears in your Data Panel. Once you finish adding data, exit the Data Browser by clicking either the “Close” button at the bottom left of the browser window or the arrow at the top right of the Data Panel.
 
-![](https://kbase.us/wp-content/uploads/2015/03/Screen-Shot-2017-01-25-at-4.04.13-PM.png)
+![](../.gitbook/assets/screen-shot-2017-01-25-at-4.04.13-pm.png)
 
 Don’t forget to periodically save your Narrative by clicking the “Save” button at the top right of the interface.  
-![AssembleAnnotate08](https://kbase.us/wp-content/uploads/2015/02/AssembleAnnotate08.png)
+![AssembleAnnotate08](../.gitbook/assets/assembleannotate08.png)
 
 ### **Step 6. Choose an App** 
 
@@ -75,7 +75,7 @@ To add an app to your Narrative from the App Panel, click on its name or icon. Y
 
 Fill in all the required fields in your app. Note that some app fields are “smart” and know which data in your Narrative are valid input for those fields. These “smart” fields have a pulldown list of all the data objects from your Data Panel that you can choose from as input.
 
-![](https://kbase.us/wp-content/uploads/2015/03/Quickstart-App.png)
+![](../.gitbook/assets/quickstart-app.png)
 
 When all required fields have been filled out, click the green “Run” button near the top left of the app cell to start the analysis.
 
@@ -85,7 +85,7 @@ Please see [the KBase Apps section of the Narrative Interface User Guide](https:
 
 ### **Step 8. Share your Narrative**
 
-![](https://kbase.us/wp-content/uploads/2015/03/Screen-Shot-2017-09-20-at-10.37.10-AM.png)
+![](../.gitbook/assets/screen-shot-2017-09-20-at-10.37.10-am.png)
 
 All Narratives that you create are private by default. You can [make a Narrative public or share it ](https://kbase.us/narrative-guide/share-narratives/)[with specific collaborators](https://kbase.us/narrative-guide/share-narratives/) by clicking the “share” button near the top right of your Narrative.
 

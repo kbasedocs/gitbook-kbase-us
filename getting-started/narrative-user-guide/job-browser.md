@@ -2,7 +2,7 @@
 
 The Job Browser is one of the buttons on the left sidebar of the Dashboard. In addition to watching jobs within the narratives, the Job Browser allows you to monitor and manage your jobs. By default, it shows all jobs submitted within the last 48 hours. You can change the timeframe to an hour, a week, a month, or a custom range of dates.
 
-![Download](https://kbase.us/wp-content/uploads/2019/01/job-browser.png)
+![](../../.gitbook/assets/job-browser.png)
 
 The check boxes allow you to filter the jobs by _Finished_, _Queued_, _Running_, _Success_, and _Error._ You can check as many filters you want. Clicking one of the filters or changing the timeframe will update the page. Otherwise, the table does not auto-refresh. The two arrows in a circle to the right and below the timeframe will refresh the results in the table.
 
