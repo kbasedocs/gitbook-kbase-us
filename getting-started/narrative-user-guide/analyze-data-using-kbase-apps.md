@@ -6,14 +6,14 @@ Now that you have explored the available apps and determined which ones work wit
 
 To add an app to your Narrative, find the app of interest and click its name or the icon to the left of the app name. A box \(called a _cell_\) containing the chosen app will appear in the main Narrative panel.
 
-[![](https://kbase.us/wp-content/uploads/2015/03/Screen-Shot-2017-03-13-at-9.47.25-AM.png)](https://kbase.us/wp-content/uploads/2015/03/Screen-Shot-2017-03-13-at-9.47.25-AM.png)
+![](../../.gitbook/assets/screen-shot-2017-03-13-at-9.47.25-am.png)
 
 A few things to notice about the app cell:
 
 * App cells have three tabs: Configure \(which is where you set the parameters; it’s what you see when you add a new app cell\), Job Status and Result. The last two tabs are filled in once you run the app; these are discussed later.
 * The up and down arrows let you move the cell up or down in your Narrative.
 
-  [![Screen Shot 2017-02-01 at 12.56.50 PM](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-02-01-at-12.56.50-PM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-02-01-at-12.56.50-PM.png)
+  ![Screen Shot 2017-02-01 at 12.56.50 PM](../../.gitbook/assets/screen-shot-2017-02-01-at-12.56.50-pm.png)
 
 * The “…” menu offers several options for collapsing/expanding the cell; showing the code that will execute the app; getting more info \(in a separate browser window\) about the app; and deleting the cell. These are discussed more in the section called “[Revise Your Narrative](https://kbase.us/narrative-guide/revise-your-narrative/)“.
 * Every app has some parameters \(fields\) that must be filled in before you can run the app.
@@ -30,7 +30,7 @@ Some apps have optional “advanced options” that you can reveal by clicking o
 
 **Save Your Work**
 
-![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2015-02-07-at-9.22.17-PM.png)
+![](../../.gitbook/assets/assembleannotate08.png)
 
 As you add to your Narrative, be sure to save your work frequently, using the Save button at the top right of the screen.
 
@@ -38,7 +38,7 @@ As you add to your Narrative, be sure to save your work frequently, using the Sa
 
 When you have filled in all the required fields, the _Run_ button on the left side of the app will be enabled; click it to start running the app. Once clicked, the green _Run_ button will turn to a red _Cancel_ button. When the analysis starts running, you will see information in the _Job Status_ tab_**.**_
 
-[![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-03-18-at-2.23.25-PM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-03-18-at-2.23.25-PM.png)
+![](../../.gitbook/assets/screen-shot-2017-03-18-at-2.23.25-pm.png)
 
 Depending on the analysis, the analysis might finish within a few seconds or could take hours to run. You can save your Narrative and come back to it later–the analysis will continue running even if you don’t have the Narrative open.
 
@@ -46,7 +46,7 @@ Depending on the analysis, the analysis might finish within a few seconds or cou
 
 When an app finishes running, you will see a summary in the Results tab, as well as an output cell below your app cell. Also, if the analysis generates a new data object, that object will be added to your Data Panel.
 
-[![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-02-01-at-1.39.36-PM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-02-01-at-1.39.36-PM.png)
+![](../../.gitbook/assets/screen-shot-2017-02-01-at-1.39.36-pm.png)
 
 In the example, the “Annotate Microbial Contigs” app, once run, produced an output cell that provides information about the newly annotated Shewanella genome object.
 
@@ -54,11 +54,11 @@ This output cell has three tabs: Overview \(displayed above\), _Browse_ Contigs,
 
 Different apps create different types of output cells when they run, depending on which type of data object is output by the app. The genome output cell shown above is an example of a _Data Viewer._ Data Viewers are described in the “[Explore Data](https://kbase.us/narrative-guide/explore-data/)” section of this guide.
 
-[![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-02-01-at-1.42.23-PM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-02-01-at-1.42.23-PM.png)
+![](../../.gitbook/assets/screen-shot-2017-02-01-at-1.42.23-pm.png)
 
 In addition to creating a new output cell, the app we ran created a new data object and added it to our Narrative. The newly annotated genome object now appears at the top of the Data Panel.
 
-[![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-02-01-at-1.44.53-PM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-02-01-at-1.44.53-PM.png)
+![](../../.gitbook/assets/screen-shot-2017-02-01-at-1.44.53-pm.png)
 
 Remember that you can hover over an object in the Data Panel and click the “. . .” that appears to see more information and options, including an option \(see image\) for downloading the object in GenBank or JSON format \(see the [Download Guide](https://kbase.us/data-upload-download-guide/downloading-data/) for more information\). In the future, you will be able to choose from a wider variety of common formats, allowing you to download results to use with other tools and send to colleagues.
 

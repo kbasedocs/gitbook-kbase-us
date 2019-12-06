@@ -4,25 +4,25 @@ Narratives are _collaborative_ \(multiple people on your project can work on a N
 
 You can share a Narrative that you own with any set of people you choose, or with all KBase users. To share a Narrative, click the “share” button near the top right of the page. You will see the people you have already shared with \(right now, only you\).
 
-![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-06-27-at-11.20.29-AM.png)
+![](../../.gitbook/assets/screen-shot-2017-06-27-at-11.20.29-am.png)
 
 If you want to share your Narrative with everyone, you can click the “make public” link near the top of the sharing panel. If you only want to share it with a few people, you can type their name or username into the “share with” box. Once you have typed something that matches a name in the KBase user database, the person’s full name will appear. Click the down arrow to the right of the “share with” box to assign permissions to that user–you can allow them only to view your Narrative, to edit it, or to edit and share it.
 
 For example, suppose you want to share your Narrative with kbasehelp so that KBase staff can help you troubleshoot it. You can start typing any part of the username or real name and a list of users that match will appear:
 
-![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-06-27-at-11.23.17-AM.png)
+![](../../.gitbook/assets/screen-shot-2017-06-27-at-11.23.17-am.png)
 
 The default permission level for sharing is “View only”, which lets the user you’re sharing with see the Narrative but not let them edit it or share it with others. If you want to share your Narrative with a collaborator and give them more privileges, click the down-arrow to see the permission levels and possibly choose a different one.
 
-![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-06-27-at-11.21.20-AM.png)
+![](../../.gitbook/assets/screen-shot-2017-06-27-at-11.21.20-am.png)
 
 You can add multiple users to share with:
 
-![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-06-27-at-11.26.46-AM.png)
+![](../../.gitbook/assets/screen-shot-2017-06-27-at-11.26.46-am.png)
 
 Click the “Apply” button to add the chosen user\(s\) to the sharing list for your Narrative. The usernames and permission levels for the users you shared with will appear at the bottom of the Share panel.
 
-![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-06-27-at-11.26.54-AM.png)
+![](../../.gitbook/assets/screen-shot-2017-06-27-at-11.26.54-am.png)
 
 You can also choose to share your Narrative with all KBase users by clicking the “make public?” link.
 
@@ -38,13 +38,15 @@ If you are working on a shared Narrative, and a collaborator is working on it at
 
 Every KBase user has a user profile. Filling in your KBase user profile helps you become part of the social web that KBase is building, making it easier to find and collaborate with other scientists and share data and Narratives. You are not required to complete your user profile in order to use KBase, but we encourage you to.
 
-[![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-12-05-at-3.35.26-PM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-12-05-at-3.35.26-PM.png)
+
 
 To see and edit your user profile, go to your Dashboard and click the “Account” button on the left side. Your profile page will open, looking something like the screenshot below. You will be able to enter or change information including your organization, department, job title, research interests, avatar, and more. Required fields are marked with a red \*. You must fill in all required fields in order to save your profile \(using the Save button on the upper right of the page\).
 
-[![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-12-05-at-3.35.55-PM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-12-05-at-3.35.55-PM.png)
+![](../../.gitbook/assets/screen-shot-2017-12-05-at-3.35.26-pm.png)
 
-[![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-12-05-at-3.50.59-PM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-12-05-at-3.50.59-PM.png)
+![](../../.gitbook/assets/screen-shot-2017-12-05-at-3.35.55-pm.png)
+
+![](../../.gitbook/assets/screen-shot-2017-12-05-at-3.50.59-pm.png)
 
 Below the Save button is a small preview showing what your profile page looks like to others. You can click the “Open Your Profile Page” link to see a bigger version, along with a list of your Narratives and collaborators \(other users with whom you have shared Narratives, or who have shared Narratives with you\) and a search box for searching for other users by name or username. As you start typing in the box, you will see a list of users who have that text in their first or last name or their username. Click one of the matches to see that user’s profile.
 

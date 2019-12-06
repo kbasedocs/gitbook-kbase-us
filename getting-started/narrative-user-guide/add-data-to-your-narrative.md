@@ -2,7 +2,7 @@
 
 Now that you are familiar with ways to find and explore data in KBase, you can select or upload data to analyze. The Data Panel in a Narrative shows the data objects that are currently available in that particular Narrative. From the Data Panel, you can access the data slideout, which allows you to search for data of interest and add it to your Narrative. In the Data Panel, click the Add Data button, the red “+” button, or the right arrow at the upper right of the panel to access the data slideout \(also referred to as the “data browser”\).
 
-[![](https://kbase.us/wp-content/uploads/2018/01/image9.png)](https://kbase.us/wp-content/uploads/2018/01/image9.png)
+[![](../../.gitbook/assets/image9.png)](https://kbase.us/wp-content/uploads/2018/01/image9.png)
 
 {% hint style="info" %}
 **Data Privacy**  
@@ -21,11 +21,11 @@ The first four tabs of the data slideout \(“My Data”, “Shared With Me”, 
 
 If you hover your cursor over any data object under the first four tabs, options will appear allowing you to add that object to your Narrative or find out more about it.
 
-![Screen Shot 2015-02-07 at 4.27.28 PM](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2015-02-07-at-4.27.28-PM.png)
+![](../../.gitbook/assets/screen-shot-2015-02-07-at-4.27.28-pm.png)
 
 In the [previous section](https://kbase.us/narrative-guide/explore-data/), we described the process of adding a genome to your Narrative from the public data in KBase. Now let’s check out the different data types available under the Example tab. The icon to the left of each data object represents its data type.
 
-![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-12.25.07-PM.png)
+![](../../.gitbook/assets/screen-shot-2017-01-30-at-12.25.07-pm.png)
 
 As described in the previous section, the Add button next to these icons lets you add the data object to your Narrative. You can add more more data to your Narrative from the Example tab to try out various KBase apps.
 
@@ -33,7 +33,7 @@ As described in the previous section, the Add button next to these icons lets yo
 
 The new \(early 2018\) Import tab lets you drag & drop data from your computer into your Staging Area to import into your Narrative, where you can then analyze it using KBase’s analysis apps.
 
-![](https://kbase.us/wp-content/uploads/2018/01/image7.png)
+![](../../.gitbook/assets/image7.png)
 
 To upload data from your computer \(or a [Globus endpoint](https://kbase.us/transfer-data-from-globus-to-kbase/) or URL\), choose the rightmost tab of the data slideout to open the new Import tab.
 
@@ -69,17 +69,17 @@ The drag & drop from your local computer works for many files, but there is a si
 
 Find the file\(s\) you want to import into your KBase account, and drag them into the drop zone \(the rectangular area surrounded by a dashed line\). You can select multiple files from your computer and drag them all at once. \(In the example below, the user is dragging two files into the dashed area.\) You can also select a folder of data files and drag the folder into the Staging Area drop zone.
 
-![](https://kbase.us/wp-content/uploads/2018/01/image10.jpg)
+![](../../.gitbook/assets/image10.jpg)
 
 If you don’t like using drag & drop, you can instead click in the upload area to open a file chooser and select a file from your computer to upload.
 
 While files are being uploaded to your Staging Area, you’ll see a green progress bar. The upload is usually quite fast.
 
-![](https://kbase.us/wp-content/uploads/2018/01/image5.png)
+![](../../.gitbook/assets/image5.png)
 
 When the file is done uploading, you will see it appear in the list of files in your Staging Area. \(If you don’t see your file, try clicking the reload icon on the left above the file list to refresh the view.\) By default, these are sorted by age, with the most recently uploaded file at the top. To sort the list by other fields, such as name or size, click a column header.
 
-![](https://kbase.us/wp-content/uploads/2018/01/image21.png)
+![](../../.gitbook/assets/image21%20%281%29.png)
 
 {% hint style="warning" %}
 **90-day lifetime for files in your Staging Area**  
@@ -90,7 +90,7 @@ Your Staging Area is meant to be a temporary holding area for data you want to i
 
 Globus is a data management and file transfer system that can facilitate bulk transfer of data \(either large data files or a large number of files\) between two endpoints. The endpoints that apply here are KBase, JGI, and your local computer. The KBase endpoint is called “KBase Bulk Share,” and JGI has their own way to link to Globus. To do any transfer using Globus, you will [need a Globus account](https://www.globusid.org/create).
 
-![](https://kbase.us/wp-content/uploads/2018/01/Screen-Shot-2018-01-24-at-1.54.06-PM-2.png)
+![](../../.gitbook/assets/screen-shot-2018-01-24-at-1.54.06-pm-2.png)
 
 [This page](https://kbase.us/transfer-data-from-globus/) has more documentation on transferring data from Globus.
 
@@ -103,11 +103,11 @@ If you are a JGI user, you can transfer public genome reads and assemblies \(as 
 
 Below the link to Globus, another link says “Click here to use an App to upload from a public URL” \(for example, a GenBank ftp URL, or a Dropbox or Google Drive URL that is publicly accessible\).
 
-![](https://kbase.us/wp-content/uploads/2018/01/load-from-url.png)
+![](../../.gitbook/assets/load-from-url.png)
 
 Clicking this link adds the “Upload File to Staging from Web” app to your Narrative:
 
-![](https://kbase.us/wp-content/uploads/2018/01/image23-1.png)
+![](../../.gitbook/assets/image23-1.png)
 
 There are also several apps that import specific file types \(single- or paired-end reads or SRA files\) from a URL directly to your Narrative, bypassing your Staging Area. These are available from the Apps panel and the [App Catalog](https://narrative.kbase.us/#appcatalog).
 
@@ -116,11 +116,11 @@ There are also several apps that import specific file types \(single- or paired-
 The files in your Staging Area are ready to import into your Narrative as KBase data objects that can be used in your analyses. \(You can think of a Narrative as a project or folder, which includes data that you will analyze, as well as results from those analyses.\)  
 To import a file from your Staging Area, choose a format \(data type\) from the pulldown menu to the right of the file’s age. \(You can find out more about KBase data types and accepted formats in the [Upload/Download Guide](https://kbase.us/data-upload-download-guide/).\) Then click the “import” icon to the right of the format menu.
 
-![](https://kbase.us/wp-content/uploads/2018/01/image11.png)
+![](../../.gitbook/assets/image11.png)
 
 When you click the “import” icon, the data slideout slides shut and an Import app cell \(tailored to the chosen format\) is created in your Narrative, with the appropriate parameters filled in. For example, here’s an import app created by choosing “GenBank” as the import format:
 
-![](https://kbase.us/wp-content/uploads/2018/01/image6.png)
+![](../../.gitbook/assets/image6.png)
 
 {% hint style="info" %}
 **Importing different types of data**  
@@ -129,21 +129,21 @@ This example shows how to import GenBank data. Please see the [Upload/Download G
 
 If the GenBank file came from a different source, use the pulldown menu to select it. You can change the output object name, if desired, and then click the Run button to start the import. When the import is done, you should see the message “Finished with success” near the top of the app cell, and some information about the app run.
 
-![](https://kbase.us/wp-content/uploads/2018/01/image2.png)
+![](../../.gitbook/assets/image2%20%281%29.png)
 
 If you look at your Data Panel, you should see the new data object created by the import:  
-[![](https://kbase.us/wp-content/uploads/2018/01/image1.png)](https://kbase.us/wp-content/uploads/2018/01/image1.png)
+[![](../../.gitbook/assets/image1.png)](https://kbase.us/wp-content/uploads/2018/01/image1.png)
 
 You can now use this data object as input into the relevant KBase apps. If you want to see which apps accept a particular data type as input, you can click the “…” menu in the data object cell that appears when you hover over it, and then use the “Show Apps with this as input” icon to filter the apps in the Apps Panel:
 
-![](https://kbase.us/wp-content/uploads/2018/01/image14.png)
+![](../../.gitbook/assets/image14.png)
 
 {% hint style="warning" %}
 **What if my import fails?**  
 Sometimes an import doesn’t work. One of the most common causes of failure is attempting to import a file that’s the wrong data type, or not the expected format for that data type. For example, the screenshot below shows what a user got when they tried to import a GenBank file as Media.
 {% endhint %}
 
-![](https://kbase.us/wp-content/uploads/2018/01/image4.png)
+![](../../.gitbook/assets/image4.png)
 
 If the importer objected to something in your file, check the [Data Upload/Download guide](https://kbase.us/data-upload-download-guide/) for details about the relevant format.  
 In some cases, the cause of an import error will not be obvious. If you can’t figure out why your import isn’t working, please contact us \(via the Help Board\) for help. Note, however, that no one besides you has access to your Staging Area, so we will not be able to see the files you uploaded to your Staging Area. You may need to attach your input file to your Help Board ticket in order for us to diagnose the problem.
@@ -152,20 +152,20 @@ In some cases, the cause of an import error will not be obvious. If you can’t 
 
 The list of files in your Staging Area includes their name, size, and age \(when they were uploaded\). If you have a lot of files in your Staging Area, you may want to use the Search box to locate specific files.
 
-![](https://kbase.us/wp-content/uploads/2018/01/image21.png)
+![](../../.gitbook/assets/image21.png)
 
 Compressed or zipped files have a little double-arrow icon next to the filename. You can click that icon to unpack them. You don’t need to uncompress compressed files, as they will automatically be uncompressed during import, but if you have uploaded a zip file, you can use the button to unzip it in order to access the individual files in it.
 
 For more information about a file in your staging area, click the arrow to the left of the filename to open a tab like this:
 
-![](https://kbase.us/wp-content/uploads/2018/01/image22.png)
+![](../../.gitbook/assets/image22.png)
 
 You can click “First 10 lines” or “Last 10 lines” to see that portion of the file:
 
-![](https://kbase.us/wp-content/uploads/2018/01/image13.png)
+![](../../.gitbook/assets/image13.png)
 
 Opening the information about a file in your Staging Area also reveals a trash can icon that allows you to remove the file from your staging area.  
-[![](https://kbase.us/wp-content/uploads/2018/01/image18.png)](https://kbase.us/wp-content/uploads/2018/01/image18.png)  
+![](../../.gitbook/assets/image18.png)  
 You will be asked to confirm that you want to delete the file. This action is not reversible.  
 Note that if you had already imported the file to your Narrative as a data object, that object won’t go away when you delete the file in your Staging Area. If you want to delete a data object, you can do that in your Data Panel.
 
