@@ -17,7 +17,7 @@ The first four tabs of the data slideout \(“My Data”, “Shared With Me”, 
 * The tab that’s labeled Import is the legacy importer that will soon be retired. Please use the new import tab \(see next bullet point\) instead.
 * Finally, the **new Import** tab allows you to upload your own datasets for analysis. \(This capability is still under development.\) This is explained in more detail below.
 
-### Data available in KBase
+## Data available in KBase
 
 If you hover your cursor over any data object under the first four tabs, options will appear allowing you to add that object to your Narrative or find out more about it.
 
@@ -29,7 +29,7 @@ In the [previous section](https://kbase.us/narrative-guide/explore-data/), we de
 
 As described in the previous section, the Add button next to these icons lets you add the data object to your Narrative. You can add more more data to your Narrative from the Example tab to try out various KBase apps.
 
-### Uploading data from external sources
+## Uploading data from external sources
 
 The new \(early 2018\) Import tab lets you drag & drop data from your computer into your Staging Area to import into your Narrative, where you can then analyze it using KBase’s analysis apps.
 
@@ -60,7 +60,7 @@ It’s more robust and extensible this way. Unlike our previous importer, the st
 In this documentation, we will use “Upload” to refer to getting data from your computer into your Staging Area and “Import” to refer to the process of converting a data file from your Staging Area into a data object in your Narrative that you can analyze with any of our analysis apps. Sometimes we use the term “Import” to cover the whole Upload+Import process.
 {% endhint %}
 
-### Drag & drop data files into your Staging Area
+## Drag & drop data files into your Staging Area
 
 {% hint style="warning" %}
 **Drag & Drop Limitations**  
@@ -86,7 +86,7 @@ When the file is done uploading, you will see it appear in the list of files in 
 Your Staging Area is meant to be a temporary holding area for data you want to import into your KBase account. After adding files to your Staging Area, be sure to import them into your Narrative soon, as files in the Staging Area are automatically removed after 90 days. \(Data objects that you have imported to your Narrative last indefinitely.\)
 {% endhint %}
 
-### Transferring data from a Globus endpoint
+## Transferring data from a Globus endpoint
 
 Globus is a data management and file transfer system that can facilitate bulk transfer of data \(either large data files or a large number of files\) between two endpoints. The endpoints that apply here are KBase, JGI, and your local computer. The KBase endpoint is called “KBase Bulk Share,” and JGI has their own way to link to Globus. To do any transfer using Globus, you will [need a Globus account](https://www.globusid.org/create).
 
@@ -99,7 +99,7 @@ Globus is a data management and file transfer system that can facilitate bulk tr
 If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [this page](https://kbase.us/transfer-jgi-data/) for instructions.
 {% endhint %}
 
-### Uploading data from a URL
+## Uploading data from a URL
 
 Below the link to Globus, another link says “Click here to use an App to upload from a public URL” \(for example, a GenBank ftp URL, or a Dropbox or Google Drive URL that is publicly accessible\).
 
@@ -111,7 +111,7 @@ Clicking this link adds the “Upload File to Staging from Web” app to your Na
 
 There are also several apps that import specific file types \(single- or paired-end reads or SRA files\) from a URL directly to your Narrative, bypassing your Staging Area. These are available from the Apps panel and the [App Catalog](https://narrative.kbase.us/#appcatalog).
 
-### Importing files from your Staging Area to your KBase Narrative
+## Importing files from your Staging Area to your KBase Narrative
 
 The files in your Staging Area are ready to import into your Narrative as KBase data objects that can be used in your analyses. \(You can think of a Narrative as a project or folder, which includes data that you will analyze, as well as results from those analyses.\)  
 To import a file from your Staging Area, choose a format \(data type\) from the pulldown menu to the right of the file’s age. \(You can find out more about KBase data types and accepted formats in the [Upload/Download Guide](https://kbase.us/data-upload-download-guide/).\) Then click the “import” icon to the right of the format menu.
@@ -148,7 +148,7 @@ Sometimes an import doesn’t work. One of the most common causes of failure is 
 If the importer objected to something in your file, check the [Data Upload/Download guide](https://kbase.us/data-upload-download-guide/) for details about the relevant format.  
 In some cases, the cause of an import error will not be obvious. If you can’t figure out why your import isn’t working, please contact us \(via the Help Board\) for help. Note, however, that no one besides you has access to your Staging Area, so we will not be able to see the files you uploaded to your Staging Area. You may need to attach your input file to your Help Board ticket in order for us to diagnose the problem.
 
-### Getting more information about files in your Staging Area
+## Getting more information about files in your Staging Area
 
 The list of files in your Staging Area includes their name, size, and age \(when they were uploaded\). If you have a lot of files in your Staging Area, you may want to use the Search box to locate specific files.
 
@@ -174,7 +174,7 @@ Note that if you had already imported the file to your Narrative as a data objec
 KBase’s import functionality and user interface are under active development. We [welcome your bug reports and suggestions](https://kbase.us/contact-us/) for future upload functionality.
 {% endhint %}
 
-### Now what?
+## Now what?
 
 Once you have added data–your own data or reference data that is already in KBase–to your Narrative, you will be ready for the exciting part: analyzing it! The next two sections describe how to [choose](https://kbase.us/narrative-guide/browse-apps-and-methods/) and [run an app](https://kbase.us/narrative-guide/run-apps-and-methods-to-analyze-your-data/) to analyze your data.
-{% endtab %}
+

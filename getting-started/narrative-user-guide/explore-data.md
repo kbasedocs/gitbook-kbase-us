@@ -2,7 +2,7 @@
 
 There are several ways to find data and add it to your Narrative. You can select data available within KBase, [upload your own files, or import datasets from external resources](https://kbase.us/data-upload-download-guide/uploading-data/) such as the DOE Joint Genome Institute \(JGI\) or NCBI. This section will describe how to explore data already in KBase. Instructions for adding data to your Narrative and importing external files are provided in the next section, “[Add Data to Your Narrative](https://kbase.us/narrative-guide/add-data-to-your-narrative/).”
 
-### The Data Slideout
+## The Data Slideout
 
 There are several ways to explore the [wide range of data available in KBase](https://kbase.us/data-summary/).
 
@@ -38,7 +38,7 @@ Go ahead and click the Add button to add the Vibrio brasiliensis LMG 20546 genom
 
 [![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-11.52.34-AM.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-11.52.34-AM.png)
 
-### Information in the Data Panel
+## Information in the Data Panel
 
 The Data Panel shows all the data that you’ve added to your Narrative. \(The [next section](https://kbase.us/narrative-guide/add-data-to-your-narrative/) of this guide discusses in more detail how to add data to your Narrative.\)
 
@@ -57,7 +57,7 @@ This expanded view of the data object also reveals icons that let you examine or
 * The “A” icon lets you rename your data object. Use caution when doing this, though. If a Narrative was already using the old object name in analyses, they might stop working. Also note that object names can contain only letters, digits, and underscores; no spaces or other special characters are allowed.
 * Finally, the trash icon lets you delete a data object from your Narrative. \(If the data came from a public or shared data source, the original will not be deleted, just the copy that’s in your Narrative.\)
 
-### Data viewers
+## Data viewers
 
 Many \(but not yet all\) types of data in KBase have viewers that allow you to find out more about the data. These viewers can be accessed two ways from the Data Panel:
 
@@ -87,7 +87,7 @@ There are many other types of viewers in KBase in addition to the Genome viewer 
 
 To remove a viewer from your Narrative, click the trashcan icon in the top right of the viewer cell. \(You can always re-add the viewer; removing it from your Narrative doesn’t delete the data object itself.\)
 
-### Data Landing and Provenance pages
+## Data Landing and Provenance pages
 
 Data Landing \(also known as Data Summary\) and Provenance pages are ways to find out even more information about a data object. You can access these pages using the icons that appear when you hover over a data object in the Data Browser or click on one of the objects in your Data Panel. The binoculars icon opens \(in a new browser tab\) a Data Landing page about that particular data object, while the graph-like icon opens a Provenance page.
 
@@ -111,3 +111,4 @@ The image below shows the Provenance page for a flux balance analysis model that
 ![image13](https://kbase.us/wp-content/uploads/2014/12/image13-1024x575.png)
 
 In the [next section](https://kbase.us/narrative-guide/add-data-to-your-narrative/) of this guide, we will discuss in more detail how to add data to your Narrative.
+

@@ -2,7 +2,7 @@
 
 Now that you have explored the available apps and determined which ones work with the data objects in your Narrative, you can begin analyzing your data.
 
-### Add an app to your Narrative
+## Add an app to your Narrative
 
 To add an app to your Narrative, find the app of interest and click its name or the icon to the left of the app name. A box \(called a _cell_\) containing the chosen app will appear in the main Narrative panel.
 
@@ -18,7 +18,7 @@ A few things to notice about the app cell:
 * The “…” menu offers several options for collapsing/expanding the cell; showing the code that will execute the app; getting more info \(in a separate browser window\) about the app; and deleting the cell. These are discussed more in the section called “[Revise Your Narrative](https://kbase.us/narrative-guide/revise-your-narrative/)“.
 * Every app has some parameters \(fields\) that must be filled in before you can run the app.
 
-### Fill in parameters
+## Fill in parameters
 
 After you add an app to your Narrative, the required parameters must be filled in before you can run it. For example, for most apps, you will need to select the input data object\(s\). Other parameters may also need to be set. A red arrow to the right of a field indicates that it is a required field and you have not yet entered a valid value in it. Once you enter a value, the red arrow should disappear.
 
@@ -34,7 +34,7 @@ Some apps have optional “advanced options” that you can reveal by clicking o
 
 As you add to your Narrative, be sure to save your work frequently, using the Save button at the top right of the screen.
 
-### Run the app
+## Run the app
 
 When you have filled in all the required fields, the _Run_ button on the left side of the app will be enabled; click it to start running the app. Once clicked, the green _Run_ button will turn to a red _Cancel_ button. When the analysis starts running, you will see information in the _Job Status_ tab_**.**_
 
@@ -64,18 +64,19 @@ Remember that you can hover over an object in the Data Panel and click the “. 
 
 **KBase’s download functionality is still in development–please check back soon for new download options and improvements, and report any problems to us.**
 
-### **Conduct further analyses**
+## **Conduct further analyses**
 
 Once you have reviewed your results, you can use your newly generated data in additional analysis steps. Remember, you can click on the data object in the Data Panel to see which KBase apps work with that data type.
 
 For example, our annotated genome can be used in a number of analyses because it now includes the standard KBase annotations. If you click on the genome in the Data Panel, you see several apps that apply. Among them are the [_Insert Genomes into Species Tree_ app](https://kbase.us/insert-genomes-into-species-tree-app/) that constructs a phylogenetic tree allowing you to see species closely related to your genome. You also can use the [_Build a Metabolic Model_ app](https://kbase.us/metabolic-modeling-in-kbase/) to draft a metabolic model from the annotated genome.
 
-### **Re-run apps with the same or different parameters**
+## **Re-run apps with the same or different parameters**
 
 App input cells that have already been run have a “Reset” button that allows you to redo the analysis, with the option to change any of the parameter settings \(including, perhaps, the input data\) before rerunning. Rerunning an app will overwrite the information in the app cells, but will not overwrite any data objects in your Narrative _unless_ you use the same output object name again.
 
-### **Report errors**
+## **Report errors**
 
 If a job fails, you will see an error message in the output cell and/or in the _Result_ tab. If you need help figuring out what went wrong, please [contact us](https://kbase.us/contact-us/) with details about what you were doing when the error occurred and what the error message said. Including the contents of the _Job Status_ tab and the URL of your Narrative will help us debug the problem. We are here to help and appreciate your feedback and error reports!
 
 In the [next section](https://kbase.us/narrative-guide/revise-your-narrative/), we will discuss how you can revise your Narratives.
+

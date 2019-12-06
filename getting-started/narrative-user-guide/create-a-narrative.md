@@ -11,6 +11,7 @@ We hope that after working on your Narrative, you will want to [share it](https:
 
 In the sections that follow, we will explain how to [explore data](https://kbase.us/narrative-guide/explore-data/), [add data to your Narrative](https://kbase.us/narrative-guide/add-data-to-your-narrative/), and use [apps](https://kbase.us/narrative-guide/browse-apps-and-methods/) to analyze it.
 
-### Copy and run Narratives created by others
+## Copy and run Narratives created by others
 
 If you don’t feel quite ready to create your own Narrative, you can copy and run a Narrative that someone else has shared with you. Please see the [Access and Copy Narratives](https://kbase.us/narrative-guide/access-and-copy-narratives/) section for more information.
+

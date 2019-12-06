@@ -12,7 +12,7 @@ Before adding data and analysis steps to your Narrative, take some time to explo
 
 ![](https://kbase.us/wp-content/uploads/2014/12/Tour-Narrative-Multicolor.png)
 
-### Managing Narratives and accessing resources
+## Managing Narratives and accessing resources
 
 **1. Top menu**
 
@@ -39,7 +39,7 @@ Before adding data and analysis steps to your Narrative, take some time to explo
 * _Analyze_ tab consists of the Data Panel \(see \#8\) and the Apps Panel below it \(see \#11\).
 * _Narratives_ tab allows you to create a new Narrative, copy an existing Narrative, and see a list of other Narratives created by or shared with you.
 
-### Adding data and apps
+## Adding data and apps
 
 **7.** **Data Panel** — You can add data to your Narrative by searching KBase’s reference collection, importing datasets from external sources, or generating new data from KBase analyses. All data objects from these activities will be listed in this panel, which is empty when you create or open a new Narrative.
 
@@ -51,14 +51,13 @@ Before adding data and analysis steps to your Narrative, take some time to explo
 
 **11. Apps Panel** — This panel lists KBase analysis functions. Clicking the app name or icon beside it will add an analysis cell to your Narrative \(see “[Analyze Your Data Using KBase Apps](https://kbase.us/narrative-guide/run-apps-and-methods-to-analyze-your-data/)” for details\).
 
-**12. App controls** — _\*\*_Use these icons to search and refresh the list of apps, as well as expose apps that are available but still in beta. The right arrow will open the [App Catalog](https://narrative.kbase.us/#appcatalog), which provides advanced options for browsing apps; designating them as favorites; and filtering them based on analysis type, popularity, and more. For additional information, see [Browse KBase Analysis Tools](https://kbase.us/narrative-guide/browse-apps-and-methods/).
+**12. App controls** — \_\*\*\_Use these icons to search and refresh the list of apps, as well as expose apps that are available but still in beta. The right arrow will open the [App Catalog](https://narrative.kbase.us/#appcatalog), which provides advanced options for browsing apps; designating them as favorites; and filtering them based on analysis type, popularity, and more. For additional information, see [Browse KBase Analysis Tools](https://kbase.us/narrative-guide/browse-apps-and-methods/).
 
-### Running analyses and adding commentary
+## Running analyses and adding commentary
 
 **13. Markdown cell** — Use [Markdown language](https://blog.ghost.org/markdown/) to add rich text commentary and graphics to your Narrative.
 
 **14.** App cell — There are several types of cells, including those displaying app inputs and outputs, text and commentary, and code cells for writing custom scripts. The cell controls are at the top right of each cell.
 
 **15.** **Markdown and code cell buttons** — Click to add these types of cells to your Narrative. Stay tuned for more documentation on how to use code cells in the future!
-
 

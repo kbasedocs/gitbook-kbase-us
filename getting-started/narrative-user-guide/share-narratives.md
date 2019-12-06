@@ -34,7 +34,7 @@ Note that unless you alert another user that you have shared a Narrative with th
 
 If you are working on a shared Narrative, and a collaborator is working on it at the same time, watch for a red box at the top of the screen that says “Narrative updated in another session.” You can update to the latest version by refreshing the page, but note that any changes that you made to the Narrative will be lost, and if you try to save your changes, you might overwrite your collaborator’s changes. We are working on better ways to allow simultaneous editing.
 
-### Create or modify your user profile
+## Create or modify your user profile
 
 Every KBase user has a user profile. Filling in your KBase user profile helps you become part of the social web that KBase is building, making it easier to find and collaborate with other scientists and share data and Narratives. You are not required to complete your user profile in order to use KBase, but we encourage you to.
 

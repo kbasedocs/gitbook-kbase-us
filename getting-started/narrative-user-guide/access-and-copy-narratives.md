@@ -1,6 +1,6 @@
 # Access and Copy Narratives
 
-### View Narratives created by or shared with you
+## View Narratives created by or shared with you
 
 The Narratives tab has two sections that list Narratives that you have created \(“My Narratives”\) and, below that list, those that have been shared with you by other users. The “Shared With Me” list includes only those Narratives that were explicitly shared with you, not those that are viewable by everyone \(public Narratives\). The public Narratives can be accessed from your Dashboard.
 
@@ -21,7 +21,7 @@ The blue box with a small white arrow on the top left of a View-only Narrative o
 TIP: You can switch a Narrative that you own to view-only mode by clicking the pencil icon under the title of the Narrative.  
 If you ever want to print out a Narrative, switch it to view-only mode first, so it doesn’t waste the left side of the page with empty space.
 
-### Copy a Narrative
+## Copy a Narrative
 
 To copy a Narrative that has been shared with you, so that you can run or change it, you can use the blue “Copy This Narrative” button at the top of the Narratives panel \(or, in View-only mode, at the top right of the screen\). This will copy the Narrative that you are currently viewing \(which is marked with a green dot in the list of Narratives\). You can choose a name for the copy \(or leave the default name, which is the original name with “Copy” at the end\).
 
@@ -40,3 +40,4 @@ You can also copy any Narrative by hovering your cursor over its name in your Na
 The copy is now yours–you can open it, run it, edit it, or even share it with others \(if the owner of the original Narrative gave you sharing privileges\). After you’ve copied a Narrative, you can run all the steps to reproduce the computational experiment, or try changing the parameters or input data to alter or perhaps even improve the results.
 
 Copying Narratives is the key to leveraging KBase’s commitment to reproducibility and reusability. By making it easy to build on previous work and go through rapid cycles of analysis, KBase aims to accelerate the pace of systems biology research.
+
