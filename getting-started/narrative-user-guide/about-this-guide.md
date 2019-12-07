@@ -1,6 +1,6 @@
 # About This Guide
 
-This is the user guide for the Narrative Interface, the graphical user interface for accessing KBase’s functionality and data. If you are looking for a very quick \(one-page\) introduction to the Narrative Interface, please see the [Narrative Quick Start](https://kbase.us/narrative-quick-start/).
+This is the user guide for the Narrative Interface, the graphical user interface for accessing KBase’s functionality and data. If you are looking for a very quick \(one-page\) introduction to the Narrative Interface, please see the [Narrative Quick Start](../narrative-quick-start.md).
 
 ## What is the Narrative Interface?
 

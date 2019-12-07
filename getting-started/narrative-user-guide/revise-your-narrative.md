@@ -18,7 +18,7 @@ You can then, if you wish, choose an earlier version to revert to. This capabili
 
 ## Add text to your Narrative
 
-Adding text cells to your Narrative to explain what you were doing and what the results might mean will help others understand your computational experiments, as well as helping to remind you what you were doing. You can add formatted text to your Narrative in “Markdown Cells”. Markdown is a markup language \(like, for example, HTML\). It’s pretty easy to learn but does require knowing some syntax. A good “cheat sheet” for Markdown language can be found [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
+Adding text cells to your Narrative to explain what you were doing and what the results might mean will help others understand your computational experiments, as well as helping to remind you what you were doing. You can add formatted text to your Narrative in “Markdown Cells”. Markdown is a markup language \(like, for example, HTML\). It’s pretty easy to learn but does require knowing some syntax. A good [“cheat sheet” for Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) language can be found on GitHub.
 
 You can add Markdown cells to a Narrative using the translucent blue buttons at the bottom right of the main Narrative panel.
 
@@ -51,5 +51,5 @@ The “Show Advanced Controls” option under the “Narratives” tab lets you 
 
 Although your Narrative is periodically autosaved, it’s always a good idea to save your work frequently, using the Save button at the top right of the screen.
 
-Once you’re happy with your Narrative, you will probably want to share it with others. The [next section](https://kbase.us/narrative-guide/share-narratives/) describes how to do that.
+Once you’re happy with your Narrative, you will probably want to share it with others. The [next section](share-narratives.md) describes how to do that.
 

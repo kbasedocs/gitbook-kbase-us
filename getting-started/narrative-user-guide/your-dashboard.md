@@ -50,7 +50,7 @@ The Dashboard offers many launch points. To the left of the **Your Narratives** 
 
 **Jobs**
 
-* The [**Job Browser**](https://kbase.us/narrative-guide/job-browser/) allows you to view apps that you have run recently, see their progress, search for specific runs, and more.
+* The **Job Browser** allows you to view apps that you have run recently, see their progress, search for specific runs, and more.
 * You can filter the runs by _Finished_, _Queued_, _Running_, _Success_, and _Error_
 * Query results also display basic information surround the runs such as the Narrative they can be found in, App ID, Submission Time, Queue Time, Run Time, and Status
 
@@ -66,7 +66,7 @@ The top-level menu \(accessed by clicking the three small horizontal lines on th
 
 [![](../../.gitbook/assets/toplevel2.png)](https://kbase.us/wp-content/uploads/2015/02/TopLevel2.png)
 
-_Narrative Interface_ goes to the main [Narrative Interface](https://kbase.us/narrative-guide/tour-the-narrative-interface/), which allows you to create, edit, run, and share Narratives.
+_Narrative Interface_ goes to the main Narrative Interface, which allows you to create, edit, run, and share Narratives.
 
 _JGI Search_ goes to the [Data Search](https://narrative.kbase.us/#jgi-search?q=) tab that can also be reached by the Search icon in the side bar.
 
@@ -78,5 +78,5 @@ _Contact KBase_ lets you [contact the KBase Help Desk](https://kbase.us/contact-
 
 _Help_ brings you to the Narrative User Guide.
 
-In the next section, we’ll discuss [how to create a new Narrative](https://kbase.us/narrative-guide/create-a-narrative/).
+In the next section, we’ll discuss [how to create a new Narrative](create-a-narrative.md).
 

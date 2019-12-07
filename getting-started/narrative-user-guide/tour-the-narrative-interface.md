@@ -16,7 +16,7 @@ Before adding data and analysis steps to your Narrative, take some time to explo
 
 **1. Top menu**
 
-* _Dashboard_ lets you access your [Dashboard](https://kbase.us/narrative-guide/your-dashboard/) from a Narrative.
+* _Dashboard_ lets you access your [Dashboard](your-dashboard.md) from a Narrative.
 * _About the Narrative_ opens a window describing Narrative Interface properties \(including version number\) and provides a link to notes about the latest KBase release.
 * _Shutdown and Restart_ closes and relaunches the Narrative Interface \(which can be useful if your content fails to load or the Narrative appears frozen\).
 
@@ -24,7 +24,7 @@ Before adding data and analysis steps to your Narrative, take some time to explo
 
 **3. Narrative title and creator** — Click in this space to name \(or rename\) your Narrative.
 
-**4. Toggle view-only mode** — In [view-only mode](https://kbase.us/narrative-guide/access-and-copy-narratives/), you can look at the Narrative but not run or change it.
+**4. Toggle view-only mode** — In [view-only mode](access-and-copy-narratives.md), you can look at the Narrative but not run or change it.
 
 **5. Narrative controls**
 
@@ -45,13 +45,13 @@ Before adding data and analysis steps to your Narrative, take some time to explo
 
 **8. Data Panel controls —** Use these icons to search, filter, sort, and refresh the data in your panel. The right arrow will open the Data Browser \(see \#10\).
 
-**9. Data object** — Each data object in the panel can be expanded to see more information about the data and several options for downloading, viewing data provenance, and more. The “[Add Data to your Narrative](https://kbase.us/narrative-guide/add-data-to-your-narrative/)” section describes how to get more information about each data object.
+**9. Data object** — Each data object in the panel can be expanded to see more information about the data and several options for downloading, viewing data provenance, and more. The “[Add Data to your Narrative](add-data-to-your-narrative.md)” section describes how to get more information about each data object.
 
-**10.** **Add Data** — This opens the Data browser, described in detail in the “[Explore Data](https://kbase.us/narrative-guide/explore-data/)” and “[Add Data to your Narrative](https://kbase.us/narrative-guide/add-data-to-your-narrative/)” sections, provides options for working with your own data or data from KBase’s reference collection.
+**10.** **Add Data** — This opens the Data browser, described in detail in the “[Explore Data](explore-data.md)” and “[Add Data to your Narrative](add-data-to-your-narrative.md)” sections, provides options for working with your own data or data from KBase’s reference collection.
 
-**11. Apps Panel** — This panel lists KBase analysis functions. Clicking the app name or icon beside it will add an analysis cell to your Narrative \(see “[Analyze Your Data Using KBase Apps](https://kbase.us/narrative-guide/run-apps-and-methods-to-analyze-your-data/)” for details\).
+**11. Apps Panel** — This panel lists KBase analysis functions. Clicking the app name or icon beside it will add an analysis cell to your Narrative \(see “[Analyze Your Data Using KBase Apps](analyze-data-using-kbase-apps.md)” for details\).
 
-**12. App controls** — \_\*\*\_Use these icons to search and refresh the list of apps, as well as expose apps that are available but still in beta. The right arrow will open the [App Catalog](https://narrative.kbase.us/#appcatalog), which provides advanced options for browsing apps; designating them as favorites; and filtering them based on analysis type, popularity, and more. For additional information, see [Browse KBase Analysis Tools](https://kbase.us/narrative-guide/browse-apps-and-methods/).
+**12. App controls** — \_\*\*\_Use these icons to search and refresh the list of apps, as well as expose apps that are available but still in beta. The right arrow will open the [App Catalog](https://narrative.kbase.us/#appcatalog), which provides advanced options for browsing apps; designating them as favorites; and filtering them based on analysis type, popularity, and more. For additional information, see [Browse KBase Analysis Tools](browse-kbase-analysis-tools.md).
 
 ## Running analyses and adding commentary
 

@@ -4,7 +4,7 @@ The KBase website and Narrative Interface should work on most modern web browser
 
 ### Supported Browsers
 
-The following desktop web browsers have been tested against the KBase web site and Narrative user interface. If you experience any issue using these browsers with our site please [report it to us](https://kbase.us/report-an-issue/).
+The following desktop web browsers have been tested against the KBase web site and Narrative user interface. If you experience any issue using these browsers with our site please [report it to us](../troubleshooting-1/how-to-report-issues.md).
 
 <table>
   <thead>

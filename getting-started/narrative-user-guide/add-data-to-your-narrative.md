@@ -6,7 +6,7 @@ Now that you are familiar with ways to find and explore data in KBase, you can s
 
 {% hint style="info" %}
 **Data Privacy**  
-Any data that you upload to KBase is kept private unless you explicitly choose to share it. You can share any of your Narratives \(including their associated data\) with one or more specific users, or make it publicly available to all KBase users. Please see the [Sharing](https://kbase.us/narrative-guide/share-narratives/) page for more information about how to do that. The [Terms and Conditions page](https://kbase.us/terms-and-conditions/) describes the KBase data policy.
+Any data that you upload to KBase is kept private unless you explicitly choose to share it. You can share any of your Narratives \(including their associated data\) with one or more specific users, or make it publicly available to all KBase users. Please see the [Sharing](share-narratives.md) page for more information about how to do that. The [Terms and Conditions page](https://kbase.us/terms-and-conditions/) describes the KBase data policy.
 {% endhint %}
 
 The first four tabs of the data slideout \(“My Data”, “Shared With Me”, “Public”, and “Example”\) let you search data that is already in KBase. The last tab lets you import data from your computer to your Narrative so that you can analyze it in KBase. This tab was labeled “Staging \(beta\)” and then became “Import \(New\)” and soon will become simply “Import.”
@@ -23,7 +23,7 @@ If you hover your cursor over any data object under the first four tabs, options
 
 ![](../../.gitbook/assets/screen-shot-2015-02-07-at-4.27.28-pm.png)
 
-In the [previous section](https://kbase.us/narrative-guide/explore-data/), we described the process of adding a genome to your Narrative from the public data in KBase. Now let’s check out the different data types available under the Example tab. The icon to the left of each data object represents its data type.
+In the [previous section](explore-data.md), we described the process of adding a genome to your Narrative from the public data in KBase. Now let’s check out the different data types available under the Example tab. The icon to the left of each data object represents its data type.
 
 ![](../../.gitbook/assets/screen-shot-2017-01-30-at-12.25.07-pm.png)
 
@@ -35,7 +35,7 @@ The new \(early 2018\) Import tab lets you drag & drop data from your computer i
 
 ![](../../.gitbook/assets/image7.png)
 
-To upload data from your computer \(or a [Globus endpoint](https://kbase.us/transfer-data-from-globus-to-kbase/) or URL\), choose the rightmost tab of the data slideout to open the new Import tab.
+To upload data from your computer \(or a [Globus endpoint](../../working-with-data-1/transferring-data-with-globus.md) or URL\), choose the rightmost tab of the data slideout to open the new Import tab.
 
 You can then click the “?” button just below the drop zone to launch a short interactive tour that shows the different parts of this user interface.
 
@@ -64,7 +64,7 @@ In this documentation, we will use “Upload” to refer to getting data from yo
 
 {% hint style="warning" %}
 **Drag & Drop Limitations**  
-The drag & drop from your local computer works for many files, but there is a size limit that depends on your computer and browser. Some users have reported problems around 20 gigabases. For larger files, use the [Globus Online transfer](https://kbase.us/transfer-data-from-globus-to-kbase/).
+The drag & drop from your local computer works for many files, but there is a size limit that depends on your computer and browser. Some users have reported problems around 20 gigabases. For larger files, use the [Globus Online transfer](../../working-with-data-1/transferring-data-with-globus.md).
 {% endhint %}
 
 Find the file\(s\) you want to import into your KBase account, and drag them into the drop zone \(the rectangular area surrounded by a dashed line\). You can select multiple files from your computer and drag them all at once. \(In the example below, the user is dragging two files into the dashed area.\) You can also select a folder of data files and drag the folder into the Staging Area drop zone.
@@ -92,11 +92,11 @@ Globus is a data management and file transfer system that can facilitate bulk tr
 
 ![](../../.gitbook/assets/screen-shot-2018-01-24-at-1.54.06-pm-2.png)
 
-[This page](https://kbase.us/transfer-data-from-globus/) has more documentation on transferring data from Globus.
+See [Transferring Data with Globus](../../working-with-data-1/transferring-data-with-globus.md) for more documentation on using Globus.
 
 {% hint style="info" %}
 **Uploading data from JGI**  
-If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [this page](https://kbase.us/transfer-jgi-data/) for instructions.
+If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [the JGI data transfer page](../../working-with-data-1/transferring-data-from-jgi.md) for instructions.
 {% endhint %}
 
 ## Uploading data from a URL
@@ -114,7 +114,7 @@ There are also several apps that import specific file types \(single- or paired-
 ## Importing files from your Staging Area to your KBase Narrative
 
 The files in your Staging Area are ready to import into your Narrative as KBase data objects that can be used in your analyses. \(You can think of a Narrative as a project or folder, which includes data that you will analyze, as well as results from those analyses.\)  
-To import a file from your Staging Area, choose a format \(data type\) from the pulldown menu to the right of the file’s age. \(You can find out more about KBase data types and accepted formats in the [Upload/Download Guide](https://kbase.us/data-upload-download-guide/).\) Then click the “import” icon to the right of the format menu.
+To import a file from your Staging Area, choose a format \(data type\) from the pulldown menu to the right of the file’s age. \(You can find out more about KBase data types and accepted formats in the [Upload/Download Guide](../../working-with-data-1/data-upload-download-guide.md).\) Then click the “import” icon to the right of the format menu.
 
 ![](../../.gitbook/assets/image11.png)
 
@@ -124,7 +124,7 @@ When you click the “import” icon, the data slideout slides shut and an Impor
 
 {% hint style="info" %}
 **Importing different types of data**  
-This example shows how to import GenBank data. Please see the [Upload/Download Guide](https://kbase.us/data-upload-download-guide/) for detailed instructions for other supported data types.
+This example shows how to import GenBank data. Please see the [Upload/Download Guide](../../working-with-data-1/data-upload-download-guide.md) for detailed instructions for other supported data types.
 {% endhint %}
 
 If the GenBank file came from a different source, use the pulldown menu to select it. You can change the output object name, if desired, and then click the Run button to start the import. When the import is done, you should see the message “Finished with success” near the top of the app cell, and some information about the app run.
@@ -145,7 +145,7 @@ Sometimes an import doesn’t work. One of the most common causes of failure is 
 
 ![](../../.gitbook/assets/image4.png)
 
-If the importer objected to something in your file, check the [Data Upload/Download guide](https://kbase.us/data-upload-download-guide/) for details about the relevant format.  
+If the importer objected to something in your file, check the [Data Upload/Download guide](../../working-with-data-1/data-upload-download-guide.md) for details about the relevant format.  
 In some cases, the cause of an import error will not be obvious. If you can’t figure out why your import isn’t working, please contact us \(via the Help Board\) for help. Note, however, that no one besides you has access to your Staging Area, so we will not be able to see the files you uploaded to your Staging Area. You may need to attach your input file to your Help Board ticket in order for us to diagnose the problem.
 
 ## Getting more information about files in your Staging Area
@@ -171,10 +171,10 @@ Note that if you had already imported the file to your Narrative as a data objec
 
 {% hint style="info" %}
 **In progress**  
-KBase’s import functionality and user interface are under active development. We [welcome your bug reports and suggestions](https://kbase.us/contact-us/) for future upload functionality.
+KBase’s import functionality and user interface are under active development. We [welcome your bug reports and suggestions](../../troubleshooting-1/how-to-report-issues.md) for future upload functionality.
 {% endhint %}
 
 ## Now what?
 
-Once you have added data–your own data or reference data that is already in KBase–to your Narrative, you will be ready for the exciting part: analyzing it! The next two sections describe how to [choose](https://kbase.us/narrative-guide/browse-apps-and-methods/) and [run an app](https://kbase.us/narrative-guide/run-apps-and-methods-to-analyze-your-data/) to analyze your data.
+Once you have added data–your own data or reference data that is already in KBase–to your Narrative, you will be ready for the exciting part: analyzing it! The next two sections describe how to [choose](browse-kbase-analysis-tools.md) and [run an app](analyze-data-using-kbase-apps.md) to analyze your data.
 

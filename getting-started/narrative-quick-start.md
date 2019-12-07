@@ -38,19 +38,19 @@ Select the “Narrative Tour” from the Help menu. This new feature walks you t
 
 ### **Step 4. Find data to analyze**
 
-To load data to your Narrative, click the “Add Data” button, which can be found under the Analyze tab near the top left of the Narrative. The [Data Browser](https://kbase.us/narrative-guide/explore-data/) will slide out with tabs that show several data sources.
+To load data to your Narrative, click the “Add Data” button, which can be found under the Analyze tab near the top left of the Narrative. The [Data Browser](narrative-user-guide/explore-data.md) will slide out with tabs that show several data sources.
 
 ![](../.gitbook/assets/screen-shot-2017-01-27-at-11.12.33-am.png)
 
 You can choose a dataset already in KBase by selecting any of the first four tabs. The _Example_ tab, for instance, contains sample data from KBase’s reference data collection that can be used to try out the apps.
 
-The _Import_ tab allows you to upload your own data. KBase currently supports upload of a variety of data types. Please see the [Data Upload/Download Guide](https://kbase.us/data-upload-download-guide/) for more information.
+The _Import_ tab allows you to upload your own data. KBase currently supports upload of a variety of data types. Please see the [Data Upload/Download Guide](../working-with-data-1/data-upload-download-guide.md) for more information.
 
 _**Note that any data you upload to KBase is private unless you choose to share it.**_
 
 ### **Step 5. Add data to your Narrative**
 
-When you hover over a [data object](https://kbase.us/narrative-guide/explore-data/) in the Data Browser, an “Add” button will appear to its left. Click this button to add the data to your Narrative.
+When you hover over a [data object](narrative-user-guide/explore-data.md) in the Data Browser, an “Add” button will appear to its left. Click this button to add the data to your Narrative.
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
@@ -81,18 +81,15 @@ When all required fields have been filled out, click the green “Run” button 
 
 While the analysis is running, you will see the progress in the Job Status tab of the app box. When it finishes, the results will show up in the Result tab.
 
-Please see [the KBase Apps section of the Narrative Interface User Guide](https://kbase.us/narrative-guide/run-apps-and-methods-to-analyze-your-data/) for more details on running apps.
+Please see [the KBase Apps section of the Narrative Interface User Guide](narrative-user-guide/analyze-data-using-kbase-apps.md) for more details on running apps.
 
 ### **Step 8. Share your Narrative**
 
 ![](../.gitbook/assets/screen-shot-2017-09-20-at-10.37.10-am.png)
 
-All Narratives that you create are private by default. You can [make a Narrative public or share it ](https://kbase.us/narrative-guide/share-narratives/)[with specific collaborators](https://kbase.us/narrative-guide/share-narratives/) by clicking the “share” button near the top right of your Narrative.
+All Narratives that you create are private by default. You can [make a Narrative public or share it ](narrative-user-guide/share-narratives.md)with specific collaborators by clicking the “share” button near the top right of your Narrative.
 
 ### **Next steps and additional resources**
 
-With these basic steps, you now can begin using the Narrative Interface to create Narratives and analyze data. An extensive set of tutorials is available:
-
-* * [Narrative Interface User Guide](https://kbase.us/narrative-guide/)
-  * [Data Upload and Download Guide](https://kbase.us/data-upload-download-guide/)
+With these basic steps, you now can begin using the Narrative Interface to create Narratives and analyze data. For a more in-depth introduction to any of the topics mentioned here, see the [Narrative User Guide](narrative-user-guide/).
 

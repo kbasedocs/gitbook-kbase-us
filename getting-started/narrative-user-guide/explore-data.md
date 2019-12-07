@@ -1,10 +1,10 @@
 # Explore Data
 
-There are several ways to find data and add it to your Narrative. You can select data available within KBase, [upload your own files, or import datasets from external resources](https://kbase.us/data-upload-download-guide/uploading-data/) such as the DOE Joint Genome Institute \(JGI\) or NCBI. This section will describe how to explore data already in KBase. Instructions for adding data to your Narrative and importing external files are provided in the next section, “[Add Data to Your Narrative](https://kbase.us/narrative-guide/add-data-to-your-narrative/).”
+There are several ways to find data and add it to your Narrative. You can select data available within KBase, [upload your own files, or import datasets from external resources](add-data-to-your-narrative.md) such as the DOE Joint Genome Institute \(JGI\) or NCBI. This section will describe how to explore data already in KBase. Instructions for adding data to your Narrative and importing external files are provided in the next section, “[Add Data to Your Narrative](add-data-to-your-narrative.md).”
 
 ## The Data Slideout
 
-There are several ways to explore the [wide range of data available in KBase](https://kbase.us/data-summary/).
+There are several ways to explore the [wide range of data available in KBase](../../working-with-data-1/).
 
 The Data Slideout is accessed by clicking the right arrow or Add Data button in the Data Panel.
 
@@ -40,7 +40,7 @@ Go ahead and click the Add button to add the Vibrio brasiliensis LMG 20546 genom
 
 ## Information in the Data Panel
 
-The Data Panel shows all the data that you’ve added to your Narrative. \(The [next section](https://kbase.us/narrative-guide/add-data-to-your-narrative/) of this guide discusses in more detail how to add data to your Narrative.\)
+The Data Panel shows all the data that you’ve added to your Narrative. \(The [next ](add-data-to-your-narrative.md)[section](add-data-to-your-narrative.md) of this guide discusses in more detail how to add data to your Narrative.\)
 
 You should have at least one object \(Vibrio brasiliensis LMG 20546\) in your Data Panel. As you add or generate more data during the course of your analyses, the number of objects in this panel will increase. You can search, sort, or filter the list using the icons in the Data Panel header.
 
@@ -110,5 +110,5 @@ The image below shows the Provenance page for a flux balance analysis model that
 
 ![](../../.gitbook/assets/image13-1024x575.png)
 
-In the [next section](https://kbase.us/narrative-guide/add-data-to-your-narrative/) of this guide, we will discuss in more detail how to add data to your Narrative.
+In the [next section](add-data-to-your-narrative.md) of this guide, we will discuss in more detail how to add data to your Narrative.
 

@@ -15,14 +15,14 @@ A few things to notice about the app cell:
 
   ![Screen Shot 2017-02-01 at 12.56.50 PM](../../.gitbook/assets/screen-shot-2017-02-01-at-12.56.50-pm.png)
 
-* The “…” menu offers several options for collapsing/expanding the cell; showing the code that will execute the app; getting more info \(in a separate browser window\) about the app; and deleting the cell. These are discussed more in the section called “[Revise Your Narrative](https://kbase.us/narrative-guide/revise-your-narrative/)“.
+* The “…” menu offers several options for collapsing/expanding the cell; showing the code that will execute the app; getting more info \(in a separate browser window\) about the app; and deleting the cell. These are discussed more in the section called “[Revise Your Narrative](revise-your-narrative.md)“.
 * Every app has some parameters \(fields\) that must be filled in before you can run the app.
 
 ## Fill in parameters
 
 After you add an app to your Narrative, the required parameters must be filled in before you can run it. For example, for most apps, you will need to select the input data object\(s\). Other parameters may also need to be set. A red arrow to the right of a field indicates that it is a required field and you have not yet entered a valid value in it. Once you enter a value, the red arrow should disappear.
 
-Some app fields are “smart” and know which data in your Narrative is valid for that field. These “smart” fields have a pulldown list of data objects that you can choose from. \(Remember, only data \(of the appropriate type\) that you have already added to this particular Narrative will be shown in that list. You can access your data from other Narratives via the My Data and Shared with me tabs in the [Data Panel](https://kbase.us/narrative-guide/add-data-to-your-narrative/).\)
+Some app fields are “smart” and know which data in your Narrative is valid for that field. These “smart” fields have a pulldown list of data objects that you can choose from. \(Remember, only data \(of the appropriate type\) that you have already added to this particular Narrative will be shown in that list. You can access your data from other Narratives via the My Data and Shared with me tabs in the [Data Panel](add-data-to-your-narrative.md).\)
 
 In the example app shown above, the input object field, which is required, has a pulldown list that will be populated with data objects of the appropriate type that you have added to your Narrative. Scientific Name, on the other hand, is a free text field and is optional. The next two fields \(Domain and Genetic Code\) are also required, but they are pre-filled with default values. You could change their values if you chose, or leave them as they are. Finally, the last field \(Output Genome Name\) is another free text field. In the screenshot, the Output Genome Name, is not yet filled in; it has a red arrow to the right. The Run button is not enabled until all required fields are filled in and the red arrows are gone.
 
@@ -52,7 +52,7 @@ In the example, the “Annotate Microbial Contigs” app, once run, produced an 
 
 This output cell has three tabs: Overview \(displayed above\), _Browse_ Contigs, which lists the large assembled pieces of a genome, and _Browse Features_, which allows browsing of all the annotated genes.
 
-Different apps create different types of output cells when they run, depending on which type of data object is output by the app. The genome output cell shown above is an example of a _Data Viewer._ Data Viewers are described in the “[Explore Data](https://kbase.us/narrative-guide/explore-data/)” section of this guide.
+Different apps create different types of output cells when they run, depending on which type of data object is output by the app. The genome output cell shown above is an example of a _Data Viewer._ Data Viewers are described in the “[Explore Data](explore-data.md)” section of this guide.
 
 ![](../../.gitbook/assets/screen-shot-2017-02-01-at-1.42.23-pm.png)
 
@@ -60,7 +60,7 @@ In addition to creating a new output cell, the app we ran created a new data obj
 
 ![](../../.gitbook/assets/screen-shot-2017-02-01-at-1.44.53-pm.png)
 
-Remember that you can hover over an object in the Data Panel and click the “. . .” that appears to see more information and options, including an option \(see image\) for downloading the object in GenBank or JSON format \(see the [Download Guide](https://kbase.us/data-upload-download-guide/downloading-data/) for more information\). In the future, you will be able to choose from a wider variety of common formats, allowing you to download results to use with other tools and send to colleagues.
+Remember that you can hover over an object in the Data Panel and click the “. . .” that appears to see more information and options, including an option \(see image\) for downloading the object in GenBank or JSON format \(see the [Download Guide](../../working-with-data-1/data-upload-download-guide.md) for more information\). In the future, you will be able to choose from a wider variety of common formats, allowing you to download results to use with other tools and send to colleagues.
 
 **KBase’s download functionality is still in development–please check back soon for new download options and improvements, and report any problems to us.**
 
@@ -76,7 +76,7 @@ App input cells that have already been run have a “Reset” button that allows
 
 ## **Report errors**
 
-If a job fails, you will see an error message in the output cell and/or in the _Result_ tab. If you need help figuring out what went wrong, please [contact us](https://kbase.us/contact-us/) with details about what you were doing when the error occurred and what the error message said. Including the contents of the _Job Status_ tab and the URL of your Narrative will help us debug the problem. We are here to help and appreciate your feedback and error reports!
+If a job fails, you will see an error message in the output cell and/or in the _Result_ tab. If you need help figuring out what went wrong, please [contact us](../../troubleshooting-1/how-to-report-issues.md) with details about what you were doing when the error occurred and what the error message said. Including the contents of the _Job Status_ tab and the URL of your Narrative will help us debug the problem. We are here to help and appreciate your feedback and error reports!
 
-In the [next section](https://kbase.us/narrative-guide/revise-your-narrative/), we will discuss how you can revise your Narratives.
+In the [next section](revise-your-narrative.md), we will discuss how you can revise your Narratives.
 
