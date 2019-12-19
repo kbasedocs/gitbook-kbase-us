@@ -9,7 +9,7 @@ The KBase [**App Catalog**](https://narrative.kbase.us/#appcatalog) lists all of
 * [Assembly](assembly-and-annotation-in-kbase.md)
 * [Annotation](assembly-and-annotation-in-kbase.md)
 * Sequence alignment and search
-* [Metabolic modeling](metabolic-modeling-in-kbase.md)
+* [Metabolic modeling](metabolic-modeling-in-kbase/)
 * [RNA-seq and expression data analysis](transcriptomics-and-expression-analysis-in-kbase.md)
 * [Comparative and phylogenetic analysis](comparative-genomics-and-phylogenetic-analysis-in-kbase.md)
 
@@ -29,7 +29,7 @@ Below: Outline of the major workflows and datatypes in KBase. The unboxed labels
 ### Tips on using the [App Catalog](https://narrative.kbase.us/#appcatalog)
 
 * Each app links to a reference page \(which includes technical details about the inputs and outputs\) called an App Details Page.
-* To run apps, you will need to sign in to the [Narrative Interface](../../getting-started/narrative-quick-start.md#step-2-sign-in-to-the-dashboard).
+* To run apps, you will need to [sign in to the Narrative Interface](../../getting-started/signing-up-and-signing-in/#signing-in).
 * You can also access the App Catalog from inside the Narrative Interface by clicking the small arrow in the upper right corner of the Apps panel.
 * You can click the star at the lower left of any app to add it to your “favorites.” The blue star will turn yellow to indicate that you have favorited the app. The number to the right of the star shows how many people have favorited that app.
 

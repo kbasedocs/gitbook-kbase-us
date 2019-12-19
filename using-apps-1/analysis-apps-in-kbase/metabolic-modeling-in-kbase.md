@@ -1,2 +1,0 @@
-# Metabolic Modeling in KBase
-
