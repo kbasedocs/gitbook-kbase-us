@@ -62,6 +62,7 @@
 
 * [KBase Narrative Interface](https://narrative.kbase.us/#login)
 * [KBase web site](https://kbase.us)
+* [KBase App Catalog](https://narrative.kbase.us/#appcatalog)
 
 ## Temporary Pages
 
