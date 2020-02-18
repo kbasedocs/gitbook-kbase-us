@@ -40,7 +40,7 @@
   * [KBase App Replacement](using-apps-1/kbase-app-replacement.md)
   * [App Catalog](using-apps-1/app-catalog.md)
 * [Running Common Workflows](running-common-workflows-1/README.md)
-  * [Assembling and annotating microbial genomes](running-common-workflows-1/assembling-and-annotating-microbial-genomes.md)
+  * [Assembling and Annotating Microbial Genomes](running-common-workflows-1/assembling-and-annotating-microbial-genomes.md)
   * [Metabolic Modeling in KBase](running-common-workflows-1/metabolic-modeling-in-kbase.md)
   * [FAQ: Metabolic Modeling in KBase](running-common-workflows-1/faq-metabolic-modeling-in-kbase.md)
   * [FAQ: Comparative Genomics](running-common-workflows-1/faq-comparative-genomics.md)
