@@ -1,6 +1,6 @@
 # Metabolic Modeling in KBase
 
-KBase has a suite of [Apps](../../app-catalog.md) and data that support the reconstruction, prediction, and design of metabolic models in microbes and plants. Genome-scale metabolic models are primarily reconstructed from protein functional annotations. These genome-scale metabolic models can be used to explore an organism’s growth in specific media conditions, determine which biochemical pathways are present, optimize production of an important metabolite, identify high flux pathways, and more.
+KBase has a suite of [Apps](https://narrative.kbase.us/functional-site/#appcatalog/module/fba_tools) and data that support the reconstruction, prediction, and design of metabolic models in microbes and plants. Genome-scale metabolic models are primarily reconstructed from protein functional annotations. These genome-scale metabolic models can be used to explore an organism’s growth in specific media conditions, determine which biochemical pathways are present, optimize production of an important metabolite, identify high flux pathways, and more.
 
 Metabolic models can be used to evaluate an organism’s metabolic capability by simulating growth under different conditions to answer important biological questions such as:
 
@@ -40,9 +40,9 @@ Flowchart of apps used in Metabolic Modeling.
 {% hint style="info" %}
 **Learn More**
 
-The flowchart above shows KBase’s metabolic modeling tools \(green\) as well as some other analysis tools. Check the [App Catalog](../../app-catalog.md) for the latest set of metabolic modeling analysis tools \(Apps\).
+The flowchart above shows KBase’s metabolic modeling tools \(green\) as well as some other analysis tools. Check the [App Catalog](https://narrative.kbase.us/functional-site/#catalog/apps) for the latest set of metabolic modeling analysis tools \(Apps\).
 
-The [video tutorial](https://www.youtube.com/watch?v=AQ2KsrQrq9s&list=PLh7Q4SqpZYTwdK8ekQnqKinFzbqZuzu8f) below presents an introduction to building metabolic models in KBase. The [“Microbial Metabolic Model Reconstruction and Analysis” Narrative tutorial](../../../running-common-workflows-1/metabolic-modeling-in-kbase.md#narrative-tutorial) lets you see and try out for yourself some examples of KBase’s metabolic modeling functionality in action. Common questions and answers about KBase’s metabolic modeling tools can be found in the [Metabolic Modeling FAQ](metabolic-modeling-faq.md).
+The [video tutorial](https://www.youtube.com/watch?v=AQ2KsrQrq9s&list=PLh7Q4SqpZYTwdK8ekQnqKinFzbqZuzu8f) below presents an introduction to building metabolic models in KBase. The [“Microbial Metabolic Model Reconstruction and Analysis” Narrative tutorial](https://narrative.kbase.us/narrative/ws.18302.obj.61) lets you see and try out for yourself some examples of KBase’s metabolic modeling functionality in action. Common questions and answers about KBase’s metabolic modeling tools can be found in the [Metabolic Modeling FAQ](metabolic-modeling-faq.md).
 {% endhint %}
 
 {% embed url="https://www.youtube.com/watch?v=AQ2KsrQrq9s" %}
@@ -51,7 +51,7 @@ The [video tutorial](https://www.youtube.com/watch?v=AQ2KsrQrq9s&list=PLh7Q4SqpZ
 
 **Narrative Tutorial and FAQ**
 
-* [Metabolic Modeling FAQ](../../../running-common-workflows-1/faq-metabolic-modeling-in-kbase.md): questions and answers about metabolic modeling in KBase
+* [Metabolic Modeling FAQ](metabolic-modeling-faq.md): questions and answers about metabolic modeling in KBase
 * [Narrative tutorial: metabolic model reconstruction and gapfilling](https://narrative.kbase.us/narrative/ws.18302.obj.61)
 
 **Build and Gapfill Metabolic Model**

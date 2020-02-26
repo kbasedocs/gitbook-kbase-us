@@ -22,7 +22,7 @@
     * [Share Narratives](getting-started/narrative-user-guide/share-narratives.md)
     * [Access and Copy Narratives](getting-started/narrative-user-guide/access-and-copy-narratives.md)
 * [Working with Data](working-with-data-1/README.md)
-  * [Data Upload/Download Guide](working-with-data-1/data-upload-download-guide.md)
+  * [Data Upload and Download Guide](working-with-data-1/data-upload-download-guide.md)
   * [Searching, Adding, and Uploading Data](working-with-data-1/searching-adding-and-uploading-data.md)
   * [Filtering, Managing, and Viewing Data](working-with-data-1/filtering-managing-and-viewing-data.md)
   * [Public Data in KBase](working-with-data-1/public-data-in-kbase.md)

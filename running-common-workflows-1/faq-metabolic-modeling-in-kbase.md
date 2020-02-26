@@ -2,7 +2,7 @@
 
 KBase has a suite of analysis apps and data that support the reconstruction, prediction, and design of metabolic networks in microbes and plants. These tools can help advance efforts to optimize microbial production of a certain biofuel, find the minimal media conditions under which that fuel is generated, or predict soil amendments that improve the productivity of plant bioenergy feedstocks.
 
-The [“Microbial Metabolic Model Reconstruction and Analysis” Narrative tutorial](metabolic-modeling-in-kbase.md#narrative-tutorial) lets you see some of this functionality in action.
+The [“Microbial Metabolic Model Reconstruction and Analysis” Narrative tutorial](https://narrative.kbase.us/narrative/ws.18302.obj.61) lets you see some of this functionality in action.
 
 Below are answers to common questions about KBase’s metabolic modeling tools, including:
 
@@ -45,7 +45,7 @@ For more information—including descriptions of the underlying algorithms, inpu
 
 **Gapfill Metabolic Models**
 
-* [App details](../using-apps-1/app-catalog.md)
+* [App details](https://narrative.kbase.us/#/narrativestore/method/gapfill_a_metabolic_model)
 
 **Run Flux Balance Analysis**
 
