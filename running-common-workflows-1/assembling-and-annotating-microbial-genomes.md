@@ -32,9 +32,9 @@ The Assemble Contigs from Reads app assembles a set of Next-Generation Sequencin
 
 #### **Description of the input for Assemble Contigs from Reads**
 
-The input for this app is a set of single- or paired-end reads in FASTA or FASTQ format.  In a more advanced use case, users can upload a reference assembly to determine if the current assembly is better or worse than a previous assembly. In this tutorial, we will demonstrate the app twice, once using example paired-end reads from KBase’s reference data and again using a reference assembly available from the same collection. When you are ready to assemble your own reads or load a reference assembly of your choice, see the instructions in the [Short Reads section of the Data Upload and Download Guide](http://kbase.us/data-upload-download-guide/short-reads/).
+The input for this app is a set of single- or paired-end reads in FASTA or FASTQ format.  In a more advanced use case, users can upload a reference assembly to determine if the current assembly is better or worse than a previous assembly. In this tutorial, we will demonstrate the app twice, once using example paired-end reads from KBase’s reference data and again using a reference assembly available from the same collection. When you are ready to assemble your own reads or load a reference assembly of your choice, see the instructions in the [Short Reads section of the Data Upload and Download Guide](../working-with-data-1/data-upload-download-guide.md#fastq-sra-reads).
 
-You also can transfer microbial reads and assembly data from the DOE Joint Genome Institute’s website to KBase’s Narrative Interface with the push of a button. To get started, check out our [instructional guide for using the Push to KBase feature](http://kbase.us/transfer-jgi-data/).
+You also can transfer microbial reads and assembly data from the DOE Joint Genome Institute’s website to KBase’s Narrative Interface with the push of a button. To get started, check out our [instructional guide for using the Push to KBase feature](../working-with-data-1/transferring-data-from-jgi.md).
 
 #### **Description of the output**
 
@@ -55,7 +55,7 @@ To add the example data, click the Add Data \(or red  square\) button in the Dat
 
 Find “rhodo.art.q20.int.PE.reads” and add this set of paired-end reads to your Narrative by mousing over it and clicking the Add button that appears at its left.
 
-[![Add data shot](http://kbase.us/wp-content/uploads/2016/12/Add-data-shot.png)](http://kbase.us/wp-content/uploads/2016/12/Add-data-shot.png)
+![Add data shot](http://kbase.us/wp-content/uploads/2016/12/Add-data-shot.png)
 
 Exit the Data Browser by clicking either the Close button at the bottom right of the browser window or the arrow at the top of the Data Panel. \(Note that you also can close the Data Browser by clicking anywhere in the main Narrative panel in the center.\)
 
@@ -63,11 +63,11 @@ After a moment your Data Panel will update to show the dataset that you just add
 
 Don’t be concerned that there is only one data object for the paired-end reads. In KBase, the two original paired-end read files get combined into a single data object.
 
-[![one item in data panel](http://kbase.us/wp-content/uploads/2016/12/one-item-in-data-panel-.png)](http://kbase.us/wp-content/uploads/2016/12/one-item-in-data-panel-.png)
+![one item in data panel](http://kbase.us/wp-content/uploads/2016/12/one-item-in-data-panel-.png)
 
 You can find out more about this data object by mousing over the record in the Data Panel and clicking the “…” that appears. An expanded view of the data will open, as shown. Please see the [_Explore Data_](http://kbase.us/narrative-guide/explore-data/) section of the Narrative User Interface Guide for more information.
 
-[![explore data shot](http://kbase.us/wp-content/uploads/2016/12/explore-data-shot.png)](http://kbase.us/wp-content/uploads/2016/12/explore-data-shot.png)
+![explore data shot](http://kbase.us/wp-content/uploads/2016/12/explore-data-shot.png)
 
 **Step 2. Add and run the apps**
 
@@ -83,17 +83,17 @@ The Automatic Assembly option is showing by default in the Assembly Recipe dropd
 
 Next, choose a name for the output assembly \(Contig Set\). In this example, we will use “Rhodo\_auto\_contigs.”
 
-[![AssembleAnnotate08](http://kbase.us/wp-content/uploads/2015/02/AssembleAnnotate08.png)](http://kbase.us/wp-content/uploads/2015/02/AssembleAnnotate08.png)
+![AssembleAnnotate08](http://kbase.us/wp-content/uploads/2015/02/AssembleAnnotate08.png)
 
 **Be sure to save your Narrative frequently, using the Save button at the top right of the screen.**
 
-[![assemble, hit run](http://kbase.us/wp-content/uploads/2016/12/assemble-hit-run.png)](http://kbase.us/wp-content/uploads/2016/12/assemble-hit-run.png)
+![assemble, hit run](http://kbase.us/wp-content/uploads/2016/12/assemble-hit-run.png)
 
 You’re now ready to run the app. Click the green “RUN” button on the right of the cell. The app cell will then show your job as queued, then running.  You can return to this app cell to get a status update on how your job is doing.
 
-[![assemble, running](http://kbase.us/wp-content/uploads/2016/12/assemble-running.png)](http://kbase.us/wp-content/uploads/2016/12/assemble-running.png)
+![assemble, running](http://kbase.us/wp-content/uploads/2016/12/assemble-running.png)
 
-[![assemble, completed](http://kbase.us/wp-content/uploads/2016/12/assemble-completed.png)](http://kbase.us/wp-content/uploads/2016/12/assemble-completed.png)
+![assemble, completed](http://kbase.us/wp-content/uploads/2016/12/assemble-completed.png)
 
 This example data is a very small set of reads, so it should run quickly \(by typical assembly standards\) and finish in about 15 to 20 minutes or perhaps longer, depending on the queue. Note that most assembly jobs will be slower because they will contain more reads. Some assembly jobs can take days or even weeks depending on the genome size and repeat structure. You can check your job status by referring back to the app cell, where time running, and status will be displayed.
 
@@ -113,7 +113,7 @@ Finally, for this example, enter “Rhodo\_auto\_anno” to specify the name tha
 
 Notice that as you fill in the required parameter fields, the red arrows next to those fields disappear.
 
-[![annotate\_ready to run](http://kbase.us/wp-content/uploads/2016/12/annotate_ready-to-run.png)](http://kbase.us/wp-content/uploads/2016/12/annotate_ready-to-run.png)
+![annotate\_ready to run](http://kbase.us/wp-content/uploads/2016/12/annotate_ready-to-run.png)
 
 Once all red arrows are gone, the app is ready to run.
 
@@ -125,7 +125,7 @@ The annotation step should be faster than the assembly; it typically takes just 
 
 When the annotation job is complete, return to your Data Panel and make sure you are on the Analyze tab. Notice that two new objects have appeared in your panel: the Genome \(Rhodo\_auto\_anno\), and the Annotation Report \(Rhodo\_auto\_anno.report\).
 
-[![output objects in data panel](http://kbase.us/wp-content/uploads/2016/12/output-objects-in-data-panel.png)](http://kbase.us/wp-content/uploads/2016/12/output-objects-in-data-panel.png)
+![output objects in data panel](http://kbase.us/wp-content/uploads/2016/12/output-objects-in-data-panel.png)
 
 In the main Narrative panel, look at the output cells under the two app steps. The output of the assembly app is a table describing the statistics from the assembly job. The Automatic _Assembly_ option that we chose actually performed an assembly using three different programs: Velvet, SPAdes, and IDBA. There are three columns in the output corresponding to the results from each.
 
@@ -133,11 +133,11 @@ The output contains important data for choosing the best alignment, such as the 
 
 Note that the _Automatic_ _Assembly_ option runs a workflow that infers the “best” assembly by using post-analysis metrics called an “AR score.”  The output is sorted by this score, with the best alignment appearing first in the table . Currently, only the contig set generated by the best assembly is made available in the Data Panel.
 
-[![assembly output window](http://kbase.us/wp-content/uploads/2016/12/assembly-output-window.png)](http://kbase.us/wp-content/uploads/2016/12/assembly-output-window.png)
+![assembly output window](http://kbase.us/wp-content/uploads/2016/12/assembly-output-window.png)
 
 The output of the second step is the genome annotation. This output contains data about the genome as well as a list of contigs and the genes that were called on each contig. The data presented currently is based on the assembly with the highest N50 value; however, we are in the process of implementing better algorithms for making this choice. Notice that this output table has three tabs for reviewing the data: Overview, Browse Features, and Browse Contigs. You can sort table entries under these tabs by clicking on a column header to sort by that field \(e.g., Length\). Clicking the same column header again will reverse the sort order. You can even sort by more than one column simultaneously by clicking one column header and then Shift-clicking on others. To see more details about an entry under the Contigs and Genes tabs, click on the entry to open an expanded view of it:
 
-[![](http://kbase.us/wp-content/uploads/2015/02/ViewContig2.png)](http://kbase.us/wp-content/uploads/2015/02/ViewContig2.png)
+![](http://kbase.us/wp-content/uploads/2015/02/ViewContig2.png)
 
 **Step 4. Download the results**
 
