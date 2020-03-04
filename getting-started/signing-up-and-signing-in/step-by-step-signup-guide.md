@@ -42,7 +42,7 @@ Once you’ve checked both of the checkboxes, you will be able to click the blue
 
 6. You’re done–you now have a KBase account!  
   
-Click “Continue” and you’ll see your KBase Dashboard. You may want to take a look at the [Narrative Quick Start](https://kbase.us/narrative-quick-start/) or [other documentation](https://kbase.us/narrative-guide/) before you plunge headfirst into KBase.
+Click “Continue” and you’ll see your KBase Dashboard. You may want to take a look at the [Narrative Quick Start](../narrative-quick-start.md) or [other documentation](../narrative-user-guide/) before you plunge headfirst into KBase.
 
 ![](../../.gitbook/assets/screen-shot-2017-06-07-at-3.55.02-pm.png)
 

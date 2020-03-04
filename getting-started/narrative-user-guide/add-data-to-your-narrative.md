@@ -114,7 +114,7 @@ There are also several apps that import specific file types \(single- or paired-
 ## Importing files from your Staging Area to your KBase Narrative
 
 The files in your Staging Area are ready to import into your Narrative as KBase data objects that can be used in your analyses. \(You can think of a Narrative as a project or folder, which includes data that you will analyze, as well as results from those analyses.\)  
-To import a file from your Staging Area, choose a format \(data type\) from the pulldown menu to the right of the file’s age. \(You can find out more about KBase data types and accepted formats in the [Upload/Download Guide](../../working-with-data-1/data-upload-download-guide.md).\) Then click the “import” icon to the right of the format menu.
+To import a file from your Staging Area, choose a format \(data type\) from the pulldown menu to the right of the file’s age. \(You can find out more about KBase data types and accepted formats in the [Upload/Download Guide](../../working-with-data-1/data-upload-download-guide/).\) Then click the “import” icon to the right of the format menu.
 
 ![](../../.gitbook/assets/image11.png)
 
@@ -124,7 +124,7 @@ When you click the “import” icon, the data slideout slides shut and an Impor
 
 {% hint style="info" %}
 **Importing different types of data**  
-This example shows how to import GenBank data. Please see the [Upload/Download Guide](../../working-with-data-1/data-upload-download-guide.md) for detailed instructions for other supported data types.
+This example shows how to import GenBank data. Please see the [Upload/Download Guide](../../working-with-data-1/data-upload-download-guide/) for detailed instructions for other supported data types.
 {% endhint %}
 
 If the GenBank file came from a different source, use the pulldown menu to select it. You can change the output object name, if desired, and then click the Run button to start the import. When the import is done, you should see the message “Finished with success” near the top of the app cell, and some information about the app run.
@@ -145,7 +145,7 @@ Sometimes an import doesn’t work. One of the most common causes of failure is 
 
 ![](../../.gitbook/assets/image4.png)
 
-If the importer objected to something in your file, check the [Data Upload/Download guide](../../working-with-data-1/data-upload-download-guide.md) for details about the relevant format.  
+If the importer objected to something in your file, check the [Data Upload/Download guide](../../working-with-data-1/data-upload-download-guide/) for details about the relevant format.  
 In some cases, the cause of an import error will not be obvious. If you can’t figure out why your import isn’t working, please contact us \(via the Help Board\) for help. Note, however, that no one besides you has access to your Staging Area, so we will not be able to see the files you uploaded to your Staging Area. You may need to attach your input file to your Help Board ticket in order for us to diagnose the problem.
 
 ## Getting more information about files in your Staging Area

@@ -44,7 +44,7 @@ To load data to your Narrative, click the “Add Data” button, which can be fo
 
 You can choose a dataset already in KBase by selecting any of the first four tabs. The _Example_ tab, for instance, contains sample data from KBase’s reference data collection that can be used to try out the apps.
 
-The _Import_ tab allows you to upload your own data. KBase currently supports upload of a variety of data types. Please see the [Data Upload/Download Guide](../working-with-data-1/data-upload-download-guide.md) for more information.
+The _Import_ tab allows you to upload your own data. KBase currently supports upload of a variety of data types. Please see the [Data Upload/Download Guide](../working-with-data-1/data-upload-download-guide/) for more information.
 
 _**Note that any data you upload to KBase is private unless you choose to share it.**_
 
