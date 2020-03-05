@@ -2,7 +2,7 @@
 
 ## Contact Us
 
-The [KBase Help Board](https://kbase.us/help-board/) is a new, more interactive way for users \(and prospective users\) to report bugs, ask questions, or suggest new features, using an issue tracking system called Jira.[Sign in to Help Board](https://kbase-jira.atlassian.net/) or [Read instructions](https://kbase.us/help-board/)  
+The [KBase Help Board](https://kbase.us/help-board/) is a new, more interactive way for users \(and prospective users\) to report bugs, ask questions, or suggest new features, using an issue tracking system called Jira. [Sign in to Help Board](https://kbase-jira.atlassian.net/) or [Read instructions](https://kbase.us/help-board/)  
 
 
 Using the new Help Board, you’ll be able to:
