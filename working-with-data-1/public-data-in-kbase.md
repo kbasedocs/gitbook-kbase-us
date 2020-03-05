@@ -8,9 +8,9 @@ The table below represents the total number of different data objects imported f
 
 Please see [this page](https://kbase.us/data-policy-and-sources/) for KBase’s Data Policy and the sources of our public reference data.
 
-To search public data in KBase, use the [Public tab in the Data Slideout](https://kbase.us/narrative-guide/explore-data/) inside KBase’s Narrative Interface. A new data search interface is in development and will be launched in mid-2018.
+To search public data in KBase, use the [Public tab in the Data Slideout](../getting-started/narrative-user-guide/explore-data.md) inside KBase’s Narrative Interface. A new data search interface is in development and will be launched in mid-2018.
 
-If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [this page](https://kbase.us/transfer-jgi-data/) for instructions.  
+If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [this page](transferring-data-from-jgi.md) for instructions.  
 
 
 | Category | Data Type | Total number |
