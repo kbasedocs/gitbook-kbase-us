@@ -75,8 +75,3 @@
 * [KBase web site](https://kbase.us)
 * [KBase App Catalog](https://narrative.kbase.us/#appcatalog)
 
-## Temporary Pages
-
-* [FAQ: General](temporary-pages/faq-general.md)
-* [FAQs](temporary-pages/faqs.md)
-
