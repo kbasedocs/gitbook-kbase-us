@@ -63,6 +63,7 @@
   * [How to Report Issues](troubleshooting-1/how-to-report-issues.md)
   * [Sharing Your Narrative with KBase Support](troubleshooting-1/sharing-your-narrative-with-kbase-support.md)
   * [Help Board](troubleshooting-1/support.md)
+  * [Common Job Errors and Their Meaning](troubleshooting-1/common-job-errors-and-their-meaning.md)
   * [Copying Narratives](troubleshooting-1/copying-narratives.md)
 * [Developing Apps](developing-apps-1/README.md)
   * [Information for Developers](developing-apps-1/develop.md)
