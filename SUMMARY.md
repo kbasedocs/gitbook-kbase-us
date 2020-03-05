@@ -65,6 +65,7 @@
   * [Help Board](troubleshooting-1/support.md)
   * [Common Job Errors and Their Meaning](troubleshooting-1/common-job-errors-and-their-meaning.md)
   * [Copying Narratives](troubleshooting-1/copying-narratives.md)
+  * [Common Job Errors and Their Meaning](troubleshooting-1/common-job-errors-and-their-meaning-1.md)
 * [Developing Apps](developing-apps-1/README.md)
   * [Information for Developers](developing-apps-1/develop.md)
   * [The KBase SDK](developing-apps-1/the-kbase-sdk.md)
