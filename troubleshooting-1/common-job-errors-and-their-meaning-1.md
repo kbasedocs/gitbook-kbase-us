@@ -20,7 +20,7 @@ Some useful tips:
 * Assemblers currently have an upper limit of between 180,263,840 paired reads and 240,351,788 reads depending on complexity. If the job has been run twice, exceeded the 7 day limit, and your data is in this size range, it may be too big for KBase at this time.
 * Bowtie appears to have an upper limit between 3.5E+10 and 4.0E+10 bases. This appears to be due to not enough space at this time.
 * If asked for a job ID, it is a 24-digit hexadecimal number that looks similar to this: 5e1e3234e4b0fb2e6517240a. It is in the first line of the job log.
-* If asked for the node where the job ran, it is on the first line of the job log and looks similar to Running on chicagoawe163 or Running on uploadworker or Running on uploadworker-prod-dtn2
+* If asked for the node where the job ran, it is on the first line of the job log and looks similar to `Running on chicagoawe163` or `Running on uploadworker` or `Running on uploadworker-prod-dtn2`
 * Any file uploaded from a Windows machine might have  DOS-style carriage-return line files along with new-lines. This has been known to cause problems with importing FASTQ files \(described below\) and may affect other files as well.
 
 Some problems can be solved without looking at the job log and others may be harder to decipher. The errors with a known cause and known solution are identified in the table below.
