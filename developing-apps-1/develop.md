@@ -8,7 +8,7 @@ KBase is a scientific platform. A cornerstone of science is that scientific expe
 
 ### **Provenance**
 
-Provenance in the context of KBase explains how data comes to exist - the sequence of operations that transformed a set of units of data into a different set of units of data along with who caused those transformations to occur and when. Information on job performance and the error log should be considered part of the data produced. Accurate provenance enables many of the other KBase principles, including [reproducibility](https://docs.google.com/document/d/1A3qegwpnl_NgnHIjFkTdRGB6PndqPtD8MB0qc65Dwwk/edit#heading=h.b4ol0uz6l4jk) and [Credit where credit is due](https://app.gitbook.com/@kbase-us/s/kbase-documentation-1/~/drafts/-LsJ4kAmnJNIrtX0yt_3/primary/develop#credit-where-credit-is-due). Data without provenance is not useful, as there is no way to determine how the data was created and therefore assess the data’s reliability.
+Provenance in the context of KBase explains how data comes to exist - the sequence of operations that transformed a set of units of data into a different set of units of data along with who caused those transformations to occur and when. Information on job performance and the error log should be considered part of the data produced. Accurate provenance enables many of the other KBase principles, including reproducibility and Credit where credit is due. Data without provenance is not useful, as there is no way to determine how the data was created and therefore assess the data’s reliability.
 
 ### **Sharing and data privacy**
 
