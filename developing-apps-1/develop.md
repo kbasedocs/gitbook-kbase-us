@@ -78,14 +78,7 @@ The [KBase SDK](https://github.com/kbase/kb_sdk) offers members of the KBase com
 
 Above is a conceptual overview of KBase high-level architecture. KBase is based loosely on a service-oriented architecture that bundles related functionality into a set of independently scalable services that are managed to provide responsive interaction via the Narrative Interface.
 
-For more details, please see the KBase [architecture overview](https://github.com/kbase/KBaseDeveloperBootstrap/blob/master/README.md), which ****outlines the components and relationships between KBase’s user interfaces, services and databases.  
-
-
-SDK GitHub:
-
-Application:
-
-UWG/SFA Playbook:
+For more details, please see the KBase [architecture overview](https://github.com/kbase/KBaseDeveloperBootstrap/blob/master/README.md), which ****outlines the components and relationships between KBase’s user interfaces, services and databases.
 
 
 
