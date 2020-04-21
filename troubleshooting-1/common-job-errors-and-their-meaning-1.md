@@ -115,7 +115,7 @@ Types: **UE**=Probably user error or user fixable, **KE**=KBase error, **UK**=Un
       <td style="text-align:left">All apps</td>
       <td style="text-align:left">UK</td>
       <td style="text-align:left">Something went wrong with the reporting and cleanup at the end of the
-        job.</td>
+        job. Intermittent error. Resubmitting usually fixes it.</td>
       <td style="text-align:left">It is only necessary to resubmit if you need the report at the end. The
         data is fine. If an object was created, clicking on it in the data panel
         will create a viewer for the object (which is probably missing).</td>
@@ -161,6 +161,34 @@ Types: **UE**=Probably user error or user fixable, **KE**=KBase error, **UK**=Un
       <td style="text-align:left">TE</td>
       <td style="text-align:left">A known temporary error</td>
       <td style="text-align:left">Resubmit</td>
+    </tr>
+    <tr>
+      <td style="text-align:left">
+        <p>Gee whiz, I sure am sorry, but an error occurred. Gosh!......</p>
+        <p>Object 19 cannot be accessed
+          <br />
+        </p>
+      </td>
+      <td style="text-align:left">All apps</td>
+      <td style="text-align:left">UE</td>
+      <td style="text-align:left">User&#x2019;s browser cache is retaining old information. In your case,
+        that would be &apos;Object 19&apos;. One of the symptoms is, the user gets
+        the error but the narrative looks fine to everyone else.</td>
+      <td style="text-align:left">
+        <p>Try some of the following to see if they help:
+          <br />
+        </p>
+        <p>-Reload the page</p>
+        <p>-Close and reopen your narrative</p>
+        <p>-Log out and log back in again</p>
+        <p>-Clear your cache
+          <br />
+        </p>
+        <p>If you find something that works, you don&apos;t need to try the others.
+          <br
+          />
+        </p>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
@@ -257,7 +285,8 @@ Types: **UE**=Probably user error or user fixable, **KE**=KBase error, **UK**=Un
         </td>
         <td style="text-align:left">UE</td>
         <td style="text-align:left">The file does not appear to be in the expected SRA format</td>
-        <td style="text-align:left">Double check the file and try again</td>
+        <td style="text-align:left">Double check the file and try again. <b> </b>Resubmitting sometimes fixes
+          the problem.</td>
     </tr>
     <tr>
       <td style="text-align:left">Error running command:<b>pigz&#x2026;..</b>
@@ -313,11 +342,12 @@ Types: **UE**=Probably user error or user fixable, **KE**=KBase error, **UK**=Un
         <p>* The fastq file doesn&#x2019;t have the right number of lines. For example,
           the lines in a single-end file needs to be a multiple of four and interleaved
           paired-end library should be a multiple of eight.</p>
-        <p>* The file</p>
         <p>* The options haven&#x2019;t been selected correctly. For example, using
           an interleaved fastq file but failing to check the Interleaved box. The
           page <a href="http://kbase.us/data-upload-download-guide/short-reads/">http://kbase.us/data-upload-download-guide/short-reads/</a> might
           be helpful here.</p>
+        <p>* The file might not have the right filename to be recognized.</p>
+        <p>* The file is really an SRA file and not FASTQ</p>
         <p>* DOS-style carriage-return line files along with new-lines. Our fasta
           validation doesn&#x2019;t handle this properly. To remove the carriage
           return characters use can this unix command</p>
@@ -704,11 +734,14 @@ Types: **UE**=Probably user error or user fixable, **KE**=KBase error, **UK**=Un
         <td style="text-align:left">Go back to the previous step and use a genome as input.</td>
     </tr>
     <tr>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
-      <td style="text-align:left"></td>
+      <td style="text-align:left">coercing to unicode: need string or buffer</td>
+      <td style="text-align:left"><a href="https://narrative.kbase.us/#catalog/apps/kb_stringtie/run_stringtie/">Assemble with StringTie</a>
+      </td>
+      <td style="text-align:left">KE</td>
+      <td style="text-align:left">genome related issue with some of the NCBI RefSeq genomes</td>
+      <td style="text-align:left">Workaround: import the GFF-format genome with correct feature annotations
+        and run the analysis agai. See <a href="https://kbase-jira.atlassian.net/browse/PUBLIC-969">https://kbase-jira.atlassian.net/browse/PUBLIC-969</a>
+      </td>
     </tr>
     <tr>
       <td style="text-align:left"></td>
@@ -944,6 +977,15 @@ Types: **UE**=Probably user error or user fixable, **KE**=KBase error, **UK**=Un
             Either RAST or Prokka annotation will work.</td>
     </tr>
     <tr>
+      <td style="text-align:left">float division by zero</td>
+      <td style="text-align:left"><a href="https://narrative.kbase.us/#catalog/apps/kb_phylogenomics/view_pan_phylo/">Phylogenetic Pangenome Accumulation</a>
+      </td>
+      <td style="text-align:left">UE</td>
+      <td style="text-align:left">The app will fail with this message if there are only 2 genomes in the
+        pangenome.</td>
+      <td style="text-align:left">Try running the app with 3 or more genomes.</td>
+    </tr>
+    <tr>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
       <td style="text-align:left"></td>
@@ -1049,7 +1091,7 @@ Types: **UE**=Probably user error or user fixable, **KE**=KBase error, **UK**=Un
       <td style="text-align:left">UE</td>
       <td style="text-align:left">There are two input options and one of them must be selected.</td>
       <td
-      style="text-align:left">Add a input and resubmit.</td>
+      style="text-align:left">Add another input and resubmit.</td>
     </tr>
     <tr>
       <td style="text-align:left">Cannot write data to fasta</td>
