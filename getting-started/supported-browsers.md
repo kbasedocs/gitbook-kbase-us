@@ -45,7 +45,7 @@ Some ad-blockers and browser extensions may cause errors within the Narrative In
 
 ### Mobile Browsers
 
-KBase is currently not supported on mobile browsers. The KBase web site and services should work with tablet browsers on iPad and Android devices in landscape orientation, but we do not currently test on these platforms so there may be compatibility issues. Watch for future updates as KBase goes responsive and mobile.
+KBase is currently not supported on mobile browsers. The KBase website and services should work with tablet browsers on iPad and Android devices in landscape orientation, but we do not currently test on these platforms so there may be compatibility issues. Watch for future updates as KBase goes responsive and mobile.
 
 ### Installation of Supported Browsers
 

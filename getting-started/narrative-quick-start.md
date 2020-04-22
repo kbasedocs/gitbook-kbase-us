@@ -65,23 +65,23 @@ Don’t forget to periodically save your Narrative by clicking the “Save” bu
 
 ### \*\*\*\*![](../.gitbook/assets/app-panel-open.png) 
 
-Once you have added data to your Narrative, you can analyze it using one or more of the KBase apps listed in the Apps panel below your data.
+Once you have added data to your Narrative, you can analyze it using one or more of the KBase Apps listed in the Apps panel below your data.
 
-There are options for filtering by category, name, input type, and more. You can designate apps you like as favorites using the star icon.
+There are options for filtering by category, name, input type, and more. You can designate Apps you like as favorites using the star icon.
 
-To add an app to your Narrative from the App Panel, click on its name or icon. You can get more information about an app by hovering over it in the App Panel until a “…” appears.
+To add an App to your Narrative from the App Panel, click on its name or icon. You can get more information about an app by hovering over it in the App Panel until an “…” appears.
 
 ### **Step 7. Run the App**
 
-Fill in all the required fields in your app. Note that some app fields are “smart” and know which data in your Narrative are valid input for those fields. These “smart” fields have a pulldown list of all the data objects from your Data Panel that you can choose from as input.
+Fill in all the required fields in your App. Note that some App fields are “smart” and know which data in your Narrative are valid input for those fields. These “smart” fields have a pulldown list of all the data objects from your Data Panel that you can choose from as input.
 
 ![](../.gitbook/assets/quickstart-app.png)
 
-When all required fields have been filled out, click the green “Run” button near the top left of the app cell to start the analysis.
+When all required fields have been filled out, click the green “Run” button near the top left of the App cell to start the analysis.
 
-While the analysis is running, you will see the progress in the Job Status tab of the app box. When it finishes, the results will show up in the Result tab.
+While the analysis is running, you will see the progress in the Job Status tab of the App box. When it finishes, the results will show up in the Result tab.
 
-Please see [the KBase Apps section of the Narrative Interface User Guide](narrative-user-guide/analyze-data-using-kbase-apps.md) for more details on running apps.
+Please see [the KBase Apps section of the Narrative Interface User Guide](narrative-user-guide/analyze-data-using-kbase-apps.md) for more details on running Apps.
 
 ### **Step 8. Share your Narrative**
 
