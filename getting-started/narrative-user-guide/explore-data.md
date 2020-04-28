@@ -44,7 +44,8 @@ The Data Panel shows all the data that you’ve added to your Narrative. \(The [
 
 You should have at least one object \(Vibrio brasiliensis LMG 20546\) in your Data Panel. As you add or generate more data during the course of your analyses, the number of objects in this panel will increase. You can search, sort, or filter the list using the icons in the Data Panel header.
 
-![](../../.gitbook/assets/assets-lres-tqcrledlhbwqs-lvn_mpksnct1wpfepdt-lvnxhwckqdrazzylz_4-screen-shot-2017-01-30-at-12.01.44.png)  
+![](../../.gitbook/assets/assets-lres-tqcrledlhbwqs-lvn_mpksnct1wpfepdt-lvnxhwckqdrazzylz_4-screen-shot-2017-01-30-at-12.01.44.png)
+
 You can access more details about a particular data object by hovering over the object and clicking the ” . . .” that appears to its right.
 
 This expanded view of the data object also reveals icons that let you examine or manage the data.
@@ -74,14 +75,13 @@ Notice that this genome viewer has tabs for an overview \(including GC content, 
 
 **Sorting table entries in the viewer**
 
-You can sort the table entries by clicking on a column header to sort by that field \(e.g., Length\). Clicking the same column header again will reverse the sort order. For example, the screenshots below show the table sorted in descending order by Contig name and then in descending order by length:  
-![Screen Shot 2015-02-09 at 12.48.23 PM](../../.gitbook/assets/screen-shot-2015-02-09-at-12.48.23-pm.png)
+You can sort the table entries by clicking on a column header to sort by that field \(e.g., Length\). Clicking the same column header again will reverse the sort order. For example, the screenshots below show the table sorted in descending order by Contig name and then in descending order by length:
 
-![Screen Shot 2015-02-09 at 12.48.36 PM](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2015-02-09-at-12.48.36-PM.png)
+![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2015-02-09-at-12.48.36-PM.png)
 
 You can even sort by more than one column at a time by clicking one column header and then Shift-clicking other column headers. For example, here we have sorted in ascending order by contig length, and then \(by shift-clicking the Genes column header\) in ascending or descending order by number of genes. Notice how the two rows with length=253 \(the bottom two, in these screenshots\) have switched places.
 
-![](../../.gitbook/assets/screen-shot-2015-02-09-at-12.49.05-pm-e1423803707173.png)![](../../.gitbook/assets/screen-shot-2015-02-09-at-12.49.21-pm-e1423803657964.png)
+![](../../.gitbook/assets/screen-shot-2015-02-09-at-12.49.05-pm-e1423803707173.png)
 
 There are many other types of viewers in KBase in addition to the Genome viewer discussed here. \(Documentation on these other viewers is coming soon.\) Different viewers may have different options; give them a whirl! Don’t be afraid to click on anything you see in a viewer.
 
@@ -91,7 +91,7 @@ To remove a viewer from your Narrative, click the trashcan icon in the top right
 
 Data Landing \(also known as Data Summary\) and Provenance pages are ways to find out even more information about a data object. You can access these pages using the icons that appear when you hover over a data object in the Data Browser or click on one of the objects in your Data Panel. The binoculars icon opens \(in a new browser tab\) a Data Landing page about that particular data object, while the graph-like icon opens a Provenance page.
 
-**Data Landing pages** \(which are still in development\) provide both known and contextual information about a data object, allowing users to examine various particulars about the data and, eventually, compare it to other data objects. Depending on the type of data and where it came from, different sorts of information might be presented. For example, for a genome already in KBase \(such as the one we loaded earlier, [Vibrio brasilensis LMG 20546](https://narrative.kbase.us#dataview/KBasePublicGenomesV4/kb%7Cg.3791)\), you will see:
+**Data Landing pages** \(which are still in development\) provide both known and contextual information about a data object, allowing users to examine various particulars about the data and, eventually, compare it to other data objects. Depending on the type of data and where it came from, different sorts of information might be presented. For example, for a genome already in KBase \(such as the one we loaded earlier, [Vibrio brasiliensis LMG 20546](https://narrative.kbase.us#dataview/KBasePublicGenomesV4/kb%7Cg.3791)\), you will see:
 
 * A data object summary
 * A data provenance and reference network \(collapsed by default; open it by clicking the &gt; on the left\)

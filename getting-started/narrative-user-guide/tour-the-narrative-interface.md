@@ -57,7 +57,7 @@ Before adding data and analysis steps to your Narrative, take some time to explo
 
 **13. Markdown cell** — Use [Markdown language](https://blog.ghost.org/markdown/) to add rich text commentary and graphics to your Narrative.
 
-**14.** App cell — There are several types of cells, including those displaying app inputs and outputs, text and commentary, and code cells for writing custom scripts. The cell controls are at the top right of each cell.
+**14.** **App cell** — There are several types of cells, including those displaying app inputs and outputs, text and commentary, and code cells for writing custom scripts. The cell controls are at the top right of each cell.
 
 **15.** **Markdown and code cell buttons** — Click to add these types of cells to your Narrative. Stay tuned for more documentation on how to use code cells in the future!
 

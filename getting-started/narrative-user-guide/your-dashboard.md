@@ -11,7 +11,10 @@ After signing into the Narrative Interface, you will be taken to your Dashboard,
 * There are four panels for exploring and locating existing Narratives: **Your Narratives, Tutorial Narratives, Narratives Shared with You, and Public Narratives.**
 * The most recently modified Narratives appear first in the panels.
 * Click on any Narrative name to open it.
-* Icons under a name indicate which apps the Narrative includes, how many markdown and code cells it contains, the number of times the Narrative has been shared, whether there are any running jobs, total running time for all completed jobs, and more.[![Screen Shot 2016-03-10 at 9.40.28 PM](../../.gitbook/assets/narrative1.png)](https://kbase.us/wp-content/uploads/2015/02/Narrative1.png) 
+* Icons under a name indicate which apps the Narrative includes, how many markdown and code cells it contains, the number of times the Narrative has been shared, whether there are any running jobs, total running time for all completed jobs, and more.
+
+.[![Screen Shot 2016-03-10 at 9.40.28 PM](../../.gitbook/assets/narrative1.png)](https://kbase.us/wp-content/uploads/2015/02/Narrative1.png) 
+
 * You can use the search box at the top of each panel to find a particular Narrative within that category.
 * In the **Your Narratives** panel, you can click the blue button at the top to create a new Narrative.
 
@@ -32,7 +35,7 @@ Note that **Public Narratives** have not necessarily been reviewed or tested by 
 
 The Dashboard offers many launch points. To the left of the **Your Narratives** panel you will see five icons allowing you to toggle between the **Dashboard**, **Catalog**, **Search**, **Jobs**, and **Account** tabs.
 
-![](../../.gitbook/assets/side-bar-toggle.png)
+![](../../.gitbook/assets/kbasedashboard%20%281%29.png)
 
 **Dashboard**
 
@@ -44,7 +47,7 @@ The Dashboard offers many launch points. To the left of the **Your Narratives** 
 
 **Search**
 
-* The **Data Search** tab \(still in beta\) gives you the ability to search JGI data as well as KBase user and reference data.
+* The **Data Search** tab gives you the ability to search JGI data as well as KBase user and reference data.
 * It allows you to search for data present in your own Narratives, those shared with you, and those made public by their owners.
 * It also enables you to search for reads and assemblies contained in the Joint Genome Institute \(JGI\) Genomes Online Database \(GOLD\) and add them directly to your Narratives.
 
@@ -64,11 +67,13 @@ The Dashboard offers many launch points. To the left of the **Your Narratives** 
 
 The top-level menu \(accessed by clicking the three small horizontal lines on the upper left of the window\) offers additional possibilities:
 
-[![](../../.gitbook/assets/toplevel2.png)](https://kbase.us/wp-content/uploads/2015/02/TopLevel2.png)
+![](../../.gitbook/assets/kbasetoplevelmenu.png)
 
 _Narrative Interface_ goes to the main Narrative Interface, which allows you to create, edit, run, and share Narratives.
 
 _JGI Search_ goes to the [Data Search](https://narrative.kbase.us/#jgi-search?q=) tab that can also be reached by the Search icon in the side bar.
+
+_Biochem Search_ goes to the Compound and Reaction tabs. 
 
 _About_ goes to [a page that describes the KBase system](https://kbase.us/what-is-kbase/).
 

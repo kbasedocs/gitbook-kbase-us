@@ -14,8 +14,7 @@ The first four tabs of the data slideout \(“My Data”, “Shared With Me”, 
 * The **My Data** tab shows data objects that you have added to your project. You may need to refresh this tab to see your most recently added data.
 * The **Shared With Me** and **Public** tabs display datasets that others have loaded and made accessible to you \(or to everyone\). Data within each group is searchable and can be filtered. Since there are a large number of public datasets, you may wish to filter them by data type \(using the pulldown selector on the left\) or narrow the list by searching \(in the “Search data” text box\) for specific text in the data objects’ names.
 * The **Example** tab shows datasets that have been pre-loaded for use with particular apps. These can be handy for trying out the Narrative Interface.
-* The tab that’s labeled Import is the legacy importer that will soon be retired. Please use the new import tab \(see next bullet point\) instead.
-* Finally, the **new Import** tab allows you to upload your own datasets for analysis. \(This capability is still under development.\) This is explained in more detail below.
+* Finally, the **Import** tab allows you to upload your own datasets for analysis. This is explained in more detail below.
 
 ## Data available in KBase
 
@@ -31,11 +30,11 @@ As described in the previous section, the Add button next to these icons lets yo
 
 ## Uploading data from external sources
 
-The new \(early 2018\) Import tab lets you drag & drop data from your computer into your Staging Area to import into your Narrative, where you can then analyze it using KBase’s analysis apps.
+The Import tab lets you drag & drop data from your computer into your Staging Area to import into your Narrative, where you can then analyze it using KBase’s analysis apps.
 
 ![](../../.gitbook/assets/image7.png)
 
-To upload data from your computer \(or a [Globus endpoint](../../working-with-data-1/transferring-data-with-globus.md) or URL\), choose the rightmost tab of the data slideout to open the new Import tab.
+To upload data from your computer \(or a [Globus endpoint](../../working-with-data-1/transferring-data-with-globus.md) or URL\), choose the rightmost tab of the data slide-out to open the Import tab.
 
 You can then click the “?” button just below the drop zone to launch a short interactive tour that shows the different parts of this user interface.
 
@@ -114,11 +113,11 @@ There are also several apps that import specific file types \(single- or paired-
 ## Importing files from your Staging Area to your KBase Narrative
 
 The files in your Staging Area are ready to import into your Narrative as KBase data objects that can be used in your analyses. \(You can think of a Narrative as a project or folder, which includes data that you will analyze, as well as results from those analyses.\)  
-To import a file from your Staging Area, choose a format \(data type\) from the pulldown menu to the right of the file’s age. \(You can find out more about KBase data types and accepted formats in the [Upload/Download Guide](../../working-with-data-1/data-upload-download-guide/).\) Then click the “import” icon to the right of the format menu.
+To import a file from your Staging Area, choose a format \(data type\) from the pulldown menu to the right of the file’s age. \(You can find out more about KBase data types and accepted formats in the [Upload/Download Guide](../../working-with-data-1/data-upload-download-guide/).\) Then click the “-mport” icon to the right of the format menu.
 
 ![](../../.gitbook/assets/image11.png)
 
-When you click the “import” icon, the data slideout slides shut and an Import app cell \(tailored to the chosen format\) is created in your Narrative, with the appropriate parameters filled in. For example, here’s an import app created by choosing “GenBank” as the import format:
+When you click the “import” icon, the data slide-out slides shut and an Import app cell \(tailored to the chosen format\) is created in your Narrative, with the appropriate parameters filled in. For example, here’s an import app created by choosing “GenBank” as the import format:
 
 ![](../../.gitbook/assets/image6.png)
 
@@ -146,11 +145,11 @@ Sometimes an import doesn’t work. One of the most common causes of failure is 
 ![](../../.gitbook/assets/image4.png)
 
 If the importer objected to something in your file, check the [Data Upload/Download guide](../../working-with-data-1/data-upload-download-guide/) for details about the relevant format.  
-In some cases, the cause of an import error will not be obvious. If you can’t figure out why your import isn’t working, please contact us \(via the Help Board\) for help. Note, however, that no one besides you has access to your Staging Area, so we will not be able to see the files you uploaded to your Staging Area. You may need to attach your input file to your Help Board ticket in order for us to diagnose the problem.
+In some cases, the cause of an import error will not be obvious. If you can’t figure out why your import isn’t working, please contact us \(via the [Help Board](https://kbase.us/help-board/)\) for help. Note, however, that no one besides you has access to your Staging Area, so we will not be able to see the files you uploaded to your Staging Area. You may need to attach your input file to your Help Board ticket in order for us to diagnose the problem.
 
 ## Getting more information about files in your Staging Area
 
-The list of files in your Staging Area includes their name, size, and age \(when they were uploaded\). If you have a lot of files in your Staging Area, you may want to use the Search box to locate specific files.
+The list of files in your Staging Area includes their name, size, and age \(from when they were uploaded\). If you have a lot of files in your Staging Area, you may want to use the Search box to locate specific files.
 
 ![](../../.gitbook/assets/image21.png)
 
