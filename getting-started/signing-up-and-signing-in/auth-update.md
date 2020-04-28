@@ -14,18 +14,18 @@ If you already had a KBase account prior to June 9, 2017, then the first time yo
 
 When you go to [KBase](https://narrative.kbase.us/) to sign in, you will see this:
 
-![](../../.gitbook/assets/image2.png)
+![](../../.gitbook/assets/kbasesignin%20%281%29.png)
 
-Click the Sign In button below “Use KBase” \(circled in red above\), and more options will appear:
+Click the Sign In button below “Use KBase” and more options will appear:
 
-![](../../.gitbook/assets/screen-shot-2017-05-31-at-4.24.02-pm.png)
+![](../../.gitbook/assets/kbasesignin%20%284%29.gif)
 
 **Sign in using Globus**.  Globus is the home of the existing KBase user accounts, and your Globus ID is your KBase ID.
 
 When you click “Sign in with Globus”, a Globus page will open:  
 
 
-![](../../.gitbook/assets/screen-shot-2017-06-12-at-10.19.46-am.png)
+![](../../.gitbook/assets/kbaseglobuslogin.gif)
 
 Click Continue. You will reach another page at Globus, requesting your Globus username and password \(remember, this is just your existing KBase account\).  
   
@@ -57,21 +57,27 @@ The first time you sign into KBase after the authentication change, you will nee
 
 1. Go to [narrative.kbase.us](https://narrative.kbase.us/)
 
-![](../../.gitbook/assets/image2-1.png)
+![](../../.gitbook/assets/kbasesignin.png)
 
-2. Click the Sign In button below “Use KBase” \(circled in red above\), and more options will appear:
+2. Click the Sign In button below “Use KBase” and more options will appear:
 
-![](../../.gitbook/assets/assets-lres-tqcrledlhbwqs-lvn_mpksnct1wpfepdt-lvnpgrcwuybadesj4o9-assets-lres-tqcrledlhbwqs-lvn_mpks.png)
+![](../../.gitbook/assets/kbasesignin%20%287%29.gif)
 
-3. Click “Sign in with Globus”. Most of the time, you will not need to sign into Globus again \(as it will remember you\), so you  
-will see a screen like this:  
+3. Click “Sign in with Globus”. 
 
+![](../../.gitbook/assets/kbaseglobussignin%20%284%29.gif)
+
+Most of the time, you will not need to sign into Globus again \(as it will remember you\), so you will see a screen like this:
 
 ![](../../.gitbook/assets/screen-shot-2017-06-07-at-10.21.16-am.png)
 
 4. Click the blue button at the bottom that says “Sign in to KBase account \[username\]” and you will be at your KBase dashboard!
 
-Note that if you had signed out completely from Globus after the last time you used KBase, you might have to go through two extra steps to sign in to Globus.
+Note that if you had signed out completely from Globus after the last time you used KBase, you might have to go through two extra steps to sign in to Globus. Click "Continue" and then proceed to enter Globus Log In information. 
+
+![](../../.gitbook/assets/kbaseglobuslogin%20%281%29.gif)
+
+
 
 If you encounter any difficulties or have any questions, please feel free to [contact us](https://kbase.us/contact-us/)!
 
@@ -79,38 +85,65 @@ If you encounter any difficulties or have any questions, please feel free to [co
 
 If you have a Google \(gmail\) account, you can link it to your KBase account.
 
-To do this, **you must first sign in to KBase with your Globus account** \(which is the same as your existing KBase account–see above\). If you are not already signed in to KBase, go to the [sign-in page](https://narrative.kbase.us/), click the Sign In button, and ignore the tempting “Sign in with Google” button. Click “Sign in with Globus.”  
-  
-Go through the normal Globus sign-in process until you get to your Dashboard.
+To do this, **you must first sign in to KBase with your Globus account** \(which is the same as your existing KBase account–see above\). If you are not already signed in to KBase, go to the [sign-in page](https://narrative.kbase.us/), click the Sign In button, and ignore the tempting “Sign in with Google” button. Click “Sign in with Globus.”
 
-![](../../.gitbook/assets/assets-lres-tqcrledlhbwqs-lvn_mpksnct1wpfepdt-lvnpgrcwuybadesj4o9-assets-lres-tqcrledlhbwqs-lvn_mpks.png)
+![](../../.gitbook/assets/usekbase_signinwithglobus%20%283%29.png)
+
+Go through the normal Globus sign-in process until you get to your Dashboard.
 
 On the left sidebar of your dashboard, click the “Account” icon, and then choose the tab labeled “Linked Sign-In Accounts”.
 
-![](../../.gitbook/assets/assets-lres-tqcrledlhbwqs-lvn_mpksnct1wpfepdt-lvnpwagdxymrvrf7k8p-link-google3.6-1.png)
+![](../../.gitbook/assets/kbaselinkaccounts%20%281%29.gif)
 
-At the bottom of the tab, choose “Google” from the pulldown list of identity providers, and then click the “Link” button. The next screen will prompt you to choose a Google account to link \(some people have more than one\).  
-![](../../.gitbook/assets/screen-shot-2017-06-06-at-2.12.28-pm-1.png)
+At the bottom of the tab, choose “Google” from the pulldown list of identity providers.
+
+![](../../.gitbook/assets/linkedaccounts_signin-with-google.png)
+
+Then click the “Link” button. The next screen will prompt you to choose a Google account to link \(some people have more than one\).
+
+![](../../.gitbook/assets/googlechooseanaccount%20%281%29.png)
 
 You are now ready to link your Google account to your KBase account.
 
 ![](../../.gitbook/assets/screen-shot-2017-06-06-at-3.38.59-pm.png)
 
-After you click that Link button, you will be returned to the Linked Sign-in Accounts screen in your Dashboard, where you will see your newly linked Google account.  
-
-
-![](../../.gitbook/assets/screen-shot-2017-06-06-at-3.39.22-pm.png)
+After you click that Link button, you will be returned to the Linked Sign-in Accounts screen in your Dashboard, where you will see your newly linked Google account.
 
 ### The next time you sign in with your Google credentials
 
-In the future, when you want to sign in to KBase, you can use the “Sign in with Google” button.  
-  
-This will bring you straight to the “Choose an account” Google page:  
-[![](../../.gitbook/assets/screen-shot-2017-06-06-at-2.12.28-pm-1.png)](https://kbase.us/wp-content/uploads/2017/04/Screen-Shot-2017-06-06-at-2.12.28-PM.png)
+In the future, when you want to sign in to KBase, you can use the “Sign in with Google” button.
 
-![](../../.gitbook/assets/screen-shot-2017-06-06-at-3.44.01-pm.png)
+![](../../.gitbook/assets/kbasegooglesignin%20%282%29.gif)
+
+This will bring you straight to the “Choose an account” Google page:
+
+![](../../.gitbook/assets/googlechooseanaccount.png)
 
 After you choose a Google account, you’ll be signed in to KBase! \(Note that if you had signed out of that Google account, you will be directed to sign into it again before you get to your KBase dashboard.\)
 
 We hope you appreciate the convenience of being able to sign in to KBase with your Google credentials. If you encounter any difficulties or have any questions, please feel free to [contact us](https://kbase.us/contact-us/)!
+
+### Linking your ORCiD account to your KBase account
+
+If you have an ORCiD account, you can also link it to your KBase account.
+
+To do this, **you must first sign in to KBase through your Globus or Google accounts** \(which is the same as your existing KBase account–see above\). If you are not already signed in to KBase, go to the [sign-in page](https://narrative.kbase.us/), click the Sign In button, and click either “Sign in with Google”  or “Sign in with Globus” buttons.   
+  
+Go through the normal sign-in process until you get to your Dashboard.
+
+On the left sidebar of your dashboard, click the “Account” icon, and then choose the tab labeled “Linked Sign-In Accounts”.
+
+![](../../.gitbook/assets/kbaselinkaccounts%20%282%29.gif)
+
+At the bottom of the tab, choose “ORCiD” from the pulldown list of identity providers, and then click the “Link” button. The next screen will prompt you to Sign into your ORCiD account to link.
+
+![](../../.gitbook/assets/orcidlogin.png)
+
+After you click that Link button, you will be returned to the Linked Sign-in Accounts screen in your Dashboard, where you will see your newly linked ORCiD account.
+
+You can then Sign In to KBase using your ORCiD account. 
+
+![](../../.gitbook/assets/kbase_orcid.gif)
+
+We hope you appreciate the convenience of being able to sign in to KBase with your ORCiD credentials. If you encounter any difficulties or have any questions, please feel free to [contact us](https://kbase.us/contact-us/)!
 
