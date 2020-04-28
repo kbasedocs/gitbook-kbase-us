@@ -15,7 +15,7 @@ A few things to notice about the app cell:
 
   ![Screen Shot 2017-02-01 at 12.56.50 PM](../../.gitbook/assets/screen-shot-2017-02-01-at-12.56.50-pm.png)
 
-* The “…” menu offers several options for collapsing/expanding the cell; showing the code that will execute the app; getting more info \(in a separate browser window\) about the app; and deleting the cell. These are discussed more in the section called “[Revise Your Narrative](revise-your-narrative.md)“.
+* The “…” dropdown menu offers several options for collapsing/expanding the cell; showing the code that will execute the app; getting more info \(in a separate browser window\) about the app; and deleting the cell. These are discussed more in the section called “[Revise Your Narrative](revise-your-narrative.md)“.
 * Every app has some parameters \(fields\) that must be filled in before you can run the app.
 
 ## Fill in parameters
