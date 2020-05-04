@@ -1,6 +1,6 @@
 # Authentication Update
 
-On June 9, 2017, KBase switched to a new system for signing up and signing in to KBase that simplified the process for new users. If you already have a KBase account, you will navigate through Globus’s new authentication process the first time you sign on to convert your existing account to the new system. After going through the conversion, you’ll be able to sign into KBase with your existing account or your Google account, if you choose to link it to your KBase account.
+On June 9, 2017, KBase switched to a new system for signing up and signing in to KBase that simplified the process for new users. If you already have a KBase account, you will navigate through Globus’s authentication process the first time you sign on to convert your existing account to the new system. After going through the conversion, you’ll be able to sign in to KBase with your existing account or your Google account, if you choose to link your KBase account.
 
 {% hint style="info" %}
 ### New users: creating a new KBase account
@@ -10,30 +10,30 @@ You can safely ignore the information on this page. For details about setting up
 
 ### Transitioning an existing KBase account
 
-If you already had a KBase account prior to June 9, 2017, then the first time you want to sign into KBase after the authentication change, you will need to go through a few steps to convert your existing KBase \(Globus\) account. To see what you’ll need to do, please watch the video and/or continue reading below.
+If you already had a KBase account prior to June 9, 2017, then the first time you want to sign into KBase after the authentication change, you will need to go through a few steps to convert your existing KBase \(through Globus\) account. To see what you’ll need to do, you can watch the video and continue reading below.
 
 When you go to [KBase](https://narrative.kbase.us/) to sign in, you will see this:
 
 ![](../../.gitbook/assets/kbasesignin%20%281%29.png)
 
-Click the Sign In button below “Use KBase” and more options will appear:
+Click the Sign In button below “Use KBase” and sign-in options will appear:
 
 ![](../../.gitbook/assets/kbasesignin%20%284%29.gif)
 
-**Sign in using Globus**.  Globus is the home of the existing KBase user accounts, and your Globus ID is your KBase ID.
+**Sign in using Globus**. Globus is the home of the existing KBase user accounts, and your Globus ID is your KBase ID.
 
-When you click “Sign in with Globus”, a Globus page will open:  
+When you click “Sign in with Globus”, a page to Log in with your Globus credentials will open:  
 
 
 ![](../../.gitbook/assets/kbaseglobuslogin.gif)
 
-Click Continue. You will reach another page at Globus, requesting your Globus username and password \(remember, this is just your existing KBase account\).  
+Click Continue. You will reach another page at Globus, requesting your Globus username and password \(remember, this is the same as your existing KBase account\).  
   
-Enter your usual KBase username and password. Your username is not your email address–it should not contain an “@” sign. **If you forgot your password, use the “Forgot password?” link at the lower right.**
+Enter your usual KBase username and password. Your username is not your email address – it should not contain an “@” sign. **If you forgot your password, use the “Forgot password?” link at the lower right.**
 
 ![](../../.gitbook/assets/image3.png)
 
-After entering your username and password, click the “Log In” button. You will be taken to a page where KBase requests access to your email address and Globus identities. Click the blue “Allow” button. We won’t share your email address or personal information with anyone outside KBase.
+After entering your username and password, click the “Log In” button. You will be taken to a page where KBase requests access to your email address and Globus identities. Click the blue “Allow” button. We won’t share your email address or personal information outside of KBase.
 
 ![](../../.gitbook/assets/image12.png)
 
@@ -47,13 +47,13 @@ Once you’ve checked both of the checkboxes, you will be able to click the blue
 
 ![](../../.gitbook/assets/screen-shot-2017-05-31-at-4.26.30-pm.png)
 
-Once you click that Continue button, you’re done–you should see your KBase dashboard!
+Once you click that Continue button, you’re done – you should see your KBase Dashboard. 
 
-Note that the system changes mean that your profile may look a bit bare-bones. Please fill in the information in your profile when you get a chance, and choose or upload a new avatar if you like.
+Note – the system changes mean that your profile may look a bit bare-bones. Please fill in the information in your profile when you get a chance, and choose or upload a new avatar if you like.
 
 ### The next time you sign in with your Globus account
 
-The first time you sign into KBase after the authentication change, you will need to go through all the steps described above. Subsequently, if you choose to sign in using your Google credentials, the process will look like this:
+The first time you sign into KBase after the authentication change, you will need to go through all the steps described above. Subsequently, if you choose to sign-in using your Google credentials, the process will look like this:
 
 1. Go to [narrative.kbase.us](https://narrative.kbase.us/)
 
@@ -67,25 +67,25 @@ The first time you sign into KBase after the authentication change, you will nee
 
 ![](../../.gitbook/assets/kbaseglobussignin%20%284%29.gif)
 
-Most of the time, you will not need to sign into Globus again \(as it will remember you\), so you will see a screen like this:
+Most of the time, you will not need to sign into Globus \(as it will remember you unless you sign out of KBase\), so you will see a screen like this:
 
 ![](../../.gitbook/assets/screen-shot-2017-06-07-at-10.21.16-am.png)
 
 4. Click the blue button at the bottom that says “Sign in to KBase account \[username\]” and you will be at your KBase dashboard!
 
-Note that if you had signed out completely from Globus after the last time you used KBase, you might have to go through two extra steps to sign in to Globus. Click "Continue" and then proceed to enter Globus Log In information. 
+Note that if you had signed out completely from Globus after the last time you used KBase, you might have to go through two extra steps to sign-in to Globus. Click "Continue" and then proceed to enter Globus Log in information. 
 
 ![](../../.gitbook/assets/kbaseglobuslogin%20%281%29.gif)
 
 
 
-If you encounter any difficulties or have any questions, please feel free to [contact us](https://kbase.us/contact-us/)!
+If you encounter any difficulties or have any questions, please feel free to [contact us](https://kbase.us/contact-us/). 
 
 ### Linking your Google account to your KBase account
 
 If you have a Google \(gmail\) account, you can link it to your KBase account.
 
-To do this, **you must first sign in to KBase with your Globus account** \(which is the same as your existing KBase account–see above\). If you are not already signed in to KBase, go to the [sign-in page](https://narrative.kbase.us/), click the Sign In button, and ignore the tempting “Sign in with Google” button. Click “Sign in with Globus.”
+To do this, **you must first sign in to KBase with your Globus account** \(which is the same as your existing KBase account – see above\). If you are not already signed in to KBase, go to the [sign-in page](https://narrative.kbase.us/), click the Sign In button. Click “Sign in with Globus” to sign in with your current account information.
 
 ![](../../.gitbook/assets/usekbase_signinwithglobus%20%283%29.png)
 
@@ -111,7 +111,7 @@ After you click that Link button, you will be returned to the Linked Sign-in Acc
 
 ### The next time you sign in with your Google credentials
 
-In the future, when you want to sign in to KBase, you can use the “Sign in with Google” button.
+Now when you want to sign in to KBase, you can also use the “Sign in with Google” button.
 
 ![](../../.gitbook/assets/kbasegooglesignin%20%282%29.gif)
 
@@ -119,9 +119,9 @@ This will bring you straight to the “Choose an account” Google page:
 
 ![](../../.gitbook/assets/googlechooseanaccount.png)
 
-After you choose a Google account, you’ll be signed in to KBase! \(Note that if you had signed out of that Google account, you will be directed to sign into it again before you get to your KBase dashboard.\)
+After you choose your linked Google account, you’ll be signed in to KBase! \(Note that if you had signed out of that Google account, you will be directed to sign into it again before you get to your KBase dashboard.\)
 
-We hope you appreciate the convenience of being able to sign in to KBase with your Google credentials. If you encounter any difficulties or have any questions, please feel free to [contact us](https://kbase.us/contact-us/)!
+We hope you appreciate the convenience of being able to sign-in to KBase with your Google credentials. If you encounter any difficulties or have any questions, please feel free to [contact us](https://kbase.us/contact-us/)!
 
 ### Linking your ORCiD account to your KBase account
 

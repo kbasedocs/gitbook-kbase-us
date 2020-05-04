@@ -12,7 +12,7 @@ description: 'A fast, one-page introduction to KBase''s narrative interface'
 
 ### **What is a Narrative?**
 
-In KBase, you can create shareable, reproducible workflows called **Narratives** that include data, analysis steps, results, visualizations and commentary. This Quick Start provides an overview of how to create and use the features of Narratives.
+In KBase, you can create shareable, reproducible workflows called **Narratives** that include data, analysis steps, results, visualizations, and commentary. This Quick Start provides an overview of how to create and use the features of Narratives.
 
 ### **Step 1. Sign up for a KBase user account**
 
@@ -20,7 +20,9 @@ To begin using KBase, you will first need to [Sign up for a KBase Account](signi
 
 ### **Step 2. Sign in to the Dashboard**
 
-After you sign in, you will be taken to your Dashboard \(details of which can be found [here](https://kbase.us/narrative-guide/your-dashboard/)\). From the Dashboard, you can open your existing Narratives, access others that have been shared with you, and create new Narratives. These Narratives can be accessed at [narrative.kbase.us](https://narrative.kbase.us/).  
+After you sign in, you will be taken to your Dashboard \(details of which can be found [here](https://kbase.us/narrative-guide/your-dashboard/)\). From the Dashboard, you can open your existing Narratives, access others that have been shared with you, and create new Narratives. These Narratives can be accessed at [narrative.kbase.us](https://narrative.kbase.us/).
+
+  
 If you are a new user, your Dashboard will be mostly empty, since you haven’t created any Narratives yet.
 
 ![](../.gitbook/assets/dashboard-quickstart.png)
@@ -33,8 +35,7 @@ Click the “+ New Narrative” button in the Dashboard to open a new untitled N
 
 **Try the Narrative tour!**
 
-Select the “Narrative Tour” from the Help menu. This new feature walks you through the user interface, pointing out various useful aspects of it. We recommend taking the tour even if you’ve used KBase before, as it will help familiarize you with the new version.  
-
+Select the “Narrative Tour” from the Help menu. This new feature walks you through the user interface, pointing out various useful aspects of it. We recommend taking the tour even if you’ve used KBase before, as it will help familiarize you with the current version.
 
 ### **Step 4. Find data to analyze**
 
@@ -46,11 +47,11 @@ You can choose a dataset already in KBase by selecting any of the first four tab
 
 The _Import_ tab allows you to upload your own data. KBase currently supports upload of a variety of data types. Please see the [Data Upload/Download Guide](../working-with-data-1/data-upload-download-guide/) for more information.
 
-_**Note that any data you upload to KBase is private unless you choose to share it.**_
+_**Note**_ – _**any data you upload to KBase is private unless you choose to share it.**_
 
 ### **Step 5. Add data to your Narrative**
 
-When you hover over a [data object](narrative-user-guide/explore-data.md) in the Data Browser, an “Add” button will appear to its left. Click this button to add the data to your Narrative.
+When you hover over a [data object](narrative-user-guide/explore-data.md) in the Data Browser, an “&lt; Add” button will appear to its left. Click this button to add the data to your Narrative.
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
@@ -59,29 +60,29 @@ Notice that the data object now appears in your Data Panel. Once you finish addi
 ![](../.gitbook/assets/screen-shot-2017-01-25-at-4.04.13-pm.png)
 
 Don’t forget to periodically save your Narrative by clicking the “Save” button at the top right of the interface.  
-![AssembleAnnotate08](../.gitbook/assets/assembleannotate08.png)
+![AssembleAnnotate08](../.gitbook/assets/savenarrative%20%281%29.gif)
 
 ### **Step 6. Choose an App** 
 
 ### \*\*\*\*![](../.gitbook/assets/app-panel-open.png) 
 
-Once you have added data to your Narrative, you can analyze it using one or more of the KBase Apps listed in the Apps panel below your data.
+Once you have added data to your Narrative, you can analyze it using one or more of the KBase apps listed in the Apps panel below your data.
 
-There are options for filtering by category, name, input type, and more. You can designate Apps you like as favorites using the star icon.
+There are options for filtering by category, name, input type, and more. You can designate apps you like as favorites using the star icon.
 
-To add an App to your Narrative from the App Panel, click on its name or icon. You can get more information about an app by hovering over it in the App Panel until an “…” appears.
+To add an app to your Narrative from the App Panel, click on its name or icon. You can get more information about an app by hovering over it until an “…” appears.
 
 ### **Step 7. Run the App**
 
-Fill in all the required fields in your App. Note that some App fields are “smart” and know which data in your Narrative are valid input for those fields. These “smart” fields have a pulldown list of all the data objects from your Data Panel that you can choose from as input.
+Fill in all the required fields in your App. Note that some app fields are “smart” and know which data in your Narrative are valid input for those fields. These “smart” fields have a pulldown list of all the data objects from your Data Panel that you can choose from as input.
 
 ![](../.gitbook/assets/quickstart-app.png)
 
-When all required fields have been filled out, click the green “Run” button near the top left of the App cell to start the analysis.
+When all required fields have been filled out, click the green “Run” button near the top left of the app cell to start the analysis.
 
-While the analysis is running, you will see the progress in the Job Status tab of the App box. When it finishes, the results will show up in the Result tab.
+While the analysis is running, you will see the progress in the Job Status tab of the app box. When it finishes, the results will show up in the Result tab.
 
-Please see [the KBase Apps section of the Narrative Interface User Guide](narrative-user-guide/analyze-data-using-kbase-apps.md) for more details on running Apps.
+Please see [the KBase Apps section of the Narrative Interface User Guide](narrative-user-guide/analyze-data-using-kbase-apps.md) for more details on running apps.
 
 ### **Step 8. Share your Narrative**
 

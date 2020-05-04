@@ -6,7 +6,7 @@
 To start the tour, select “Narrative Tour” from the “?” menu. This new feature walks you through the user interface, pointing out various useful aspects of it. We recommend taking the tour even if you’ve used KBase before, as it will help familiarize you with the new version.
 {% endhint %}
 
-When you open a new Narrative, a “Welcome” cell will appear at the top, offering quick tips for getting started and links for accessing help. You can collapse this cell using the “v” icon at the top left, or delete it with the trashcan icon.
+When you open a new Narrative, a “Welcome” cell will appear at the top, offering quick tips for getting started and links for accessing help. You can keep the Welcome cell, collapse it by clicking the "-" button in the top right corner of the cell or delete it by selecting "Delete cell" from the "..." dropdown menu.
 
 Before adding data and analysis steps to your Narrative, take some time to explore a few high-level features of the Narrative Interface.
 
@@ -28,16 +28,16 @@ Before adding data and analysis steps to your Narrative, take some time to explo
 
 **5. Narrative controls**
 
-* Help menu \(“?”\) links to documentation as well as to the Narrative Tour.
+* Help menu \(“?”\) — links to documentation as well as to the Narrative Tour.
 * Kernel menu \(intended for developers; do not use\).
-* Share button lets you make your Narrative public or give specific KBase users the ability to view, edit, or share it further.
+* Share button — make your Narrative public or give specific KBase users the ability to view, edit, or share it further.
 * Save — Be sure to save your work often.
-* Person icon lets you sign in/out or access your user profile.
+* Person icon — sign in/out or access your user profile.
 
 **6. Narrative tabs**
 
-* _Analyze_ tab consists of the Data Panel \(see \#8\) and the Apps Panel below it \(see \#11\).
-* _Narratives_ tab allows you to create a new Narrative, copy an existing Narrative, and see a list of other Narratives created by or shared with you.
+* _Analyze_ tab — Consists of the Data Panel \(see \#8\) and the Apps Panel below it \(see \#11\). 
+* _Narratives_ tab — Allows you to create a new Narrative, copy an existing Narrative, and see a list of other Narratives created by or shared with you.
 
 ## Adding data and apps
 
@@ -45,13 +45,13 @@ Before adding data and analysis steps to your Narrative, take some time to explo
 
 **8. Data Panel controls —** Use these icons to search, filter, sort, and refresh the data in your panel. The right arrow will open the Data Browser \(see \#10\).
 
-**9. Data object** — Each data object in the panel can be expanded to see more information about the data and several options for downloading, viewing data provenance, and more. The “[Add Data to your Narrative](add-data-to-your-narrative.md)” section describes how to get more information about each data object.
+**9. Data Object** — Each data object in the panel can be expanded to see more information about the data and several options for downloading, viewing data provenance, and more. The “[Add Data to your Narrative](add-data-to-your-narrative.md)” section describes how to get more information about each data object.
 
 **10.** **Add Data** — This opens the Data browser, described in detail in the “[Explore Data](explore-data.md)” and “[Add Data to your Narrative](add-data-to-your-narrative.md)” sections, provides options for working with your own data or data from KBase’s reference collection.
 
 **11. Apps Panel** — This panel lists KBase analysis functions. Clicking the app name or icon beside it will add an analysis cell to your Narrative \(see “[Analyze Your Data Using KBase Apps](analyze-data-using-kbase-apps.md)” for details\).
 
-**12. App controls** — \_\*\*\_Use these icons to search and refresh the list of apps, as well as expose apps that are available but still in beta. The right arrow will open the [App Catalog](https://narrative.kbase.us/#appcatalog), which provides advanced options for browsing apps; designating them as favorites; and filtering them based on analysis type, popularity, and more. For additional information, see [Browse KBase Analysis Tools](browse-kbase-analysis-tools.md).
+**12. App Controls** — \_\*\*\_Use these icons to search and refresh the list of apps, as well as expose apps that are available but still in beta. The right arrow will open the [App Catalog](https://narrative.kbase.us/#appcatalog), which provides advanced options for browsing apps; designating them as favorites; and filtering them based on analysis type, popularity, and more. For additional information, see [Browse KBase Analysis Tools](browse-kbase-analysis-tools.md).
 
 ## Running analyses and adding commentary
 

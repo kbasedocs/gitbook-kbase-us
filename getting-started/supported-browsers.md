@@ -63,7 +63,7 @@ Firefox, produced by the non-profit Mozilla Corporation, is a freely available, 
 
 #### Safari
 
-Safari is distributed with Mac OS X. \(We do not support the Windows version of Safari.\) Specific versions of Mac OS X support specific versions of Safari–see this [Wikipedia entry](http://en.wikipedia.org/wiki/Safari_version_history) for details.
+Safari is distributed with Mac OS X. \(We do not support the Windows version of Safari.\) Specific versions of Mac OS X support specific versions of Safari – see this [Wikipedia entry](http://en.wikipedia.org/wiki/Safari_version_history) for details.
 
 #### Microsoft Edge
 

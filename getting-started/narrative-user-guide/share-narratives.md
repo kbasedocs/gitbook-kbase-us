@@ -2,11 +2,19 @@
 
 Narratives are _collaborative_ \(multiple people on your project can work on a Narrative together\), _shareable_ \(you can share your Narrative with specific people or with everyone\), _publishable_ \(a finished Narrative is similar to a research paper, and can be cited as a URL\), and _reproducible_ \(you can repeat or even change another scientist’s computational experiment if they publish it as a Narrative\). We believe that you will ultimately help both yourself and other researchers by sharing your Narratives so that others can see what you were thinking, what you did, and what you concluded from your analyses. However, rest assured that **all of your Narratives are private \(viewable only by you\) until you decide to share them.**
 
-You can share a Narrative that you own with any set of people you choose, or with all KBase users. To share a Narrative, click the “share” button near the top right of the page. You will see the people you have already shared with \(right now, only you\).
+You can share a Narrative that you own with any set of people you choose, or with all KBase Users. To share a Narrative, click the “share” button near the top right of the page and select the "Manage Sharing" option in the menu. 
 
-![](../../.gitbook/assets/screen-shot-2017-06-27-at-11.20.29-am.png)
+![](../../.gitbook/assets/sharesettings_narrative%20%281%29.gif)
 
-If you want to share your Narrative with everyone, you can click the “make public” link near the top of the sharing panel. If you only want to share it with a few people, you can type their name or username into the “share with” box. Once you have typed something that matches a name in the KBase user database, the person’s full name will appear. Click the down arrow to the right of the “share with” box to assign permissions to that user–you can allow them only to view your Narrative, to edit it, or to edit and share it.
+You will now see the Change Share Settings popup window. Here, you can see the people you have already shared with \(right now, only you\).
+
+![](../../.gitbook/assets/changesharesettings_first.png)
+
+If you want to share your Narrative with everyone, you can click the “make public” link near the top of the sharing panel. 
+
+### Users tab
+
+If you only want to share it with a few people, you can type their name or username into the “share with” box. Once you have typed something that matches a name in the KBase User Database, the person’s full name will appear. Click the down arrow to the right of the “share with” box to assign permissions to that user–you can allow them only to view your Narrative, to edit it, or to edit and share it.
 
 For example, suppose you want to share your Narrative with kbasehelp so that KBase staff can help you troubleshoot it. You can start typing any part of the username or real name and a list of users that match will appear:
 
@@ -14,7 +22,7 @@ For example, suppose you want to share your Narrative with kbasehelp so that KBa
 
 The default permission level for sharing is “View only”, which lets the user you’re sharing with see the Narrative but not let them edit it or share it with others. If you want to share your Narrative with a collaborator and give them more privileges, click the down-arrow to see the permission levels and possibly choose a different one.
 
-![](../../.gitbook/assets/screen-shot-2017-06-27-at-11.21.20-am.png)
+![](../../.gitbook/assets/users_sharesettings.gif)
 
 You can add multiple users to share with:
 
@@ -24,9 +32,17 @@ Click the “Apply” button to add the chosen user\(s\) to the sharing list for
 
 ![](../../.gitbook/assets/screen-shot-2017-06-27-at-11.26.54-am.png)
 
-You can also choose to share your Narrative with all KBase users by clicking the “make public?” link.
+### Orgs tab
 
-When you’re done sharing, click the x to close the Share panel.
+To share your Narrative with a specific Organization, select the Orgs tab. Here you can add a single or multiple Organizations to share with a group of users. 
+
+![](../../.gitbook/assets/sharesettings_orgs.gif)
+
+Click the “Apply” button to add the chosen Organization\(s\) to the sharing list for your Narrative. The Organizations and permission levels for the users you shared with will appear at the bottom of the Share panel.
+
+When you’re done sharing, click the "x" icon to close the Share panel.
+
+### Editing access permissions
 
 You can change the access permissions at any time by clicking the Share button again. The up/down arrows next to each user’s permissions let you change the permissions.
 
@@ -36,13 +52,13 @@ If you are working on a shared Narrative, and a collaborator is working on it at
 
 ## Create or modify your user profile
 
-Every KBase user has a user profile. Filling in your KBase user profile helps you become part of the social web that KBase is building, making it easier to find and collaborate with other scientists and share data and Narratives. You are not required to complete your user profile in order to use KBase, but we encourage you to.
+Every KBase User has a user profile. Filling in your KBase user profile helps you become part of the social web that KBase is building, making it easier to find and collaborate with other scientists and share data and Narratives. You are not required to complete your user profile in order to use KBase, but we encourage you to.
 
 
 
-To see and edit your user profile, go to your Dashboard and click the “Account” button on the left side. Your profile page will open, looking something like the screenshot below. You will be able to enter or change information including your organization, department, job title, research interests, avatar, and more. Required fields are marked with a red \*. You must fill in all required fields in order to save your profile \(using the Save button on the upper right of the page\).
+To see and edit your user profile, go to your Dashboard and click the “Account” button on the left side. Your profile page will open, looking something like the screenshot below. You will be able to enter or change information including your organization, department, job title, research interests, avatar, and more. Required fields are marked with a red "\*." You must fill in all required fields in order to save your profile \(using the Save button on the upper right of the page\).
 
-![](../../.gitbook/assets/screen-shot-2017-12-05-at-3.35.26-pm.png)
+![](../../.gitbook/assets/menu_accountselection.gif)
 
 ![](../../.gitbook/assets/screen-shot-2017-12-05-at-3.35.55-pm.png)
 

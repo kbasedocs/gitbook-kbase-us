@@ -1,6 +1,6 @@
 # Your Dashboard
 
-After signing into the Narrative Interface, you will be taken to your Dashboard, which provides an overview of your work in and use of KBase. From the Dashboard you can access existing Narratives, create new ones, contact collaborators, update your profile, and more. Main features of the Dashboard are described below.
+After signing in to the Narrative Interface, you will be taken to your Dashboard, which provides an overview of your work in and use of KBase. From the Dashboard you can access existing Narratives, create new ones, contact collaborators, update your profile, and more. Main features of the Dashboard are described below.
 
 ![](../../.gitbook/assets/dashboard1-1.png)
 
@@ -11,11 +11,11 @@ After signing into the Narrative Interface, you will be taken to your Dashboard,
 * There are four panels for exploring and locating existing Narratives: **Your Narratives, Tutorial Narratives, Narratives Shared with You, and Public Narratives.**
 * The most recently modified Narratives appear first in the panels.
 * Click on any Narrative name to open it.
-* Icons under a name indicate which apps the Narrative includes, how many markdown and code cells it contains, the number of times the Narrative has been shared, whether there are any running jobs, total running time for all completed jobs, and more.
+* Icons under a Narrative name indicate which apps the Narrative includes, how many markdown and code cells it contains, the number of times the Narrative has been shared, whether there are any running jobs, total running time for all completed jobs, and more.
 
 .[![Screen Shot 2016-03-10 at 9.40.28 PM](../../.gitbook/assets/narrative1.png)](https://kbase.us/wp-content/uploads/2015/02/Narrative1.png) 
 
-* You can use the search box at the top of each panel to find a particular Narrative within that category.
+* You can use the _Search Box_ at the top of each panel to find a particular Narrative within that category.
 * In the **Your Narratives** panel, you can click the blue button at the top to create a new Narrative.
 
 [![Screen Shot 2016-03-10 at 10.59.33 PM](../../.gitbook/assets/screen-shot-2016-03-10-at-10.59.33-pm-300x43.png)](https://kbase.us/wp-content/uploads/2015/02/Screen-Shot-2016-03-10-at-10.59.33-PM.png)
@@ -41,13 +41,20 @@ The Dashboard offers many launch points. To the left of the **Your Narratives** 
 
 * Takes you to your **Dashboard**, the features of which are described above.
 
+**Orgs**
+
+* Takes you to a list of the **Organizations** within KBase, along with descriptions and statistics for the Organizations, including Narratives and Apps. 
+* The default shows "My Orgs," the Organizations you belong to as a member. 
+* You can view and search all Organizations by selecting the toggle button on the right hand side of the page for "All Orgs." 
+* Under "All Orgs" you can search and select different Organizations and request to join by clicking on the "Join this Organization" button. 
+
 **Catalog**
 
 * You can use the **App Catalog** to browse, search for, and see the specifications of each app KBase has to offer.
 
 **Search**
 
-* The **Data Search** tab gives you the ability to search JGI data as well as KBase user and reference data.
+* The **Data Search** tab gives you the ability to search JGI data \(Beta\) as well as KBase user and reference data.
 * It allows you to search for data present in your own Narratives, those shared with you, and those made public by their owners.
 * It also enables you to search for reads and assemblies contained in the Joint Genome Institute \(JGI\) Genomes Online Database \(GOLD\) and add them directly to your Narratives.
 
@@ -60,8 +67,12 @@ The Dashboard offers many launch points. To the left of the **Your Narratives** 
 **Account**
 
 * In the **Account Manager** you have access to edit your profile information.
-* From this tab you can also get to your Profile Page which gives an overview of your Narratives and your Collaborators.
-* You can access the user profile of any of your Collaborators by simply clicking on the name under the **Your Collaborators** panel while in your Profile Page.
+* From this tab you can also get to your **Profile Page** which gives an overview of your Narratives and your Collaborators.
+* You can access the user profile of any of your Collaborators by simply clicking on the name under the **Your Collaborators** panel while in your **Profile Page.**
+
+**Feeds**
+
+* Takes you to the **Notification Feeds** page to view notifications from KBase. 
 
 ## Top-Level Menu
 
@@ -73,7 +84,7 @@ _Narrative Interface_ goes to the main Narrative Interface, which allows you to 
 
 _JGI Search_ goes to the [Data Search](https://narrative.kbase.us/#jgi-search?q=) tab that can also be reached by the Search icon in the side bar.
 
-_Biochem Search_ goes to the Compound and Reaction tabs. 
+_Biochem Search_ goes to the Compound and Reaction search tabs. 
 
 _About_ goes to [a page that describes the KBase system](https://kbase.us/what-is-kbase/).
 
@@ -81,7 +92,7 @@ _KBase Services Status_ goes to [a page that describes the current version of KB
 
 _Contact KBase_ lets you [contact the KBase Help Desk](https://kbase.us/contact-us/) with your question, bug report, or feature suggestion.
 
-_Help_ brings you to the Narrative User Guide.
+_Help \("?"_ \) brings you to the Narrative User Guide.
 
 In the next section, we’ll discuss [how to create a new Narrative](create-a-narrative.md).
 

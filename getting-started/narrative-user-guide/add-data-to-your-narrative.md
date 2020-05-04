@@ -1,6 +1,6 @@
 # Add Data to Your Narrative
 
-Now that you are familiar with ways to find and explore data in KBase, you can select or upload data to analyze. The Data Panel in a Narrative shows the data objects that are currently available in that particular Narrative. From the Data Panel, you can access the data slideout, which allows you to search for data of interest and add it to your Narrative. In the Data Panel, click the Add Data button, the red “+” button, or the right arrow at the upper right of the panel to access the data slideout \(also referred to as the “data browser”\).
+Now that you are familiar with ways to find and explore data in KBase, you can select or upload data to analyze. The **Data Panel** in a Narrative shows the data objects that are currently available in that particular Narrative. From the Data Panel, you can access the data slide-out, which allows you to search for data of interest and add it to your Narrative. In the Data Panel, click the Add Data button, the red “+” button, or the right arrow at the upper right of the panel to access the data slide-out \(also referred to as the “**Data Browser**”\).
 
 [![](../../.gitbook/assets/image9.png)](https://kbase.us/wp-content/uploads/2018/01/image9.png)
 
@@ -9,7 +9,7 @@ Now that you are familiar with ways to find and explore data in KBase, you can s
 Any data that you upload to KBase is kept private unless you explicitly choose to share it. You can share any of your Narratives \(including their associated data\) with one or more specific users, or make it publicly available to all KBase users. Please see the [Sharing](share-narratives.md) page for more information about how to do that. The [Terms and Conditions page](https://kbase.us/terms-and-conditions/) describes the KBase data policy.
 {% endhint %}
 
-The first four tabs of the data slideout \(“My Data”, “Shared With Me”, “Public”, and “Example”\) let you search data that is already in KBase. The last tab lets you import data from your computer to your Narrative so that you can analyze it in KBase. This tab was labeled “Staging \(beta\)” and then became “Import \(New\)” and soon will become simply “Import.”
+The first four tabs of the data slide-out \(“My Data”, “Shared With Me”, “Public”, and “Example”\) let you search data that is already in KBase. The last tab lets you import data from your computer to your Narrative so that you can analyze it in KBase. This tab was labeled “Staging \(beta\)” and then became “Import \(New\)” and soon will become simply “Import.”
 
 * The **My Data** tab shows data objects that you have added to your project. You may need to refresh this tab to see your most recently added data.
 * The **Shared With Me** and **Public** tabs display datasets that others have loaded and made accessible to you \(or to everyone\). Data within each group is searchable and can be filtered. Since there are a large number of public datasets, you may wish to filter them by data type \(using the pulldown selector on the left\) or narrow the list by searching \(in the “Search data” text box\) for specific text in the data objects’ names.
@@ -108,7 +108,7 @@ Clicking this link adds the “Upload File to Staging from Web” app to your Na
 
 ![](../../.gitbook/assets/image23-1.png)
 
-There are also several apps that import specific file types \(single- or paired-end reads or SRA files\) from a URL directly to your Narrative, bypassing your Staging Area. These are available from the Apps panel and the [App Catalog](https://narrative.kbase.us/#appcatalog).
+There are also several apps that import specific file types \(single- or paired-end reads or SRA files\) from a URL directly to your Narrative, bypassing your Staging Area. These are available from the Apps Panel and the [App Catalog](https://narrative.kbase.us/#appcatalog).
 
 ## Importing files from your Staging Area to your KBase Narrative
 

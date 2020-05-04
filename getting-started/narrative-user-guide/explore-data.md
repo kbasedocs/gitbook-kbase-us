@@ -19,22 +19,22 @@ The Data Slideout will slide out, with tabs that show several data sources that 
 
 ![](../../.gitbook/assets/screen-shot-2017-01-30-at-11.14.27-am.png)
 
-For now, we will find a public reference genome available under the Public tab and then examine information and metadata about that genome.
+For now, we will find a public reference genome available under the _Public_ tab and then examine information and metadata about that genome.
 
-Clicking the Public tab displays a list of data objects available in KBase’s reference collection.
+Clicking the _Public_ tab displays a list of data objects available in KBase’s reference collection.
 
-![](../../.gitbook/assets/screen-shot-2015-02-07-at-3.49.38-pm.png)
+![](../../.gitbook/assets/public-tab_data.png)
 
-![](../../.gitbook/assets/screen-shot-2017-01-30-at-11.19.14-am.png)  
-The data-type selector at the top left of the browser window defaults to Genomes \(Note that Phytozome plant genomes are currently listed as another data type–this will change soon.\) You can change which type of data is displayed under the _Public_ tab by using this pulldown menu. More data types will be added soon.
+![](../../.gitbook/assets/data-type-selector.png)  
+The data-type selector at the top left of the browser window defaults to NCBI RefSeq Genomes. You can change which type of data is displayed under the _Public_ tab by using this pulldown menu.
 
-You can also use the “Search data” field in the Data Browser to find data objects whose names include the text you’ve typed in the search box. \(Note that searches are not case-sensitive\). Enter “Vibrio brasiliensis” in the search field.
+You can also use the “_Search/Filter data"_ field in the **Data Browser** to find data objects whose names include the text you’ve typed in the search box. \(Note — searches are not case-sensitive\). Enter “Vibrio brasiliensis” in the search field.
 
-If you hover over a data object in the Data Browser panel, three small images appear: an Add button to the left of the object name and binoculars and a graph-like icon to the right. These latter two icons open a Data Landing page and a Provenance page, respectively \(see below for details\).
+If you hover over a data object in the Data Browser panel, three small images appear: an _"&lt; Add " button_ in a blue rectangle to the left of the object name and _binoculars icon_ and a _graph-like icon_ to the right. These latter two icons open a **Data Landing** page and a **Provenance** page, respectively \(see below for details\).
 
 ![](../../.gitbook/assets/screen-shot-2015-02-12-at-9.17.28-pm-e1423804700430.png)
 
-Go ahead and click the Add button to add the Vibrio brasiliensis LMG 20546 genome to your Narrative. Notice that this genome now shows up in your Data Panel \(see image\).
+Go ahead and click the "&lt; Add" button to add the _Vibrio brasiliensis_ LMG 20546 genome to your Narrative. Notice that this genome now appears in your Data Panel.
 
 [![](../../.gitbook/assets/screen-shot-2017-01-30-at-11.52.34-am.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-11.52.34-AM.png)
 
@@ -42,25 +42,27 @@ Go ahead and click the Add button to add the Vibrio brasiliensis LMG 20546 genom
 
 The Data Panel shows all the data that you’ve added to your Narrative. \(The [next ](add-data-to-your-narrative.md)[section](add-data-to-your-narrative.md) of this guide discusses in more detail how to add data to your Narrative.\)
 
-You should have at least one object \(Vibrio brasiliensis LMG 20546\) in your Data Panel. As you add or generate more data during the course of your analyses, the number of objects in this panel will increase. You can search, sort, or filter the list using the icons in the Data Panel header.
+You should have at least one object \(_Vibrio brasiliensis_ LMG 20546\) in your Data Panel. As you add or generate more data during the course of your analyses, the number of objects in this panel will increase. You can search, sort, or filter the list using the icons in the Data Panel header.
 
-![](../../.gitbook/assets/assets-lres-tqcrledlhbwqs-lvn_mpksnct1wpfepdt-lvnxhwckqdrazzylz_4-screen-shot-2017-01-30-at-12.01.44.png)
+You can access more details about a particular data object by hovering over the object and clicking the ”...” that appears in the right-hand side of the data object.
 
-You can access more details about a particular data object by hovering over the object and clicking the ” . . .” that appears to its right.
+![](../../.gitbook/assets/data_dropdownmenuoptions.gif)
 
-This expanded view of the data object also reveals icons that let you examine or manage the data.
+The expanded view of the data object reveals icons that let you examine or manage the data.
 
-* The first two icons show Apps \(in the App Panel\) that take this type of data as input or generate it as object.
-* As in the Data Browser, clicking the binoculars icon opens a Data Landing page for the data object.
-* The history icon allows you to see and revert to previous versions of the data.
-* The graph-like icon opens the Provenance page \(described below\).
-* The download icon lets you download a data object to your local computer. \(Note: This capability is still in development; most data objects currently can be downloaded only in the JSON format. In the future, you will be able to choose from a variety of common formats such as GenBank.\)
-* The “A” icon lets you rename your data object. Use caution when doing this, though. If a Narrative was already using the old object name in analyses, they might stop working. Also note that object names can contain only letters, digits, and underscores; no spaces or other special characters are allowed.
-* Finally, the trash icon lets you delete a data object from your Narrative. \(If the data came from a public or shared data source, the original will not be deleted, just the copy that’s in your Narrative.\)
+* The first icon is an arrow in for "Show Apps with this as input" shows the apps \(in the App Panel\) that can use this type of data for input.
+* The arrow out icon for the "Show Apps with this as output" button that shows the apps \(in the App Panel\) that will generate this type of data as a data object. 
+* The binoculars icon is the "Explore data" button that open a Data Landing page for the data object.
+* The page with three lines and a bent corner icon is the "View associated report" button and will open the Data View report page for the data object. 
+* The  counter clockwise circle with clock hands is the "View history to revert changes" icon allows you to see and revert to previous versions of the data.
+* The graph-like icon is the "View data provenance and relationships" button that opens the Provenance page \(described below\).
+* The download icon is the "Export/Download data" button that lets you download a data object to your local computer. \(Note — This capability is still in development; most data objects currently can be downloaded only in the JSON format. In the future, you will be able to choose from a variety of common formats such as GenBank.\)
+* The “A” icon is the "Rename data" button that lets you rename your data object. Use with caution. If a Narrative was already using the old object name in analyses, they might stop working. Object names can contain only letters, digits, and underscores; no spaces or other special characters are allowed.
+* Finally, the trash icon is the "Delete data" button that lets you delete a data object from your Narrative. \(If the data came from a public or shared data source, the original will not be deleted, only the copy within your Narrative.\)
 
 ## Data viewers
 
-Many \(but not yet all\) types of data in KBase have viewers that allow you to find out more about the data. These viewers can be accessed two ways from the Data Panel:
+Many \(but not yet all\) types of data in KBase have viewers that allow you to learn more about the data. These viewers can be accessed two ways from the Data Panel:
 
 1. Click the name of a data object, and its viewer will be added to your Narrative.
 2. Drag the object from the Data Panel and drop it into the main part of your Narrative.
@@ -75,7 +77,7 @@ Notice that this genome viewer has tabs for an overview \(including GC content, 
 
 **Sorting table entries in the viewer**
 
-You can sort the table entries by clicking on a column header to sort by that field \(e.g., Length\). Clicking the same column header again will reverse the sort order. For example, the screenshots below show the table sorted in descending order by Contig name and then in descending order by length:
+You can sort the table entries by clicking on a column header to sort by that field \(e.g., Length\). Clicking the same column header again will reverse the sort order. For example, the screenshots below show the table sorted in descending order by _Contig name_ and then in descending order by _length_:
 
 ![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2015-02-09-at-12.48.36-PM.png)
 
@@ -83,9 +85,9 @@ You can even sort by more than one column at a time by clicking one column heade
 
 ![](../../.gitbook/assets/screen-shot-2015-02-09-at-12.49.05-pm-e1423803707173.png)
 
-There are many other types of viewers in KBase in addition to the Genome viewer discussed here. \(Documentation on these other viewers is coming soon.\) Different viewers may have different options; give them a whirl! Don’t be afraid to click on anything you see in a viewer.
+There are many types of viewers in KBase in addition to the Genome viewer discussed here. Different viewers may have different options; give them a whirl! Don’t be afraid to click on anything you see in a viewer.
 
-To remove a viewer from your Narrative, click the trashcan icon in the top right of the viewer cell. \(You can always re-add the viewer; removing it from your Narrative doesn’t delete the data object itself.\)
+To remove a viewer from your Narrative, click the trashcan icon in the top right of the viewer cell. You can always re-add the viewer; removing it from your Narrative doesn’t delete the data object itself.
 
 ## Data Landing and Provenance pages
 
