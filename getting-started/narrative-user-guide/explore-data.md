@@ -2,11 +2,11 @@
 
 There are several ways to find data and add it to your Narrative. You can select data available within KBase, [upload your own files, or import datasets from external resources](add-data-to-your-narrative.md) such as the DOE Joint Genome Institute \(JGI\) or NCBI. This section will describe how to explore data already in KBase. Instructions for adding data to your Narrative and importing external files are provided in the next section, “[Add Data to Your Narrative](add-data-to-your-narrative.md).”
 
-## The Data Slideout
+## The Data Browser
 
 There are several ways to explore the [wide range of data available in KBase](../../working-with-data-1/).
 
-The Data Slideout is accessed by clicking the right arrow or Add Data button in the Data Panel.
+The Data Browser or data slide-out is accessed by clicking the right arrow or Add Data button in the Data Panel.
 
 ![](../../.gitbook/assets/screen-shot-2017-01-30-at-11.11.52-am.png)  
 The Data Slideout will slide out, with tabs that show several data sources that will be discussed in more detail later:
