@@ -2,8 +2,6 @@
 
 ## **Instructions updated for new staging import**
 
-NOTE: the user interface for uploading your data to KBase has been updated–please see [this page](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md#uploading-data-from-external-sources) of the Narrative User Guide for instructions on how to use the new Import tab to upload data to your staging area.
-
 In KBase, reads from FASTQ and SRA files can be imported to create reads library data objects. The objects will either be a SingleEndLibrary or a PairedEndLibrary. The tools in KBase can then be used to assemble reads into an “Assembly” data object or to align reads to an “Assembly”. After uploading and importing reads data, you may want to refer to the documentation about [Assembly and Annotation](../../using-apps-1/analysis-apps-in-kbase/assembly-and-annotation-in-kbase.md). Reads can also be used in [RNA-seq and expression analysis](../../using-apps-1/analysis-apps-in-kbase/transcriptomics-and-expression-analysis-in-kbase.md).
 
 Single-end and paired-end reads can be uploaded in FASTQ or SRA format. For FASTQ files, please ensure that your filename ends with the .fastq, .fnq, or .fq file extension. SRA files should have an extension of .sra. The uploader also accepts compressed files in these formats: .zip, .gz, .bz2, .tar.gz, .tar.bz2.

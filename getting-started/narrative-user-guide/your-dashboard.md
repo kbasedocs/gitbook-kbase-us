@@ -2,13 +2,13 @@
 
 After signing in to the Narrative Interface, you will be taken to your Dashboard, which provides an overview of your work in and use of KBase. From the Dashboard you can access existing Narratives, create new ones, contact collaborators, update your profile, and more. Main features of the Dashboard are described below.
 
-![](../../.gitbook/assets/dashboard1-1.png)
+![](../../.gitbook/assets/dashboard.png)
 
 ## What’s in my Dashboard?
 
 **Narratives**
 
-* There are four panels for exploring and locating existing Narratives: **Your Narratives, Tutorial Narratives, Narratives Shared with You, and Public Narratives.**
+* There are five panels for exploring and locating existing Narratives: **Your Narratives, Tutorial Narratives, Narratives Shared with You,  Public Narratives, and Common Collaborator Network.**
 * The most recently modified Narratives appear first in the panels.
 * Click on any Narrative name to open it.
 * Icons under a Narrative name indicate which apps the Narrative includes, how many markdown and code cells it contains, the number of times the Narrative has been shared, whether there are any running jobs, total running time for all completed jobs, and more.
@@ -33,7 +33,7 @@ Note that **Public Narratives** have not necessarily been reviewed or tested by 
 
 ## Where can I go from here?
 
-The Dashboard offers many launch points. To the left of the **Your Narratives** panel you will see five icons allowing you to toggle between the **Dashboard**, **Catalog**, **Search**, **Jobs**, and **Account** tabs.
+The Dashboard offers many launch points. To the left of the **Your Narratives** panel you will see seven icons allowing you to toggle between the **Dashboard**, **Catalog**, **Search**, **Jobs**, **Account, and Feed** tabs.
 
 ![](../../.gitbook/assets/kbasedashboard%20%281%29.png)
 
