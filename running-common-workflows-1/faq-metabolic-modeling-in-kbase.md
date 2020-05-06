@@ -124,7 +124,7 @@ The primary function of gapfilling is to ensure that the model in question can p
 
 ### **Q: When I import a metabolic model, how do I associate it with a genome?**
 
-Load the genome you wish to associate with a metabolic model into your Narrative. Next, when importing your metabolic model, click on the “show advanced options” link shown towards the bottom of the import metabolic model menu. When you click on this link, a new input will appear that will permit you to select the genome for your model. Refer to the [FBA Model section of the Data Upload and Download Guide](http://kbase.us/data-upload-download-guide/fba-model/) to learn more about correctly importing and associating your model and genome.
+Load the genome you wish to associate with a metabolic model into your Narrative. Next, when importing your metabolic model, click on the “show advanced options” link shown towards the bottom of the import metabolic model menu. When you click on this link, a new input will appear that will permit you to select the genome for your model. Refer to the [FBA Model section of the Data Upload and Download Guide](../working-with-data-1/data-upload-download-guide/) to learn more about correctly importing and associating your model and genome.
 
 ### **Q: When viewing a model, what do the compartment IDs mean?**
 
