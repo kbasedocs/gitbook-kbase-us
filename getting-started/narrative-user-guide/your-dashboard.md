@@ -92,7 +92,7 @@ _KBase Services Status_ goes to [a page that describes the current version of KB
 
 _Contact KBase_ lets you [contact the KBase Help Desk](https://kbase.us/contact-us/) with your question, bug report, or feature suggestion.
 
-_Help \("?"_ \) brings you to the Narrative User Guide.
+_Help \("?"_ \) brings you to the [Narrative User Guide](https://kbase.us/narrative-guide/).
 
 In the next section, we’ll discuss [how to create a new Narrative](create-a-narrative.md).
 
