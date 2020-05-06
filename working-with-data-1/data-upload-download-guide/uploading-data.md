@@ -8,11 +8,13 @@ The _Import_ tab lets you drag & drop data files from your computer into the Sta
 
 The first step in uploading your data is to locate the _Data Panel_ along the left side of the Narrative Interface window and click the “Add Data” button, the circular red “+” button, or the right arrow at the upper right of the panel to access the slide-out _Data Browser_. The Data Browser has several tabs that allow you to access data within KBase, including the Import tab for uploading your own data. 
 
-![](../../.gitbook/assets/databrowseropen.gif)
+![Options to open the Data Browser with the highlighted arrow icon or the red &quot;Add Data&quot; button](../../.gitbook/assets/databrowseropen.gif)
+
+![Opening the Data Browser using the circular red &quot;+&quot; button](../../.gitbook/assets/databrowser_redplusopen%20%281%29.gif)
 
 To close the Import panel and return to the Narrative Interface, simply click the “Close” button on the bottom right of the import panel. If you have a small screen, you might not be able to see that button. Another way to close the Data Browser is to click the arrow icon on the top right of your Data Panel \(the same one that opens the Data Browser slide-out\).
 
-![](../../.gitbook/assets/databrowserclose%20%281%29.gif)
+![Closing the Data Browser slide-out with the Hide/Show data browser arrow icon](../../.gitbook/assets/databrowserclose%20%281%29.gif)
 
 ## **Drag & Drop Limitations**
 
