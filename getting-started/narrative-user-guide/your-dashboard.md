@@ -1,8 +1,10 @@
 # Your Dashboard
 
-After signing in to the Narrative Interface, you will be taken to your Dashboard, which provides an overview of your work in and use of KBase. From the Dashboard you can access existing Narratives, create new ones, contact collaborators, update your profile, and more. Main features of the Dashboard are described below.
+After signing in to the Narrative Interface, you will be taken to your Dashboard, which provides an overview of your work in and use of KBase. From the Dashboard you can access existing Narratives, create new ones, contact collaborators, update your profile, and more. 
 
 ![](../../.gitbook/assets/dashboard.png)
+
+Main features of the Dashboard are described below.
 
 ## What’s in my Dashboard?
 
