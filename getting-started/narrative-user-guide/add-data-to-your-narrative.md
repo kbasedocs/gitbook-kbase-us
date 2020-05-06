@@ -30,9 +30,9 @@ As described in the previous section, the Add button next to these icons lets yo
 
 ## Uploading data from external sources
 
-The Import tab lets you drag & drop data from your computer into your Staging Area to import into your Narrative, where you can then analyze it using KBase’s analysis apps.
+The _Import_ tab lets you drag & drop data from your computer into your Staging Area to import into your Narrative, where you can then analyze it using KBase’s analysis apps.
 
-![](../../.gitbook/assets/image7.png)
+![](../../.gitbook/assets/import-stage.png)
 
 To upload data from your computer \(or a [Globus endpoint](../../working-with-data-1/transferring-data-with-globus.md) or URL\), choose the rightmost tab of the data slide-out to open the Import tab.
 
