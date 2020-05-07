@@ -20,7 +20,7 @@ After downloading the file, open the __[_Import_ tab in the **Data Browser**](..
 
 ![](http://kbase.us/wp-content/uploads/2015/08/image2.png)
 
-## **Drag & Drop Limitations**
+### **Drag & Drop Limitations**
 
 The drag & drop option from your local computer works for many files, but there is a size limit that depends on your computer and browser. For larger files \(around 20 gigabases\), use the [Globus Online transfer](../transferring-data-with-globus.md). Open the _Import As..._ pulldown menu to the right of the filename in your Staging Area and select “GenBank Genome.”
 
@@ -34,7 +34,7 @@ Notice that the name of the Genome file is filled in, as is a suggested name for
 
 ![](http://kbase.us/wp-content/uploads/2015/08/image5.png)
 
-## Compressed/zipped files
+### Compressed/zipped files
 
 The Genome Import app can handle gzipped \(.gz\) input files. However, .zip files require special handling and .Z files are not yet supported by the importers. You can upload a .zip file to your Staging Area, but it is recommended that you use the “uncompress” icon \(diagonal arrows\) to its left to unzip it before trying to import.
 
