@@ -1,6 +1,6 @@
 # Explore Data
 
-There are several ways to find data and add it to your Narrative. You can select data available within KBase, [upload your own files, or import datasets from external resources](add-data-to-your-narrative.md) such as the DOE Joint Genome Institute \(JGI\) or NCBI. This section will describe how to explore data already in KBase. Instructions for adding data to your Narrative and importing external files are provided in the next section, “[Add Data to Your Narrative](add-data-to-your-narrative.md).”
+There are several ways to find data and add it to your Narrative. You can select data available within KBase, [upload your own files, or import datasets from external resources](add-data-to-your-narrative.md) such as the DOE Joint Genome Institute \(JGI\) or NCBI. This section will describe how to explore data already in KBase. Instructions for adding data to your Narrative and importing external files are provided in the next section “[Add Data to Your Narrative](add-data-to-your-narrative.md).”
 
 ## The Data Browser
 
