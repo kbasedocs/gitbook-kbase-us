@@ -16,7 +16,7 @@ Further instructions for adding data to your Staging Area can be found [here](..
 
 For this example, we will use the _E. coli_ K-12 MG1655 genome GenBank file from NCBI. By clicking on the following link you can download the _E. coli_ K-12 MG1655 genome to your computer: [ftp://ftp.ncbi.nlm.nih.gov/genomes/archive/old\_refseq/Bacteria/Escherichia\_coli\_K\_12\_substr\_\_MG1655\_uid57779/NC\_000913.gbk](ftp://ftp.ncbi.nlm.nih.gov/genomes/archive/old_refseq/Bacteria/Escherichia_coli_K_12_substr__MG1655_uid57779/NC_000913.gbk)
 
-After downloading that file, open the [new Import tab in the data slide-out](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md) and drag the genome file into your Staging Area.
+After downloading that file, open the [new Import tab in the Data Browser](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md) and drag the genome file into your Staging Area.
 
 ![](http://kbase.us/wp-content/uploads/2015/08/image2.png)
 
@@ -26,7 +26,7 @@ The drag & drop from your local computer works for many files, but there is a si
 
 ![](http://kbase.us/wp-content/uploads/2015/08/image1.png)
 
-Click the import icon \(up arrow\) to the right of “GenBank Genome.” The data slide-out will close and an app called “Import GenBank File as Genome from Staging Area” will be added to your Narrative.
+Click the import icon \(up arrow\) to the right of “GenBank Genome.” The Data Browser will close and an app called “Import GenBank File as Genome from Staging Area” will be added to your Narrative.
 
 ![](http://kbase.us/wp-content/uploads/2015/08/image3.png)
 
@@ -36,7 +36,7 @@ Notice that the name of the Genome file is filled in, as is a suggested name for
 
 ## Compressed/zipped files
 
-The Genome import can handle gzipped \(.gz\) input files. However, .zip files require special handling and .Z files are not yet supported by the importers \(we are working on adding that\). You can upload a .zip file to your Staging Area, but it is recommended that you use the “uncompress” button to its left \(the diagonal arrows icon\) to unzip it before trying to import.
+The Genome import can handle gzipped \(.gz\) input files. However, .zip files require special handling and .Z files are not yet supported by the importers. You can upload a .zip file to your Staging Area, but it is recommended that you use the “uncompress” button to its left \(the diagonal arrows icon\) to unzip it before trying to import.
 
 ![](http://kbase.us/wp-content/uploads/2015/08/image4.png)
 
@@ -52,11 +52,11 @@ You can import data into your KBase workspace using [Globus](../transferring-dat
 
 For this example, we use the E. coli K-12 MG1655 genome GFF and FASTA files from NCBI.
 
-Open the new Import tab in the data slide-out and click on the blue "here" link \(below the drag & drop area\) to open an upload app.
+Open the _Import_ tab in the Data Browser and click on the blue "here" link \(below the drag & drop area\) to open an upload app.
 
 ![](http://kbase.us/wp-content/uploads/2015/08/image9.png)
 
-The data slide-out will close and the app called “Upload a File to Staging from Web” will appear in your Narrative. Alternatively, you can open the app directly from the Apps Panel. From the app, click on the dropdown for the URL Type and select ‘FTP Link’.
+The Data Browser will close and the app called “Upload a File to Staging from Web” will appear in your Narrative. Alternatively, you can open the app directly from the Apps Panel. From the app, click on the dropdown for the URL Type and select ‘FTP Link’.
 
 We will use the following two links for the GFF and FASTA files:  
 [ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/005/845/GCA\_000005845.2\_ASM584v2/GCA\_000005845.2\_ASM584v2\_genomic.gff.gz](ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/005/845/GCA_000005845.2_ASM584v2/GCA_000005845.2_ASM584v2_genomic.gff.gz)  
@@ -66,7 +66,7 @@ In the upload app, click the "+" button for the URLs and paste in the name of th
 
 ![](http://kbase.us/wp-content/uploads/2015/08/image4-2.png)
 
-Then click the green "Run" button to start the upload. After the app completes the files will appear in your Staging Area, which you can access via the Import tab in the data slide-out.
+Then click the green "Run" button to start the upload. After the app completes the files will appear in your Staging Area, which you can access via the Import tab in the Data Browser.
 
 ![](http://kbase.us/wp-content/uploads/2015/08/image1-2.png)
 
