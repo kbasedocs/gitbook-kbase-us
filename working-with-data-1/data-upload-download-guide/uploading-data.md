@@ -6,7 +6,7 @@ The _Import_ tab lets you drag & drop data files from your computer into the Sta
 
 ![](../../.gitbook/assets/import-stage%20%281%29.png)
 
-The first step in uploading your data is to locate the **Data Panel** along the left side of the Narrative Interface window and click the “Add Data” button, the circular red “+” icon, or the arrow at the upper right of the panel to access the slide-out **Data Browser**. The Data Browser has several tabs that allow you to access data within KBase, including the Import tab for uploading your own data. 
+The first step in uploading your data is to locate the **Data Panel** along the left side of the Narrative Interface window and click the “Add Data” button, the circular red “+” icon, or the arrow at the upper right of the panel to access the slide-out **Data Browser**. The Data Browser has several tabs that allow you to access data within KBase and the Import tab for uploading your own data. 
 
 ![Options to open the Data Browser with the highlighted arrow icon or the red &quot;Add Data&quot; button](../../.gitbook/assets/databrowseropen.gif)
 
@@ -18,9 +18,9 @@ To close the Import panel and return to the Narrative Interface, simply click th
 
 ## **Drag & Drop Limitations**
 
-The drag & drop from your local computer works for many files, but there is a size limit that depends on your computer and browser. For larger files around 20 gigabases, use the [Globus Online transfer](../transferring-data-with-globus.md).
+The drag & drop from your local computer works for many files, but there is a size limit dependent on your computer and browser. For larger files around 20 gigabases, use the [Globus Online transfer](../transferring-data-with-globus.md).
 
-## **Data privacy**
+## **Data Privacy**
 
 Any data you upload to KBase is private unless you choose to share it. You can share any of your Narratives \(including their associated data\) with one or more specific users, or make it publicly available to all KBase users. Please see the [Share Narratives](../../getting-started/narrative-user-guide/share-narratives.md) page for more information and how to share data and Narratives. The [Terms and Conditions page](http://kbase.us/terms-and-conditions/) describes the KBase data policy.
 

@@ -8,7 +8,7 @@ An assembly file is a single file containing one or more contiguous DNA sequence
 
 For this example, we will use an _Escherichia coli_ K12 MG1655 assembly file from NCBI as the source: [GCF\_000005845.2\_ASM584v2\_genomic.fna.gz](ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz)
 
-Download that file to your computer. Then open the [_Import_ tab in the Data Browser](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md) and drag the assembly file into your Staging area.
+Download that file to your computer. Next open the [_Import_ tab within the **Data Browser**](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md) ****and drag the assembly file into the Staging Area.
 
 ![](http://kbase.us/wp-content/uploads/2018/02/dragging-assembly-into-staging-1.jpg)
 
@@ -26,7 +26,7 @@ Notice that the name of the gzipped Assembly file is already filled in, as is a 
 
 ## **Compressed/zipped files**
 
-The Assembly import app can handle gzipped \(.gz\) FASTA input files. However, .zip files and .Z files are not yet supported by the importers \(we are working on adding that\). You can upload a zip file to your Staging Area, but then you should use the “uncompress” button to its left \(diagonal arrows icon\) to unzip it before trying to import it.
+The Assembly import app can handle gzipped \(.gz\) FASTA input files. You can upload a zipped file to your Staging Area, but then you should use the “uncompress” icon \(diagonal arrows\) to its left to unzip the file before trying to import it.
 
 ![](http://kbase.us/wp-content/uploads/2015/08/image4.png)
 
