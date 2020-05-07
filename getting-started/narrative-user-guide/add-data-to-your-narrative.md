@@ -36,7 +36,7 @@ The _Import_ tab lets you drag & drop data from your computer into your Staging 
 
 To upload data from your computer \(or a [Globus endpoint](../../working-with-data-1/transferring-data-with-globus.md) or URL\), choose the rightmost tab of the Data Browser to open the _Import_ tab.
 
-You can then click the “?” button just below the drop zone to launch a short interactive tour that shows the different parts of this user interface.
+You can then click the “?” icon just below the drop zone to the right to launch a short interactive tour that shows the different parts of this user interface.
 
 Getting data from your computer to your KBase Narrative is a three-step process:
 
@@ -110,10 +110,9 @@ Clicking this link adds the “Upload File to Staging from Web” app to your Na
 
 There are also several apps that import specific file types \(single- or paired-end reads or SRA files\) from a URL directly to your Narrative, bypassing your Staging Area. These are available from the Apps Panel and the [App Catalog](https://narrative.kbase.us/#appcatalog).
 
-## Importing files from your Staging Area to your KBase Narrative
+## Importing files from the Staging Area to the KBase Narrative
 
-The files in your Staging Area are ready to import into your Narrative as KBase data objects that can be used in your analyses. \(You can think of a Narrative as a project or folder, which includes data that you will analyze, as well as results from those analyses.\)  
-To import a file from your Staging Area, choose a format \(data type\) from the pulldown menu to the right of the file’s age. \(You can find out more about KBase data types and accepted formats in the [Upload/Download Guide](../../working-with-data-1/data-upload-download-guide/).\) Then click the import icon to the right of the format menu.
+The files in your Staging Area are ready to import into your Narrative as KBase data objects that can be used in your analyses. To import a file from your Staging Area, choose a format \(data type\) from the pulldown menu to the right of the file’s age. \(You can find out more about KBase data types and accepted formats in the [Upload/Download Guide](../../working-with-data-1/data-upload-download-guide/).\) Then click the import icon to the right of the format menu.
 
 ![](../../.gitbook/assets/image11.png)
 
