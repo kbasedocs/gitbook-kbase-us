@@ -34,7 +34,7 @@ The _Import_ tab lets you drag & drop data from your computer into your Staging 
 
 ![](../../.gitbook/assets/import-stage.png)
 
-To upload data from your computer \(or a [Globus endpoint](../../working-with-data-1/transferring-data-with-globus.md) or URL\), choose the rightmost tab of the data slide-out to open the Import tab.
+To upload data from your computer \(or a [Globus endpoint](../../working-with-data-1/transferring-data-with-globus.md) or URL\), choose the rightmost tab of the Data Browser to open the _Import_ tab.
 
 You can then click the “?” button just below the drop zone to launch a short interactive tour that shows the different parts of this user interface.
 
@@ -117,7 +117,7 @@ To import a file from your Staging Area, choose a format \(data type\) from the 
 
 ![](../../.gitbook/assets/image11.png)
 
-When you click the “import” icon, the data slide-out slides shut and an Import app cell \(tailored to the chosen format\) is created in your Narrative, with the appropriate parameters filled in. For example, here’s an import app created by choosing “GenBank” as the import format:
+When you click the “import” icon, the Data Browser slides shut and an Import app cell \(tailored to the chosen format\) is created in your Narrative, with the appropriate parameters filled in. For example, here’s an import app created by choosing “GenBank” as the import format:
 
 ![](../../.gitbook/assets/image6.png)
 
@@ -126,14 +126,14 @@ When you click the “import” icon, the data slide-out slides shut and an Impo
 This example shows how to import GenBank data. Please see the [Upload/Download Guide](../../working-with-data-1/data-upload-download-guide/) for detailed instructions for other supported data types.
 {% endhint %}
 
-If the GenBank file came from a different source, use the pulldown menu to select it. You can change the output object name, if desired, and then click the Run button to start the import. When the import is done, you should see the message “Finished with success” near the top of the app cell, and some information about the app run.
+If the GenBank file came from a different source, use the pulldown menu to select it. You can change the output object name, if desired, and then click the "Run" button to start the import. When the import is done, you should see the message “Finished with success” near the top of the app cell, and some information about the app run.
 
 ![](../../.gitbook/assets/image2%20%281%29.png)
 
-If you look at your Data Panel, you should see the new data object created by the import:  
+If you look at your Data Panel, you should see the new data object created by the import.  
 [![](../../.gitbook/assets/image1.png)](https://kbase.us/wp-content/uploads/2018/01/image1.png)
 
-You can now use this data object as input into the relevant KBase apps. If you want to see which apps accept a particular data type as input, you can click the “…” menu in the data object cell that appears when you hover over it, and then use the “Show Apps with this as input” icon to filter the apps in the Apps Panel:
+You can now use this data object as input into the relevant KBase apps. If you want to see which apps accept a particular data type as input, you can click the “…” menu in the data object cell that appears when you hover over it, and then use the “Show Apps with this as input” icon to filter the apps in the Apps Panel.
 
 ![](../../.gitbook/assets/image14.png)
 
@@ -165,7 +165,9 @@ You can click “First 10 lines” or “Last 10 lines” to see that portion of
 
 Opening the information about a file in your Staging Area also reveals a trash can icon that allows you to remove the file from your staging area.  
 ![](../../.gitbook/assets/image18.png)  
-You will be asked to confirm that you want to delete the file. This action is not reversible.  
+You will be asked to confirm that you want to delete the file. This action is not reversible.
+
+  
 Note that if you had already imported the file to your Narrative as a data object, that object won’t go away when you delete the file in your Staging Area. If you want to delete a data object, you can do that in your Data Panel.
 
 {% hint style="info" %}
