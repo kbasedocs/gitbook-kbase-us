@@ -8,7 +8,7 @@ An assembly file is a single file containing one or more contiguous DNA sequence
 
 For this example, we will use an _Escherichia coli_ K12 MG1655 assembly file from NCBI as the source: [GCF\_000005845.2\_ASM584v2\_genomic.fna.gz](ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz)
 
-Download that file to your computer. Then open the [_Import_ tab in the data slide-out](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md) and drag the assembly file into your Staging area.
+Download that file to your computer. Then open the [_Import_ tab in the Data Browser](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md) and drag the assembly file into your Staging area.
 
 ![](http://kbase.us/wp-content/uploads/2018/02/dragging-assembly-into-staging-1.jpg)
 
