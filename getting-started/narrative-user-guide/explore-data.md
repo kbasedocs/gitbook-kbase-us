@@ -28,7 +28,7 @@ Clicking the _Public_ tab displays a list of data objects available in KBase’s
 ![](../../.gitbook/assets/data-type-selector.png)  
 The data-type selector at the top left of the browser window defaults to NCBI RefSeq Genomes. You can change which type of data is displayed under the _Public_ tab by using this pulldown menu.
 
-You can also use the “_Search/Filter data"_ field in the **Data Browser** to find data objects whose names include the text you’ve typed in the search box. \(Note — searches are not case-sensitive\). Enter “Vibrio brasiliensis” in the search field.
+You can also use the “_Search/Filter data"_ field in the Data Browser to find data objects whose names include the text you’ve typed in the search box. \(Note — searches are not case-sensitive\). Enter “Vibrio brasiliensis” in the search field.
 
 If you hover over a data object in the Data Browser panel, three small images appear: an _"&lt; Add " button_ in a blue rectangle to the left of the object name and _binoculars icon_ and a _graph-like icon_ to the right. These latter two icons open a **Data Landing** page and a **Provenance** page, respectively \(see below for details\).
 

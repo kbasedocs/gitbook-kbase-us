@@ -1,6 +1,6 @@
 # Add Data to Your Narrative
 
-Now that you are familiar with ways to find and explore data in KBase, you can select or upload data to analyze. The **Data Panel** in a Narrative shows the data objects that are currently available in that particular Narrative. From the Data Panel, you can access the data slide-out, which allows you to search for data of interest and add it to your Narrative. In the Data Panel, click the Add Data button, the red “+” button, or the right arrow at the upper right of the panel to access the data slide-out \(also referred to as the “**Data Browser**”\).
+Now that you are familiar with ways to find and explore data in KBase, you can select or upload data to analyze. The **Data Panel** in a Narrative shows the data objects that are currently available in that particular Narrative. From the Data Panel, you can access the data slide-out, which allows you to search for data of interest and add it to your Narrative. In the Data Panel, click the Add Data button, the red “+” button, or the right arrow at the upper right of the panel to access the **Data Browser** slide-out.
 
 [![](../../.gitbook/assets/image9.png)](https://kbase.us/wp-content/uploads/2018/01/image9.png)
 
@@ -9,12 +9,12 @@ Now that you are familiar with ways to find and explore data in KBase, you can s
 Any data that you upload to KBase is kept private unless you explicitly choose to share it. You can share any of your Narratives \(including their associated data\) with one or more specific users, or make it publicly available to all KBase users. Please see the [Sharing](share-narratives.md) page for more information about how to do that. The [Terms and Conditions page](https://kbase.us/terms-and-conditions/) describes the KBase data policy.
 {% endhint %}
 
-The first four tabs of the data slide-out \(“My Data”, “Shared With Me”, “Public”, and “Example”\) let you search data that is already in KBase. The last tab lets you import data from your computer to your Narrative so that you can analyze it in KBase. This tab was labeled “Staging \(beta\)” and then became “Import \(New\)” and soon will become simply “Import.”
+The first four tabs of the Data Browser \(“My Data”, “Shared With Me”, “Public”, and “Example”\) let you search data that is already in KBase. The Import tab lets you import data from your computer to your Narrative so that you can analyze it in KBase.
 
 * The **My Data** tab shows data objects that you have added to your project. You may need to refresh this tab to see your most recently added data.
 * The **Shared With Me** and **Public** tabs display datasets that others have loaded and made accessible to you \(or to everyone\). Data within each group is searchable and can be filtered. Since there are a large number of public datasets, you may wish to filter them by data type \(using the pulldown selector on the left\) or narrow the list by searching \(in the “Search data” text box\) for specific text in the data objects’ names.
 * The **Example** tab shows datasets that have been pre-loaded for use with particular apps. These can be handy for trying out the Narrative Interface.
-* Finally, the **Import** tab allows you to upload your own datasets for analysis. This is explained in more detail below.
+* The **Import** tab allows you to upload your own datasets for analysis. This is explained in more detail below.
 
 ## Data available in KBase
 
@@ -113,11 +113,11 @@ There are also several apps that import specific file types \(single- or paired-
 ## Importing files from your Staging Area to your KBase Narrative
 
 The files in your Staging Area are ready to import into your Narrative as KBase data objects that can be used in your analyses. \(You can think of a Narrative as a project or folder, which includes data that you will analyze, as well as results from those analyses.\)  
-To import a file from your Staging Area, choose a format \(data type\) from the pulldown menu to the right of the file’s age. \(You can find out more about KBase data types and accepted formats in the [Upload/Download Guide](../../working-with-data-1/data-upload-download-guide/).\) Then click the “-mport” icon to the right of the format menu.
+To import a file from your Staging Area, choose a format \(data type\) from the pulldown menu to the right of the file’s age. \(You can find out more about KBase data types and accepted formats in the [Upload/Download Guide](../../working-with-data-1/data-upload-download-guide/).\) Then click the import icon to the right of the format menu.
 
 ![](../../.gitbook/assets/image11.png)
 
-When you click the “import” icon, the Data Browser slides shut and an Import app cell \(tailored to the chosen format\) is created in your Narrative, with the appropriate parameters filled in. For example, here’s an import app created by choosing “GenBank” as the import format:
+When you click the import icon, the Data Browser slides shut and an Import app cell \(tailored to the chosen format\) is created in your Narrative, with the appropriate parameters filled in. For example, here’s an import app created by choosing “GenBank” as the import format:
 
 ![](../../.gitbook/assets/image6.png)
 
@@ -153,7 +153,7 @@ The list of files in your Staging Area includes their name, size, and age \(from
 
 ![](../../.gitbook/assets/image21.png)
 
-Compressed or zipped files have a little double-arrow icon next to the filename. You can click that icon to unpack them. You don’t need to uncompress compressed files, as they will automatically be uncompressed during import, but if you have uploaded a zip file, you can use the button to unzip it in order to access the individual files in it.
+Compressed or zipped files have a little double-arrow icon next to the filename. You can click that icon to unpack them. You don’t need to uncompress compressed files, as they will automatically be uncompressed during import, but if you have uploaded a .zip file, you can use the button to unzip it in order to access the individual files in it.
 
 For more information about a file in your staging area, click the arrow to the left of the filename to open a tab like this:
 
