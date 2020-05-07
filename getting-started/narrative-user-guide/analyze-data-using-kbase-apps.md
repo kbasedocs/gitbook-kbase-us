@@ -64,7 +64,7 @@ In the example, the “Annotate Microbial Contigs” app, once run, produced an 
 
 This output cell has three tabs: Overview \(displayed above\), _Browse_ Contigs, which lists the large assembled pieces of a genome, and _Browse Features_, which allows browsing of all the annotated genes.
 
-Different apps create different types of output cells when they run, depending on which type of data object is output by the app. The genome output cell shown above is an example of a _Data Viewer._ Data Viewers are described in the “[Explore Data](explore-data.md)” section of this guide.
+Different apps create different types of output cells when they run, depending on which type of data object is output by the app. The genome output cell shown above is an example of a _Data Viewer._ Data Viewers are described in the [Explore Data](explore-data.md) section of this guide.
 
 ![](../../.gitbook/assets/screen-shot-2017-02-01-at-1.42.23-pm.png)
 
@@ -74,7 +74,7 @@ In addition to creating a new output cell, the app we ran created a new data obj
 
 Remember that you can hover over an object in the Data Panel and click the “..." that appears to see more information and options, including an option \(see image\) for downloading the object in GenBank or JSON format \(see the [Download Guide](../../working-with-data-1/data-upload-download-guide/) for more information\). In the future, you will be able to choose from a wider variety of common formats, allowing you to download results to use with other tools and send to colleagues.
 
-**KBase’s download functionality is still in development–please check back soon for new download options and improvements, and report any problems to us.**
+**KBase’s download functionality is still in development – please check back soon for new download options and improvements, and report any problems to us.**
 
 ## **Conduct further analyses**
 

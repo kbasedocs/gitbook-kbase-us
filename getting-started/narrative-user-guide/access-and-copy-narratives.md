@@ -18,7 +18,8 @@ Why can’t you run a Narrative owned by someone else? Because, as we’ve seen,
 
 The blue box with a small white arrow on the top left of a View-only Narrative opens the Data Panel \(so you can see the data objects in this Narrative\) and the Narratives list \(so that you can go to another Narrative\).
 
-TIP: You can switch a Narrative that you own to view-only mode by clicking the pencil icon under the title of the Narrative.  
+TIP: You can switch a Narrative that you own to view-only mode by clicking the pencil icon under the title of the Narrative.
+
 If you ever want to print out a Narrative, switch it to view-only mode first, so it doesn’t waste the left side of the page with empty space.
 
 ## Copy a Narrative
