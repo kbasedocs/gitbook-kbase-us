@@ -28,7 +28,7 @@ Clicking the _Public_ tab displays a list of data objects available in KBase’s
 ![](../../.gitbook/assets/data-type-selector.png)  
 The data-type selector at the top left of the browser window defaults to NCBI RefSeq Genomes. You can change which type of data is displayed under the _Public_ tab by using this pulldown menu.
 
-You can also use the “_Search/Filter data"_ field in the Data Browser to find data objects whose names include the text you’ve typed in the search box. \(Note — searches are not case-sensitive\). Enter “Vibrio brasiliensis” in the search field.
+You can also use the “_Search/Filter data..."_ field in the Data Browser to find data objects whose names include the text you’ve typed in the search box. \(Note — searches are not case-sensitive\). Enter “Vibrio brasiliensis” in the search field.
 
 If you hover over a data object in the Data Browser panel, three small images appear: an _"&lt; Add " button_ in a blue rectangle to the left of the object name and _binoculars icon_ and a _graph-like icon_ to the right. These latter two icons open a **Data Landing** page and a **Provenance** page, respectively \(see below for details\).
 
@@ -85,7 +85,7 @@ You can even sort by more than one column at a time by clicking one column heade
 
 ![](../../.gitbook/assets/screen-shot-2015-02-09-at-12.49.05-pm-e1423803707173.png)
 
-There are many types of viewers in KBase in addition to the Genome viewer discussed here. Different viewers may have different options; give them a whirl! Don’t be afraid to click on anything you see in a viewer.
+There are many types of viewers in KBase in addition to the Genome viewer discussed here. Different viewers may have different options to explore.
 
 To remove a viewer from your Narrative, click the trashcan icon in the top right of the viewer cell. You can always re-add the viewer; removing it from your Narrative doesn’t delete the data object itself.
 
