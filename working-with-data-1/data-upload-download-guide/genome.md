@@ -1,6 +1,6 @@
 # Genome
 
-In KBase, a **“Genome” object is the annotated version of an Assembly** and can encompass several types of feature calls. If you want to upload solely the DNA sequence from a FASTA file \(without annotations\), go to the [Assembly](assembly.md) page.
+In KBase, a **Genome object is the annotated version of an Assembly** and can encompass several types of feature calls. If you want to upload solely the DNA sequence from a FASTA file \(without annotations\), go to the [Assembly](assembly.md) page.
 
 The Genome importer supports only GenBank and GFF-formatted files. A GenBank-formatted input file should include sequence contig\(s\), feature calls \(annotations\), and taxonomy information for the organism. KBase parses the input file into two data objects: an assembly object with the sequence and a genome object containing the original feature calls and annotations.
 
