@@ -1,20 +1,24 @@
-# Expression Matrix
+---
+description: >-
+  The Expression Matrix data type contains gene expression values taken under
+  given sampling conditions.
+---
 
-The Expression Matrix data type contains gene expression values taken under given sampling conditions.
+# Expression Matrix
 
 ## **Formatting Expression Matrix TSV files**
 
 If you are importing expression data from an external source or want to populate a file with your own data, please ensure that it is formatted properly for use with KBase. A tab-separated values \(TSV\) file is a tab delimited text file that has genes across the rows and sample observations across the columns. Make sure the first label in the first column is “feature\_ids” followed by tab-delimited labels for samples.
 
-For this example, we will use the Shewanella\_oneidensis\_MR-1 genome and the Shewanella\_MR-1\_M3D\_ExpData expression data set from the Example data tab. \(When working with your own data, you can start with an empty Expression Matrix template.\)
+For this example, we will use the Shewanella\_oneidensis\_MR-1 genome and the Shewanella\_MR-1\_M3D\_ExpData expression data set from the _Example_ data tab. \(When working with your own data, you can start with an empty Expression Matrix template.\)
 
-For this example, we will use the Shewanella\_oneidensis\_MR-1 Genome from the **Example** data tab. To [add the Genome to your Narrative](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md), find the Data Panel along the left side of the screen and click the Add Data \(or red “+”\) button. This will open the Data Browser slideout. Select the **Example** tab at the top of the slideout, and search for “Shewanella\_oneidensis\_MR-1” genome. Mouse over the Genome name and click the blue Add button.
+For this example, we will use the Shewanella\_oneidensis\_MR-1 Genome from the _Example_ data tab. To [add the Genome to your Narrative](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md), find the Data Panel along the left side of the screen and click the "Add Data" \(or red “+”\) button. This will open the Data Browser slide-out. Select the _Example_ tab at the top of the slide-out, and search for “Shewanella\_oneidensis\_MR-1” genome. Mouse over the Genome name and click the blue "&lt; Add" button.
 
 ![](http://kbase.us/wp-content/uploads/2016/04/image5.png)
 
-The S. oneidensis Genome object should appear in your Data Panel.
+The _S. oneidensis_ Genome object should appear in your Data Panel.
 
-Do the same for the Shewanella\_MR-1\_M3D\_ExpData expression data set: find it in the Example tab and click the “Add” button to add it to your Narrative. You should now see both the Genome and the Expression Matrix in your Data Panel.
+Do the same for the Shewanella\_MR-1\_M3D\_ExpData expression data set: find it in the Example tab and click the “&lt; Add” button to add it to your Narrative. You should now see both the Genome and the Expression Matrix in your Data Panel.
 
 ![](http://kbase.us/wp-content/uploads/2015/08/image4-3.png)
 

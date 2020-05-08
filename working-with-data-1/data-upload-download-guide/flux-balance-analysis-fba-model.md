@@ -18,7 +18,7 @@ Double-check that the _Bacillus subtilis_ 168 FBA Model completely downloaded by
 
 In order to successfully upload an FBA model into your KBase workspace, you first need to add the Genome that corresponds to referenced in the FBA Model you wish to upload. For this example, we’ll add the _Bacillus\_subtilis\_subsp.\_subtilis\_str.\_168_ Genome to our Narrative \(under the _Public_ tab in the **Data Browser**\) before importing the FBA model file.
 
-To add the Genome to your Narrative, find the Data Panel along the left side of the screen and click the Add Data \(or red “+”\) button. This will open the Data Browser slide-out. Select the **Example** tab at the top of the Data Browser, and search for “Bacillus subtillis subsp. Subtillis str. 168” genome. Mouse over the genome name and click the blue "&lt; Add" button.
+To add the Genome to your Narrative, find the Data Panel along the left side of the screen and click the Add Data \(or red “+”\) button. This will open the Data Browser slide-out. Select the _Example_ tab at the top of the Data Browser, and search for “Bacillus subtillis subsp. Subtillis str. 168” genome. Mouse over the genome name and click the blue "&lt; Add" button.
 
 ![Import FBA SBML](http://kbase.us/wp-content/uploads/2015/08/Import-FBA-SMBL.png)
 
@@ -26,7 +26,7 @@ After you’ve added the _Bacillus subtilis_ 168 genome to your Data Panel, open
 
 ![](http://kbase.us/wp-content/uploads/2016/12/image3.png)
 
-## **Drag & Drop Limitations**
+### **Drag & Drop Limitations**
 
 Drag & drop upload from your local computer works for many files, but there is a size limit  dependent on your computer and browser. For larger files around 20 gigabases or more, use the [Globus Online transfer](http://kbase.us/transfer-data-from-globus-to-kbase/).
 
