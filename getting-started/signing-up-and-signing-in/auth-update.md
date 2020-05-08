@@ -16,19 +16,21 @@ When you go to [KBase](https://narrative.kbase.us/) to sign in, you will see thi
 
 ![](../../.gitbook/assets/kbasesignin%20%281%29.png)
 
-Click the Sign In button below “Use KBase” and sign-in options will appear:
+Click the Sign In button below “Use KBase” and sign-in options will appear
 
-![](../../.gitbook/assets/kbasesignin%20%284%29.gif)
+![](../../.gitbook/assets/kbase_signin%20%282%29.gif)
 
 **Sign in using Globus**. Globus is the home of the existing KBase user accounts, and your Globus ID is your KBase ID.
 
 When you click “Sign in with Globus”, a page to Log in with your Globus credentials will open:  
 
 
-![](../../.gitbook/assets/kbaseglobuslogin.gif)
+![](../../.gitbook/assets/kbase_globussignin.gif)
 
-Click Continue. You will reach another page at Globus, requesting your Globus username and password \(remember, this is the same as your existing KBase account\).  
-  
+Click Continue. You will reach another page at Globus, requesting your Globus username and password \(remember, this is the same as your existing KBase account\).
+
+![](../../.gitbook/assets/kbase_globuslogin%20%283%29.gif)
+
 Enter your usual KBase username and password. Your username is not your email address – it should not contain an “@” sign. **If you forgot your password, use the “Forgot password?” link at the lower right.**
 
 ![](../../.gitbook/assets/image3.png)
@@ -61,11 +63,11 @@ The first time you sign into KBase after the authentication change, you will nee
 
 2. Click the Sign In button below “Use KBase” and more options will appear:
 
-![](../../.gitbook/assets/kbasesignin%20%287%29.gif)
+![](../../.gitbook/assets/kbase_signin.gif)
 
 3. Click “Sign in with Globus”. 
 
-![](../../.gitbook/assets/kbaseglobussignin%20%284%29.gif)
+![](../../.gitbook/assets/kbase_globussignin%20%281%29.gif)
 
 Most of the time, you will not need to sign into Globus \(as it will remember you unless you sign out of KBase\), so you will see a screen like this:
 
@@ -75,9 +77,7 @@ Most of the time, you will not need to sign into Globus \(as it will remember yo
 
 Note that if you had signed out completely from Globus after the last time you used KBase, you might have to go through two extra steps to sign-in to Globus. Click "Continue" and then proceed to enter Globus Log in information. 
 
-![](../../.gitbook/assets/kbaseglobuslogin%20%281%29.gif)
-
-
+![](../../.gitbook/assets/kbase_globuslogin%20%282%29.gif)
 
 If you encounter any difficulties or have any questions, please feel free to [contact us](https://kbase.us/contact-us/). 
 
@@ -93,7 +93,7 @@ Go through the normal Globus sign-in process until you get to your Dashboard.
 
 On the left sidebar of your dashboard, click the “Account” icon, and then choose the tab labeled “Linked Sign-In Accounts”.
 
-![](../../.gitbook/assets/kbaselinkaccounts%20%281%29.gif)
+![](../../.gitbook/assets/kbase_linkaccounts%20%281%29.gif)
 
 At the bottom of the tab, choose “Google” from the pulldown list of identity providers.
 
@@ -113,7 +113,7 @@ After you click that Link button, you will be returned to the Linked Sign-in Acc
 
 Now when you want to sign in to KBase, you can also use the “Sign in with Google” button.
 
-![](../../.gitbook/assets/kbasegooglesignin%20%282%29.gif)
+![](../../.gitbook/assets/kbasegooglesignin%20%281%29.gif)
 
 This will bring you straight to the “Choose an account” Google page:
 
@@ -133,7 +133,9 @@ Go through the normal sign-in process until you get to your Dashboard.
 
 On the left sidebar of your dashboard, click the “Account” icon, and then choose the tab labeled “Linked Sign-In Accounts”.
 
-![](../../.gitbook/assets/kbaselinkaccounts%20%282%29.gif)
+![](../../.gitbook/assets/kbase_linkaccounts.gif)
+
+![](../../.gitbook/assets/kbaselinkaccounts.gif)
 
 At the bottom of the tab, choose “ORCiD” from the pulldown list of identity providers, and then click the “Link” button. The next screen will prompt you to Sign into your ORCiD account to link.
 

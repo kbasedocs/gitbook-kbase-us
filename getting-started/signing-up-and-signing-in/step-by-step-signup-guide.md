@@ -4,7 +4,7 @@ This page provides step-by-step instructions for signing up to use KBase. You wi
 
 1. From the [KBase sign-in page](https://narrative.kbase.us/), select the “New User” option.
 
-![](../../.gitbook/assets/kbasenewuser%20%281%29.gif)
+![](../../.gitbook/assets/kbase_newusersignin.gif)
 
 2. Use your existing Google, ORCiD, or Globus account to sign up for KBase. 
 
@@ -22,7 +22,7 @@ We are also considering adding support for other identity providers. If there’
 {% endhint %}
 
 3. Assuming you want to use your Google account, click on the “Sign in with Google” button; you will be prompted to choose a Google account \(if you have more than one\) and sign in to it \(if you aren’t already signed in\).  
-[![](../../.gitbook/assets/screen-shot-2017-06-06-at-2.12.28-pm.png)](https://kbase.us/wp-content/uploads/2017/04/Screen-Shot-2017-06-06-at-2.12.28-PM.png)
+[![](../../.gitbook/assets/signingoogle_chooseanaccount.png)](https://kbase.us/wp-content/uploads/2017/04/Screen-Shot-2017-06-06-at-2.12.28-PM.png)
 
 4. The KBase account creation form will prompt you to enter some required information, which includes choosing a username and identifying your organization and department.  
 
