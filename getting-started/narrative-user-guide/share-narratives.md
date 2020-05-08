@@ -4,7 +4,7 @@ Narratives are _collaborative_ \(multiple people on your project can work on a N
 
 You can share a Narrative that you own with any set of people you choose, or with all KBase Users. To share a Narrative, click the “share” button near the top right of the page and select the "Manage Sharing" option in the menu. 
 
-![](../../.gitbook/assets/sharesettings_narrative%20%281%29.gif)
+![](../../.gitbook/assets/sharenarrative.gif)
 
 You will now see the Change Share Settings popup window. Here, you can see the people you have already shared with \(right now, only you\).
 
@@ -22,7 +22,7 @@ For example, suppose you want to share your Narrative with kbasehelp so that KBa
 
 The default permission level for sharing is “View only”, which lets the user you’re sharing with see the Narrative but not let them edit it or share it with others. If you want to share your Narrative with a collaborator and give them more privileges, click the down-arrow to see the permission levels and possibly choose a different one.
 
-![](../../.gitbook/assets/users_sharesettings.gif)
+![](../../.gitbook/assets/changenarrativesharesettings.gif)
 
 You can add multiple users to share with:
 
@@ -36,7 +36,7 @@ Click the “Apply” button to add the chosen user\(s\) to the sharing list for
 
 To share your Narrative with a specific Organization, select the Orgs tab. Here you can add a single or multiple Organizations to share with a group of users. 
 
-![](../../.gitbook/assets/sharesettings_orgs.gif)
+![](../../.gitbook/assets/changesharesettingsorgs.gif)
 
 Click the “Apply” button to add the chosen Organization\(s\) to the sharing list for your Narrative. The Organizations and permission levels for the users you shared with will appear at the bottom of the Share panel.
 
@@ -52,13 +52,11 @@ If you are working on a shared Narrative, and a collaborator is working on it at
 
 ## Create or modify your user profile
 
-Every KBase User has a user profile. Filling in your KBase user profile helps you become part of the social web that KBase is building, making it easier to find and collaborate with other scientists and share data and Narratives. You are not required to complete your user profile in order to use KBase, but we encourage you to.
-
-
+Every KBase User has a user profile. Filling in your KBase user profile helps you become part of the social web that KBase is building, making it easier to find and collaborate with other scientists and share data and Narratives. You are not required to complete your user profile in order to use KBase, but we encourage everyone to do so.
 
 To see and edit your user profile, go to your Dashboard and click the “Account” button on the left side. Your profile page will open, looking something like the screenshot below. You will be able to enter or change information including your organization, department, job title, research interests, avatar, and more. Required fields are marked with a red "\*." You must fill in all required fields in order to save your profile \(using the Save button on the upper right of the page\).
 
-![](../../.gitbook/assets/menu_accountselection.gif)
+![](../../.gitbook/assets/accountselect.gif)
 
 ![](../../.gitbook/assets/screen-shot-2017-12-05-at-3.35.55-pm.png)
 

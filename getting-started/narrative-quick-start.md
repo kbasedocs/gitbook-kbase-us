@@ -86,7 +86,7 @@ Please see [the KBase Apps section of the Narrative Interface User Guide](narrat
 
 ### **Step 8. Share your Narrative**
 
-![](../.gitbook/assets/screen-shot-2017-09-20-at-10.37.10-am.png)
+![](../.gitbook/assets/sharenarrative.gif)
 
 All Narratives that you create are private by default. You can [make a Narrative public or share it ](narrative-user-guide/share-narratives.md)with specific collaborators by clicking the “share” button near the top right of your Narrative.
 

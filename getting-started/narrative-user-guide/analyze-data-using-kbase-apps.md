@@ -20,7 +20,7 @@ A few things to notice about the app cell:
 
 * The “…” dropdown menu offers several options for showing the code that will execute the app; getting more info \(in a separate browser window\) about the app; and deleting the cell. These are discussed more in the section called “[Revise Your Narrative](revise-your-narrative.md)“.
 
-![](../../.gitbook/assets/appelipsesdropdownmenu%20%281%29.gif)
+![](../../.gitbook/assets/ellipsesdropdownmenu.gif)
 
 * The "-/+" in the App Cell menu is the collapse/expand cell option. When the App Cell is expanded, the farthest right option will be a "-" to collapse the cell. When the App Cell is collapsed, the farthest right option will be a "+" to expand the cell.  You can also double click on an App Cell to expand/collapse the app. 
 
@@ -42,7 +42,7 @@ Some apps have optional “advanced options” that you can reveal by clicking o
 
 **Save Your Work**
 
-![](../../.gitbook/assets/savenarrative.gif)
+![](../../.gitbook/assets/savenarrative%20%284%29.gif)
 
 As you add to your Narrative, be sure to save your work frequently, using the Save button at the top right of the screen.
 

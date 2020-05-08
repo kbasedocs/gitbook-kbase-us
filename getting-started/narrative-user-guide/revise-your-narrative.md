@@ -35,7 +35,7 @@ New Markdown cells contain the placeholder text “\[Empty Markdown / LaTeX cell
 Via the arrows and menu items in a Narrative cell, you can move the cell up or down, collapse or expand it, show the code that runs the analysis, get more info about the app, or delete the app cell. The cell menu can be opened by clicking the “…” in the upper right corner of a cell.  
 
 
-![](../../.gitbook/assets/appcellmenuoptions.gif)
+![](../../.gitbook/assets/appcellmenu%20%281%29.gif)
 
 ## Rename or delete a Narrative
 
