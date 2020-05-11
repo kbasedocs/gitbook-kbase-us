@@ -10,7 +10,15 @@ To add an app to your Narrative, find the app of interest and click its name or 
 
 A few things to notice about the app cell:
 
-* App cells have three tabs: Configure \(which is where you set the parameters; it’s what you see when you add a new app cell\), Job Status and Result. The last two tabs are filled in once you run the app; these are discussed later.
+* **App Cells** have three tabs 
+
+  1\) Configure \(where you set the parameters; it’s what you see when you add a new app cell\) 
+
+  2\) Job Status 
+
+  3\) Result
+
+  The last two tabs are filled in once you run the app; these are discussed later.
 
 ![](../../.gitbook/assets/kbaseapps_tabs.png)
 

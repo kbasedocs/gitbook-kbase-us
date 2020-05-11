@@ -37,7 +37,6 @@
   * [Searching, Adding, and Uploading Data](working-with-data-1/searching-adding-and-uploading-data.md)
   * [Filtering, Managing, and Viewing Data](working-with-data-1/filtering-managing-and-viewing-data.md)
   * [Public Data in KBase](working-with-data-1/public-data-in-kbase.md)
-  * [Searching Data](working-with-data-1/searching-data.md)
   * [Transferring Data with Globus](working-with-data-1/transferring-data-with-globus.md)
   * [Transferring Data from JGI](working-with-data-1/transferring-data-from-jgi.md)
 * [Using Apps](using-apps-1/README.md)

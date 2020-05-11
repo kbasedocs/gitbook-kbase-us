@@ -1,10 +1,8 @@
 # Assembly and Annotation in KBase
 
-
-
 ![Assemble &amp; Annotate](https://kbase.us/wp-content/uploads/2016/09/genome.jpg)KBase provides multiple Apps for de novo assembly of prokaryotic Next-Generation Sequencing \(NGS\) reads from various sequencing platforms. These assemblies can then be annotated with RAST or Prokka, enabling you to explore structural and functional features of a Genome or use it in other analyses. The interactive [Assembly & Annotation Narrative tutorial](https://narrative.kbase.us/narrative/ws.18188.obj.6) is a good way to learn about this powerful functionality.
 
-#### KBase Assembly and Annotation Capabilities
+### KBase Assembly and Annotation Capabilities
 
 **Reads Quality Control and Assessment**
 

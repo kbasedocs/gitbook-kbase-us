@@ -1,17 +1,15 @@
 # Public Data in KBase
 
-## Data Summary
-
 KBase provides users with a unified resource for analyzing a range of public data together with the data generated from their own experiments. The data in KBase, which includes public data from various public sources as well as internally-generated analysis results, includes an extensive set of prokaryotic annotated genomes; a selected set of eukaryotic genomes; and thousands of biochemical compounds and reactions.
 
+Please review [KBase's Data Policy](https://kbase.us/data-policy-and-sources/) and the sources of our public reference data.
+
+To search public data in KBase, use the __[_Public_ tab in the **Data Browser** ](../getting-started/narrative-user-guide/explore-data.md) ****within the Narrative Interface.
+
+If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account using [these instructions](transferring-data-from-jgi.md).
+
+  
 The table below represents the total number of different data objects imported from public repositories or created by KBase analysis pipelines in the combined KBase datastores as of June 27, 2017.
-
-Please see [this page](https://kbase.us/data-policy-and-sources/) for KBase’s Data Policy and the sources of our public reference data.
-
-To search public data in KBase, use the [Public tab in the Data Slideout](../getting-started/narrative-user-guide/explore-data.md) inside KBase’s Narrative Interface. A new data search interface is in development and will be launched in mid-2018.
-
-If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [this page](transferring-data-from-jgi.md) for instructions.  
-
 
 | Category | Data Type | Total number |
 | :---: | :---: | :---: |

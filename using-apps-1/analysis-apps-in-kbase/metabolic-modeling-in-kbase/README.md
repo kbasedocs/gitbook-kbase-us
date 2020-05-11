@@ -10,7 +10,7 @@ Metabolic models can be used to evaluate an organism’s metabolic capability by
 * Would it grow under certain minimal media conditions?
 * Could the organism be optimized to produce a particular drug molecule or industrially important biofuel?
 
-#### KBase Metabolic Modeling Capabilities
+### KBase Metabolic Modeling Capabilities
 
 **Generate Genome-scale Metabolic Models**
 

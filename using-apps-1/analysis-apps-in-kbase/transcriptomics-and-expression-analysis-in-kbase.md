@@ -2,14 +2,7 @@
 
 ![](../../.gitbook/assets/expression-1.jpg) KBase offers a powerful suite of expression analysis tools. Starting with short reads, you can use the tool suite to assemble and quantify long transcripts, identify differentially expressed genes, cluster them and analyze them as functionally enriched modules. You can also compare the expression data with the flux when studying metabolic models in KBase and identify pathways where expression and flux agree or conflict.
 
-#### Narrative Tutorials
-
-You can copy these tutorials and re-run any of the steps \(perhaps changing parameters or using your own data\) in your KBase account.
-
-1. [Arabidopsis RNA-seq Analysis Tutorial](https://narrative.kbase.us/narrative/ws.19391.obj.1)
-2. [E. coli RNA-seq Analysis Tutorial](https://narrative.kbase.us/narrative/ws.50093.obj.1)
-
-#### Why Run RNA-seq and Expression Analysis in KBase
+### RNA-seq and Expression Analysis Capabilities
 
 Whether you are a beginner or advanced user of RNA-seq, you will find that KBase’s expression analysis tool suite offers a number of advantages, including some unique to KBase:
 
@@ -19,7 +12,7 @@ Whether you are a beginner or advanced user of RNA-seq, you will find that KBase
 4. **Easy upload and download:** You can easily [upload](../../working-with-data-1/data-upload-download-guide/) reads, genomes and expression matrices from local and remote public sites. You can also [download](../../working-with-data-1/data-upload-download-guide/) BAM, expression matrices and tool outputs for a number of intermediate steps.
 5. **Unrestricted data and compute:** You can store and analyze an unrestricted amount of RNA-seq data in a reasonable time and free of cost.
 6. **Well documented:** You can refer to a variety of documentation for [Apps](https://narrative.kbase.us/#catalog/apps), helpful [Narrative tutorials](https://kbase.us/narrative-library/), and broader KBase documentation.
-7. _**Active support:**_ You can contact us at [engage@kbase.us](mailto:engage@kbase.us) or through the [KBase Help Board](../../troubleshooting-1/support.md) to ask questions or share feedback.
+7. _**Active support:**_ Contact us through the [KBase Help Board](../../troubleshooting-1/support.md) to ask questions or share feedback.
 
 #### Prerequisites for RNA-seq Analysis
 
@@ -57,14 +50,7 @@ _Figure 1: The original and new Tuxedo RNA-seq analysis suites in KBase have mod
 
 _Figure 2: The complete differential RNA-seq workflow in KBase_
 
-#### 
-
-#### Expression Analysis Resources in KBase
-
- **Narrative Tutorials**
-
-* RNA-seq Analysis using New Tuxedo Suite \(Arabidopsis\): [https://narrative.kbase.us/narrative/ws.19391.obj.1](https://narrative.kbase.us/narrative/ws.19391.obj.1)
-* RNA-seq Analysis \(E. coli\): [https://narrative.kbase.us/narrative/ws.50093.obj.1](https://narrative.kbase.us/narrative/ws.50093.obj.1)
+### Expression Analysis Apps in KBase
 
 **Reads Management**
 
@@ -104,4 +90,9 @@ _Figure 2: The complete differential RNA-seq workflow in KBase_
 
 * View Interactive Heatmap [— App details](https://narrative.kbase.us/#catalog/apps/kb_cummerbund/view_expression_interactive_heatmap/release)
 * View Multi-cluster Heatmap [— App details](https://narrative.kbase.us/#catalog/apps/CoExpression/expression_toolkit_view_heatmap/release)
+
+### **RNA-Seq Analysis Tutorials**
+
+* RNA-seq Analysis using New Tuxedo Suite \(Arabidopsis\): [https://narrative.kbase.us/narrative/ws.19391.obj.1](https://narrative.kbase.us/narrative/ws.19391.obj.1)
+* RNA-seq Analysis \(E. coli\): [https://narrative.kbase.us/narrative/ws.50093.obj.1](https://narrative.kbase.us/narrative/ws.50093.obj.1)
 

@@ -1,6 +1,6 @@
 # Add Data to Your Narrative
 
-Now that you are familiar with ways to find and explore data in KBase, you can select or upload data to analyze. The **Data Panel** in a Narrative shows the data objects that are currently available in that particular Narrative. From the Data Panel, you can access the data slide-out, which allows you to search for data of interest and add it to your Narrative. In the Data Panel, click the Add Data button, the red “+” button, or the right arrow at the upper right of the panel to access the **Data Browser** slide-out.
+Now that you are familiar with ways to find and explore data in KBase, you can select or upload data to analyze. The **Data Panel** in a Narrative shows the data objects that are currently available in that particular Narrative. From the Data Panel, you can access the data slide-out, which allows you to search for data of interest and add it to your Narrative. In the Data Panel, click the red "Add Data" button, the red “+” button, or the right arrow at the upper right of the panel to access the **Data Browser** slide-out.
 
 [![](../../.gitbook/assets/image9.png)](https://kbase.us/wp-content/uploads/2018/01/image9.png)
 
@@ -11,10 +11,10 @@ Any data that you upload to KBase is kept private unless you explicitly choose t
 
 The first four tabs of the Data Browser \(“My Data”, “Shared With Me”, “Public”, and “Example”\) let you search data that is already in KBase. The Import tab lets you import data from your computer to your Narrative so that you can analyze it in KBase.
 
-* The **My Data** tab shows data objects that you have added to your project. You may need to refresh this tab to see your most recently added data.
-* The **Shared With Me** and **Public** tabs display datasets that others have loaded and made accessible to you \(or to everyone\). Data within each group is searchable and can be filtered. Since there are a large number of public datasets, you may wish to filter them by data type \(using the pulldown selector on the left\) or narrow the list by searching \(in the “Search data” text box\) for specific text in the data objects’ names.
-* The **Example** tab shows datasets that have been pre-loaded for use with particular apps. These can be handy for trying out the Narrative Interface.
-* The **Import** tab allows you to upload your own datasets for analysis. This is explained in more detail below.
+* The _My Data_ tab shows data objects that you have added to your project. You may need to refresh this tab to see your most recently added data.
+* The _Shared With Me_ and _Public_ tabs display datasets that others have loaded and made accessible to you \(or to everyone\). Data within each group is searchable and can be filtered. Since there are a large number of public datasets, you may wish to filter them by data type \(using the pulldown selector on the left\) or narrow the list by searching \(in the “Search data” text box\) for specific text in the data objects’ names.
+* The _Example_ tab shows datasets that have been pre-loaded for use with particular apps. These can be handy for trying out the Narrative Interface.
+* The _Import_ tab allows you to upload your own datasets for analysis. This is explained in more detail below.
 
 ## Data available in KBase
 
@@ -22,11 +22,11 @@ If you hover your cursor over any data object under the first four tabs, options
 
 ![](../../.gitbook/assets/screen-shot-2015-02-07-at-4.27.28-pm.png)
 
-In the [previous section](explore-data.md), we described the process of adding a genome to your Narrative from the public data in KBase. Now let’s check out the different data types available under the Example tab. The icon to the left of each data object represents its data type.
+In the [previous section](explore-data.md), we described the process of adding a genome to your Narrative from the public data in KBase. Now let’s check out the different data types available under the _Example_ tab. The icon to the left of each data object represents its data type.
 
 ![](../../.gitbook/assets/screen-shot-2017-01-30-at-12.25.07-pm.png)
 
-As described in the previous section, the Add button next to these icons lets you add the data object to your Narrative. You can add more more data to your Narrative from the Example tab to try out various KBase apps.
+As described in the previous section, the blue "&lt; Add" button next to these icons lets you add the data object to your Narrative. You can add more more data to your Narrative from the _Example_ tab to try out various KBase apps.
 
 ## Uploading data from external sources
 

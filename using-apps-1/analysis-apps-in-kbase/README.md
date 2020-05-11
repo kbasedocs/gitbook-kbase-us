@@ -1,10 +1,8 @@
 # Analysis Apps in KBase
 
-## Apps
+**KBase Apps** are analysis tools that you can use in KBase. Apps interoperate seamlessly to enable a range of scientific workflows \(see figure below\). Some of the apps were written by KBase scientists and developers; others are third-party tools that were integrated into KBase with our [Software Developer Kit \(SDK\)](../../developing-apps-1/the-kbase-sdk.md). The number of apps available in KBase increases as members of the community use our SDK to integrate their analysis tools into the KBase platform.
 
-**KBase apps** are analysis tools that you can use in KBase. Apps interoperate seamlessly to enable a range of scientific workflows \(see figure below\). Some of the apps were written by KBase scientists and developers; others are third-party tools that were integrated into KBase with our [Software Developer Kit \(SDK\)](../../developing-apps-1/the-kbase-sdk.md). The number of apps available in KBase will increase rapidly as members of the community use our SDK to integrate their analysis tools into the KBase platform.
-
-The KBase [**App Catalog**](https://narrative.kbase.us/#appcatalog) lists all of the currently available apps. The majority of them fall into the following categories:
+The [**App Catalog**](https://narrative.kbase.us/#appcatalog) lists all of the currently available apps. The majority of them fall into the following categories:
 
 * [Assembly](assembly-and-annotation-in-kbase.md)
 * [Annotation](assembly-and-annotation-in-kbase.md)
@@ -21,8 +19,7 @@ Go straight to the [App Catalog](https://narrative.kbase.us/#appcatalog)
 Note: you will need a [KBase user account](../../getting-started/signing-up-and-signing-in/#signing-up) to use our tools.
 {% endhint %}
 
-  
-Below: Outline of the major workflows and datatypes in KBase. The unboxed labels represent datatypes, while each colored box represents a single App. The box colors signify the category of functionality, and the numbers in parentheses indicate the number of alternative apps that implement each function. Apps that require a genome as input are marked with a green “G” icon.
+Below is an example outline of the major workflows and datatypes in KBase. The unboxed labels represent datatypes, while each colored box represents a single KBase App. The box colors signify the category of functionality, and the numbers in parentheses indicate the number of alternative apps that implement each function. Apps that require a genome as input are marked with a green “G” icon.
 
 ![](../../.gitbook/assets/kbase-workflows-vivek_rk_nh_2017-10-03_v1.jpg)
 
@@ -30,7 +27,7 @@ Below: Outline of the major workflows and datatypes in KBase. The unboxed labels
 
 * Each app links to a reference page \(which includes technical details about the inputs and outputs\) called an App Details Page.
 * To run apps, you will need to [sign in to the Narrative Interface](../../getting-started/signing-up-and-signing-in/#signing-in).
-* You can also access the App Catalog from inside the Narrative Interface by clicking the small arrow in the upper right corner of the Apps panel.
+* You can access the App Catalog from inside the Narrative Interface by clicking the small arrow in the upper right corner of the Apps panel.
 * You can click the star at the lower left of any app to add it to your “favorites.” The blue star will turn yellow to indicate that you have favorited the app. The number to the right of the star shows how many people have favorited that app.
 
 ![](../../.gitbook/assets/screen-shot-2017-01-31-at-10.20.03-pm%20%281%29.png)
@@ -44,7 +41,7 @@ By default, the apps are sorted by category. Try the options in the “Organize 
 For more information about using the App Catalog, see the [Narrative Interface User Guide](../../getting-started/narrative-user-guide/).  
 
 
-**App replacement**
+**App replacement and updates**
 
 Some old \(legacy\) apps have been replaced with new equivalents. Please see the [App Replacement page](../kbase-app-replacement.md) for more information.  
 
