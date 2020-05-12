@@ -62,12 +62,12 @@ The expanded view of the data object reveals icons that let you examine or manag
 
 ## Data viewers
 
-Many \(but not yet all\) types of data in KBase have viewers that allow you to learn more about the data. These viewers can be accessed two ways from the Data Panel:
+Many types of data in KBase have viewers that allow you to learn more about the data. These viewers can be accessed two ways from the Data Panel:
 
 1. Click the name of a data object, and its viewer will be added to your Narrative.
 2. Drag the object from the Data Panel and drop it into the main part of your Narrative.
 
-Below is the genome viewer for the Vibrio brasiliensis LMG 20546 genome that is in our Data Panel.
+Below is the genome viewer for the _Vibrio brasiliensis_ LMG 20546 genome that is in our Data Panel.
 
 [![](../../.gitbook/assets/screen-shot-2017-01-30-at-12.15.29-pm.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-12.15.29-PM.png)
 

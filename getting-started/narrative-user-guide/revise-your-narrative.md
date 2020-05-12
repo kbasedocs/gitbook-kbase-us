@@ -1,6 +1,6 @@
 # Revise Your Narrative
 
-You can browse a list of your Narratives in the Narratives tab:
+You can browse a list of your Narratives in the _Narratives_ tab:
 
 ![Screen Shot 2017-02-02 at 11.14.14 AM](../../.gitbook/assets/screen-shot-2017-02-02-at-11.14.14-am.png)
 
@@ -32,7 +32,7 @@ New Markdown cells contain the placeholder text “\[Empty Markdown / LaTeX cell
 
 ## Cell commands: move, delete, etc.
 
-Via the arrows and menu items in a Narrative cell, you can move the cell up or down, collapse or expand it, show the code that runs the analysis, get more info about the app, or delete the app cell. The cell menu can be opened by clicking the “…” in the upper right corner of a cell.  
+Via the arrows and menu items in a Narrative cell, you can move the cell up or down, collapse or expand it, show the code that runs the analysis, get more info about the app, or delete the app cell. The cell menu can be opened by clicking the “…” icon in the upper right corner of a cell.  
 
 
 ![](../../.gitbook/assets/appcellmenu%20%281%29.gif)
@@ -55,5 +55,5 @@ Although your Narrative is periodically autosaved, it is always a good idea to s
 
 ![](../../.gitbook/assets/savenarrative%20%282%29.gif)
 
-Once you are happy with your Narrative, you will probably want to share it with others. The [next section](share-narratives.md) describes how to do that.
+Once you are happy with your Narrative, you will probably want to share it with others. The section [Share Narratives](share-narratives.md) describes how to do that.
 
