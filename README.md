@@ -1,7 +1,7 @@
 ---
 description: >-
-  Here you will find guidance for getting started, full documentation for users
-  and app developers, and help with troubleshooting.
+  Here you will find guidance for getting started with KBase, full documentation
+  for users and app developers, and help with troubleshooting.
 ---
 
 # KBase Documentation
