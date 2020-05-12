@@ -18,7 +18,9 @@ To sign in, click the Sign In button on the KBase website or KBase Narrative Int
 
 #### How do I set or reset my password?
 
-If you signed up for KBase and your password does not seem to work, you may reset your password at any time with the identity provider who manages it. KBase itself does not manage passwords of its own, so all password management must be done through your identity provider. If you have an old KBase account \(before June 2017\), see the [authentication update page](https://kbase.us/auth-update-2017).
+If you signed up for KBase and your password does not seem to work, you may reset your password at any time with the identity provider who manages it. KBase itself does not manage passwords of its own, so all password management must be done through your identity provider.
+
+If the last time you logged into your KBase account was prior to June 2017, see the [authentication update page](https://kbase.us/auth-update-2017).
 
 #### \*\*\*\*
 

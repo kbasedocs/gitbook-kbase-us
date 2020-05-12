@@ -1,7 +1,6 @@
 # Constructing and Analyzing Metabolic Flux Models of Microbial Communities
 
-KBase has a suite of tools and data that support the reconstruction, prediction, and design of metabolic networks in individual microbes and microbial communities. A recent review article in _Hydrocarbon and Lipid Microbiology Protocols_ discusses and compares approaches to modeling the growth and behavior of microbial communities, and shows how to perform the analyses in KBase. The analysis workflows described in the article are available as Narratives \(linked below\) that you can copy to your own KBase account and rerun, perhaps changing some of the parameters or adding your own datasets..  
-
+KBase has a suite of tools and data that support the reconstruction, prediction, and design of metabolic networks in individual microbes and microbial communities. A recent review article in _Hydrocarbon and Lipid Microbiology Protocols_ discusses and compares approaches to modeling the growth and behavior of microbial communities, and shows how to perform the analyses in KBase. The analysis workflows described in the article are available as Narratives \(linked below\) that you can copy to your own KBase account and rerun, perhaps changing some of the parameters or adding your own datasets..
 
 **Abstract**
 
