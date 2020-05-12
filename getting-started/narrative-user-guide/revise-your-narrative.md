@@ -28,7 +28,7 @@ The button on the right is the “Add Markdown Cell” button and will add a Mar
 
 New Markdown cells contain the placeholder text “\[Empty Markdown / LaTeX cell\]” \(LaTeX is a formatting language\). To edit a Markdown cell, double-click it to enter edit mode. When you’re done, press Shift-Return to exit the cell.
 
-\(The &gt;\_ button adds a code cell, which is beyond the scope of this user guide. However, we will share one useful tip if you do want to try using a code cell: press Shift-Return in the cell to execute the code.\)
+\(The &gt;\_ button adds a code cell, which is beyond the scope of this user guide. However, if you do want to try using a code cell: press Shift-Return in the cell to execute the code.\)
 
 ## Cell commands: move, delete, etc.
 
