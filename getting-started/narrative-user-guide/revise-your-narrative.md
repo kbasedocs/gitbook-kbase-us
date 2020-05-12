@@ -4,7 +4,7 @@ You can browse a list of your Narratives in the _Narratives_ tab:
 
 ![Screen Shot 2017-02-02 at 11.14.14 AM](../../.gitbook/assets/screen-shot-2017-02-02-at-11.14.14-am.png)
 
-Your Narratives are shown in the _Narratives_ tab in reverse chronological order, with the most recently changed Narratives first. After your personal Narratives, more Narratives owned by others and shared with you are listed.
+Your Narratives are shown in the _Narratives_ tab in reverse chronological order, with the most recently updated Narrative first. After your personal Narratives, more Narratives owned by others and shared with you are listed.
 
 ## View Narrative history and revert to earlier versions
 
@@ -12,9 +12,7 @@ KBase stores a history of everything you’ve done to your Narrative, so you are
 
 ![](../../.gitbook/assets/screen-shot-2017-02-02-at-11.40.57-am.png)
 
-The first of these icons \(counterclockwise encircling arrow\) lets you expose the entire history of autosaves of your Narrative.
-
-You can then, if you wish, choose an earlier version to revert to. This capability is still in the early phase of development and should become easier to use soon.
+The first of these icons \(counterclockwise encircling arrow\) lets you View Narrative history to revert changes or access prior saved versions of the Narrative. Here you can choose an earlier version of a Narrative to revert to from the saved versions. 
 
 ## Add text to your Narrative
 
