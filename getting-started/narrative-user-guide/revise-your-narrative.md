@@ -18,7 +18,7 @@ You can then, if you wish, choose an earlier version to revert to. This capabili
 
 ## Add text to your Narrative
 
-Adding text cells to your Narrative to explain what you were doing and what the results might mean will help others understand your computational experiments, as well as helping to remind you what you were doing. You can add formatted text to your Narrative in “Markdown Cells”. Markdown is a markup language \(like, for example, HTML\). It’s pretty easy to learn but does require knowing some syntax. A good [“cheat sheet” for Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) language can be found on GitHub.
+Adding text cells to your Narrative to explain what you were doing and what the results might mean will help others understand your computational experiments, as well as helping to remind you what you were doing. You can add formatted text to your Narrative in “Markdown Cells”. Markdown is a markup language \(one example is HTML\). It’s pretty easy to learn but does require knowing some syntax. A good [Markdown CheatSheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) can be found on GitHub.
 
 You can add Markdown cells to a Narrative using the translucent blue buttons at the bottom right of the main Narrative panel.
 
@@ -28,7 +28,7 @@ The button on the right is the “Add Markdown Cell” button and will add a Mar
 
 New Markdown cells contain the placeholder text “\[Empty Markdown / LaTeX cell\]” \(LaTeX is a formatting language\). To edit a Markdown cell, double-click it to enter edit mode. When you’re done, press Shift-Return to exit the cell.
 
-\(The &gt;\_ button adds a code cell, which is beyond the scope of this user guide. However, if you do want to try using a code cell: press Shift-Return in the cell to execute the code.\)
+The "&gt;\_" button will Add a Code Cell, which is beyond the scope of this user guide. TIP: to use a code cell press Shift-Return within the cell to execute the code.
 
 ## Cell commands: move, delete, etc.
 
@@ -45,11 +45,7 @@ If you decide to delete a Narrative that you own, click the trashcan icon. Delet
 
 ![](../../.gitbook/assets/image31.png)
 
-## Advanced controls
-
-The “Show Advanced Controls” option under the “Narratives” tab lets you “Set the Active Narrative for a Workspace”. \(Workspace is an older term for a project–a collection of data and analyses.\) You will probably not need to use this option, unless you are trying to retrieve old Narratives that you created in an old version of the Narrative Interface.
-
-**Save your work!**
+### **Save your work!**
 
 Although your Narrative is periodically autosaved, it is always a good idea to save your work frequently, using the Save button at the top right of the screen.
 

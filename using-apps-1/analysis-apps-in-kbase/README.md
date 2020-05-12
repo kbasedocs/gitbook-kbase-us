@@ -27,10 +27,15 @@ Below is an example outline of the major workflows and datatypes in KBase. The u
 
 * Each app links to a reference page \(which includes technical details about the inputs and outputs\) called an App Details Page.
 * To run apps, you will need to [sign in to the Narrative Interface](../../getting-started/signing-up-and-signing-in/#signing-in).
-* You can access the App Catalog from inside the Narrative Interface by clicking the small arrow in the upper right corner of the Apps panel.
-* You can click the star at the lower left of any app to add it to your “favorites.” The blue star will turn yellow to indicate that you have favorited the app. The number to the right of the star shows how many people have favorited that app.
+* You can access the App Catalog from inside the Narrative Interface by clicking the small arrow in the upper right corner of the Apps Panel.
 
-![](../../.gitbook/assets/screen-shot-2017-01-31-at-10.20.03-pm%20%281%29.png)
+![](../../.gitbook/assets/apppanel_appcatalog.png)
+
+* You can click the star at the lower left of any app to add it to your “favorites.” The gray star will turn yellow to indicate that you have favorited the app. The number to the right of the star shows how many people have favorited that app.
+
+![](../../.gitbook/assets/appcatalog_appfavorite.gif)
+
+
 
 By default, the apps are sorted by category. Try the options in the “Organize by” menu to sort the apps by My Favorites, Run Count and other options.
 
