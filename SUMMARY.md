@@ -57,7 +57,6 @@
   * [FAQ: Community Analysis](running-common-workflows-1/faq-community-analysis.md)
   * [FAQ: Isolate Analysis](running-common-workflows-1/faq-isolate-analysis.md)
   * [FAQ: RNA Sequence Analysis](running-common-workflows-1/faq-rna-sequence-analysis.md)
-* [Untitled](untitled.md)
 * [Troubleshooting](troubleshooting-1/README.md)
   * [Things to Try](troubleshooting-1/things-to-try.md)
   * [How to Report Issues](troubleshooting-1/how-to-report-issues.md)
