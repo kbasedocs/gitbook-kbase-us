@@ -1,8 +1,6 @@
 # Assembling and Annotating Microbial Genomes
 
-## **Description of tutorial**
-
-This tutorial describes how to use the Assemble Contigs from Reads and Annotate Microbial Contigs appsto assemble and annotate a bacterial or archaeal genome in the KBase Narrative Interface and then browse the results.
+This tutorial describes how to use the Assemble Contigs from Reads and Annotate Microbial Contigs apps to assemble and annotate a bacterial or archaeal genome in the KBase Narrative Interface and then browse the results.
 
 In this tutorial, we will:
 
