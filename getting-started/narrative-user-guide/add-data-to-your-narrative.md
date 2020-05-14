@@ -72,7 +72,7 @@ Find the file\(s\) you want to import into your KBase account, and drag them int
 
 If you don’t like using drag & drop, you can instead click in the upload area to open a file chooser and select a file from your computer to upload.
 
-While files are being uploaded to your Staging Area, you’ll see a green progress bar. The upload is usually quite fast.
+While files are being uploaded to your Staging Area, you’ll see a green progress bar.
 
 ![](../../.gitbook/assets/image5.png)
 
