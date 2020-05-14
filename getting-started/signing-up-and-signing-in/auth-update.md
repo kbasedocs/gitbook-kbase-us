@@ -135,9 +135,11 @@ On the left sidebar of your dashboard, click the “Account” icon, and then ch
 
 ![](../../.gitbook/assets/kbase_linkaccounts.gif)
 
+At the bottom of the tab, choose “ORCiD” from the pulldown list of identity providers, and then click the “Link” button.
+
 ![](../../.gitbook/assets/kbaselinkaccounts.gif)
 
-At the bottom of the tab, choose “ORCiD” from the pulldown list of identity providers, and then click the “Link” button. The next screen will prompt you to Sign into your ORCiD account to link.
+The next screen will prompt you to Sign into your ORCiD account to link.
 
 ![](../../.gitbook/assets/orcidlogin.png)
 
