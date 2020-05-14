@@ -23,7 +23,7 @@ For now, we will find a public reference genome available under the _Public_ tab
 
 Clicking the _Public_ tab displays a list of data objects available in KBase’s reference collection.
 
-![](../../.gitbook/assets/public-tab_data.png)
+![](../../.gitbook/assets/public-tab_data%20%281%29.png)
 
 ![](../../.gitbook/assets/data-type-selector.png)  
 The data-type selector at the top left of the browser window defaults to NCBI RefSeq Genomes. You can change which type of data is displayed under the _Public_ tab by using this pulldown menu.
