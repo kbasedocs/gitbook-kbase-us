@@ -9,7 +9,7 @@ Now that you are familiar with ways to find and explore data in KBase, you can s
 Any data that you upload to KBase is kept private unless you explicitly choose to share it. You can share any of your Narratives \(including their associated data\) with one or more specific users, or make it publicly available to all KBase users. Please see the [Sharing](share-narratives.md) page for more information about how to do that. The [Terms and Conditions page](https://kbase.us/terms-and-conditions/) describes the KBase data policy.
 {% endhint %}
 
-The first four tabs of the Data Browser \(“My Data”, “Shared With Me”, “Public”, and “Example”\) let you search data that is already in KBase. The Import tab lets you import data from your computer to your Narrative so that you can analyze it in KBase.
+The first four tabs of the Data Browser \(“My Data”, “Shared With Me”, “Public”, and “Example”\) let you search data that is already in KBase. The _Import_ tab lets you import data from your computer to your Narrative so that you can analyze it in KBase.
 
 * The _My Data_ tab shows data objects that you have added to your project. You may need to refresh this tab to see your most recently added data.
 * The _Shared With Me_ and _Public_ tabs display datasets that others have loaded and made accessible to you \(or to everyone\). Data within each group is searchable and can be filtered. Since there are a large number of public datasets, you may wish to filter them by data type \(using the pulldown selector on the left\) or narrow the list by searching \(in the “Search data” text box\) for specific text in the data objects’ names.
