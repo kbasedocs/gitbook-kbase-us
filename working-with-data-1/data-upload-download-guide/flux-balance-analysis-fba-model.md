@@ -117,7 +117,7 @@ There are two important differences between importing an FBA model from an SBML 
 
 ## **Compressed/zipped files**
 
-In the example above, we used a Genome that was in the Example data. You can also import your own Genome data from a file \(go [here](genome.md) for more information\).
+In the example above, we used a Genome that was in the _Example_ data. You can also import your own Genome data from a file \(go [here](genome.md) for more information\).
 
 The Genome import can handle gzipped \(.gz\) input files. However, .zip files require special handling and .Z files are not yet supported by the importers \(we are working on adding that\). You can upload a zip file to your Staging Area, but it is recommended that you use the “uncompress” button to its left \(the one with the diagonal arrows\) to unzip it before trying to import it.
 

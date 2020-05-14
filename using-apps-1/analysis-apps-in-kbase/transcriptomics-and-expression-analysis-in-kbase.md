@@ -12,7 +12,7 @@ Whether you are a beginner or advanced user of RNA-seq, you will find that KBase
 4. **Easy upload and download:** You can easily [upload](../../working-with-data-1/data-upload-download-guide/) reads, genomes and expression matrices from local and remote public sites. You can also [download](../../working-with-data-1/data-upload-download-guide/) BAM, expression matrices and tool outputs for a number of intermediate steps.
 5. **Unrestricted data and compute:** You can store and analyze an unrestricted amount of RNA-seq data in a reasonable time and free of cost.
 6. **Well documented:** You can refer to a variety of documentation for [Apps](https://narrative.kbase.us/#catalog/apps), helpful [Narrative tutorials](https://kbase.us/narrative-library/), and broader KBase documentation.
-7. _**Active support:**_ Contact us through the [KBase Help Board](../../troubleshooting-1/support.md) to ask questions or share feedback.
+7. **Active support:** Contact us through the [KBase Help Board](../../troubleshooting-1/support.md) to ask questions or share feedback.
 
 #### Prerequisites for RNA-seq Analysis
 
@@ -20,8 +20,8 @@ We support the popular Tuxedo suite of tools \(original and new\) for RNA-seq an
 
 Here are the prerequisites:
 
-1. **Import Genome:** Use the [Public tab in Data Panel](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md) to choose the reference genome from KBase’s public data. If it’s not available, you can use the [Import tab in Data Panel](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md) to import the genome of interest to your Narrative.
-2. **Import Short Reads:** Use the Import tab or any of the reads uploader apps from the [Apps Panel](../../getting-started/narrative-user-guide/browse-kbase-analysis-tools.md) to import the short reads from your experiment into your Narrative. Example reads are also available from the [Public tab](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md). The reads must be a set of single-end, paired-end, or interleaved paired-end reads in FASTA, FASTQ, or SRA format.
+1. **Import Genome:** Use the [_Public_ tab in **Data Panel**](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md) ****to choose the reference genome from KBase’s public data. If it’s not available, you can use the __[_Import_ tab in **Data Panel**](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md) ****to import the genome of interest to your Narrative.
+2. **Import Short Reads:** Use the Import tab or any of the reads uploader apps from the ****[**Apps Panel**](../../getting-started/narrative-user-guide/browse-kbase-analysis-tools.md) to import the short reads from your experiment into your Narrative. Example reads are also available from the __[_Public_ tab](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md). The reads must be a set of single-end, paired-end, or interleaved paired-end reads in FASTA, FASTQ, or SRA format.
 3. **Create Sample Set:** Run the [Create RNA-seq Sample Set](https://narrative.kbase.us/#catalog/apps/KBaseRNASeq/describe_rnaseq_experiment/release) App to group together your reads into an RNA-seq sample set with associated experimental metadata so that you can easily and efficiently run the RNA-seq Apps in batch mode wherever appropriate.
 4. **QC Sample Set:** Run [FASTQC](https://narrative.kbase.us/#appcatalog/app/kb_fastqc/runFastQC/release) to assess the read quality of the reads set from the previous step and if needed, run [Trimmomatic](https://narrative.kbase.us/#appcatalog/app/kb_trimmomatic/run_trimmomatic/release), [Cutadapt](https://narrative.kbase.us/#appcatalog/app/kb_cutadapt/remove_adapters/release), or [PRINSEQ](https://narrative.kbase.us/#appcatalog/app/kb_PRINSEQ/execReadLibraryPRINSEQ/release) to pre-process or filter the reads before starting RNA-seq analysis.
 

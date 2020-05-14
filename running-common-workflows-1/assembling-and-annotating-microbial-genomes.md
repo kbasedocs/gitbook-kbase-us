@@ -40,22 +40,22 @@ Running the Assemble Contigs from Reads app will result in two output data objec
 
 ## **Understanding the default behavior and advanced options**
 
-Assembly in KBase offers a set of workflows that have been designed to either optimize the quality of the output or mirror assembly recipes commonly used by the academic community. To understand each workflow, please refer to the [details page](https://narrative.kbase.us/#/narrativestore/method/assemble_contigset_from_reads) for the _Assemble Contigs from Reads_ app. Likewise, the annotation app provides a set of feature calling and annotation algorithms that users can modify to suit their needs. The app details page on annotating a contig set can be found [here](http://kbase.us/annotate-microbial-contigs-method/).
+Assembly in KBase offers a set of workflows that have been designed to either optimize the quality of the output or mirror assembly recipes commonly used by the academic community. To understand each workflow, please refer to the [details page](https://narrative.kbase.us/#/narrativestore/method/assemble_contigset_from_reads) for the _Assemble Contigs from Reads_ App. Likewise, the annotation app provides a set of feature calling and annotation algorithms that users can modify to suit their needs. The app details page on annotating a contig set can be found [here](http://kbase.us/annotate-microbial-contigs-method/).
 
 ## **Point and click instructions for using this app**
 
 **Note:** This tutorial assumes that you have already created and opened a new Narrative. For instructions on how to accomplish this and other tasks such as finding or uploading data to your Narrative, please refer to the [Narrative Interface User Guide](../getting-started/narrative-user-guide/).
 
-### **Step 1. Add data that you want to analyze**
+### **Step 1. Add data to analyze**
 
-The first step in running this app is to copy or upload the needed input data. We will demonstrate the Assemble Contigs from Reads app using a set of example reads.  
-To add the example data, click the Add Data \(or red  square\) button in the Data Panel on the left of your screen. \(If you don’t see this button, make sure you have the Analyze tab selected.\) The Data Browser will slide out, with tabs that show several data sources. Select the Example tab and look at the Example Sequence Assembly Inputs heading.
+The first step in running this app is to copy or upload the needed input data. We will demonstrate the _Assemble Contigs from Reads_ App using a set of example reads.  
+To add the example data, click the red "&lt; Add Data" button in the Data Panel on the left of your screen. \(If you don’t see this button, make sure you have the Analyze tab selected.\) The Data Browser will slide out, with tabs that show several data sources. Select the _Example_ tab and look at the Example Sequence Assembly Inputs heading.
 
 Find “rhodo.art.q20.int.PE.reads” and add this set of paired-end reads to your Narrative by mousing over it and clicking the Add button that appears at its left.
 
 ![Add data shot](http://kbase.us/wp-content/uploads/2016/12/Add-data-shot.png)
 
-Exit the Data Browser by clicking either the Close button at the bottom right of the browser window or the arrow at the top of the Data Panel. \(Note that you also can close the Data Browser by clicking anywhere in the main Narrative panel in the center.\)
+Exit the Data Browser by clicking either the "Close" button at the bottom right of the browser window or the arrow at the top of the Data Panel. Note: You close the Data Browser by clicking anywhere in the main Narrative panel in the center.
 
 After a moment your Data Panel will update to show the dataset that you just added.
 
@@ -75,7 +75,7 @@ You can search for apps using the search box at the top of the Apps Panel or jus
 
 To run the app on the example dataset, you must first fill out the fields in each step in the app cell. The detailed parameters for each app are described on the app detail page: [_Assemble Contigs from Reads_](https://narrative.kbase.us/#/narrativestore/method/assemble_contigset_from_reads)_._
 
-In the first field, Read Library, select from the dropdown menu “rhodo.art.q20.int.PE.reads” \(the example dataset you added to your Narrative\). The assembly app also lets you add additional read libraries, but we will not need this option in this case.  Note: data objects called “AssemblyInput,” while present in KBase are not valid input to the Assemble Contigs from Reads app.
+In the first field, Read Library, select from the dropdown menu “rhodo.art.q20.int.PE.reads” \(the example dataset you added to your Narrative\). The assembly app also lets you add additional read libraries, but we will not need this option in this case.  Note: Data objects called “AssemblyInput,” while present in KBase are not valid input to the Assemble Contigs from Reads app.
 
 The Automatic Assembly option is showing by default in the Assembly Recipe dropdown menu section. \(The assembly recipes are described in the app [details page](https://narrative.kbase.us/#/narrativestore/method/assemble_contigset_from_reads).\)
 
@@ -87,7 +87,7 @@ Next, choose a name for the output assembly \(Contig Set\). In this example, we 
 
 ![assemble, hit run](http://kbase.us/wp-content/uploads/2016/12/assemble-hit-run.png)
 
-You’re now ready to run the app. Click the green “RUN” button on the right of the cell. The app cell will then show your job as queued, then running.  You can return to this app cell to get a status update on how your job is doing.
+You’re now ready to run the app. Click the green “Run” button on the right of the cell. The App Cell will then show your job as queued, then running.  You can return to the App Cell to get a status update on how your job is doing.
 
 ![assemble, running](http://kbase.us/wp-content/uploads/2016/12/assemble-running.png)
 
@@ -95,11 +95,11 @@ You’re now ready to run the app. Click the green “RUN” button on the right
 
 This example data is a very small set of reads, so it should run quickly \(by typical assembly standards\) and finish in about 15 to 20 minutes or perhaps longer, depending on the queue. Note that most assembly jobs will be slower because they will contain more reads. Some assembly jobs can take days or even weeks depending on the genome size and repeat structure. You can check your job status by referring back to the app cell, where time running, and status will be displayed.
 
-Following assembly by this app, an Assembly with the file name that you entered, “Rhodo\_auto\_contigs,” will be created and added to your data panel.
+Following assembly by this app, an Assembly with the file name that you entered, “Rhodo\_auto\_contigs,” will be created and added to your Data Panel.
 
-An Output cell summarizing the outcome of the assembly process has also been added to your Narrative. Make sure to click on that cell before you add the next app to your Narrative so they appear in the correct order.
+An Output Cell summarizing the outcome of the assembly process has also been added to your Narrative. Make sure to click on that cell before you add the next app to your Narrative so they appear in the correct order.
 
-The next step is annotation.  Search for [_Annotate Microbial Contigs_](http://kbase.us/annotate-microbial-contigs-method/) in the Apps Panel, and click on its name or icon to add it to a new cell in the main Narrative panel. Use the drop-down list to populate your Assembly name into the app–in this case “Rhodo\_auto\_contigs.”
+The next step is annotation. Search for [_Annotate Microbial Contigs_](http://kbase.us/annotate-microbial-contigs-method/) in the Apps Panel, and click on its name or icon to add it to a new cell in the main Narrative panel. Use the drop-down list to populate your Assembly name into the app–in this case “Rhodo\_auto\_contigs.”
 
 Next, specify the Scientific Name of the organism you are working on. This field has no restrictions, but we strongly suggest that you enter a meaningful genus, species, and strain name when possible because the name can affect which programs are run. We will use “Rhodobacter sp.” in this example.
 
@@ -139,7 +139,7 @@ The output of the second step is the genome annotation. This output contains dat
 
 ### **Step 4. Download the results**
 
-To download your annotated genome or Assembly, locate the data in your Data Panel. Open an expanded view of the object by clicking on the “. . .” or white space surrounding the object name \(but not on the name itself\).
+To download your annotated genome or Assembly, locate the data in your Data Panel. Open an expanded view of the object by clicking on the “...” or white space surrounding the object name \(but not on the name itself\).
 
 ![AssembleAnnotate16](http://kbase.us/wp-content/uploads/2015/02/AssembleAnnotate16-e1424366562914.png)
 

@@ -56,7 +56,7 @@ As with the single-end library example, you can make adjustments to the availabl
 
 When ready, click the green "Run" button to start the import. When the import is finished, your Data Panel will update to show the new PairedEndLibrary object, and a report will appear in the import app cell.
 
-If you get an error due to a typo in the name of the second file, it is easy to correct. Click the Reset button in the app cell to allow you to change fields in the app, make the correction, and click the green "Run" button again.
+If you get an error due to a typo in the name of the second file, it is easy to correct. Click the Reset button in the App Cell to allow you to change fields in the app, make the correction, and click the green "Run" button again.
 
 ### Compressed/zipped files
 
