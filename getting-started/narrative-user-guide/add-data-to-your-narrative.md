@@ -154,7 +154,7 @@ The list of files in your Staging Area includes their name, size, and age \(from
 
 ![](../../.gitbook/assets/image21.png)
 
-Compressed or zipped files have a little double-arrow icon next to the filename. You can click that icon to unpack them. You don’t need to uncompress compressed files, as they will automatically be uncompressed during import, but if you have uploaded a .zip file, you can use the button to unzip it in order to access the individual files in it.
+Compressed or zipped files have a little double-arrow icon next to the filename. You can click that icon to unpack these files. For how to upload and import file types, follow [this guide](../../working-with-data-1/data-upload-download-guide/compressed-zipped-files.md). 
 
 For more information about a file in your staging area, click the arrow to the left of the filename to open a tab like this:
 
