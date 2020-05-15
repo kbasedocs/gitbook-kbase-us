@@ -58,12 +58,6 @@ When ready, click the green "Run" button to start the import. When the import is
 
 If you get an error due to a typo in the name of the second file, it is easy to correct. Click the Reset button in the App Cell to allow you to change fields in the app, make the correction, and click the green "Run" button again.
 
-### Compressed/zipped files
-
-The Reads Import app can handle gzipped \(.gz\) input files. You can upload a .zip file to your Staging Area, but need to click the “uncompress” icon to its left \(diagonal arrows\) to unzip it before importing.
-
-![](http://kbase.us/wp-content/uploads/2015/08/image7.png)
-
 ## Import a reads library from other sources
 
 In the Staging Area, beneath the box for Drag and Drop, there are other options for adding data to your staging area. You can import reads into KBase using [Globus Online](../transferring-data-with-globus.md), or by supplying a URL for a publicly accessible FTP location, Google Drive, Dropbox, or a direct HTTP link.

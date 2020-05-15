@@ -80,9 +80,3 @@ At this point, the corresponding genome is optional and hasn’t been linked to 
 
 Use the Genome dropdown to select the Shewanella\_oneidensis\_MR-1 genome. Adjust any of the other advanced options if needed, then click the green "Run" button to start the import. When the import is finished, your Data Panel will update to show the new Expression Matrix object, and a report will appear in the import app cell.
 
-## **Compressed/zipped files**
-
-In the example above, we used a Genome that was in the Example data. You can also import your own Genome data from a file \(go [here](genome.md) for more information\).
-
-The Genome import can handle gzipped \(.gz\) input files. You can upload a zip file to your Staging Area, but it is recommended that you use the “uncompress” icon \(diagonal outward pointing arrows\) to its left to unzip the file before trying to import it.
-

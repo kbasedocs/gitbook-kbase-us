@@ -24,12 +24,6 @@ Notice that the name of the gzipped Assembly file is already filled in, as is a 
 
 ![](http://kbase.us/wp-content/uploads/2018/02/Screen-Shot-2018-02-16-at-1.36.37-PM.png)
 
-### **Compressed/zipped files**
-
-The Assembly import app can handle gzipped \(.gz\) FASTA input files. You can upload a zipped file to your Staging Area, but then you should use the “uncompress” icon \(diagonal arrows\) to its left to unzip the file before trying to import it.
-
-![](http://kbase.us/wp-content/uploads/2015/08/image4.png)
-
 ### **Drag & Drop Limitations**
 
 The drag & drop option from your local computer works for many files, but there is a size limit that depends on your computer and browser. For larger files \(around 20 gigabases\), use the [Globus Online transfer](../transferring-data-with-globus.md). 

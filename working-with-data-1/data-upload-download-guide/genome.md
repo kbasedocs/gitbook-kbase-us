@@ -34,12 +34,6 @@ Notice that the name of the Genome file is filled in, as is a suggested name for
 
 ![](http://kbase.us/wp-content/uploads/2015/08/image5.png)
 
-### Compressed/zipped files
-
-The Genome Import app can handle gzipped \(.gz\) input files. However, .zip files require special handling and .Z files are not yet supported by the importers. You can upload a .zip file to your Staging Area, but it is recommended that you use the “uncompress” icon \(diagonal arrows\) to its left to unzip it before trying to import.
-
-![](http://kbase.us/wp-content/uploads/2015/08/image4.png)
-
 ## Import a GenBank-formatted file from other sources
 
 In the Staging Area, beneath the box for Drag and Drop, are other options for getting data.

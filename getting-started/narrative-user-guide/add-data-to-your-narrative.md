@@ -143,7 +143,9 @@ Sometimes an import doesn’t work. One of the most common causes of failure is 
 
 ![](../../.gitbook/assets/image4.png)
 
-If the importer objected to something in your file, check the [Data Upload/Download guide](../../working-with-data-1/data-upload-download-guide/) for details about the relevant format.  
+If the importer objected to something in your file, check the [Data Upload/Download guide](../../working-with-data-1/data-upload-download-guide/) for details about the relevant format.
+
+  
 In some cases, the cause of an import error will not be obvious. If you can’t figure out why your import isn’t working, please contact us \(via the [Help Board](https://kbase.us/help-board/)\) for help. Note, however, that no one besides you has access to your Staging Area, so we will not be able to see the files you uploaded to your Staging Area. You may need to attach your input file to your Help Board ticket in order for us to diagnose the problem.
 
 ## Getting more information about files in your Staging Area

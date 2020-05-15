@@ -115,14 +115,6 @@ Now click the import icon \(up arrow\) to the right of “FBA Model." The Data B
 
 There are two important differences between importing an FBA model from an SBML file vs. importing in tab-delimited format. First, in the import app, the default Model file type needs to be changed from SBML to Excel. Second, the app needs the name of the compounds file. In the line for “Compounds File Path”, type in the name of the compounds file. There is no pulldown or other help to get the name of the file right. The name is usually a slight variation of the reactions file name.img src=”http://kbase.us/wp-content/uploads/2016/12/image12-1.png” alt=”” width=”637″ height=”630″ class=”screengrab alignnone size-full wp-image-13471″ /&gt;
 
-## **Compressed/zipped files**
-
-In the example above, we used a Genome that was in the _Example_ data. You can also import your own Genome data from a file \(go [here](genome.md) for more information\).
-
-The Genome import can handle gzipped \(.gz\) input files. However, .zip files require special handling and .Z files are not yet supported by the importers \(we are working on adding that\). You can upload a zip file to your Staging Area, but it is recommended that you use the “uncompress” button to its left \(the one with the diagonal arrows\) to unzip it before trying to import it.
-
-![](http://kbase.us/wp-content/uploads/2015/08/image4.png)
-
 ## Associating Model with Genome
 
 For metabolic modeling apps, correctly associating a genome with the user uploaded models is necessary for ensuring fidelity between the genome annotations and gene-protein-reactions in the metabolic model. This means that the gene IDs between the model and genome need to match. Occasionally, researchers will use locus tags or gene IDs for constructing metabolic models that are different than those found commonly in reference genomes. If the gene IDs do not match, you will need to change either the model or the genome to ensure their gene IDs match. One way to accomplish this is to locate the genome used as the reference for building the model – based on shared gene IDs – and to upload this genome into KBase before uploading the model and associating it with the genome. If the user cannot locate the genome with the gene IDs used to build the model, the best option for reconciling the gene IDs is to edit the model file \(as SBML or TSV\) to change the gene IDs contained therein to match the gene IDs of the genome. See this [public Help Board ticket](https://kbase-jira.atlassian.net/browse/PUBLIC-20) for a detailed example of how to accomplish this.

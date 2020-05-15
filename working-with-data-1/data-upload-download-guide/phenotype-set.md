@@ -48,12 +48,3 @@ At this point, the corresponding Genome hasn’t been linked to the phenotype se
 
 In the example above, we used a Genome that was in the _Example_ data. You can also import your own Genome data from a file following instructions found [here](genome.md).
 
-## **Compressed/zipped files**
-
-The Genome import can handle gzipped \(.gz\) input files. You can upload a zip file to your Staging Area, but it is recommended that you use the “uncompress” button to its left \(the one with the diagonal arrows\) to unzip it before trying to import it.  
-
-
-![](http://kbase.us/wp-content/uploads/2015/08/image4.png)
-
-## 
-
