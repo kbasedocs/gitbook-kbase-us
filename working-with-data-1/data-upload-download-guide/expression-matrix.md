@@ -64,7 +64,7 @@ Now open the _Import_ tab in the Data Browser slide-out and drag & drop the exam
 
 ### **Drag & Drop Limitations**
 
-The drag & drop from your local computer works for many files, but there is a size limit that depends on your computer and browser. For larger files around 20 gigabases, use the [Globus Online transfer](../transferring-data-with-globus.md). Now that the expression matrix is in your Staging Area and you can import it from there into your Narrative. Open the pulldown menu to the right of the filename under the _Import As..._ column in your Staging Area and select “Expression Matrix."
+The drag & drop from your local computer works for many files, but there is a size limit that depends on your computer and browser. For larger files around 20GB, use the [Globus Online transfer](../transferring-data-with-globus.md). Now that the expression matrix is in your Staging Area and you can import it from there into your Narrative. Open the pulldown menu to the right of the filename under the _Import As..._ column in your Staging Area and select “Expression Matrix."
 
 ![](http://kbase.us/wp-content/uploads/2015/08/image9-1.png)
 

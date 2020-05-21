@@ -36,9 +36,9 @@ Notice that the name of the Genome file is filled in, as is a suggested name for
 
 ## Import a GenBank-formatted file from other sources
 
-In the Staging Area, beneath the box for Drag and Drop, are other options for getting data.
+In the Staging Area, beneath the box for Drag & Drop, are other options for getting data.
 
-![](http://kbase.us/wp-content/uploads/2015/08/image6.png)
+![](../../.gitbook/assets/user_refresh%20%281%29.png)
 
 You can import data into your KBase workspace using [Globus](../transferring-data-with-globus.md), or by supplying a URL for a publicly accessible FTP location, Google Drive, Dropbox, or a direct HTTP link. Options for adding data to the Staging Area are described [here](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md).
 
@@ -48,7 +48,7 @@ For this example, we use the _E. coli_ K-12 MG1655 genome GFF and FASTA files fr
 
 Open the _Import_ tab in the **Data Browser** and click on the blue "here" link \(below the drag & drop area\) to open an upload app.
 
-![](http://kbase.us/wp-content/uploads/2015/08/image9.png)
+![](../../.gitbook/assets/databrowser_appupload.png)
 
 The Data Browser will close and the app called “Upload a File to Staging from Web” will appear in your Narrative. Alternatively, you can open the app directly from the **Apps Panel**. From the app, click on the dropdown for the URL Type and select ‘FTP Link’.
 
@@ -68,11 +68,9 @@ Then click the green "Run" button to start the upload. After the app completes t
 
 The GFF and FASTA files are now in your Staging Area. Now you need to import them to your Narrative to use them in analyses.
 
-In your Staging Area, open the _Import As..._ pulldown menu to the right of the GFF filename and select “GFF Genome.”
+In your Staging Area, open the _Import As..._ pulldown menu to the right of the GFF filename and select “GFF Genome."
 
-![](http://kbase.us/wp-content/uploads/2015/08/image2-3.png)
-
-TIP: Copy the name of the FASTA file as it will be needed shortly.
+Copy the name of the FASTA file as it will be needed shortly.
 
 Now click the import button to the right of “GFF Genome”. The data slide-out will close and an app called “Import GFF/FASTA File as Genome from Staging Area” will be added to your Narrative. The GFF File Path name will be filled in.
 

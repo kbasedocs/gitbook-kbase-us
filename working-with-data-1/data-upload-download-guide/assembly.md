@@ -26,15 +26,15 @@ Notice that the name of the gzipped Assembly file is already filled in, as is a 
 
 ### **Drag & Drop Limitations**
 
-The drag & drop option from your local computer works for many files, but there is a size limit that depends on your computer and browser. For larger files \(around 20 gigabases\), use the [Globus Online transfer](../transferring-data-with-globus.md). 
+The drag & drop option from your local computer works for many files, but there is a size limit that depends on your computer and browser. For larger files \(around 20GB\), use the [Globus Online transfer](../transferring-data-with-globus.md). 
 
 ## Import an Assembly from other sources
 
-In the Staging Area, beneath the box for Drag and Drop, are other options for getting data.  
+In the Staging Area, beneath the box for Drag & Drop, are other options for getting data.  
   
 You can import data into your KBase workspace using [Globus](http://kbase.us/transfer-data-from-globus-to-kbase/), or by supplying a URL for a publicly accessible FTP location, Google Drive, Dropbox, or a direct HTTP link. Options for adding data to your Staging Area are described [here](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md).
 
-![](http://kbase.us/wp-content/uploads/2015/08/image6.png)
+![](../../.gitbook/assets/user_refresh.png)
 
 ## **Transfer assemblies from JGI**
 
