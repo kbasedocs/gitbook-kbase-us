@@ -38,7 +38,7 @@ There are two ways that KBase and [GenBank SRA](https://www.ncbi.nlm.nih.gov/sra
 
 In this example, we will upload and import a paired-end library for ERR760546 in the 2-file legacy format. Open the __[_Import_ tab in the **Data Browser**](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md#uploading-data-from-external-sources) and drag the two files into the Staging Area.
 
-TIP: Copy the reverse reads file name to paste in a later stage.
+Copy the reverse reads file name to paste in a later stage.
 
 Open the pulldown menu to the right of the filename under the _Import As..._ column in your Staging Area and select “FASTQ Reads” for the first file in the pair. Then click the import icon \(up arrow\) to the right of “FASTQ Reads”. The Data Browser slide-out will close and an app called “Import FASTQ/SRA File as Reads from Staging Area” will be added.
 

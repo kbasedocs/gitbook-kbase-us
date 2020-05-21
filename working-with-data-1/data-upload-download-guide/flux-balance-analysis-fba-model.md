@@ -28,7 +28,7 @@ After you’ve added the _Bacillus subtilis_ 168 genome to your Data Panel, open
 
 ### **Drag & Drop Limitations**
 
-Drag & drop upload from your local computer works for many files, but there is a size limit  dependent on your computer and browser. For larger files around 20 gigabases or more, use the [Globus Online transfer](http://kbase.us/transfer-data-from-globus-to-kbase/).
+Drag & drop upload from your local computer works for many files, but there is a size limit  dependent on your computer and browser. For larger files around 20GB or more, use the [Globus Online transfer](http://kbase.us/transfer-data-from-globus-to-kbase/).
 
 Now that the FBA model is in your Staging Area, it’s time to import it into your Narrative as a KBase FBA Model data object. Open the pulldown menu to the right of the filename in your Staging Area and select “FBA Model."
 

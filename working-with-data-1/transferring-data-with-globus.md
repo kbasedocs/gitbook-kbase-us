@@ -14,9 +14,7 @@ To initiate a transfer using Globus, click 'Or upload to this staging area by us
 
 ![](../.gitbook/assets/globus_upload.png)
 
-\*\*\*\*
-
-This brings you to a page that looks something like this:
+This brings you to a page that looks like this:
 
 ![](../.gitbook/assets/globusfilemanager.png)
 

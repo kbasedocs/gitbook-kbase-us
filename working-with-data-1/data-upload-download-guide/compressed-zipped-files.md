@@ -12,7 +12,7 @@ Data uploaders accept compressed files in these formats: .zip, .gz, .bz, .bzip2,
 
 To add compressed data files from your computer to the KBase Narrative, follow the same three-step process for all data files. 
 
-1. Drag and drop the data file\(s\) from your computer to the new Import tab to upload them to your Staging Area.
+1. Drag & drop the data file\(s\) from your computer to the new Import tab to upload them to your Staging Area.
 2. Choose a format for importing data from your Staging Area into your Narrative.
 3. Run the Import app that is created.
 
