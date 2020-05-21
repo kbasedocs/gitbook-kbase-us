@@ -6,7 +6,7 @@ The _Import_ tab lets you drag & drop data files from your computer into the Sta
 
 ![](../../.gitbook/assets/import-stage%20%281%29.png)
 
-The first step in uploading your data is to locate the **Data Panel** along the left side of the Narrative Interface window and click the “Add Data” button, the circular red “+” icon, or the arrow at the upper right of the panel to access the slide-out **Data Browser**. The Data Browser has several tabs that allow you to access data within KBase and the Import tab for uploading your own data. 
+The first step in uploading your data is to locate the **Data Panel** along the left side of the Narrative Interface window and click the red “Add Data” button, the circular red “+” icon, or the arrow at the upper right of the panel to access the slide-out **Data Browser**. The Data Browser has several tabs that allow you to access data within KBase and the _Import_ tab for uploading your own data. 
 
 ![](../../.gitbook/assets/databrowseropen%20%281%29.gif)
 
@@ -22,7 +22,9 @@ If you have a small screen, you might not be able to see that button. Another wa
 
 ## **Drag & Drop Limitations**
 
-The drag & drop from your local computer works for many files, but there is a size limit dependent on your computer and browser. For larger files around 20 gigabases, use the [Globus Online transfer](../transferring-data-with-globus.md).
+The drag & drop from your local computer works for many files, but there is a size limit dependent on your computer and browser. For larger files around 20GB, use the [Globus Online transfer](../transferring-data-with-globus.md).
+
+![](../../.gitbook/assets/importtab_databrowser.png)
 
 ## **Data Privacy**
 

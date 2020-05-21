@@ -63,7 +63,7 @@ In this documentation, we will use “Upload” to refer to getting data from yo
 
 {% hint style="warning" %}
 **Drag & Drop Limitations**  
-The drag & drop from your local computer works for many files, but there is a size limit that depends on your computer and browser. Some users have reported problems around 20 gigabases. For larger files, use the [Globus Online transfer](../../working-with-data-1/transferring-data-with-globus.md).
+The drag & drop from your local computer works for many files, but there is a size limit that depends on your computer and browser. Some users have reported problems around 20GB. For larger files, use the [Globus Online transfer](../../working-with-data-1/transferring-data-with-globus.md).
 {% endhint %}
 
 Find the file\(s\) you want to import into your KBase account, and drag them into the drop zone \(the rectangular area surrounded by a dashed line\). You can select multiple files from your computer and drag them all at once. \(In the example below, the user is dragging two files into the dashed area.\) You can also select a folder of data files and drag the folder into the Staging Area drop zone.
@@ -76,7 +76,11 @@ While files are being uploaded to your Staging Area, you’ll see a green progre
 
 ![](../../.gitbook/assets/image5.png)
 
-When the file is done uploading, you will see it appear in the list of files in your Staging Area. \(If you don’t see your file, try clicking the reload icon on the left above the file list to refresh the view.\) By default, these are sorted by age, with the most recently uploaded file at the top. To sort the list by other fields, such as name or size, click a column header.
+When the file is done uploading, you will see it appear in the list of files in your Staging Area. If you don’t see your file, try clicking the reload icon on the left above the file list to refresh the view.
+
+![](../../.gitbook/assets/refresh_databrowser%20%281%29.png)
+
+By default, these are sorted by age, with the most recently uploaded file at the top. To sort the list by other fields, such as name or size, click a column header.
 
 ![](../../.gitbook/assets/image21%20%281%29.png)
 
@@ -89,7 +93,7 @@ Your Staging Area is meant to be a temporary holding area for data you want to i
 
 Globus is a data management and file transfer system that can facilitate bulk transfer of data \(either large data files or a large number of files\) between two endpoints. The endpoints that apply here are KBase, JGI, and your local computer. The KBase endpoint is called “KBase Bulk Share,” and JGI has their own way to link to Globus. To do any transfer using Globus, you will [need a Globus account](https://www.globusid.org/create).
 
-![](../../.gitbook/assets/screen-shot-2018-01-24-at-1.54.06-pm-2.png)
+![](../../.gitbook/assets/globus_upload%20%282%29.png)
 
 See [Transferring Data with Globus](../../working-with-data-1/transferring-data-with-globus.md) for more documentation on using Globus.
 

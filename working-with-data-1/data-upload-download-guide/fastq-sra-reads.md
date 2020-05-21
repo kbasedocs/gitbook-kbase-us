@@ -10,7 +10,7 @@ Files can be uploaded into your KBase Staging Area from your local computer or d
 
 ### **Drag & Drop Limitations**
 
-The drag & drop from your local computer works for many files, but there is a size limit that depends on your computer and browser. Some users have reported problems around 20 gigabases. For larger files, use the [Globus Online transfer](../transferring-data-with-globus.md).
+The drag & drop from your local computer works for many files, but there is a size limit that depends on your computer and browser. Some users have reported problems around 20GB. For larger files, use the [Globus Online transfer](../transferring-data-with-globus.md).
 
 ### Single-end library in FASTQ format
 
@@ -62,9 +62,9 @@ If you get an error due to a typo in the name of the second file, it is easy to 
 
 In the Staging Area, beneath the box for Drag and Drop, there are other options for adding data to your staging area. You can import reads into KBase using [Globus Online](../transferring-data-with-globus.md), or by supplying a URL for a publicly accessible FTP location, Google Drive, Dropbox, or a direct HTTP link.
 
-There is also an icon with two arrows in a clockwise circle that refreshes the list of genomes that have been uploaded to your staging area.
+There is also an icon with two arrows in a clockwise circle that refreshes the list of genomes that have been uploaded to the Staging Area.
 
-![](http://kbase.us/wp-content/uploads/2015/08/image6.png)
+![](../../.gitbook/assets/user_refresh.png)
 
 If your reads are in a publicly accessible URL, you can bypass the Staging Area and directly import reads into your Narrative using one of these three apps \(which you can find in the Apps panel or the [App Catalog](https://kbase.us/applist/)\):
 
