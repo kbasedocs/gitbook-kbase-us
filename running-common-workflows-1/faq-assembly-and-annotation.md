@@ -34,6 +34,10 @@ Annotate Microbial Genome takes a Genome object, does not call genes, and instea
 
 Manual curation of annotations is not supported on-system. RAST and Prokka are likely sufficient for many applications, but as you mention, for difficult-to-annotate or highly divergent metabolic genes you may need to use additional tools. In addition to RAST and Prokka, there are on-system tools available for feature annotation using pre-generated hidden Markov models, which could be useful for higher-resolution annotation.
 
+## Does RAST annotate archaea and protists?
+
+RAST primarily annotates bacteria and archaea, and may be limited with protists.
+
 ## Can I annotate plants or fungi?
 
 Currently KBase does not have good annotation tools for eukaryotes. We recommend using external tools and then importing annotated genomes to KBase.
