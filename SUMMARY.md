@@ -52,6 +52,7 @@
 * [Running Common Workflows](running-common-workflows-1/README.md)
   * [Assembling and Annotating Microbial Genomes](running-common-workflows-1/assembling-and-annotating-microbial-genomes.md)
   * [Metabolic Modeling in KBase](running-common-workflows-1/metabolic-modeling-in-kbase.md)
+  * [FAQ: Assembly and Annotation](running-common-workflows-1/faq-assembly-and-annotation.md)
   * [FAQ: Metabolic Modeling in KBase](running-common-workflows-1/faq-metabolic-modeling-in-kbase.md)
   * [FAQ: Comparative Genomics](running-common-workflows-1/faq-comparative-genomics.md)
   * [FAQ: Community Analysis](running-common-workflows-1/faq-community-analysis.md)

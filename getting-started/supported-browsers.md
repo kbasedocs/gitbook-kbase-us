@@ -37,7 +37,9 @@ The following desktop web browsers have been tested against the KBase web site a
       </td>
     </tr>
   </tbody>
-</table>{% hint style="warning" %}
+</table>
+
+{% hint style="warning" %}
 **Ad blockers may prevent KBase from working in your web browser**
 
 Some ad-blockers and browser extensions may cause errors within the Narrative Interface. We are working to identify issues with commonly used browser extensions, but you may want to disable browser extensions if you encounter issues within KBase.  
