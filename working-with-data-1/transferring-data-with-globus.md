@@ -1,12 +1,12 @@
 # Transferring Data with Globus
 
-Large files \(~20GB and more\) should be transferred to KBase using Globus. Drag & drop from your local computer works for many files, but there is a size limit dependent on your computer and browser. 
+Large files \(~20GB and more\) should be transferred to KBase using [Globus](https://www.globus.org/). Drag & drop from your local computer works for many files, but there is a size limit dependent on your computer and browser. 
 
 Globus is a data management and file transfer system that can facilitate bulk transfer of data \(large data files or a large number of files\) between two endpoints. The endpoints that apply here are KBase, JGI, and your local computer. The KBase endpoint is called “KBase Bulk Share,” and JGI has their own way to link to Globus. To do any transfer using Globus, you will need a [Globus account](https://www.globusid.org/create). 
 
 Your local computer can become a Globus endpoint with a Globus Connect Personal Endpoint \(instructions [here](https://docs.globus.org/how-to/)\). This is necessary for transfers to or from your local computer.
 
-Once you have a Globus account, link to your KBase account to facilitate file transfers. For help with this, see 'Create or modify your user Profile' [here](../getting-started/narrative-user-guide/share-narratives.md).
+Once you have a Globus account, link to your KBase account to facilitate file transfers. For help with this, see 'Create or modify your user Profile' in this [page](../getting-started/narrative-user-guide/share-narratives.md).
 
 ### Starting a Globus Data Transfer
 

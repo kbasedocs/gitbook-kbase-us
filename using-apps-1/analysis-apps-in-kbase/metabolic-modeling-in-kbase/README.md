@@ -10,28 +10,33 @@ Metabolic models can be used to evaluate an organism’s metabolic capability by
 * Would it grow under certain minimal media conditions?
 * Could the organism be optimized to produce a particular drug molecule or industrially important biofuel?
 
-### KBase Metabolic Modeling Capabilities
+### **Flux Balance Analysis**
 
-**Generate Genome-scale Metabolic Models**
+* [Build Metabolic Model](https://narrative.kbase.us/#appcatalog/app/fba_tools/build_metabolic_model/release) – Construct genome-scale metabolic models from a genome and media condition 
+* [Gapfill Metabolic Model](https://narrative.kbase.us/#appcatalog/app/fba_tools/gapfill_metabolic_model/release) – Fill in missing reactions based on stoichiometry
+* [Run Flux Balance Analysis](https://narrative.kbase.us/#appcatalog/app/fba_tools/run_flux_balance_analysis/release) – Predict metabolic fluxes
+* [Compare FBA solutions](https://www.youtube.com/watch?v=AQ2KsrQrq9s&list=PLh7Q4SqpZYTwdK8ekQnqKinFzbqZuzu8f) – __Determine optimal conditions of flux 
+* [Check Model Mass Balance](https://narrative.kbase.us/#catalog/apps/fba_tools/check_model_mass_balance/release) – Ensure accuracy 
+* [Compare Models](https://narrative.kbase.us/#appcatalog/app/fba_tools/compare_models/release) – View multiple models side by side
 
-* Construct genome-scale metabolic models from a genome and media condition with _Build Metabolic Model_
-* Fill in missing reactions based on stoichiometry with _Gapfill Metabolic Model_
-* Build unique models suited to specific experiments with _Edit Metabolic Model_
-* View multiple models side by side with _Compare Models_
+### Editing Models
 
-**Analyze Flux Balance**
+* [Edit Metabolic Model](https://narrative.kbase.us/#catalog/apps/fba_tools/edit_metabolic_model/release) – Build unique models suited to specific experiments. 
+* \_\_[Create or Edit Media](https://narrative.kbase.us/#catalog/apps/fba_tools/edit_media/release) – Create specialized growth conditions
+* [Bulk Download Modeling Objects](https://narrative.kbase.us/#catalog/apps/fba_tools/bulk_download_modeling_objects/release) – Save modeling data for future analysis with _Bulk Download Modeling Objects_
 
-* Predict metabolic fluxes with _Run Flux Balance Analysis_
-* Create specialized growth conditions with _Edit Media_
-* Determine optimal conditions of flux with _Compare FBA Solutions_
-* Ensure accuracy with _Check Model Mass Balance_
+### Comparative Genomics
 
-**Extrapolate Models**
+* [Propagate Model to New Genome](https://narrative.kbase.us/#catalog/apps/fba_tools/propagate_model_to_new_genome/release) – Translate metabolic models from one organism to another
 
-* Reconcile models with empirical data with _Simulate Growth on Phenotype Data_
-* Translate metabolic models from one organism to another with _Propagate Model to New Genome_
-* Investigate community metabolism with _Merge Metabolic Models into Community Models_
-* Save modeling data for future analysis with _Bulk Download Modeling Objects_
+### Expression
+
+* [Compare Flux with Expression ](https://narrative.kbase.us/#catalog/apps/fba_tools/compare_flux_with_expression/release)– Compare reaction fluxes with gene expression values to identify metabolic pathways where expression and flux data agree or conflict
+* [Simulate Growth on Phenotype Data](https://narrative.kbase.us/#catalog/apps/fba_tools/simulate_growth_on_phenotype_data/release) – Reconcile models with empirical data
+
+### **Microbial Communities**
+
+* [Merge Metabolic Models into Community Model](https://narrative.kbase.us/#catalog/apps/fba_tools/merge_metabolic_models_into_community_model/release) – Investigate community metabolism 
 
 Flowchart of apps used in Metabolic Modeling.
 
@@ -41,52 +46,21 @@ Flowchart of apps used in Metabolic Modeling.
 **Learn More**
 
 The flowchart above shows KBase’s metabolic modeling tools \(green\) as well as some other analysis tools. Check the [App Catalog](../../app-catalog.md) for the latest set of metabolic modeling analysis tools \(Apps\).
-
-The [video tutorial](https://www.youtube.com/watch?v=AQ2KsrQrq9s&list=PLh7Q4SqpZYTwdK8ekQnqKinFzbqZuzu8f) below presents an introduction to building metabolic models in KBase. The [“Microbial Metabolic Model Reconstruction and Analysis” Narrative tutorial](../../../running-common-workflows-1/metabolic-modeling-in-kbase.md#narrative-tutorial) lets you see and try out for yourself some examples of KBase’s metabolic modeling functionality in action. Common questions and answers about KBase’s metabolic modeling tools can be found in the [Metabolic Modeling FAQ](metabolic-modeling-faq.md).
 {% endhint %}
+
+### Tutorials and Example Narratives
+
+The [video tutorial](https://www.youtube.com/watch?v=AQ2KsrQrq9s&list=PLh7Q4SqpZYTwdK8ekQnqKinFzbqZuzu8f) below presents an introduction to building metabolic models in KBase. The “Microbial Metabolic Model Reconstruction and Analysis” Narrative tutorial lets you see and try out for yourself some examples of KBase’s metabolic modeling functionality in action. Common questions and answers about KBase’s metabolic modeling tools can be found in the [Metabolic Modeling FAQ](../../../running-common-workflows-1/faq-metabolic-modeling-in-kbase.md).
 
 {% embed url="https://www.youtube.com/watch?v=AQ2KsrQrq9s" %}
 
-### Metabolic Modeling Resources in KBase
+* \*\*\*\*[Microbial Metabolic Model Reconstruction and Analysis Tutorial](https://narrative.kbase.us/narrative/ws.18302.obj.61)
+* [Run Flux Balance Analysis Tutorial](https://kbase.us/run-flux-balance-analysis-method/)
+* [Propagate Model to New Genome Tutorial](https://kbase.us/propagate-genome-scale-model-to-close-genome-app/)
+* [Simulate Growth on Phenotype Data Tutorial](https://kbase.us/simulate-growth-on-phenotype-data-method/)
+* [Modeling a Plant-Microbe Interaction Narrative](https://kbase.us/simulate-growth-on-phenotype-data-method/)
 
-**Narrative Tutorial and FAQ**
-
-* [Metabolic Modeling FAQ](../../../running-common-workflows-1/faq-metabolic-modeling-in-kbase.md): questions and answers about metabolic modeling in KBase
-* [Narrative tutorial: metabolic model reconstruction and gapfilling](https://narrative.kbase.us/narrative/ws.18302.obj.61)
-
-**Build and Gapfill Metabolic Model**
-
-* Build Metabolic Model: [App details;](https://narrative.kbase.us/#appcatalog/app/fba_tools/build_metabolic_model/release) [Tutorial](https://kbase.us/run-flux-balance-analysis-method/)
-* Gapfill Metabolic Model: [App details](https://narrative.kbase.us/#appcatalog/app/fba_tools/gapfill_metabolic_model/release); [Tutorial](https://kbase.us/run-flux-balance-analysis-method/)
-* Create or Edit Media: [App details](https://narrative.kbase.us/#catalog/apps/fba_tools/edit_media/release)
-
-**Flux Balance Analysis**
-
-* Run Flux Balance Analysis: [App details](https://narrative.kbase.us/#appcatalog/app/fba_tools/run_flux_balance_analysis/release); [Tutorial](https://kbase.us/run-flux-balance-analysis-method/)
-* Compare FBA solutions: [App details](https://narrative.kbase.us/#appcatalog/app/fba_tools/compare_fba_solutions/release)
-* View FBA Expression Comparison: [App details](https://narrative.kbase.us/#catalog/apps/fba_tools/view_fba_expression_comparison/release)
-
-**Evaluate, Compare and Edit Models**
-
-* Check Model Mass Balance: [App details](https://narrative.kbase.us/#catalog/apps/fba_tools/check_model_mass_balance/release)
-* Compare Flux with Expression: [App details](https://narrative.kbase.us/#catalog/apps/fba_tools/compare_flux_with_expression/release)
-* Compare Models: [App details](https://narrative.kbase.us/#appcatalog/app/fba_tools/compare_models/release)
-* Edit Metabolic Model: [App details](https://narrative.kbase.us/#catalog/apps/fba_tools/edit_metabolic_model/release)
-* Propagate Model to New Genome: [App details](https://narrative.kbase.us/#catalog/apps/fba_tools/propagate_model_to_new_genome/release); [Tutorial](https://kbase.us/propagate-genome-scale-model-to-close-genome-app/)
-
-**Phenotype and Expression**
-
-* Simulate Growth on Phenotype Data: [App details](https://narrative.kbase.us#narrativestore/method/simulate_growth_on_a_phenotype_set); [Tutorial](https://kbase.us/simulate-growth-on-phenotype-data-method/)
-* Compare Flux with Expression: [App details](https://narrative.kbase.us/#catalog/apps/fba_tools/compare_flux_with_expression/release)
-* View FBA Expression Comparison: [App details](https://narrative.kbase.us/#catalog/apps/fba_tools/view_fba_expression_comparison/release)
-
-**Community Modeling**
-
-* Merge Metabolic Models into Community Model: [App details](https://narrative.kbase.us/#catalog/apps/fba_tools/merge_metabolic_models_into_community_model/release)
-* [Constructing and Analyzing Metabolic Flux Models of Microbial Communities](constructing-and-analyzing-metabolic-flux-models-of-microbial-communities.md)
-* [Narrative: Modeling a plant-microbe interaction](https://narrative.kbase.us/narrative/ws.9667.obj.2)
-
-**Publications about Metabolic Modeling in KBase**
+### **Publications**
 
 * [Constructing and Analyzing Metabolic Flux Models of Microbial Communities](constructing-and-analyzing-metabolic-flux-models-of-microbial-communities.md)
 * Modeling Central Metabolism and Energy Biosynthesis across Microbial Life: [Publication](http://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-2887-8); [Narrative](https://narrative.kbase.us/narrative/ws.15253.obj.1)

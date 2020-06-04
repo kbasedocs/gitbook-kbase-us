@@ -45,7 +45,6 @@
     * [Comparative Genomics and Phylogenetic Analysis in KBase](using-apps-1/analysis-apps-in-kbase/comparative-genomics-and-phylogenetic-analysis-in-kbase.md)
     * [Transcriptomics and Expression Analysis in KBase](using-apps-1/analysis-apps-in-kbase/transcriptomics-and-expression-analysis-in-kbase.md)
     * [Metabolic Modeling in KBase](using-apps-1/analysis-apps-in-kbase/metabolic-modeling-in-kbase/README.md)
-      * [Metabolic Modeling FAQ](using-apps-1/analysis-apps-in-kbase/metabolic-modeling-in-kbase/metabolic-modeling-faq.md)
       * [Constructing and Analyzing Metabolic Flux Models of Microbial Communities](using-apps-1/analysis-apps-in-kbase/metabolic-modeling-in-kbase/constructing-and-analyzing-metabolic-flux-models-of-microbial-communities.md)
   * [KBase App Replacement](using-apps-1/kbase-app-replacement.md)
   * [App Catalog](using-apps-1/app-catalog.md)
