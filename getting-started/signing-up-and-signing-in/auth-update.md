@@ -22,7 +22,7 @@ Click the Sign In button below “Use KBase” and sign-in options will appear
 
 **Sign in using Globus**. Globus is the home of the existing KBase user accounts, and your Globus ID is your KBase ID.
 
-When you click “Sign in with Globus”, a page to Log in with your Globus credentials will open:  
+When you click “[Sign in with Globus](https://www.globusid.org/login)”, a page to Log in with your Globus credentials will open:  
 
 
 ![](../../.gitbook/assets/kbase_globussignin.gif)
@@ -125,7 +125,11 @@ We hope you appreciate the convenience of being able to sign-in to KBase with yo
 
 ### Linking your ORCiD account to your KBase account
 
-If you have an ORCiD account, you can also link it to your KBase account.
+If you have an[ ORCiD ![](../../.gitbook/assets/orcidid_icon128x128.png)](https://orcid.org/) account, you can also link it to your KBase account.
+
+{% hint style="info" %}
+KBase is an [ORCiD Member Organization. ](https://orcid.org/members/0016f00002ZLyhNAAT-kbase)
+{% endhint %}
 
 To do this, **you must first sign in to KBase through your Globus or Google accounts** \(which is the same as your existing KBase account–see above\). If you are not already signed in to KBase, go to the [sign-in page](https://narrative.kbase.us/), click the Sign In button, and click either “Sign in with Google”  or “Sign in with Globus” buttons.   
   
@@ -135,17 +139,17 @@ On the left sidebar of your dashboard, click the “Account” icon, and then ch
 
 ![](../../.gitbook/assets/kbase_linkaccounts.gif)
 
-At the bottom of the tab, choose “ORCiD” from the pulldown list of identity providers, and then click the “Link” button.
+At the bottom of the tab, choose “![](../../.gitbook/assets/orcidid_icon128x128.png) ORCiD” from the pulldown list of identity providers, and then click the “Link” button.
 
 ![](../../.gitbook/assets/kbaselinkaccounts.gif)
 
-The next screen will prompt you to Sign into your ORCiD account to link.
+The next screen will prompt you to Sign in using your ORCiD account to link.
 
 ![](../../.gitbook/assets/orcidlogin.png)
 
 After you click that Link button, you will be returned to the Linked Sign-in Accounts screen in your Dashboard, where you will see your newly linked ORCiD account.
 
-You can then Sign In to KBase using your ORCiD account. 
+You can then Sign In to KBase using your ORCiD. 
 
 ![](../../.gitbook/assets/kbase_orcid.gif)
 
