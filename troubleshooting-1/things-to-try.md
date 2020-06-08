@@ -17,5 +17,3 @@ If you experience problems with KBase’s user interface \(e.g., data, apps, or 
 * If you’ve used earlier versions of KBase, they may be lurking in your cache and messing things up. Try either clearing your cache or [launching KBase](https://narrative.kbase.us/) from an “incognito” or “anonymous” window \(which doesn’t use your cache\).
 * Shut down and restart your Narrative by selecting this option from the top left menu of the Narrative Interface.
 
-For additional help and guidance on reporting issues, see our [troubleshooting tips](https://kbase.us/report-an-issue/).
-

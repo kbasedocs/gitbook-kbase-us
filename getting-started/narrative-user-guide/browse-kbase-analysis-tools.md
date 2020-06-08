@@ -57,8 +57,9 @@ You can access the app module \(a group of related apps\) by clicking its hyperl
 
 [![Bucking\_Horse\_and\_Rider\_logo](../../.gitbook/assets/bucking_horse_and_rider_logo.png)](https://kbase.us/wp-content/uploads/2014/12/Bucking_Horse_and_Rider_logo.png)
 
-If you want to try out apps that are still in development, you can click the little “R” in the Apps Panel, changing it to a “B”. This will show apps that are in Beta \(i.e., still being tested and debugged\). Click the “B” again to go back to “R” \(show only released apps\).  
-![](../../.gitbook/assets/screen-shot-2017-10-19-at-11.43.02-am.png)
+To try out apps still in development, click the little “R” in the Apps Panel, changing it to a “B”. This will show apps that are in Beta \(i.e., still being tested and debugged\). Click the “B” again to go back to “R” \(show only released apps\).
+
+![](../../.gitbook/assets/betaapps_menu%20%283%29.png)
 
 Now that you know how to find an app of interest, the [next section](analyze-data-using-kbase-apps.md) will discuss how to add it to your Narrative so you can begin analyzing data.
 

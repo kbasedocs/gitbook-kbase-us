@@ -32,7 +32,7 @@ When you click Copy, the Narrative and its associated data objects are copied to
 
 **Copy of a copy warning**
 
-Please be aware that if you copy a copy of a Narrative, some things may not work right in the copy of a copy. We are working on resolving this problem. See [Copying Narratives](../../troubleshooting-1/copying-narratives.md) for more information.
+Please be aware that if you copy a copy of a Narrative, some things may not work right in the copy of a copy. We are working on resolving this problem. See [Copying Narratives]() for more information.
 
 You can also copy any Narrative by hovering your cursor over its name in your Narratives panel to reveal the icons and clicking the Copy icon \(the one that looks like two pieces of paper\).
 
