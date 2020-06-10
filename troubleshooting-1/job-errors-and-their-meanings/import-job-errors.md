@@ -173,7 +173,7 @@ _Select a valid combination and try resubmitting the job._
 
 UE: Attempt to import a zip file with multiple files as a single data object.
 
-_Run the app '_ [_Unpack a Compressed File in Staging Area_](https://narrative.kbase.us/#catalog/apps/kb_uploadmethods/unpack_staging_file)_' on the file and retry resubmitting the job._ 
+_Run the App '_ [_Unpack a Compressed File in Staging Area_](https://narrative.kbase.us/#catalog/apps/kb_uploadmethods/unpack_staging_file)_' on the file and retry resubmitting the job._ 
 
 ## [Import GenBank File as Genome from Staging Area](https://narrative.kbase.us/#catalog/apps/kb_uploadmethods/import_genbank_as_genome_from_staging)
 
