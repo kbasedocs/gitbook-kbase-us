@@ -54,7 +54,3 @@ A few apps have file links as part of the output at the bottom of the App Cell.
 
 Right click on the file name to download and choose “Save Link As" to download and save to your local computer. 
 
-## **Bulk Download**
-
-By popular request, KBase will be rolling out new apps soon that enable Bulk Download of multiple data objects.
-

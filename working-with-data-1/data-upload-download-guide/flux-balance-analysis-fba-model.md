@@ -18,7 +18,7 @@ Double-check that the _Bacillus subtilis_ 168 FBA Model completely downloaded by
 
 In order to successfully upload an FBA model into your KBase workspace, you first need to add the Genome that corresponds to referenced in the FBA Model you wish to upload. For this example, we’ll add the _Bacillus\_subtilis\_subsp.\_subtilis\_str.\_168_ Genome to our Narrative \(under the _Public_ tab in the **Data Browser**\) before importing the FBA model file.
 
-To add the Genome to your Narrative, find the Data Panel along the left side of the screen and click the Add Data \(or red “+”\) button. This will open the Data Browser slide-out. Select the _Example_ tab at the top of the Data Browser, and search for “Bacillus subtillis subsp. Subtillis str. 168” genome. Mouse over the genome name and click the blue "&lt; Add" button.
+To add the Genome to your Narrative, find the **Data Panel** along the left side of the screen and click the red "Add Data" \(or red “+”\) button. This will open the **Data Browser**. Select the _Example_ tab at the top of the Data Browser, and search for “Bacillus subtillis subsp. Subtillis str. 168” genome. Mouse over the genome name and click the blue "&lt; Add" button.
 
 ![Import FBA SBML](http://kbase.us/wp-content/uploads/2015/08/Import-FBA-SMBL.png)
 
@@ -28,7 +28,7 @@ After you’ve added the _Bacillus subtilis_ 168 genome to your Data Panel, open
 
 ### **Drag & Drop Limitations**
 
-Drag & drop upload from your local computer works for many files, but there is a size limit  dependent on your computer and browser. For larger files around 20GB or more, use the [Globus Online transfer](http://kbase.us/transfer-data-from-globus-to-kbase/).
+Drag & drop upload from your local computer works for many files, but there is a size limit  dependent on your computer and browser. For larger files around 20GB or more, use [Globus Online transfer](http://kbase.us/transfer-data-from-globus-to-kbase/).
 
 Now that the FBA model is in your Staging Area, it’s time to import it into your Narrative as a KBase FBA Model data object. Open the pulldown menu to the right of the filename in your Staging Area and select “FBA Model."
 
@@ -44,7 +44,7 @@ At this point, the corresponding Genome needs to be linked to the FBA model. To 
 
 Next fill in the name of the biomass reaction in the SBML file, in this case “bio00006”. 
 
-Note: if the biomass reaction name starts with “R\_”, do NOT include the “R\_” when entering the name in this field. 
+Note: If the biomass reaction name starts with “R\_”, do NOT include the “R\_” when entering the name in this field. 
 
 Click the "+" button to the right of Biomass and type in the name of the first biomass. If there are additional biomass values to enter, click the "+" button to open another parameter field for another biomass.
 
@@ -117,5 +117,9 @@ There are two important differences between importing an FBA model from an SBML 
 
 ## Associating Model with Genome
 
-For metabolic modeling apps, correctly associating a genome with the user uploaded models is necessary for ensuring fidelity between the genome annotations and gene-protein-reactions in the metabolic model. This means that the gene IDs between the model and genome need to match. Occasionally, researchers will use locus tags or gene IDs for constructing metabolic models that are different than those found commonly in reference genomes. If the gene IDs do not match, you will need to change either the model or the genome to ensure their gene IDs match. One way to accomplish this is to locate the genome used as the reference for building the model – based on shared gene IDs – and to upload this genome into KBase before uploading the model and associating it with the genome. If the user cannot locate the genome with the gene IDs used to build the model, the best option for reconciling the gene IDs is to edit the model file \(as SBML or TSV\) to change the gene IDs contained therein to match the gene IDs of the genome. See this [public Help Board ticket](https://kbase-jira.atlassian.net/browse/PUBLIC-20) for a detailed example of how to accomplish this.
+For metabolic modeling apps, correctly associating a genome with the user uploaded models is necessary for ensuring fidelity between the genome annotations and gene-protein-reactions in the metabolic model. This means that the gene IDs between the model and genome need to match. Occasionally, researchers will use locus tags or gene IDs for constructing metabolic models that are different than those found commonly in reference genomes. If the gene IDs do not match, you will need to change either the model or the genome to ensure their gene IDs match. 
+
+One way to accomplish this is to locate the genome used as the reference for building the model – based on shared gene IDs – and to upload this genome into KBase before uploading the model and associating it with the genome. If the user cannot locate the genome with the gene IDs used to build the model, the best option for reconciling the gene IDs is to edit the model file \(as SBML or TSV\) to change the gene IDs contained therein to match the gene IDs of the genome. 
+
+This [public Help Board ticket](https://kbase-jira.atlassian.net/browse/PUBLIC-20) has a detailed example of how to accomplish this.
 

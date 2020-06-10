@@ -78,5 +78,5 @@ At this point, the corresponding genome is optional and hasn’t been linked to 
 
 ![](http://kbase.us/wp-content/uploads/2015/08/image11-2.png)
 
-Use the Genome dropdown to select the Shewanella\_oneidensis\_MR-1 genome. Adjust any of the other advanced options if needed, then click the green "Run" button to start the import. When the import is finished, your Data Panel will update to show the new Expression Matrix object, and a report will appear in the import app cell.
+Use the Genome dropdown to select the Shewanella\_oneidensis\_MR-1 genome. Adjust any of the other advanced options if needed, then click the green "Run" button to start the import. When the import is finished, your Data Panel will update to show the new Expression Matrix object, and a report will appear in the Import App Cell. 
 

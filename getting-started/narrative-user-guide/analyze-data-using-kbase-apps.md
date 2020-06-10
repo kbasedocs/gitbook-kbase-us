@@ -4,7 +4,7 @@ Now that you have explored the available KBase Apps and determined which ones wo
 
 ## Add an app to your Narrative
 
-To add an app to your Narrative, find the app of interest and click its name or the icon to the left of the app name. A box \(called a _cell_\) containing the chosen app will appear in the main Narrative panel.
+To add an app, find the app of interest and click its name or the icon to the left of the app name. A box \(called a _cell_\) containing the chosen app will appear in the main Narrative panel.
 
 ![](../../.gitbook/assets/screen-shot-2017-03-13-at-9.47.25-am.png)
 
@@ -44,7 +44,7 @@ After you add an app to your Narrative, the required parameters must be filled i
 
 Some app fields are “smart” and know which data in your Narrative is valid for that field. These “smart” fields have a pulldown list of data objects that you can choose from. \(Remember, only data \(of the appropriate type\) that you have already added to this particular Narrative will be shown in that list. You can access your data from other Narratives via the My Data and Shared with me tabs in the [Data Panel](add-data-to-your-narrative.md).\)
 
-In the example app shown above, the input object field, which is required, has a pulldown list that will be populated with data objects of the appropriate type that you have added to your Narrative. Scientific Name, on the other hand, is a free text field and is optional. The next two fields \(Domain and Genetic Code\) are also required, but they are pre-filled with default values. You could change their values if you chose, or leave them as they are. Finally, the last field \(Output Genome Name\) is another free text field. In the screenshot, the Output Genome Name, is not yet filled in; it has a red arrow to the right. The Run button is enabled when all required fields are filled in and the red arrows are gone.
+In the example app shown above, the input object field, which is required, has a pulldown list that will be populated with data objects of the appropriate type that you have added to your Narrative. Scientific Name, on the other hand, is a free text field and is optional. The next two fields \(Domain and Genetic Code\) are also required, but they are pre-filled with default values. You could change their values if you chose, or leave them as they are. Finally, the last field \(Output Genome Name\) is another free text field. In the screenshot, the Output Genome Name, is not yet filled in; it has a red arrow to the right. The green "Run" button is enabled when all required fields are filled in and the red arrows are gone.
 
 Some apps have optional “advanced options” that you can reveal by clicking on the “advanced options” link at the bottom of the cell.
 

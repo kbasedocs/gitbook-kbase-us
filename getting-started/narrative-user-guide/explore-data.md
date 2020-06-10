@@ -19,7 +19,7 @@ The Data Browser will slide out, with tabs that show several data sources that w
 
 ![](../../.gitbook/assets/screen-shot-2017-01-30-at-11.14.27-am.png)
 
-For now, we will find a public reference genome available under the _Public_ tab and then examine information and metadata about that genome.
+Find a public reference genome available under the _Public_ tab to examine information and metadata about that genome.
 
 Clicking the _Public_ tab displays a list of data objects available in KBase’s reference collection.
 
@@ -30,7 +30,7 @@ The data-type selector at the top left of the browser window defaults to NCBI Re
 
 You can also use the “_Search/Filter data..."_ field in the Data Browser to find data objects whose names include the text you’ve typed in the search box. \(Note — searches are not case-sensitive\). Enter “Vibrio brasiliensis” in the search field.
 
-If you hover over a data object in the Data Browser panel, three small images appear: an _"&lt; Add " button_ in a blue rectangle to the left of the object name and _binoculars icon_ and a _graph-like icon_ to the right. These latter two icons open a **Data Landing** page and a **Provenance** page, respectively \(see below for details\).
+If you hover over a data object in the Data Browser panel, three small images appear: an _"&lt; Add " button_ in a blue rectangle to the left of the object name and _binoculars_ icon and a _graph-like_ icon to the right. These latter two icons open a **Data Landing** page and a **Provenance** page, respectively.
 
 ![](../../.gitbook/assets/screen-shot-2015-02-12-at-9.17.28-pm-e1423804700430.png)
 
@@ -50,15 +50,15 @@ You can access more details about a particular data object by hovering over the 
 
 The expanded view of the data object reveals icons that let you examine or manage the data.
 
-* The first icon is an arrow in for "Show Apps with this as input" shows the apps \(in the App Panel\) that can use this type of data for input.
-* The arrow out icon for the "Show Apps with this as output" button that shows the apps \(in the App Panel\) that will generate this type of data as a data object. 
-* The binoculars icon is the "Explore data" button that open a Data Landing page for the data object.
-* The page with three lines and a bent corner icon is the "View associated report" button and will open the Data View report page for the data object. 
-* The  counter clockwise circle with clock hands is the "View history to revert changes" icon allows you to see and revert to previous versions of the data.
-* The graph-like icon is the "View data provenance and relationships" button that opens the Provenance page \(described below\).
-* The download icon is the "Export/Download data" button that lets you download a data object to your local computer. \(Note — This capability is still in development; most data objects currently can be downloaded only in the JSON format. In the future, you will be able to choose from a variety of common formats such as GenBank.\)
-* The “A” icon is the "Rename data" button that lets you rename your data object. Use with caution. If a Narrative was already using the old object name in analyses, they might stop working. Object names can contain only letters, digits, and underscores; no spaces or other special characters are allowed.
-* Finally, the trash icon is the "Delete data" button that lets you delete a data object from your Narrative. \(If the data came from a public or shared data source, the original will not be deleted, only the copy within your Narrative.\)
+* The **arrow in** icon for **"Show Apps with this as input"** shows the apps \(in the App Panel\) that can use this type of data for input.
+* The **arrow out** icon for the **"Show Apps with this as output"** button that shows the apps \(in the App Panel\) that will generate this type of data as a data object. 
+* The **binoculars** icon is the **"Explore data"** button that open a Data Landing page for the data object.
+* The **page with three lines and folded upper right corner** icon is the **"View associated report"** button and will open the Data View report page for the data object. 
+* The **counter clockwise circle with clock hands** is the **"View history to revert changes"** icon allows you to see and revert to previous versions of the data.
+* The **graph-like** icon is the **"View data provenance and relationships"** button that opens the Provenance page \(described below\).
+* The **download** icon is the **"Export/Download data"** button that lets you download a data object to your local computer. \(Note — This capability is still in development; most data objects currently can be downloaded only in the JSON format. In the future, you will be able to choose from a variety of common formats such as GenBank.\)
+* The **“A”** icon is the **"Rename data"** button that lets you rename your data object. Use with caution. If a Narrative was already using the old object name in analyses, they might stop working. Object names can contain only letters, digits, and underscores; no spaces or other special characters are allowed.
+* The **trash can** icon is the **"Delete data"** button that lets you delete a data object from your Narrative. \(If the data came from a public or shared data source, only the copy within your Narrative will be deleted.\)
 
 ## Data viewers
 
@@ -67,17 +67,17 @@ Many types of data in KBase have viewers that allow you to learn more about the 
 1. Click the name of a data object, and its viewer will be added to your Narrative.
 2. Drag the object from the Data Panel and drop it into the main part of your Narrative.
 
-Below is the genome viewer for the _Vibrio brasiliensis_ LMG 20546 genome that is in our Data Panel.
+Below is the genome viewer for the _Vibrio brasiliensis_ LMG 20546 genome that is in the Data Panel.
 
 [![](../../.gitbook/assets/screen-shot-2017-01-30-at-12.15.29-pm.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-12.15.29-PM.png)
 
-Notice that this genome viewer has tabs for an overview \(including GC content, taxonomy information, size, and more\) and a list of contigs and genes. Each contig and gene entry in these lists is clickable, opening either a contig browser or a tab with expanded information about the gene \(see image.\)
+Notice that this genome viewer has tabs for an overview \(including GC content, taxonomy information, size, and more\) and a list of contigs and genes. Each contig and gene entry in these lists is clickable, opening either a contig browser or a tab with expanded information about the gene.
 
 ![](../../.gitbook/assets/image24.png)
 
 **Sorting table entries in the viewer**
 
-You can sort the table entries by clicking on a column header to sort by that field \(e.g., Length\). Clicking the same column header again will reverse the sort order. For example, the screenshots below show the table sorted in descending order by _Contig name_ and then in descending order by _length_:
+You can sort the table entries by clicking on a column header to sort by that field \(e.g., Length\). Clicking the same column header again will reverse the sort order. For example, the screenshots below show the table sorted in descending order by _Contig name_ and then in descending order by _Length_:
 
 ![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2015-02-09-at-12.48.36-PM.png)
 
@@ -91,7 +91,7 @@ To remove a viewer from your Narrative, click the trashcan icon in the top right
 
 ## Data Landing and Provenance pages
 
-Data Landing \(also known as Data Summary\) and Provenance pages are ways to find out even more information about a data object. You can access these pages using the icons that appear when you hover over a data object in the Data Browser or click on one of the objects in your Data Panel. The binoculars icon opens \(in a new browser tab\) a Data Landing page about that particular data object, while the graph-like icon opens a Provenance page.
+Data Landing \(also known as _Data Summary_\) and Provenance pages are ways to find out even more information about a data object. You can access these pages using the icons that appear when you hover over a data object in the Data Browser or click on one of the objects in your Data Panel. The binoculars icon opens a new Data Landing page about that particular data object, while the graph-like icon opens a Provenance page.
 
 **Data Landing pages** \(which are still in development\) provide both known and contextual information about a data object, allowing users to examine various particulars about the data and, eventually, compare it to other data objects. Depending on the type of data and where it came from, different sorts of information might be presented. For example, for a genome already in KBase \(such as the one we loaded earlier, [Vibrio brasiliensis LMG 20546](https://narrative.kbase.us#dataview/KBasePublicGenomesV4/kb%7Cg.3791)\), you will see:
 

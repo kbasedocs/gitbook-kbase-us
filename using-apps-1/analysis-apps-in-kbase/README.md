@@ -48,6 +48,6 @@ For more information about using the App Catalog, see the [Narrative Interface U
 
 **App replacement and updates**
 
-Some old \(legacy\) apps have been replaced with new equivalents. Please see the [App Replacement page](../kbase-app-replacement.md) for more information.  
+Some old \(legacy\) apps have been replaced with new equivalents. Please see the [App Replacement page]() for more information.  
 
 

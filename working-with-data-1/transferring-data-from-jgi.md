@@ -73,8 +73,6 @@ Important differences between JGI and KBase data staging:
 1. The JGI staging area keeps file links for 14 days. The KBase staging area keeps files for 90 days.  
 2. The JGI staging area has a limited amount of space that is shared with other users. The KBase staging area has 2.8 terabytes available to the user.  
 3. The JGI notifies users by email when files have been added to the staging area. The KBase _Import_ tab shows files in your Staging Area and has an update button to refresh the list.  
-4. JGI stages an entire project at one time. KBase stages specific files selected by the user.
-
-[This page](../getting-started/narrative-user-guide/add-data-to-your-narrative.md) has more information about how to add data to your KBase Narrative so you can analyze it.  
+4. JGI stages an entire project at one time. KBase stages specific files selected by the user.  
 
 

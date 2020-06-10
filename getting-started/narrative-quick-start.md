@@ -8,8 +8,6 @@ description: 'A fast, one-page introduction to KBase''s narrative interface'
 
 {% file src="../.gitbook/assets/kbase\_quickstart\_v8\_march2017.pdf" caption="Download the printable version of this Quick Start guide" %}
 
-\(Last updated March 2017\)
-
 ### **What is a Narrative?**
 
 In KBase, you can create shareable, reproducible workflows called **Narratives** that include data, analysis steps, results, visualizations, and commentary. This Quick Start provides an overview of how to create and use the features of Narratives.
@@ -39,7 +37,7 @@ Select the “Narrative Tour” from the Help menu. This new feature walks you t
 
 ### **Step 4. Find data to analyze**
 
-To load data to your Narrative, click the “Add Data” button, which can be found under the Analyze tab near the top left of the Narrative. The [Data Browser](narrative-user-guide/explore-data.md) will slide out with tabs that show several data sources.
+To load data to your Narrative, click the “Add Data” button in the **Data Panel**, which can be found under the Analyze tab near the top left of the Narrative. The [Data Browser](narrative-user-guide/explore-data.md) will slide out with tabs that show several data sources.
 
 ![](../.gitbook/assets/screen-shot-2017-01-27-at-11.12.33-am.png)
 
@@ -47,15 +45,15 @@ You can choose a dataset already in KBase by selecting any of the first four tab
 
 The _Import_ tab allows you to upload your own data. KBase currently supports upload of a variety of data types. Please see the [Data Upload/Download Guide](../working-with-data-1/data-upload-download-guide/) for more information.
 
-_**Note**_ – _**any data you upload to KBase is private unless you choose to share it.**_
+Note: Any data you upload to KBase is private unless you choose to share it.
 
 ### **Step 5. Add data to your Narrative**
 
-When you hover over a [data object](narrative-user-guide/explore-data.md) in the Data Browser, an “&lt; Add” button will appear to its left. Click this button to add the data to your Narrative.
+When you hover over a [data object](narrative-user-guide/explore-data.md) in the Data Browser, a blue “&lt; Add” button will appear to its left. Click the button to add the data to your Narrative.
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
-Notice that the data object now appears in your Data Panel. Once you finish adding data, exit the Data Browser by clicking either the “Close” button at the bottom left of the browser window or the arrow at the top right of the Data Panel.
+Notice that the data object now appears in the Data Panel. Once you finish adding data, exit the Data Browser by clicking either the “Close” button at the bottom left of the browser window or the arrow at the top right of the Data Panel.
 
 ![](../.gitbook/assets/screen-shot-2017-01-25-at-4.04.13-pm.png)
 
@@ -66,11 +64,11 @@ Don’t forget to periodically save your Narrative by clicking the “Save” bu
 
 ### \*\*\*\*![](../.gitbook/assets/app-panel-open.png) 
 
-Once you have added data to your Narrative, you can analyze it using one or more of the KBase apps listed in the Apps panel below your data.
+Once you have added data to your Narrative, you can analyze it using one or more of the KBase apps listed in the **App Panel** below your data.
 
 There are options for filtering by category, name, input type, and more. You can designate apps you like as favorites using the star icon.
 
-To add an app to your Narrative from the App Panel, click on its name or icon. You can get more information about an app by hovering over it until an “…” appears.
+To add an app to your Narrative from the App Panel, click on its name or icon. You can get more information about an app by hovering over it until “…” appears and clicking on it.
 
 ### **Step 7. Run the App**
 

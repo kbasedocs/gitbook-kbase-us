@@ -46,9 +46,9 @@ When you’re done sharing, click the "x" icon to close the Share panel.
 
 You can change the access permissions at any time by clicking the Share button again. The up/down arrows next to each user’s permissions let you change the permissions.
 
-Note that unless you alert another user that you have shared a Narrative with them, they will not notice until they happen to see your shared Narrative in their “Narratives that have been shared with you” tab or click on your name in her collaborator list. In the future, the Narrative Interface will alert you to new Narratives that have been shared with you.
+Note: Unless you alert another user that you have shared a Narrative with them, they will not notice a newly shared Narrative until they see your shared Narrative in their “Narratives that have been shared with you” tab or click on your name in her collaborator list.
 
-If you are working on a shared Narrative, and a collaborator is working on it at the same time, watch for a red box at the top of the screen that says “Narrative updated in another session.” You can update to the latest version by refreshing the page, but note that any changes that you made to the Narrative will be lost, and if you try to save your changes, you might overwrite your collaborator’s changes. We are working on better ways to allow simultaneous editing.
+If you are working on a shared Narrative, and a collaborator is working on it at the same time, watch for a red box at the top of the screen that says “Narrative updated in another session.” You can update to the latest version by refreshing the page, but note that any changes that you made to the Narrative will be lost, and if you try to save your changes, you might overwrite your collaborator’s changes.
 
 ## Create or modify your user profile
 
@@ -62,11 +62,11 @@ To see and edit your user profile, go to your Dashboard and click the “Account
 
 ![](../../.gitbook/assets/screen-shot-2017-12-05-at-3.50.59-pm.png)
 
-Below the Save button is a small preview showing what your profile page looks like to others. You can click the “Open Your Profile Page” link to see a bigger version, along with a list of your Narratives and collaborators \(other users with whom you have shared Narratives, or who have shared Narratives with you\) and a search box for searching for other users by name or username. As you start typing in the box, you will see a list of users who have that text in their first or last name or their username. Click one of the matches to see that user’s profile.
+Below the "Save" button is a small preview showing what your profile page looks like to others. You can click the “Open Your Profile Page” link to see a bigger version, along with a list of your Narratives and collaborators \(other users with whom you have shared Narratives, or who have shared Narratives with you\) and a search box for searching for other users by name or username. As you start typing in the box, you will see a list of users who have that text in their first or last name or their username. Click one of the matches to see that user’s profile.
 
-The Account tab lets you see basic information about your KBase account. The only field that can be edited there is your preferred email address. Note that other users cannot see your email address; it will be used only by KBase staff to contact you occasionally with important information.
+The **Account** tab lets you see basic information about your KBase account. The only field that can be edited there is your preferred email address. Note that other users cannot see your email address; it will be used only by KBase staff to contact you occasionally with important information.
 
-The Linked Sign-In Accounts tab lets you see and manage which external \(Globus or Google\) accounts are linked to your KBase account.
+The **Linked Sign-In Accounts** tab lets you see and [manage](../signing-up-and-signing-in/linking-kbase-to-orcid.md) which external \(Globus or Google or ORCiD\) accounts are linked to your KBase account.
 
-The user profile editor, and KBase’s social networking layer, are in development. Soon you will be able to search for other researchers whose interests overlap with yours, perhaps inviting them to collaborate. You will also be able to see how many times your Narratives were run, copied, extended or cited. Ultimately, we hope that KBase’s expanding social web will help to make systems biology research more effective, collaborative, and reproducible.
+The **User Profile** editor allows you to edit your position, organization, and location. You can also input your Research Interests, Research or Personal Statement. It also shows which KBase _Organizations_ you belong to and any Affiliations. 
 

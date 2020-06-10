@@ -4,7 +4,7 @@
 
 ### **Reproducibility**
 
-KBase is a scientific platform. A cornerstone of science is that scientific experiments and analyses are reproducible - that is a scientist must be able to take a description of an experiment and / or analysis, perform said experiment / analysis independently, and get the same results. Science that is not reproducible is not science, and knowledge that cannot be verified independently is not knowledge.
+KBase is a scientific platform. A cornerstone of science is that scientific experiments and analyses are reproducible - that is a scientist must be able to take a description of an experiment and/or analysis, perform said experiment / analysis independently, and get the same results. Science that is not reproducible is not science, and knowledge that cannot be verified independently is not knowledge.
 
 ### **Provenance**
 
@@ -12,21 +12,21 @@ Provenance in the context of KBase explains how data comes to exist - the sequen
 
 ### **Sharing and data privacy**
 
-Users loading data into and creating data within KBase are guaranteed that their data and activities are private unless they explicitly share their data or make it public. KBase will not mine, collate, or otherwise use their private data or activities / jobs \(other than for internal tasks required to administer the platform\), and their data / activities / jobs will not be visible in any data view to users that are not granted access.
+Users loading data into and creating data within KBase are guaranteed that their data and activities are private unless they explicitly share their data or make it public. KBase will not mine, collate, or otherwise use their private data or activities/jobs \(other than for internal tasks required to administer the platform\), and their data/activities/jobs will not be visible in any data view to users that are not granted access.
 
 When data or analyses are shared, they are expected to be viewable and runnable by the users they are shared with. If a user makes a copy of data or analyses, those data and analyses are expected to be viewable and runnable just as the sources are viewable and runnable. Information about the original generators of the data are expected to propagated along with the data to ensure proper credit. 
 
 ### **Credit where credit is due**
 
-Users that add data, apps, or analyses to the system and make them available for other users to rerun, reuse, or copy and modify must get credit for their work when viewing the resulting data objects and analyses that use them.
+Users that add data, apps, or analyses to the system and make them available for other users to rerun, reuse, or copy and modify must receive credit for their work.
 
 ### **Support of cross-references**
 
-Data in KBase should reference appropriate and relevant related data - e.g. a Genome object referencing the Taxon object to which it belongs. Data should be richly connected to other data types when feasible. Additionally, data imported into the system should reference the data source.
+Data in KBase should reference appropriate and relevant related data e.g., a Genome object referencing the Taxon object to which it belongs. Data should be richly connected to other data types when feasible. Additionally, data imported into the system should reference the data source.
 
 ### **FAIR data management**
 
-[**Findable, Accessible, Interoperable, Reusable**](https://www.nature.com/articles/sdata201618) ****data meets the criteria set out in the linked paper. FAIR overlaps with many of the other principles set out here but is an emerging standard for data management. Further, we wish to ensure data of the same type are comparable- i.e. data are in comparable units derived from similar “workflows” so for example, numbers from two different data sets can be fairly combined. 
+[**Findable, Accessible, Interoperable, Reusable**](https://www.nature.com/articles/sdata201618) ****data meets the criteria set out in the linked paper. FAIR overlaps with many of the other principles set out here but is an emerging standard for data management. Further, we wish to ensure data of the same type are comparable i.e., data are in comparable units derived from similar “workflows” so for example, numbers from two different data sets can be fairly combined. 
 
 ### **Open source software and data**
 

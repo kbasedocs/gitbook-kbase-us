@@ -10,11 +10,11 @@ Files can be uploaded into your KBase Staging Area from your local computer or d
 
 ### **Drag & Drop Limitations**
 
-The drag & drop from your local computer works for many files, but there is a size limit that depends on your computer and browser. Some users have reported problems around 20GB. For larger files, use the [Globus Online transfer](../transferring-data-with-globus.md).
+The drag & drop from your local computer works for many files, but there is a size limit that depends on your computer and browser. Some users have reported problems around 20GB. For larger files, use [Globus Online transfer](../transferring-data-with-globus.md).
 
 ### Single-end library in FASTQ format
 
-For this example, we will assume that you have a local copy of the RNA transcripts of the sample SRR228087 from GenBank. This is a single-end library from Illumina sequencing. Instructions for obtaining a local copy of data from the GenBank SRA with their sratoolkit are available [here](https://www.ncbi.nlm.nih.gov/books/NBK158900/) and [here](http://www.metagenomics.wiki/tools/short-read/ncbi-sra-file-format). Other methods for obtaining the data will vary from one data provider to the next.
+For this example, we will assume that you have a local copy of the RNA transcripts of the sample SRR228087 from GenBank. This is a single-end library from Illumina sequencing. Follow instructions for obtaining a local copy of data from the [GenBank SRA](http://www.metagenomics.wiki/tools/short-read/ncbi-sra-file-format) with their [sratoolkit](https://www.ncbi.nlm.nih.gov/books/NBK158900/). Other methods for obtaining the data will vary from one data provider to the next.
 
 Once the file is on your computer, open the __[_Import_ tab in the **Data Browser**](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md#uploading-data-from-external-sources) and drag the single-end library into your Staging area.
 
@@ -68,9 +68,9 @@ There is also an icon with two arrows in a clockwise circle that refreshes the l
 
 If your reads are in a publicly accessible URL, you can bypass the Staging Area and directly import reads into your Narrative using one of these three apps \(which you can find in the Apps panel or the [App Catalog](https://kbase.us/applist/)\):
 
-* Import SRA File as Reads From Web
-* Import Single-End Reads From Web
-* Import Paired-End Reads From Web
+* [Import SRA File as Reads From Web](https://narrative.kbase.us/#catalog/apps/kb_uploadmethods/import_sra_as_reads_from_web/release)
+* [Import Single-End Reads From Web](https://narrative.kbase.us/#catalog/apps/kb_uploadmethods/load_single_end_reads_from_URL/release)
+* [Import Paired-End Reads From Web](https://narrative.kbase.us/#catalog/apps/kb_uploadmethods/load_paired_end_reads_from_URL/release)
 
 ## **Transfer reads from JGI**
 

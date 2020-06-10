@@ -1,6 +1,6 @@
 # Authentication Update
 
-On June 9, 2017, KBase switched to a new system for signing up and signing in to KBase that simplified the process for new users. If you already have a KBase account, you will navigate through Globus’s authentication process the first time you sign on to convert your existing account to the new system. After going through the conversion, you’ll be able to sign in to KBase with your existing account or your Google account, if you choose to link your KBase account.
+KBase has simplified the sign up and sign in process for new users. You will be able to sign into KBase with a Google, Globus, or ORCiD once accounts have been linked.
 
 {% hint style="info" %}
 ### New users: creating a new KBase account
@@ -10,7 +10,7 @@ You can safely ignore the information on this page. For details about setting up
 
 ### Transitioning an existing KBase account
 
-If you already had a KBase account prior to June 9, 2017, then the first time you want to sign into KBase after the authentication change, you will need to go through a few steps to convert your existing KBase \(through Globus\) account. To see what you’ll need to do, you can watch the video and continue reading below.
+If you already had a KBase account prior to June 9, 2017, then the first time you want to sign into KBase after the authentication change, you will need to go through a few steps to convert your existing KBase \(through Globus\) account to the new system. After going through the conversion, you’ll be able to sign in to KBase with your existing account or your Google account, if you choose to link your KBase account. To see what you’ll need to do, continue reading below.
 
 When you go to [KBase](https://narrative.kbase.us/) to sign in, you will see this:
 
@@ -80,78 +80,4 @@ Note that if you had signed out completely from Globus after the last time you u
 ![](../../.gitbook/assets/kbase_globuslogin%20%282%29.gif)
 
 If you encounter any difficulties or have any questions, please feel free to [contact us](https://kbase.us/contact-us/). 
-
-### Linking your Google account to your KBase account
-
-If you have a Google \(gmail\) account, you can link it to your KBase account.
-
-To do this, **you must first sign in to KBase with your Globus account** \(which is the same as your existing KBase account – see above\). If you are not already signed in to KBase, go to the [sign-in page](https://narrative.kbase.us/), click the Sign In button. Click “Sign in with Globus” to sign in with your current account information.
-
-![](../../.gitbook/assets/usekbase_signinwithglobus%20%283%29.png)
-
-Go through the normal Globus sign-in process until you get to your Dashboard.
-
-On the left sidebar of your dashboard, click the “Account” icon, and then choose the tab labeled “Linked Sign-In Accounts”.
-
-![](../../.gitbook/assets/kbase_linkaccounts%20%281%29.gif)
-
-At the bottom of the tab, choose “Google” from the pulldown list of identity providers.
-
-![](../../.gitbook/assets/linkedaccounts_signin-with-google.png)
-
-Then click the “Link” button. The next screen will prompt you to choose a Google account to link \(some people have more than one\).
-
-![](../../.gitbook/assets/googlechooseanaccount%20%281%29.png)
-
-You are now ready to link your Google account to your KBase account.
-
-![](../../.gitbook/assets/screen-shot-2017-06-06-at-3.38.59-pm.png)
-
-After you click that Link button, you will be returned to the Linked Sign-in Accounts screen in your Dashboard, where you will see your newly linked Google account.
-
-### The next time you sign in with your Google credentials
-
-Now when you want to sign in to KBase, you can also use the “Sign in with Google” button.
-
-![](../../.gitbook/assets/kbasegooglesignin%20%281%29.gif)
-
-This will bring you straight to the “Choose an account” Google page:
-
-![](../../.gitbook/assets/googlechooseanaccount.png)
-
-After you choose your linked Google account, you’ll be signed in to KBase! \(Note that if you had signed out of that Google account, you will be directed to sign into it again before you get to your KBase dashboard.\)
-
-We hope you appreciate the convenience of being able to sign-in to KBase with your Google credentials. If you encounter any difficulties or have any questions, please feel free to [contact us](https://kbase.us/contact-us/)!
-
-### Linking your ORCiD account to your KBase account
-
-If you have an[ ORCiD ![](../../.gitbook/assets/orcidid_icon128x128.png)](https://orcid.org/) account, you can also link it to your KBase account.
-
-{% hint style="info" %}
-KBase is an [ORCiD Member Organization. ](https://orcid.org/members/0016f00002ZLyhNAAT-kbase)
-{% endhint %}
-
-To do this, **you must first sign in to KBase through your Globus or Google accounts** \(which is the same as your existing KBase account–see above\). If you are not already signed in to KBase, go to the [sign-in page](https://narrative.kbase.us/), click the Sign In button, and click either “Sign in with Google”  or “Sign in with Globus” buttons.   
-  
-Go through the normal sign-in process until you get to your Dashboard.
-
-On the left sidebar of your dashboard, click the “Account” icon, and then choose the tab labeled “Linked Sign-In Accounts”.
-
-![](../../.gitbook/assets/kbase_linkaccounts.gif)
-
-At the bottom of the tab, choose “![](../../.gitbook/assets/orcidid_icon128x128.png) ORCiD” from the pulldown list of identity providers, and then click the “Link” button.
-
-![](../../.gitbook/assets/kbaselinkaccounts.gif)
-
-The next screen will prompt you to Sign in using your ORCiD account to link.
-
-![](../../.gitbook/assets/orcidlogin.png)
-
-After you click that Link button, you will be returned to the Linked Sign-in Accounts screen in your Dashboard, where you will see your newly linked ORCiD account.
-
-You can then Sign In to KBase using your ORCiD. 
-
-![](../../.gitbook/assets/kbase_orcid.gif)
-
-We hope you appreciate the convenience of being able to sign in to KBase with your ORCiD credentials. If you encounter any difficulties or have any questions, please feel free to [contact us](https://kbase.us/contact-us/)!
 

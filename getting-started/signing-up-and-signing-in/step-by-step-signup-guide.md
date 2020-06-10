@@ -2,7 +2,7 @@
 
 This page provides step-by-step instructions for signing up to use KBase. You will use your existing account at Google or [Globus](https://www.globusid.org/login) or [ORCiD](https://orcid.org/), and it will be linked to your new KBase account.
 
-1. From the [KBase sign-in page](https://narrative.kbase.us/), select the “New User” option.
+1. From the [KBase sign-in page](https://narrative.kbase.us/), click the “New User” button.
 
 ![](../../.gitbook/assets/kbase_newusersignin.gif)
 
@@ -29,7 +29,9 @@ We are also considering adding support for other identity providers. If there’
 
 ![](../../.gitbook/assets/screen-shot-2017-06-07-at-3.50.33-pm.png)
 
-5. You must now agree to the KBase User Agreement and KBase Data Policy. \(Note - If you already had a KBase account, the User Agreement and Data Policy have not changed since you last agreed to them. This is merely a reconfirmation required by the new authentication process.\)
+5. You must now agree to the KBase User Agreement and KBase Data Policy. 
+
+Note: If you already had a KBase account, the User Agreement and Data Policy have not changed since you last agreed to them. This is merely a reconfirmation required by the new authentication process.
 
 Read the KBase User Agreement and KBase Data Policy and check the checkboxes that say “I have read and agree to this policy”
 

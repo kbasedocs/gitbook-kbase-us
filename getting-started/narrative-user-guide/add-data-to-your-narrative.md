@@ -9,7 +9,7 @@ Now that you are familiar with ways to find and explore data in KBase, you can s
 Any data that you upload to KBase is kept private unless you explicitly choose to share it. You can share any of your Narratives \(including their associated data\) with one or more specific users, or make it publicly available to all KBase users. Please see the [Sharing](share-narratives.md) page for more information about how to do that. The [Terms and Conditions page](https://kbase.us/terms-and-conditions/) describes the KBase data policy.
 {% endhint %}
 
-The first four tabs of the Data Browser \(“My Data”, “Shared With Me”, “Public”, and “Example”\) let you search data that is already in KBase. The _Import_ tab lets you import data from your computer to your Narrative so that you can analyze it in KBase.
+The first four tabs of the **Data Browser** \(_My Data_, _Shared With Me_, _Public_, and _Example_\) let you search data that is already in KBase. The _Import_ tab lets you import data from your computer to your Narrative so that you can analyze it in KBase.
 
 * The _My Data_ tab shows data objects that you have added to your project. You may need to refresh this tab to see your most recently added data.
 * The _Shared With Me_ and _Public_ tabs display datasets that others have loaded and made accessible to you \(or to everyone\). Data within each group is searchable and can be filtered. Since there are a large number of public datasets, you may wish to filter them by data type \(using the pulldown selector on the left\) or narrow the list by searching \(in the “Search data” text box\) for specific text in the data objects’ names.
@@ -18,7 +18,7 @@ The first four tabs of the Data Browser \(“My Data”, “Shared With Me”, �
 
 ## Data available in KBase
 
-If you hover your cursor over any data object under the first four tabs, options will appear allowing you to add that object to your Narrative or find out more about it.
+If you hover your cursor over any data object under the first four tabs, options will appear allowing you to add that object to the Narrative or find out more about it.
 
 ![](../../.gitbook/assets/screen-shot-2015-02-07-at-4.27.28-pm.png)
 
@@ -108,7 +108,7 @@ Below the link to Globus, another link says “Click here to use an App to uploa
 
 ![](../../.gitbook/assets/load-from-url.png)
 
-Clicking this link adds the “Upload File to Staging from Web” app to your Narrative:
+Clicking this link adds the “Upload File to Staging from Web” App to your Narrative:
 
 ![](../../.gitbook/assets/image23-1.png)
 
@@ -143,6 +143,8 @@ You can now use this data object as input into the relevant KBase apps. If you w
 {% hint style="warning" %}
 **What if my import fails?**  
 Sometimes an import doesn’t work. One of the most common causes of failure is attempting to import a file that’s the wrong data type, or not the expected format for that data type. For example, the screenshot below shows what a user got when they tried to import a GenBank file as Media.
+
+You can also look at [common import errors and their meanings.](../../troubleshooting-1/job-errors-and-their-meanings/import-job-errors.md)
 {% endhint %}
 
 ![](../../.gitbook/assets/image4.png)
