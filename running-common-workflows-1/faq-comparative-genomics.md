@@ -1,6 +1,6 @@
 # FAQ: Comparative Genomics
 
-## What does the _tail &lt;1% each taxon_ mean in the Kaiju output?
+## What does the `tail <1% each taxon` mean in the Kaiju output?
 
 This option allows users to exclude rare lineages which would congest the plot. However, underlying analysis is not affected and the data can be replotted.
 
