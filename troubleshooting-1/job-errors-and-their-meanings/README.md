@@ -1,6 +1,6 @@
 # Job Errors and Their Meanings
 
-Some job errors give an explanation of the problem and others can be much more cryptic. Here are lists of job error messages found within the [Job Log](../the-job-log.md),  their meanings, and what action to take. 
+Some job errors give an explanation of the problem and others can be much more cryptic. Here are more common job error messages found within the [Job Log](../the-job-log.md) along with the context of the App or job-associated, the meaning of the error, and steps to take toward a solution. 
 
 If you have an error message and are looking to find a solution, start with the Common Job Errors or select the specific app category page to use the browser's search function to look for the error message and solutions. 
 
