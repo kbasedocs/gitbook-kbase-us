@@ -32,18 +32,6 @@
 * [View Interactive Heatmap](https://narrative.kbase.us/#catalog/apps/kb_cummerbund/view_expression_interactive_heatmap/release) [— ](https://narrative.kbase.us/#catalog/apps/kb_cummerbund/view_expression_interactive_heatmap/release)display heatmap of expressed genes. 
 * [View Multi-cluster Heatmap](https://narrative.kbase.us/#catalog/apps/CoExpression/expression_toolkit_view_heatmap/release) [—](https://narrative.kbase.us/#catalog/apps/CoExpression/expression_toolkit_view_heatmap/release) display multi-cluster heatmap of expressed genes.
 
-### RNA-seq and Expression Analysis Capabilities
-
-Whether you are a beginner or advanced user of RNA-seq, you will find that KBase’s expression analysis tool suite offers a number of advantages, including some unique to KBase:
-
-1. **Modular \(Plug-n-Play\):** We offer you the flexibility to pick and choose from an array of available Apps for a given step of the pipeline, while the pipeline works seamlessly end-to-end.
-2. **Easy and powerful interface:** The Apps are designed to be easily usable by beginners and have abstracted away most of the advanced options, though these are still available to advanced users.
-3. **Extensible:** Supported by standard data types, the tool suite is easy to extend by 3rd party developers who want to add new tools.
-4. **Easy upload and download:** You can easily [upload](../../working-with-data-1/data-upload-download-guide/) reads, genomes and expression matrices from local and remote public sites. You can also [download](../../working-with-data-1/data-upload-download-guide/) BAM, expression matrices and tool outputs for a number of intermediate steps.
-5. **Unrestricted data and compute:** You can store and analyze an unrestricted amount of RNA-seq data in a reasonable time and free of cost.
-6. **Well documented:** You can refer to a variety of documentation for [Apps](https://narrative.kbase.us/#catalog/apps), helpful [Narrative tutorials](https://kbase.us/narrative-library/), and broader KBase documentation.
-7. **Active support:** Contact us through the [KBase Help Board](../../troubleshooting-1/support.md) to ask questions or share feedback.
-
 ### **RNA-Seq Analysis Tutorials**
 
 * [RNA-seq Analysis using New Tuxedo Suite \(Arabidopsis\)](https://narrative.kbase.us/narrative/ws.19391.obj.1): 
@@ -52,8 +40,6 @@ Whether you are a beginner or advanced user of RNA-seq, you will find that KBase
 #### Prerequisites for RNA-seq Analysis
 
 We support the popular Tuxedo suite of tools \(original and new\) for RNA-seq analysis. As a result, KBase requires reference genome to guide the analysis of short reads. 
-
-Here are the prerequisites:
 
 1. **Import Genome:** Use the [_Public_ tab in **Data Panel**](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md) ****to choose the reference genome from KBase’s public data. If it’s not available, you can use the __[_Import_ tab in **Data Panel**](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md) ****to import the genome of interest to your Narrative.
 2. **Import Short Reads:** Use the Import tab or any of the reads uploader apps from the ****[**Apps Panel**](../../getting-started/narrative-user-guide/browse-kbase-analysis-tools.md) to import the short reads from your experiment into your Narrative. Example reads are also available from the __[_Public_ tab](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md). The reads must be a set of single-end, paired-end, or interleaved paired-end reads in FASTA, FASTQ, or SRA format.
