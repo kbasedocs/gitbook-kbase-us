@@ -25,7 +25,7 @@ In the Job Browser, jobs not associated to an app i.e., export, are included wit
 ![](../.gitbook/assets/joblog_jobbrowser.gif)
 
 {% hint style="info" %}
-Even if you find an explanation for your error on this page, it is okay to [submit a Help Board ticket](support.md) with follow-up questions.
+Even if you find an explanation for your error in the [list of common errors](job-errors-and-their-meanings/), it is okay to [submit a Help Board ticket](support.md) with follow-up questions.
 {% endhint %}
 
 ### Helpful Points

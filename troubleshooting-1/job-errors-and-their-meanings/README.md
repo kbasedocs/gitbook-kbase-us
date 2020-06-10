@@ -1,6 +1,8 @@
 # Job Errors and Their Meanings
 
-Some job errors give an explanation of the problem and others can be much more cryptic. Here are pages to common error messages and their meanings. Start with Common Job Errors or select the specific app category to search for the error message and possible solutions. 
+Some job errors give an explanation of the problem and others can be much more cryptic. Here are lists of job error messages found within the [Job Log](../the-job-log.md),  their meanings, and what action to take. 
+
+If you have an error message and are looking to find a solution, start with the Common Job Errors or select the specific app category page to use the browser's search function to look for the error message and solutions. 
 
 1. [Common Job Errors](common-job-errors-alt.md) - occur across all apps
 2. [Import Job Errors](import-job-errors.md) - specific to importing data
