@@ -117,13 +117,13 @@ _Do **one** of the following:_
 
 #### `(2, No such file or directory)` 
 
-1. UE: The wrong reference database was used 
+1. UE: The wrong reference database was used. 
 
-_Change the reference database and try resubmitting the job._
+   _Change the reference database and try resubmitting the job._
 
 2. KE: More than two reads libraries were included in the input. 
 
-_The developers have a task to fix this. The workaround is to only submit a maximum of two libraries at a time. Merging reads libraries can help with this process._ 
+   _The developers have a task to fix this. The workaround is to only submit a maximum of two libraries at a time. Merging reads libraries can help with this process._ 
 
 ## \*\*\*\*[**Kraken**2 Taxonomic Sequence Classifier](https://narrative.kbase.us/#catalog/apps/kraken2/run_kraken2/beta)
 
