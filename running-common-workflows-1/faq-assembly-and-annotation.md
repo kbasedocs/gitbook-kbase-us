@@ -10,11 +10,15 @@ The “best” assembler often depends on the user. Sometimes the user may want 
 
 ## How do I compare the results of various assemblers?
 
-You can use the QUAST App to compare the contig distributions of Assembly objects.
+You can use the [QUAST App](https://narrative.kbase.us/#catalog/apps/kb_quast/run_QUAST_app/release) to compare the contig distributions of Assembly objects.
 
 ## Does KBase support co-assembly?
 
-Yes, but the results are unstable currently above 200 M reads \(Illumina 150bp x 2\). Use the Merge Multiple Reads Libraries App to get a combined Reads Library object.
+Yes, but the results are unstable currently above 200 M reads \(Illumina 150bp x 2\). Use the [Merge Multiple Reads Libraries App](https://narrative.kbase.us/#catalog/apps/kb_ReadsUtilities/KButil_Merge_MultipleReadsLibs_to_OneLibrary/release) to get a combined Reads Library object.
+
+## JGI/IMG recommends KBase for genome assembly before submission to them for annotation. Is there a direct way to import to JGI or do we have to save FASTA files and submit separately to JGI/IMG?
+
+ The webpage [http://kbase.us/transfer-jgi-data/](http://kbase.us/transfer-jgi-data/) takes you through the process. You can also start from the KBase search and use the JGI tab.
 
 ## What is the typical threshold to determine whether our assembled genome is contaminated?
 
@@ -26,9 +30,9 @@ In addition to having different options in the app, their method for assigning t
 
 ## What is the difference between Annotate Microbial Genome and Annotate Microbial Assembly?
 
-Annotate Microbial Assembly takes an Assembly object, follows it by gene calling using algorithms from Prodigal and Glimmer, and then functional annotation. 
+[Annotate Microbial Assembly](https://narrative.kbase.us/#catalog/apps/RAST_SDK/annotate_contigset/release) takes an Assembly object, follows it by gene calling using algorithms from Prodigal and Glimmer, and then functional annotation. 
 
-Annotate Microbial Genome takes a Genome object, does not call genes, and instead preserves the original gene calls. It then re-annotates the genes, overwriting previous annotations.
+[Annotate Microbial Genome](https://narrative.kbase.us/#catalog/apps/RAST_SDK/reannotate_microbial_genome/release) takes a Genome object, does not call genes, and instead preserves the original gene calls. It then re-annotates the genes, overwriting previous annotations.
 
 ## Is it possible or necessary to manually curate annotations, or are the RAST and Prokka annotations sufficient?
 
