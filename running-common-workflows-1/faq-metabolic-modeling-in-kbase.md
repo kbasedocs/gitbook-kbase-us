@@ -40,28 +40,22 @@ For more information—including descriptions of the underlying algorithms, inpu
 
  **Microbial Metabolic Model Reconstruction and Analysis**
 
-* [Narrative tutorial](../getting-started/narrative-user-guide/)
+* [Tutorial Narrative](https://narrative.kbase.us/narrative/18302)
 * [Video tutorial](https://www.youtube.com/watch?v=AQ2KsrQrq9s&list=PLh7Q4SqpZYTwdK8ekQnqKinFzbqZuzu8f)
 
-**Gapfill Metabolic Models**
+\*\*\*\*[**Gapfill Metabolic Models App**](https://narrative.kbase.us/#catalog/apps/fba_tools/gapfill_metabolic_model/release)\*\*\*\*
 
-* [App details](../using-apps-1/app-catalog.md)
+\*\*\*\*[**Run Flux Balance Analysis App**](https://narrative.kbase.us/#catalog/apps/fba_tools/run_flux_balance_analysis/release)\*\*\*\*
 
-**Run Flux Balance Analysis**
-
-* [App details](https://narrative.kbase.us/#narrativestore/method/run_flux_balance_analysis)
 * [Tutorial](http://kbase.us/run-flux-balance-analysis-method/)
 
-**Simulate Growth on Phenotype Data**
+\*\*\*\*[**Simulate Growth on Phenotype Data App**](https://narrative.kbase.us/#catalog/apps/fba_tools/simulate_growth_on_phenotype_data/release)\*\*\*\*
 
-* [App details](https://narrative.kbase.us/#narrativestore/method/simulate_growth_on_a_phenotype_set)
 * [Tutorial](http://kbase.us/simulate-growth-on-phenotype-data-method/)
 
-**Compare FBA Solutions**
+\*\*\*\*[**Compare FBA Solutions App**](https://narrative.kbase.us/#catalog/apps/fba_tools/compare_fba_solutions/release)\*\*\*\*
 
-* [App details](https://narrative.kbase.us/#narrativestore/method/compare_fba_solutions)
-
-### **Q. What does the KBase gapfilling app do?**
+### **Q. What does the KBase** [**Gapfill Metabolic Models App**](https://narrative.kbase.us/#catalog/apps/fba_tools/gapfill_metabolic_model/release) **do?**
 
 Draft metabolic models lack a number of essential reactions due to missing or inconsistent annotations. Some of the most common problems arise from having missing transporters \(reactions that move metabolites across cell membranes\) because they are difficult to annotate well. Consequently, draft models often are unable to generate biomass on media where the organism typically is capable of growing.
 
@@ -69,7 +63,7 @@ The KBase gapfilling process compares the set of reactions in your metabolic mod
 
 The gapfilling app uses a cost function associated with each internal reaction and transporter to find a solution that uses the fewest reactions to fill all gaps, and it does this without extra knowledge about the organism’s biochemistry.
 
-For more information on gapfilling, see the [app details page](https://narrative.kbase.us/#narrativestore/method/gapfill_a_metabolic_model) and the Henry et al. 2010 [Model SEED paper](http://www.nature.com/nbt/journal/v28/n9/full/nbt.1672.html) in Nature Biotechnology.
+For more information on gapfilling, see the Henry et al. 2010 [Model SEED paper](http://www.nature.com/nbt/journal/v28/n9/full/nbt.1672.html) in Nature Biotechnology.
 
 ### **Q: How does the underlying gapfilling algorithm work \(i.e., what kind of programming formulation does it use\)?**
 
