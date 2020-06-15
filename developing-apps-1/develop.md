@@ -40,7 +40,7 @@ All software and data used in KBase must be open source and restriction free. Th
 
 ## Information for Developers – KBase SDK
 
-The [KBase Software Development Kit \(SDK\)](https://github.com/kbase/kb_sdk/blob/master/README.md) allows third-party developers to wrap open source tools into KBase as [Apps](https://narrative.kbase.us/#appcatalog). KBase users can then run these Apps on their own data in their Narratives and cite the use of these tools in their publications.
+The [KBase Software Development Kit \(SDK\)](https://github.com/kbase/sdkbase2) allows third-party developers to wrap open source tools into KBase as [Apps](https://narrative.kbase.us/#appcatalog). KBase users can then run these Apps on their own data in their Narratives and cite the use of these tools in their publications.
 
 ### Get Started
 
@@ -48,9 +48,9 @@ The [KBase Software Development Kit \(SDK\)](https://github.com/kbase/kb_sdk/blo
 
 You need a user account to be able to access KBase’s user interfaces, APIs, workspaces, and more.
 
-#### [Get the code](https://github.com/kbase)
+#### [Get the code](https://github.com/kbase/sdkbase2)
 
-Nearly all KBase software is publicly available through [GitHub](https://github.com/kbase). You may reuse KBase code under the terms of our [open source license](https://github.com/kbase/project_guides/blob/master/LICENSE).
+Nearly all KBase software is publicly available through [GitHub](https://github.com/kbase). You may reuse KBase code under the terms of our [open source license](https://github.com/kbase/sdkbase2/blob/master/LICENSE.md).
 
 #### [Read the SDK Documentation](https://kbase.github.io/kb_sdk_docs/)
 
