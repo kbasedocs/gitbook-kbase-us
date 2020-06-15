@@ -14,8 +14,8 @@ Create a virtual environment using virtualenv or conda and run `pip install -r r
 
 ### Notes and references
 
-* [Building and compiling the SDK from source](https://github.com/kbase/kb_sdk/blob/master/doc/building_sdk.md)
-* [Codebase anatomy](https://github.com/kbase/kb_sdk/blob/master/doc/codebase_anatomy.md)
+* [Building and compiling the SDK from source](https://github.com/kbase/sdkbase2)
+* [Codebase Anatomy](https://github.com/kbase/kb_sdk/blob/master/doc/codebase_anatomy.md)
 
 **Java Versions**
 
