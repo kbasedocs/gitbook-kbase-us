@@ -1,8 +1,6 @@
-# Things to Try
+# Problems with User Interface
 
-### Things to try if you encounter problems
-
-If you experience problems with KBase’s user interface \(e.g., data, apps, or viewers won’t load or the interface appears to be frozen\), here are a few things to try that may help:
+### If you experience problems with KBase’s user interface \(e.g., data, apps, or viewers won’t load or the interface appears to be frozen\), here are a few things to try that may help:
 
 * See our list of [recommended web browsers](../getting-started/supported-browsers.md#supported-browsers) to make sure your browser is supported by KBase.
 * Try a hard reload of your Narrative \(shift-reload in your browser window\).
