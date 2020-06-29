@@ -47,7 +47,7 @@ The flowchart above shows KBase’s metabolic modeling tools \(green\) as well a
 The [video tutorial](https://www.youtube.com/watch?v=AQ2KsrQrq9s&list=PLh7Q4SqpZYTwdK8ekQnqKinFzbqZuzu8f) below presents an introduction to building metabolic models in KBase. The [“Microbial Metabolic Model Reconstruction and Analysis” Narrative tutorial](metabolic-modeling-in-kbase.md#narrative-tutorial) lets you see and try out for yourself some examples of KBase’s metabolic modeling functionality in action. Common questions and answers about KBase’s metabolic modeling tools can be found in the [Metabolic Modeling FAQ](faq-metabolic-modeling-in-kbase.md).
 {% endhint %}
 
-### Video
+### Video Tutorial
 
 {% embed url="https://www.youtube.com/watch?v=AQ2KsrQrq9s&t=7s" %}
 
