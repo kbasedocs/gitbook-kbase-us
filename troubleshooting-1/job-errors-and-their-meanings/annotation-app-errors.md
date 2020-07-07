@@ -9,7 +9,7 @@ description: >-
 
 ## **Types of Errors**
 
-* **UE**=Probably user error or user fixable
+* **UE**=User fixable or possible user error
 * **KE**=KBase error
 * **UK**=Unknown or multiple possibles causes
 * **TE**=Temporary system problem
@@ -147,7 +147,10 @@ _Change the inputs and try resubmitting the job._
 
 UE/KE: Most likely case: The combined size of the libraries exceeds the current KBase hardware. Efforts are being made to increase capacity and to provide a cleaner more informative message. Workarounds should be considered.
 
-_The  workarounds include:  1\)  Reduce the number of libraries in the merge, 2\) Run Kaiju to determine which samples have similar profiles. Then try doing the co-assemblies pairwise using 2 at-a-time based on which profiles are most similar._
+_The  workarounds include:_  
+
+1. _Reduce the number of libraries in the merge_
+2. _Run Kaiju to determine which samples have similar profiles. Then try the co-assemblies pairwise using two-at-a-time based on which profiles are most similar._ 
 
   __
 

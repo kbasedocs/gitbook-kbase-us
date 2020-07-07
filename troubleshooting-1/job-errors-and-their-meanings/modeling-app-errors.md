@@ -9,7 +9,7 @@ description: >-
 
 ## **Types of Errors**
 
-* **UE**=Probably user error or user fixable
+* **UE**=User fixable or possible user error
 * **KE**=KBase error
 
 {% hint style="info" %}
