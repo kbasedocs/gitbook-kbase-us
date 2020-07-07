@@ -107,7 +107,7 @@ UE: Possible issues
   * The file is an SRA file and not fastq. 
 * DOS-style carriage-return line files along with new-lines. Our fasta validation doesn't handle this properly. _To remove the carriage return characters use can this unix command_
 
-  _`tr -d '\015' < 1.fastq >cleaned_1.fastq`_
+  _**`tr -d '\015' < 1.fastq >cleaned_1.fastq`**_
 
   \_\_[_https://support.nesi.org.nz/hc/en-gb/articles/218032857-Converting-from-Windows-style-to-UNIX-style-line-endings_](https://support.nesi.org.nz/hc/en-gb/articles/218032857-Converting-from-Windows-style-to-UNIX-style-line-endings)\_\_
 
@@ -151,25 +151,25 @@ UE: The FASTA header lines may not be unique.
 
 _Recheck the format of the header lines and_ _try resubmitting the job._ 
 
-`This FASTA file has non nucleic acid characters`
+#### `This FASTA file has non nucleic acid characters`
 
 UE: The file appears to be proteins or special characters instead of DNA.
 
 _Recheck the file contents, and then_ _try resubmitting the job._ 
 
-`This FASTA file may have amino acids in it instead of the required nucleotides.`
+#### `This FASTA file may have amino acids in it instead of the required nucleotides.`
 
 UE: The file appears to be proteins instead of DNA.
 
 _Recheck the file contents, and then_ _try resubmitting the job._ 
 
-`FASTQ/FASTA input file type selected. But missing FASTQ/FASTA file`
+#### `FASTQ/FASTA input file type selected. But missing FASTQ/FASTA file`
 
 UE: Selected file does not match the import selected.
 
 _Select a valid combination and try resubmitting the job._ 
 
-`(\utf-8\, b\PK\x03\x04\x14\x00\x08…….`
+#### `(\utf-8\, b\PK\x03\x04\x14\x00\x08…….`
 
 UE: Attempt to import a zip file with multiple files as a single data object.
 

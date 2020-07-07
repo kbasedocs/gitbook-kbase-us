@@ -6,7 +6,7 @@ You can always submit a ticket for help, questions, or follow-up to the [KBase H
 
 ## **Types of Errors**
 
-* **UE**=Probably user error or user fixable
+* **UE**=User fixable or possible user error
 * **KE**=KBase error
 * **UK**=Unknown or multiple possibles causes
 * **TE**=Temporary system problem
@@ -107,4 +107,12 @@ _Try the following:_
 * _Clear your cache_
 
 _If you find something that works, no need to try the others._
+
+#### `Details: 500 globus_xio: ICE negotiation failed.`
+
+UE: The error generally indicate a firewall issue. 
+
+_Please refer to this question on the Globus forum for a similar question with its solution. If you ar_ $$a = b$$ _e working from home, you can view the Globus documentation for configuring the firewall. If you are on an institution network, you'll probably have to request an exception from IT._
+
+
 

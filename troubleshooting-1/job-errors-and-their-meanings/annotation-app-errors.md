@@ -143,3 +143,11 @@ UE_:_ Every library in the input to merge must be of the same type, either all P
 
 _Change the inputs and try resubmitting the job._
 
+#### **`[Errno 28] No space left on device`**
+
+UE/KE: Most likely case: The combined size of the libraries exceeds the current KBase hardware. Efforts are being made to increase capacity and to provide a cleaner more informative message. Workarounds should be considered.
+
+_The  workarounds include:  1\)  Reduce the number of libraries in the merge, 2\) Run Kaiju to determine which samples have similar profiles. Then try doing the co-assemblies pairwise using 2 at-a-time based on which profiles are most similar._
+
+  __
+
