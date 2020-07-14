@@ -17,6 +17,6 @@ description: >-
 7. [Media](media.md)
 8. [Expression Matrices](expression-matrix.md)
 9. [Phenotype Sets](phenotype-set.md)
-10. [Compressed Files](compressed-zipped-files.md)
+10. [Compressed Files](compressed-files.md)
 11. [Downloading Data](downloads.md)
 

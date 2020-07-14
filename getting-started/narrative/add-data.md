@@ -99,7 +99,7 @@ See [Transferring Data with Globus](../../data/globus.md) for more documentation
 
 {% hint style="info" %}
 **Uploading data from JGI**  
-If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [the JGI data transfer page](../../data/jgi-data.md) for instructions.
+If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [the JGI data transfer page](../../data/jgi-transfer.md) for instructions.
 {% endhint %}
 
 ## Uploading data from a URL
@@ -116,7 +116,7 @@ There are also several apps that import specific file types \(single- or paired-
 
 ## Importing files from the Staging Area to the KBase Narrative
 
-The files in your Staging Area are ready to import into your Narrative as KBase data objects that can be used in your analyses. To import a file from your Staging Area, choose a format \(data type\) from the pulldown menu to the right of the file’s age. \(You can find out more about KBase data types and accepted formats in the [Upload/Download Guide](../../data/data-upload-download-guide/).\) Then click the import icon to the right of the format menu.
+The files in your Staging Area are ready to import into your Narrative as KBase data objects that can be used in your analyses. To import a file from your Staging Area, choose a format \(data type\) from the pulldown menu to the right of the file’s age. \(You can find out more about KBase data types and accepted formats in the [Upload/Download Guide](../../data/upload-download-guide/).\) Then click the import icon to the right of the format menu.
 
 ![](../../.gitbook/assets/image11.png)
 
@@ -126,7 +126,7 @@ When you click the import icon, the Data Browser slides shut and an Import app c
 
 {% hint style="info" %}
 **Importing different types of data**  
-This example shows how to import GenBank data. Please see the [Upload/Download Guide](../../data/data-upload-download-guide/) for detailed instructions for other supported data types.
+This example shows how to import GenBank data. Please see the [Upload/Download Guide](../../data/upload-download-guide/) for detailed instructions for other supported data types.
 {% endhint %}
 
 If the GenBank file came from a different source, use the pulldown menu to select it. You can change the output object name, if desired, and then click the "Run" button to start the import. When the import is done, you should see the message “Finished with success” near the top of the app cell, and some information about the app run.
@@ -149,7 +149,7 @@ You can also look at [common import errors and their meanings.](../../troublesho
 
 ![](../../.gitbook/assets/image4.png)
 
-If the importer objected to something in your file, check the [Data Upload/Download guide](../../data/data-upload-download-guide/) for details about the relevant format.
+If the importer objected to something in your file, check the [Data Upload/Download guide](../../data/upload-download-guide/) for details about the relevant format.
 
   
 In some cases, the cause of an import error will not be obvious. If you can’t figure out why your import isn’t working, please contact us \(via the [Help Board](https://kbase.us/help-board/)\) for help. Note, however, that no one besides you has access to your Staging Area, so we will not be able to see the files you uploaded to your Staging Area. You may need to attach your input file to your Help Board ticket in order for us to diagnose the problem.
@@ -160,7 +160,7 @@ The list of files in your Staging Area includes their name, size, and age \(from
 
 ![](../../.gitbook/assets/image21.png)
 
-Compressed or zipped files have a little double-arrow icon next to the filename. You can click that icon to unpack these files. For how to upload and import file types, follow [this guide](../../data/data-upload-download-guide/compressed-zipped-files.md). 
+Compressed or zipped files have a little double-arrow icon next to the filename. You can click that icon to unpack these files. For how to upload and import file types, follow [this guide](../../data/upload-download-guide/compressed-files.md). 
 
 For more information about a file in your staging area, click the arrow to the left of the filename to open a tab like this:
 

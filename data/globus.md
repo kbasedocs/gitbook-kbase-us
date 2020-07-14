@@ -38,5 +38,5 @@ Some government institutions have a firewall between users and the outside world
 
 ### **Uploading data from JGI**
 
-If you are a JGI user, you can transfer public genome reads and assemblies \(and your private data and annotated genomes\) from JGI to your KBase account—see [this page](jgi-data.md) for instructions.
+If you are a JGI user, you can transfer public genome reads and assemblies \(and your private data and annotated genomes\) from JGI to your KBase account—see [this page](jgi-transfer.md) for instructions.
 

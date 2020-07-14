@@ -74,7 +74,7 @@ If your reads are in a publicly accessible URL, you can bypass the Staging Area 
 
 ## **Transfer reads from JGI**
 
-If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [this page](../jgi-data.md) for instructions.
+If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [this page](../jgi-transfer.md) for instructions.
 
 ## 
 

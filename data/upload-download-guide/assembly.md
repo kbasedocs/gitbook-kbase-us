@@ -38,5 +38,5 @@ You can import data into your KBase workspace using [Globus](http://kbase.us/tra
 
 ## **Transfer assemblies from JGI**
 
-If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [this page](../jgi-data.md) for instructions.
+If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [this page](../jgi-transfer.md) for instructions.
 

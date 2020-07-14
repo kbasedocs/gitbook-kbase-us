@@ -8,5 +8,5 @@ To search public data in KBase, use the __[_Public_ tab in the **Data Browser** 
 
 ![](../.gitbook/assets/selectingpublictab_databrowser%20%281%29.gif)
 
-If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account using [these instructions](jgi-data.md).
+If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account using [these instructions](jgi-transfer.md).
 
