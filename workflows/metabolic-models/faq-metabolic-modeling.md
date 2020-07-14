@@ -38,7 +38,7 @@ Below are answers to common questions about KBase’s metabolic modeling tools, 
 * [Why did I get false negatives after simulating growth, and what can I do about it?](faq-metabolic-modeling.md#q-why-did-i-get-false-negatives-after-simulating-growth-and-what-can-i-do-about-it)
 * Is it possible to use KBase to integrate RNA sequencing data into existing genome-scale models? 
 
-For more information—including descriptions of the underlying algorithms, inputs, and outputs—see the [Metabolic Modeling Apps](../../using-apps-1/analysis-apps/metabolic-modeling.md).
+For more information—including descriptions of the underlying algorithms, inputs, and outputs—see the [Metabolic Modeling Apps](../../using-apps/analysis-apps/metabolic-modeling.md).
 
 ## Can Prokka annotations be used for metabolic modeling? 
 
