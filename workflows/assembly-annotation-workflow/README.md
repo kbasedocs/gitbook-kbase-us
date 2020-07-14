@@ -4,12 +4,12 @@
 
 The steps for assembly and annotation include:
 
-* Find a set of reads to assemble using the Narrative Interface Data Browser.
-* Add the reads to our Narrative.
-* Find and insert the Assemble Contigs from Reads app into our Narrative.
-* Use this app to assemble an example set of reads into a set of contigs \(an Assembly object\).
-* Find and insert the Annotate Microbial Contigs app into our Narrative.
-* Use this app to annotate our Assembly.
+* Import or upload reads to assemble with the Narrative Interface Data Browser.
+* Add the Reads data object to the Narrative.
+* Find and insert the Assemble Contigs from Reads App.
+  * Use this App to assemble an example set of reads into a set of contigs \(an Assembly object\).
+* Find and insert the Annotate Microbial Contigs App.
+  * Use this App to annotate the Assembly.
 * Examine assembly job statistics and genome annotation.
 
 ## Narrative Tutorials
