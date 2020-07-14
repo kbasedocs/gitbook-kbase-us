@@ -61,7 +61,7 @@
     * [Constructing and Analyzing Metabolic Flux Models of Microbial Communities](workflows/metabolic-models/metabolic-flux-models.md)
     * [FAQ: Metabolic Modeling](workflows/metabolic-models/faq-metabolic-modeling.md)
   * [Metagenomic & Community Analysis](workflows/metagenomic-analysis/README.md)
-    * [FAQ: Community Analysis](workflows/metagenomic-analysis/faq-community-analysis.md)
+    * [FAQ: Metagenomics & Community Analysis](workflows/metagenomic-analysis/faq-metagenomics.md)
   * [RNAseq Analysis](workflows/rnaseq/README.md)
     * [FAQ: RNA Sequence Analysis](workflows/rnaseq/faq-rnaseq.md)
 * [Troubleshooting](troubleshooting-1/README.md)

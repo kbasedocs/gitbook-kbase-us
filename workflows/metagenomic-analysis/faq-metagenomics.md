@@ -1,4 +1,4 @@
-# FAQ: Community Analysis
+# FAQ: Metagenomics & Community Analysis
 
 ## I am very new to shotgun metagenomics based assembly and annotations, and there are many apps are listed in KBase. Does KBase have a pre-developed workflow for shotgun metagenomics, starting from assembly, annotations and metabolic pathways mining?
 
