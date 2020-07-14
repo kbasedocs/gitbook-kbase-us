@@ -28,7 +28,7 @@ The [video tutorial](https://www.youtube.com/watch?v=AQ2KsrQrq9s&list=PLh7Q4SqpZ
 
 ### **Narrative Tutorial**
 
-#### \*\*\*\*[Microbial Metabolic Model Reconstruction and Analysis Tutorial](https://narrative.kbase.us/narrative/ws.18302.obj.61) – 
+\*\*\*\*[Microbial Metabolic Model Reconstruction and Analysis Tutorial](https://narrative.kbase.us/narrative/ws.18302.obj.61) – guides through a workflow on how to draft a metabolic model and use KBase Apps to gapfill, run flux balance analysis and simulate growth. 
 
 ### **Publications**
 
