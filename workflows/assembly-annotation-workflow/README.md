@@ -14,7 +14,6 @@ The steps for assembly and annotation include:
 
 ## Narrative Tutorials
 
-[Microbial Genome Assembly and Annotation Tutorial](https://narrative.kbase.us/narrative/ws.18188.obj.6)
-
-[Genome Analysis Tools and Features](https://narrative.kbase.us/narrative/48493)
+* [Microbial Genome Assembly and Annotation Tutorial](https://narrative.kbase.us/narrative/ws.18188.obj.6) – guide on assembling a set of NGS short reads into contigs and annotate the assembled contigs, assigning biological functions derived from RAST 
+* [Genome Analysis Tools and Features](https://narrative.kbase.us/narrative/48493) – a how-to-guide for various tools to analyze genomic sequencing data in KBase from quality control and assessment of NGS reads, de novo assembly, and genome annotation.
 
