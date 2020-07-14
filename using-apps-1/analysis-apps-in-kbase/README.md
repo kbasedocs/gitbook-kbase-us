@@ -7,7 +7,7 @@ The [**App Catalog**](https://narrative.kbase.us/#appcatalog) lists all of the c
 * [Assembly](assembly-and-annotation-in-kbase.md)
 * [Annotation](assembly-and-annotation-in-kbase.md)
 * Sequence alignment and search
-* [Metabolic modeling](metabolic-modeling-in-kbase/)
+* [Metabolic modeling](metabolic-modeling-in-kbase.md)
 * [RNA-seq and expression data analysis](transcriptomics-and-expression-analysis-in-kbase.md)
 * [Comparative and phylogenetic analysis](comparative-genomics-and-phylogenetic-analysis-in-kbase.md)
 
