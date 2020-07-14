@@ -12,7 +12,7 @@ If you are importing expression data from an external source or want to populate
 
 For this example, we will use the Shewanella\_oneidensis\_MR-1 genome and the Shewanella\_MR-1\_M3D\_ExpData expression data set from the _Example_ data tab. \(When working with your own data, you can start with an empty Expression Matrix template.\)
 
-For this example, we will use the Shewanella\_oneidensis\_MR-1 Genome from the _Example_ data tab. To [add the Genome to your Narrative](../../getting-started/user-guide/adding-data.md), find the **Data Panel** along the left side of the screen and click the "Add Data" \(or red “+”\) button. This will open the **Data Browser** slide-out. Select the _Example_ tab at the top of the slide-out, and search for “Shewanella\_oneidensis\_MR-1” genome. Mouse over the Genome name and click the blue "&lt; Add" button.
+For this example, we will use the Shewanella\_oneidensis\_MR-1 Genome from the _Example_ data tab. To [add the Genome to your Narrative](../../getting-started/user-guide/add-data.md), find the **Data Panel** along the left side of the screen and click the "Add Data" \(or red “+”\) button. This will open the **Data Browser** slide-out. Select the _Example_ tab at the top of the slide-out, and search for “Shewanella\_oneidensis\_MR-1” genome. Mouse over the Genome name and click the blue "&lt; Add" button.
 
 ![](http://kbase.us/wp-content/uploads/2016/04/image5.png)
 
@@ -60,7 +60,7 @@ For this example, we will upload the expression dataset from above containing ex
 
 Expression Matrices can be uploaded into KBase without a Genome, but they will have limited use. In order to successfully upload an Expression Matrix into KBase, you first need to add the Genome that corresponds to references in the Expression Matrix you wish to upload. For the example we’ve been using, the Genome was added above from the _Example_ tab.
 
-Now open the _Import_ tab in the Data Browser slide-out and drag & drop the example expression matrix file that you just downloaded \(matrix.tsv\) into the Staging Area. Go [here](../../getting-started/user-guide/adding-data.md#uploading-data-from-external-sources) if you need more instruction on drag & drop uploading.
+Now open the _Import_ tab in the Data Browser slide-out and drag & drop the example expression matrix file that you just downloaded \(matrix.tsv\) into the Staging Area. Go [here](../../getting-started/user-guide/add-data.md#uploading-data-from-external-sources) if you need more instruction on drag & drop uploading.
 
 ### **Drag & Drop Limitations**
 

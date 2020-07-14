@@ -16,7 +16,7 @@ The drag & drop from your local computer works for many files, but there is a si
 
 For this example, we will assume that you have a local copy of the RNA transcripts of the sample SRR228087 from GenBank. This is a single-end library from Illumina sequencing. Follow instructions for obtaining a local copy of data from the [GenBank SRA](http://www.metagenomics.wiki/tools/short-read/ncbi-sra-file-format) with their [sratoolkit](https://www.ncbi.nlm.nih.gov/books/NBK158900/). Other methods for obtaining the data will vary from one data provider to the next.
 
-Once the file is on your computer, open the __[_Import_ tab in the **Data Browser**](../../getting-started/user-guide/adding-data.md#uploading-data-from-external-sources) and drag the single-end library into your Staging area.
+Once the file is on your computer, open the __[_Import_ tab in the **Data Browser**](../../getting-started/user-guide/add-data.md#uploading-data-from-external-sources) and drag the single-end library into your Staging area.
 
 ![](http://kbase.us/wp-content/uploads/2015/08/image6-1.png)
 
@@ -36,7 +36,7 @@ Notice that the name of the FASTA/FASTQ file is already filled in, as is a sugge
 
 There are two ways that KBase and [GenBank SRA](https://www.ncbi.nlm.nih.gov/sra/docs/submitformats/) recognize a paired-end library. In the legacy format, a paired-end library is two files which typically have the same name but have \_1 and \_2. For example, ERR760546\_1.fastq and ERR760546\_2.fastq. The other recognized format is called Interleaved. It is an 8-line format where forward and reverse reads alternate. The example above was imported as a SingleEndLibrary object because there was a single input file and the Interleaved box was un-checked.
 
-In this example, we will upload and import a paired-end library for ERR760546 in the 2-file legacy format. Open the __[_Import_ tab in the **Data Browser**](../../getting-started/user-guide/adding-data.md#uploading-data-from-external-sources) and drag the two files into the Staging Area.
+In this example, we will upload and import a paired-end library for ERR760546 in the 2-file legacy format. Open the __[_Import_ tab in the **Data Browser**](../../getting-started/user-guide/add-data.md#uploading-data-from-external-sources) and drag the two files into the Staging Area.
 
 Copy the reverse reads file name to paste in a later stage.
 

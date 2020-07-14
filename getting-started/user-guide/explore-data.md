@@ -1,6 +1,6 @@
 # Explore Data
 
-There are several ways to find data and add it to your Narrative. You can select data available within KBase, [upload your own files, or import datasets from external resources](adding-data.md) such as the DOE Joint Genome Institute \(JGI\) or NCBI. This section will describe how to explore data already in KBase. Instructions for adding data to your Narrative and importing external files are provided in the next section “[Add Data to Your Narrative](adding-data.md).”
+There are several ways to find data and add it to your Narrative. You can select data available within KBase, [upload your own files, or import datasets from external resources](add-data.md) such as the DOE Joint Genome Institute \(JGI\) or NCBI. This section will describe how to explore data already in KBase. Instructions for adding data to your Narrative and importing external files are provided in the next section “[Add Data to Your Narrative](add-data.md).”
 
 ## The Data Browser
 
@@ -40,7 +40,7 @@ Go ahead and click the "&lt; Add" button to add the _Vibrio brasiliensis_ LMG 20
 
 ## Information in the Data Panel
 
-The Data Panel shows all the data that you’ve added to your Narrative. \(The [next ](adding-data.md)[section](adding-data.md) of this guide discusses in more detail how to add data to your Narrative.\)
+The Data Panel shows all the data that you’ve added to your Narrative. \(The [next ](add-data.md)[section](add-data.md) of this guide discusses in more detail how to add data to your Narrative.\)
 
 You should have at least one object \(_Vibrio brasiliensis_ LMG 20546\) in your Data Panel. As you add or generate more data during the course of your analyses, the number of objects in this panel will increase. You can search, sort, or filter the list using the icons in the Data Panel header.
 
@@ -112,5 +112,5 @@ The image below shows the Provenance page for a flux balance analysis model that
 
 ![](../../.gitbook/assets/image13-1024x575.png)
 
-In the [next section](adding-data.md) of this guide, we will discuss in more detail how to add data to your Narrative.
+In the [next section](add-data.md) of this guide, we will discuss in more detail how to add data to your Narrative.
 

@@ -8,7 +8,7 @@ An assembly file is a single file containing one or more contiguous DNA sequence
 
 For this example, we will use an _Escherichia coli_ K12 MG1655 assembly file from NCBI as the source: [GCF\_000005845.2\_ASM584v2\_genomic.fna.gz](ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz)
 
-Download that file to your computer. Next open the [_Import_ tab within the **Data Browser**](../../getting-started/user-guide/adding-data.md) ****and drag the assembly file into the Staging Area.
+Download that file to your computer. Next open the [_Import_ tab within the **Data Browser**](../../getting-started/user-guide/add-data.md) ****and drag the assembly file into the Staging Area.
 
 ![](http://kbase.us/wp-content/uploads/2018/02/dragging-assembly-into-staging-1.jpg)
 
@@ -32,7 +32,7 @@ The drag & drop option from your local computer works for many files, but there 
 
 In the Staging Area, beneath the box for Drag & Drop, are other options for getting data.  
   
-You can import data into your KBase workspace using [Globus](http://kbase.us/transfer-data-from-globus-to-kbase/), or by supplying a URL for a publicly accessible FTP location, Google Drive, Dropbox, or a direct HTTP link. Options for adding data to your Staging Area are described [here](../../getting-started/user-guide/adding-data.md).
+You can import data into your KBase workspace using [Globus](http://kbase.us/transfer-data-from-globus-to-kbase/), or by supplying a URL for a publicly accessible FTP location, Google Drive, Dropbox, or a direct HTTP link. Options for adding data to your Staging Area are described [here](../../getting-started/user-guide/add-data.md).
 
 ![](../../.gitbook/assets/user_refresh.png)
 

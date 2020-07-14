@@ -14,7 +14,7 @@ description: >-
 * [Get a KBase account](http://kbase.us/sign-up-for-a-kbase-account/) and link it to Globus \(see the section “Create or modify user profile” [here](../getting-started/user-guide/share.md) for help\)
 * [Use either Chrome, Firefox, or Safari browser](../getting-started/supported-browsers.md)
 
-The Search tool on the KBase Dashboard is a quick and easy way to copy public genome reads and assemblies from JGI to your [KBase Staging Area](../getting-started/user-guide/adding-data.md) \(this page describes the process for transferring those and also private data and annotated genomes\).
+The Search tool on the KBase Dashboard is a quick and easy way to copy public genome reads and assemblies from JGI to your [KBase Staging Area](../getting-started/user-guide/add-data.md) \(this page describes the process for transferring those and also private data and annotated genomes\).
 
 ![](../.gitbook/assets/search_dashboardmenu%20%281%29.png)
 
@@ -67,7 +67,7 @@ If the connection to the server is broken during transfer, Globus will start up 
 
 While it may be possible to drag ALL the project data from the JGI endpoint to the KBase endpoint, not all files can be imported into KBase. Reads files \(.fastq or .fastq.gz\), assemblies \(.fna or .fasta\), and annotated genomes \(.gbk or .gff\) have a corresponding KBase object.
 
-You can import data from your **Data Browser** Staging Area to any of your KBase Narratives \(see [this page](../getting-started/user-guide/adding-data.md) for more information\). The imported objects are permanent in your KBase account, but the files in the Staging Area will be removed after 90 days.
+You can import data from your **Data Browser** Staging Area to any of your KBase Narratives \(see [this page](../getting-started/user-guide/add-data.md) for more information\). The imported objects are permanent in your KBase account, but the files in the Staging Area will be removed after 90 days.
 
 Important differences between JGI and KBase data staging:  
 1. The JGI staging area keeps file links for 14 days. The KBase staging area keeps files for 90 days.  

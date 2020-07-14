@@ -10,13 +10,13 @@ A GenBank-formatted file can be uploaded into the Staging Area from your local c
 
 A GFF-formatted file must be paired with a corresponding FASTA file of the DNA sequence. These  will be parsed into two data objects: an assembly object with the sequence and a genome object containing the original feature calls and annotations.
 
-Further instructions for adding data to your Staging Area can be found [here](../../getting-started/user-guide/adding-data.md#uploading-data-from-external-sources).
+Further instructions for adding data to your Staging Area can be found [here](../../getting-started/user-guide/add-data.md#uploading-data-from-external-sources).
 
 ## Importing a GenBank-formatted file from your computer
 
 For this example, we will use the _E. coli_ K-12 MG1655 genome GenBank file from NCBI. By clicking on the following link you can download the _E. coli_ K-12 MG1655 genome to your computer: [ftp://ftp.ncbi.nlm.nih.gov/genomes/archive/old\_refseq/Bacteria/Escherichia\_coli\_K\_12\_substr\_\_MG1655\_uid57779/NC\_000913.gbk](ftp://ftp.ncbi.nlm.nih.gov/genomes/archive/old_refseq/Bacteria/Escherichia_coli_K_12_substr__MG1655_uid57779/NC_000913.gbk)
 
-After downloading the file, open the __[_Import_ tab in the **Data Browser**](../../getting-started/user-guide/adding-data.md) and drag the genome file into your Staging Area.
+After downloading the file, open the __[_Import_ tab in the **Data Browser**](../../getting-started/user-guide/add-data.md) and drag the genome file into your Staging Area.
 
 ![](http://kbase.us/wp-content/uploads/2015/08/image2.png)
 
@@ -40,7 +40,7 @@ In the Staging Area, beneath the box for Drag & Drop, are other options for gett
 
 ![](../../.gitbook/assets/user_refresh%20%281%29.png)
 
-You can import data into your KBase workspace using [Globus](../globus.md), or by supplying a URL for a publicly accessible FTP location, Google Drive, Dropbox, or a direct HTTP link. Options for adding data to the Staging Area are described [here](../../getting-started/user-guide/adding-data.md).
+You can import data into your KBase workspace using [Globus](../globus.md), or by supplying a URL for a publicly accessible FTP location, Google Drive, Dropbox, or a direct HTTP link. Options for adding data to the Staging Area are described [here](../../getting-started/user-guide/add-data.md).
 
 ## Uploading a GFF file to your Staging area from an FTP link
 

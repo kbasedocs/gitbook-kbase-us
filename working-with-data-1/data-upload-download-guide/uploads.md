@@ -2,7 +2,7 @@
 
 ## Importing Data using the Data Browser
 
-The _Import_ tab lets you drag & drop data files from your computer into the Staging Area to upload data into your Narrative. Visit [this page](../../getting-started/user-guide/adding-data.md#uploading-data-from-external-sources) of the Narrative User Guide for general instructions on how to use the Staging Area.
+The _Import_ tab lets you drag & drop data files from your computer into the Staging Area to upload data into your Narrative. Visit [this page](../../getting-started/user-guide/add-data.md#uploading-data-from-external-sources) of the Narrative User Guide for general instructions on how to use the Staging Area.
 
 ![](../../.gitbook/assets/import-stage%20%281%29.png)
 

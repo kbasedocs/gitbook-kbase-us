@@ -12,7 +12,7 @@ Note: The new Narrative will not appear in your Narratives list until it is name
 
 We hope that after working on your Narrative, you will want to [share it](share.md) with other users. **Any Narrative you create is private until you choose to share it**.
 
-In the sections that follow, we will explain how to [explore data](explore-data.md), [add data to your Narrative](adding-data.md), and use [apps](adding-apps.md) to analyze it.
+In the sections that follow, we will explain how to [explore data](explore-data.md), [add data to your Narrative](add-data.md), and use [apps](add-apps.md) to analyze it.
 
 ## Copy and run Narratives created by others
 

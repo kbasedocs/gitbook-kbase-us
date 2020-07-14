@@ -22,7 +22,7 @@ A Phenotype Set can be uploaded from a TSV \(tab-separated values\) file with a 
 | SO\_0009 | KBaseMedia | C-D-Lactate |  | 1 |
 | SO\_0009 | KBaseMedia | C-acetate |  | 1 |
 
-For this example, we will use the Shewanella\_oneidensis\_MR-1 Genome from the _Example_ data tab. To [add the Genome to your Narrative](../../getting-started/user-guide/adding-data.md), find the Data Panel along the left side of the screen and click the Add Data \(or red “+”\) button. This will open the Data Browser slideout. Select the _Example_ tab at the top of the slideout, and search for “Shewanella\_oneidensis\_MR-1” genome. Mouse over the Genome name and click the blue Add button.
+For this example, we will use the Shewanella\_oneidensis\_MR-1 Genome from the _Example_ data tab. To [add the Genome to your Narrative](../../getting-started/user-guide/add-data.md), find the Data Panel along the left side of the screen and click the Add Data \(or red “+”\) button. This will open the Data Browser slideout. Select the _Example_ tab at the top of the slideout, and search for “Shewanella\_oneidensis\_MR-1” genome. Mouse over the Genome name and click the blue Add button.
 
 ![](http://kbase.us/wp-content/uploads/2016/04/image5.png)
 
@@ -30,7 +30,7 @@ The S. oneidensis Genome object should appear in your Data Panel.
 
 To download an example phenotype set data table, right-click [here](http://kbase.us/wp-content/uploads/2018/04/ExamplePhenotypeSet.tsv) and choose “Save as”.
 
-Now open the new Import tab in the Data Slideout and drag the example phenotype set file that you just downloaded into your Staging area \(go [here](../../getting-started/user-guide/adding-data.md#uploading-data-from-external-sources) if you need instructions on doing that\).
+Now open the new Import tab in the Data Slideout and drag the example phenotype set file that you just downloaded into your Staging area \(go [here](../../getting-started/user-guide/add-data.md#uploading-data-from-external-sources) if you need instructions on doing that\).
 
 Now the phenotype set is in your Staging area–it’s time to import it into your Narrative as a KBase Phenotype Set data object. Open the pulldown menu to the right of the filename in your Staging Area and select “Phenotype Set”:
 
