@@ -87,7 +87,7 @@ FBA models can be uploaded into KBase as either an Excel file \(.xls\) or via a 
 
 * **id**: Reaction identifier; see the [KBase Biochemistry reference for a list of reactions](ftp://ftp.kbase.us/assets/KBase_Reference_Data/Biochemistry)
 * **direction**: Directionality of chemical reaction specified as forward \(-&gt;\), reversed \(&lt;-\), or equilibrium \(&lt;-&gt;\)
-* **compartment**: Cellular compartment that the reaction takes place in; see the [Metabolic Modeling FAQ for more information](../../running-common-workflows-1/metabolic-modeling-in-kbase/faq-metabolic-modeling-in-kbase.md)
+* **compartment**: Cellular compartment that the reaction takes place in; see the [Metabolic Modeling FAQ for more information](../../workflows/metabolic-modeling-in-kbase/faq-metabolic-modeling-in-kbase.md)
 * **gpr**: Gene-Protein Reaction in PATRIC identifier format
 * **name**: Protein associated with the reaction
 * **enzyme**: Optional, can be left empty
