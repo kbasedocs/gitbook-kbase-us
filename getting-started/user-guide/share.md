@@ -66,7 +66,7 @@ Below the "Save" button is a small preview showing what your profile page looks 
 
 The **Account** tab lets you see basic information about your KBase account. The only field that can be edited there is your preferred email address. Note that other users cannot see your email address; it will be used only by KBase staff to contact you occasionally with important information.
 
-The **Linked Sign-In Accounts** tab lets you see and [manage](../sign-up/linking-to-orcid.md) which external \(Globus or Google or ORCiD\) accounts are linked to your KBase account.
+The **Linked Sign-In Accounts** tab lets you see and [manage](../sign-up/linking-orcid.md) which external \(Globus or Google or ORCiD\) accounts are linked to your KBase account.
 
 The **User Profile** editor allows you to edit your position, organization, and location. You can also input your Research Interests, Research or Personal Statement. It also shows which KBase _Organizations_ you belong to and any Affiliations. 
 

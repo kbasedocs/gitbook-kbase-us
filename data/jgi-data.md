@@ -12,7 +12,7 @@ description: >-
 * [Get a JGI account](http://contacts.jgi-psf.org/registration/new)
 * [Get a Globus account](https://www.globusid.org/create)
 * [Get a KBase account](http://kbase.us/sign-up-for-a-kbase-account/) and link it to Globus \(see the section “Create or modify user profile” [here](../getting-started/user-guide/share.md) for help\)
-* [Use either Chrome, Firefox, or Safari browser](../getting-started/supported-browsers.md)
+* [Use either Chrome, Firefox, or Safari browser](../getting-started/browsers.md)
 
 The Search tool on the KBase Dashboard is a quick and easy way to copy public genome reads and assemblies from JGI to your [KBase Staging Area](../getting-started/user-guide/add-data.md) \(this page describes the process for transferring those and also private data and annotated genomes\).
 
