@@ -38,7 +38,7 @@ Below is an example of a media file in TSV format. In this case, the compound ID
 
 For this example, you can click on this link to download a small media file onto your computer: [Fprau\_minimal\_media.tsv](http://kbase.us/wp-content/uploads/2018/03/Fprau_minimal_media.tsv)
 
-* Open the[ _Import_ tab](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md#uploading-data-from-external-sources) in the Data Browser and drag & drop your media file to upload it to your staging area
+* Open the[ _Import_ tab](../../getting-started/user-guide/adding-data.md#uploading-data-from-external-sources) in the Data Browser and drag & drop your media file to upload it to your staging area
 * Choose "Media" from the _Import As..._ data type dropdown menu in your Staging Area
 
 ![](http://kbase.us/wp-content/uploads/2015/08/Screen-Shot-2018-03-10-at-5.49.25-PM.png)

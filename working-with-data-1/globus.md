@@ -6,7 +6,7 @@ Globus is a data management and file transfer system that can facilitate bulk tr
 
 Your local computer can become a Globus endpoint with a [Globus Connect Personal Endpoint](https://docs.globus.org/how-to/). This is necessary for transfers to or from your local computer.
 
-Once you have a Globus account, link to your KBase account to facilitate file transfers. See [Linking Accounts](../getting-started/signing-up-and-signing-in/linking-accounts.md) for further guidance. 
+Once you have a Globus account, link to your KBase account to facilitate file transfers. See [Linking Accounts](../getting-started/sign-up-sign-in/linking-accounts.md) for further guidance. 
 
 ### Starting a Globus Data Transfer
 
