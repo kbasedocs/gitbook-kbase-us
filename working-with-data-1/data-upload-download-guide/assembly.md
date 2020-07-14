@@ -26,7 +26,7 @@ Notice that the name of the gzipped Assembly file is already filled in, as is a 
 
 ### **Drag & Drop Limitations**
 
-The drag & drop option from your local computer works for many files, but there is a size limit that depends on your computer and browser. For larger files \(around 20GB\), use [Globus Online transfer](../transferring-data-with-globus.md). 
+The drag & drop option from your local computer works for many files, but there is a size limit that depends on your computer and browser. For larger files \(around 20GB\), use [Globus Online transfer](../globus.md). 
 
 ## Import an Assembly from other sources
 
@@ -38,5 +38,5 @@ You can import data into your KBase workspace using [Globus](http://kbase.us/tra
 
 ## **Transfer assemblies from JGI**
 
-If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [this page](../transferring-data-from-jgi.md) for instructions.
+If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [this page](../jgi-data.md) for instructions.
 

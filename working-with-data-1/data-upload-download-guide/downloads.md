@@ -40,7 +40,7 @@ This will open the app for “Export Data Object to Staging Area”
 
 The name of the Input Object is filled in. A default Destination Directory is filled in, but can be edited and changed. A directory will be created in the Staging Area, and all created files will be copied to the directory. The "show advanced" __Parameters may have more options relevant to your data object.
 
-Once in the Staging Area, large files \(&gt;10GB\) should be transferred to your local machine using [Globus](../transferring-data-with-globus.md). Instead of “To” the “KBase Bulk Share” endpoint, this will be a transfer “From” the “KBase Bulk Share” endpoint.
+Once in the Staging Area, large files \(&gt;10GB\) should be transferred to your local machine using [Globus](../globus.md). Instead of “To” the “KBase Bulk Share” endpoint, this will be a transfer “From” the “KBase Bulk Share” endpoint.
 
 _Copy the file to the Staging Area \(version 2\)_
 

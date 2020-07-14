@@ -10,7 +10,7 @@ Files can be uploaded into your KBase Staging Area from your local computer or d
 
 ### **Drag & Drop Limitations**
 
-The drag & drop from your local computer works for many files, but there is a size limit that depends on your computer and browser. Some users have reported problems around 20GB. For larger files, use [Globus Online transfer](../transferring-data-with-globus.md).
+The drag & drop from your local computer works for many files, but there is a size limit that depends on your computer and browser. Some users have reported problems around 20GB. For larger files, use [Globus Online transfer](../globus.md).
 
 ### Single-end library in FASTQ format
 
@@ -60,7 +60,7 @@ If you get an error due to a typo in the name of the second file, it is easy to 
 
 ## Import a reads library from other sources
 
-In the Staging Area, beneath the box for Drag and Drop, there are other options for adding data to your staging area. You can import reads into KBase using [Globus Online](../transferring-data-with-globus.md), or by supplying a URL for a publicly accessible FTP location, Google Drive, Dropbox, or a direct HTTP link.
+In the Staging Area, beneath the box for Drag and Drop, there are other options for adding data to your staging area. You can import reads into KBase using [Globus Online](../globus.md), or by supplying a URL for a publicly accessible FTP location, Google Drive, Dropbox, or a direct HTTP link.
 
 There is also an icon with two arrows in a clockwise circle that refreshes the list of genomes that have been uploaded to the Staging Area.
 
@@ -74,7 +74,7 @@ If your reads are in a publicly accessible URL, you can bypass the Staging Area 
 
 ## **Transfer reads from JGI**
 
-If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [this page](../transferring-data-from-jgi.md) for instructions.
+If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [this page](../jgi-data.md) for instructions.
 
 ## 
 

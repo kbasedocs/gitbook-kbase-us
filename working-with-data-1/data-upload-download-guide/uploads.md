@@ -22,7 +22,7 @@ If you have a small screen, you might not be able to see that button. Another wa
 
 ## **Drag & Drop Limitations**
 
-The drag & drop from your local computer works for many files, but there is a size limit dependent on your computer and browser. For larger files around 20GB, use the [Globus Online transfer](../transferring-data-with-globus.md).
+The drag & drop from your local computer works for many files, but there is a size limit dependent on your computer and browser. For larger files around 20GB, use the [Globus Online transfer](../globus.md).
 
 ![](../../.gitbook/assets/importtab_databrowser.png)
 
@@ -34,5 +34,5 @@ The next sections of this guide describe the specific steps involved in uploadin
 
 ## **Transferring JGI data to KBase**
 
-If you are a JGI user, you can transfer public genome reads and assemblies \(including your private data and annotated genomes\) from JGI to your KBase account—see [this page](../transferring-data-from-jgi.md) for instructions.
+If you are a JGI user, you can transfer public genome reads and assemblies \(including your private data and annotated genomes\) from JGI to your KBase account—see [this page](../jgi-data.md) for instructions.
 

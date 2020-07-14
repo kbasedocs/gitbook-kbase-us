@@ -22,7 +22,7 @@ After downloading the file, open the __[_Import_ tab in the **Data Browser**](..
 
 ### **Drag & Drop Limitations**
 
-The drag & drop option from your local computer works for many files, but there is a size limit that depends on your computer and browser. For larger files \(around 20 gigabases\), use the [Globus Online transfer](../transferring-data-with-globus.md). Open the _Import As..._ pulldown menu to the right of the filename in your Staging Area and select “GenBank Genome.”
+The drag & drop option from your local computer works for many files, but there is a size limit that depends on your computer and browser. For larger files \(around 20 gigabases\), use the [Globus Online transfer](../globus.md). Open the _Import As..._ pulldown menu to the right of the filename in your Staging Area and select “GenBank Genome.”
 
 ![](http://kbase.us/wp-content/uploads/2015/08/image1.png)
 
@@ -40,7 +40,7 @@ In the Staging Area, beneath the box for Drag & Drop, are other options for gett
 
 ![](../../.gitbook/assets/user_refresh%20%281%29.png)
 
-You can import data into your KBase workspace using [Globus](../transferring-data-with-globus.md), or by supplying a URL for a publicly accessible FTP location, Google Drive, Dropbox, or a direct HTTP link. Options for adding data to the Staging Area are described [here](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md).
+You can import data into your KBase workspace using [Globus](../globus.md), or by supplying a URL for a publicly accessible FTP location, Google Drive, Dropbox, or a direct HTTP link. Options for adding data to the Staging Area are described [here](../../getting-started/narrative-user-guide/add-data-to-your-narrative.md).
 
 ## Uploading a GFF file to your Staging area from an FTP link
 

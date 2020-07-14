@@ -30,7 +30,7 @@ In this example, we’ll search for ‘DNA Polymerase’ and identify SO\_0009 a
 
 Locate the section titled _Aliases_ and crosscheck the gene labels contained within your expression dataset with either the Feature ID or one of these aliases to ensure that these labels will correspond to features in KBase.
 
-To see an example Expression Matrix format, [download](downloading-data.md) the Shewanella\_MR-1\_M3D\_ExpData expression data set from your Data Panel. Unzip the downloaded file and examine the file "matrix.tsv." 
+To see an example Expression Matrix format, [download](downloads.md) the Shewanella\_MR-1\_M3D\_ExpData expression data set from your Data Panel. Unzip the downloaded file and examine the file "matrix.tsv." 
 
 In Excel, a few of the rows and columns are:
 
@@ -64,7 +64,7 @@ Now open the _Import_ tab in the Data Browser slide-out and drag & drop the exam
 
 ### **Drag & Drop Limitations**
 
-The drag & drop from your local computer works for many files, but there is a size limit that depends on your computer and browser. For larger files around 20GB, use the [Globus Online transfer](../transferring-data-with-globus.md). Now that the expression matrix is in your Staging Area and you can import it from there into your Narrative. Open the pulldown menu to the right of the filename under the _Import As..._ column in your Staging Area and select “Expression Matrix."
+The drag & drop from your local computer works for many files, but there is a size limit that depends on your computer and browser. For larger files around 20GB, use the [Globus Online transfer](../globus.md). Now that the expression matrix is in your Staging Area and you can import it from there into your Narrative. Open the pulldown menu to the right of the filename under the _Import As..._ column in your Staging Area and select “Expression Matrix."
 
 ![](http://kbase.us/wp-content/uploads/2015/08/image9-1.png)
 

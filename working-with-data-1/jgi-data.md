@@ -18,7 +18,7 @@ The Search tool on the KBase Dashboard is a quick and easy way to copy public ge
 
 ![](../.gitbook/assets/search_dashboardmenu%20%281%29.png)
 
-JGI’s Globus service lets users select data from the JGI Genome Portal’s sequencing projects and make them transferable to KBase, all in a few simple steps. There are some similarities to the KBase-initiated [Globus service](transferring-data-with-globus.md), but also some differences.
+JGI’s Globus service lets users select data from the JGI Genome Portal’s sequencing projects and make them transferable to KBase, all in a few simple steps. There are some similarities to the KBase-initiated [Globus service](globus.md), but also some differences.
 
 ### Transferring Data from JGI to KBase
 

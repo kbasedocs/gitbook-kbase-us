@@ -34,7 +34,7 @@ The _Import_ tab lets you drag & drop data from your computer into your Staging 
 
 ![](../../.gitbook/assets/import-stage.png)
 
-To upload data from your computer \(or a [Globus endpoint](../../working-with-data-1/transferring-data-with-globus.md) or URL\), choose the rightmost tab of the Data Browser to open the _Import_ tab.
+To upload data from your computer \(or a [Globus endpoint](../../working-with-data-1/globus.md) or URL\), choose the rightmost tab of the Data Browser to open the _Import_ tab.
 
 You can then click the “?” icon just below the drop zone to the right to launch a short interactive tour that shows the different parts of this user interface.
 
@@ -63,7 +63,7 @@ In this documentation, we will use “Upload” to refer to getting data from yo
 
 {% hint style="warning" %}
 **Drag & Drop Limitations**  
-The drag & drop from your local computer works for many files, but there is a size limit that depends on your computer and browser. Some users have reported problems around 20GB. For larger files, use the [Globus Online transfer](../../working-with-data-1/transferring-data-with-globus.md).
+The drag & drop from your local computer works for many files, but there is a size limit that depends on your computer and browser. Some users have reported problems around 20GB. For larger files, use the [Globus Online transfer](../../working-with-data-1/globus.md).
 {% endhint %}
 
 Find the file\(s\) you want to import into your KBase account, and drag them into the drop zone \(the rectangular area surrounded by a dashed line\). You can select multiple files from your computer and drag them all at once. \(In the example below, the user is dragging two files into the dashed area.\) You can also select a folder of data files and drag the folder into the Staging Area drop zone.
@@ -95,11 +95,11 @@ Globus is a data management and file transfer system that can facilitate bulk tr
 
 ![](../../.gitbook/assets/globus_upload%20%282%29.png)
 
-See [Transferring Data with Globus](../../working-with-data-1/transferring-data-with-globus.md) for more documentation on using Globus.
+See [Transferring Data with Globus](../../working-with-data-1/globus.md) for more documentation on using Globus.
 
 {% hint style="info" %}
 **Uploading data from JGI**  
-If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [the JGI data transfer page](../../working-with-data-1/transferring-data-from-jgi.md) for instructions.
+If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [the JGI data transfer page](../../working-with-data-1/jgi-data.md) for instructions.
 {% endhint %}
 
 ## Uploading data from a URL
