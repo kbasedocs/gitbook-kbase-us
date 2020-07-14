@@ -1,6 +1,6 @@
 # FASTQ/SRA Reads
 
-In KBase, reads from FASTQ and SRA files can be imported to create reads library data objects. The objects will either be a SingleEndLibrary or a PairedEndLibrary. The tools in KBase can then be used to assemble reads into an “Assembly” data object or to align reads to an “Assembly." After uploading and importing reads data, you may want to refer to the documentation about [Assembly and Annotation](../../using-apps/analysis-apps/assembly-and-annotation.md). Reads can also be used in [RNA-seq and expression analysis](../../using-apps/analysis-apps/transcriptomics-and-expression-analysis.md).
+In KBase, reads from FASTQ and SRA files can be imported to create reads library data objects. The objects will either be a SingleEndLibrary or a PairedEndLibrary. The tools in KBase can then be used to assemble reads into an “Assembly” data object or to align reads to an “Assembly." After uploading and importing reads data, you may want to refer to the documentation about [Assembly and Annotation](../../apps/analysis/assembly-and-annotation.md). Reads can also be used in [RNA-seq and expression analysis](../../apps/analysis/expression.md).
 
 Single-end and paired-end reads can be uploaded in FASTQ or SRA format. For FASTQ files, please ensure that your filename ends with the .fastq, .fnq, or .fq file extension. SRA files should have the .sra file extension. The uploader also accepts compressed files in .zip, .gz, .bz2, .tar.gz, .tar.bz2 formats.
 

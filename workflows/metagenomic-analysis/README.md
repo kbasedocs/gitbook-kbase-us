@@ -1,6 +1,6 @@
 # Metagenomic & Community Analysis
 
-![Community &amp; Metagenomics](https://kbase.us/wp-content/uploads/2018/08/metagenome.png)KBase has a multitude of tools designed to [analyze microbial communities and metagenomic reads data](../../using-apps/analysis-apps/metagenomics.md). They provide a way to understand the functional interactions between species in microbial communities. Annotated genomes extracted from metagenomic samples can be used for metabolic modeling, comparative phylogenomics, functional profiling, and more.
+![Community &amp; Metagenomics](https://kbase.us/wp-content/uploads/2018/08/metagenome.png)KBase has a multitude of tools designed to [analyze microbial communities and metagenomic reads data](../../apps/analysis/metagenomics.md). They provide a way to understand the functional interactions between species in microbial communities. Annotated genomes extracted from metagenomic samples can be used for metabolic modeling, comparative phylogenomics, functional profiling, and more.
 
 ## Narrative Tutorials
 

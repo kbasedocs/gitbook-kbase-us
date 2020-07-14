@@ -144,7 +144,7 @@ You can now use this data object as input into the relevant KBase apps. If you w
 **What if my import fails?**  
 Sometimes an import doesn’t work. One of the most common causes of failure is attempting to import a file that’s the wrong data type, or not the expected format for that data type. For example, the screenshot below shows what a user got when they tried to import a GenBank file as Media.
 
-You can also look at [common import errors and their meanings.](../../troubleshooting-1/job-errors-and-their-meanings/import-job-errors.md)
+You can also look at [common import errors and their meanings.](../../troubleshooting/job-errors/import.md)
 {% endhint %}
 
 ![](../../.gitbook/assets/image4.png)
@@ -179,7 +179,7 @@ Note that if you had already imported the file to your Narrative as a data objec
 
 {% hint style="info" %}
 **In progress**  
-KBase’s import functionality and user interface are under active development. We [welcome your bug reports and suggestions](../../troubleshooting-1/how-to-report-issues.md) for future upload functionality.
+KBase’s import functionality and user interface are under active development. We [welcome your bug reports and suggestions](../../troubleshooting/report.md) for future upload functionality.
 {% endhint %}
 
 ## Now what?
