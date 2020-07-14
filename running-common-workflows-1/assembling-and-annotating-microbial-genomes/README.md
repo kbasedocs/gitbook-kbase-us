@@ -1,6 +1,6 @@
 # Assembling and Annotating Microbial Genomes
 
-KBase enables _de novo_ assembly of prokaryotic NGS reads from various sequencing platforms. Assemblies can then be annotated with RAST or Prokka, enabling you to explore structural and functional features of a Genome or use it in other analyses. 
+![Assemble &amp; Annotate](https://kbase.us/wp-content/uploads/2016/09/genome.jpg)KBase enables _de novo_ assembly of prokaryotic NGS reads from various sequencing platforms. Assemblies can then be annotated with RAST or Prokka, enabling you to explore structural and functional features of a Genome or use it in other analyses. 
 
 The steps for assembly and annotation include:
 
