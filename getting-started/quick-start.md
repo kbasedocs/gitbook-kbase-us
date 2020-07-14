@@ -14,7 +14,7 @@ In KBase, you can create shareable, reproducible workflows called **Narratives**
 
 ### **Step 1. Sign up for a KBase user account**
 
-To begin using KBase, you will first need to [Sign up for a KBase Account](sign-up-sign-in/#signing-up). You can now use your existing Google or Globus username and password to get a free KBase account.
+To begin using KBase, you will first need to [Sign up for a KBase Account](sign-up/#signing-up). You can now use your existing Google or Globus username and password to get a free KBase account.
 
 ### **Step 2. Sign in to the Dashboard**
 

@@ -16,7 +16,7 @@ The [**App Catalog**](https://narrative.kbase.us/#appcatalog) lists all of the c
 Go straight to the [App Catalog](https://narrative.kbase.us/#appcatalog)  
 [![Screen Shot 2016-02-24 at 2.26.20 PM](../../.gitbook/assets/screen-shot-2016-02-24-at-2.26.20-pm-300x122.png)](https://narrative.kbase.us/#appcatalog)
 
-Note: you will need a [KBase user account](../../getting-started/sign-up-sign-in/#signing-up) to use our tools.
+Note: you will need a [KBase user account](../../getting-started/sign-up/#signing-up) to use our tools.
 {% endhint %}
 
 Below is an example outline of the major workflows and datatypes in KBase. The unboxed labels represent datatypes, while each colored box represents a single KBase App. The box colors signify the category of functionality, and the numbers in parentheses indicate the number of alternative apps that implement each function. Apps that require a genome as input are marked with a green “G” icon.
@@ -26,7 +26,7 @@ Below is an example outline of the major workflows and datatypes in KBase. The u
 ### Tips on using the [App Catalog](https://narrative.kbase.us/#appcatalog)
 
 * Each app links to a reference page \(which includes technical details about the inputs and outputs\) called an App Details Page.
-* To run apps, you will need to [sign in to the Narrative Interface](../../getting-started/sign-up-sign-in/#signing-in).
+* To run apps, you will need to [sign in to the Narrative Interface](../../getting-started/sign-up/#signing-in).
 * You can access the App Catalog from inside the Narrative Interface by clicking the small arrow in the upper right corner of the Apps Panel.
 
 ![](../../.gitbook/assets/apppanel_appcatalog.png)
