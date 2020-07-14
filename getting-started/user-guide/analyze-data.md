@@ -80,7 +80,7 @@ In addition to creating a new output cell, the app we ran created a new data obj
 
 ![](../../.gitbook/assets/screen-shot-2017-02-01-at-1.44.53-pm.png)
 
-Remember that you can hover over an object in the Data Panel and click the “..." that appears to see more information and options, including an option \(see image\) for downloading the object in GenBank or JSON format \(see the [Download Guide](../../working-with-data-1/data-upload-download-guide/) for more information\). In the future, you will be able to choose from a wider variety of common formats, allowing you to download results to use with other tools and send to colleagues.
+Remember that you can hover over an object in the Data Panel and click the “..." that appears to see more information and options, including an option \(see image\) for downloading the object in GenBank or JSON format \(see the [Download Guide](../../data/data-upload-download-guide/) for more information\). In the future, you will be able to choose from a wider variety of common formats, allowing you to download results to use with other tools and send to colleagues.
 
 **KBase’s download functionality is still in development – please check back soon for new download options and improvements, and report any problems to us.**
 

@@ -4,7 +4,7 @@ There are several ways to find data and add it to your Narrative. You can select
 
 ## The Data Browser
 
-There are several ways to explore the [wide range of data available in KBase](../../working-with-data-1/).
+There are several ways to explore the [wide range of data available in KBase](../../data/).
 
 The Data Browser slide-out is accessed by clicking the right-facing arrow in the menu or "Add Data" button in the Data Panel.
 
