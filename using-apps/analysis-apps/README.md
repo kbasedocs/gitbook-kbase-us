@@ -43,7 +43,7 @@ By default, the apps are sorted by category. Try the options in the “Organize 
 
 **More info**
 
-For more information about using the App Catalog, see the [Narrative Interface User Guide](../../getting-started/user-guide/).  
+For more information about using the App Catalog, see the [Narrative Interface User Guide](../../getting-started/narrative/).  
 
 
 **App replacement and updates**

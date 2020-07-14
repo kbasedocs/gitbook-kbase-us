@@ -11,7 +11,7 @@ On the KBase Help Board, click the blue **Create** button in the menu. A window 
 1. Choose the **issue type** \(_Bug,_ _Question_, or _New Feature_\)
 2. Enter a **short summary**
 3. Enter a longer **description** with more details
-4. Enter the **URL of the affected Narrative** \(remember to [share the Narrative](../getting-started/user-guide/share.md) with "kbasehelp"\)
+4. Enter the **URL of the affected Narrative** \(remember to [share the Narrative](../getting-started/narrative/share.md) with "kbasehelp"\)
 5. Include the specific **Job ID** found within the [Job Log](the-job-log.md#job-browser)
 6. Select the best fit **Category**
 7. Include you **KBase Username**

@@ -37,7 +37,7 @@ Select the “Narrative Tour” from the Help menu. This new feature walks you t
 
 ### **Step 4. Find data to analyze**
 
-To load data to your Narrative, click the “Add Data” button in the **Data Panel**, which can be found under the Analyze tab near the top left of the Narrative. The [Data Browser](user-guide/explore-data.md) will slide out with tabs that show several data sources.
+To load data to your Narrative, click the “Add Data” button in the **Data Panel**, which can be found under the Analyze tab near the top left of the Narrative. The [Data Browser](narrative/explore-data.md) will slide out with tabs that show several data sources.
 
 ![](../.gitbook/assets/screen-shot-2017-01-27-at-11.12.33-am.png)
 
@@ -49,7 +49,7 @@ Note: Any data you upload to KBase is private unless you choose to share it.
 
 ### **Step 5. Add data to your Narrative**
 
-When you hover over a [data object](user-guide/explore-data.md) in the Data Browser, a blue “&lt; Add” button will appear to its left. Click the button to add the data to your Narrative.
+When you hover over a [data object](narrative/explore-data.md) in the Data Browser, a blue “&lt; Add” button will appear to its left. Click the button to add the data to your Narrative.
 
 ![](../.gitbook/assets/image%20%281%29.png)
 
@@ -80,15 +80,15 @@ When all required fields have been filled out, click the green “Run” button 
 
 While the analysis is running, you will see the progress in the Job Status tab of the app box. When it finishes, the results will show up in the Result tab.
 
-Please see [the KBase Apps section of the Narrative Interface User Guide](user-guide/analyze-data.md) for more details on running apps.
+Please see [the KBase Apps section of the Narrative Interface User Guide](narrative/analyze-data.md) for more details on running apps.
 
 ### **Step 8. Share your Narrative**
 
 ![](../.gitbook/assets/sharenarrative.gif)
 
-All Narratives that you create are private by default. You can [make a Narrative public or share it ](user-guide/share.md)with specific collaborators by clicking the “share” button near the top right of your Narrative.
+All Narratives that you create are private by default. You can [make a Narrative public or share it ](narrative/share.md)with specific collaborators by clicking the “share” button near the top right of your Narrative.
 
 ### **Next steps and additional resources**
 
-With these basic steps, you now can begin using the Narrative Interface to create Narratives and analyze data. For a more in-depth introduction to any of the topics mentioned here, see the [Narrative User Guide](user-guide/).
+With these basic steps, you now can begin using the Narrative Interface to create Narratives and analyze data. For a more in-depth introduction to any of the topics mentioned here, see the [Narrative User Guide](narrative/).
 

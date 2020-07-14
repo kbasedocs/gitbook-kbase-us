@@ -88,7 +88,7 @@ _Change the configuration and try resubmitting the job._
 
 UE: There is no input data 
 
-_Add_ [_data_](../../getting-started/user-guide/add-data.md) _to the app and try resubmitting the job._ 
+_Add_ [_data_](../../getting-started/narrative/add-data.md) _to the app and try resubmitting the job._ 
 
 #### `Error in HipMER execution` 
 
