@@ -3,7 +3,7 @@
 * [KBase Documentation](README.md)
 * [Getting Started](getting-started/README.md)
   * [Signing Up and Signing In](getting-started/sign-up-sign-in/README.md)
-    * [Step-by-Step Signup Guide](getting-started/sign-up-sign-in/step-by-step-signup-guide.md)
+    * [Step-by-Step Signup Guide](getting-started/sign-up-sign-in/step-by-step-guide.md)
     * [Linking KBase to ORCiD](getting-started/sign-up-sign-in/linking-to-orcid.md)
     * [Linking Accounts](getting-started/sign-up-sign-in/linking-accounts.md)
     * [Authentication Update](getting-started/sign-up-sign-in/auth-update.md)

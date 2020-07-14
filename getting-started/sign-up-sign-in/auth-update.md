@@ -5,7 +5,7 @@ KBase has simplified the sign up and sign in process for new users. You will be 
 {% hint style="info" %}
 ### New users: creating a new KBase account
 
-You can safely ignore the information on this page. For details about setting up a new account, see our [step-by-step signup guide](step-by-step-signup-guide.md)
+You can safely ignore the information on this page. For details about setting up a new account, see our [step-by-step signup guide](step-by-step-guide.md)
 {% endhint %}
 
 ### Transitioning an existing KBase account
