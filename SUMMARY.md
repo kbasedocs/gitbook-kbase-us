@@ -55,7 +55,7 @@
 * [Running Common Workflows](workflows/README.md)
   * [Assembling and Annotating Microbial Genomes](workflows/assembly-annotation-workflow/README.md)
     * [FAQ: Assembly and Annotation](workflows/assembly-annotation-workflow/faq-assembly-and-annotation.md)
-  * [Comparative Genomics](workflows/comparative-genomics/README.md)
+  * [Comparative Genomics and Phylogenetic Analysis](workflows/comparative-genomics/README.md)
     * [FAQ: Comparative Genomics](workflows/comparative-genomics/faq-comparative-genomics.md)
   * [Constructing Metabolic Models](workflows/metabolic-modeling/README.md)
     * [Constructing and Analyzing Metabolic Flux Models of Microbial Communities](workflows/metabolic-modeling/metabolic-flux-models.md)
