@@ -96,5 +96,5 @@ _Contact KBase_ lets you [contact the KBase Help Desk](https://kbase.us/contact-
 
 _Help \("?"_ \) brings you to the [Narrative User Guide](https://kbase.us/narrative-guide/).
 
-In the next section, we’ll discuss [how to create a new Narrative](create-a-narrative.md).
+In the next section, we’ll discuss [how to create a new Narrative](create.md).
 
