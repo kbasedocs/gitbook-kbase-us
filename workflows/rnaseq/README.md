@@ -4,8 +4,7 @@
 
 ### **RNA-Seq Analysis Tutorials**
 
-* [RNA-seq Analysis using New Tuxedo Suite \(Arabidopsis\)](https://narrative.kbase.us/narrative/ws.19391.obj.1)
-* [RNA-seq Analysis \(E. coli\)](https://narrative.kbase.us/narrative/ws.50093.obj.1)
+* \_\_[_E. coli_ RNA-seq Analysis Tutorial](https://narrative.kbase.us/narrative/ws.50093.obj.1) – guides through the RNAseq workflow using HISAT2/StringTie/DESeq2
 
 #### Prerequisites for RNA-seq Analysis
 
