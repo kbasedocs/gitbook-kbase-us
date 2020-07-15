@@ -65,7 +65,7 @@
   * [RNAseq Analysis](workflows/rnaseq/README.md)
     * [FAQ: RNA Sequence Analysis](workflows/rnaseq/faq-rnaseq.md)
 * [Troubleshooting](troubleshooting/README.md)
-  * [Problems with User Interface](troubleshooting/narrative.md)
+  * [Problems with the User Interface](troubleshooting/narrative.md)
   * [Help Board](troubleshooting/support.md)
   * [How to Report Issues](troubleshooting/report.md)
   * [The Job Log](troubleshooting/job-log.md)

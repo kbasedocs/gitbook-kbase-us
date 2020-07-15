@@ -1,4 +1,4 @@
-# Problems with User Interface
+# Problems with the User Interface
 
 ### If you experience problems with KBase’s Narrative user interface \(e.g., data, apps, or viewers won’t load or the interface appears to be frozen\), here are a few things to try that may help:
 
