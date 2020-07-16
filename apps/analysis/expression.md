@@ -1,5 +1,5 @@
 ---
-description: List of tools for expression analysis
+description: Some of the tools available for expression analysis
 ---
 
 # Transcriptomics and Expression

@@ -1,5 +1,5 @@
 ---
-description: List of tools for Assembly and Annotation
+description: Some of the tools available for Assembly and Annotation
 ---
 
 # Assembly and Annotation

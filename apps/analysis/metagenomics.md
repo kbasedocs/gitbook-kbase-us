@@ -1,5 +1,7 @@
 ---
-description: List of tools for analyzing microbial communities and metagenomics
+description: >-
+  Some of the tools available for analyzing microbial communities and
+  metagenomics
 ---
 
 # Metagenomics & Community Exploration

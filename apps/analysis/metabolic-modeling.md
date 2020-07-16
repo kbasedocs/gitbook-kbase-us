@@ -1,5 +1,5 @@
 ---
-description: List of tools for metabolic modeling
+description: Some of the tools available for metabolic modeling
 ---
 
 # Metabolic Modeling

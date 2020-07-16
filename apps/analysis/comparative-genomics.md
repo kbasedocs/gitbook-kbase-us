@@ -1,5 +1,5 @@
 ---
-description: List of tools for comparative genomics and phylogenetics
+description: Some of the tools available for comparative genomics and phylogenetics
 ---
 
 # Comparative Genomics and Phylogenetics
