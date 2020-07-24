@@ -4,8 +4,8 @@
 
 The [**App Catalog**](https://narrative.kbase.us/#appcatalog) lists all of the currently available apps. The majority of them fall into the following categories:
 
-* [Assembly](assembly-and-annotation.md)
-* [Annotation](assembly-and-annotation.md)
+* [Assembly](assembly-and-annotation.md#assembly)
+* [Annotation](assembly-and-annotation.md#annotation)
 * Sequence alignment and search
 * [Metabolic modeling](metabolic-modeling.md)
 * [RNA-seq and expression data analysis](expression.md)

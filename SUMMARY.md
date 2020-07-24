@@ -77,7 +77,6 @@
     * [Functional Genomics App Errors](troubleshooting/job-errors/functional-genomics.md)
     * [Modeling App Errors](troubleshooting/job-errors/modeling.md)
 * [Developing Apps](development/README.md)
-  * [Information for Developers](development/developers.md)
   * [The KBase SDK](development/kbase-sdk.md)
   * [KBase GitHub Repository](development/github-repository.md)
 

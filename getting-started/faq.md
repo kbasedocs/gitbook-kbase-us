@@ -8,8 +8,6 @@ Yes! KBase is completely free to use and is supported by the Department of Energ
 
 You can check the job log and refer to the troubleshooting page \([http://kbase.us/troubleshooting/](http://kbase.us/troubleshooting/)\). If you do not see a reason for the error there, please make a ticket on our Help Board.
 
-
-
 ## Is it possible to obtain publication-quality figures by using these tools?
 
 Some of the Apps can produce publication-quality images that can be views by opening in a separate window. We hope to add more in the future.

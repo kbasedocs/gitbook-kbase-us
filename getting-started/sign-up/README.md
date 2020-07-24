@@ -1,3 +1,7 @@
+---
+description: Sign up and get started using KBase
+---
+
 # Signing Up and Signing In
 
 ### **Signing Up**
@@ -7,7 +11,7 @@ To create a KBase account, you will need to use one of our supported identity pr
 After you link your Google, ORCiD, or Globus account, you will be able to sign in and use the KBase Narrative Interface to perform your computational systems biology analyses.
 
 {% hint style="info" %}
-KBase is an ORCiD [Member Organization](https://orcid.org/members/0016f00002ZLyhNAAT-kbase). Sign in or link your[ ![](../../.gitbook/assets/orcidid_icon128x128.png)](https://orcid.org/)to KBase. 
+KBase is an ORCiD [Member Organization](https://orcid.org/members/0016f00002ZLyhNAAT-kbase). Sign in or link your[![](../../.gitbook/assets/orcidid_icon128x128.png)to KBase](linking-orcid.md). 
 {% endhint %}
 
 #### **Terms and Conditions**
@@ -18,7 +22,7 @@ KBase is sponsored by the U.S. Department of Energy and is free for all to use \
 
 ### **Signing In**
 
-To sign in, click the Sign In button on the KBase website or KBase Narrative Interface. Select the identity provider you chose when you signed up for your KBase account, and use the credentials you would normally use when signing into the that provider's web site.
+To sign in, click the Sign In button on the KBase website or KBase Narrative Interface. Select the identity provider you chose when you signed up for your KBase account, and use the credentials you would normally use when signing into the that provider's web site. You can [link multiple accounts to sign into KBase](linking-accounts.md). 
 
 #### How do I set or reset my password?
 
