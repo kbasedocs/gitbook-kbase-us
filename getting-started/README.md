@@ -4,9 +4,7 @@ description: An introduction to KBase and guide on how to get started.
 
 # Getting Started
 
-
-
-What is in the Getting Started section:
+What you can find in this section:
 
 1. [Signing Up and Signing In](sign-up/)
 2. [KBase Supported Browsers](browsers.md)
