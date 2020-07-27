@@ -1,4 +1,8 @@
-# General FAQ
+---
+description: Frequently asked questions about KBase.
+---
+
+# FAQ
 
 ## Is KBase free to use? 
 
