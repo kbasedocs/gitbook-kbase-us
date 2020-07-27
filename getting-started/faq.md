@@ -10,7 +10,7 @@ Yes! KBase is completely free to use and is supported by the Department of Energ
 
 ## I'm getting an error. What do I do?
 
-You can check the job log and refer to the troubleshooting page \([http://kbase.us/troubleshooting/](http://kbase.us/troubleshooting/)\). If you do not see a reason for the error there, please make a ticket on our Help Board.
+You can check [the job log](../troubleshooting/job-log.md) and refer to our [troubleshooting guide](../troubleshooting/). If you do not see a reason for the error there, please make a ticket on our [Help Board](../troubleshooting/support.md).
 
 ## Is it possible to obtain publication-quality figures by using these tools?
 
@@ -18,9 +18,9 @@ Some of the Apps can produce publication-quality images that can be views by ope
 
 ## I have too much data to move. 
 
-Is there a better way for handling large datasets? For large files or collections of files, we recommend using Globus. You can find a guide to using Globus [here](https://kbase-us.gitbook.io/kbase-documentation-1/working-with-data-1/transferring-data-with-globus).
+Is there a better way for handling large datasets? For large files or collections of files, we recommend using Globus. We also have a [guide for importing using Globus](../data/globus.md).
 
-## How many users can view a narrative? 
+## How many users can view a Narrative? 
 
 There is no limit to the number of users that can be invited to view or edit Narratives. However, it is possible for users who are accessing the Narrative simultaneously to overwrite each other's changes. For that reason, we recommend only one person edit the Narrative at a time.
 
@@ -46,7 +46,9 @@ There are a couple venues:
 
 1. Submit a Help Desk New Feature Request. We can't promise if or when new feature requests are added, but user input helps us plan our future development. 
 
-2. Add as a 3rd-party developer: If you are a developer of an app, you can find more information at our developer"s page \([http://kbase.us/developer](http://kbase.us/developer)\) and you can read the documentation for our Software Development Kit at \([https://kbase.github.io/kb\_sdk\_docs/](https://kbase.github.io/kb_sdk_docs/)\). If you are not the developer, you can reach out to the developer and ask them about wrapping it for KBase. Alternatively, a beta version of the App might already be in KBase. In the Apps panel, click on the "R" button to switch from release to beta. When a "B" appears in place of the "R", you are viewing beta Apps.
+2. Add as a 3rd-party developer: If you are a developer of an app, you can find more information on [the developer's page](../development/) and you can read the documentation for our [Software Development Kit](https://kbase.github.io/kb_sdk_docs/) . If you are not the developer, you can reach out to the developer and ask them about wrapping it for KBase. 
+
+Alternatively, a beta version of the App might already be in KBase. In the Apps panel, click on the "R" button to switch from release to beta. When a "B" appears in place of the "R", you are viewing beta Apps.
 
 ## What pipelines does KBase provide? 
 
@@ -54,7 +56,7 @@ There are a couple venues:
 
 ## Will my data be made public?
 
-All user data in KBase is private by default until you share it. You can keep all your data private if you wish. We do encourage users to make data public in the interest of FAIR \(Findable, Accessible, Interoperable, and Reusable\) data practices.
+All user data in KBase is private by default until you share it. You can keep all your data private if you wish. We do encourage users to make data public in the interest of FAIR - Findable, Accessible, Interoperable, and Reusable - data practices.
 
 ## What organisms are available in KBase? 
 
@@ -66,7 +68,7 @@ Command line is not supported for the narratives. However, you may find more fle
 
 ## Can I get an in-person KBase workshop at my institution? 
 
-If you would like an in-person workshop, contact us by email \([engage@kbase.us](mailto:engage@kbase.us)\) and we will explore the possibilities.
+If you would like an in-person workshop, contact us by email at [engage@kbase.us](mailto:engage@kbase.us).
 
 ## Can I see the background code for KBase? 
 
