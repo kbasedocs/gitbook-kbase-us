@@ -12,7 +12,7 @@ On the left sidebar of your dashboard, click the “Account” icon, and then ch
 
 ![](../../.gitbook/assets/kbase_linkaccounts.gif)
 
-At the bottom of the tab, choose “![](../../.gitbook/assets/orcidid_icon128x128.png) ORCiD” from the pulldown list of identity providers, and then click the “Link” button.
+At the bottom of the tab, choose "[![](../../.gitbook/assets/orcidid_icon128x128.png)](https://orcid.org/) ORCiD” from the pulldown list of identity providers, and then click the “Link” button.
 
 ![](../../.gitbook/assets/kbaselinkaccounts.gif)
 
