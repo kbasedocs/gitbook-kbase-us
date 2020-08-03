@@ -22,7 +22,7 @@ The next screen will prompt you to Sign in using your ORCiD account to link.
 
 After you click that Link button, you will be returned to the Linked Sign-in Accounts screen in your Dashboard, where you will see your newly linked ORCiD account.
 
-You can then Sign In to KBase using your ORCiD. 
+You can then Sign In to KBase using your ORCiD ID. 
 
 ![](../../.gitbook/assets/kbase_orcid.gif)
 
