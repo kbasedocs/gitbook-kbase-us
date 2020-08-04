@@ -80,7 +80,7 @@ _Verify the file is can be unzipped locally._
 
 #### `Both SRA and FASTQ/FASTA file given.` 
 
-UE: The inputs should be either all fast or all SRA. 
+UE: The inputs should be either all fastq/a or all SRA. 
 
 _Modify the inputs, then try resubmitting the job._ 
 
@@ -102,16 +102,10 @@ UE: Possible issues
 
 * The fastq file includes one or more sequences that are less than 10 bases. Short reads are a problem for some tools.
 * The fastq file doesn't have the right number of lines. For example, the lines in a single-end file needs to be a multiple of four and interleaved paired-end library should be a multiple of eight.
-* The options haven't been selected correctly. For example, using an interleaved fastq file but failing to check the Interleaved box. _The page_ [_http://kbase.us/data-upload-download-guide/short-reads/_](http://kbase.us/data-upload-download-guide/short-reads/) _might be helpful here._ 
+* The options haven't been selected correctly. For example, using an interleaved fastq file but failing to check the Interleaved box. _The documentation on_ [_FASTQ/SRA Reads_](../../data/upload-download-guide/reads.md) _may be helpful._
 * The file might not have the right filename to be recognized.
-  * The file is an SRA file and not fastq. 
-* DOS-style carriage-return line files along with new-lines. Our fasta validation doesn't handle this properly. _To remove the carriage return characters use can this unix command_
-
-  _**`tr -d '\015' < 1.fastq >cleaned_1.fastq`**_
-
-  \_\_[_https://support.nesi.org.nz/hc/en-gb/articles/218032857-Converting-from-Windows-style-to-UNIX-style-line-endings_](https://support.nesi.org.nz/hc/en-gb/articles/218032857-Converting-from-Windows-style-to-UNIX-style-line-endings)\_\_
-
-  \_\_[_https://kb.iu.edu/d/acux_](https://kb.iu.edu/d/acux)\_\_
+  * The file is an SRA file and not FASTQ. 
+* DOS-style carriage-return line files along with new-lines. Our fasta validation doesn't handle this properly. _To remove the carriage return characters use can this_ [_unix command:_](https://support.nesi.org.nz/hc/en-gb/articles/218032857-Converting-from-Windows-style-to-UNIX-style-line-endings) _**`tr -d '\015' < 1.fastq >cleaned_1.fastq`**_
 
 #### `Reading FASTQ record failed - non-blank lines are not a multiple of four.`
 
