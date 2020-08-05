@@ -8,5 +8,7 @@
 * [Phylogenomics of Sulfate Reducing Clostridia - Tutorial - Part 1: Comparative Functional Assignment](https://narrative.kbase.us/narrative/ws.18988.obj.1) – guides the user through the process of whole-genome phylogeny, homology, and domain family functional profiling.
 * [Genome Analysis Tools and Features](https://narrative.kbase.us/narrative/48493) – demonstrates some workflows for comparative analysis of genomes, including searching for features, annotating protein families, and performing phylogenetic analysis.
 
-![](https://kbase.us/wp-content/uploads/2015/02/CompareProteomes06.png)
+![](../../.gitbook/assets/image%20%285%29.png)
+
+
 
