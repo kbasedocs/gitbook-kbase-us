@@ -2,11 +2,11 @@
 
 **KBase Apps** are analysis tools that you can use in KBase. Apps interoperate seamlessly to enable a range of scientific workflows \(see figure below\). Some of the apps were written by KBase scientists and developers; others are third-party tools that were integrated into KBase with our [Software Developer Kit \(SDK\)](../../development/kbase-sdk.md). The number of apps available in KBase increases as members of the community use our SDK to integrate their analysis tools into the KBase platform.
 
-The [**App Catalog**](https://narrative.kbase.us/#appcatalog) lists all of the currently available apps. The majority of them fall into the following categories:
+The [**App Catalog**](https://kbase.us/applist) lists all of the currently available apps. The majority of them fall into the following categories:
 
 * [Assembly](assembly-and-annotation.md#assembly)
 * [Annotation](assembly-and-annotation.md#annotation)
-* Sequence alignment and search
+* [Sequence alignment and search](https://kbase.us/applist/#Sequence%20Analysis)
 * [Metabolic modeling](metabolic-modeling.md)
 * [RNA-seq and expression data analysis](expression.md)
 * [Comparative and phylogenetic analysis](comparative-genomics.md)
@@ -23,7 +23,7 @@ Below is an example outline of the major workflows and datatypes in KBase. The u
 
 ![](../../.gitbook/assets/kbase-workflows-vivek_rk_nh_2017-10-03_v1.jpg)
 
-### Tips on using the [App Catalog](https://narrative.kbase.us/#appcatalog)
+### Tips on using the [App Catalog](https://kbase.us/applist)
 
 * Each app links to a reference page \(which includes technical details about the inputs and outputs\) called an App Details Page.
 * To run apps, you will need to [sign in to the Narrative Interface](../../getting-started/sign-up/#signing-in).

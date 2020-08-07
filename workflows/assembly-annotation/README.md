@@ -2,7 +2,7 @@
 
 KBase enables _de novo_ assembly of prokaryotic NGS reads from various sequencing platforms. Assemblies can then be annotated with RAST or Prokka, enabling you to explore structural and functional features of a Genome or use it in other analyses. 
 
-The steps for assembly and annotation include:
+The steps for [assembly](https://kbase.us/applist/#Genome%20Assembly) and [annotation](https://kbase.us/applist/#Genome%20Annotation) include:
 
 * Import or upload reads to assemble with the Narrative Interface Data Browser.
 * Add the Reads data object to the Narrative.

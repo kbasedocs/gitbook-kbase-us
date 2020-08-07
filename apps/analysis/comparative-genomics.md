@@ -4,7 +4,7 @@ description: Some of the tools available for comparative genomics and phylogenet
 
 # Comparative Genomics and Phylogenetics
 
-![](../../.gitbook/assets/comparative.jpg) KBase provides multiple comparative genomics and phylogenetic analysis Apps to enable researchers to understand evolutionary relationships between organisms and explore structural and functional variance across genomes.
+![](../../.gitbook/assets/comparative.jpg) KBase provides multiple comparative genomics and phylogenetic analysis [Apps](https://kbase.us/applist/#Comparative%20Genomics) to enable researchers to understand evolutionary relationships between organisms and explore structural and functional variance across genomes.
 
 ### **Phylogenetic Analysis**
 

@@ -1,6 +1,6 @@
 # Comparative Genomics and Phylogenetic Analysis
 
-![](../../.gitbook/assets/comparative.jpg) KBase’s comparative genomics and phylogenetic analysis tools enable researchers to understand evolutionary relationships between organisms and explore structural and functional variance across genomes. By integrating public datasets with user data and tools to search for sequence homology, explore gene orthology, and construct phylogenetic linkages between organisms, KBase provides an advanced and useful platform for comparative genomics research.
+![](../../.gitbook/assets/comparative.jpg) KBase’s comparative genomics and phylogenetic analysis [tools](https://kbase.us/applist/#Comparative%20Genomics) enable researchers to understand evolutionary relationships between organisms and explore structural and functional variance across genomes. By integrating public datasets with user data and tools to search for sequence homology, explore gene orthology, and construct phylogenetic linkages between organisms, KBase provides an advanced and useful platform for comparative genomics research.
 
 ### Comparative and Phylogenetic Analysis Tutorials
 

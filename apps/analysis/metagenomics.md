@@ -6,7 +6,7 @@ description: >-
 
 # Metagenomics & Community Exploration
 
-![Community &amp; Metagenomics](https://kbase.us/wp-content/uploads/2018/08/metagenome.png)KBase has a multitude of Apps designed to analyze microbial communities and metagenomic reads data. They provide a way to understand the functional interactions between species in microbial communities. Annotated genomes extracted from metagenomic samples can be used for metabolic modeling, comparative phylogenomics, functional profiling, and more.
+KBase has a multitude of [Apps](https://kbase.us/applist/#Microbial%20Communities) designed to analyze microbial communities and metagenomic reads data. They provide a way to understand the functional interactions between species in microbial communities. Annotated genomes extracted from metagenomic samples can be used for metabolic modeling, comparative phylogenomics, functional profiling, and more.
 
 **Metagenomic Sequence Analysis & Assembly**
 

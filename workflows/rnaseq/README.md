@@ -1,6 +1,6 @@
 # RNAseq Analysis
 
-![](../../.gitbook/assets/expression-1.jpg) KBase offers a powerful suite of expression analysis tools. Starting with short reads, you can use the tool suite to assemble, quantify long transcripts, and identify differentially expressed genes. You can also compare the expression data with the flux when studying metabolic models in KBase and identify pathways where expression and flux agree or conflict.
+![](../../.gitbook/assets/expression-1.jpg) KBase offers a powerful suite of [expression analysis tools](https://kbase.us/applist/#Expression). Starting with short reads, you can use the tool suite to assemble, quantify long transcripts, and identify differentially expressed genes. You can also compare the expression data with the flux when studying metabolic models in KBase and identify pathways where expression and flux agree or conflict.
 
 ### **RNA-Seq Analysis Tutorials**
 
@@ -32,7 +32,7 @@ _Figure 1: The original and new Tuxedo RNA-seq analysis suites in KBase have mod
 
 #### Downstream Expression Analysis
 
-KBase offers a number of Apps to filter, cluster, visualize, and functionally enrich the feature sets based on differential expression derived from RNA-seq analysis. Also, the expression data from RNA-seq can be assimilated into metabolic models to identify pathways where expression and flux agree or conflict.
+KBase offers a number of [Apps](https://kbase.us/applist/#Expression) to filter, cluster, visualize, and functionally enrich the feature sets based on differential expression derived from RNA-seq analysis. Also, the expression data from RNA-seq can be assimilated into metabolic models to identify pathways where expression and flux agree or conflict.
 
 1. **Filtering:** You can [create a filtered expression matrix and associated feature set](https://narrative.kbase.us/#catalog/apps/FeatureSetUtils/upload_featureset_from_diff_expr/release) based on fold-change or adjusted p-value. You can also [filter an expression matrix](https://narrative.kbase.us/#catalog/apps/CoExpression/expression_toolkit_filter_expression/release) based on LOR or ANOVA.
 2. **Clustering:** Depending on your preference, run the [Hierarchical](https://narrative.kbase.us/#catalog/apps/KBaseFeatureValues/expression_toolkit_cluster_hierarchical/release), [K-Means](https://narrative.kbase.us/#catalog/apps/KBaseFeatureValues/expression_toolkit_cluster_k_means/release) or [WGCNA](https://narrative.kbase.us/#catalog/apps/CoExpression/expression_toolkit_cluster_WGCNA/release) clustering App to group features into clusters based on gene expression. You can also visualize the clusters as an interactive heatmap.
