@@ -46,7 +46,7 @@ All software and data used in KBase must be open source and restriction free. Th
 
 ## Information for Developers – KBase SDK
 
-The [KBase Software Development Kit \(SDK\)](https://github.com/kbase/sdkbase2) allows third-party developers to wrap open source tools into KBase as [Apps](https://narrative.kbase.us/#appcatalog). KBase users can then run these Apps on their own data in their Narratives and cite the use of these tools in their publications.
+The [KBase Software Development Kit \(SDK\)](https://github.com/kbase/sdkbase2) allows third-party developers to wrap open source tools into KBase as [Apps](https://kbase.us/applist/). KBase users can then run these Apps on their own data in their Narratives and cite the use of these tools in their publications.
 
 ### Get Started
 
@@ -60,27 +60,23 @@ Nearly all KBase software is publicly available through [GitHub](https://github.
 
 #### [Read the SDK Documentation](https://kbase.github.io/kb_sdk_docs/)
 
-Learn to use [KBase SDK](https://kbase.github.io/kb_sdk_docs/) to begin crafting your tools to add to the KBase [App Catalog](https://kbase.us/apps/).
+Learn to use [KBase SDK](https://kbase.github.io/kb_sdk_docs/) to begin crafting your tools to add to the KBase [App Catalog](https://kbase.us/applist/).
 
 {% embed url="https://youtu.be/Q6qt7gqaVnM" %}
 
 
 
-#### [Develop and release your App](https://kbase.us/contact-us/)
+#### [Develop and release your App](https://www.kbase.us/develop/)
 
-If you want to develop Apps using the SDK, please apply for a KBase developer account by going to [https://accounts.kbase.us/index.php?tpl=request\_identity.tpl](https://accounts.kbase.us/index.php?tpl=request_identity.tpl). If you are a US citizen, your account can be created within a few days. For foreign nationals, it may take several weeks \(and, in a few cases, you may not be able to get a developer account\). Non-US citizens will be asked for additional information in order to process their application.Once your account is approved, [contact us](https://kbase.us/contact-us/) with your username and ask to be added to the developer list.
+If you want to develop Apps using the SDK, please apply for a KBase developer account by going to the Requesting a [New KBase Devloper Account](https://accounts.kbase.us/index.php?tpl=request_identity.tpl). If you are a US citizen, your account can be created within a few days. For foreign nationals, it may take several weeks \(and, in a few cases, you may not be able to get a developer account\). Non-US citizens will be asked for additional information in order to process their application.Once your account is approved, [contact us](https://www.kbase.us/develop/) with your username and ask to be added to the developer list.
 
-[The KBase SDK ](kbase-sdk.md)offers members of the KBase community a mechanism to add open-source, open-license \(as defined by OSI at [https://opensource.org/licenses](https://opensource.org/licenses)\) analysis tools to KBase so that they run on [KBase’s computational architecture](https://github.com/kbase/KBaseDeveloperBootstrap/blob/master/README.md) and are available through the [KBase Narrative Interface](https://narrative.kbase.us/). Community developers can even write new tools that take advantage of the [KBase Structured Data Types](https://narrative.kbase.us/#catalog/datatypes) and large [KBase Reference Data Resources](https://kbase.us/data-policy-and-sources/). Check which tools have already been made available in our [App Catalog](https://kbase.us/apps/) and add your own!
+[The KBase SDK ](kbase-sdk.md)offers members of the KBase community a mechanism to add open-source, open-license \(as [defined by OSI](https://opensource.org/licenses)\) analysis tools to KBase so that they run on [KBase’s computational architecture](https://github.com/kbase/KBaseDeveloperBootstrap/blob/master/README.md) and are available through the [KBase Narrative Interface](https://narrative.kbase.us/). Community developers can even write new tools that take advantage of the [KBase Structured Data Types](https://narrative.kbase.us/#catalog/datatypes) and large [KBase Reference Data Resources](https://kbase.us/data-policy-and-sources/). Check which tools have already been made available in our [App Catalog](https://kbase.us/apps/) and add your own!
 
 ### Software Development Kit \(SDK\)
-
-[![SDK\_icon](https://kbase.us/wp-content/uploads/2016/10/SDK_icon.jpg)](https://kbase.us/wp-content/uploads/2016/10/SDK_icon.jpg)
 
 The [KBase SDK](https://github.com/kbase/kb_sdk) offers members of the KBase community a mechanism to add open-source, open-license \(as defined by OSI at [https://opensource.org/licenses](https://opensource.org/licenses)\) analysis tools to KBase so that they run on [KBase’s computational architecture](https://github.com/kbase/KBaseDeveloperBootstrap/blob/master/README.md) and are available through the [KBase Narrative Interface](https://narrative.kbase.us/). Community developers can even write new tools that take advantage of the [KBase Structured Data Types](https://narrative.kbase.us/#catalog/datatypes) and large [KBase Reference Data Resources](https://kbase.us/data-policy-and-sources/). Check which tools have already been made available in our [App Catalog](https://kbase.us/apps/) and add your own!
 
 ### KBase System Architecture
-
-[![kbase-high-level-architecture](https://kbase.us/wp-content/uploads/2014/12/kbase-high-level-architecture.jpg)](https://kbase.us/wp-content/uploads/2014/12/kbase-high-level-architecture.jpg)
 
 Above is a conceptual overview of KBase high-level architecture. KBase is based loosely on a service-oriented architecture that bundles related functionality into a set of independently scalable services that are managed to provide responsive interaction via the Narrative Interface.
 
