@@ -16,7 +16,7 @@ Effective MAG recovery is highly dependent on your sample. If there is a lot of 
 
 ## What causes the contamination in the bins? And what is considered a high quality bin for filtering them out?
 
-Contamination in the bins can occur for a variety of reasons, including but not limited to contig misassembly, limited diversity in kmer space, horizontal gene transfer. In general, a genome that is 90% complete and &lt;5% contaminated is high-quality. A rough guide to the quality of MAGs and SAGs can be found here: [https://www.nature.com/articles/nbt.3893](https://www.nature.com/articles/nbt.3893)
+Contamination in the bins can occur for a variety of reasons, including but not limited to contig misassembly, limited diversity in kmer space, horizontal gene transfer. In general, a genome that is 90% complete and &lt;5% contaminated is high-quality. A rough guide to the quality of MAGs and SAGs can be found [here](https://www.nature.com/articles/nbt.3893). 
 
 ## How would I exclude eukaryotes and viruses from a marine metagenome?
 

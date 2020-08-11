@@ -2,7 +2,7 @@
 
 KBase provides users with a unified resource for analyzing a range of public data together with the data generated from their own experiments. The data in KBase, which includes public data from various public sources as well as internally-generated analysis results, consists of an extensive set of prokaryotic annotated genomes; a selected set of eukaryotic genomes; and thousands of biochemical compounds and reactions.
 
-Please review [KBase's Data Policy](https://kbase.us/data-policy-and-sources/) and the sources of our public reference data.
+Please review [KBase's Data Policy](https://www.kbase.us/data-policy-and-sources/) and the sources of our public reference data.
 
 To search public data in KBase, use the __[_Public_ tab in the **Data Browser** ](../getting-started/narrative/explore-data.md) ****within the Narrative Interface.
 

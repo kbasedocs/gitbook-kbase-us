@@ -1,6 +1,6 @@
 # RNAseq Analysis
 
-![](../../.gitbook/assets/expression-1.jpg) KBase offers a powerful suite of [expression analysis tools](https://kbase.us/applist/#Expression). Starting with short reads, you can use the tool suite to assemble, quantify long transcripts, and identify differentially expressed genes. You can also compare the expression data with the flux when studying metabolic models in KBase and identify pathways where expression and flux agree or conflict.
+KBase offers a powerful suite of [expression analysis tools](https://kbase.us/applist/#Expression). Starting with short reads, you can use the tool suite to assemble, quantify long transcripts, and identify differentially expressed genes. You can also compare the expression data with the flux when studying metabolic models in KBase and identify pathways where expression and flux agree or conflict.
 
 ### **RNA-Seq Analysis Tutorials**
 

@@ -41,7 +41,7 @@ After entering your username and password, click the “Log In” button. You wi
 
 You must now agree to the KBase User Agreement and KBase Data Policy. \(The User Agreement and Data Policy have not changed since you last agreed to them. This is merely a reconfirmation required by the new authentication process.\)
 
-Read the KBase User Agreement and KBase Data Policy and check the checkboxes that say “I have read and agree to this policy”
+Read the [KBase User Agreement](https://www.kbase.us/kbase-code-of-conduct/) and [KBase Data Policy ](https://www.kbase.us/data-policy-and-sources/)and check the checkboxes that say “I have read and agree to this policy”
 
 ![](../../.gitbook/assets/user-policies-1.png)
 

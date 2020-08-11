@@ -29,11 +29,11 @@ We are also considering adding support for other identity providers. If there’
 
 ![](../../.gitbook/assets/screen-shot-2017-06-07-at-3.50.33-pm.png)
 
-5. You must now agree to the KBase User Agreement and KBase Data Policy. 
+5. You must now agree to the [KBase User Agreement](https://www.kbase.us/terms-and-conditions/) and [KBase Data Policy](https://www.kbase.us/data-policy-and-sources/). 
 
 Note: If you already had a KBase account, the User Agreement and Data Policy have not changed since you last agreed to them. This is merely a reconfirmation required by the new authentication process.
 
-Read the KBase User Agreement and KBase Data Policy and check the checkboxes that say “I have read and agree to this policy”
+Read the [KBase User Agreement](https://www.kbase.us/terms-and-conditions/) and [KBase Data Policy](https://www.kbase.us/data-policy-and-sources/) and check the checkboxes that say “I have read and agree to this policy”
 
 ![](../../.gitbook/assets/user-policies.png)
 

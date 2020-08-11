@@ -72,7 +72,7 @@ To add an app to your Narrative from the App Panel, click on its name or icon. Y
 
 ### **Step 7. Run the App**
 
-Fill in all the required fields in your App. Note that some app fields are “smart” and know which data in your Narrative are valid input for those fields. These “smart” fields have a pulldown list of all the data objects from your Data Panel that you can choose from as input.
+Fill in all the required fields in your App. Note that some app fields are “smart” and can recognize which data in your Narrative are valid input for those fields. These smart fields have a pulldown list of all the data objects from your Data Panel that you can choose from as input.
 
 ![](../.gitbook/assets/quickstart-app.png)
 
