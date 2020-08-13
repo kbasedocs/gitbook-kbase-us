@@ -11,5 +11,5 @@ Using the [Help Board](https://kbase-jira.atlassian.net/), you’ll be able to:
 * Search the issues submitted by other users. If someone else has already reported your problem or suggested the same new feature, you can vote for that issue or add a “Me too!” comment.
 * Increase your productivity in KBase by seeing other users’ suggestions and workarounds
 
-See [Using the KBase Help Board](https://kbase-jira.atlassian.net/jira/) to find out how to sign up and submit your bug reports, questions and suggestions to us.
+See [Using the KBase Help Board](https://kbase-jira.atlassian.net/) to find out how to sign up and submit your bug reports, questions and suggestions to us.
 
