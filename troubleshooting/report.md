@@ -1,6 +1,6 @@
 # How to Report Issues
 
-To report issues, suggest new features, or get help using KBase tools, please go to our [Help Board](support.md) and create a ticket. 
+To report issues, suggest new features, or get help using KBase tools, please go to our [Help Board](https://kbase-jira.atlassian.net/) and create a ticket. 
 
 ![](../.gitbook/assets/submitajiratickettohelpdesk.gif)
 

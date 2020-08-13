@@ -10,7 +10,7 @@ Yes! KBase is completely free to use and is supported by the Department of Energ
 
 ## I'm getting an error. What do I do?
 
-You can check [the job log](../troubleshooting/job-log.md) and refer to our [troubleshooting guide](../troubleshooting/). If you do not see a reason for the error there, please make a ticket on our [Help Board](../troubleshooting/support.md).
+You can check [the job log](../troubleshooting/job-log.md) and refer to our [troubleshooting guide](../troubleshooting/). If you do not see a reason for the error there, please make a ticket on our [Help Board](https://kbase-jira.atlassian.net/).
 
 ## Is it possible to obtain publication-quality figures by using these tools?
 
