@@ -6,9 +6,9 @@ There are several ways to find data and add it to your Narrative. You can select
 
 There are several ways to explore the [wide range of data available in KBase](../../data/).
 
-The Data Browser slide-out is accessed by clicking the right-facing arrow in the menu or "Add Data" button in the Data Panel.
+The Data Browser slide-out is accessed by clicking the right-facing arrow in the menu or the red rectangular "Add Data" button in the Data Panel.
 
-![](../../.gitbook/assets/screen-shot-2017-01-30-at-11.11.52-am.png)  
+![](../../.gitbook/assets/datapanel.png)  
 The Data Browser will slide out, with tabs that show several data sources that will be discussed in more detail later:
 
 * **My Data** — data you have already loaded or analyzed in another Narrative
@@ -17,11 +17,13 @@ The Data Browser will slide out, with tabs that show several data sources that w
 * **Example** — example datasets that can be used as inputs to apps and methods
 * **Import** — mechanism allowing you to import your own data \(of supported types\) to your Narrative
 
+![](../../.gitbook/assets/databrowseropen%20%284%29.gif)
+
 ![](../../.gitbook/assets/screen-shot-2017-01-30-at-11.14.27-am.png)
 
 Find a public reference genome available under the _Public_ tab to examine information and metadata about that genome.
 
-Clicking the _Public_ tab displays a list of data objects available in KBase’s reference collection.
+Clicking the _Public_ tab displays a list of data objects available in the KBase reference collection.
 
 ![](../../.gitbook/assets/public-tab_data%20%281%29.png)
 
@@ -77,11 +79,9 @@ Notice that this genome viewer has tabs for an overview \(including GC content, 
 
 **Sorting table entries in the viewer**
 
-You can sort the table entries by clicking on a column header to sort by that field \(e.g., Length\). Clicking the same column header again will reverse the sort order. For example, the screenshots below show the table sorted in descending order by _Contig name_ and then in descending order by _Length_:
+You can sort the table entries by clicking on a column header to sort by that field \(e.g., Length\). Clicking the same column header again will reverse the sort order. For example, the screenshots below show the table sorted in descending order by _Contig name_ and then in descending order by _Length._
 
-![](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2015-02-09-at-12.48.36-PM.png)
-
-You can even sort by more than one column at a time by clicking one column header and then Shift-clicking other column headers. For example, here we have sorted in ascending order by contig length, and then \(by shift-clicking the Genes column header\) in ascending or descending order by number of genes. Notice how the two rows with length=253 \(the bottom two, in these screenshots\) have switched places.
+You can also sort by more than one column at a time by clicking one column header and then Shift-clicking other column headers. For example, here we have sorted in ascending order by contig length, and then \(by shift-clicking the Genes column header\) in ascending or descending order by number of genes. Notice how the two rows with length=253 \(the bottom two, in these screenshots\) have switched places.
 
 ![](../../.gitbook/assets/screen-shot-2015-02-09-at-12.49.05-pm-e1423803707173.png)
 

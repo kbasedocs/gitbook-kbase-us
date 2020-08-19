@@ -10,7 +10,7 @@ To start the tour, select “Narrative Tour” from the “?” menu. This new f
 
 Before adding data and analysis steps to your Narrative, take some time to explore a few high-level features of the Narrative Interface.
 
-![](https://kbase.us/wp-content/uploads/2014/12/Tour-Narrative-Multicolor.png)
+![](../../.gitbook/assets/tour-narrative.png)
 
 ## Managing Narratives and accessing resources
 

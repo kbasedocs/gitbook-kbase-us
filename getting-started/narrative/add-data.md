@@ -1,8 +1,12 @@
 # Add Data to Your Narrative
 
-Now that you are familiar with ways to find and explore data in KBase, you can select or upload data to analyze. The **Data Panel** in a Narrative shows the data objects that are currently available in that particular Narrative. From the Data Panel, you can access the data slide-out, which allows you to search for data of interest and add it to your Narrative. In the Data Panel, click the red "Add Data" button, the red “+” button, or the right arrow at the upper right of the panel to access the **Data Browser** slide-out.
+Now that you are familiar with ways to find and explore data in KBase, you can select or upload data to analyze. The **Data Panel** in a Narrative shows the data objects that are currently available in that particular Narrative. 
 
-[![](../../.gitbook/assets/image9.png)](https://kbase.us/wp-content/uploads/2018/01/image9.png)
+![](../../.gitbook/assets/image9.png)
+
+From the Data Panel, you can access the data slide-out, which allows you to search for data of interest and add it to your Narrative. In the Data Panel, click the red "Add Data" button, the red “+” button, or the right arrow at the upper right of the panel to access the **Data Browser** slide-out.
+
+![](../../.gitbook/assets/databrowseropen%20%284%29.gif)
 
 {% hint style="info" %}
 **Data Privacy**  

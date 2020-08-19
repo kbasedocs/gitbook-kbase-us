@@ -20,7 +20,7 @@ Main features of the Dashboard are described below.
 * You can use the _Search Box_ at the top of each panel to find a particular Narrative within that category.
 * In the **Your Narratives** panel, you can click the blue button at the top to create a new Narrative.
 
-[![Screen Shot 2016-03-10 at 10.59.33 PM](../../.gitbook/assets/screen-shot-2016-03-10-at-10.59.33-pm-300x43.png)](https://kbase.us/wp-content/uploads/2015/02/Screen-Shot-2016-03-10-at-10.59.33-PM.png)
+[![Screen Shot 2016-03-10 at 10.59.33 PM](../../.gitbook/assets/newnarrativebutton.png)](https://kbase.us/wp-content/uploads/2015/02/Screen-Shot-2016-03-10-at-10.59.33-PM.png)
 
 Note that **Public Narratives** have not necessarily been reviewed or tested by the KBase team; they are simply Narratives that have been made public by their owners
 
