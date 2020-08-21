@@ -10,20 +10,23 @@ You can browse KBase Apps by \(1\) scrolling through the list in the Apps Panel;
 
 ![](../../.gitbook/assets/screen-shot-2017-11-28-at-3.03.38-pm.png)
 
-Click the search icon at the top of the panel to begin a text search for apps. Once you enter a term, the list will show only the categories that have apps whose names include the text you typed. As before, click the right-arrow to the left of a category name to see matching apps in that category. \(To see the complete list again, click the "x" to the right of the search box.\)
+Click the search icon \(magnifying glass\) at the top of the panel to begin a text search for apps. Once you enter a term, the list will show only the categories that have apps whose names include the text you typed. As before, click the right-arrow to the left of a category name to see matching apps in that category. \(To see the complete list again, click the "x" to the right of the search box.\)
 
 ![](../../.gitbook/assets/screen-shot-2017-11-28-at-3.05.09-pm.png)
 
 Clicking the more “…” icon opens an app details page featuring an expanded description of the app, along with technical information about its inputs, outputs, parameters, and more. Links to additional documentation such as tutorials or FAQs also may be provided.
 
+![](../../.gitbook/assets/apppanelsearch.gif)
+
 ## **Access the App Catalog**
 
-All available apps can be found in the App Catalog, which is accessible two ways:
+All available apps can be found in the App Catalog, which is accessible three ways:
 
-* From [https://narrative.kbase.us/\#appcatalog](https://narrative.kbase.us/#appcatalog) \(no user account or sign-in required for browsing\).
+* External [App Catalog](https://kbase.us/applist/) \(no user account or sign-in required for browsing\).
+* From the [Dashboard](https://narrative.kbase.us/#appcatalog) by clicking on the Catalog icon in the Menu
 * From the Narrative Interface, by clicking the right arrow at the top of the Apps Panel.
 
-Much like the Data Browser, the App Catalog will slide out to show available apps. \(The “View App Catalog” link at the top opens the App Catalog in a separate web browser window.\)
+The App Catalog will slide out to show available apps. \(The “View App Catalog” link at the top opens the App Catalog in a separate web browser window.\)
 
 ![](../../.gitbook/assets/screen-shot-2017-01-31-at-10.08.43-pm.png)
 

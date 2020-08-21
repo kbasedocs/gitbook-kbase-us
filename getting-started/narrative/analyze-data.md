@@ -1,6 +1,6 @@
 # Analyze Data Using KBase Apps
 
-Now that you have explored the available KBase Apps and determined which ones work with the data objects in your Narrative, you can begin analyzing your data.
+Once exploring available [KBase Apps ](https://kbase.us/applist/)and determining which ones work with the data objects in your Narrative, you can start analyzing your data.
 
 ## Add an App to your Narrative
 
@@ -12,15 +12,14 @@ A few things to notice about the app cell:
 
 * **App Cells** have three tabs 
 
-  1\) Configure \(where you set the parameters; it’s what you see when you add a new app cell\) 
+1. Configure \(where you set the parameters; it’s what you see when you add a new app cell\)
+2. Info
+3. Job Status 
+4. Result
 
-  2\) Job Status 
+The last two tabs are filled in once you run the app; these are discussed later.
 
-  3\) Result
-
-  The last two tabs are filled in once you run the app; these are discussed later.
-
-![](../../.gitbook/assets/kbaseapps_tabs.png)
+![](../../.gitbook/assets/appcell_tabs.png)
 
 * The up and down arrows let you move the cell up or down in your Narrative.
 

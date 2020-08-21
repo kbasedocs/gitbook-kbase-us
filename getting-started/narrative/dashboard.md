@@ -11,27 +11,26 @@ Main features of the Dashboard are described below.
 **Narratives**
 
 * There are five panels for exploring and locating existing Narratives: **Your Narratives, Tutorial Narratives, Narratives Shared with You,  Public Narratives, and Common Collaborator Network.**
+
+![](../../.gitbook/assets/narrativesindashboardscroll.gif)
+
 * The most recently modified Narratives appear first in the panels.
 * Click on any Narrative name to open it.
 * Icons under a Narrative name indicate which apps the Narrative includes, how many markdown and code cells it contains, the number of times the Narrative has been shared, whether there are any running jobs, total running time for all completed jobs, and more.
-
-.[![Screen Shot 2016-03-10 at 9.40.28 PM](../../.gitbook/assets/narrative1.png)](https://kbase.us/wp-content/uploads/2015/02/Narrative1.png) 
-
 * You can use the _Search Box_ at the top of each panel to find a particular Narrative within that category.
 * In the **Your Narratives** panel, you can click the blue button at the top to create a new Narrative.
 
-[![Screen Shot 2016-03-10 at 10.59.33 PM](../../.gitbook/assets/newnarrativebutton.png)](https://kbase.us/wp-content/uploads/2015/02/Screen-Shot-2016-03-10-at-10.59.33-PM.png)
+![](../../.gitbook/assets/newnarrative_bar.gif)
 
-Note that **Public Narratives** have not necessarily been reviewed or tested by the KBase team; they are simply Narratives that have been made public by their owners
+* Note that **Public Narratives** have not necessarily been reviewed or tested by the KBase team; they are simply Narratives that have been made public by their owners.
+
+**Common Collaborator Network** 
+
+* People with whom you share Narratives.
 
 **Metrics**
 
 * Snapshot that shows how you’re using the system \(e.g., how many Narratives you’ve created and shared compared to other users\).
-* Other metrics will be added soon, as part of KBase’s expansion of its social features.
-
-**Common Collaborator Network**
-
-* People with whom you share Narratives.
 
 ## Where can I go from here?
 
@@ -90,7 +89,7 @@ _Biochem Search_ goes to the Compound and Reaction search tabs.
 
 _About_ goes to [a page that describes the KBase system](https://kbase.us/what-is-kbase/).
 
-_KBase Services Status_ goes to [a page that describes the current version of KBase’s Narrative Interface](https://narrative.kbase.us/#about/services).
+_KBase Services Status_ goes to [a page that describes the current version of the Narrative Interface](https://narrative.kbase.us/#about/services).
 
 _Contact KBase_ lets you [contact the KBase Help Desk](https://kbase.us/contact-us/) with your question, bug report, or feature suggestion.
 
