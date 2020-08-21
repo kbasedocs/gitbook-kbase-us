@@ -6,8 +6,6 @@ description: >-
 
 # Formatting Markdown
 
-
-
 Add formatted text to your Narrative using [Markdown Cells](revise.md#add-text-to-your-narrative). Adding text to your Narrative to explain your process,  interpret results, and communicate to others for sharing and publication. These cells use markup languages of Markdown and HTML. Both are pretty easy to learn but does require knowing some syntax. Not every formatting option will work in the Narrative Interface. 
 
 ### Here are some resources for Markdown and HTML
