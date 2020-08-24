@@ -24,7 +24,7 @@
     * [Formatting Markdown](getting-started/narrative/markdown.md)
     * [Share Narratives](getting-started/narrative/share.md)
     * [Access and Copy Narratives](getting-started/narrative/access-and-copy.md)
-    * [Creating an Organization](getting-started/narrative/orgs.md)
+    * [Organizations](getting-started/narrative/orgs.md)
   * [FAQ](getting-started/faq.md)
 * [Working with Data](data/README.md)
   * [Data Upload and Download Guide](data/upload-download-guide/README.md)

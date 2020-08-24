@@ -74,5 +74,17 @@ If you would like an in-person workshop, contact us by email at [engage@kbase.us
 
 Yes, the relevant Github repo for each App can be found by following the links in the App Catalog. You can access the version and parameters that were used during an App run by clicking on the ellipsis button and clicking "Show code."
 
+## **What is the difference between Public and Private organizations?**
+
+* The existence and contents of Private organizations are only visible to members of the organization. The organization will not be findable by non-members.
+* Any KBase user can see a list of all Public organizations plus a description of the organization. Non-members are given the option to request membership. Members of the organization can access more information than non-members.
+
+## **Why can't I open a Narrative in an Org?**
+
+Click on ‘Click for Access’ and you are automatically granted View access to the Narrative. You can then click on the linked Narrative to open. 
+
+
+
+  
 
 

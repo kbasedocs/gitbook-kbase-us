@@ -1,10 +1,16 @@
 ---
 description: >-
-  How to create a KBase Organization for labs, collaborating researchers,
-  courses, and more.
+  How to access, search, and create KBase Organizations for labs, collaborating
+  researchers, courses, and more.
 ---
 
-# Creating an Organization
+# Organizations
+
+## What is a KBase Org? 
+
+In science, people are members of labs, teams, groups, collaborations, and projects that work together with shared data and analyses. In KBase, organizations are a way for teams of scientists to share their data and associated analyses that are in the Narratives they create with each other as a group. Organization members can see information about the team and a list of the Narratives associated with the organization to which can request access. View-only access is granted upon request while all other access to the Narrative is granted by the Narrative owner. KBase users can be members of more than one organization and Narratives with the associated data might also be added to more than one organization. 
+
+## Creating an Organization
 
 On the Orgs page, click "Create Organization" button on the right side. This will open the Create Your Organization page. Input the information and Save. 
 
@@ -25,4 +31,14 @@ On the Orgs page, click "Create Organization" button on the right side. This wil
 ![](../../.gitbook/assets/orgmenuandediting.gif)
 
 There are options to edit and share an organization after it has been created. 
+
+## Joining an Organization
+
+* If an invitation appears in your feeds, click on the ID of the organization. A window will pop up with options to Accept or Reject the invitation. Click on your preference.
+* Without invitation, search for the organization and click on its name. Click on the blue button \(upper right\) to ‘Join Organization’. You cancel this request if needed. A request to join will be sent to the owner and group administrators. An acceptance or rejection will be added to your Feeds. Note: Private organizations will not appear. 
+* If you know the organization URL \(starts with https://Narrative.kbase.us/\#org/\) go to the webpage and request membership.
+
+
+
+
 
