@@ -85,7 +85,7 @@ FBA models can be uploaded into KBase as either an Excel file \(.xls\) or via a 
 | rxn00001\_c0 | -&gt; | c0 | fig\|211586.9.peg.3751 | Pyrophosphate phosphohydrolase\_c0 |  |  |  | \(1\) cpd00001\[c0\] + \(1\) cpd00012\[c0\] -&gt; \(2\) cpd00067\[c0\] + \(2\) cpd00009\[c0\] |
 | rxn00056\_c0 | &lt;-&gt; | c0 | fig\|211586.9.peg.1038 | Fe\(II\):oxygen oxidoreductase\_c0 |  |  |  | \(4\) cpd00067\[c0\] + \(4\) cpd10515\[c0\] + \(1\) cpd00007\[c0\] &lt;-&gt; \(4\) cpd10516\[c0\] + \(2\) cpd00001\[c0\] |
 
-* **id**: Reaction identifier; see the [KBase Biochemistry reference for a list of reactions](ftp://ftp.kbase.us/assets/KBase_Reference_Data/Biochemistry)
+* **id**: Reaction identifier; see the [KBase Biochemistry reference for a list of reactions](https://github.com/ModelSEED/ModelSEEDDatabase/tree/v1.0/Biochemistry)
 * **direction**: Directionality of chemical reaction specified as forward \(-&gt;\), reversed \(&lt;-\), or equilibrium \(&lt;-&gt;\)
 * **compartment**: Cellular compartment that the reaction takes place in; see the [Metabolic Modeling FAQ for more information](../../workflows/metabolic-models/faq-metabolic-modeling.md)
 * **gpr**: Gene-Protein Reaction in PATRIC identifier format
