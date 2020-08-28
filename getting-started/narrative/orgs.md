@@ -38,6 +38,19 @@ There are options to edit and share an organization after it has been created.
 * Without invitation, search for the organization and click on its name. Click on the blue button \(upper right\) to ‘Join Organization’. You cancel this request if needed. A request to join will be sent to the owner and group administrators. An acceptance or rejection will be added to your Feeds. Note: Private organizations will not appear. 
 * If you know the organization URL \(starts with https://Narrative.kbase.us/\#org/\) go to the webpage and request membership.
 
+## Viewing Narratives in an Org
+
+* If you haven't opened the Narrative before, there will be a "Click for Access/View Access" button
+* Click the button, now you can view the Narrative 
+* To open the Narrative, click on the Narrative name
+* There are several icons that may appear in the Narrative cell:
+  * **globe**  ![](../../.gitbook/assets/public.png) - Narrative is shared publicly with all KBase users
+  * **pencil** ![](../../.gitbook/assets/editacces.png) - Narrative is shared with you with _edit access_
+  * **open lock** ![](../../.gitbook/assets/openlock.png) - Narrative is shared with you with _access_ to edit and share
+  * **closed lock** ![](../../.gitbook/assets/closedlock.png) - private
+  * **eye** ![](../../.gitbook/assets/viewonly.png) - View-Only access
+  * **crown** ![](../../.gitbook/assets/owner.png) - you are the owner
+
 ## Administering an Organization
 
 * Add Narratives by either the "+ Add a Narrative" button or [share Narratives](share.md#users-tab) with an Org. 
