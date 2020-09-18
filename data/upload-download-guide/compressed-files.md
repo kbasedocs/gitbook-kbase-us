@@ -18,8 +18,6 @@ To add compressed data files from your computer to the KBase Narrative, follow t
 
 When files have been uploaded to the Staging Area, compressed files have an outward-facing double arrow icon to the left of the file name. 
 
-![](http://kbase.us/wp-content/uploads/2015/08/image4.png)
-
 Click the uncompress icon to the left of the file name to uncompress the compressed/zip uploaded files before clicking the import icon. To ensure this works, the file extension must match the type of packing/compression. 
 
 

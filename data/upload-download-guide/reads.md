@@ -18,19 +18,15 @@ For this example, we will assume that you have a local copy of the RNA transcrip
 
 Once the file is on your computer, open the __[_Import_ tab in the **Data Browser**](../../getting-started/narrative/add-data.md#uploading-data-from-external-sources) and drag the single-end library into your Staging area.
 
-![](http://kbase.us/wp-content/uploads/2015/08/image6-1.png)
-
 Open the pulldown menu to the right of the filename in your staging area and select “FASTQ Reads."
 
   
 ![](http://kbase.us/wp-content/uploads/2015/08/image4-1.png)  
 Now click the import icon \(up arrow\) to the right of “FASTQ Read”. The slide-out Data Browser will close and an app called “Import FASTQ/SRA File as Reads from Staging Area” will be added to your Narrative.
 
-![](http://kbase.us/wp-content/uploads/2015/08/image2-1.png)
-
 Notice that the name of the FASTA/FASTQ file is already filled in, as is a suggested Reads Object Name that will be created by the import \(you can change that if you like\). Adjust the Sequencing Technology and any of the advanced options if needed. Note that this was a metagenomic sample, we would _uncheck_ the box next to Single Genome. When ready, click the green "Run" button to start the import. When the import is finished, your Data Panel will update to show the new SingleEndLibrary object, and a report will appear in the import app cell.
 
-![](http://kbase.us/wp-content/uploads/2015/08/image10.png)
+![](../../.gitbook/assets/importfastqsraasreadsapp.png)
 
 ### Paired-end library in FASTQ format
 
@@ -42,15 +38,9 @@ Copy the reverse reads file name to paste in a later stage.
 
 Open the pulldown menu to the right of the filename under the _Import As..._ column in your Staging Area and select “FASTQ Reads” for the first file in the pair. Then click the import icon \(up arrow\) to the right of “FASTQ Reads”. The Data Browser slide-out will close and an app called “Import FASTQ/SRA File as Reads from Staging Area” will be added.
 
-![](http://kbase.us/wp-content/uploads/2015/08/image5-1.png)
-
 Notice that the name of the FASTA/FASTQ file is filled in. A suggested Reads Object Name is also created by the import and can be changed.
 
-![](http://kbase.us/wp-content/uploads/2015/08/image3-1.png)
-
 You now need to fill in the name of the second file. In the line for “Reverse/Right FASTA/FASTQ File Path”, either paste or type in the name of the second file. The reverse file name is usually a slight variation of the forward file name.
-
-![](http://kbase.us/wp-content/uploads/2015/08/image1-1.png)
 
 As with the single-end library example, you can make adjustments to the available options. Adjust the Sequencing Technology and any of the advanced options if needed. If this was a single paired-end library, we would have checked the box to the right of Interleaved.
 

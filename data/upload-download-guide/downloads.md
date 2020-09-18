@@ -7,7 +7,9 @@ description: >-
 
 # Downloading Data
 
-## **Download data from your Narrative**
+### **Download data from your Narrative**
+
+{% embed url="https://youtu.be/pEKYZbVkyCc?t=329" %}
 
 * * Locate the data you wish to download in the **Data Panel** under the _Analyze_ tab
   * Hover your mouse over the data object until a “…” icon appears to the right of its name
@@ -32,11 +34,7 @@ _Copy the file to the Staging Area \(version 1\)_
 * Click the seventh icon from the left "Export/Download Data"
 * Select Staging
 
-![Download](http://kbase.us/wp-content/uploads/2019/01/Picture1.png)
-
 This will open the app for “Export Data Object to Staging Area”
-
-![Download](http://kbase.us/wp-content/uploads/2019/01/Picture2.png)
 
 The name of the Input Object is filled in. A default Destination Directory is filled in, but can be edited and changed. A directory will be created in the Staging Area, and all created files will be copied to the directory. The "show advanced" __Parameters may have more options relevant to your data object.
 
@@ -49,8 +47,6 @@ _Copy the file to the Staging Area \(version 2\)_
 ## **Download links in App Cells**
 
 A few apps have file links as part of the output at the bottom of the App Cell.
-
-![Download](http://kbase.us/wp-content/uploads/2019/01/Picture3.png)
 
 Right click on the file name to download and choose “Save Link As" to download and save to your local computer. 
 

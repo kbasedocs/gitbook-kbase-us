@@ -6,6 +6,10 @@ description: >-
 
 # Data Upload and Download Guide
 
+### A Quick Video Tutorial on Uploading and Downloading Data
+
+{% embed url="https://youtu.be/pEKYZbVkyCc" %}
+
 ### Table of Contents
 
 1. [Data Types](data-types.md)

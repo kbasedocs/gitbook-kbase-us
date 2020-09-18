@@ -4,25 +4,27 @@ An assembly file is a single file containing one or more contiguous DNA sequence
 
 “Assembly” is the KBase data type for assembled, unannotated DNA sequence contigs. If you want to upload annotated sequences in GenBank or GFF format, please see the [Genome](genome.md) page.
 
+![](../../.gitbook/assets/uploading-reads%20%281%29.gif)
+
 ## Importing a FASTA formatted assembly file from your computer
 
 For this example, we will use an _Escherichia coli_ K12 MG1655 assembly file from NCBI as the source: [GCF\_000005845.2\_ASM584v2\_genomic.fna.gz](ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF_000005845.2_ASM584v2/GCF_000005845.2_ASM584v2_genomic.fna.gz)
 
 Download that file to your computer. Next open the [_Import_ tab within the **Data Browser**](../../getting-started/narrative/add-data.md) ****and drag the assembly file into the Staging Area.
 
-![](http://kbase.us/wp-content/uploads/2018/02/dragging-assembly-into-staging-1.jpg)
+![](../../.gitbook/assets/dragging-assembly-into-staging-1.jpg)
 
 Open the _Select a format_ pulldown menu to the right of the filename in your Staging Area under the _Import As..._ column select “Assembly.”
 
-![](http://kbase.us/wp-content/uploads/2018/02/Screen-Shot-2018-02-16-at-1.24.22-PM.png)
+![](../../.gitbook/assets/importasassembly.png)
 
 Now click the import icon to the right of “Assembly”. The data slide-out will close and an app called “Import FASTA File as Assembly from Staging Area” will be added to your Narrative.
 
-![](http://kbase.us/wp-content/uploads/2018/02/Screen-Shot-2018-02-16-at-1.27.11-PM.png)
+![](../../.gitbook/assets/importfastafileasassembly%20%281%29.png)
 
 Notice that the name of the gzipped Assembly file is already filled in, as is a suggested name for the Assembly data object that will be created by the import \(you can change the Assembly object name\). Adjust the minimum contig length if needed and then click the green "Run" button to start the import. When the import is finished, your Data Panel will update to show the new Assembly object, and a report will appear in the import app cell.
 
-![](http://kbase.us/wp-content/uploads/2018/02/Screen-Shot-2018-02-16-at-1.36.37-PM.png)
+![](../../.gitbook/assets/importfastaapp_successs.png)
 
 ### **Drag & Drop Limitations**
 

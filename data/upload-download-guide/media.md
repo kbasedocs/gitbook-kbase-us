@@ -40,18 +40,13 @@ For this example, you can click on this link to download a small media file onto
 
 * Open the[ _Import_ tab](../../getting-started/narrative/add-data.md#uploading-data-from-external-sources) in the Data Browser and drag & drop your media file to upload it to your staging area
 * Choose "Media" from the _Import As..._ data type dropdown menu in your Staging Area
-
-![](http://kbase.us/wp-content/uploads/2015/08/Screen-Shot-2018-03-10-at-5.49.25-PM.png)
-
 * Click the upload icon next to the field that now says “Media”
 * An app called “Import Media file \(TSV/Excel\) from Staging Area” will be added to your Narrative
 
-![](http://kbase.us/wp-content/uploads/2015/08/Screen-Shot-2018-03-10-at-5.49.47-PM.png)
+![](../../.gitbook/assets/importmediafilefromstaging_run%20%281%29.png)
 
 * You can change the name that will be assigned to the Media Object if you want. Then click the green "Run" button.
 * After the import process has completed, the Media data object will appear in your Data Panel
-
-![](http://kbase.us/wp-content/uploads/2015/08/Screen-Shot-2018-03-10-at-5.57.29-PM.png)
 
 ## 
 

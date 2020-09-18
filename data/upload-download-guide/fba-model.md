@@ -20,11 +20,9 @@ In order to successfully upload an FBA model into your KBase workspace, you firs
 
 To add the Genome to your Narrative, find the **Data Panel** along the left side of the screen and click the red "Add Data" \(or red “+”\) button. This will open the **Data Browser**. Select the _Example_ tab at the top of the Data Browser, and search for “Bacillus subtillis subsp. Subtillis str. 168” genome. Mouse over the genome name and click the blue "&lt; Add" button.
 
-![Import FBA SBML](http://kbase.us/wp-content/uploads/2015/08/Import-FBA-SMBL.png)
+![](../../.gitbook/assets/import-fba-smbl.png)
 
 After you’ve added the _Bacillus subtilis_ 168 genome to your Data Panel, open the Import tab in the Data Browser and drag the FBA model file into your Staging Area.
-
-![](http://kbase.us/wp-content/uploads/2016/12/image3.png)
 
 ### **Drag & Drop Limitations**
 
@@ -32,11 +30,7 @@ Drag & drop upload from your local computer works for many files, but there is a
 
 Now that the FBA model is in your Staging Area, it’s time to import it into your Narrative as a KBase FBA Model data object. Open the pulldown menu to the right of the filename in your Staging Area and select “FBA Model."
 
-![](http://kbase.us/wp-content/uploads/2016/12/image9.png)
-
 Now click the import icon \(up arrow\) to the right of “FBA Model." The Data Browser slide-out will close and an app called “Import TSV/XLS/SBML File as an FBAModel from Staging Area” will be added to your Narrative.
-
-![](http://kbase.us/wp-content/uploads/2016/12/image4.png)
 
 Notice that the Model file path is filled in, as is a suggested name for the FBA Model data object that will be created by the import \(you can edit this\). For this example, we will change it to "Bacillus\_subtilus\_168.xml\_model."
 
@@ -50,11 +44,7 @@ Click the "+" button to the right of Biomass and type in the name of the first b
 
 Click “show advanced options” and select the Genome \(in this example, the subtilis 168 genome\) which contains features referenced in the FBAModel. Adjust any of the other advanced options if needed, then click the green "Run" button to start the import.
 
-![](http://kbase.us/wp-content/uploads/2016/12/image7.png)
-
 When the import is finished, your Data Panel will update to show the new FBA Model object, and a report will appear in the import app cell.
-
-![](http://kbase.us/wp-content/uploads/2016/12/image8.png)
 
 ## **More Information**
 
@@ -103,13 +93,9 @@ Importing using an Excel file is similar to importing SBML files. The most impor
 
 In the Import app most of the options are the same as for SBML. Select a Genome from the dropdown, add a Biomass \(remember, if the biomass reaction starts with “R\_”, do NOT include the “R\_” when entering the name in this field\) and modify the FBA Model object name. The primary difference is that the default _Model file type_ needs to be changed to “Excel”.
 
-![](http://kbase.us/wp-content/uploads/2016/12/image10.png)
-
 ## **Upload FBA Model from a tab-delimited file**
 
 Importing a Tab-Separated file requires two files, one for reactions and one for compounds. In your Staging area \(which you access from the Import tab in the Data Browser\), go to the line with the name of the reactions file and select “FBA Model” from the dropdown under _Import As..._ column.
-
-![](http://kbase.us/wp-content/uploads/2016/12/image6.png)
 
 Now click the import icon \(up arrow\) to the right of “FBA Model." The Data Browser will then close and an app called “Import TSV/XLS/SBML File as an FBAModel from Staging Area” will be added to your Narrative.
 

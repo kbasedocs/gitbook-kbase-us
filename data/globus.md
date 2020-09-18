@@ -12,6 +12,10 @@ Your local computer can become a Globus endpoint with a [Globus Connect Personal
 
 Once you have a Globus account, link to your KBase account to facilitate file transfers. See [Linking Accounts](../getting-started/sign-up/linking-accounts.md) for further guidance. 
 
+### Video Tutorial on Using Globus 
+
+{% embed url="https://youtu.be/jQJa49OEx7g" caption="A quick 4-min video on using Globus with KBase" %}
+
 ### Starting a Globus Data Transfer
 
 ![](../.gitbook/assets/globusdatatransfer%20%281%29.gif)

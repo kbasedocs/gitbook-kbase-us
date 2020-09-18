@@ -24,16 +24,10 @@ JGI’s Globus service lets users select data from the JGI Genome Portal’s seq
 
 Starting at the [JGI Genome Portal](https://genome.jgi.doe.gov/portal/), search for the genome or project of interest and click on the download link. Click on the green "Agree" button on the next page to accept the data usage policy.
 
-![](http://kbase.us/wp-content/uploads/2015/02/image1.png)
-
-![](http://kbase.us/wp-content/uploads/2019/07/JGI-Globus.png)
-
 Near the top of the download page is a link to JGI’s Globus v.2 service. This version works by 1\) transferring the entire project to a JGI/Globus staging area and 2\) sending you an email when it is ready.
 
 Click on the blue "Download" button and one of two windows will pop up:  
 1. A window to enter a Globus ID or register for a Globus ID
-
-![](http://kbase.us/wp-content/uploads/2019/07/globusv2.png)
 
 **OR**
 
@@ -43,13 +37,9 @@ If you do get the message about disk space, this is an issue between JGI and Glo
 
 Once you successfully enter your Globus account name and hit the blue "Submit" button, your data will be transferred to the JGI staging area. A successful transfer request will look like this:
 
-![](http://kbase.us/wp-content/uploads/2019/07/globus3.png)
-
 You will receive an email from no-reply@genome.jgi.doe.gov with a link for transferring data with Globus. The email also states that **JGI only keeps this link active for 14 days**. After that time, they will remove the data from their staging area to make room for other users.
 
 Clicking on the link in the email will take you to a Globus file transfer window:
-
-![](http://kbase.us/wp-content/uploads/2019/07/globus4.png)
 
 Double click on the directories until you get o the file you want. Click on the file name to highlight it and then click on the "Transfer or Sync to..." link on the right.
 
@@ -58,8 +48,6 @@ Double click on the directories until you get o the file you want. Click on the 
 The newly created JGI endpoint is filled in on the left.
 
 Set the “To” endpoint \(right\) to “KBase Bulk Share”, which is the KBase Staging Area. If you do not see a directory with your name, add /username \(i.e. /landml for the user below\) to the Path for the KBase endpoint.
-
-![](http://kbase.us/wp-content/uploads/2019/07/globus-6.png)
 
 You should then be able to drag data files or folders from the left endpoint to the right one, inside the Globus interface, and the files will be copied to your KBase Staging Area.
 

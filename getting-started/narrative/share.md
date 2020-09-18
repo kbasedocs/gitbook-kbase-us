@@ -1,8 +1,16 @@
+---
+description: How to Share your Narrative workspaces with individuals and Orgs.
+---
+
 # Share Narratives
 
-Narratives are _collaborative_ \(multiple people on your project can work on a Narrative together\), _shareable_ \(you can share your Narrative with specific people or with everyone\), _publishable_ \(a finished Narrative is similar to a research paper, and can be cited as a URL\), and _reproducible_ \(you can repeat or even change another scientist’s computational experiment if they publish it as a Narrative\). We believe that you will ultimately help both yourself and other researchers by sharing your Narratives so that others can see what you were thinking, what you did, and what you concluded from your analyses. However, rest assured that **all of your Narratives are private \(viewable only by you\) until you decide to share them.**
+Narratives are _collaborative_ \(multiple people on your project can work on a Narrative together\), _shareable_ \(you can share your Narrative with specific people or with everyone\), _publishable_ \(a finished Narrative is similar to a research paper, and can be cited as a URL\), and _reproducible_ \(you can repeat or even change another scientist’s computational experiment if they publish it as a Narrative\). We believe that you will ultimately help both yourself and other researchers by sharing your Narratives so that others can see what you were thinking, what you did, and what you concluded from your analyses. However, **all of your Narratives are** _**private \(viewable only to you\)**_ **until you decide to share them.**
 
-You can share a Narrative that you own with any set of people you choose, or with all KBase Users. To share a Narrative, click the “share” button near the top right of the page and select the "Manage Sharing" option in the menu. 
+{% embed url="https://youtu.be/T07ugYD8UpU" caption="A quick 4-min Tutorial on how to share Narratives. " %}
+
+### How to Share a Narrative
+
+You can share a Narrative that you own with any set of people you choose, or with all KBase Users. To share a Narrative, click the “share” button near the top right and select the "Manage Sharing" option in the menu. 
 
 ![](../../.gitbook/assets/sharenarrative.gif)
 
