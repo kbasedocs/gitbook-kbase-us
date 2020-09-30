@@ -58,8 +58,6 @@ Note: Unless you alert another user that you have shared a Narrative with them, 
 
 If you are working on a shared Narrative, and a collaborator is working on it at the same time, watch for a red box at the top of the screen that says “Narrative updated in another session.” You can update to the latest version by refreshing the page, but note that any changes that you made to the Narrative will be lost, and if you try to save your changes, you might overwrite your collaborator’s changes.
 
-
-
 ## Publishing a Static Narrative
 
 You can share you Narrative in publication ready, uneditable format that is accessible outside of KBase by creating a static Narrative. Once you are ready to share the Narrative, there are two steps.
