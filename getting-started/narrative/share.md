@@ -1,5 +1,5 @@
 ---
-description: How to Share your Narrative workspaces with individuals and Orgs.
+description: How to share your KBase Narrative workspaces with individuals and Orgs.
 ---
 
 # Share Narratives
@@ -57,6 +57,24 @@ You can change the access permissions at any time by clicking the Share button a
 Note: Unless you alert another user that you have shared a Narrative with them, they will not notice a newly shared Narrative until they see your shared Narrative in their “Narratives that have been shared with you” tab or click on your name in her collaborator list.
 
 If you are working on a shared Narrative, and a collaborator is working on it at the same time, watch for a red box at the top of the screen that says “Narrative updated in another session.” You can update to the latest version by refreshing the page, but note that any changes that you made to the Narrative will be lost, and if you try to save your changes, you might overwrite your collaborator’s changes.
+
+
+
+## Publishing a Static Narrative
+
+You can share you Narrative in publication ready, uneditable format that is accessible outside of KBase by creating a static Narrative. Once you are ready to share the Narrative, there are two steps.
+
+ 1. Click on the share icon in the menu and click on Manage Sharing in the dropdown menu. In the pop-up window click 'make public?' to change the privacy settings. Click the 'x' icon to close the pop-up window. 
+
+![Gif of opening the Manage Sharing pop-up window following above instructions.](../../.gitbook/assets/sharesettings_makepublic%20%281%29.gif)
+
+2. Return and click on the 'share' icon, go to 'Manage Static Narratives in the   dropdown menu. The 'Static Narratives' pop-up window will open and show the status if any versions of this Narrative have been made static. To create a static Narrative of the current version, click on the blue 'Create static narrative' button. 
+
+![Gif opening &apos;Manage Static Narratives&apos; as instructed above. ](../../.gitbook/assets/makenarrativestatic.gif)
+
+3. Access the static Narrative and share the link by clicking on the 'Existing static Narrative' link within the pop-up window. 
+
+![Image of Static Narratives pop-up window.](../../.gitbook/assets/staticnarrativestatus.png)
 
 ## Create or modify your user profile
 
