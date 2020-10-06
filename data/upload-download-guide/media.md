@@ -11,7 +11,7 @@ If you choose to upload a custom media or use media from an external source, ple
 * **Minflux** \(minimum allowed uptake/excretion of compound\)
 * **Maxflux** \(maximum allowed uptake/excretion of compound\)
 
-A list of all the biochemical _compounds_ in KBase can be downloaded \(as a 4.1 MB Excel file\) [here](ftp://ftp.kbase.us/assets/KBase_Reference_Data/Biochemistry). From the list you can find the IDs for compounds to include in custom media.
+A list of all the biochemical _compounds_ is available in the [KBase ModelSEED Biochemistry Database ](https://github.com/ModelSEED/ModelSEEDDatabase/tree/v1.0/Biochemistry)for a reference list of reactions and compounds or  use the [Biochemistry Search](https://narrative.kbase.us/#biochem-search). From the list you can find the IDs for compounds to include in custom media.
 
 The _concentration_ field is not used by any of the the metabolic modeling tools in KBase. It is best to account for these values accurately so that your media files will retain their utility pending updates.
 

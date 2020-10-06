@@ -13,7 +13,7 @@ A Phenotype Set can be uploaded from a TSV \(tab-separated values\) file with a 
 * **Gene knockout \(geneko\)** – List of genes knocked out in the phenotype; use 'none' for wild-type phenotypes. Gene IDs should be in the same format that appears in your metabolic model \(e.g., kb\|g.220339.CDS.2927\)
 * **Workspace information \(mediaws\)** – Workspace where the media for the phenotype data was loaded into KBase. The workspace information can be found in the Narratives tab by clicking _Show Advanced Controls_ at the end of the list of Narratives
 * **Media** – ID of the media condition loaded in KBase where the phenotype was observed.
-* **Additional Compounds \(addtlCpd\)** – Additional media compound IDs to be added alongside the primary media formulation. See the [KBase Biochemistry Database](ftp://ftp.kbase.us/assets/KBase_Reference_Data/Biochemistry) to download the compounds file and locate specific IDs.
+* **Additional Compounds \(addtlCpd\)** – Additional media compound IDs to be added alongside the primary media formulation. See the [KBase ModelSEED Biochemistry Database ](https://github.com/ModelSEED/ModelSEEDDatabase/tree/v1.0/Biochemistry)for a reference list of reactions and compounds or use [Biochemistry Search](https://narrative.kbase.us/#biochem-search).
 * **Growth** – Indication of whether or not the organism grew in the specified media with the specified knockouts. 1 meaning growth; 0 meaning no growth.
 
 | geneko | mediaws | media | addtlCpd | growth |
