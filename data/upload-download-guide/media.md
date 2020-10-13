@@ -31,14 +31,13 @@ Note: ****When creating a media Excel file, the name of the worksheet that conta
 
 Below is an example of a media file in TSV format. In this case, the compound IDs in the first column are from the [KBase ModelSEED Biochemistry Database](https://github.com/ModelSEED/ModelSEEDDatabase/tree/v1.0/Biochemistry):
 
-| compounds | concentration | minflux | maxflux |
-| :--- | :--- | :--- | :--- |
-| cpd00036 | 0.001 | -100 | 5 |
-| cpd00048 | 0.001 | -100 | 5 |
-| cpd00063 | 0.001 | -100 | 100 |
-| cpd00011 | 0.001 | -100 | 100 |
-| cpd10515 | 0.001 | -100 | 100 |
-| cpd00104 | 0.001 | -100 | 0.1 |
+| compounds | name | formula | minflux | maxflux | concentration |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| cpd00149 | Co2+ | Co | -100 | 100 | 0.001 |
+| cpd00099 | Cl- | Cl | -100 | 100 | 0.001 |
+| cpd00063 | Ca2+ | Ca | -100 | 100 | 0.001 |
+| cpd00007 | O2 | O2 | -100 | 10 | 0.001 |
+| cpd00027 | D-Glucose | C6H12O6 | -100 | 5 | 0.001 |
 
 ## Import media from a TSV or Excel file
 
