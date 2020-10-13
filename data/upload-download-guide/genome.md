@@ -1,3 +1,9 @@
+---
+description: >-
+  Formatting and uploading annotated assemblies and GenBank or GFF and FASTA
+  files.
+---
+
 # Genome
 
 In KBase, a **Genome object is the annotated version of an Assembly** and can encompass several types of feature calls. If you want to upload solely the DNA sequence from a FASTA file \(without annotations\), go to the [Assembly](assembly.md) page.

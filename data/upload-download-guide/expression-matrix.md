@@ -42,9 +42,7 @@ If you want to build an expression matrix with your own data, download an [empty
 
 ## **Additional Information for Plant Expression Data**
 
-For KBase plant genomes, the gene IDs retain the data structure from the external source databases \(Ensembl or Phytozome\) and do not have aliases as mentioned above. When constructing an expression dataset, append your gene IDs with the transcript IDs followed by “.CDS” as seen in the screenshot below. You can check that you have the correct gene IDs using the same method detailed in the **Formatting Expression Matrix TSV files** section.
-
-
+For KBase plant genomes, the gene IDs retain the data structure from the external source databases \(Ensembl or Phytozome\) and do not have aliases as mentioned above. When constructing an expression dataset, append your gene IDs with the transcript IDs followed by “.CDS” as seen in the screenshot below. You can check that you have the correct gene IDs using the same method detailed in the [**Formatting Expression Matrix TSV files**](media.md#formatting-media-tsv-or-excel-files) ****section.
 
 ## Upload an Expression Matrix from a TSV-formatted file
 

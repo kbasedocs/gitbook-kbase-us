@@ -1,7 +1,7 @@
 ---
 description: >-
-  Create a model to predict biomass yield given a certain amount of input
-  nutrient.
+  Data handling to create a model to predict biomass yield given a certain
+  amount of input nutrient.
 ---
 
 # Flux Balance Analysis \(FBA\) Model

@@ -1,3 +1,7 @@
+---
+description: Formatting and uploading FASTQ and SRA reads files.
+---
+
 # FASTQ/SRA Reads
 
 In KBase, reads from FASTQ and SRA files can be imported to create reads library data objects. The objects will either be a SingleEndLibrary or a PairedEndLibrary. The tools in KBase can then be used to assemble reads into an “Assembly” data object or to align reads to an “Assembly." After uploading and importing reads data, you may want to refer to the documentation about [Assembly and Annotation](../../apps/analysis/assembly-and-annotation.md). Reads can also be used in [RNA-seq and expression analysis](../../apps/analysis/expression.md).
@@ -18,9 +22,7 @@ For this example, we will assume that you have a local copy of the RNA transcrip
 
 Once the file is on your computer, open the __[_Import_ tab in the **Data Browser**](../../getting-started/narrative/add-data.md#uploading-data-from-external-sources) and drag the single-end library into your Staging area.
 
-Open the pulldown menu to the right of the filename in your staging area and select “FASTQ Reads."
-
-  
+Open the pulldown menu to the right of the filename in your staging area and select “FASTQ Reads."  
 ![](http://kbase.us/wp-content/uploads/2015/08/image4-1.png)  
 Now click the import icon \(up arrow\) to the right of “FASTQ Read”. The slide-out Data Browser will close and an app called “Import FASTQ/SRA File as Reads from Staging Area” will be added to your Narrative.
 

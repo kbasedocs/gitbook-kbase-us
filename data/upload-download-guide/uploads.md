@@ -1,3 +1,7 @@
+---
+description: Using the Data Browser in the KBase Narrative Interface.
+---
+
 # Uploading Data
 
 ## Importing Data using the Data Browser

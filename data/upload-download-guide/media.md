@@ -1,3 +1,9 @@
+---
+description: >-
+  How to format reaction media files for KBase to use in FBA and modeling
+  analysis.
+---
+
 # Media
 
 KBase offers several options for defining specific growth or culture media for metabolic modeling. Within the Narrative Interface, you can use the [Create or Edit Media](https://narrative.kbase.us/#catalog/apps/fba_tools/edit_media/release) tool to build media based on the hundreds of conditions available in KBase. You also can import your own custom media as a TSV or Excel file using the instructions below.
