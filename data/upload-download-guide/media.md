@@ -36,9 +36,14 @@ Below is an example of a media file in TSV format. In this case, the compound ID
 
 ## Import media from a TSV or Excel file
 
-For this example, you can click on this link to download a small media file onto your computer: [Fprau\_minimal\_media.tsv](http://kbase.us/wp-content/uploads/2018/03/Fprau_minimal_media.tsv)
+For this example, you can click on either link to download a small media file onto your computer:
 
-* Open the[ _Import_ tab](../../getting-started/narrative/add-data.md#uploading-data-from-external-sources) in the Data Browser and drag & drop your media file to upload it to your staging area
+{% file src="../../.gitbook/assets/glucose\_minimal \(1\).xls" caption="Example Excel file" %}
+
+{% file src="../../.gitbook/assets/glucose\_minimal.tsv" caption="Example TSV file" %}
+
+Open the[ _Import_ tab](../../getting-started/narrative/add-data.md#uploading-data-from-external-sources) in the Data Browser and drag & drop your media file to upload it to your staging area
+
 * Choose "Media" from the _Import As..._ data type dropdown menu in your Staging Area
 * Click the upload icon next to the field that now says “Media”
 * An app called “Import Media file \(TSV/Excel\) from Staging Area” will be added to your Narrative
