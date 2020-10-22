@@ -37,6 +37,7 @@
     * [Media](data/upload-download-guide/media.md)
     * [Expression Matrix](data/upload-download-guide/expression-matrix.md)
     * [Phenotype Set](data/upload-download-guide/phenotype-set.md)
+    * [CSV](data/upload-download-guide/csv.md)
     * [Compressed/Zipped Files](data/upload-download-guide/compressed-files.md)
     * [Downloading Data](data/upload-download-guide/downloads.md)
   * [Searching, Adding, and Uploading Data](data/search-add-upload.md)
