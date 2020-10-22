@@ -1,7 +1,7 @@
 ---
 description: >-
-  Prototyping and Usability: Importing multiple files through bulk upload using
-  CSV.
+  Prototyping and Usability: If you are interested in being a usability tester,
+  contact us at engage@kbase.us.
 ---
 
 # CSV - prototyping
