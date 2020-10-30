@@ -10,12 +10,56 @@ description: >-
 
 ## File formatting
 
-CSV files require four columns for uploading sequencing data: 
+Using a CSV to upload treats the CSV as a manifest containing the upload information for multiple files. The CSV must be formatted exactly for the importer to interpret it correctly. The CSV should have four columns. The first column name indicates if the row denotes a file or files to be read or parameters for the import. For example, if you wanted to import a pair of noninterleaved FASTQ reads test\_R1.fastq and test\_R2.fastq as an object called test\_reads, you would have a row to select the files and another row for each the parameters, e.g:
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">
+        <p></p>
+        <p>Non-interleaved FASTQ Reads</p>
+      </th>
+      <th style="text-align:left">test_R1.fastq</th>
+      <th style="text-align:left">test_R2.fastq</th>
+      <th style="text-align:left">test_reads</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Non-interleaved FASTQ Reads</td>
+      <td style="text-align:left">Sequencing Technology</td>
+      <td style="text-align:left">PacBio CLR</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Non-interleaved FASTQ Reads</td>
+      <td style="text-align:left">Single Genome</td>
+      <td style="text-align:left">Yes</td>
+      <td style="text-align:left"></td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+    </tr>
+  </tbody>
+</table>
+
+CSV files require four columns for uploading sequencing data when selecting files: 
 
 1. **File Type** - In the first column, include the file type, which can be SRA Reads, Interleaved FastQ Reads, Non-interleaved FastQ Reads, GenBank Genome, and GFF Genome. 
 2. **File 1** - This column should be the name of the file including the extension and the path to the file, if it is different from the CSV. 
 3. **File 2** \( as needed\) - If a second file is needed, for instance when importing a .gff or non-interleaved reads. Use the same format of file name and extension. 
 4. **Output name** - The fourth column is reserved to include the output for the reads object, which will be the object name to use as the input for analysis Apps. 
+
+For parameters, there should be three columns:
+
+1. **Importer type -** In the first column, declare which importer app the parameter applies to.
+2. **Parameter Name -** The second column is used to indicate which parameter defined on the row
+3. **Parameter Value -** The third column indicates the value of the parameter
+
+Using CSV, files of multiple types can be imported simultaneously, provided the correct formatting is used, e.g.:
 
 | Type | File 1 | File 2 \(if required\) | Output name |
 | :--- | :--- | :--- | :--- |
@@ -25,6 +69,8 @@ CSV files require four columns for uploading sequencing data:
 | GenBank Genome | sam\_smith/folder-files/file.gbk |  | genome\_gbk |
 | GFF Genome | sam\_smith/folder-files/file.gff | sam\_smith/folder-files/file.fasta | genome\_gff |
 | Media File | sam\_smith/folder-files/file.tsv |  | media\_tsv |
+
+You can view a template and example of a valid import CSV here: [https://docs.google.com/spreadsheets/d/1f-XEuXahzAlK2leLdo\_M85X99pt1cfxOMyNxtEelwsw/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1f-XEuXahzAlK2leLdo_M85X99pt1cfxOMyNxtEelwsw/edit?usp=sharing).
 
 ## Importing a CSV file from your computer
 
