@@ -34,7 +34,7 @@ When you click Copy, the Narrative and its associated data objects are copied to
 
 Please be aware that if you copy a copy of a Narrative, some things may not work right in the copy of a copy. We are working on resolving this problem.
 
-You can also copy any Narrative by hovering your cursor over its name in your Narratives panel to reveal the icons and clicking the Copy icon \(the one that looks like two pieces of paper\).
+You can copy any Narrative by hovering your cursor over its name in your Narratives panel to reveal the icons and clicking the Copy icon \(the one that looks like two sheets of paper\).
 
 ![](../../.gitbook/assets/screen-shot-2015-02-10-at-10.18.49-pm.png)
 
