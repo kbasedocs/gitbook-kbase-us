@@ -54,8 +54,6 @@ More details for the SampleSets can be found on the landing page. Click on the S
 
 ### Running workflows
 
-Taxonomies can be assigned using the RDP Classifier App based on the consensus sequences that are supplied. Then, function can be assigned with either [FAPROTAX](https://pages.uoregon.edu/slouca/LoucaLab/archive/FAPROTAX/lib/php/index.php?section=Instructions) or [PICRUSt2](https://www.biorxiv.org/content/10.1101/672295v1.full.pdf). From there, additional statistical comparisons can be calculated, such as clustering \(hierarchical or k-means\), PCA analysis, and more. For a full catalog of Apps, see the utilities section of the App Catalog or filter Apps by input within the Narrative. 
-
 #### SampleSets
 
 Samples can be used as a basis to generate OTU sheet or chemical abundance templates that can be used for amplicon or chemical abundance analysis, respectively, in KBase. This allows the amplicon and chemical abundance analysis to remain linked to the sample metadata and enrich analysis. 
@@ -67,6 +65,8 @@ To preserve SampleSet content, the default setting is for the SampleSets to only
 #### Amplicons
 
 As previously stated, amplicons must include consensus sequences and an amplicon matrix. There are a number of options for generating these matrices, such as QIIME and mothur. We recommend uploading the raw count matrices rather than rarefied or nomalized. KBase can perform these steps on-system, and doing so maintains data provenance for enhanced reproducibility. The Transform Matrix and Rarefy Matrix Apps allow you to perform these steps while maintaining the original matrices as a KBase object and creating a provenance graph to show how the data was transformed. 
+
+Taxonomies can be assigned using the RDP Classifier App based on the consensus sequences that are supplied. Then, function can be assigned with either [FAPROTAX](https://pages.uoregon.edu/slouca/LoucaLab/archive/FAPROTAX/lib/php/index.php?section=Instructions) or [PICRUSt2](https://www.biorxiv.org/content/10.1101/672295v1.full.pdf). From there, additional statistical comparisons can be calculated, such as clustering \(hierarchical or k-means\), PCA analysis, and more. For a full catalog of Apps, see the utilities section of the App Catalog or filter Apps by input within the Narrative. 
 
 #### Metabolomics
 
