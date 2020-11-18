@@ -21,7 +21,7 @@
     * [Browse KBase Analysis Tools](getting-started/narrative/add-apps.md)
     * [Analyze Data Using KBase Apps](getting-started/narrative/analyze-data.md)
     * [Revise Your Narrative](getting-started/narrative/revise.md)
-    * [Formatting Markdown](getting-started/narrative/markdown.md)
+    * [Formatting Markdown Cells](getting-started/narrative/markdown.md)
     * [Share Narratives](getting-started/narrative/share.md)
     * [Access and Copy Narratives](getting-started/narrative/access-and-copy.md)
     * [Organizations](getting-started/narrative/orgs.md)
