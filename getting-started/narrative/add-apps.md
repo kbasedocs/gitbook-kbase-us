@@ -23,7 +23,7 @@ Clicking the more “…” icon opens an app details page featuring an expanded
 All available apps can be found in the App Catalog, which is accessible three ways:
 
 * External [App Catalog](https://kbase.us/applist/) \(no user account or sign-in required for browsing\).
-* From the [Dashboard](https://narrative.kbase.us/#appcatalog) by clicking on the Catalog icon in the Menu
+* From KBase by clicking on the Catalog icon in the Menu
 * From the Narrative Interface, by clicking the right arrow at the top of the Apps Panel.
 
 The App Catalog will slide out to show available apps. \(The “View App Catalog” link at the top opens the App Catalog in a separate web browser window.\)

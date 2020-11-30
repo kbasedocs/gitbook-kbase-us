@@ -2,7 +2,7 @@
 
 ## View Narratives created by or shared with you
 
-The Narratives tab has two sections that list Narratives that you have created \(_My Narratives_\) and, below that list, those that have been shared with you by other users. The _Shared With Me_ list includes only those Narratives that were explicitly shared with you, not those that are viewable by everyone \(public Narratives\). The public Narratives can be accessed from your Dashboard.
+The Narratives tab has two sections that list Narratives that you have created \(_My Narratives_\) and, below that list, those that have been shared with you by other users. The _Shared With Me_ list includes only those Narratives that were explicitly shared with you, not those that are viewable by everyone \(public Narratives\). The public Narratives can be accessed from the Narratives dash.
 
 ![](../../.gitbook/assets/screen-shot-2017-02-02-at-11.14.14-am%20%281%29.png)
 

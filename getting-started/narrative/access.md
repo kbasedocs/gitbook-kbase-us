@@ -2,7 +2,7 @@
 
 The Narrative Interface is available at [narrative.kbase.us](https://narrative.kbase.us/). Once you sign in, you will see your Dashboard.
 
-There are several ways to enter the Narrative Interface from your Dashboard:
+There are several ways to enter the Narrative Interface from KBase:
 
 * Use the menu at the top left of the Dashboard and select “Narrative Interface”.
 * Open a public Narrative or one that has been shared with you

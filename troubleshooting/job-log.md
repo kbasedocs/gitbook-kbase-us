@@ -6,7 +6,7 @@ description: >-
 
 # The Job Log
 
-The Job Log can be found in two places: an app's _Job Status_ tab and the **Job Browser** \(in the Dashboard Menu\).
+The Job Log can be found in two places: an app's _Job Status_ tab and the **Job Browser** \(in the sidebar Menu\).
 
 ### **Job Status tab**
 

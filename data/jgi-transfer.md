@@ -14,7 +14,7 @@ description: >-
 * [Get a KBase account](http://kbase.us/sign-up-for-a-kbase-account/) and link it to Globus \(see the section “Create or modify user profile” [here](../getting-started/narrative/share.md) for help\)
 * [Use either Chrome, Firefox, or Safari browser](../getting-started/browsers.md)
 
-The Search tool on the KBase Dashboard is a quick and easy way to copy public genome reads and assemblies from JGI to your [KBase Staging Area](../getting-started/narrative/add-data.md) \(this page describes the process for transferring those and also private data and annotated genomes\).
+The Search tool on the KBase menu is a quick and easy way to copy public genome reads and assemblies from JGI to your [KBase Staging Area](../getting-started/narrative/add-data.md) \(this page describes the process for transferring those and also private data and annotated genomes\).
 
 ![](../.gitbook/assets/search_dashboardmenu%20%281%29.png)
 

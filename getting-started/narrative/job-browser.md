@@ -1,6 +1,6 @@
 # Job Browser
 
-The Job Browser is one of the buttons on the left sidebar of the Dashboard. In addition to watching jobs within the Narratives, the Job Browser allows you to monitor and manage your jobs. By default, it shows all jobs submitted within the last 48 hours. You can change the timeframe to an hour, a week, a month, or a custom range of dates.
+The Job Browser is one of the buttons on the left sidebar menu in KBase. In addition to watching jobs within the Narratives, the Job Browser allows you to monitor and manage your jobs. By default, it shows all jobs submitted within the last 48 hours. You can change the timeframe to an hour, a week, a month, or a custom range of dates.
 
 ![](../../.gitbook/assets/job-browser.png)
 

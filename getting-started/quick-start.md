@@ -14,18 +14,18 @@ In KBase, you can create shareable, reproducible workflows called **Narratives**
 
 To begin using KBase, you will first need to [Sign up for a KBase Account](sign-up/#signing-up). You can now use your existing Google or Globus username and password to get a free KBase account.
 
-### **Step 2. Sign in to the Dashboard**
+### **Step 2. Sign in to KBase**
 
-After you sign in, you will be taken to your Dashboard \(details of which can be found [here](https://kbase.us/narrative-guide/your-dashboard/)\). From the Dashboard, you can open your existing Narratives, access others that have been shared with you, and create new Narratives. These Narratives can be accessed at [narrative.kbase.us](https://narrative.kbase.us/).
+After you sign in, you will be taken to your Narratives \(details of which can be found [here](https://kbase.us/narrative-guide/your-dashboard/)\). From Narratives, you can open your existing Narratives, access others that have been shared with you, and create new Narratives. These Narratives can be accessed at [narrative.kbase.us](https://narrative.kbase.us/).
 
   
-If you are a new user, your Dashboard will be mostly empty, since you haven’t created any Narratives yet.
+If you are a new user, your Narratives dash will be mostly empty, since you haven’t created any Narratives yet.
 
 ![](../.gitbook/assets/dashboard-quickstart.png)
 
 ### **Step 3. Create a new Narrative**
 
-Click the “+ New Narrative” button in the Dashboard to open a new untitled Narrative. A “Welcome to the Narrative Interface” box offers some suggestions for adding content to your Narrative. You can collapse or delete this box using the “…” dropdown menu in the top right corner.
+Click the “+ New Narrative” button in Narratives to open a new untitled Narrative. A “Welcome to the Narrative Interface” box offers some suggestions for adding content to your Narrative. You can collapse or delete this box using the “…” dropdown menu in the top right corner.
 
 ![](../.gitbook/assets/new-narrative.png)
 
