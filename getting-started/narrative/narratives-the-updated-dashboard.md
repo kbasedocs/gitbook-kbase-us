@@ -1,50 +1,50 @@
----
-description: The Dashboard is updating to 'Narratives'
----
+# Narratives - the updated Dashboard
 
-# Your Dashboard
+Welcome to the New Dashboard! You may notice there are a few changes when you sign in to the Narrative. Let's get you up to speed with a tour. 
 
-After signing in to the Narrative Interface, you will be taken to your Dashboard, which provides an overview of your work in and use of KBase. From the Dashboard you can access existing Narratives, create new ones, contact collaborators, update your profile, and more. 
-
-![](../../.gitbook/assets/dashboard.png)
+![Image of Narratives, formerly &apos;Your Dashboard&apos;](../../.gitbook/assets/narrativesoverview.png)
 
 Main features of the Dashboard are described below.
 
-## What’s in my Dashboard?
+## Updated Tabs
 
-**Narratives**
+**Narratives \('Your Dashboard'\)**
 
-* There are five panels for exploring and locating existing Narratives: **Your Narratives, Tutorial Narratives, Narratives Shared with You,  Public Narratives, and Common Collaborator Network.**
+![Overview gif of selecting tabs and sorting](../../.gitbook/assets/dashboardupdate_narratives%20%281%29.gif)
 
-![](../../.gitbook/assets/narrativesindashboardscroll.gif)
+* There are five tabs for exploring and locating existing Narratives: **My Narratives, Shared with Me, Tutorials,** and **Public.**
+* The most recently updated Narratives appear first, but can be searched or sorted using the dropdown menu - _Recently updated, Least recently updated, Recently created, Oldest, Lexographic \(A-Z\), Reverse Lexicographic \(Z-A\)_.
+* A list of available Narratives will be on the left panel and information on the selected Narrative on the right panel. Here you can see an overview of the Data within the Narrative and a Preview.  
+  * Icons under a Narrative name indicate which apps the Narrative includes, how many markdown and code cells it contains, the number of times the Narrative has been shared, whether there are any running jobs, total running time for all completed jobs, and more.
+* Click on the selected Narrative name to open it.
 
-* The most recently modified Narratives appear first in the panels.
-* Click on any Narrative name to open it.
-* Icons under a Narrative name indicate which apps the Narrative includes, how many markdown and code cells it contains, the number of times the Narrative has been shared, whether there are any running jobs, total running time for all completed jobs, and more.
+![Toggle between Data and Preview or open a Narrative](../../.gitbook/assets/dashboardupdate_narrativeopen.gif)
+
+* Click on the _Gear_ icon next to the Narrative title for management options to: 
+  * Manage Sharing
+  * Copy this Narrative
+  * Rename
+  * Link to Organization
+  * Delete
+
+![](../../.gitbook/assets/managesharing.png)
+
 * You can use the _Search Box_ at the top of each panel to find a particular Narrative within that category.
-* In the **Your Narratives** panel, you can click the blue button at the top to create a new Narrative.
+* Click the green _+ New Narrative_ button at the top to create a new Narrative.
 
-![](../../.gitbook/assets/newnarrative_bar.gif)
+![Click on the + New Narrative button to create a new Narrative](../../.gitbook/assets/dashboardupdate_newnarrative.gif)
 
 * Note that **Public Narratives** have not necessarily been reviewed or tested by the KBase team; they are simply Narratives that have been made public by their owners.
 
-**Common Collaborator Network** 
-
-* People with whom you share Narratives.
-
-**Metrics**
-
-* Snapshot that shows how you’re using the system \(e.g., how many Narratives you’ve created and shared compared to other users\).
-
 ## Where can I go from here?
 
-The Dashboard offers many launch points. To the left of the **Your Narratives** panel you will see seven icons allowing you to toggle between the **Dashboard**, **Catalog**, **Search**, **Jobs**, **Account, and Feed** tabs.
+The Dashboard offers many launch points. To the left of the **Your Narratives** panel you will see seven icons allowing you to toggle between the **Narratives**, **Orgs**, **Catalog**, **Search**, **Jobs**, **Account,** and **Feed** tabs.
 
-![](../../.gitbook/assets/kbasedashboard%20%281%29.png)
+![](../../.gitbook/assets/newmenu.png)
 
-**Dashboard**
+**Narratives**
 
-* Takes you to your **Dashboard**, the features of which are described above.
+* Takes you to your accessible **Narratives**, the features of which are described above.
 
 **Orgs**
 
@@ -83,7 +83,7 @@ The Dashboard offers many launch points. To the left of the **Your Narratives** 
 
 The top-level menu \(accessed by clicking the three small horizontal lines on the upper left of the window\) offers additional possibilities:
 
-![](../../.gitbook/assets/kbasetoplevelmenu.png)
+![](../../.gitbook/assets/toplevelmenu.png)
 
 _Narrative Interface_ goes to the main Narrative Interface, which allows you to create, edit, run, and share Narratives.
 
@@ -100,4 +100,6 @@ _Contact KBase_ lets you [contact the KBase Help Desk](https://kbase.us/contact-
 _Help \("?"_ \) brings you to the [Narrative User Guide](https://kbase.us/narrative-guide/).
 
 In the next section, we’ll discuss [how to create a new Narrative](create.md).
+
+
 

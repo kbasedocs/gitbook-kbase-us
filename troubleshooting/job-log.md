@@ -12,7 +12,7 @@ The Job Log can be found in two places: an app's _Job Status_ tab and the **Job 
 
 The Job Log starts at the bottom with the error highlighted in pink. ****There may be useful information located just above the pink section. 
 
-![](http://kbase.us/wp-content/uploads/2014/10/AppErrorStatus-1.png)
+![](../.gitbook/assets/error_joblog.png)
 
 ### **Job Browser**
 

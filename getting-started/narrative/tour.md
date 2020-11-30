@@ -8,6 +8,12 @@ When you open a new Narrative, a “Welcome” cell will appear at the top, offe
 To start the tour, select “Narrative Tour” from the “?” menu. This new feature walks you through the user interface, pointing out various useful aspects of it. We recommend taking the tour even if you’ve used KBase before, as it will help familiarize you with the new version.
 {% endhint %}
 
+### The Welcome Cell
+
+When you first create a Narrative, you may notice the Markdown cell that says "Welcome to the Narrative". This is a quick link to this documentation site and shares information on any service status for kbase.us. 
+
+![Welcome Cell](../../.gitbook/assets/newwelcomecell.png)
+
 Before adding data and analysis steps to your Narrative, take some time to explore a few high-level features of the Narrative Interface.
 
 ![](../../.gitbook/assets/tour-narrative.png)
@@ -16,7 +22,7 @@ Before adding data and analysis steps to your Narrative, take some time to explo
 
 **1. Top menu**
 
-* _Dashboard_ lets you access your [Dashboard](dashboard.md) from a Narrative.
+* _Dashboard_ lets you access your [Narratives dashboard](narratives-the-updated-dashboard.md) from a Narrative.
 * _About the Narrative_ opens a window describing Narrative Interface properties \(including version number\) and provides a link to notes about the latest KBase release.
 * _Shutdown and Restart_ closes and relaunches the Narrative Interface \(which can be useful if your content fails to load or the Narrative appears frozen\).
 

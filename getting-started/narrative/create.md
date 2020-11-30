@@ -1,6 +1,6 @@
 # Create a Narrative
 
-You can create a new Narrative from your [Dashboard](dashboard.md) by clicking the “+ New Narrative” button, which will take you to the main Narrative Interface. If you are already in the Narrative Interface, you can start a new Narrative by selecting the _Narratives_ tab \(next to _Analyze_\) and clicking the button labeled “+ New Narrative.”
+You can create a new Narrative from your [Narratives](narratives-the-updated-dashboard.md) by clicking the “+ New Narrative” button, which will take you to the main Narrative Interface. If you are already in the Narrative Interface, you can start a new Narrative by selecting the _Narratives_ tab \(next to _Analyze_\) and clicking the button labeled “+ New Narrative.”
 
 ![](../../.gitbook/assets/screen-shot-2017-01-30-at-11.06.58-am.png)
 
