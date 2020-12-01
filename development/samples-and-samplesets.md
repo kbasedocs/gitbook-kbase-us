@@ -8,7 +8,7 @@ If you are interested in beta testing these Apps, please contact us at engage@kb
 
 In KBase, a Sample is an entity that represents some measure material from an experiment. It has a unique ID internal to KBase, aliases, related samples, and structured metadata. Samples only occur within a Narrative as a SampleSet, but the same Sample may be shared by multiple SampleSets. 
 
-One key feature of KBase if the ability to link the same data across many users and analyses. To do this, sample aliases allow the same data uploaded by multiple people to be linked and connect different analyses of the same data. These aliases can also be used to link Samples in KBase with other methods of sample registration, such as ESS-dive or SESAR. 
+One key feature of KBase if the ability to link the same data across many users and analyses. To do this, sample aliases allow the same data uploaded by multiple people to be linked and connect different analyses of the same data. These aliases can also be used to link Samples in KBase with other methods of sample registration, such as ESS-DIVE or SESAR. 
 
 Because the metadata about a sample is critically important for, KBase provides the option to upload metadata spreadsheets to link to Samples. This allows for more detailed analysis across Samples, as shown below.
 
