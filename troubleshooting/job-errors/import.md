@@ -207,7 +207,7 @@ _Recheck the file format and try resubmitting the job._
 
 UE: The coordinates for the feature are outside the bounds of the contig.
 
- _Recheck the file where indicated and try resubmitting the job._ 
+ _Recheck the file where indicated and try resubmitting the job. In rare instances, the GFF file contains a feature that wraps around the 0 position and the coordinates look like the feature goes off the end of the sequence. The options are to 1\) remove the feature from the GFF file, 2\) edit the feature so that it is in two parts, or 3\) find a GenBank formatted version of the file and resubmit._ 
 
 ## [Import Media file \(TSV/Excel\) from Staging Area](https://narrative.kbase.us/#catalog/apps/kb_uploadmethods/import_tsv_excel_as_media_from_staging)
 
