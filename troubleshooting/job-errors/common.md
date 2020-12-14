@@ -112,7 +112,7 @@ _If you find something that works, no need to try the others._
 
 UE: The error generally indicate a firewall issue. 
 
-_Please refer to this question on the Globus forum for a similar question with its solution. If you ar_ $$a = b$$ _e working from home, you can view the Globus documentation for configuring the firewall. If you are on an institution network, you'll probably have to request an exception from IT._
+_Please refer to this question on the Globus forum for a similar question with its solution. If you are working from home, you can view the Globus documentation for configuring the firewall. If you are on an institution network, you'll probably have to request an exception from IT._
 
 
 
