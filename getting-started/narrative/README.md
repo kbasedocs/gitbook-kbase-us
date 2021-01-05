@@ -6,7 +6,7 @@ description: A more leisurely introduction to KBase's Narrative interface
 
 What is in here: 
 
-1. [About this user guide](about.md)
+1. [About this guide](about.md)
 2. [Accessing the Narrative](access.md)
 3. [Tour the Narrative](tour.md)
 4. [Narrative Dashboard](dashboard.md)
