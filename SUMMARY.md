@@ -14,7 +14,7 @@
     * [Access the Narrative Interface](getting-started/narrative/access.md)
     * [Tour the Narrative Interface](getting-started/narrative/tour.md)
     * [Your Dashboard](getting-started/narrative/dashboard.md)
-    * [Narratives - the updated Dashboard](getting-started/narrative/narratives-the-updated-dashboard.md)
+    * [Narratives - the updated Dashboard](getting-started/narrative/narratives.md)
     * [Create a Narrative](getting-started/narrative/create.md)
     * [Explore Data](getting-started/narrative/explore-data.md)
     * [Add Data to Your Narrative](getting-started/narrative/add-data.md)

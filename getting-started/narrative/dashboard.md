@@ -4,7 +4,7 @@ description: The Dashboard is updating to 'Narratives'
 
 # Your Dashboard
 
-Dashboard will be updating to [Narratives](narratives-the-updated-dashboard.md). Stay updated by [following us on Twitter ](https://twitter.com/DOEKBase)and kbase.us. 
+Dashboard will be updating to [Narratives](narratives.md). Stay updated by [following us on Twitter ](https://twitter.com/DOEKBase)and kbase.us. 
 
 After signing in to the Narrative Interface, you will be taken to your Dashboard, which provides an overview of your work in and use of KBase. From the Dashboard you can access existing Narratives, create new ones, contact collaborators, update your profile, and more. 
 
@@ -14,7 +14,7 @@ Main features of the Dashboard are described below.
 
 ## What’s in my Dashboard?
 
-\*\*\*\*[**Narratives**](narratives-the-updated-dashboard.md)\*\*\*\*
+\*\*\*\*[**Narratives**](narratives.md)\*\*\*\*
 
 * There are five panels for exploring and locating existing Narratives: **Your Narratives, Tutorial Narratives, Narratives Shared with You,  Public Narratives, and Common Collaborator Network.**
 
