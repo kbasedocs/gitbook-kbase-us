@@ -54,7 +54,6 @@
     * [Metagenomics & Community Exploration](apps/analysis/metagenomics.md)
     * [Transcriptomics and Expression](apps/analysis/expression.md)
   * [Apps in Beta](apps/beta.md)
-  * [App Catalog](apps/catalog.md)
 * [Running Common Workflows](workflows/README.md)
   * [Constructing Metabolic Models](workflows/metabolic-models/README.md)
     * [Constructing and Analyzing Metabolic Flux Models of Microbial Communities](workflows/metabolic-models/metabolic-flux-models.md)

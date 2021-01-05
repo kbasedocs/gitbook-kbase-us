@@ -53,7 +53,7 @@ Some apps have optional “advanced options” that you can reveal by clicking o
 
 As you add to your Narrative, be sure to save your work frequently, using the Save button at the top right of the screen.
 
-## Run the app
+## Run the App
 
 When you have filled in all the required fields, the _Run_ button on the left side of the app will be enabled; click it to start running the app. Once clicked, the green _Run_ button will turn to a red _Cancel_ button. When the analysis starts running, you will see information in the _Job Status_ tab_**.**_
 
@@ -89,9 +89,9 @@ Once you have reviewed your results, you can use your newly generated data in ad
 
 For example, our annotated genome can be used in a number of analyses because it now includes the standard KBase annotations. If you click on the genome in the Data Panel, you see several apps that apply. Among them are the [_Insert Genomes into Species Tree_ App](https://kbase.us/insert-genomes-into-species-tree-app/) that constructs a phylogenetic tree allowing you to see species closely related to your genome. You also can use the [_Build a Metabolic Model_ App](https://kbase.us/metabolic-modeling-in-kbase/) to draft a metabolic model from the annotated genome.
 
-## **Re-run apps with the same or different parameters**
+## **Re-run Apps with the same or different parameters**
 
-App input cells that have already been run have a “Reset” button that allows you to redo the analysis, with the option to change any of the parameter settings \(including, perhaps, the input data\) before rerunning. Rerunning an app will overwrite the information in the app cells, but will not overwrite any data objects in your Narrative _unless_ you use the same output object name again.
+App input cells that have already been run have a “Reset” button that allows you to redo the analysis, with the option to change any of the parameter settings \(including, perhaps, the input data\) before rerunning. Rerunning an App will overwrite the information in the App cells, but will not overwrite any data objects in your Narrative _unless_ you use the same output object name again.
 
 ## **Report errors**
 

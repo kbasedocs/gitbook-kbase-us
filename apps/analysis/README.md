@@ -2,7 +2,13 @@
 
 **KBase Apps** are analysis tools that you can use in KBase. Apps interoperate seamlessly to enable a range of scientific workflows \(see figure below\). Some of the apps were written by KBase scientists and developers; others are third-party tools that were integrated into KBase with our [Software Developer Kit \(SDK\)](../../development/kbase-sdk.md). The number of apps available in KBase increases as members of the community use our SDK to integrate their analysis tools into the KBase platform.
 
-The [**App Catalog**](https://kbase.us/applist) lists all of the currently available apps. The majority of them fall into the following categories:
+### The App Catalog lists currently available Apps. 
+
+* External [App Catalog](https://kbase.us/applist/) \(no user account or sign-in required for browsing\).
+* Within KBase by clicking on the Catalog icon in the Menu ![](../../.gitbook/assets/catalog_dashboardmenu%20%281%29.png) 
+* In a Narrative by clicking the right arrow at the top of the Apps Panel.
+
+The majority of KBase Apps fall into the following categories:
 
 * [Assembly](assembly-and-annotation.md#assembly)
 * [Annotation](assembly-and-annotation.md#annotation)
@@ -43,11 +49,5 @@ By default, the apps are sorted by category. Try the options in the “Organize 
 
 **More info**
 
-For more information about using the App Catalog, see the [Narrative Interface User Guide](../../getting-started/narrative/).  
-
-
-**App replacement and updates**
-
-Some old \(legacy\) apps have been replaced with new equivalents. Please see the [App Replacement page]() for more information.  
-
+For more information about using the App Catalog, see the [Narrative Interface User Guide](../../getting-started/narrative/).
 

@@ -1,6 +1,6 @@
 # Narratives - the updated Dashboard
 
-Welcome to the New Dashboard! You may notice there are a few changes when you sign in to the Narrative. Let's get you up to speed with a tour. 
+Welcome to the Narratives! You may notice there are a few changes when you sign in to narrative.kbase.us. Let's get you up to speed with a tour. 
 
 ![Image of Narratives, formerly &apos;Your Dashboard&apos;](../../.gitbook/assets/narrativesoverview.png)
 
