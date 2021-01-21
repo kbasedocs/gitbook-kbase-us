@@ -78,7 +78,7 @@ You can share you Narrative in publication ready, uneditable format that is acce
 
 Every KBase User has a user profile. Filling in your KBase user profile helps you become part of the social web that KBase is building, making it easier to find and collaborate with other scientists and share data and Narratives. You are not required to complete your user profile in order to use KBase, but we encourage everyone to do so.
 
-To see and edit your user profile, go to your Dashboard and click the “Account” button on the left side. Your profile page will open, looking something like the screenshot below. You will be able to enter or change information including your organization, department, job title, research interests, avatar, and more. Required fields are marked with a red "\*." You must fill in all required fields in order to save your profile \(using the Save button on the upper right of the page\).
+To see and edit your user profile, go to the Menu sidebar on the left and click the “Account” button on the left side. Your profile page will open, looking something like the screenshot below. You will be able to enter or change information including your organization, department, job title, research interests, avatar, and more. Required fields are marked with a red "\*." You must fill in all required fields in order to save your profile \(using the Save button on the upper right of the page\).
 
 ![](../../.gitbook/assets/accountselect.gif)
 

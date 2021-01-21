@@ -22,7 +22,7 @@ Before adding data and analysis steps to your Narrative, take some time to explo
 
 **1. Top menu**
 
-* _Narratives - Dashboard_ lets you access your [Narratives dashboard](narratives.md) from a Narrative.
+* _Narratives - Dashboard_ lets you access other [Narratives](narratives.md) from a Narrative.
 * _About the Narrative_ opens a window describing Narrative Interface properties \(including version number\) and provides a link to notes about the latest KBase release.
 * _Shutdown and Restart_ closes and relaunches the Narrative Interface \(which can be useful if your content fails to load or the Narrative appears frozen\).
 

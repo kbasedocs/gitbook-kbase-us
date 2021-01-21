@@ -49,7 +49,7 @@ Once you’ve checked both of the checkboxes, you will be able to click the blue
 
 ![](../../.gitbook/assets/screen-shot-2017-05-31-at-4.26.30-pm.png)
 
-Once you click that Continue button, you’re done – you should see your KBase Dashboard. 
+Once you click that Continue button, you’re done – you should see the KBase User Interface landing page. 
 
 Note – the system changes mean that your profile may look a bit bare-bones. Please fill in the information in your profile when you get a chance, and choose or upload a new avatar if you like.
 
@@ -73,7 +73,7 @@ Most of the time, you will not need to sign into Globus \(as it will remember yo
 
 ![](../../.gitbook/assets/screen-shot-2017-06-07-at-10.21.16-am.png)
 
-4. Click the blue button at the bottom that says “Sign in to KBase account \[username\]” and you will be at your KBase dashboard!
+4. Click the blue button at the bottom that says “Sign in to KBase account \[username\]” and you will be at your KBase landing page!
 
 Note that if you had signed out completely from Globus after the last time you used KBase, you might have to go through two extra steps to sign-in to Globus. Click "Continue" and then proceed to enter Globus Log in information. 
 

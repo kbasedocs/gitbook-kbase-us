@@ -10,7 +10,7 @@ On the left sidebar menu, click the “Account” icon, and then choose the tab 
 
 At the bottom of the tab, choose an account type from the pulldown list of identity providers, and then click the “Link” button.
 
-![](../../.gitbook/assets/kbaselinkaccounts.gif)
+![](../../.gitbook/assets/linkaccountsdropdown.png)
 
 The next screen will prompt you to Sign in using your to the chosen account type to link.
 
@@ -28,7 +28,7 @@ On the left sidebar of your menu, click the “Account” icon, and then choose 
 
 At the bottom of the tab, choose “Google” from the pulldown list of identity providers.
 
-![](../../.gitbook/assets/linkedaccounts_signin-with-google.png)
+![](../../.gitbook/assets/linkaccountsdropdown_google.png)
 
 Then click the “Link” button. The next screen will prompt you to choose a Google account to link \(some people have more than one\).
 
