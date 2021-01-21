@@ -6,7 +6,7 @@ To do this, ****first sign into KBase and go through the normal sign-in process.
 
 On the left sidebar menu, click the “Account” icon, and then choose the tab labeled “Linked Sign-In Accounts”.
 
-![](../../.gitbook/assets/kbase_linkaccounts.gif)
+![](../../.gitbook/assets/narratives_linkingaccounts.gif)
 
 At the bottom of the tab, choose an account type from the pulldown list of identity providers, and then click the “Link” button.
 
@@ -24,7 +24,7 @@ To do this, you must first sign in to KBase with your current KBase account logi
 
 On the left sidebar of your menu, click the “Account” icon, and then choose the tab labeled “Linked Sign-In Accounts”.
 
-![](../../.gitbook/assets/kbase_linkaccounts%20%281%29.gif)
+![](../../.gitbook/assets/narratives_linkingaccounts.gif)
 
 At the bottom of the tab, choose “Google” from the pulldown list of identity providers.
 

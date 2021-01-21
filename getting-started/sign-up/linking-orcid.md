@@ -10,7 +10,7 @@ If you are already a KBase User, ****first sign into KBase through your Globus o
 
 On the left sidebar menu, click the “Account” icon, and then choose the tab labeled “Linked Sign-In Accounts”.
 
-![](../../.gitbook/assets/kbase_linkaccounts.gif)
+![](../../.gitbook/assets/narratives_linkingaccounts.gif)
 
 At the bottom of the tab, choose "[![](../../.gitbook/assets/orcidid_icon128x128.png)](https://orcid.org/) ORCiD” from the pulldown list of identity providers, and then click the “Link” button.
 

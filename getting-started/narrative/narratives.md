@@ -1,16 +1,14 @@
 # Narratives - the updated Dashboard
 
-Welcome to the Narratives! You may notice there are a few changes when you sign in to narrative.kbase.us. Let's get you up to speed with a tour. 
+Welcome to Narratives! You may notice there are a few changes when you sign in to narrative.kbase.us. Let's get you up to speed with a tour. 
 
-![Image of Narratives, formerly &apos;Your Dashboard&apos;](../../.gitbook/assets/narrativesoverview.png)
-
-Main features of the Dashboard are described below.
+{% embed url="https://youtu.be/Nb5lTlB0NBo" %}
 
 ## Updated Tabs
 
 **Narratives \('Your Dashboard'\)**
 
-![Overview gif of selecting tabs and sorting](../../.gitbook/assets/dashboardupdate_narratives%20%281%29.gif)
+![Overview gif of selecting tabs and sorting](../../.gitbook/assets/narratives_overview.gif)
 
 * There are five tabs for exploring and locating existing Narratives: **My Narratives, Shared with Me, Tutorials,** and **Public.**
 * The most recently updated Narratives appear first, but can be searched or sorted using the dropdown menu - _Recently updated, Least recently updated, Recently created, Oldest, Lexographic \(A-Z\), Reverse Lexicographic \(Z-A\)_.
@@ -18,7 +16,7 @@ Main features of the Dashboard are described below.
   * Icons under a Narrative name indicate which apps the Narrative includes, how many markdown and code cells it contains, the number of times the Narrative has been shared, whether there are any running jobs, total running time for all completed jobs, and more.
 * Click on the selected Narrative name to open it.
 
-![Toggle between Data and Preview or open a Narrative](../../.gitbook/assets/dashboardupdate_narrativeopen.gif)
+![Toggle between Data and Preview or open a Narrative](../../.gitbook/assets/narratives_preview.gif)
 
 * Click on the _Gear_ icon next to the Narrative title for management options to: 
   * Manage Sharing
