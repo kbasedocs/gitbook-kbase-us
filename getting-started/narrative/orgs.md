@@ -14,7 +14,7 @@ In science, people are members of labs, teams, groups, collaborations, and proje
 
 On the Orgs page, click "Create Organization" button on the right side. This will open the Create Your Organization page. Input the information and Save. 
 
-![](../../.gitbook/assets/creatinganorg.gif)
+![](../../.gitbook/assets/createanorg.gif)
 
 ### To create an Organization, you will need: 
 
@@ -28,7 +28,7 @@ On the Orgs page, click "Create Organization" button on the right side. This wil
 
 ### Editing an Organization
 
-![](../../.gitbook/assets/orgmenuandediting.gif)
+![](../../.gitbook/assets/editanorg_updated.gif)
 
 There are options to edit and share an organization after it has been created. 
 
