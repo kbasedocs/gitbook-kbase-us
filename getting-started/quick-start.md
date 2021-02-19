@@ -4,7 +4,7 @@ description: 'A fast, one-page introduction to KBase''s narrative interface'
 
 # Narrative Quick Start
 
-{% embed url="https://youtu.be/it3InSjU2b8" caption="A quick 4-min video guide to the KBase Narrative" %}
+{% embed url="https://youtu.be/WKKKXg55hs0" caption="Narrative Quick Start Guide" %}
 
 ### **What is a Narrative?**
 
