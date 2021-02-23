@@ -85,7 +85,7 @@ To see the specific compounds that got consumed/excreted when a model was gapfil
 
 If you leave the Media field blank, “complete” media will be used by default. Please see the next question for more details about complete media. When used on complete media, the gapfilling app is not limited by the transport reactions already available in the model and therefore invariably will add more transport reactions to the model.
 
-In addition to the default complete media, KBase provides more than 500 media conditions you can use for gapfilling. The [Narrative Interface User Guide](http://kbase.us/narrative-guide/add-data-to-your-narrative/) describes how to add these media and other data to your Narrative. You can also [upload your own custom media condition](http://kbase.us/data-upload-download-guide/media/).
+In addition to the default complete media, KBase provides more than 500 media conditions you can use for gapfilling. The [Narrative Interface User Guide](http://kbase.us/narrative-guide/add-data-to-your-narrative/) describes how to add these media and other data to your Narrative. You can also [upload your own custom media condition](../../data/upload-download-guide/media.md).
 
 Choosing minimal media for the initial gapfilling is often a good idea because it ensures that the gapfilling algorithm will add the maximal set of reactions to the genome-inferred model. This will allow the model to biosynthesize many common substrates necessary for growth—substrates that otherwise would be present in the media. The gapfilling algorithm looks for incomplete metabolic pathways and tries to make an informed guess as to which protein-encoding genes may be responsible for the missing step in the pathway. This process works best when informed by the a priori knowledge that a particular organism can grow on a defined media type \(e.g., a model of _Helicobacter pylori_, an endosymbiont, might require a media containing substrates it can’t biosynthesize in vivo.\) Thus, specifying a growth media is beneficial.
 
@@ -229,13 +229,13 @@ Once you have built a metabolic model, you can perform flux balance analysis \( 
 
 To determine whether your organism grew in the media that you specified for FBA, find the Overview tab in the FBA results table. Among the summary information in this tab is the **objective value**. This value is is significant because it represents the maximum achievable flux through the biomass reaction of the metabolic model. An objective value of 0 \(or something very close to 0\) means that the model did not grow on the specified media.
 
-For more information on the “Run Flux Balance Analysis” app, see the [app detail page](https://narrative.kbase.us/#narrativestore/method/run_flux_balance_analysis).
+For more information on the [Run Flux Balance Analysis](https://kbase.us/applist/apps/fba_tools/run_flux_balance_analysis/release) App. 
 
 ### **Q: After running flux balance analysis, what does the sign of a reaction flux mean?**
 
 A positive flux value indicates that a reaction is proceeding from left to right as written in the equation, while a negative value indicates the reaction is running from right to left.
 
-For example, the following table shows a portion of the “Reaction fluxes” tab from the output of the “[Run Flux Balance Analysis](http://kbase.us/run-flux-balance-analysis-method/)” app. Here, the positive flux in the “Flux” column indicates that rxn00543 is proceeding from left to right—that is, ethanol is being oxidized to acetaldehyde.
+For example, the following table shows a portion of the “Reaction fluxes” tab from the output of the [Run Flux Balance Analysis](https://kbase.us/applist/apps/fba_tools/run_flux_balance_analysis/release) App. Here, the positive flux in the “Flux” column indicates that rxn00543 is proceeding from left to right—that is, ethanol is being oxidized to acetaldehyde.
 
 | **Reaction** | **Name** | **Flux** | **Min flux \(Lower bound\)** | **Max flux \(Upper bound\)** | **Class** | **Equation** |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -258,7 +258,7 @@ To constrain the flux of a reaction, you can export your model, edit it, and re-
 
 Alternatively, in the case of a transport reaction, you can change the uptake of a media compound by editing the media object itself. For example, setting the maximum flux of any media compound to zero \(or a small number\) will prevent its uptake. This is contingent, of course, on the media itself being defined, so if you performed gapfilling on the default complete media, you will have to re-gapfill on an actual defined media object of your choice.
 
-Also, in the “[Run Flux Balance Analysis](http://kbase.us/run-flux-balance-analysis-method/)” app, you can change the “bounds” on a specific reaction to whatever you want using the “Custom flux bounds” field under advanced options.
+Also, in the [Run Flux Balance Analysis](https://kbase.us/applist/apps/fba_tools/run_flux_balance_analysis/release) App, you can change the “bounds” on a specific reaction to whatever you want using the “Custom flux bounds” field under advanced options.
 
 Note that the help text next to the custom flux field provides an example of the proper format for setting bounds:  
 
@@ -273,7 +273,7 @@ So to set “rxn00006” at a flux of “5,” you would set this custom bound: 
 
 ### **Q. How can I edit my media or metabolic model \(add or delete reactions, compounds, or biomass\)?**
 
-After you have drafted your metabolic model with the Build Metabolic Model app, you can use the [Gapfill Metabolic Model App](https://narrative.kbase.us/#catalog/apps/fba_tools/gapfill_metabolic_model/release) to automatically fill in the gaps of necessary reactions for completing the pathway for a set of specified reactions \(this can be either the biomass producing reaction or other specified pathways\). You can alternatively use our [Edit Media](https://narrative.kbase.us/#catalog/apps/fba_tools/edit_media/release) or [Edit Metabolic Model](https://narrative.kbase.us/#catalog/apps/fba_tools/edit_metabolic_model/06cbf0f35c455f877bf9bb4a7bd5bc18cdb74de8) apps. This works best if the reactions you're adding at ModelSEED reactions \(ID looks like rxn\#\#\#\#\#\). In those cases, you can manually list several reactions to add by ID and associate genes and specify directionality. You can add completely custom reactions as well, but this is harder.
+After you have drafted your metabolic model with the Build Metabolic Model app, you can use the [Gapfill Metabolic Model App](https://kbase.us/applist/apps/fba_tools/gapfill_metabolic_model/release) to automatically fill in the gaps of necessary reactions for completing the pathway for a set of specified reactions \(this can be either the biomass producing reaction or other specified pathways\). You can alternatively use our [Edit Media](https://kbase.us/applist/apps/fba_tools/edit_media/release) or [Edit Metabolic Model](https://kbase.us/applist/apps/fba_tools/edit_metabolic_model/release) Apps. This works best if the reactions you're adding at ModelSEED reactions \(ID looks like rxn\#\#\#\#\#\). In those cases, you can manually list several reactions to add by ID and associate genes and specify directionality. You can add completely custom reactions as well, but this is harder.
 
 ### **Q: Why did gapfilling fail for a model containing a custom media or custom biomass reaction? What can I do about it?**
 
