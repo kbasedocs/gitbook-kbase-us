@@ -18,7 +18,7 @@ Yes, but the results are unstable currently above 200 M reads \(Illumina 150bp x
 
 ## JGI/IMG recommends KBase for genome assembly before submission to them for annotation. Is there a direct way to import to JGI or do we have to save FASTA files and submit separately to JGI/IMG?
 
- The webpage [http://kbase.us/transfer-jgi-data/](http://kbase.us/transfer-jgi-data/) takes you through the process. You can also start from the KBase search and use the JGI tab.
+[This page on transferring data from JGI to KBase](../../data/jgi-transfer.md) takes you through the process. You can also start from the KBase search and use the JGI tab.
 
 ## What is the typical threshold to determine whether our assembled genome is contaminated?
 
