@@ -181,7 +181,7 @@ The combination of maximum and minimum flux will dictate whether uptake and/or e
 
 If you specify a range between “minflux” and “maxflux,” then you will need to look at the list of “Exchange Fluxes” in the output after running flux balance analysis to observe what actually happened during the growth simulation.
 
-Please see the “Media” section of the Data Guide \([http://kbase.us/data-upload-download-guide/media/](http://kbase.us/data-upload-download-guide/media/)\) for more information on how to configure your media file.
+Please see the [Media section of the Data Guide](../../data/upload-download-guide/media.md) for more information on how to configure your media file.
 
 ### **Q: How are units of flux measured within the media?**
 
