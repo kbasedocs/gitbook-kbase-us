@@ -83,7 +83,11 @@ Yes, the relevant Github repo for each App can be found by following the links i
 
 Click on ‘Click for Access’ and you are automatically granted View access to the Narrative. You can then click on the linked Narrative to open. 
 
+## What if I lose access to my account? 
 
+You can log into KBase through Google, Globus, and ORCiD. It is recommended to always have at least one personal account linked to your KBase account, so that in the event you lose access to an identity supplier i.e., Google, Globus, or ORCiD because of an email provider change, then you will still have another method to login. 
+
+If you do lose access completely, please submit a ticket through the [Help Board](../troubleshooting/support.md#contact-us). 
 
   
 
