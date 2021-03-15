@@ -10,6 +10,8 @@ description: >-
 
 In science, people are members of labs, teams, groups, collaborations, and projects that work together with shared data and analyses. In KBase, organizations are a way for teams of scientists to share their data and associated analyses that are in the Narratives they create with each other as a group. Organization members can see information about the team and a list of the Narratives associated with the organization to which can request access. View-only access is granted upon request while all other access to the Narrative is granted by the Narrative owner. KBase users can be members of more than one organization and Narratives with the associated data might also be added to more than one organization. 
 
+{% embed url="https://youtu.be/fZ7CMggm1qM" caption="7 minute video tutorial on KBase Organizations" %}
+
 ## Creating an Organization
 
 On the Orgs page, click "Create Organization" button on the right side. This will open the Create Your Organization page. Input the information and Save. 
