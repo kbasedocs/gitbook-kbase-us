@@ -36,7 +36,7 @@ As with all data in KBase, Samples data must be uploaded to the staging area and
 
 When analyzing amplicon data, the consensus sequence for each OTU must be included for some steps of analysis. This data should be added as a separate FASTA file where each sequence ID exactly matches the OTU ID in the amplicon matrix. 
 
-{% file src="../.gitbook/assets/amplicon\_example.zip" caption="Example of test amplicon matrix with consensus FASTA" %}
+{% file src="../../.gitbook/assets/amplicon\_example.zip" caption="Example of test amplicon matrix with consensus FASTA" %}
 
 #### Metabolomics Data
 

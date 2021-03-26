@@ -80,7 +80,8 @@
 * [Developing Apps](development/README.md)
   * [The KBase SDK](development/kbase-sdk.md)
   * [KBase GitHub Repository](development/github-repository.md)
-  * [Samples in KBase - Under Development](development/samples-and-samplesets.md)
+  * [Samples in KBase - Under Development](development/samples-and-samplesets/README.md)
+    * [SESAR Samples](development/samples-and-samplesets/sesar-samples.md)
 
 ## External Links
 
