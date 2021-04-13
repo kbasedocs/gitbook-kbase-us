@@ -12,7 +12,7 @@ To start the tour, select “Narrative Tour” from the “?” menu. This new f
 
 When you first create a Narrative, you may notice the Markdown cell that says "Welcome to the Narrative". This is a quick link to this documentation site and shares information on any service status for kbase.us. 
 
-![Welcome Cell](../../.gitbook/assets/newwelcomecell.png)
+![Welcome Cell](../../.gitbook/assets/narrative_welcomecell.png)
 
 Before adding data and analysis steps to your Narrative, take some time to explore a few high-level features of the Narrative Interface.
 

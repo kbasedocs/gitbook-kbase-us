@@ -64,11 +64,11 @@ You can share you Narrative in publication ready, uneditable format that is acce
 
  1. Click on the share icon in the menu and click on Manage Sharing in the dropdown menu. In the pop-up window click 'make public?' to change the privacy settings. Click the 'x' icon to close the pop-up window. 
 
-![Gif of opening the Manage Sharing pop-up window following above instructions.](../../.gitbook/assets/sharesettings_makepublic%20%281%29.gif)
+![Gif of opening the Manage Sharing pop-up window](../../.gitbook/assets/narrativesharing_makepubllic.gif)
 
 2. Return and click on the 'share' icon, go to 'Manage Static Narratives in the   dropdown menu. The 'Static Narratives' pop-up window will open and show the status if any versions of this Narrative have been made static. To create a static Narrative of the current version, click on the blue 'Create static narrative' button. 
 
-![Gif opening &apos;Manage Static Narratives&apos; as instructed above. ](../../.gitbook/assets/makenarrativestatic.gif)
+![Gif of creating a Static Narrative](../../.gitbook/assets/narrativessharing_makestatic.gif)
 
 3. Access the static Narrative and share the link by clicking on the 'Existing static Narrative' link within the pop-up window. 
 

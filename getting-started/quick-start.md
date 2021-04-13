@@ -25,9 +25,9 @@ If you are a new user, your Narratives dash will be mostly empty, since you have
 
 ### **Step 3. Create a new Narrative**
 
-Click the “+ New Narrative” button in Narratives to open a new untitled Narrative. A “Welcome to the Narrative Interface” box offers some suggestions for adding content to your Narrative. You can collapse or delete this box using the “…” dropdown menu in the top right corner.
+Click the “+ New Narrative” button in Narratives to open a new untitled Narrative. A “Welcome to the Narrative Interface” box offers information and links to documentation for adding content to your Narrative. You can collapse or delete this box using the “…” dropdown menu in the top right corner.
 
-![](../.gitbook/assets/new-narrative.png)
+![](../.gitbook/assets/welcomecell_openclose.gif)
 
 **Try the Narrative tour!**
 

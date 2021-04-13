@@ -6,9 +6,9 @@ You can create a new Narrative from your [Narratives](narratives.md) by clicking
 
 If you are already in the Narrative Interface, you can start a new Narrative by selecting the _Narratives_ tab \(next to _Analyze_\) and clicking the button labeled “+ New Narrative.”
 
-![](../../.gitbook/assets/newnarrative_innarrative.gif)
+![Adding a New Narrative](../../.gitbook/assets/newnarrative_narratives.gif)
 
-Your Narrative will open in a new browser tab and contain a default “Welcome” cell that provides brief instructions for using the Narrative Interface. You can retain this cell or delete it with the “Delete cell” option in the “…” dropdown menu in the upper right corner of the cell.
+Your Narrative will open in a new browser tab and contain a default “Welcome to the Narrative” cell that provides brief instructions for using the Narrative Interface. You can retain this cell or delete it with the “Delete cell” option in the “…” dropdown menu in the upper right corner of the cell.
 
 You can name the Narrative now by clicking on “Untitled” and entering a new name.
 
