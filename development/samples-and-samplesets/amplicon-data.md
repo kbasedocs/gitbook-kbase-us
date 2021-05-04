@@ -12,7 +12,7 @@ There are many outside approaches to creating amplicon matrices, including QIIME
 
 The consensus sequences must also be included as a .fa file. Sequence names must match exactly with the taxa names in the amplicon matrix. 
 
-### Step 1: Upload
+### Upload
 
 Amplicon matrices can be imported using the "Import Amplicon Matrix from TSV/FASTA File in Staging Area" app. This app has numerous parameters, many of which are optional. We recommend uploading raw counts as analysis will be tracked and provenance maintained on system. Rarefaction, standardization, and normalization will be described in the Analysis section. 
 
