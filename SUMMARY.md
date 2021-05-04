@@ -81,6 +81,8 @@
   * [The KBase SDK](development/kbase-sdk.md)
   * [KBase GitHub Repository](development/github-repository.md)
   * [Samples in KBase - Under Development](development/samples-and-samplesets/README.md)
+    * [Amplicon Data](development/samples-and-samplesets/amplicon-data.md)
+    * [Chemical Abundance](development/samples-and-samplesets/chemical-abundance.md)
     * [SESAR Samples](development/samples-and-samplesets/sesar-samples.md)
 
 ## External Links

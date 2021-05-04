@@ -16,6 +16,12 @@ Because the metadata about a sample is critically important for, KBase provides 
 
 #### Samples and SampleSets
 
+_Direct Import from IGSN_
+
+Samples can be directly imported from IGSN using the app "Import Samples from IGSN." This app can imports public SESAR samples with the IGSN number. Samples can be found through the IGSN catalog search at [https://www.geosamples.org/catalogsearch](https://www.geosamples.org/catalogsearch). Samples imported using this method can be added to an existing SampleSet by selecting it from the SampleSet drop-down or can be used to create a new SampleSet. The additional parameters are the same as those for importing Samples manually, as described below.
+
+_Upload from local_
+
 As with all data in KBase, Samples data must be uploaded to the staging area and then imported into a Narrative. When importing new Samples, the default action is to create a new SampleSet. Every Sample must belong to a SampleSet, even if that SampleSet contains only one Sample. Currently, all samples must be formatted to fit SESAR or Enigma formats. This table demonstrates how such an upload might be formatted:
 
 
