@@ -83,8 +83,8 @@
   * [Samples in KBase - Under Development](development/samples-and-samplesets/README.md)
     * [Amplicon Data](development/samples-and-samplesets/amplicon-data.md)
     * [Chemical Abundance](development/samples-and-samplesets/chemical-abundance.md)
-    * [Samples Formats](development/samples-and-samplesets/sesar-samples.md)
     * [Using Ontologies and Validated Fields](development/samples-and-samplesets/using-ontologies-and-validated-fields.md)
+    * [Samples Formats](development/samples-and-samplesets/sesar-samples.md)
 
 ## External Links
 
