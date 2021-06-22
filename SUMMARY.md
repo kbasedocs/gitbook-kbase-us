@@ -65,6 +65,13 @@
     * [FAQ: Comparative Genomics](workflows/comparative-genomics/faq-comparative-genomics.md)
   * [Assembling and Annotating Microbial Genomes](workflows/assembly-annotation/README.md)
     * [FAQ: Assembly and Annotation](workflows/assembly-annotation/faq-assembly-annotation.md)
+  * [Samples in KBase](workflows/samples-and-samplesets/README.md)
+    * [Managing Samples](workflows/samples-and-samplesets/managing-samples.md)
+    * [Using Ontologies and Validated Fields](workflows/samples-and-samplesets/using-ontologies-and-validated-fields/README.md)
+      * [Accepted Terms](workflows/samples-and-samplesets/using-ontologies-and-validated-fields/accepted-terms.md)
+    * [Amplicon Data](workflows/samples-and-samplesets/amplicon-data.md)
+    * [Chemical Abundance](workflows/samples-and-samplesets/chemical-abundance.md)
+    * [Samples Formats](workflows/samples-and-samplesets/sesar-samples.md)
 * [Troubleshooting](troubleshooting/README.md)
   * [Problems with the User Interface](troubleshooting/narrative.md)
   * [Help Board](troubleshooting/support.md)
@@ -80,11 +87,6 @@
 * [Developing Apps](development/README.md)
   * [The KBase SDK](development/kbase-sdk.md)
   * [KBase GitHub Repository](development/github-repository.md)
-  * [Samples in KBase - Under Development](development/samples-and-samplesets/README.md)
-    * [Amplicon Data](development/samples-and-samplesets/amplicon-data.md)
-    * [Chemical Abundance](development/samples-and-samplesets/chemical-abundance.md)
-    * [Using Ontologies and Validated Fields](development/samples-and-samplesets/using-ontologies-and-validated-fields.md)
-    * [Samples Formats](development/samples-and-samplesets/sesar-samples.md)
 
 ## External Links
 
