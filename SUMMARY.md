@@ -23,6 +23,7 @@
     * [Revise Your Narrative](getting-started/narrative/revise.md)
     * [Formatting Markdown Cells](getting-started/narrative/markdown.md)
     * [Share Narratives](getting-started/narrative/share.md)
+    * [Linking DOIs to Static Narratives](getting-started/narrative/linking-dois-to-static-narratives.md)
     * [Access and Copy Narratives](getting-started/narrative/access-and-copy.md)
     * [Organizations](getting-started/narrative/orgs.md)
   * [FAQ](getting-started/faq.md)
