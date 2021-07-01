@@ -1,8 +1,8 @@
 ---
-description: How to add KBase Narrative DOIs to your ORCID account.
+description: How to add KBase static Narrative DOIs to your ORCID account.
 ---
 
-# Linking DOIs to Static Narratives
+# Linking Static Narratives to ORCID
 
 Adapted from the article [DOE OSTI Search & Link Wizard Added to ORCID by  Stephanie Gerics and Carly Robinson](https://info.orcid.org/doe-osti-search-link-wizard/)
 
