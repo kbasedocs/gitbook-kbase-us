@@ -18,9 +18,9 @@ Because the metadata about a sample is critically important for, KBase provides 
 
 When uploading Samples, the new Samples can either be added to an existing SampleSet or used to create a new SampleSet. To add to an existing set, choose the appropriate SampleSet from the drop-down in the importer. To create a new set, simply leave it blank and a new SampleSet will be created from the new Samples being uploaded.
 
-_Direct Import from IGSN_
+_Direct Import from IGSN or NCBI_
 
-Samples can be directly imported from IGSN using the app "Import Samples from IGSN." This app can imports public SESAR samples with the IGSN number. Samples can be found through the IGSN catalog search at [https://www.geosamples.org/catalogsearch](https://www.geosamples.org/catalogsearch). Samples imported using this method can be added to an existing SampleSet by selecting it from the SampleSet drop-down or can be used to create a new SampleSet. The additional parameters are the same as those for importing Samples manually, as described below.
+Samples can be directly imported from IGSN or NCBI using the app "Import Samples from IGSN" or "Import from NCBI." Samples imported using this method can be added to an existing SampleSet by selecting it from the SampleSet drop-down or can be used to create a new SampleSet. The additional parameters are the same as those for importing Samples manually, as described below. For more information on direct imports, see the Samples Formats section of this documentation.
 
 _Upload from local_
 
