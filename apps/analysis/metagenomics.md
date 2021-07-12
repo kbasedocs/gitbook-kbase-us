@@ -13,7 +13,7 @@ KBase has a multitude of [Apps](https://kbase.us/applist/#Microbial%20Communitie
 * [FastQC](https://kbase.us/applist/apps/kb_fastqc/runFastQC/release) and [CheckM](https://kbase.us/applist/apps/kb_Msuite/run_checkM_lineage_wf/release) –Quality control and analysis 
 * [Trim Reads with Trimmomatic](https://kbase.us/applist/apps/kb_trimmomatic/run_trimmomatic/release) – Read trimming and adaptor removal
 * [MEGAHIT](https://kbase.us/applist/apps/MEGAHIT/run_megahit/release) – Assemble large and complex metagenomic reads
-* [MetaSPAdes](https://narrative.kbase.us/#catalog/apps/kb_SPAdes/run_metaSPAdes/release) – Assemble shotgun metagenomic reads
+* [MetaSPAdes](https://kbase.us/applist/apps/kb_SPAdes/run_metaSPAdes/release) – Assemble shotgun metagenomic reads
 * [IDBA-UD](https://kbase.us/applist/apps/kb_IDBA/run_idba_ud/release) – Assemble short metagenomic reads
 * [MaxBin2](https://kbase.us/applist/apps/kb_maxbin/run_maxbin2/release) – Bin metagenomic contigs into corresponding putative populations
 * [MetaBAT2](https://kbase.us/applist/apps/metabat/run_metabat/release) – Bin metagenomic contigs into corresponding putative genomes
