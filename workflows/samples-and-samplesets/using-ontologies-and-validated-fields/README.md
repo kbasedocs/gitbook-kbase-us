@@ -20,8 +20,7 @@ The file TSV file below contains a list of the metadata fields that are currentl
 
 {% file src="../../../.gitbook/assets/metadata\_validation.tsv" caption="Validated Metadata TSV" %}
 
-If you have Sample Attribute columns that are represented as validated terms in SESAR, ENIGMA, or KBase formats, you may request the terms to be added to KBase's vocabulary. Expert KBase staff will review newly proposed attributes to assess: 1\) overlap with current supported attributes, 2\) existing or relevant ontological frameworks, and 3\) in the case of measured data, the presence of and interoperability of units.  
-
+If you have Sample Attribute columns that are represented as validated terms in SESAR, ENIGMA, or KBase formats, you may request the terms to be added to KBase's vocabulary. Expert KBase staff will review newly proposed attributes to assess: 1\) overlap with current supported attributes, 2\) existing or relevant ontological frameworks, and 3\) in the case of measured data, the presence of and interoperability of units.
 
 ### Ontology Landing Pages
 

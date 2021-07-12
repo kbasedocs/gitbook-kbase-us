@@ -71,6 +71,7 @@
     * [Managing Samples](workflows/samples-and-samplesets/managing-samples.md)
     * [Using Ontologies and Validated Fields](workflows/samples-and-samplesets/using-ontologies-and-validated-fields/README.md)
       * [Accepted Terms](workflows/samples-and-samplesets/using-ontologies-and-validated-fields/accepted-terms.md)
+      * [Error Handling and Reporting](workflows/samples-and-samplesets/using-ontologies-and-validated-fields/error-handling-and-reporting.md)
     * [Amplicon Data](workflows/samples-and-samplesets/amplicon-data.md)
     * [Chemical Abundance](workflows/samples-and-samplesets/chemical-abundance.md)
 * [Troubleshooting](troubleshooting/README.md)
