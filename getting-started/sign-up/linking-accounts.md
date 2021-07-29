@@ -52,5 +52,5 @@ This will bring you straight to the “Choose an account” Google page:
 
 After you choose your linked Google account, you’ll be signed in to KBase! \(Note that if you had signed out of that Google account, you will be directed to sign into it again before you login to KBase.\)
 
-We hope you appreciate the convenience of being able to sign-in to KBase with your Google credentials. If you encounter any difficulties or have any questions, please feel free to [contact us](https://kbase.us/contact-us/)!
+We hope you appreciate the convenience of being able to sign-in to KBase with your Google credentials. If you encounter any difficulties or have any questions, please feel free to [contact us](https://www.kbase.us/support/)!
 

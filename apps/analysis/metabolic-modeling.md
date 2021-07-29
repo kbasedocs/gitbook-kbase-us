@@ -4,7 +4,7 @@ description: Some of the tools available for metabolic modeling
 
 # Metabolic Modeling
 
-![](../../.gitbook/assets/model-icon.png) KBase has a suite of [Apps](https://kbase.us/applist/#Metabolic%20Modeling) supporting the reconstruction, prediction, and design of metabolic models in microbes and plants. Genome-scale metabolic models can be used to explore an organism’s growth in specific media conditions, determine which biochemical pathways are present, optimize production of an important metabolite, identify high flux pathways, and more.
+KBase has a suite of [Apps](https://kbase.us/applist/#Metabolic%20Modeling) supporting the reconstruction, prediction, and design of metabolic models in microbes and plants. Genome-scale metabolic models can be used to explore an organism’s growth in specific media conditions, determine which biochemical pathways are present, optimize production of an important metabolite, identify high flux pathways, and more.
 
 ### **Flux Balance Analysis**
 

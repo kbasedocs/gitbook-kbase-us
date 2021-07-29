@@ -32,7 +32,7 @@ The drag & drop from your local computer works for many files, but there is a si
 
 ## **Data Privacy**
 
-Any data you upload to KBase is private unless you choose to share it. You can share any of your Narratives \(including their associated data\) with one or more specific users, or make it publicly available to all KBase users. Please see the [Share Narratives](../../getting-started/narrative/share.md) page for more information and how to share data and Narratives. The [Terms and Conditions page](http://kbase.us/terms-and-conditions/) describes the KBase data policy.
+Any data you upload to KBase is private unless you choose to share it. You can share any of your Narratives \(including their associated data\) with one or more specific users, or make it publicly available to all KBase users. Please see the [Share Narratives](../../getting-started/narrative/share.md) page for more information and how to share data and Narratives. KBase policies on data are described on the [Terms and Conditions](http://kbase.us/terms-and-conditions/) and [Data Policy](https://www.kbase.us/data-policy-and-sources/) pages.
 
 The next sections of this guide describe the specific steps involved in uploading the currently supported data types, and show examples for each type.
 

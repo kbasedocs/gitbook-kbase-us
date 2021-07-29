@@ -25,7 +25,7 @@ The last two tabs are filled in once you run the app; these are discussed later.
 
 ![](../../.gitbook/assets/appcell_arrows%20%281%29.gif)
 
-* The “…” dropdown menu offers several options for showing the code that will execute the app; getting more info \(in a separate browser window\) about the app; and deleting the cell. These are discussed more in the section called “[Revise Your Narrative](revise.md)“.
+* The App “…” dropdown menu offers several options for showing the code that will execute the app; getting more info \(in a separate browser window\) about the app; and deleting the cell. These are discussed more in the section called “[Revise Your Narrative](revise.md)“.
 
 ![](../../.gitbook/assets/ellipsesdropdownmenu.gif)
 
@@ -79,7 +79,7 @@ In addition to creating a new output cell, the app we ran created a new data obj
 
 ![](../../.gitbook/assets/screen-shot-2017-02-01-at-1.44.53-pm.png)
 
-Remember that you can hover over an object in the Data Panel and click the “..." that appears to see more information and options, including an option \(see image\) for downloading the object in GenBank or JSON format \(see the [Download Guide](../../data/upload-download-guide/) for more information\). In the future, you will be able to choose from a wider variety of common formats, allowing you to download results to use with other tools and send to colleagues.
+Remember that you can hover over an object in the Data Panel and click the “..." that will appear to see more information and options, including an option \(see image\) for downloading the object in GenBank or JSON format \(see the [Download Guide](../../data/upload-download-guide/) for more information\). In the future, you will be able to choose from a wider variety of common formats, allowing you to download results to use with other tools and send to colleagues.
 
 **KBase’s download functionality is still in development – please check back soon for new download options and improvements, and report any problems to us.**
 
@@ -87,7 +87,7 @@ Remember that you can hover over an object in the Data Panel and click the “..
 
 Once you have reviewed your results, you can use your newly generated data in additional analysis steps. Remember, you can click on the data object in the Data Panel to see which KBase Apps work with that data type.
 
-For example, our annotated genome can be used in a number of analyses because it now includes the standard KBase annotations. If you click on the genome in the Data Panel, you see several apps that apply. Among them are the [_Insert Genomes into Species Tree_ App](https://kbase.us/insert-genomes-into-species-tree-app/) that constructs a phylogenetic tree allowing you to see species closely related to your genome. You also can use the [_Build a Metabolic Model_ App](https://kbase.us/metabolic-modeling-in-kbase/) to draft a metabolic model from the annotated genome.
+For example, our annotated genome can be used in a number of analyses because it now includes the standard KBase annotations. If you click on the genome in the Data Panel, you see several apps that apply. Among them are the [_Insert Genomes into Species Tree_ App](https://kbase.us/applist/apps/SpeciesTreeBuilder/insert_set_of_genomes_into_species_tree/release) that constructs a phylogenetic tree allowing you to see species closely related to your genome. You also can use the [_Build Metabolic Model_ App](https://kbase.us/applist/apps/fba_tools/build_metabolic_model/release) to draft a metabolic model from the annotated genome.
 
 ## **Re-run Apps with the same or different parameters**
 
@@ -96,6 +96,4 @@ App input cells that have already been run have a “Reset” button that allows
 ## **Report errors**
 
 If a job fails, you will see an error message in the output cell and/or in the _Result_ tab. If you need help figuring out what went wrong, please [contact us](../../troubleshooting/report.md) with details about what you were doing when the error occurred and what the error message said. Including the contents of the _Job Status_ tab and the URL of your Narrative will help us debug the problem. We are here to help and appreciate your feedback and error reports!
-
-In the [next section](revise.md), we will discuss how you can revise your Narratives.
 

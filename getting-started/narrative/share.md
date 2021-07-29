@@ -14,7 +14,7 @@ You can share a Narrative that you own with any set of people you choose, or wit
 
 ![](../../.gitbook/assets/sharenarrative.gif)
 
-You will now see the Change Share Settings popup window. Here, you can see the people you have already shared with \(right now, only you\).
+You will now see the Change Share Settings pop-up window. Here, you can see the people you have already shared with \(right now, only you\).
 
 ![](../../.gitbook/assets/changesharesettings_first.png)
 

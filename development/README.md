@@ -44,7 +44,7 @@ KBase software is publicly available through [GitHub](https://github.com/kbase).
 
 ### [Develop and release your own App](https://www.kbase.us/develop/)
 
-If you want to develop Apps using the SDK, please apply for a KBase developer account by going to the Requesting a [New KBase Devloper Account](https://accounts.kbase.us/index.php?tpl=request_identity.tpl). If you are a US citizen, your account can be created within a few days. For foreign nationals, it may take several weeks \(and, in a few cases, you may not be able to get a developer account\). Non-US citizens will be asked for additional information in order to process their application.Once your account is approved, [contact us](https://www.kbase.us/develop/) with your username and ask to be added to the developer list.
+If you want to develop Apps using the SDK, please apply for a KBase developer account by going to the Requesting a [New KBase Developer Account](https://accounts.kbase.us/index.php?tpl=request_identity.tpl). If you are a US citizen, your account can be created within a few days. For foreign nationals, it may take several weeks \(and, in a few cases, you may not be able to get a developer account\). Non-US citizens will be asked for additional information in order to process their application.Once your account is approved, [contact us](https://www.kbase.us/support/) with your username and ask to be added to the developer list.
 
 ### KBase System Architecture
 

@@ -38,7 +38,7 @@ The drag & drop option from your local computer works for many files, but there 
 
 In the Staging Area, beneath the box for Drag & Drop, are other options for getting data.  
   
-You can import data into your KBase workspace using [Globus](http://kbase.us/transfer-data-from-globus-to-kbase/), or by supplying a URL for a publicly accessible FTP location, Google Drive, Dropbox, or a direct HTTP link. Options for adding data to your Staging Area are described [here](../../getting-started/narrative/add-data.md).
+You can import data into your KBase workspace using [Globus](../globus.md), or by supplying a URL for a publicly accessible FTP location, Google Drive, Dropbox, or a direct HTTP link. Options for adding data to your Staging Area are described [here](../../getting-started/narrative/add-data.md).
 
 ![](../../.gitbook/assets/user_refresh.png)
 

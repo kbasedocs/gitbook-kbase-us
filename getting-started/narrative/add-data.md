@@ -4,7 +4,7 @@ Now that you are familiar with ways to find and explore data in KBase, you can s
 
 ![](../../.gitbook/assets/image9.png)
 
-From the Data Panel, you can access the data slide-out, which allows you to search for data of interest and add it to your Narrative. In the Data Panel, click the red "Add Data" button, the red “+” button, or the right arrow at the upper right of the panel to access the **Data Browser** slide-out.
+From the Data Panel, you can access the data slide-out, which allows you to search for data of interest and add it to your Narrative. In the Data Panel, click the red "Add Data" button, the red “+” button, or the arrow at the upper right of the panel to access the **Data Browser** slide-out.
 
 ![](../../.gitbook/assets/databrowseropen%20%284%29.gif)
 
@@ -50,7 +50,7 @@ Getting data from your computer to your KBase Narrative is a three-step process:
 
 {% hint style="info" %}
 **What is a Staging Area?**  
-Your Staging Area is a sort of “halfway house” for your uploaded data files. It is private to you–no one else can see the data in your Staging Area. The files in your Staging Area stay there and can be seen from any of your Narratives. When you’re ready to add data to a Narrative, you can choose a data type from the pulldown menu next to a data file in your staging area in order to add it to your Narrative as an object of that type–see below for instructions.
+Your Staging Area is a temporary holding place for your uploaded data files. It is private to you–no one else can see the data in your Staging Area. The files in your Staging Area stay there and can be seen from any of your Narratives. When you’re ready to add data to a Narrative, you can choose a data type from the pulldown menu next to a data file in your staging area in order to add it to your Narrative as an object of that type–see below for instructions.
 {% endhint %}
 
 {% hint style="info" %}
@@ -156,7 +156,7 @@ You can also look at [common import errors and their meanings.](../../troublesho
 If the importer objected to something in your file, check the [Data Upload/Download guide](../../data/upload-download-guide/) for details about the relevant format.
 
   
-In some cases, the cause of an import error will not be obvious. If you can’t figure out why your import isn’t working, please contact us \(via the [Help Board](https://kbase.us/help-board/)\) for help. Note, however, that no one besides you has access to your Staging Area, so we will not be able to see the files you uploaded to your Staging Area. You may need to attach your input file to your Help Board ticket in order for us to diagnose the problem.
+In some cases, the cause of an import error will not be obvious. If you can’t figure out why your import isn’t working, please contact us \(via the [Help Board](../../troubleshooting/support.md#contact-us)\) for help. Note, however, that no one besides you has access to your Staging Area, so we will not be able to see the files you uploaded to your Staging Area. You may need to attach your input file to your Help Board ticket in order for us to diagnose the problem.
 
 ## Getting more information about files in your Staging Area
 

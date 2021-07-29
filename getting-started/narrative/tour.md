@@ -2,13 +2,7 @@
 
 When you open a new Narrative, a “Welcome” cell will appear at the top, offering quick tips for getting started and links for accessing help. You can keep the Welcome cell, collapse it by clicking the "-" button in the top right corner of the cell or delete it by selecting "Delete cell" from the "..." dropdown menu.
 
-{% hint style="info" %}
-**Take the tour!**
-
-To start the tour, select “Narrative Tour” from the “?” menu. This new feature walks you through the user interface, pointing out various useful aspects of it. We recommend taking the tour even if you’ve used KBase before, as it will help familiarize you with the new version.
-{% endhint %}
-
-### The Welcome Cell
+## The Welcome Cell
 
 When you first create a Narrative, you may notice the Markdown cell that says "Welcome to the Narrative". This is a quick link to this documentation site and shares information on any service status for kbase.us. 
 

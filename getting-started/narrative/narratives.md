@@ -89,13 +89,13 @@ _JGI Search_ goes to the [Data Search](https://narrative.kbase.us/#jgi-search?q=
 
 _Biochem Search_ goes to the Compound and Reaction search tabs. 
 
-_About_ goes to [a page that describes the KBase system](https://kbase.us/what-is-kbase/).
+_About_ opens a page that describes the [KBase User Interface](https://narrative.kbase.us/#about) and connects to the [KBase GitHub](https://github.com/kbase).
 
 _KBase Services Status_ goes to [a page that describes the current version of the Narrative Interface](https://narrative.kbase.us/#about/services).
 
-_Contact KBase_ lets you [contact the KBase Help Desk](https://kbase.us/contact-us/) with your question, bug report, or feature suggestion.
+_Contact KBase_ lets you [contact the KBase Help Desk](https://www.kbase.us/support/) with your question, bug report, or feature suggestion.
 
-_Help \("?"_ \) brings you to the [Narrative User Guide](https://kbase.us/narrative-guide/).
+_Help \("?"_ \) brings you to the [Narrative User Guide](./).
 
 In the next section, we’ll discuss [how to create a new Narrative](create.md).
 

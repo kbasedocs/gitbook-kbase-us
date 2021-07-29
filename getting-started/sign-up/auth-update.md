@@ -79,5 +79,5 @@ Note that if you had signed out completely from Globus after the last time you u
 
 ![](../../.gitbook/assets/kbase_globuslogin%20%282%29.gif)
 
-If you encounter any difficulties or have any questions, please feel free to [contact us](https://kbase.us/contact-us/). 
+If you encounter any difficulties or have any questions, please feel free to [contact us](https://www.kbase.us/support/). 
 

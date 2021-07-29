@@ -11,7 +11,7 @@ To create a KBase account, you will need to use one of our supported identity pr
 After you link your Google, ORCiD, or Globus account, you will be able to sign in and use the KBase Narrative Interface to perform your computational systems biology analyses.
 
 {% hint style="info" %}
-KBase is an ORCiD [Member Organization](https://orcid.org/members/0016f00002ZLyhNAAT-kbase). Sign in or link your[![](../../.gitbook/assets/orcidid_icon128x128.png)to KBase](linking-orcid.md). 
+KBase is an ORCiD [Member Organization](https://orcid.org/members/0010f00002IL95pAAD-lawrence-berkeley-national-laboratory). Sign in or link your[![](../../.gitbook/assets/orcidid_icon128x128.png)to KBase](linking-orcid.md). 
 {% endhint %}
 
 #### **Terms and Conditions**

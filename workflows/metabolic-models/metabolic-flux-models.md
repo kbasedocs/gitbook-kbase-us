@@ -16,5 +16,5 @@ Single-Species Model Reconstruction and Analysis: [https://narrative.kbase.us/na
 
 **Reference**: Faria JP, Khazaei T, Edirisinghe J, Weisenhorn PB, Seaver S, Conrad N, Harris N, DeJongh M, Henry CS \(2016\) [Constructing and Analyzing Metabolic Flux Models of Microbial Communities](http://link.springer.com/protocol/10.1007%2F8623_2016_215). _Hydrocarbon and Lipid Microbiology Protocols_, 10.1007/8623\_2016\_215.
 
-Visit our [Publications page](https://kbase.us/publications/) for more articles that describe research done using KBase.
+Visit our [Research page](https://kbase.us/publications/) for more articles that describe research done using KBase.
 

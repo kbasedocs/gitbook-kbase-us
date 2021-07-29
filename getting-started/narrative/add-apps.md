@@ -14,7 +14,7 @@ Click the search icon \(magnifying glass\) at the top of the panel to begin a te
 
 ![](../../.gitbook/assets/screen-shot-2017-11-28-at-3.05.09-pm.png)
 
-Clicking the more “…” icon opens an app details page featuring an expanded description of the app, along with technical information about its inputs, outputs, parameters, and more. Links to additional documentation such as tutorials or FAQs also may be provided.
+Hovering over an app in the list will show the more “…” icon. Clicking the "..." icon will open an app details page featuring an expanded description of the app, along with technical information about its inputs, outputs, parameters, and more. Links to additional documentation such as tutorials or FAQs also may be provided.
 
 ![](../../.gitbook/assets/apppanelsearch.gif)
 

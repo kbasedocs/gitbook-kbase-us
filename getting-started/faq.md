@@ -64,7 +64,7 @@ In KBase as a whole, anything can be uploaded, the only exception being that hum
 
 ## Is there an API to allow access to the methods from the command line? 
 
-Command line is not supported for the narratives. However, you may find more flexibility with the SDK.
+Command line is not supported for the narratives. However, you may find more flexibility with the KBase Software Development Kit \(SDK\).
 
 ## Can I get an in-person KBase workshop at my institution? 
 

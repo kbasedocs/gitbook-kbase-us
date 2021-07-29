@@ -1,6 +1,6 @@
 # Constructing Metabolic Models
 
-![](../../.gitbook/assets/model-icon.png)KBase has a suite of [Apps](https://kbase.us/applist/#Metabolic%20Modeling) and data that support the reconstruction, prediction, and design of metabolic models in microbes and plants. Genome-scale metabolic models are primarily reconstructed from protein functional annotations. These genome-scale metabolic models can be used to explore an organism’s growth in specific media conditions, determine which biochemical pathways are present, optimize production of an important metabolite, identify high flux pathways, and more.
+KBase has a suite of [Apps](https://kbase.us/applist/#Metabolic%20Modeling) and data that support the reconstruction, prediction, and design of metabolic models in microbes and plants. Genome-scale metabolic models are primarily reconstructed from protein functional annotations. These genome-scale metabolic models can be used to explore an organism’s growth in specific media conditions, determine which biochemical pathways are present, optimize production of an important metabolite, identify high flux pathways, and more.
 
 Metabolic models can be used to evaluate an organism’s metabolic capability by simulating growth under different conditions to answer important biological questions such as:
 

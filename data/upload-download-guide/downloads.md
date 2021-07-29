@@ -7,7 +7,7 @@ description: >-
 
 # Downloading Data
 
-### **Download data from your Narrative**
+## **Download data from your Narrative**
 
 {% embed url="https://youtu.be/pEKYZbVkyCc?t=329" %}
 
@@ -24,7 +24,7 @@ When downloading data from KBase, the data will be compressed into a Zip file \(
 
 ## **Downloading Large Data Objects**
 
-Large data objects \(over 10 gigabases\) include many Reads, Assemblies, Genomes, and Alignment \(BAM\) objects. They encounter many of the same obstacles as uploading large data sets. Just like uploading, this is a 2-stage process; copy the file to the Staging Area and download from Staging to your local computer with [Globus](http://kbase.us/transfer-data-from-globus-to-kbase/).
+Large data objects \(over 10 gigabases\) include many Reads, Assemblies, Genomes, and Alignment \(BAM\) objects. They encounter many of the same obstacles as uploading large data sets. Just like uploading, this is a 2-stage process; copy the file to the Staging Area and download from Staging to your local computer with [Globus](../globus.md).
 
 _Copy the file to the Staging Area \(version 1\)_
 

@@ -12,7 +12,7 @@ One key feature of KBase if the ability to link the same data across many users 
 
 Because the metadata about a sample is critically important for, KBase provides the option to upload metadata spreadsheets to link to Samples. This allows for more detailed analysis across Samples, as shown below.
 
-### Uploading samples, amplicons, and chemical abundances
+## Uploading samples, amplicons, and chemical abundances
 
 #### Samples and SampleSets
 
@@ -30,8 +30,6 @@ _Data Validation_
 
 SampleSets that are uploaded to KBase are validated to ensure the data is formatted appropriately. Critical errors, such as unrecognized units for a measurement, will prevent upload entirely. Minor errors, such as an unrecognized controlled vocabulary term, can be ignored by selecting the "Ignore Warnings" checkbox in the importer. 
 
-
-
 #### Amplicon Matrices
 
 When analyzing amplicon data, the consensus sequence for each OTU must be included for some steps of analysis. This data should be added as a separate FASTA file where each sequence ID exactly matches the OTU ID in the amplicon matrix. 
@@ -42,7 +40,7 @@ When analyzing amplicon data, the consensus sequence for each OTU must be includ
 
 Like other data in the Samples workflows, chemical abundance data must be formatted to ensure samples are correctly linked. To this end, the [Create Chemical Abundance Matrix Template](https://ci.kbase.us/#appcatalog/app/GenericsAPI/build_chemical_abundance_template/dev) creates an Excel spreadsheet for direct download that can be populated with chemical abundance data.
 
-### Viewing samples, amplicons, and chemical abundances
+## Viewing samples, amplicons, and chemical abundances
 
 #### Viewing in the Narrative
 
@@ -52,7 +50,7 @@ Once imported, the SampleSet viewer widget allows you to see the samples data th
 
 More details for the SampleSets can be found on the landing page. Click on the SampleSet name in the viewer widget or the binoculars button in the data pane to view the landing page. This lists 
 
-### Running workflows
+## Running workflows
 
 #### SampleSets
 
@@ -72,5 +70,5 @@ Taxonomies can be assigned using the RDP Classifier App based on the consensus s
 
 Once metabolomics data are uploaded, they can be can be mapped using Escher. Additional statistical analysis of the chemical abundance attribute maps, such as PCA and clustering, can be performed. Apps can be filtered as with the amplicon analysis above. 
 
-PickAxe can be used if you have a metabolic model in the Narrative. PickAxe applies SMARTS reaction rules  to generated novel compounds. The result is a directed graph that branches from a small number of source compounds to a large number of daughter compounds
+PickAxe can be used if you have a metabolic model in the Narrative. PickAxe applies SMARTS reaction rules to generated novel compounds. The result is a directed graph that branches from a small number of source compounds to a large number of daughter compounds
 

@@ -81,7 +81,7 @@ Notice that this genome viewer has tabs for an overview \(including GC content, 
 
 You can sort the table entries by clicking on a column header to sort by that field \(e.g., Length\). Clicking the same column header again will reverse the sort order. For example, the screenshots below show the table sorted in descending order by _Contig name_ and then in descending order by _Length._
 
-You can also sort by more than one column at a time by clicking one column header and then Shift-clicking other column headers. For example, here we have sorted in ascending order by contig length, and then \(by shift-clicking the Genes column header\) in ascending or descending order by number of genes. Notice how the two rows with length=253 \(the bottom two, in these screenshots\) have switched places.
+You can also sort by more than one column at a time by clicking one column header and then Shift-clicking other column headers. For example, here we have sorted in ascending order by contig length, and then \(by shift-clicking the Genes column header\) in ascending or descending order by number of genes. Notice how the two rows with length=253 \(the bottom two items\) have switched places.
 
 ![](../../.gitbook/assets/screen-shot-2015-02-09-at-12.49.05-pm-e1423803707173.png)
 

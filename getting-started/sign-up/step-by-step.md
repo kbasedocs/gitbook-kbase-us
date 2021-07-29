@@ -47,5 +47,5 @@ Click “Continue” and you’ll see your KBase landing page. You may want to t
 
 ![](../../.gitbook/assets/screen-shot-2017-06-07-at-3.55.02-pm.png)
 
-If you encounter any difficulties or have any questions, please feel free to [contact us](https://kbase.us/contact-us/)!
+If you encounter any difficulties or have any questions, please feel free to [contact us](https://www.kbase.us/support/)!
 

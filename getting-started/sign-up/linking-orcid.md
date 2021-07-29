@@ -26,5 +26,5 @@ You can now sign-in to KBase using your ORCiD ID and [integrate DOIs](https://in
 
 ![](../../.gitbook/assets/kbase_orcid.gif)
 
-We hope you appreciate the convenience of being able to sign in to KBase with your ORCiD credentials. If you encounter any difficulties or have any questions, please feel free to [contact us](https://kbase.us/contact-us/)!
+We hope you appreciate the convenience of being able to sign in to KBase with your ORCiD credentials. If you encounter any difficulties or have any questions, please feel free to [contact us](https://www.kbase.us/support/)!
 
