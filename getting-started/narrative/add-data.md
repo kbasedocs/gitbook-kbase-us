@@ -162,7 +162,7 @@ In some cases, the cause of an import error will not be obvious. If you can’t 
 
 ### Using Bulk Import
 
-Files can be imported in bulk as part of a new bulk import feature that is being developed. When you select the file type, you will be able to check multiple files in the staging area and import them all by clicking "Import Selected." 
+Multiple files can be imported together in a single Import App as part of a bulk import feature that is being developed. When you select the file type, you will be able to check multiple files in the staging area and import them all by clicking "Import Selected." 
 
 ![Bulk Import Staging Area. You can select the appropriate type for multiple files, then &quot;Import Selected&quot; to import them simultaneously. ](../../.gitbook/assets/screen-shot-2021-08-04-at-11.37.27-am.png)
 

@@ -20,6 +20,10 @@ Some of the Apps can produce publication-quality images that can be views by ope
 
 Is there a better way for handling large datasets? For large files or collections of files, we recommend using Globus. We also have a [guide for importing using Globus](../data/globus.md).
 
+## Can I import more than one file into a Narrative at the same time?
+
+Yes, bulk import allows you to check multiple files in the staging area and import them all by clicking "Import Selected." More instructions on this feature are [described in the Narrative UI Guide](narrative/add-data.md#using-bulk-import). 
+
 ## How many users can view a Narrative? 
 
 There is no limit to the number of users that can be invited to view or edit Narratives. However, it is possible for users who are accessing the Narrative simultaneously to overwrite each other's changes. For that reason, we recommend only one person edit the Narrative at a time.
@@ -32,7 +36,7 @@ The best way to organize many inputs is to create sets. There are Apps for build
 
 Currently we only support code cells in Python.
 
-## How does Kbase compare with the standalone tools available with command line interface? Does KBase always use the most recent version?
+## How does KBase compare with the standalone tools available with command line interface? Does KBase always use the most recent version?
 
 Provided the same data, parameters, and tool version are consistent, the results are the same. We make every attempt to use the latest versions of Apps and databases, but they do not always correspond to the most recent version.
 
