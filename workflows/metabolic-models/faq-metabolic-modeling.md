@@ -193,7 +193,7 @@ The biomass components are normalized so that a result of 1 \(objective value/gr
 
 ### **Q: How is media data structured in KBase?**
 
-As with all KBase data types, the technical “spec” files of media data can be viewed at  [https://narrative.kbase.us\#spec/storage/0](https://narrative.kbase.us/#spec/storage/0).
+As with all KBase data types, the technical “spec” files of media data can be viewed at[ narrative.kbase.us/\#spec/type/KBaseBiochem.Media](https://narrative.kbase.us/#spec/type/KBaseBiochem.Media).
 
 From here, you can find details on the structure of media data in KBase by navigating the following path: “KBaseBiochem” → “Types”→ “Media” → “Spec file.” Scroll to the bottom of the media spec file to see the overall data structure, which should look like this:
 
