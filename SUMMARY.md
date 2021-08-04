@@ -67,7 +67,7 @@
   * [Assembling and Annotating Microbial Genomes](workflows/assembly-annotation/README.md)
     * [FAQ: Assembly and Annotation](workflows/assembly-annotation/faq-assembly-annotation.md)
   * [Samples in KBase](workflows/samples-and-samplesets/README.md)
-    * [Samples Formats](workflows/samples-and-samplesets/sesar-samples.md)
+    * [Samples Formats](workflows/samples-and-samplesets/samples-formats.md)
     * [Managing Samples](workflows/samples-and-samplesets/managing-samples.md)
     * [Using Ontologies and Validated Fields](workflows/samples-and-samplesets/using-ontologies-and-validated-fields/README.md)
       * [Accepted Terms](workflows/samples-and-samplesets/using-ontologies-and-validated-fields/accepted-terms.md)

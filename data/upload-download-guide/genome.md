@@ -18,6 +18,10 @@ A GFF-formatted file must be paired with a corresponding FASTA file of the DNA s
 
 Further instructions for adding data to your Staging Area can be found [here](../../getting-started/narrative/add-data.md#uploading-data-from-external-sources).
 
+### Bulk Import
+
+Both GenBank and GFF genomes can be imported as one of the supported bulk import types. You can select multiple assemblies simultaneously from the staging area to import them at once. See the bulk import section of [the guide to importing data into the Narrative.](https://docs.kbase.us/getting-started/narrative/add-data) 
+
 ## Importing a GenBank-formatted file from your computer
 
 For this example, we will use the _E. coli_ K-12 MG1655 genome GenBank file from NCBI. By clicking on the following link you can download the _E. coli_ K-12 MG1655 genome to your computer: [ftp://ftp.ncbi.nlm.nih.gov/genomes/archive/old\_refseq/Bacteria/Escherichia\_coli\_K\_12\_substr\_\_MG1655\_uid57779/NC\_000913.gbk](ftp://ftp.ncbi.nlm.nih.gov/genomes/archive/old_refseq/Bacteria/Escherichia_coli_K_12_substr__MG1655_uid57779/NC_000913.gbk)

@@ -120,6 +120,8 @@ There are also several apps that import specific file types \(single- or paired-
 
 ## Importing files from the Staging Area to the KBase Narrative
 
+### Import Basics
+
 The files in your Staging Area are ready to import into your Narrative as KBase data objects that can be used in your analyses. To import a file from your Staging Area, choose a format \(data type\) from the pulldown menu to the right of the file’s age. \(You can find out more about KBase data types and accepted formats in the [Upload/Download Guide](../../data/upload-download-guide/).\) Then click the import icon to the right of the format menu.
 
 ![](../../.gitbook/assets/image11.png)
@@ -157,6 +159,28 @@ If the importer objected to something in your file, check the [Data Upload/Downl
 
   
 In some cases, the cause of an import error will not be obvious. If you can’t figure out why your import isn’t working, please contact us \(via the [Help Board](../../troubleshooting/support.md#contact-us)\) for help. Note, however, that no one besides you has access to your Staging Area, so we will not be able to see the files you uploaded to your Staging Area. You may need to attach your input file to your Help Board ticket in order for us to diagnose the problem.
+
+### Using Bulk Import
+
+Files can be imported in bulk as part of a new bulk import feature that is being developed. When you select the file type, you will be able to check multiple files in the staging area and import them all by clicking "Import Selected." 
+
+![Bulk Import Staging Area. You can select the appropriate type for multiple files, then &quot;Import Selected&quot; to import them simultaneously. ](../../.gitbook/assets/screen-shot-2021-08-04-at-11.37.27-am.png)
+
+When you import selected, there will be a new cell type which contains a tab for each different file type you selected from the staging area. You will fill out the same parameters for each file type by clicking the file type in the "Data Types" column on the left; these are the same parameters as single imports.
+
+![Bulk Import Cell. File types can be selected under the data type column to set the parameters for each type.](../../.gitbook/assets/screen-shot-2021-08-04-at-11.37.42-am.png)
+
+#### Limitations
+
+The bulk import is still under development and not all file types are accounted for. If you select multiple files and there are unsupported types included, you will get a bulk import cell for the supported types along with individual import cells for the unsupported types.
+
+As of August 2021, the supported types for bulk upload are:
+
+* FASTA Assembly
+* FASTQ Reads \(interleaved and non-interleaved\)
+* Genbank Genome
+* GFF+FASTA genomes and metagenomes
+* SRA Reads
 
 ## Getting more information about files in your Staging Area
 

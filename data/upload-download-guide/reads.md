@@ -10,6 +10,10 @@ Single-end and paired-end reads can be uploaded in FASTQ or SRA format. For FAST
 
 Files can be uploaded into your KBase Staging Area from your local computer or directly from a publicly accessible FTP or HTTP URL.
 
+### Bulk Import
+
+FASTQ and SRA reads can be imported as one of the supported bulk import types. You can select multiple assemblies simultaneously from the staging area to import them at once. See the bulk import section of [the guide to importing data into the Narrative.](https://docs.kbase.us/getting-started/narrative/add-data)
+
 ## Importing reads files from your computer
 
 ### **Drag & Drop Limitations**

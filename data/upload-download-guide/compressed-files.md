@@ -6,7 +6,7 @@ description: How to handle compressed files when uploading and importing data.
 
 ### Compressed Format Types
 
-Data uploaders accept compressed files in these formats: .zip, .gz, .bz, .bzip2, .bz2, .tar, .tgz. 
+Data importers accept compressed files in these formats: .zip, .gz, .bz, .bzip2, .bz2, .tar, .tgz. 
 
 ### Uploading and Importing Compressed Files
 
@@ -19,6 +19,8 @@ To add compressed data files from your computer to the KBase Narrative, follow t
 When files have been uploaded to the Staging Area, compressed files have an outward-facing double arrow icon to the left of the file name. 
 
 Click the uncompress icon to the left of the file name to uncompress the compressed/zip uploaded files before clicking the import icon. To ensure this works, the file extension must match the type of packing/compression. 
+
+Note that importers will accept compressed files, but not archives, as imports. For instance, you can import a single reads file as reads.fastq.gz or decompress it in the staging area and import reads.fastq; however, if you have a series of files in an archive \(e.g. reads1.fastq, reads2.fastq,  and reads3.fastq inside all-reads.zip\), the archive will first have to be unpacked and then the files can be imported. This applies to both single and bulk imports.
 
 
 

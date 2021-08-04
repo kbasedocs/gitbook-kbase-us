@@ -34,6 +34,10 @@ Notice that the name of the gzipped Assembly file is already filled in, as is a 
 
 The drag & drop option from your local computer works for many files, but there is a size limit that depends on your computer and browser. For larger files \(around 20GB\), use [Globus Online transfer](../globus.md). 
 
+### Bulk Import
+
+Assemblies can be imported as one of the supported bulk import types. You can select multiple assemblies simultaneously from the staging area to import them at once. See the bulk import section of [the guide to importing data into the Narrative.](https://docs.kbase.us/getting-started/narrative/add-data)
+
 ## Import an Assembly from other sources
 
 In the Staging Area, beneath the box for Drag & Drop, are other options for getting data.  
