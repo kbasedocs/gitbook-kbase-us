@@ -179,7 +179,7 @@ As of August 2021, the supported types for bulk upload are:
 * FASTA Assembly
 * FASTQ Reads \(interleaved and non-interleaved\)
 * Genbank Genome
-* GFF & FASTA genomes and metagenomes
+* GFF & FASTA Metagenomes
 * SRA Reads
 
 ## Getting more information about files in your Staging Area
