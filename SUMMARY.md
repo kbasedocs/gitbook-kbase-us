@@ -29,6 +29,7 @@
   * [FAQ](getting-started/faq.md)
 * [Working with Data](data/README.md)
   * [Data Upload and Download Guide](data/upload-download-guide/README.md)
+    * [Bulk Import Guide](data/upload-download-guide/bulk-import-guide.md)
     * [Data Type Descriptions](data/upload-download-guide/data-types.md)
     * [Uploading Data](data/upload-download-guide/uploads.md)
     * [Assembly](data/upload-download-guide/assembly.md)
