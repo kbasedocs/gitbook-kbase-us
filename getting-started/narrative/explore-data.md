@@ -17,9 +17,7 @@ The Data Browser will slide out, with tabs that show several data sources that w
 * **Example** — example datasets that can be used as inputs to apps and methods
 * **Import** — mechanism allowing you to import your own data \(of supported types\) to your Narrative
 
-![](../../.gitbook/assets/databrowseropen%20%284%29.gif)
-
-![](../../.gitbook/assets/screen-shot-2017-01-30-at-11.14.27-am.png)
+![](../../.gitbook/assets/datapanel_open.gif)
 
 Find a public reference genome available under the _Public_ tab to examine information and metadata about that genome.
 
@@ -38,7 +36,7 @@ If you hover over a data object in the Data Browser panel, three small images ap
 
 Go ahead and click the "&lt; Add" button to add the _Vibrio brasiliensis_ LMG 20546 genome to your Narrative. Notice that this genome now appears in your Data Panel.
 
-[![](../../.gitbook/assets/screen-shot-2017-01-30-at-11.52.34-am.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-11.52.34-AM.png)
+![](../../.gitbook/assets/screen-shot-2017-01-30-at-11.52.34-am.png)
 
 ## Information in the Data Panel
 
@@ -71,7 +69,7 @@ Many types of data in KBase have viewers that allow you to learn more about the 
 
 Below is the genome viewer for the _Vibrio brasiliensis_ LMG 20546 genome that is in the Data Panel.
 
-[![](../../.gitbook/assets/screen-shot-2017-01-30-at-12.15.29-pm.png)](https://kbase.us/wp-content/uploads/2014/12/Screen-Shot-2017-01-30-at-12.15.29-PM.png)
+![](../../.gitbook/assets/screen-shot-2017-01-30-at-12.15.29-pm.png)
 
 Notice that this genome viewer has tabs for an overview \(including GC content, taxonomy information, size, and more\) and a list of contigs and genes. Each contig and gene entry in these lists is clickable, opening either a contig browser or a tab with expanded information about the gene.
 

@@ -2,11 +2,11 @@
 
 Now that you are familiar with ways to find and explore data in KBase, you can select or upload data to analyze. The **Data Panel** in a Narrative shows the data objects that are currently available in that particular Narrative. 
 
-![](../../.gitbook/assets/image9.png)
+![](../../.gitbook/assets/datapanel%20%281%29.png)
 
-From the Data Panel, you can access the data slide-out, which allows you to search for data of interest and add it to your Narrative. In the Data Panel, click the red "Add Data" button, the red “+” button, or the arrow at the upper right of the panel to access the **Data Browser** slide-out.
+From the Data Panel, you can access the data slide-out, which allows you to search for data of interest and add it to your Narrative. In the Data Panel, click the "Add Data" button, the “+” button, or the arrow at the upper right of the panel to access the **Data Browser** slide-out.
 
-![](../../.gitbook/assets/databrowseropen%20%284%29.gif)
+![](../../.gitbook/assets/datapanel_open.gif)
 
 {% hint style="info" %}
 **Data Privacy**  
@@ -36,7 +36,7 @@ As described in the previous section, the blue "&lt; Add" button next to these i
 
 The _Import_ tab lets you drag & drop data from your computer into your Staging Area to import into your Narrative, where you can then analyze it using KBase’s analysis apps.
 
-![](../../.gitbook/assets/import-stage.png)
+![](../../.gitbook/assets/datapanel_staging.png)
 
 To upload data from your computer \(or a [Globus endpoint](../../data/globus.md) or URL\), choose the rightmost tab of the Data Browser to open the _Import_ tab.
 
@@ -97,7 +97,7 @@ Your Staging Area is meant to be a temporary holding area for data you want to i
 
 Globus is a data management and file transfer system that can facilitate bulk transfer of data \(either large data files or a large number of files\) between two endpoints. The endpoints that apply here are KBase, JGI, and your local computer. The KBase endpoint is called “KBase Bulk Share,” and JGI has their own way to link to Globus. To do any transfer using Globus, you will [need a Globus account](https://www.globusid.org/create).
 
-![](../../.gitbook/assets/globus_upload%20%282%29.png)
+![](../../.gitbook/assets/datapanel_stagingglobus.png)
 
 See [Transferring Data with Globus](../../data/globus.md) for more documentation on using Globus.
 
@@ -110,7 +110,7 @@ If you are a JGI user, you can transfer public genome reads and assemblies \(as 
 
 Below the link to Globus, another link says “Click here to use an App to upload from a public URL” \(for example, a GenBank ftp URL, or a Dropbox or Google Drive URL that is publicly accessible\).
 
-![](../../.gitbook/assets/load-from-url.png)
+![](../../.gitbook/assets/datapanel_stagingurl.png)
 
 Clicking this link adds the “Upload File to Staging from Web” App to your Narrative:
 

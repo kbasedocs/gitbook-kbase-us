@@ -47,7 +47,13 @@ By default, the apps are sorted by category. Try the options in the “Organize 
 
 ![](../../.gitbook/assets/screen-shot-2016-02-25-at-2.19.27-pm-107x300.png)
 
-**More info**
+### **Running Analysis Apps**
+
+Once you have added an app to the Narrative, you will need to select a data object as the Input Object and set Parameters. When working within an application, a red bar or banner will highlight empty fields and errors. 
+
+![](../../.gitbook/assets/app_emptyfield.png)
+
+### **More info**
 
 For more information about using the App Catalog, see the [Narrative Interface User Guide](../../getting-started/narrative/).
 

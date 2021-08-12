@@ -21,7 +21,7 @@ After you sign in, you will be taken to your Narratives \(details of which can b
   
 If you are a new user, your Narratives dash will be mostly empty, since you haven’t created any Narratives yet.
 
-![](../.gitbook/assets/dashboard-quickstart.png)
+![](../.gitbook/assets/narrative_guide.png)
 
 ### **Step 3. Create a new Narrative**
 
@@ -55,12 +55,13 @@ Notice that the data object now appears in the Data Panel. Once you finish addin
 
 ![](../.gitbook/assets/screen-shot-2017-01-25-at-4.04.13-pm.png)
 
-Don’t forget to periodically save your Narrative by clicking the “Save” button at the top right of the interface.  
-![AssembleAnnotate08](../.gitbook/assets/savenarrative%20%281%29.gif)
+Don’t forget to periodically save your Narrative by clicking the “Save” button at the top right of the interface.
+
+![](../.gitbook/assets/savenarrative%20%281%29.gif)
 
 ### **Step 6. Choose an App** 
 
-### \*\*\*\*![](../.gitbook/assets/app-panel-open.png) 
+![](../.gitbook/assets/app-panel-open.png)
 
 Once you have added data to your Narrative, you can analyze it using one or more of the KBase apps listed in the **App Panel** below your data.
 

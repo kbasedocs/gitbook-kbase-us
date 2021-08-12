@@ -14,18 +14,13 @@ If you already had a KBase account prior to June 9, 2017, then the first time yo
 
 When you go to [KBase](https://narrative.kbase.us/) to sign in, you will see this:
 
-![](../../.gitbook/assets/kbasesignin%20%281%29.png)
+![](../../.gitbook/assets/kbase_login.png)
 
 Click the Sign In button below “Use KBase” and sign-in options will appear
 
-![](../../.gitbook/assets/kbase_signin%20%282%29.gif)
-
 **Sign in using Globus**. Globus is the home of the existing KBase user accounts, and your Globus ID is your KBase ID.
 
-When you click “[Sign in with Globus](https://www.globusid.org/login)”, a page to Log in with your Globus credentials will open:  
-
-
-![](../../.gitbook/assets/kbase_globussignin.gif)
+When you click “[Sign in with Globus](https://www.globusid.org/login)”, a page to Log in with your Globus credentials will open:
 
 Click Continue. You will reach another page at Globus, requesting your Globus username and password \(remember, this is the same as your existing KBase account\).
 
@@ -59,15 +54,11 @@ The first time you sign into KBase after the authentication change, you will nee
 
 1. Go to [narrative.kbase.us](https://narrative.kbase.us/)
 
-![](../../.gitbook/assets/kbasesignin.png)
+![](../../.gitbook/assets/kbase_login.png)
 
 2. Click the Sign In button below “Use KBase” and more options will appear:
 
-![](../../.gitbook/assets/kbase_signin.gif)
-
 3. Click “Sign in with Globus”. 
-
-![](../../.gitbook/assets/kbase_globussignin%20%281%29.gif)
 
 Most of the time, you will not need to sign into Globus \(as it will remember you unless you sign out of KBase\), so you will see a screen like this:
 
