@@ -1,4 +1,4 @@
-# Narratives - the updated Dashboard
+# Narratives
 
 Welcome to Narratives! You may notice there are a few changes when you sign in to narrative.kbase.us. Let's get you up to speed with a tour. 
 
@@ -6,7 +6,7 @@ Welcome to Narratives! You may notice there are a few changes when you sign in t
 
 ## Updated Tabs
 
-**Narratives \('Your Dashboard'\)**
+**Narratives dashboard**
 
 ![Overview gif of selecting tabs and sorting](../../.gitbook/assets/narratives_overview.gif)
 
