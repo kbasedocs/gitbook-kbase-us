@@ -9,7 +9,7 @@ What is in here:
 1. [About this guide](about.md)
 2. [Accessing the Narrative](access.md)
 3. [Tour the Narrative](tour.md)
-4. [Narratives](narratives.md) Navigation
+4. [Narratives Navigator ](narratives.md)
 5. [The Job Browser](job-browser.md)
 6. [How to create a new Narrative](create.md)
 7. [Exploring data in KBase](explore-data.md)

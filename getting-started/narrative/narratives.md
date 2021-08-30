@@ -4,9 +4,7 @@ Welcome to Narratives! You may notice there are a few changes when you sign in t
 
 {% embed url="https://youtu.be/Nb5lTlB0NBo" %}
 
-## Updated Tabs
-
-**Narratives dashboard**
+## **Narratives Navigator**
 
 ![Overview gif of selecting tabs and sorting](../../.gitbook/assets/narratives_overview.gif)
 
@@ -36,13 +34,13 @@ Welcome to Narratives! You may notice there are a few changes when you sign in t
 
 ## Where can I go from here?
 
-The Dashboard offers many launch points. To the left of the **Your Narratives** panel you will see seven icons allowing you to toggle between the **Narratives**, **Orgs**, **Catalog**, **Search**, **Jobs**, **Account,** and **Feed** tabs.
+The Narratives Navigator offers many launch points. To the left of the **My Narratives** panel you will see seven icons allowing you to toggle between the **Narratives**, **Orgs**, **Catalog**, **Search**, **Jobs**, **Account,** and **Feed** tabs.
 
 ![](../../.gitbook/assets/newmenu.png)
 
 **Narratives**
 
-* Takes you to your accessible **Narratives**, the features of which are described above.
+* Takes you to your accessible **Narratives** through the Narrative Navigator and features described above.
 
 **Orgs**
 
