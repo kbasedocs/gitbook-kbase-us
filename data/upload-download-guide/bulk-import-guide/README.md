@@ -38,7 +38,7 @@ While this will be applicable to all file types in the future, bulk import curre
 * GFF Metagenome - FASTA and GFF3
 
 {% hint style="warning" %}
-When selecting files that are not supported data types for Bulk Import within the Staging Area, this will open separate, single import app cells for each type and file.
+When selected files are not supported data types for Bulk Import within the Staging Area, separate, single import app cells will open in the Narrative for each type and file.
 {% endhint %}
 
 ## What are the limitations?
