@@ -31,7 +31,7 @@ While this will be applicable to all file types in the future, bulk import curre
 
 ## What are the limitations?
 
-This is a new feature in KBase, and the current release should be considered a beta version with future development still to come. Some of the most notable limitations are listed here. This is not a comprehensive list but does contain the known bugs, issues, and limitations that are the highest priority for future releases. You can see a list of common bugs and limitations here: link
+This is a new feature in KBase, and the current release should be considered a beta version with future development still to come. Some of the most notable limitations are listed here. This is not a comprehensive list but does contain the known bugs, issues, and limitations that are the highest priority for future releases. You can see a list of common bugs and limitations here: [link](https://docs.kbase.us/data/upload-download-guide/bulk-import-guide/bulk-import-limitations).
 
 
 
