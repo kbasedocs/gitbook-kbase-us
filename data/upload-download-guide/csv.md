@@ -6,6 +6,10 @@ description: >-
 
 # CSV - prototyping
 
+{% hint style="danger" %}
+Import using CSV is still under development. The templates and process are subject to change prior to release.
+{% endhint %}
+
 #### Prototyping and Usability: If you are interested in being a usability tester and providing feedback on the Narrative interface, fill out [this google form](https://docs.google.com/forms/d/e/1FAIpQLSdFJT3vAR0DR8UZir29nhFujCh-B0AXczhw6oylht7r9JVPRQ/viewform). 
 
 ## File Formatting

@@ -8,10 +8,16 @@ description: >-
 
 ## Known Issues and Limitations
 
-* Issue: As previously mentioned, only a single set of parameters can be used for a given type in a given bulk import. 
+* Issue: Only a single set of parameters can be used for a given type in a given bulk import. 
   * Workaround: Subset your imports and run an app cell for each subset with a single set of parameters. Note that this only applies to different parameters within an import type. If you have a set of Illumina reads, PacBio reads, and assemblies, you can import one of the sets of reads and the assemblies in one import, and the other type of reads in a separate import.
 * Issue: Staging Area allows uploading incomplete files, leading to data corruption.
-  * Workaround: This is an existing issue in the staging area that exists for single-file imports as well. Ensure that your files have fully uploaded and the file size in the staging area matches the size of the file from your machine. 
+  * Workaround: This is an existing issue in the staging area that exists for single-file imports as well. Ensure that your files have fully uploaded and the file size in the staging area matches the size of the file from your machine. You can use MD5 checksums to verify the file uploaded correctly. You can view the MD5 inside the staging area by viewing the info for the file, as shown in the screenshot below. Then, verify that the MD5 in the staging area matches the MD5 on your local machine using the following command depending on your operating system \(replacing "assembly\_1.fasta" with your file name\):
+    * MacOS: `md5 assembly_1.fasta`  
+    * Windows: `certutil -hashfile assembly_1.fasta md5`
+    * Linux: `md5sum assembly_1.fasta` 
+
+![](../../../.gitbook/assets/md5.png)
+
 * Issue: Locating the job status for each import within the Bulk Import cell. 
   * Workaround: Some users have found it not immediately apparent how to view the job status. The status can be viewed within the Job Status tab of the App cell by clicking anywhere on the line for a child job to expand that job.
 * Issue: Layout doesn’t appear to adjust to data pane collapse/restore. 

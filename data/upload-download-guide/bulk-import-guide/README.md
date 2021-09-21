@@ -4,9 +4,6 @@
 Bulk Import is undergoing user testing and not yet released. 
 {% endhint %}
 
-  
-Bulk import is finally here! One of the most requested features we’ve received is the ability to import many files into the Narrative at once, and we are happy to announce that is now possible.
-
 ## How it works
 
 When you open a new Narrative you’ll notice that the Staging Area has updated. Now data type selection can detect the file type based on extension, when possible. You may notice some types will not automatically select, such as .fasta or .fastq. In cases like this, more than one importer can use that file subtype. However, the possible importers are listed at the top of the drop down under “Suggested Types.” 
