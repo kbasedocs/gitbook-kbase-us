@@ -1,7 +1,10 @@
 # Bulk Import Guide
 
+{% hint style="danger" %}
+Bulk Import is undergoing user testing and not yet released. 
+{% endhint %}
 
-
+  
 Bulk import is finally here! One of the most requested features we’ve received is the ability to import many files into the Narrative at once, and we are happy to announce that is now possible.
 
 ## How it works
