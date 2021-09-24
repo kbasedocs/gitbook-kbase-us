@@ -6,25 +6,25 @@ Bulk Import is undergoing user testing and not yet released.
 
 ## How it works
 
-When you open a new Narrative you’ll notice that the Staging Area has updated. Now data type selection can detect the file type based on extension, when possible. You may notice some types will not automatically select, such as .fasta or .fastq. In cases like this, more than one importer can use that file subtype. However, the possible importers are listed at the top of the drop down under “Suggested Types.” 
+When you open a new Narrative you’ll notice that the Staging Area has updated. Now data type selection dropdown can detect the file type based on extension, when possible. You may notice some types will not automatically select, such as .fasta or .fastq. In cases like this, more than one importer can use a subtype of that file. However, the possible importers are listed at the top of the drop down under “Suggested Types.” 
 
 For example, files with the extension FASTQ can be imported as a single interleaved file or as a pair of forward and reverse non-interleaved files to create a PairedEndLibrary, or as a single non-interleaved file to create a SingleEndLibrary. 
 
-To run a bulk import, make sure all the files you want to import have their file type selected and the check box active, then click "Import Selected." 
+To run a bulk import, make sure all the files you want to import have their file type or subtype selected and the check box active, then click "Import Selected." 
 
 ![](../../../.gitbook/assets/screen-shot-2021-08-04-at-11.37.27-am.png)
 
-You’ll see a new import cell created for bulk imports. This cell contains a tab for each of the file types you selected from the Staging Area, which you can view by clicking on the appropriate file type in the data type column on the left. This cell is a bulk wrapper for existing import apps, so you can fill out the parameters the same as you would for a single import. 
+You’ll see a new import cell created for bulk imports. This cell contains a tab for each of the file types or subtypes you selected from the Staging Area, which you can view by clicking on the appropriate file type or subtype in the data type column on the left. This cell is a bulk wrapper for existing import apps, so you can fill out the parameters the same as you would for a single import. 
 
 {% hint style="info" %}
-Be aware that the bulk import currently only supports a single parameter set per data type. If you need to upload files of a given data type with different parameters, perform a separate set of bulk imports for each parameter set. 
+Be aware that bulk import currently only supports a single parameter set per data type. If you need to upload files of a given data type with different parameters, perform a separate set of bulk imports for each parameter set. 
 {% endhint %}
 
 ![](../../../.gitbook/assets/screen-shot-2021-08-04-at-11.37.42-am.png)
 
-Once you kick off your jobs, you will still be able  see all the logs and status details in the Job Status tab, but arranged for the bulk import. You can expand each of the child jobs by clicking on the corresponding line to view details, then expand further to see the logs.
+Once you kick off your jobs, you will still be able to see all the logs and status details in the Job Status tab, but arranged for the bulk import. You can expand each of the child jobs by clicking on the corresponding line to view details, then expand further to see the logs.
 
-Once the jobs are completed successfully, you’ll be able to see all the information on the data object, repackaged for viewability in bulk. The first new feature is a table of all successful jobs. Clicking on object names adds a viewer widget to the Narrative. All the reports are available under the "Reports" tree. The full list is collapsed by default to conserve memory. The list can be expanded to show each report and can be viewed in a separate window. 
+Once the jobs are completed successfully, you’ll be able to see all the information on the data object, repackaged for viewability in bulk. The first new feature is a table of all successful jobs. Clicking on object names adds a viewer widget to the Narrative. All the reports are available under the "Reports" tree. The full list is collapsed by default to conserve memory. The list can be expanded to show each report, and each report can be viewed in a separate window. 
 
 ## What data types does this apply to?
 

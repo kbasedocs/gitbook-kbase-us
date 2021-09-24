@@ -20,8 +20,6 @@ description: >-
 
 * Issue: Locating the job status for each import within the Bulk Import cell. 
   * Workaround: Some users have found it not immediately apparent how to view the job status. The status can be viewed within the Job Status tab of the App cell by clicking anywhere on the line for a child job to expand that job.
-* Issue: Layout doesn’t appear to adjust to data pane collapse/restore. 
-  * Workaround: This is a visual bug that covers up part of the UI. Switching tabs has been found to force a redraw of the table which fixes the issue.
 * Issue: Autofill for certain data types does not work. 
   * Workaround: Currently our implementation does not read files in a way to recognize pairs of files that go together, such as pairs of non-interleaved FASTQ files. During import these will need to be manually assigned to a forward or reverse read. 
 * Issue: Logs/reports/status do not appear. 
