@@ -72,6 +72,7 @@
     * [Samples Formats](workflows/samples-and-samplesets/samples-formats.md)
     * [Managing Samples](workflows/samples-and-samplesets/managing-samples.md)
     * [Using Ontologies and Validated Fields](workflows/samples-and-samplesets/using-ontologies-and-validated-fields/README.md)
+      * [sample\_service\_validator\_config/metadata\_validation.tsv at master · kbase/sample\_service\_validator\_c](workflows/samples-and-samplesets/using-ontologies-and-validated-fields/untitled.md)
       * [Accepted Terms](workflows/samples-and-samplesets/using-ontologies-and-validated-fields/accepted-terms.md)
       * [Error Handling and Reporting](workflows/samples-and-samplesets/using-ontologies-and-validated-fields/error-handling-and-reporting.md)
     * [Amplicon Data](workflows/samples-and-samplesets/amplicon-data.md)
