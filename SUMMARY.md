@@ -36,7 +36,7 @@
     * [Assembly](data/upload-download-guide/assembly.md)
     * [Genome](data/upload-download-guide/genome.md)
     * [FASTQ/SRA Reads](data/upload-download-guide/reads.md)
-    * [Flux Balance Analysis \(FBA\) Model](data/upload-download-guide/fba-model.md)
+    * [Flux Balance Analysis (FBA) Model](data/upload-download-guide/fba-model.md)
     * [Media](data/upload-download-guide/media.md)
     * [Expression Matrix](data/upload-download-guide/expression-matrix.md)
     * [Phenotype Set](data/upload-download-guide/phenotype-set.md)
@@ -98,3 +98,6 @@
 * [KBase web site](https://kbase.us)
 * [KBase App Catalog](https://narrative.kbase.us/#appcatalog)
 
+***
+
+* [kbase.us](kbase.us.md)
