@@ -1,37 +1,37 @@
 # Bulk Import Guide
 
 {% hint style="danger" %}
-Bulk Import is undergoing user testing and not yet released. 
+Bulk Import is undergoing user testing and not yet released.&#x20;
 {% endhint %}
 
 ## How it works
 
-When you open a new Narrative you’ll notice that the Staging Area has updated. Now data type selection dropdown can detect the file type based on extension, when possible. You may notice some types will not automatically select, such as .fasta or .fastq. In cases like this, more than one importer can use a subtype of that file. However, the possible importers are listed at the top of the drop down under “Suggested Types.” 
+When you open a new Narrative you’ll notice that the Staging Area has updated. The importer selection dropdown can detect the data type of the file based on its extension where possible. Some types will not automatically select, such as .fasta or .fastq. In cases like this, more than one data type can apply to that file extension. However, suggested importers will be listed at the top of the drop down under “Suggested Types.”&#x20;
 
-For example, files with the extension FASTQ can be imported as a single interleaved file or as a pair of forward and reverse non-interleaved files to create a PairedEndLibrary, or as a single non-interleaved file to create a SingleEndLibrary. 
+For example, files with the extension FASTQ can be imported as a single interleaved file or as a pair of forward and reverse non-interleaved files to create a PairedEndLibrary, or as a single non-interleaved file to create a SingleEndLibrary.&#x20;
 
-To run a bulk import, make sure all the files you want to import have their file type or subtype selected and the check box active, then click "Import Selected." 
+To run a bulk import, ensure all the files you want to import have a data type selected and the check box is active, then click "Import Selected."&#x20;
 
 ![](../../../.gitbook/assets/screen-shot-2021-08-04-at-11.37.27-am.png)
 
-You’ll see a new import cell created for bulk imports. This cell contains a tab for each of the file types or subtypes you selected from the Staging Area, which you can view by clicking on the appropriate file type or subtype in the data type column on the left. This cell is a bulk wrapper for existing import apps, so you can fill out the parameters the same as you would for a single import. 
+You’ll see a new import cell created for bulk imports. This cell contains a tab for each of the data types you selected from the Staging Area, which you can view by clicking on the available types within the Data type column on the left. This cell is a bulk wrapper for existing import apps, so you can fill out the parameters the same as you would for a single import.&#x20;
 
 {% hint style="info" %}
-Be aware that bulk import currently only supports a single parameter set per data type. If you need to upload files of a given data type with different parameters, perform a separate set of bulk imports for each parameter set. 
+Be aware that bulk import currently only supports a single parameter set per data type. If you need to upload files of a given data type with different parameters, perform a separate set of bulk imports for each parameter set.&#x20;
 {% endhint %}
 
 ![](../../../.gitbook/assets/screen-shot-2021-08-04-at-11.37.42-am.png)
 
 Once you kick off your jobs, you will still be able to see all the logs and status details in the Job Status tab, but arranged for the bulk import. You can expand each of the child jobs by clicking on the corresponding line to view details, then expand further to see the logs.
 
-Once the jobs are completed successfully, you’ll be able to see all the information on the data object, repackaged for viewability in bulk. The first new feature is a table of all successful jobs. Clicking on object names adds a viewer widget to the Narrative. All the reports are available under the "Reports" tree. The full list is collapsed by default to conserve memory. The list can be expanded to show each report, and each report can be viewed in a separate window. 
+Once the jobs are completed successfully, you’ll be able to see all the information on the data object, repackaged for viewability in bulk. The first new feature is a table of all successful jobs. Clicking on object names adds a viewer widget to the Narrative. All the reports are available under the "Reports" tree. The full list is collapsed by default to conserve memory. The list can be expanded to show each report, and each report can be viewed in a separate window.&#x20;
 
 ## What data types does this apply to?
 
-While this will be applicable to all file types in the future, bulk import currently supports the following data types:
+While this will be applicable to all data types and file extensions in the future, bulk import currently supports the following:
 
 * Assembly - FASTA
-* SRA Reads 
+* SRA Reads&#x20;
 * FASTQ Reads Interleaved - FASTQ Interleaved reads
 * FASTQ Reads Noninterleaved - FASTQ paired-end reads or FASTQ single-end reads library
 * GenBank Genome - GenBank
@@ -43,9 +43,7 @@ When selected files are not supported data types for Bulk Import within the Stag
 
 ## What are the limitations?
 
-This is a new feature in KBase, and the current release should be considered a beta version with future development still to come. Some of the most notable limitations are listed here. This is not a comprehensive list but does contain the known bugs, issues, and limitations that are the highest priority for future releases. 
+This is a new feature in KBase, and the current release should be considered a beta version with future development still to come. Some of the most notable limitations are listed here. This is not a comprehensive list but does contain the known bugs, issues, and limitations that are the highest priority for future releases.&#x20;
 
-View [common bugs and limitations](bulk-import-limitations.md). 
-
-
+View [common bugs and limitations](bulk-import-limitations.md).&#x20;
 

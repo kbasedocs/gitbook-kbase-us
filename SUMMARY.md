@@ -30,7 +30,7 @@
 * [Working with Data](data/README.md)
   * [Data Upload and Download Guide](data/upload-download-guide/README.md)
     * [Data Type Descriptions](data/upload-download-guide/data-types.md)
-    * [Uploading Data](data/upload-download-guide/uploads.md)
+    * [Importing Data](data/upload-download-guide/uploads.md)
     * [Bulk Import Guide](data/upload-download-guide/bulk-import-guide/README.md)
       * [Bulk Import Limitations](data/upload-download-guide/bulk-import-guide/bulk-import-limitations.md)
     * [Assembly](data/upload-download-guide/assembly.md)
