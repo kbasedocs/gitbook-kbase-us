@@ -24,5 +24,3 @@ description: >-
   * Workaround: During import pairs of files that go together, such as pairs of non-interleaved FASTQ files, will need to be manually assigned to a forward or reverse read.&#x20;
 * Issue: Logs/reports/status do not appear.&#x20;
   * Workaround: There have been infrequent bugs found in which logs failed to appear, jobs reported as successful but no report could be generated, and similar issues. Reloading the page has been found to fix all these issues so far.
-* Issue: Bulk jobs allow overwriting existing objects.&#x20;
-  * Workaround: The jobs should be reviewed prior to starting to ensure there are no duplicate names or no names that would overwrite existing objects. If it is discovered that an object has been incorrectly overwritten, the object can be reverted to the previous version.

@@ -39,3 +39,7 @@ The next sections of this guide describe the specific steps involved in uploadin
 ## **Transferring JGI data to KBase**
 
 If you are a JGI user, you can transfer public genome reads and assemblies (including your private data and annotated genomes) from JGI to your KBase account—see [this page](../jgi-transfer.md) for instructions.
+
+## Bulk Import Guide
+
+See the [Bulk Import Guide](https://docs.kbase.us/data/upload-download-guide/bulk-import-guide) for directions for importing data in bulk.

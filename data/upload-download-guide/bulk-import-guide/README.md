@@ -6,11 +6,11 @@ Bulk Import is undergoing user testing and not yet released.&#x20;
 
 ## How it works
 
-When you open a new Narrative you’ll notice that the Staging Area has updated. The importer selection dropdown can detect the data type of the file based on its extension where possible. Some types will not automatically select, such as .fasta or .fastq. In cases like this, more than one data type can apply to that file extension. However, suggested importers will be listed at the top of the drop down under “Suggested Types.”&#x20;
+When you open a new Narrative you’ll notice that the Staging Area has updated. The import type selection dropdown can detect the data type of the file based on its extension where possible. Some types will not automatically select, such as .fasta or .fastq. In cases like this, more than one importer can use that file extension. However, suggested importers will be listed at the top of the drop down under “Suggested Types.”&#x20;
 
 For example, files with the extension FASTQ can be imported as a single interleaved file or as a pair of forward and reverse non-interleaved files to create a PairedEndLibrary, or as a single non-interleaved file to create a SingleEndLibrary.&#x20;
 
-To run a bulk import, ensure all the files you want to import have a data type selected and the check box is active, then click "Import Selected."&#x20;
+To run a bulk import, ensure all the files you want to import have an import type selected and the check box is active, then click "Import Selected."&#x20;
 
 ![](../../../.gitbook/assets/screen-shot-2021-08-04-at-11.37.27-am.png)
 
