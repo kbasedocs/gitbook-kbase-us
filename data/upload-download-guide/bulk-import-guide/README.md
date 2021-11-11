@@ -22,9 +22,11 @@ Be aware that bulk import currently only supports a single parameter set per dat
 
 ![](../../../.gitbook/assets/screen-shot-2021-08-04-at-11.37.42-am.png)
 
-Once you kick off your jobs, you will still be able to see all the logs and status details in the Job Status tab, but arranged for the bulk import. You can expand each of the child jobs by clicking on the corresponding line to view details, then expand further to see the logs.
+Once you kick off your jobs, you will still be able to see all the logs and status details in the Job Status tab, but arranged for the bulk import. You can expand each of the child jobs by clicking on the corresponding line to view details, then expand further to see the logs. When the bulk import cell is set to run, each child job for the individual data object will have a status, including options to cancel or retry individual jobs.
 
-Once the jobs are completed successfully, you’ll be able to see all the information on the data object, repackaged for viewability in bulk. The first new feature is a table of all successful jobs. Clicking on object names adds a viewer widget to the Narrative. All the reports are available under the "Reports" tree. The full list is collapsed by default to conserve memory. The list can be expanded to show each report, and each report can be viewed in a separate window.&#x20;
+Alternatively, queued and running jobs can be cancelled using the bulk action dropdown. Or the retry action can be used for multiple import jobs within the bulk import cell. &#x20;
+
+When the jobs are completed successfully, you’ll be able to see all the information on the data object, repackaged for viewability in bulk. The first new feature is a table of all successful jobs. Clicking on object names adds a viewer widget to the Narrative. All the reports are available under the "Reports" tree. The full list is collapsed by default to conserve memory. The list can be expanded to show each report, and each report can be viewed in a separate window.&#x20;
 
 ## What data types does this apply to?
 
