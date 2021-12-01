@@ -24,13 +24,13 @@ The drag & drop from your local computer works for many files, but there is a si
 
 For this example, we will assume that you have a local copy of the RNA transcripts of the sample SRR228087 from GenBank. This is a single-end library from Illumina sequencing. Follow instructions for obtaining a local copy of data from the [GenBank SRA](http://www.metagenomics.wiki/tools/short-read/ncbi-sra-file-format) with their [sratoolkit](https://www.ncbi.nlm.nih.gov/books/NBK158900/). Other methods for obtaining the data will vary from one data provider to the next.
 
-Once the file is on your computer, open the __[_Import_ tab in the **Data Browser**](../../getting-started/narrative/add-data.md#uploading-data-from-external-sources) and drag the single-end library into your Staging area.
+Once the file is on your computer, open the __ [_Import_ tab in the **Data Browser**](../../getting-started/narrative/add-data.md#uploading-data-from-external-sources) and drag the single-end library into your Staging area.
 
-Open the pulldown menu to the right of the filename in your staging area and select “FASTQ Reads."  
-![](http://kbase.us/wp-content/uploads/2015/08/image4-1.png)  
-Now click the import icon \(up arrow\) to the right of “FASTQ Read”. The slide-out Data Browser will close and an app called “Import FASTQ/SRA File as Reads from Staging Area” will be added to your Narrative.
+Open the pulldown menu to the right of the filename in your staging area and select “FASTQ Reads."\
+![](http://kbase.us/wp-content/uploads/2015/08/image4-1.png)\
+Now click the import icon (up arrow) to the right of “FASTQ Read”. The slide-out Data Browser will close and an app called “Import FASTQ/SRA File as Reads from Staging Area” will be added to your Narrative.
 
-Notice that the name of the FASTA/FASTQ file is already filled in, as is a suggested Reads Object Name that will be created by the import \(you can change that if you like\). Adjust the Sequencing Technology and any of the advanced options if needed. Note that this was a metagenomic sample, we would _uncheck_ the box next to Single Genome. When ready, click the green "Run" button to start the import. When the import is finished, your Data Panel will update to show the new SingleEndLibrary object, and a report will appear in the import app cell.
+Notice that the name of the FASTA/FASTQ file is already filled in, as is a suggested Reads Object Name that will be created by the import (you can change that if you like). Adjust the Sequencing Technology and any of the advanced options if needed. Note that this was a metagenomic sample, we would _uncheck_ the box next to Single Genome. When ready, click the green "Run" button to start the import. When the import is finished, your Data Panel will update to show the new SingleEndLibrary object, and a report will appear in the import app cell.
 
 ![](../../.gitbook/assets/importfastqsraasreadsapp.png)
 
@@ -38,11 +38,11 @@ Notice that the name of the FASTA/FASTQ file is already filled in, as is a sugge
 
 There are two ways that KBase and [GenBank SRA](https://www.ncbi.nlm.nih.gov/sra/docs/submitformats/) recognize a paired-end library. In the legacy format, a paired-end library is two files which typically have the same name but have \_1 and \_2. For example, ERR760546\_1.fastq and ERR760546\_2.fastq. The other recognized format is called Interleaved. It is an 8-line format where forward and reverse reads alternate. The example above was imported as a SingleEndLibrary object because there was a single input file and the Interleaved box was un-checked.
 
-In this example, we will upload and import a paired-end library for ERR760546 in the 2-file legacy format. Open the __[_Import_ tab in the **Data Browser**](../../getting-started/narrative/add-data.md#uploading-data-from-external-sources) and drag the two files into the Staging Area.
+In this example, we will upload and import a paired-end library for ERR760546 in the 2-file legacy format. Open the __ [_Import_ tab in the **Data Browser**](../../getting-started/narrative/add-data.md#uploading-data-from-external-sources) and drag the two files into the Staging Area.
 
 Copy the reverse reads file name to paste in a later stage.
 
-Open the pulldown menu to the right of the filename under the _Import As..._ column in your Staging Area and select “FASTQ Reads” for the first file in the pair. Then click the import icon \(up arrow\) to the right of “FASTQ Reads”. The Data Browser slide-out will close and an app called “Import FASTQ/SRA File as Reads from Staging Area” will be added.
+Open the pulldown menu to the right of the filename under the _Import As..._ column in your Staging Area and select “FASTQ Reads” for the first file in the pair. Then click the import icon (up arrow) to the right of “FASTQ Reads”. The Data Browser slide-out will close and an app called “Import FASTQ/SRA File as Reads from Staging Area” will be added.
 
 Notice that the name of the FASTA/FASTQ file is filled in. A suggested Reads Object Name is also created by the import and can be changed.
 
@@ -60,17 +60,16 @@ In the Staging Area, beneath the box for Drag and Drop, there are other options 
 
 There is also an icon with two arrows in a clockwise circle that refreshes the list of genomes that have been uploaded to the Staging Area.
 
-![](../../.gitbook/assets/user_refresh.png)
+![](../../.gitbook/assets/user\_refresh.png)
 
-If your reads are in a publicly accessible URL, you can bypass the Staging Area and directly import reads into your Narrative using one of these three apps \(which you can find in the Apps panel or the [App Catalog](https://kbase.us/applist/)\):
+If your reads are in a publicly accessible URL, you can bypass the Staging Area and directly import reads into your Narrative using one of these three apps (which you can find in the Apps panel or the [App Catalog](https://kbase.us/applist/)):
 
-* [Import SRA File as Reads From Web](https://narrative.kbase.us/#catalog/apps/kb_uploadmethods/import_sra_as_reads_from_web/release)
-* [Import Single-End Reads From Web](https://narrative.kbase.us/#catalog/apps/kb_uploadmethods/load_single_end_reads_from_URL/release)
-* [Import Paired-End Reads From Web](https://narrative.kbase.us/#catalog/apps/kb_uploadmethods/load_paired_end_reads_from_URL/release)
+* [Import SRA File as Reads From Web](https://narrative.kbase.us/#catalog/apps/kb\_uploadmethods/import\_sra\_as\_reads\_from\_web/release)
+* [Import Single-End Reads From Web](https://narrative.kbase.us/#catalog/apps/kb\_uploadmethods/load\_single\_end\_reads\_from\_URL/release)
+* [Import Paired-End Reads From Web](https://narrative.kbase.us/#catalog/apps/kb\_uploadmethods/load\_paired\_end\_reads\_from\_URL/release)
 
 ## **Transfer reads from JGI**
 
-If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account—see [this page](../jgi-transfer.md) for instructions.
+If you are a JGI user, you can transfer public genome reads and assemblies (as well as your private data and annotated genomes) from JGI to your KBase account—see [this page](../jgi-transfer.md) for instructions.
 
-## 
-
+##

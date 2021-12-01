@@ -4,21 +4,23 @@ description: How to share your KBase Narrative workspaces with individuals and O
 
 # Share Narratives
 
-Narratives are _collaborative_ \(multiple people on your project can work on a Narrative together\), _shareable_ \(you can share your Narrative with specific people or with everyone\), _publishable_ \(a finished Narrative is similar to a research paper, and can be cited as a URL\), and _reproducible_ \(you can repeat or even change another scientist’s computational experiment if they publish it as a Narrative\). We believe that you will ultimately help both yourself and other researchers by sharing your Narratives so that others can see what you were thinking, what you did, and what you concluded from your analyses. However, **all of your Narratives are** _**private \(viewable only to you\)**_ **until you decide to share them.**
+Narratives are _collaborative_ (multiple people on your project can work on a Narrative together), _shareable_ (you can share your Narrative with specific people or with everyone), _publishable_ (a finished Narrative is similar to a research paper, and can be cited as a URL), and _reproducible_ (you can repeat or even change another scientist’s computational experiment if they publish it as a Narrative). We believe that you will ultimately help both yourself and other researchers by sharing your Narratives so that others can see what you were thinking, what you did, and what you concluded from your analyses. However, **all of your Narratives are **_**private (viewable only to you)**_** until you decide to share them.**
 
-{% embed url="https://youtu.be/T07ugYD8UpU" caption="A quick 4-min Tutorial on how to share Narratives. " %}
+{% embed url="https://youtu.be/T07ugYD8UpU" %}
+A quick 4-min Tutorial on how to share Narratives.&#x20;
+{% endembed %}
 
 ### How to Share a Narrative
 
-You can share a Narrative that you own with any set of people you choose, or with all KBase Users. To share a Narrative, click the “share” button near the top right and select the "Manage Sharing" option in the menu. 
+You can share a Narrative that you own with any set of people you choose, or with all KBase Users. To share a Narrative, click the “share” button near the top right and select the "Manage Sharing" option in the menu.&#x20;
 
 ![](../../.gitbook/assets/sharenarrative.gif)
 
-You will now see the Change Share Settings pop-up window. Here, you can see the people you have already shared with \(right now, only you\).
+You will now see the Change Share Settings pop-up window. Here, you can see the people you have already shared with (right now, only you).
 
-![](../../.gitbook/assets/changesharesettings_first.png)
+![](../../.gitbook/assets/changesharesettings\_first.png)
 
-If you want to share your Narrative with everyone, you can click the “make public” link near the top of the sharing panel. 
+If you want to share your Narrative with everyone, you can click the “make public” link near the top of the sharing panel.&#x20;
 
 ### Users tab
 
@@ -36,17 +38,17 @@ You can add multiple users to share with:
 
 ![](../../.gitbook/assets/screen-shot-2017-06-27-at-11.26.46-am.png)
 
-Click the “Apply” button to add the chosen user\(s\) to the sharing list for your Narrative. The usernames and permission levels for the users you shared with will appear at the bottom of the Share panel.
+Click the “Apply” button to add the chosen user(s) to the sharing list for your Narrative. The usernames and permission levels for the users you shared with will appear at the bottom of the Share panel.
 
 ![](../../.gitbook/assets/screen-shot-2017-06-27-at-11.26.54-am.png)
 
 ### Orgs tab
 
-To share your Narrative with a specific Organization, select the Orgs tab. Here you can add a single or multiple Organizations to share with a group of users. 
+To share your Narrative with a specific Organization, select the Orgs tab. Here you can add a single or multiple Organizations to share with a group of users.&#x20;
 
 ![](../../.gitbook/assets/changesharesettingsorgs.gif)
 
-Click the “Apply” button to add the chosen Organization\(s\) to the sharing list for your Narrative. The Organizations and permission levels for the users you shared with will appear at the bottom of the Share panel.
+Click the “Apply” button to add the chosen Organization(s) to the sharing list for your Narrative. The Organizations and permission levels for the users you shared with will appear at the bottom of the Share panel.
 
 When you’re done sharing, click the "x" icon to close the Share panel.
 
@@ -62,15 +64,15 @@ If you are working on a shared Narrative, and a collaborator is working on it at
 
 You can share you Narrative in publication ready, uneditable format that is accessible outside of KBase by creating a static Narrative. Once you are ready to share the Narrative, there are two steps.
 
- 1. Click on the share icon in the menu and click on Manage Sharing in the dropdown menu. In the pop-up window click 'make public?' to change the privacy settings. Click the 'x' icon to close the pop-up window. 
+&#x20;1\. Click on the share icon in the menu and click on Manage Sharing in the dropdown menu. In the pop-up window click 'make public?' to change the privacy settings. Click the 'x' icon to close the pop-up window.&#x20;
 
-![Gif of opening the Manage Sharing pop-up window](../../.gitbook/assets/narrativesharing_makepubllic.gif)
+![Gif of opening the Manage Sharing pop-up window](../../.gitbook/assets/narrativesharing\_makepubllic.gif)
 
-2. Return and click on the 'share' icon, go to 'Manage Static Narratives in the   dropdown menu. The 'Static Narratives' pop-up window will open and show the status if any versions of this Narrative have been made static. To create a static Narrative of the current version, click on the blue 'Create static narrative' button. 
+2\. Return and click on the 'share' icon, go to 'Manage Static Narratives in the   dropdown menu. The 'Static Narratives' pop-up window will open and show the status if any versions of this Narrative have been made static. To create a static Narrative of the current version, click on the blue 'Create static narrative' button.&#x20;
 
-![Gif of creating a Static Narrative](../../.gitbook/assets/narrativessharing_makestatic.gif)
+![Gif of creating a Static Narrative](../../.gitbook/assets/narrativessharing\_makestatic.gif)
 
-3. Access the static Narrative and share the link by clicking on the 'Existing static Narrative' link within the pop-up window. 
+3\. Access the static Narrative and share the link by clicking on the 'Existing static Narrative' link within the pop-up window.&#x20;
 
 ![Image of Static Narratives pop-up window.](../../.gitbook/assets/staticnarrativestatus.png)
 
@@ -78,7 +80,7 @@ You can share you Narrative in publication ready, uneditable format that is acce
 
 Every KBase User has a user profile. Filling in your KBase user profile helps you become part of the social web that KBase is building, making it easier to find and collaborate with other scientists and share data and Narratives. You are not required to complete your user profile in order to use KBase, but we encourage everyone to do so.
 
-To see and edit your user profile, go to the Menu sidebar on the left and click the “Account” button on the left side. Your profile page will open, looking something like the screenshot below. You will be able to enter or change information including your organization, department, job title, research interests, avatar, and more. Required fields are marked with a red "\*." You must fill in all required fields in order to save your profile \(using the Save button on the upper right of the page\).
+To see and edit your user profile, go to the Menu sidebar on the left and click the “Account” button on the left side. Your profile page will open, looking something like the screenshot below. You will be able to enter or change information including your organization, department, job title, research interests, avatar, and more. Required fields are marked with a red "\*." You must fill in all required fields in order to save your profile (using the Save button on the upper right of the page).
 
 ![](../../.gitbook/assets/accountselect.gif)
 
@@ -86,11 +88,10 @@ To see and edit your user profile, go to the Menu sidebar on the left and click 
 
 ![](../../.gitbook/assets/screen-shot-2017-12-05-at-3.50.59-pm.png)
 
-Below the "Save" button is a small preview showing what your profile page looks like to others. You can click the “Open Your Profile Page” link to see a bigger version, along with a list of your Narratives and collaborators \(other users with whom you have shared Narratives, or who have shared Narratives with you\) and a search box for searching for other users by name or username. As you start typing in the box, you will see a list of users who have that text in their first or last name or their username. Click one of the matches to see that user’s profile.
+Below the "Save" button is a small preview showing what your profile page looks like to others. You can click the “Open Your Profile Page” link to see a bigger version, along with a list of your Narratives and collaborators (other users with whom you have shared Narratives, or who have shared Narratives with you) and a search box for searching for other users by name or username. As you start typing in the box, you will see a list of users who have that text in their first or last name or their username. Click one of the matches to see that user’s profile.
 
 The **Account** tab lets you see basic information about your KBase account. The only field that can be edited there is your preferred email address. Note that other users cannot see your email address; it will be used only by KBase staff to contact you occasionally with important information.
 
-The **Linked Sign-In Accounts** tab lets you see and [manage](../sign-up/linking-orcid.md) which external \(Globus or Google or ORCiD\) accounts are linked to your KBase account.
+The **Linked Sign-In Accounts** tab lets you see and [manage](../sign-up/linking-orcid.md) which external (Globus or Google or ORCiD) accounts are linked to your KBase account.
 
-The **User Profile** editor allows you to edit your position, organization, and location. You can also input your Research Interests, Research or Personal Statement. It also shows which KBase _Organizations_ you belong to and any Affiliations. 
-
+The **User Profile** editor allows you to edit your position, organization, and location. You can also input your Research Interests, Research or Personal Statement. It also shows which KBase _Organizations_ you belong to and any Affiliations.&#x20;

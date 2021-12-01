@@ -1,6 +1,6 @@
 # Add Data to Your Narrative
 
-Now that you are familiar with ways to find and explore data in KBase, you can select or upload data to analyze. The **Data Panel **in a Narrative shows the data objects that are currently available in that particular Narrative.&#x20;
+Now that you are familiar with ways to find and explore data in KBase, you can select or upload data to analyze. The **Data Panel** in a Narrative shows the data objects that are currently available in that particular Narrative.&#x20;
 
 ![](<../../.gitbook/assets/datapanel (1).png>)
 

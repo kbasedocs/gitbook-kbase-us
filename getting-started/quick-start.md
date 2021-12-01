@@ -1,10 +1,12 @@
 ---
-description: 'A fast, one-page introduction to KBase''s narrative interface'
+description: A fast, one-page introduction to KBase's narrative interface
 ---
 
 # Narrative Quick Start
 
-{% embed url="https://youtu.be/WKKKXg55hs0" caption="Narrative Quick Start Guide" %}
+{% embed url="https://youtu.be/WKKKXg55hs0" %}
+Narrative Quick Start Guide
+{% endembed %}
 
 ### **What is a Narrative?**
 
@@ -16,18 +18,18 @@ To begin using KBase, you will first need to [Sign up for a KBase Account](sign-
 
 ### **Step 2. Sign in to KBase**
 
-After you sign in, you will be taken to your Narratives \(details of which can be found [here](https://kbase.us/narrative-guide/your-dashboard/)\). From Narratives, you can open your existing Narratives, access others that have been shared with you, and create new Narratives. These Narratives can be accessed at [narrative.kbase.us](https://narrative.kbase.us/).
+After you sign in, you will be taken to your Narratives (details of which can be found [here](https://kbase.us/narrative-guide/your-dashboard/)). From Narratives, you can open your existing Narratives, access others that have been shared with you, and create new Narratives. These Narratives can be accessed at [narrative.kbase.us](https://narrative.kbase.us).
 
-  
+\
 If you are a new user, your Narratives dash will be mostly empty, since you haven’t created any Narratives yet.
 
-![](../.gitbook/assets/narrative_guide.png)
+![](../.gitbook/assets/narrative\_guide.png)
 
 ### **Step 3. Create a new Narrative**
 
 Click the “+ New Narrative” button in Narratives to open a new untitled Narrative. A “Welcome to the Narrative Interface” box offers information and links to documentation for adding content to your Narrative. You can collapse or delete this box using the “…” dropdown menu in the top right corner.
 
-![](../.gitbook/assets/welcomecell_openclose.gif)
+![](../.gitbook/assets/welcomecell\_openclose.gif)
 
 **Try the Narrative tour!**
 
@@ -47,9 +49,9 @@ Note: Any data you upload to KBase is private unless you choose to share it.
 
 ### **Step 5. Add data to your Narrative**
 
-When you hover over a [data object](narrative/explore-data.md) in the Data Browser, a blue “&lt; Add” button will appear to its left. Click the button to add the data to your Narrative.
+When you hover over a [data object](narrative/explore-data.md) in the Data Browser, a blue “< Add” button will appear to its left. Click the button to add the data to your Narrative.
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](<../.gitbook/assets/image (1).png>)
 
 Notice that the data object now appears in the Data Panel. Once you finish adding data, exit the Data Browser by clicking either the “Close” button at the bottom left of the browser window or the arrow at the top right of the Data Panel.
 
@@ -57,9 +59,9 @@ Notice that the data object now appears in the Data Panel. Once you finish addin
 
 Don’t forget to periodically save your Narrative by clicking the “Save” button at the top right of the interface.
 
-![](../.gitbook/assets/savenarrative%20%281%29.gif)
+![](<../.gitbook/assets/savenarrative (1).gif>)
 
-### **Step 6. Choose an App** 
+### **Step 6. Choose an App**&#x20;
 
 ![](../.gitbook/assets/app-panel-open.png)
 
@@ -90,4 +92,3 @@ All Narratives that you create are private by default. You can [make a Narrative
 ### **Next steps and additional resources**
 
 With these basic steps, you now can begin using the Narrative Interface to create Narratives and analyze data. For a more in-depth introduction to any of the topics mentioned here, see the [Narrative User Guide](narrative/).
-

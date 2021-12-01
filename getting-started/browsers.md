@@ -4,45 +4,19 @@ The KBase website and Narrative Interface should work on most modern web browser
 
 ### Supported Browsers
 
-The following desktop web browsers have been tested against the KBase web site and Narrative user interface. If you experience any issue using these browsers with our site please report it through the [Help Board](https://kbase-jira.atlassian.net/). 
+The following desktop web browsers have been tested against the KBase web site and Narrative user interface. If you experience any issue using these browsers with our site please report it through the [Help Board](https://kbase-jira.atlassian.net).&#x20;
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">OS</th>
-      <th style="text-align:left">Supported Browsers</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left">Mac</td>
-      <td style="text-align:left">
-        <p>Chrome</p>
-        <p>Firefox</p>
-        <p>Safari 10 (macOS Sierra) and up</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Windows</td>
-      <td style="text-align:left">
-        <p>Firefox</p>
-        <p>Microsoft Edge -- not recommended</p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left">Linux</td>
-      <td style="text-align:left">
-        <p>Chrome</p>
-        <p>Firefox</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
+| OS      | Supported Browsers                                                |
+| ------- | ----------------------------------------------------------------- |
+| Mac     | <p>Chrome</p><p>Firefox</p><p>Safari 10 (macOS Sierra) and up</p> |
+| Windows | <p>Firefox</p><p>Microsoft Edge -- not recommended</p>            |
+| Linux   | <p>Chrome</p><p>Firefox</p>                                       |
 
 {% hint style="warning" %}
 **Ad blockers may prevent KBase from working in your web browser**
 
-Some ad-blockers and browser extensions may cause errors within the Narrative Interface. We are working to identify issues with commonly used browser extensions, but you may want to disable browser extensions if you encounter issues within KBase.  
+Some ad-blockers and browser extensions may cause errors within the Narrative Interface. We are working to identify issues with commonly used browser extensions, but you may want to disable browser extensions if you encounter issues within KBase.\
+
 {% endhint %}
 
 ### Mobile Browsers
@@ -59,13 +33,13 @@ Chrome is the best browser to use for KBase. The Chrome browser is produced by G
 
 #### Firefox
 
-Firefox, produced by the non-profit Mozilla Corporation, is a freely available, open source browser for Mac, Windows, Linux, and other systems. Like Chrome, Firefox is updated frequently, so it is not feasible for us to recommend a specific \(or even minimum\) version. Our best advice is to make sure you are using the most recent version available. Recent versions of Firefox will automatically update themselves on Mac and Windows.
+Firefox, produced by the non-profit Mozilla Corporation, is a freely available, open source browser for Mac, Windows, Linux, and other systems. Like Chrome, Firefox is updated frequently, so it is not feasible for us to recommend a specific (or even minimum) version. Our best advice is to make sure you are using the most recent version available. Recent versions of Firefox will automatically update themselves on Mac and Windows.
 
 * [Download Firefox](https://www.mozilla.org/en-US/firefox/new)
 
 #### Safari
 
-Safari is distributed with Mac OS X. \(We do not support the Windows version of Safari.\) Specific versions of Mac OS X support specific versions of Safari – see this [Wikipedia entry](http://en.wikipedia.org/wiki/Safari_version_history) for details.
+Safari is distributed with Mac OS X. (We do not support the Windows version of Safari.) Specific versions of Mac OS X support specific versions of Safari – see this [Wikipedia entry](http://en.wikipedia.org/wiki/Safari\_version\_history) for details.
 
 #### Microsoft Edge
 
@@ -78,4 +52,3 @@ Safari is distributed with Mac OS X. \(We do not support the Windows version of 
 Older versions of supported browsers are also not supported. Please ensure that your browser and system are up-to-date before reporting a problem with a supported browser.
 
 Other modern browsers, such as Opera, may work with KBase, but as we do not test with them we cannot make any assurances about their operation.
-

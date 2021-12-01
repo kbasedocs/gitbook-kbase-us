@@ -4,9 +4,8 @@ KBase provides users with a unified resource for analyzing a range of public dat
 
 Please review [KBase's Data Policy](https://www.kbase.us/data-policy-and-sources/) and the sources of our public reference data.
 
-To search public data in KBase, use the __[_Public_ tab in the **Data Browser** ](../getting-started/narrative/explore-data.md) ****within the Narrative Interface.
+To search public data in KBase, use the __ [_Public_ tab in the **Data Browser** ](../getting-started/narrative/explore-data.md) **** within the Narrative Interface.
 
-![](../.gitbook/assets/selectingpublictab_databrowser%20%281%29.gif)
+![](<../.gitbook/assets/selectingpublictab\_databrowser (1).gif>)
 
-If you are a JGI user, you can transfer public genome reads and assemblies \(as well as your private data and annotated genomes\) from JGI to your KBase account using [these instructions](jgi-transfer.md).
-
+If you are a JGI user, you can transfer public genome reads and assemblies (as well as your private data and annotated genomes) from JGI to your KBase account using [these instructions](jgi-transfer.md).
