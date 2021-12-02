@@ -21,10 +21,7 @@ description: >-
 
 ![Example for viewing file size information in the Staging Area to ensure the file is completely uploaded](../../../.gitbook/assets/md5.png)
 
-*   Issue: Locating the Job Status for each import within the Bulk Import cell.
-
-    Workaround: The status can be viewed within the Job Status tab of the App cell by clicking anywhere on the line for a child job to expand that job.
-*   Issue: Autofill for certain data types does not work.
+*   Issue: File paths are not autofilled.&#x20;
 
     Workaround: During import pairs of files that go together, such as pairs of non-interleaved FASTQ files or FASTA and GFF Metagenome files, will need to be manually assigned to a forward or reverse read.&#x20;
 
