@@ -32,9 +32,6 @@ description: >-
     Workaround: This is a visual issue and the selected Scientific Name will still be included when running the import - even though it is not searchable in the _undefined state_.&#x20;
 
     To verify the selected name is correct when the parameter does switch to the undefined state, 1) search for and select a different scientific name, 2) click between Data type tabs, 3) return to Data type tab and search for and select the original, preferred scientific name, 4) then Run the import.&#x20;
-*   Issue: Import fails after queuing due to illegal characters in the Data Object Name.
-
-    Workaround: Check object names before running the import. An object name may only include alphabetic characters, numbers, and the symbols “\_”, “-”, “.”, and “|”. Remove any other non-alphanumeric character from the object name.
 *   Issue: Job Status/Logs/Results do not appear or do not update.
 
     Workaround: There have been infrequent bugs found in which logs failed to appear, jobs reported as successful but no report could be generated, and similar issues. Switching between tabs or reloading the page has been found to fix these issues.
