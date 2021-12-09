@@ -160,7 +160,7 @@ If the importer objected to something in your file, check the [Data Upload/Downl
 \
 In some cases, the cause of an import error will not be obvious. If you can’t figure out why your import isn’t working, please contact us (via the [Help Board](../../troubleshooting/support.md#contact-us)) for help. Note, however, that no one besides you has access to your Staging Area, so we will not be able to see the files you uploaded to your Staging Area. You may need to attach your input file to your Help Board ticket in order for us to diagnose the problem.
 
-### [Using Bulk Import](../../data/upload-download-guide/bulk-import-guide/)
+### [Using Bulk Import](../../data/upload-download-guide/bulk-import/)
 
 Multiple files can be imported together in a single Import App as part of a bulk import feature that is being developed. When you select the file type, you will be able to check multiple files in the staging area and import them all by clicking "Import Selected."&#x20;
 
@@ -170,7 +170,7 @@ When you import selected, there will be a new cell type which contains a tab for
 
 ![Bulk Import Cell. File types can be selected under the data type column to set the parameters for each type.](../../.gitbook/assets/screen-shot-2021-08-04-at-11.37.42-am.png)
 
-#### [Limitations](../../data/upload-download-guide/bulk-import-guide/bulk-import-limitations.md)
+#### [Limitations](../../data/upload-download-guide/bulk-import/limitations.md)
 
 The bulk import is still under development and not all file types are accounted for. If you select multiple files and there are unsupported types included, you will get a bulk import cell for the supported types along with individual import cells for the unsupported types.
 

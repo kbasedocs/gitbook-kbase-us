@@ -55,5 +55,5 @@ When selected files are not supported data types for Bulk Import within the Stag
 
 This is a new feature in KBase, and the current release should be considered a beta version with future development still to come. Some of the most notable limitations are listed here. This is not a comprehensive list but does contain the known bugs, issues, and limitations that are the highest priority for future releases.&#x20;
 
-View [common bugs and limitations](bulk-import-limitations.md).&#x20;
+View [common bugs and limitations](limitations.md).&#x20;
 
