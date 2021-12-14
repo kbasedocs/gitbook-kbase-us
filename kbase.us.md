@@ -32,6 +32,14 @@ Teal boxes for developer highlights are 5px and #009688.&#x20;
 <br clear="left">
 ```
 
+## Embedding and Linking from Drive
+
+1. Open the PDF or image file in a new preview window
+2. Open the expanded menu and click on "Embed item..."
+   1. To embed an image, select the link or frame.
+   2. To link a PDF, copy the Drive link.&#x20;
+3. Insert the link in desired location.&#x20;
+
 ## Pop up messages
 
 Best practices for using Hustle for messaging on kbase.us
