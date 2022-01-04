@@ -1,8 +1,8 @@
 ---
-description: Frequently asked questions about KBase.
+description: Frequently Asked Questions about KBase.
 ---
 
-# FAQ
+# FAQs
 
 ## Is KBase free to use?&#x20;
 
@@ -10,7 +10,7 @@ Yes! KBase is completely free to use and is supported by the Department of Energ
 
 ## I'm getting an error. What do I do?
 
-You can check [the job log](../troubleshooting/job-log.md) and refer to our [troubleshooting guide](../troubleshooting/). If you do not see a reason for the error there, please make a ticket on our [Help Board](https://kbase-jira.atlassian.net).
+You can check [the job log](../troubleshooting/job-errors/common/job-log.md) and refer to our [troubleshooting guide](../troubleshooting/). If you do not see a reason for the error there, please make a ticket on our [Help Board](https://kbase-jira.atlassian.net).
 
 ## Is it possible to obtain publication-quality figures by using these tools?
 
@@ -44,7 +44,7 @@ Provided the same data, parameters, and tool version are consistent, the results
 
 You can view some advanced parameters depending on the app by clicking the Advanced Parameters button. For some apps there are few or no advanced parameters. In creating these Apps we aim to balance configurability and usability. As a result, for some Apps we do not make certain rarely changed parameters visible.
 
-## How do I get an app I like added?&#x20;
+## How do I get a tool I like added?&#x20;
 
 There are a couple venues:&#x20;
 
@@ -56,11 +56,11 @@ Alternatively, a beta version of the App might already be in KBase. In the Apps 
 
 ## What pipelines does KBase provide?&#x20;
 
-&#x20;KBase does not provide _pipelines_ per se; we try to be as flexible as possible. We do have example Narratives that replicate the paths many users follow, but we encourage everyone to plot their own course.
+&#x20;KBase does not provide _pipelines_ per se; we try to be as flexible as possible. We do have [example Narratives](../workflows/) that replicate the paths many users follow, but we encourage everyone to plot their own course.
 
 ## Will my data be made public?
 
-All user data in KBase is private by default until you share it. You can keep all your data private if you wish. We do encourage users to make data public in the interest of FAIR - Findable, Accessible, Interoperable, and Reusable - data practices.
+All user data in KBase is [private by default until you share it](https://www.kbase.us/data-policy-and-sources/). You can keep all your data private if you wish. We do encourage users to make data public in the interest of FAIR - Findable, Accessible, Interoperable, and Reusable - data practices.
 
 ## What organisms are available in KBase?&#x20;
 

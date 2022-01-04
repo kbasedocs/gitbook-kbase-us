@@ -43,7 +43,7 @@ If you decide to delete a Narrative that you own, click the trashcan icon. Delet
 
 ![](../../.gitbook/assets/image31.png)
 
-### **Save your work!**
+## **Save your work!**
 
 Although your Narrative is periodically autosaved, it is always a good idea to save your work frequently, using the Save button at the top right of the screen.
 

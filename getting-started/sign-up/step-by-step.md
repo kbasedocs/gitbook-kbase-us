@@ -20,7 +20,7 @@ It’s easy and free to get a new account with one of our identity providers. \
 We are also considering adding support for other identity providers. If there’s one you’d like us to add, please [contact us](https://kbase.us/contact-us/).
 {% endhint %}
 
-3\. Assuming you want to use your Google account, click on the “Sign in with Google” button; you will be prompted to choose a Google account (if you have more than one) and sign in to it (if you aren’t already signed in).\
+3\. If want to use your Google account, click on the “Sign in with Google” button; you will be prompted to choose a Google account (if you have more than one) and sign in to it (if you aren’t already signed in).\
 
 
 ![](../../.gitbook/assets/google\_signin.png)
@@ -31,15 +31,11 @@ We are also considering adding support for other identity providers. If there’
 
 5\. You must now agree to the [KBase User Agreement](https://www.kbase.us/terms-and-conditions/) and [KBase Data Policy](https://www.kbase.us/data-policy-and-sources/).&#x20;
 
-Note: If you already had a KBase account, the User Agreement and Data Policy have not changed since you last agreed to them. This is merely a reconfirmation required by the new authentication process.
+Note: If you already had a KBase account, these documents have not changed since you last agreed to them. This is a reconfirmation required by the new authentication process.
 
-Read the [KBase User Agreement](https://www.kbase.us/terms-and-conditions/) and [KBase Data Policy](https://www.kbase.us/data-policy-and-sources/) and check the checkboxes that say “I have read and agree to this policy”
-
-![](../../.gitbook/assets/user-policies.png)
+Read the policies and select the checkboxes that say “I have read and agree to this policy”
 
 Once you’ve checked both boxes for User Agreement and Data Policy, you will be able to click the blue button at the bottom that says “Create KBase Account”.
-
-![](../../.gitbook/assets/screen-shot-2017-06-07-at-3.54.47-pm.png)
 
 6\. You’re done – you now have a KBase account!\
 \

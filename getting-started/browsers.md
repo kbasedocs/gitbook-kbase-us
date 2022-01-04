@@ -2,15 +2,15 @@
 
 The KBase website and Narrative Interface should work on most modern web browsers, but we primarily focus on supporting **Chrome**.
 
-### Supported Browsers
+## Supported Browsers
 
 The following desktop web browsers have been tested against the KBase web site and Narrative user interface. If you experience any issue using these browsers with our site please report it through the [Help Board](https://kbase-jira.atlassian.net).&#x20;
 
-| OS      | Supported Browsers                                                |
-| ------- | ----------------------------------------------------------------- |
-| Mac     | <p>Chrome</p><p>Firefox</p><p>Safari 10 (macOS Sierra) and up</p> |
-| Windows | <p>Firefox</p><p>Microsoft Edge -- not recommended</p>            |
-| Linux   | <p>Chrome</p><p>Firefox</p>                                       |
+|    OS   | Supported Browsers                                                |
+| :-----: | ----------------------------------------------------------------- |
+|   Mac   | <p>Chrome</p><p>Firefox</p><p>Safari 10 (macOS Sierra) and up</p> |
+| Windows | <p>Firefox</p><p>Microsoft Edge - not recommended</p>             |
+|  Linux  | <p>Chrome</p><p>Firefox</p>                                       |
 
 {% hint style="warning" %}
 **Ad blockers may prevent KBase from working in your web browser**
@@ -19,33 +19,33 @@ Some ad-blockers and browser extensions may cause errors within the Narrative In
 
 {% endhint %}
 
-### Mobile Browsers
+## Mobile
 
 KBase is currently not supported on mobile browsers. The KBase website and services should work with tablet browsers on iPad and Android devices in landscape orientation, but we do not currently test on these platforms so there may be compatibility issues. Watch for future updates as KBase goes responsive and mobile.
 
-### Installation of Supported Browsers
+## Installation of Supported Browsers
 
-#### Chrome
+### Chrome
 
 Chrome is the best browser to use for KBase. The Chrome browser is produced by Google, Inc., and is freely available. Chrome operates on a rolling release, meaning that it is updated frequently and it is not easy to track specific versions. Our best advice is to make sure you are using the most recent version available. On Mac and Windows this is built into the Chrome application itself.
 
 * [Download Chrome](http://www.google.com/chrome)
 
-#### Firefox
+### Firefox
 
 Firefox, produced by the non-profit Mozilla Corporation, is a freely available, open source browser for Mac, Windows, Linux, and other systems. Like Chrome, Firefox is updated frequently, so it is not feasible for us to recommend a specific (or even minimum) version. Our best advice is to make sure you are using the most recent version available. Recent versions of Firefox will automatically update themselves on Mac and Windows.
 
 * [Download Firefox](https://www.mozilla.org/en-US/firefox/new)
 
-#### Safari
+### Safari
 
 Safari is distributed with Mac OS X. (We do not support the Windows version of Safari.) Specific versions of Mac OS X support specific versions of Safari – see this [Wikipedia entry](http://en.wikipedia.org/wiki/Safari\_version\_history) for details.
 
-#### Microsoft Edge
+### Microsoft Edge
 
 [Microsoft Edge](https://www.microsoft.com/en-us/windows/microsoft-edge) is the new web browser for Windows 10; it replaces Internet Explorer. You should be able to use KBase on Edge, but this has not been extensively tested.
 
-### Unsupported Browsers
+## Unsupported Browsers
 
 **KBase is not supported on Internet Explorer**. It should work on Microsoft Edge, but it has not been extensively tested. For the best chance of success on Edge, be sure you are using the most recent version.
 

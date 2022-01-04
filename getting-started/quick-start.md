@@ -8,7 +8,7 @@ description: A fast, one-page introduction to KBase's narrative interface
 Narrative Quick Start Guide
 {% endembed %}
 
-### **What is a Narrative?**
+## **What is a Narrative?**
 
 In KBase, you can create shareable, reproducible workflows called **Narratives** that include data, analysis steps, results, visualizations, and commentary. This Quick Start provides an overview of how to create and use the features of Narratives.
 
@@ -89,6 +89,6 @@ Please see [the KBase Apps section of the Narrative Interface User Guide](narrat
 
 All Narratives that you create are private by default. You can [make a Narrative public or share it ](narrative/share.md)with specific collaborators by clicking the “share” button near the top right of your Narrative.
 
-### **Next steps and additional resources**
+## **Next steps and additional resources**
 
 With these basic steps, you now can begin using the Narrative Interface to create Narratives and analyze data. For a more in-depth introduction to any of the topics mentioned here, see the [Narrative User Guide](narrative/).

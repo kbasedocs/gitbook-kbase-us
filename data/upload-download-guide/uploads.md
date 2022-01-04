@@ -8,27 +8,21 @@ description: Using the Data Browser in the KBase Narrative Interface.
 
 The _Import_ tab lets you drag & drop data files from your computer into the Staging Area to upload data into your Narrative. Visit [this page](../../getting-started/narrative/add-data.md#uploading-data-from-external-sources) of the Narrative User Guide for general instructions on how to use the Staging Area.
 
-![](<../../.gitbook/assets/import-stage (1).png>)
+![Data Panel and Import to Staging Area](../../.gitbook/assets/DataPanel\_import.png)
 
 The first step in uploading your data is to locate the **Data Panel** along the left side of the Narrative Interface window and click the red “Add Data” button, the circular red “+” icon, or the arrow at the upper right of the panel to access the slide-out **Data Browser**. The Data Browser has several tabs that allow you to access data within KBase and the _Import_ tab for uploading your own data.&#x20;
 
-![](<../../.gitbook/assets/databrowseropen (1).gif>)
-
-![](<../../.gitbook/assets/databrowser\_redplusopen (1).gif>)
-
 To close the Import panel and return to the Narrative Interface, simply click the “Close” button on the bottom right of the import panel.&#x20;
-
-![](../../.gitbook/assets/databrowser\_close.gif)
 
 If you have a small screen, you might not be able to see that button. Another way to close the Data Browser is to click the arrow icon on the top right of your Data Panel (the same one that opens the Data Browser slide-out).
 
-![](<../../.gitbook/assets/databrowserclose (1).gif>)
+![Opening and Closing Data Panel](../../.gitbook/assets/DataPanel\_openandclose.gif)
 
 ## **Drag & Drop Limitations**
 
-The drag & drop from your local computer works for many files, but there is a size limit dependent on your computer and browser. For larger files around 20GB, use the [Globus Online transfer](../globus.md).
+The drag & drop from your local computer works for many files, but there is a size limit dependent on your computer and browser. For larger files around 20GB, use the [Globus Online transfer](../globus.md) or a direct upload with a URL.
 
-![](../../.gitbook/assets/importtab\_databrowser.png)
+![Using Globus to upload large data files to the Staging Area](../../.gitbook/assets/Globus\_upload.png)
 
 ## **Data Privacy**
 
@@ -42,4 +36,4 @@ If you are a JGI user, you can transfer public genome reads and assemblies (incl
 
 ## Bulk Import Guide
 
-See the [Bulk Import Guide](https://docs.kbase.us/data/upload-download-guide/bulk-import-guide) for directions for importing data in bulk.
+See the [Bulk Import Guide](https://docs.kbase.us/data/upload-download-guide/bulk-import-guide) for directions for importing multiple files at once.

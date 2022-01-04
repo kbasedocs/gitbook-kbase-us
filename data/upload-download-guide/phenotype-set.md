@@ -6,37 +6,46 @@ description: >-
 
 # Phenotype Set
 
-## **Formatting Phenotype TSV or Excel files**
+## **Formatting Phenotype files**
 
-A Phenotype Set can be uploaded from a TSV \(tab-separated values\) file with a .tsv or .tab file extension, or from Excel spreadsheet with a .xls extension. The spreadsheet needs to have exactly these five columns:
+{% hint style="info" %}
+A Phenotype Set can be uploaded from a TSV (tab-separated values) file with a .tsv or .tab file extension, or from Excel spreadsheet with a .xls extension. The spreadsheet needs to have exactly these five columns:
 
-* **Gene knockout \(geneko\)** – List of genes knocked out in the phenotype; use 'none' for wild-type phenotypes. Gene IDs should be in the same format that appears in your metabolic model \(e.g., kb\|g.220339.CDS.2927\)
-* **Workspace information \(mediaws\)** – Workspace where the media for the phenotype data was loaded into KBase. The workspace information can be found in the Narratives tab by clicking _Show Advanced Controls_ at the end of the list of Narratives
+* **Gene knockout (geneko)** – List of genes knocked out in the phenotype; use 'none' for wild-type phenotypes. Gene IDs should be in the same format that appears in your metabolic model (e.g., kb|g.220339.CDS.2927)
+* **Workspace information (mediaws)** – Workspace where the media for the phenotype data was loaded into KBase. The workspace information can be found in the Narratives tab by clicking _Show Advanced Controls_ at the end of the list of Narratives
 * **Media** – ID of the media condition loaded in KBase where the phenotype was observed.
-* **Additional Compounds \(addtlCpd\)** – Additional media compound IDs to be added alongside the primary media formulation. See the [KBase ModelSEED Biochemistry Database ](https://github.com/ModelSEED/ModelSEEDDatabase/tree/v1.0/Biochemistry)for a reference list of reactions and compounds or use [Biochemistry Search](https://narrative.kbase.us/#biochem-search).
+* **Additional Compounds (addtlCpd)** – Additional media compound IDs to be added alongside the primary media formulation. See the [KBase ModelSEED Biochemistry Database ](https://github.com/ModelSEED/ModelSEEDDatabase/tree/v1.0/Biochemistry)for a reference list of reactions and compounds or use [Biochemistry Search](https://narrative.kbase.us/#biochem-search).
 * **Growth** – Indication of whether or not the organism grew in the specified media with the specified knockouts. 1 meaning growth; 0 meaning no growth.
+{% endhint %}
 
-| geneko | mediaws | media | addtlCpd | growth |
-| :--- | :--- | :--- | :--- | :--- |
-| SO\_0009 | KBaseMedia | C-D-Glucose |  | 0 |
-| SO\_0009 | KBaseMedia | C-D-Lactate |  | 1 |
-| SO\_0009 | KBaseMedia | C-acetate |  | 1 |
+| geneko   | mediaws    | media       | addtlCpd | growth |
+| -------- | ---------- | ----------- | -------- | ------ |
+| SO\_0009 | KBaseMedia | C-D-Glucose |          | 0      |
+| SO\_0009 | KBaseMedia | C-D-Lactate |          | 1      |
+| SO\_0009 | KBaseMedia | C-acetate   |          | 1      |
 
-For this example, we will use the Shewanella\_oneidensis\_MR-1 Genome from the _Example_ data tab. To [add the Genome to your Narrative](../../getting-started/narrative/add-data.md), find the Data Panel along the left side of the screen and click the Add Data \(or red “+”\) button. This will open the Data Browser slideout. Select the _Example_ tab at the top of the slideout, and search for “Shewanella\_oneidensis\_MR-1” genome. Mouse over the Genome name and click the blue Add button.
+To download an example phenotype set data table, go to the "Example" tab in the data Data Browser slide-out, add a Phenotype Data Object to the Narrative and download the TSV file.&#x20;
 
-The S. oneidensis Genome object should appear in your Data Panel.
+![Example Data Objects](../../.gitbook/assets/PhenotypeSet\_example.png)
 
-To download an example phenotype set data table, right-click [here](http://kbase.us/wp-content/uploads/2018/04/ExamplePhenotypeSet.tsv) and choose “Save as”.
+## Importing a Phenotype Set
 
-Now open the new Import tab in the Data Slideout and drag the example phenotype set file that you just downloaded into your Staging area \(go [here](../../getting-started/narrative/add-data.md#uploading-data-from-external-sources) if you need instructions on doing that\).
+First [add the Genome](genome.md) that corresponds to referenced in the Phenotype Set. Add the Genome object to the Narrative before importing the Phenotype Set file.
 
-Now the phenotype set is in your Staging area–it’s time to import it into your Narrative as a KBase Phenotype Set data object. Open the pulldown menu to the right of the filename in your Staging Area and select “Phenotype Set”:
+Using a file on your computer, open the [_Import_ tab within the **Data Browser**](../../getting-started/narrative/add-data.md)**.** Then drag & drop the phenotype set file into your Staging Area. Open the pulldown menu to the right of the filename in the Staging Area and select “Phenotype Set."&#x20;
 
-Now click the import icon \(up arrow\) to the right of “Phenotype Set”. The data slideout will close and an app called “Import TSV File as Phenotype Set From Staging Area” will be added to your Narrative.
+![Importing a Phenotype Set from the Staging Area](../../.gitbook/assets/PhenotypeSet\_StagingArea.png)
 
-Notice that the name of the Phenotype TSV file is already filled in, as is a suggested name for the Phenotype Set data object that will be created by the import \(you can change that if you like\).
+Click the import icon (up arrow) to the right of “Phenotype Set”. The data slide-out will close and the “Import TSV File as Phenotype Set From Staging Area” App will be added to your Narrative.
 
-At this point, the corresponding Genome hasn’t been linked to the phenotype set. To add the name of the Genome, click on the dropdown in the app to select the Shewanella\_oneidensis\_MR-1 genome that you added to your Narrative earlier. Then click the green Run button to start the import. When the import is finished, your Data Panel will update to show the new Phenotype Set object, and a report will appear in the import app cell.
+Notice that the name of the Phenotype TSV file is already filled in, as is a suggested name for the Phenotype Set data object that will be created by the import, which you can edit.
 
-In the example above, we used a Genome that was in the _Example_ data. You can also import your own Genome data from a file following instructions found [here](genome.md).
+![Import Phenotype Set App](../../.gitbook/assets/PhenotypeSet\_Import.png)
 
+Add the name of the Genome, click on the dropdown to select the corresponding genome that you added to your Narrative earlier.
+
+Click the green "Run" button to start the import. When the import is finished, your Data Panel will update to show the new Phenotype Set object, and a report will appear in the Import App.
+
+### **Drag & Drop Limitations**
+
+The drag & drop from your local computer works for many files, but there is a size limit that depends on your computer and browser. For larger files around 20GB, use the [Globus Online transfer](../globus.md).

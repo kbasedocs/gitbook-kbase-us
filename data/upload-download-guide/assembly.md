@@ -4,31 +4,35 @@ description: How to upload FASTA files into KBase.
 
 # Assembly
 
-An assembly file is a single file containing one or more contiguous DNA sequences in FASTA format. It can be uploaded to KBase from your local computer (with file extension .fasta, .fna, .fa, or .fas) or directly from a publicly accessible FTP or HTTP URL.
+{% hint style="info" %}
+An assembly file is a single file containing one or more contiguous DNA sequences in FASTA format. It can be uploaded to KBase from your local computer (with file extension .fasta, .fna, .fa, or .fas) or directly from a publicly accessible FTP or HTTP URL.&#x20;
+{% endhint %}
 
 “Assembly” is the KBase data type for assembled, unannotated DNA sequence contigs. If you want to upload annotated sequences in GenBank or GFF format, please see the [Genome](genome.md) page.
 
-![](<../../.gitbook/assets/uploading-reads (1).gif>)
+![](../../.gitbook/assets/Assembly\_Import.gif)
 
-## Importing a FASTA formatted assembly file from your computer
+## Importing an Assembly from your computer
 
-For this example, we will use an _Escherichia coli_ K12 MG1655 assembly file from NCBI as the source: [GCF\_000005845.2\_ASM584v2\_genomic.fna.gz](ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/005/845/GCF\_000005845.2\_ASM584v2/GCF\_000005845.2\_ASM584v2\_genomic.fna.gz)
+Using a file on your computer, open the [_Import_ tab within the **Data Browser**](../../getting-started/narrative/add-data.md)**.** Then drag & drop the assembly file into the Staging Area box or select from your computer files.
 
-Download that file to your computer. Next open the [_Import_ tab within the **Data Browser**](../../getting-started/narrative/add-data.md) **** and drag the assembly file into the Staging Area.
+Open the _Import As_ pulldown menu to the right of the filename in your Staging Area and select “Assembly.”
 
-![](../../.gitbook/assets/dragging-assembly-into-staging-1.jpg)
-
-Open the _Select a format_ pulldown menu to the right of the filename in your Staging Area under the _Import As..._ column select “Assembly.”
-
-![](../../.gitbook/assets/importasassembly.png)
+![Selecting data type via Import As dropdown menu](../../.gitbook/assets/Assembly\_staging\_import.png)
 
 Now click the import icon to the right of “Assembly”. The data slide-out will close and an app called “Import FASTA File as Assembly from Staging Area” will be added to your Narrative.
 
-![](<../../.gitbook/assets/importfastafileasassembly (1).png>)
+![Import Assembly / FASTA file Import App Cell](../../.gitbook/assets/Assembly\_AppCell\_import.png)
 
-Notice that the name of the gzipped Assembly file is already filled in, as is a suggested name for the Assembly data object that will be created by the import (you can change the Assembly object name). Adjust the minimum contig length if needed and then click the green "Run" button to start the import. When the import is finished, your Data Panel will update to show the new Assembly object, and a report will appear in the import app cell.
+The name of the Assembly file is filled in, as is a suggested name for the Assembly data object that will be created by the import (you can change the Assembly object name). Adjust the minimum contig length if needed and then click the green "Run" button to start the import. When the import is finished, your Data Panel will update to show the new Assembly object, and a report will appear in the Import App.
 
-![](../../.gitbook/assets/importfastaapp\_successs.png)
+![Created Assembly object from import](../../.gitbook/assets/Assembly\_Object\_import.png)
+
+## Upload an Assembly from other sources
+
+You can upload data into your KBase Staging Area using [Globus](../globus.md), or by supplying a URL for a publicly accessible FTP location, Google Drive, Dropbox, or a direct HTTP link to import into the Narrative. Options for adding data to your Staging Area are described [here](../../getting-started/narrative/add-data.md).
+
+![Drag and Drop, Upload with Globus, Upload with URL options to upload and import data into KBase](<../../.gitbook/assets/Staging\_Upload options.png>)
 
 ### **Drag & Drop Limitations**
 
@@ -38,14 +42,6 @@ The drag & drop option from your local computer works for many files, but there 
 
 Assemblies can be imported as one of the supported bulk import types. You can select multiple assemblies simultaneously from the staging area to import them at once. See the bulk import section of [the guide to importing data into the Narrative.](https://docs.kbase.us/getting-started/narrative/add-data)
 
-## Import an Assembly from other sources
-
-In the Staging Area, beneath the box for Drag & Drop, are other options for getting data.\
-\
-You can import data into your KBase workspace using [Globus](../globus.md), or by supplying a URL for a publicly accessible FTP location, Google Drive, Dropbox, or a direct HTTP link. Options for adding data to your Staging Area are described [here](../../getting-started/narrative/add-data.md).
-
-![](../../.gitbook/assets/user\_refresh.png)
-
-## **Transfer assemblies from JGI**
+## Transfer assemblies from JGI
 
 If you are a JGI user, you can transfer public genome reads and assemblies (as well as your private data and annotated genomes) from JGI to your KBase account—see [this page](../jgi-transfer.md) for instructions.

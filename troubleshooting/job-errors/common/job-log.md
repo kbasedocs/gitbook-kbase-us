@@ -12,20 +12,20 @@ The Job Log can be found in two places: an app's _Job Status_ tab and the **Job 
 
 The Job Log starts at the bottom with the error highlighted in pink. **** There may be useful information located just above the pink section.&#x20;
 
-![](../.gitbook/assets/error\_joblog.png)
+![](../../../.gitbook/assets/error\_joblog.png)
 
 ### **Job Browser**
 
 Find the line with the job of interest and click on the icon for the piece of paper. This will open up the log, starting at the top.&#x20;
 
-![](../.gitbook/assets/jobsfeed\_dashboardmenu.png)
+![](../../../.gitbook/assets/jobsfeed\_dashboardmenu.png)
 
 In the Job Browser, jobs not associated to an app i.e., export, are included within the job list. The Job ID and worker node are easily located and the log can be scrolled through within the pop-out. Job Logs can be downloaded in CSV, TSV, JSON, and TEXT formats using the download (downward-facing arrow into tray) icon.&#x20;
 
-![](../.gitbook/assets/joblog\_jobbrowser.gif)
+![](../../../.gitbook/assets/joblog\_jobbrowser.gif)
 
 {% hint style="info" %}
-Even if you find an explanation for your error in the [list of common errors](job-errors/), it is okay to [submit a Help Board ticket](support.md) with follow-up questions.
+Even if you find an explanation for your error in the [list of common errors](../), it is okay to [submit a Help Board ticket](../../support.md) with follow-up questions.
 {% endhint %}
 
 ### Helpful Points

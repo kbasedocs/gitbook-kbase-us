@@ -1,22 +1,22 @@
 # Narratives
 
-Welcome to Narratives! You may notice there are a few changes when you sign in to narrative.kbase.us. Let's get you up to speed with a tour. 
+Welcome to Narratives! You may notice there are a few changes when you sign in to narrative.kbase.us. Let's get you up to speed with a tour.&#x20;
 
 {% embed url="https://youtu.be/Nb5lTlB0NBo" %}
 
 ## **Narratives Navigator**
 
-![Overview gif of selecting tabs and sorting](../../.gitbook/assets/narratives_overview.gif)
+![Overview gif of selecting tabs and sorting](../../.gitbook/assets/narratives\_overview.gif)
 
 * There are five tabs for exploring and locating existing Narratives: **My Narratives, Shared with Me, Tutorials,** and **Public.**
-* The most recently updated Narratives appear first, but can be searched or sorted using the dropdown menu - _Recently updated, Least recently updated, Recently created, Oldest, Lexographic \(A-Z\), Reverse Lexicographic \(Z-A\)_.
-* A list of available Narratives will be on the left panel and information on the selected Narrative on the right panel. Here you can see an overview of the Data within the Narrative and a Preview.  
+* The most recently updated Narratives appear first, but can be searched or sorted using the dropdown menu - _Recently updated, Least recently updated, Recently created, Oldest, Lexographic (A-Z), Reverse Lexicographic (Z-A)_.
+* A list of available Narratives will be on the left panel and information on the selected Narrative on the right panel. Here you can see an overview of the Data within the Narrative and a Preview. &#x20;
   * Icons under a Narrative name indicate which apps the Narrative includes, how many markdown and code cells it contains, the number of times the Narrative has been shared, whether there are any running jobs, total running time for all completed jobs, and more.
 * Click on the selected Narrative name to open it.
 
-![Toggle between Data and Preview or open a Narrative](../../.gitbook/assets/narratives_preview.gif)
+![Toggle between Data and Preview or open a Narrative](../../.gitbook/assets/narratives\_preview.gif)
 
-* Click on the _Gear_ icon next to the Narrative title for management options to: 
+* Click on the _Gear_ icon next to the Narrative title for management options to:&#x20;
   * Manage Sharing
   * Copy this Narrative
   * Rename
@@ -28,7 +28,7 @@ Welcome to Narratives! You may notice there are a few changes when you sign in t
 * You can use the _Search Box_ at the top of each panel to find a particular Narrative within that category.
 * Click the green _+ New Narrative_ button at the top to create a new Narrative.
 
-![Click on the + New Narrative button to create a new Narrative](../../.gitbook/assets/dashboardupdate_newnarrative.gif)
+![Click on the + New Narrative button to create a new Narrative](../../.gitbook/assets/dashboardupdate\_newnarrative.gif)
 
 * Note that **Public Narratives** have not necessarily been reviewed or tested by the KBase team; they are simply Narratives that have been made public by their owners.
 
@@ -38,46 +38,46 @@ The Narratives Navigator offers many launch points. To the left of the **My Narr
 
 ![](../../.gitbook/assets/newmenu.png)
 
-**Narratives**
+### **Narratives**
 
 * Takes you to your accessible **Narratives** through the Narrative Navigator and features described above.
 
-**Orgs**
+### **Orgs**
 
-* Takes you to a list of the **Organizations** within KBase, along with descriptions and statistics for the Organizations, including Narratives and Apps. 
-* The default shows "My Orgs," the Organizations you belong to as a member. 
-* You can view and search all Organizations by selecting the toggle button on the right hand side of the page for "All Orgs." 
-* Under "All Orgs" you can search and select different Organizations and request to join by clicking on the "Join this Organization" button. 
+* Takes you to a list of the **Organizations** within KBase, along with descriptions and statistics for the Organizations, including Narratives and Apps.&#x20;
+* The default shows "My Orgs," the Organizations you belong to as a member.&#x20;
+* You can view and search all Organizations by selecting the toggle button on the right hand side of the page for "All Orgs."&#x20;
+* Under "All Orgs" you can search and select different Organizations and request to join by clicking on the "Join this Organization" button.&#x20;
 
-**Catalog**
+### **Catalog**
 
 * You can use the **App Catalog** to browse, search for, and see the specifications of each app KBase has to offer.
 
-**Search**
+### **Search**
 
-* The **Data Search** tab gives you the ability to search JGI data \(Beta\) as well as KBase user and reference data.
+* The **Data Search** tab gives you the ability to search JGI data (Beta) as well as KBase user and reference data.
 * It allows you to search for data present in your own Narratives, those shared with you, and those made public by their owners.
-* It also enables you to search for reads and assemblies contained in the Joint Genome Institute \(JGI\) Genomes Online Database \(GOLD\) and add them directly to your Narratives.
+* It also enables you to search for reads and assemblies contained in the Joint Genome Institute (JGI) Genomes Online Database (GOLD) and add them directly to your Narratives.
 
-**Jobs**
+### **Jobs**
 
 * The **Job Browser** allows you to view apps that you have run recently, see their progress, search for specific runs, and more.
 * You can filter the runs by _Finished_, _Queued_, _Running_, _Success_, and _Error_
 * Query results also display basic information surround the runs such as the Narrative they can be found in, App ID, Submission Time, Queue Time, Run Time, and Status
 
-**Account**
+### **Account**
 
 * In the **Account Manager** you have access to edit your profile information.
 * From this tab you can also get to your **Profile Page** which gives an overview of your Narratives and your Collaborators.
 * You can access the user profile of any of your Collaborators by simply clicking on the name under the **Your Collaborators** panel while in your **Profile Page.**
 
-**Feeds**
+### **Feeds**
 
-* Takes you to the **Notification Feeds** page to view notifications from KBase. 
+* Takes you to the **Notification Feeds** page to view notifications from KBase.&#x20;
 
 ## Top-Level Menu
 
-The top-level menu \(accessed by clicking the three small horizontal lines on the upper left of the window\) offers additional possibilities:
+The top-level menu (accessed by clicking the three small horizontal lines on the upper left of the window) offers additional possibilities:
 
 ![](../../.gitbook/assets/toplevelmenu.png)
 
@@ -85,7 +85,7 @@ _Narrative Interface_ goes to the main Narrative Interface, which allows you to 
 
 _JGI Search_ goes to the [Data Search](https://narrative.kbase.us/#jgi-search?q=) tab that can also be reached by the Search icon in the side bar.
 
-_Biochem Search_ goes to the Compound and Reaction search tabs. 
+_Biochem Search_ goes to the Compound and Reaction search tabs.&#x20;
 
 _About_ opens a page that describes the [KBase User Interface](https://narrative.kbase.us/#about) and connects to the [KBase GitHub](https://github.com/kbase).
 
@@ -93,9 +93,7 @@ _KBase Services Status_ goes to [a page that describes the current version of th
 
 _Contact KBase_ lets you [contact the KBase Help Desk](https://www.kbase.us/support/) with your question, bug report, or feature suggestion.
 
-_Help \("?"_ \) brings you to the [Narrative User Guide](./).
+_Help ("?"_ ) brings you to the [Narrative User Guide](./).
 
 In the next section, we’ll discuss [how to create a new Narrative](create.md).
-
-
 

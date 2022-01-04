@@ -10,15 +10,15 @@ For webpages viewed on a larger screen i.e., computer, the maximum width is 800p
 
 If image width is greater than 800px
 
-`width=”100%” height=”auto”`
+`width="100%” height="auto”`
 
 If width is less than 800px
 
-`max-width=”100%” height=”auto”`
+`max-width="100%” height="auto”`
 
 If width is not 800px or greater, but you want to set a specific maximum size.&#x20;
 
-`width=”100%” max-width=”nnnpx” height=”auto”`
+`width="100%” max-width=”nnnpx” height="auto”`
 
 ## Creating boxes around text
 
@@ -26,11 +26,19 @@ If width is not 800px or greater, but you want to set a specific maximum size.&#
 
 Teal boxes for developer highlights are 5px and #009688.&#x20;
 
+## Anchors
+
 ## Stop text from wrapping around an align left image
+
+\<a id="anchor">\</a>
 
 ```
 <br clear="left">
 ```
+
+Add anchor to end of slug for web address
+
+https://siteaddress/slug/#anchor
 
 ## Embedding and Linking from Drive
 

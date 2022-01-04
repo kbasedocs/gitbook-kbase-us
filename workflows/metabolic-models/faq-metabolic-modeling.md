@@ -40,11 +40,11 @@ Below are answers to common questions about KBase’s metabolic modeling tools, 
 
 For more information—including descriptions of the underlying algorithms, inputs, and outputs—see the [Metabolic Modeling Apps](../../apps/analysis/metabolic-modeling.md).
 
-### Q. Can Prokka annotations be used for metabolic modeling?&#x20;
+## Can Prokka annotations be used for metabolic modeling?&#x20;
 
 You can use Prokka to annotate, but we recommend using RAST for metabolic models because we use the RAST functional roles as a controlled vocabulary to derive metabolic reactions.
 
-### **Q. What does the KBase** [**Gapfill Metabolic Models App**](https://kbase.us/applist/apps/fba\_tools/gapfill\_metabolic\_model/release) **do?**
+## **What does the KBase** [**Gapfill Metabolic Models App**](https://kbase.us/applist/apps/fba\_tools/gapfill\_metabolic\_model/release) **do?**
 
 Draft metabolic models lack a number of essential reactions due to missing or inconsistent annotations. Some of the most common problems arise from having missing transporters (reactions that move metabolites across cell membranes) because they are difficult to annotate well. Consequently, draft models often are unable to generate biomass on media where the organism typically is capable of growing.
 
@@ -54,7 +54,7 @@ The gapfilling app uses a cost function associated with each internal reaction a
 
 For more information on gapfilling, see the Henry et al. 2010 [ModelSEED paper](http://www.nature.com/nbt/journal/v28/n9/full/nbt.1672.html) in Nature Biotechnology.
 
-### **Q: How does the underlying gapfilling algorithm work (i.e., what kind of programming formulation does it use)?**
+## **How does the underlying gapfilling algorithm work (i.e., what kind of programming formulation does it use)?**
 
 At one time, KBase used a mixed-integer linear programming (MILP) formulation in gapfilling but replaced it with simple linear programming (LP), which minimizes the sum of flux through gapfilled reactions. From extensive experience with both formulations, KBase modeling experts have found that LP solutions are just as minimal as MILP solutions but require far less time to compute. In rare cases where an LP gapfilling would not be minimal, the lower wait time to obtain and adjust a new solution is typically worth a slightly larger solution.
 
@@ -64,13 +64,13 @@ In gapfilling, it is important to recognize that not all reactions are created e
 
 The gapfilling app always has reasons for adding the reactions it does, but those reasons admittedly are not always obvious or biologically relevant. KBase is working on an algorithm that would provide detailed explanations of why each gapfilled reaction is added; we hope to make this feature available soon.
 
-### **Q: What is the solver used in your Gapfill optimization?**
+## **What is the solver used in your Gapfill optimization?**
 
 The Gapfill optimization uses the [SCIP solver](http://scip.zib.de).&#x20;
 
 We actually use two solvers in KBase. We use GLPK for most pure-linear optimizations. We use SCIP for larger more complex problems, particularly when integer variables are involved. Gapfilling is an example of a problem where we use SCIP.
 
-### **Q: What is “complete” media?**
+## **What is “complete” media?**
 
 \
 The “Complete” media is an abstraction of what’s available in our biochemistry database. Every compound that can be transported into the extracellular compartment–or, in other words, for which a transport reaction is available–is used in the complete media. This list is built in real-time, meaning that whenever you run FBA with complete media, the available transporters are parsed from the media database–and is therefore not stored permanently in any media object in the workspace.
@@ -79,7 +79,7 @@ To find out which transport reactions are available when running FBA using Compl
 
 To see the specific compounds that got consumed/excreted when a model was gapfilled in complete media, you can run FBA on complete media. In the ‘FBA output table’ there is a tab called “Exchange Fluxes” which gives a list of excrete/uptake compounds. You can also view the gapfilled reactions in the ‘model output table’ by choosing the “Gapfilling” tab.
 
-### **Q: How do I choose a media condition for gapfilling, and what is the default media used?**
+## **How do I choose a media condition for gapfilling, and what is the default media used?**
 
 “Gapfilling” refers to choosing the minimal set of reactions to add to a draft metabolic model that will enable it to produce biomass in a specified media. KBase’s gapfilling app lets you set the media condition (i.e., the metabolites available in the environment in which you want to analyze the growth of your organism). For more information, see the [Gapfilling App details page](https://kbase.us/applist/apps/fba\_tools/gapfill\_metabolic\_model/release) and the previous question.
 
@@ -95,25 +95,25 @@ If you want to gapfill on the two media independently, be careful not to overwri
 
 The [tutorial for the Microbial Metabolic Modeling and Analysis of _Shewanella oneidensis_](https://narrative.kbase.us/narrative/18302) explores the differences between two gapfilled solutions: one generated on complete media, and one generated on minimal media.
 
-### **Q. How can I see the compounds comprising a media used in gapfilling?**
+## **How can I see the compounds comprising a media used in gapfilling?**
 
 To see the list of media compounds for a particular model, open a viewer for the model by either clicking on its name in the Data Panel or dragging it from the panel and dropping it into the main Narrative window. Select the Compounds tab and filter by “e0” (extracellular compartment). This gives you a complete list of compounds transportable by your model.
 
-### **Q. Which reactions were added in the gapfilling process and why were they added?**
+## **Which reactions were added in the gapfilling process and why were they added?**
 
 After performing gapfilling on a metabolic model, you can sort the “Reactions” tab of the output table by the “Gapfilling” column to see which reactions were added. In order to compare the differences between the draft model and the gapfilled model, look at the directionality of the reaction in the “Equation” column of the “Reactions” tab of the output table. If the directionality is reversible in the gapfilled model, i.e. “<=>”, this means that the reaction was already in the draft model, albeit previously irreversible, and gap-filling made it reversible. However, if the reaction is irreversible e.g., “=>” or “<=”, then this means it is a new reaction that wasn’t previously present in the draft model, and has been added to the model by the gapfilling algorithm.
 
 The primary function of gapfilling is to ensure that the model in question can produce the biomass of the organism. As gapfilling itself is a heuristic, the result of the algorithm is essentially a prediction and requires manual curation. If the addition or reversibility of a reaction is not desired, you can use the “Custom flux bounds” field to force the reaction to be zero, and re-run gap-filling to find another possible solution. For the gapfilling process, it does not necessarily matter whether a reaction was previously set to be irreversible as long as it produces biomass. However, even if it was determined that a reaction was irreversible _a priori_, the thermodynamics algorithm used to determine this is also a heuristic.
 
-### Q. What conventions are used for metabolic IDs, reaction IDs, etc?&#x20;
+## What conventions are used for metabolic IDs, reaction IDs, etc?&#x20;
 
 If you generate a metabolic model based on the [Build Metabolic Model App](https://kbase.us/applist/apps/fba\_tools/build\_metabolic\_model/release), the biochemistry represented is based on modelSEED. However, if you generated a model based on a published model and propagate the biochemistry into a new model based on proteome comparison data you could have a mix of ModelSEED and the native reaction and compound IDs from the published model. We recommend using the ModelSEED ontology; you can convert a mixed model using the [Integrate Imported Model into KBase Namespace App](https://narrative.kbase.us/#catalog/apps/SBMLTools/integrate\_imported\_model/beta) (_in beta_).
 
-### **Q: When I import a metabolic model, how do I associate it with a genome?**
+## **When I import a metabolic model, how do I associate it with a genome?**
 
 Load the genome you wish to associate with a metabolic model into your Narrative. Next, when importing your metabolic model, click on the “show advanced options” link shown towards the bottom of the import metabolic model menu. When you click on this link, a new input will appear that will permit you to select the genome for your model. Refer to the [FBA Model section of the Data Upload and Download Guide](../../data/upload-download-guide/) to learn more about correctly importing and associating your model and genome.
 
-### **Q: When viewing a model, what do the compartment IDs mean?**
+## **When viewing a model, what do the compartment IDs mean?**
 
 \
 Compartments are the subcellular localization of compounds, enzymes, and reactions. The table below lists compartment abbreviations for microbes and plants.
@@ -136,7 +136,7 @@ The integer associated with the compartment (e.g., the 0 in c0) represents the i
 | Cell wall (w)             |                | ✓            |
 | Peroxisome (x)            |                | ✓            |
 
-### **Q: After merging models, why do I sometimes end up with one or two more compartments?**
+## **After merging models, why do I sometimes end up with one or two more compartments?**
 
 When you combine models into a community model, you have two options:
 
@@ -148,19 +148,19 @@ The first model type is better for predicting potential interactions between spe
 * Henry CS, Bernstein H, Weisenhorn P, Taylor RC, Lee JY, Zucker J, Song HS. Microbial Community Metabolic Modeling: A Community Data-Driven Network Reconstruction. Journal of Cellular Physiology (2016) 10.1002/jcp.25428.
 * Faria JP, Khazaei T, Edirisinghe J, Weisenhorn PB, Seaver S, Conrad N, Harris N, DeJongh M, Henry CS. Constructing and Analyzing Metabolic Flux Models of Microbial Communities. Hydrocarbon and Lipid Microbiology Protocols (2016)
 
-### **Q: What should I know about performing metabolic modeling on plants?**
+## **What should I know about performing metabolic modeling on plants?**
 
 The Plant Metabolic Modeling in KBase is based on the metabolic subsystems described in the [PlantSEED](http://bioseed.mcs.anl.gov/\~seaver/FIG/seedviewer.cgi?page=PlantSEED). Because PlantSEED was focused on the primary metabolism of higher plants, performing metabolic modeling on lower plants such as bryophytes and algae is not recommended. In principal, the majority of the metabolic networks for plants will be similar. What will be different in the plant primary metabolic network between organisms the gene – reaction associations. From metabolic modeling, you can derive a prediction of the enzymes that would catalyze each of the reactions in the primary metabolic network.
 
-### **Q: How can I find and download all the biochemical compounds and reactions in KBase, as well as linked information such as Enzyme Commission (E.C.) Numbers?**
+## **How can I find and download all the biochemical compounds and reactions in KBase, as well as linked information such as Enzyme Commission (E.C.) Numbers?**
 
 The biochemistry compounds and reactions can found in the [KBase ModelSEED Biochemistry Database ](https://github.com/ModelSEED/ModelSEEDDatabase/tree/v1.0/Biochemistry)for a reference list of reactions and compounds or using [Biochemistry Search](https://narrative.kbase.us/#biochem-search). This spreadsheet includes the EC numbers. You can also consult the [Enzyme database](http://enzyme.expasy.org) to see a description of each type of characterized enzyme that has an EC number.
 
-### **Q: Do the media in KBase include sources other than carbon (e.g., nitrogen, phosphorus, sulfur)?**
+## **Does media in KBase include sources other than carbon (e.g., nitrogen, phosphorus, sulfur)?**
 
 Every KBase media has all the compounds necessary for minimal growth. In most cases the significant difference among media is the carbon source, which generally dictates the media’s name (e.g., “Carbon-D-Glucose”).
 
-### **Q: How can I specify my own media?**
+## **How can I specify my own media?**
 
 You can generate and import your own media file by specifying the biochemical compounds found in a particular growth environment. Go to  [KBase ModelSEED Biochemistry Database ](https://github.com/ModelSEED/ModelSEEDDatabase/tree/v1.0/Biochemistry)to see a list of all the biochemical compounds in KBase and find the IDs for those you wish to include in your custom media.
 
@@ -183,15 +183,15 @@ If you specify a range between “minflux” and “maxflux,” then you will ne
 
 Please see the [Media section of the Data Guide](../../data/upload-download-guide/media.md) for more information on how to configure your media file.
 
-### **Q: How are units of flux measured within the media?**
+## **How are units of flux measured within the media?**
 
 Minimum and maximum flux are measured in mmol per gram cell dry weight per hour.
 
-### Q: What is the unit of measurement for the estimated biomass from a metabolic model?
+## What is the unit of measurement for the estimated biomass from a metabolic model?
 
 The biomass components are normalized so that a result of 1 (objective value/growth/flux through biomass reaction) is estimated to be 1 gram of dry weight of biomass.
 
-### **Q: How is media data structured in KBase?**
+## **How is media data structured in KBase?**
 
 As with all KBase data types, the technical “spec” files of media data can be viewed at[ narrative.kbase.us/#spec/type/KBaseBiochem.Media](https://narrative.kbase.us/#spec/type/KBaseBiochem.Media).
 
@@ -217,13 +217,13 @@ typedef structure {
 } Media;
 ```
 
-### **Q: What is the function of the .gffba file? What is the difference between the .gffba output and Flux Balance Analysis output?**
+## **What is the function of the .gffba file? What is the difference between the .gffba output and Flux Balance Analysis output?**
 
 The .gffba object is generated automatically by gap filling and it holds the fluxes corresponding to the solution selected by gap filling to make your model grow in the specified environment. It is useful as a means of exploring why various reactions were added, as well as diving into the gap filling result in detail. We are working to improve the functionality of this data object.
 
 The .gffba output and Flux Balance Analysis output are the same. It is important to understand that a gap filing simulation is a form of FBA, and as such, it generates a flux solution, which is exposing to you via the .gffba object.
 
-### **Q. How can I determine if my metabolic model will grow in a certain media?**
+## **How can I determine if my metabolic model will grow in a certain media?**
 
 Once you have built a metabolic model, you can perform flux balance analysis ( FBA) to calculate the flow of metabolites through your model. FBA results can be used to predict the growth rate of an organism under certain conditions or the production rates for particular metabolites of interest.
 
@@ -231,7 +231,7 @@ To determine whether your organism grew in the media that you specified for FBA,
 
 For more information on the [Run Flux Balance Analysis](https://kbase.us/applist/apps/fba\_tools/run\_flux\_balance\_analysis/release) App.&#x20;
 
-### **Q: After running flux balance analysis, what does the sign of a reaction flux mean?**
+## **After running flux balance analysis, what does the sign of a reaction flux mean?**
 
 A positive flux value indicates that a reaction is proceeding from left to right as written in the equation, while a negative value indicates the reaction is running from right to left.
 
@@ -243,7 +243,7 @@ For example, the following table shows a portion of the “Reaction fluxes” ta
 
 The “Min flux,” “Max flux,” and “Class” columns show that other valid FBA solutions for the model have flux values for rxn00543 that range from -100 to 100. This reaction therefore is classified as “Variable” because it can proceed in either direction.
 
-### **Q: What do the various reaction classifiers mean?**
+## **What do the various reaction classifiers mean?**
 
 Reaction classifiers are assigned when using Flux Variability Analysis, FVA. In FVA, the global objective (biomass) is fixed at its optimal value, then each reaction, iteratively, is optimized independently to find both the maximal and minimal value that is possible given that the global objective must still be reached.
 
@@ -252,7 +252,7 @@ Reaction classifiers are assigned when using Flux Variability Analysis, FVA. In 
 * Negative variable –  the reaction has a zero maximal, and a negative minimal, meaning it can either be zero, or it can go from right to left.
 * IA (InActive) – the reaction is blocked and cannot have a non-zero value.
 
-### **Q: Can I customize the flux boundaries for reactions in my model?**
+## **Can I customize the flux boundaries for reactions in my model?**
 
 To constrain the flux of a reaction, you can export your model, edit it, and re-import it.
 
@@ -271,11 +271,11 @@ Note that the help text next to the custom flux field provides an example of the
 
 So to set “rxn00006” at a flux of “5,” you would set this custom bound: 5;rxn00006;5.
 
-### **Q. How can I edit my media or metabolic model (add or delete reactions, compounds, or biomass)?**
+## **How can I edit my media or metabolic model (add or delete reactions, compounds, or biomass)?**
 
 After you have drafted your metabolic model with the Build Metabolic Model app, you can use the [Gapfill Metabolic Model App](https://kbase.us/applist/apps/fba\_tools/gapfill\_metabolic\_model/release) to automatically fill in the gaps of necessary reactions for completing the pathway for a set of specified reactions (this can be either the biomass producing reaction or other specified pathways). You can alternatively use our [Edit Media](https://kbase.us/applist/apps/fba\_tools/edit\_media/release) or [Edit Metabolic Model](https://kbase.us/applist/apps/fba\_tools/edit\_metabolic\_model/release) Apps. This works best if the reactions you're adding at ModelSEED reactions (ID looks like rxn#####). In those cases, you can manually list several reactions to add by ID and associate genes and specify directionality. You can add completely custom reactions as well, but this is harder.
 
-### **Q: Why did gapfilling fail for a model containing a custom media or custom biomass reaction? What can I do about it?**
+## **Why did gapfilling fail for a model containing a custom media or custom biomass reaction? What can I do about it?**
 
 Draft metabolic models tend to have gaps by default. If you simulate FBA on a given media, you would see the objective value to be zero; means the model is not able to grow on the simulated media. In the model output viewer gapfill reactions can be seen and easy to recognize as there are no features mapped to the gapfilled reactions. There is a tool in KBase to try and find gene candidates for gapfilled reactions. If a candidate is found, this can give you more confidence that the gapfilled reaction is real. It's in beta and it's called [Find Candidate Genes for a Reaction](https://narrative.kbase.us/#catalog/apps/kb\_reaction\_gene\_finder/find\_genes\_from\_similar\_reactions/beta). Just plug in the list of gapfilled reactions and see the candidates that come out.
 
@@ -291,7 +291,7 @@ To help mitigate this issue, the “Gapfill Metabolic Model” app includes a fi
 
 KBase uses a  [KBase ModelSEED Biochemistry Database ](https://github.com/ModelSEED/ModelSEEDDatabase/tree/v1.0/Biochemistry)that includes all ModelSEED reactions, and some additional reactions. However, the gapfilling is restricted to a subset of the reactions in the database. First and foremost, KBase filters out imbalanced reactions from gapfilling because they cause mass leakage and a bad gapfilling solution. We also filter out several reactions that cause problems in gapfilling due to strange formulations (e.g., reactions containing lumped or undefined compounds).
 
-### **Q: What if my source and translated metabolic models are the same after running the “Propagate Genome-scale Model to Close Genome” App (in beta)?**
+## **What if my source and translated metabolic models are the same after running the “Propagate Genome-scale Model to Close Genome” App (in beta)?**
 
 The [Propagate Model to New Genome App](https://narrative.kbase.us/#catalog/apps/fba\_tools/propagate\_model\_to\_new\_genome/beta) (in beta) builds a new metabolic model by translating the gene associations in an existing model to a new genome. This translation is conducted based on gene correspondence tables contained in a proteome comparison object generated in Step 1 of the app. A gapfilling is performed to permit the translated model to grow on a specific media. More information on the model translation step can be found on the [details page](https://narrative.kbase.us/#catalog/apps/fba\_tools/propagate\_model\_to\_new\_genome/beta).
 
@@ -301,7 +301,7 @@ If the translated model resulting from this app is the same as your source model
 * **Look at the proteome comparison object.** How different are the genomes that are being compared? How many hits are there? If the genomes are very close, the source and translated model could end up being the same. Such a result is unlikely but not impossible.
 * **Check the translated model before gapfilling.** Did you lose some reactions only to have them added back in the gapfilling process?
 
-### **Q: What do the “Prediction class” values mean in the output table generated by the “Simulate Growth on Phenotype Data” App?**
+## **What do the “Prediction class” values mean in the output table generated by the “Simulate Growth on Phenotype Data” App?**
 
 The [Simulate Growth on Phenotype Data](https://kbase.us/applist/apps/fba\_tools/simulate\_growth\_on\_phenotype\_data/release) App performs multiple flux balance analyses (FBA) using each media condition in a phenotype dataset and compares the results, which are listed as “Observed normalized growth” (experiments done in a laboratory) vs. “Simulated growth” (simulation of FBA on the model). You can see these results in the Phenotypes tab of the output cell.&#x20;
 
@@ -312,15 +312,15 @@ In the “Prediction class” column, simulated growth results against observed 
 **FP** — False positive (model was predicted to grow, but it did not)\
 **FN** — False negative (model was predicted not to grow, but it did)
 
-### Q. What do the different colors mean in the visualization of metabolic pathways?&#x20;
+## What do the different colors mean in the visualization of metabolic pathways?&#x20;
 
-Blue means that the reaction is present, white means the reaction is absent. Red means negative flux, green means positive flux. Shade represents intensity of flux. The arrows on the map do not always agree with the direction of reactions as defined in our biochemistry database, so these colors can appear confusing at times. For this reason, we are actually currently working on replacing our KEGG-based metabolic map viz with a new system using dynamically drawn maps in Escher. I hope we will have this deploy by the end of February, maybe with a preliminary tool in beta sooner than that.
+Blue means that the reaction is present, white means the reaction is absent. Red means negative flux, green means positive flux. Shade represents intensity of flux. The arrows on the map do not always agree with the direction of reactions as defined in our biochemistry database, so these colors can appear confusing at times. For this reason, we are actually currently working on replacing our KEGG-based metabolic map viz with a new system using dynamically drawn maps in Escher.
 
-### **Q: Why did I get false negatives after simulating growth, and what can I do about it?**
+## **Why did I get false negatives after simulating growth, and what can I do about it?**
 
 False negative (FN) results from the “[Simulate Growth on Phenotype Data](https://narrative.kbase.us/#narrativestore/method/simulate\_growth\_on\_a\_phenotype\_set)” app mean that the model is not able to grow on laboratory-tested media conditions. The most likely explanation for a FN prediction is that the model is missing reactions required for viable growth in the specified media conditions (e.g., no asparagine metabolism pathway in a media where asparagine is the only carbon source). This error can be corrected by gapfilling the model on that media to add a minimal set of reactions to the model such that growth is permitted.
 
-### Q. Is it possible to use KBase to integrate RNA sequencing data into existing genome-scale models?&#x20;
+## Is it possible to use KBase to integrate RNA sequencing data into existing genome-scale models?&#x20;
 
 Yes, there is an app called [Compare Flux with Expression](https://kbase.us/applist/apps/fba\_tools/compare\_flux\_with\_expression/release) that allows you to compare your GSM with RNA-seq data to identify metabolic pathways where expression and flux data agree or conflict. You can also use the [Run Flux Balance Analysis App](https://kbase.us/applist/apps/fba\_tools/run\_flux\_balance\_analysis/release) to predict fluxes using your expression data. In this approach, you pick a threshold expression level (as a percentile), and the app tries to turn off reactions associated with genes expressed below the threshold and turn on reactions associated with genes expressed above the threshold. Just load your expression data into KBase using the upload tool or by running the RNA-seq pipeline (which will make a matrix for you). Then select this matrix in the advanced parameters of the [Run Flux Balance Analysis App](https://kbase.us/applist/apps/fba\_tools/run\_flux\_balance\_analysis/release), and specify which column of the matrix you want to use to constrain your fluxes.
 

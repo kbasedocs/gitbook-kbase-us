@@ -1,44 +1,44 @@
-# RNAseq Analysis
+---
+description: Running RNA-seq analyses pipelines in KBase
+---
+
+# Transcriptomic Analysis
 
 KBase offers a powerful suite of [expression analysis tools](https://kbase.us/applist/#Expression). Starting with short reads, you can use the tool suite to assemble, quantify long transcripts, and identify differentially expressed genes. You can also compare the expression data with the flux when studying metabolic models in KBase and identify pathways where expression and flux agree or conflict.
 
-### **RNA-Seq Analysis Tutorials**
+{% hint style="info" %}
+**Prerequisites**
 
-These Narrative Tutorials guide through RNAseq workflows using a HISAT2/StringTie/DESeq2 pipeline.&#x20;
+KBase requires a reference genome to guide the analysis of short reads.&#x20;
 
-* __[_E. coli_ RNA-seq Analysis Tutorial](https://narrative.kbase.us/narrative/ws.50093.obj.1) - bacterium-based example
-* __[_Arabidopsis_ RNA-seq Analysis Tutorial ](https://narrative.kbase.us/narrative/ws.19391.obj.1)- plant-based example
+1. ****[**Import Genome**](../../data/upload-download-guide/genome.md)****
+2. ****[**Import Short Reads**](../../data/upload-download-guide/reads.md)**:** The reads must be a set of single-end, paired-end, or interleaved paired-end reads in FASTA, FASTQ, or SRA format.
+3. ****[**Create a SampleSet**](../../data/upload-download-guide/sampleset.md)**:** Run the [Create RNA-seq Sample Set](https://narrative.kbase.us/#catalog/apps/KBaseRNASeq/describe\_rnaseq\_experiment/release) App to group together your reads into an RNA-seq sample set with associated experimental metadata to run RNA-seq Apps in batch mode wherever appropriate.
+4. ****[**QC SampleSet**](../../apps/analysis/expression.md#reads-management)**:** Run [FastQC](https://narrative.kbase.us/#appcatalog/app/kb\_fastqc/runFastQC/release) to assess the read quality of the reads set from the previous step and if needed, run [Trimmomatic](https://narrative.kbase.us/#appcatalog/app/kb\_trimmomatic/run\_trimmomatic/release), [Cutadapt](https://narrative.kbase.us/#appcatalog/app/kb\_cutadapt/remove\_adapters/release), or [PRINSEQ](https://narrative.kbase.us/#appcatalog/app/kb\_PRINSEQ/execReadLibraryPRINSEQ/release) to pre-process or filter the reads before starting RNA-seq analysis.
+{% endhint %}
 
-#### Prerequisites for RNA-seq Analysis
-
-We support the popular Tuxedo suite of tools (original and new) for RNA-seq analysis. As a result, KBase requires a reference genome to guide the analysis of short reads.&#x20;
-
-1. **Import Genome:** Use the [_Public_ tab in the **Data Panel**](../../getting-started/narrative/add-data.md) **** to choose the reference genome from KBase’s public data. If it’s not available, you can use the __ [_Import_ tab in the **Data Panel**](../../getting-started/narrative/add-data.md) **** to import the genome of interest to your Narrative.
-2. **Import Short Reads:** Use the Import tab or any of the reads uploader apps from the **** [**Apps Panel**](../../getting-started/narrative/add-apps.md) to import the short reads from your experiment into your Narrative. Example reads are also available from the __ [_Public_ tab](../../getting-started/narrative/add-data.md). The reads must be a set of single-end, paired-end, or interleaved paired-end reads in FASTA, FASTQ, or SRA format.
-3. **Create Sample Set:** Run the [Create RNA-seq Sample Set](https://narrative.kbase.us/#catalog/apps/KBaseRNASeq/describe\_rnaseq\_experiment/release) App to group together your reads into an RNA-seq sample set with associated experimental metadata so that you can easily and efficiently run the RNA-seq Apps in batch mode wherever appropriate.
-4. **QC Sample Set:** Run [FastQC](https://narrative.kbase.us/#appcatalog/app/kb\_fastqc/runFastQC/release) to assess the read quality of the reads set from the previous step and if needed, run [Trimmomatic](https://narrative.kbase.us/#appcatalog/app/kb\_trimmomatic/run\_trimmomatic/release), [Cutadapt](https://narrative.kbase.us/#appcatalog/app/kb\_cutadapt/remove\_adapters/release), or [PRINSEQ](https://narrative.kbase.us/#appcatalog/app/kb\_PRINSEQ/execReadLibraryPRINSEQ/release) to pre-process or filter the reads before starting RNA-seq analysis.
-
-#### RNA-seq Analysis
+### RNA-seq Pipeline
 
 The RNA-seq pipeline in KBase is modular and consists of three steps. You can pick any of the multiple Apps available for a given step depending on your preference or individual characteristics of the App.
 
-1. **Read Alignment:** Run the [BowTie2](https://narrative.kbase.us/#appcatalog/app/kb\_Bowtie2/align\_reads\_using\_bowtie2/release) app or the splice-aware [TopHat2](https://narrative.kbase.us/#catalog/apps/kb\_tophat2/align\_reads\_using\_tophat2/release), [HISAT2](https://narrative.kbase.us/#catalog/apps/kb\_hisat2/align\_reads\_using\_hisat2/release), or [STAR](https://narrative.kbase.us/#catalog/apps/STAR/align\_reads\_using\_STAR/beta) apps to map short reads to the reference genome. The output is a set of BAM alignments and Qualimap report. You can download the alignment output object generated by aligner Apps for further analysis.
-2. **Transcriptome Assembly and Quantification:** Run the [Cufflinks](https://narrative.kbase.us/#catalog/apps/kb\_cufflinks/assemble\_transcripts\_using\_cufflinks/release) or [StringTie](https://narrative.kbase.us/#catalog/apps/kb\_stringtie/run\_stringtie/release) App on the read alignments from the previous step to generate and assemble full-length transcripts and quantify transcripts and genes as appropriate. You can view downloadable normalized full expression matrices in FPKM (fragments per kilobase of exon model per million mapped reads) and TPM (transcripts per million).
-3. **Differential Gene Expression:** Run the [Cuffdiff](https://narrative.kbase.us/#catalog/apps/kb\_cufflinks/run\_Cuffdiff/release) or [Ballgown](https://narrative.kbase.us/#catalog/apps/kb\_ballgown/run\_ballgown\_app/release) or [DESeq2](https://narrative.kbase.us/#catalog/apps/kb\_deseq/run\_DESeq2/release) App to generate gene or transcript level differential expression based on the quantification from the previous step. Run [Create Feature Set/Filtered Expression Matrix From Differential Expression](https://narrative.kbase.us/#appcatalog/app/FeatureSetUtils/upload\_featureset\_from\_diff\_expr/release) after selecting appropriate q-value and fold change cutoffs as input parameters for the filtering of the differential gene expression.
+1. **Read Alignment:** [Align reads](../../apps/analysis/expression.md#reads-alignment) to map short reads to the reference genome. The output is a set of BAM alignments and Qualimap report. You can download the alignment output object generated by aligner Apps for further analysis.
+2. **Transcriptome Assembly and Quantification:** [Assemble aligned reads](../../apps/analysis/expression.md#reads-assembly) to generate full-length transcripts and quantify transcripts and genes as appropriate. You can view downloadable normalized full expression matrices in FPKM (fragments per kilobase of exon model per million mapped reads) and TPM (transcripts per million).
+3. **Differential Gene Expression:** Generate gene- or transcript-level [differential expression](../../apps/analysis/expression.md#differential-expression) based on the quantification. Run [Create Feature Set/Filtered Expression Matrix From Differential Expression](https://narrative.kbase.us/#appcatalog/app/FeatureSetUtils/upload\_featureset\_from\_diff\_expr/release) after selecting appropriate q-value and fold change cutoffs as input parameters for the filtering of the differential gene expression.
 
-![](<../../.gitbook/assets/image (6).png>)
-
-_Figure 1: The original and new Tuxedo RNA-seq analysis suites in KBase have modular Apps for building flexible analysis workflows._
-
-#### Downstream Expression Analysis
-
-KBase offers a number of [Apps](https://kbase.us/applist/#Expression) to filter, cluster, visualize, and functionally enrich the feature sets based on differential expression derived from RNA-seq analysis. Also, the expression data from RNA-seq can be assimilated into metabolic models to identify pathways where expression and flux agree or conflict.
+### Downstream Expression Analysis
 
 1. **Filtering:** You can [create a filtered expression matrix and associated feature set](https://narrative.kbase.us/#catalog/apps/FeatureSetUtils/upload\_featureset\_from\_diff\_expr/release) based on fold-change or adjusted p-value. You can also [filter an expression matrix](https://narrative.kbase.us/#catalog/apps/CoExpression/expression\_toolkit\_filter\_expression/release) based on LOR or ANOVA.
-2. **Clustering:** Depending on your preference, run the [Hierarchical](https://narrative.kbase.us/#catalog/apps/KBaseFeatureValues/expression\_toolkit\_cluster\_hierarchical/release), [K-Means](https://narrative.kbase.us/#catalog/apps/KBaseFeatureValues/expression\_toolkit\_cluster\_k\_means/release) or [WGCNA](https://narrative.kbase.us/#catalog/apps/CoExpression/expression\_toolkit\_cluster\_WGCNA/release) clustering App to group features into clusters based on gene expression. You can also visualize the clusters as an interactive heatmap.
+2. **Clustering:** Depending on preference, run the [Hierarchical](https://narrative.kbase.us/#catalog/apps/KBaseFeatureValues/expression\_toolkit\_cluster\_hierarchical/release), [K-Means](https://narrative.kbase.us/#catalog/apps/KBaseFeatureValues/expression\_toolkit\_cluster\_k\_means/release) or [WGCNA](https://narrative.kbase.us/#catalog/apps/CoExpression/expression\_toolkit\_cluster\_WGCNA/release) clustering App to group features into clusters based on gene expression. You can also visualize the clusters as an interactive heatmap.
 3. **Functional Enrichment:** [Assess the functional enrichment](https://narrative.kbase.us/#appcatalog/app/kb\_functional\_enrichment\_1/functional\_enrichment\_go\_term/release) in plant genomes for a set of features using associated GO terms.
 4. **Integration into Metabolic Models:** Assimilate the expression data from RNA-seq into the metabolic models to [compare reaction fluxes with gene expression](https://narrative.kbase.us/#appcatalog/app/fba\_tools/compare\_flux\_with\_expression) and thus identify pathways where expression and flux agree or conflict.
 
-![](../../.gitbook/assets/transcriptomics2.png)
+## **Narrative Tutorials**
 
-_Figure 2: The complete differential RNA-seq workflow in KBase_
+* __[_E. coli_ RNA-seq Analysis Tutorial](https://narrative.kbase.us/narrative/ws.50093.obj.1) – bacterium-based example of an RNAseq workflow using a HISAT2/StringTie/DESeq2 pipeline
+* __[_Arabidopsis_ RNA-seq Analysis Tutorial ](https://narrative.kbase.us/narrative/ws.19391.obj.1)– plant-based example of an RNAseq workflow using a HISAT2/StringTie/DESeq2 pipeline
+
+## **Video Tutorial**&#x20;
+
+{% embed url="https://youtu.be/mkYA5Ws9UZk" %}
+Functional Genomics&#x20;
+{% endembed %}

@@ -10,7 +10,7 @@ Narratives are _collaborative_ (multiple people on your project can work on a Na
 A quick 4-min Tutorial on how to share Narratives.&#x20;
 {% endembed %}
 
-### How to Share a Narrative
+## How to Share a Narrative
 
 You can share a Narrative that you own with any set of people you choose, or with all KBase Users. To share a Narrative, click the “share” button near the top right and select the "Manage Sharing" option in the menu.&#x20;
 
@@ -52,7 +52,7 @@ Click the “Apply” button to add the chosen Organization(s) to the sharing li
 
 When you’re done sharing, click the "x" icon to close the Share panel.
 
-### Editing access permissions
+## Editing access permissions
 
 You can change the access permissions at any time by clicking the Share button again. The up/down arrows next to each user’s permissions let you change the permissions.
 

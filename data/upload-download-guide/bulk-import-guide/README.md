@@ -1,7 +1,7 @@
 # Bulk Import Guide
 
 {% hint style="danger" %}
-Bulk Import is undergoing user testing and not yet released.&#x20;
+Bulk Import is undergoing user testing on appdev.kbase.us and not yet released.&#x20;
 {% endhint %}
 
 ## How it works

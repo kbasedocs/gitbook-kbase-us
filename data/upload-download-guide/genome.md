@@ -8,82 +8,84 @@ description: >-
 
 In KBase, a **Genome object is the annotated version of an Assembly** and can encompass several types of feature calls. If you want to upload solely the DNA sequence from a FASTA file (without annotations), go to the [Assembly](assembly.md) page.
 
-The Genome importer supports only GenBank and GFF-formatted files. A GenBank-formatted input file should include sequence contig(s), feature calls (annotations), and taxonomy information for the organism. KBase parses the input file into two data objects: an assembly object with the sequence and a genome object containing the original feature calls and annotations.
+{% hint style="info" %}
+The Genome importer supports only GenBank and GFF formatted files.&#x20;
 
-GenBank-formatted files with no features can be uploaded as Genomes but they aren’t very informative until annotated with a KBase app. Genomes with annotation can be used as input for several KBase analyses.
+A GenBank-formatted input file should include sequence contig(s), feature calls (annotations), and taxonomy information for the organism. KBase parses the input file into two data objects: an assembly object with the sequence and a genome object containing the original feature calls and annotations.
 
-A GenBank-formatted file can be uploaded into the Staging Area from your local computer (files with.gb, .gbff, or .gbk extensions) or directly from an FTP or HTTP URL.
+GenBank-formatted files with no features can be uploaded as Genomes.
 
-A GFF-formatted file must be paired with a corresponding FASTA file of the DNA sequence. These  will be parsed into two data objects: an assembly object with the sequence and a genome object containing the original feature calls and annotations.
+A _GenBank-formatted_ file can be uploaded into the Staging Area from your local computer (files with.gb, .gbff, or .gbk extensions) or directly from an FTP or HTTP URL.
+{% endhint %}
+
+{% hint style="warning" %}
+A _GFF-formatted_ file must be paired with a **corresponding FASTA file** of the DNA sequence. These  will be parsed into two data objects: an assembly object with the sequence and a genome object containing the original feature calls and annotations.
+{% endhint %}
 
 Further instructions for adding data to your Staging Area can be found [here](../../getting-started/narrative/add-data.md#uploading-data-from-external-sources).
+
+## Importing a GenBank-formatted genome
+
+Using a file on your computer, open the [_Import_ tab within the **Data Browser**](../../getting-started/narrative/add-data.md)**.** Then drag & drop the genome file into your Staging Area.&#x20;
+
+Open the _Import As..._ pulldown menu to the right of the filename in your Staging Area and select “GenBank Genome.”
+
+Click the import icon (up arrow) to the right of “GenBank Genome.”&#x20;
+
+![](../../.gitbook/assets/GenBank\_Staging\_import.png)
+
+The Data Browser will close and the “Import GenBank File as Genome from Staging Area” App will be added to your Narrative.
+
+Notice that the name of the Genome file is filled in, as is a suggested name for the Genome and Assembly data objects that will be created by the import, which _can_ be changed. Adjust the Genome Type and source of the GenBank file or any advanced parameters if needed.&#x20;
+
+![Import GenBank Genome App](<../../.gitbook/assets/GenBank\_Import (1).gif>)
+
+Click the green "Run" button to start the import. When the import is finished, your **Data Panel** will update to show the new Genome and Assembly objects, and a report will appear in the Import App.
+
+## Importing a GFF-formatted Genome
+
+Open the __ [_Import_ tab in the **Data Browser**](../../getting-started/narrative/add-data.md) and drag and drop _both_ the genome _and_ corresponding FASTA file into your Staging Area. In your Staging Area, open the _Import As..._ pulldown menu to the right of the GFF filename and select “GFF Genome."
+
+![Importing a GFF and FASTA Genome from the Staging Area](../../.gitbook/assets/GFF\_staging\_import.png)
+
+Note the name of the corresponding FASTA file.
+
+Now click the import button (up arrow) to the right of “GFF Genome”. The data slide-out will close and the “Import GFF/FASTA File as Genome from Staging Area” App will be added to your Narrative. The GFF File Path name will be filled in.
+
+You will need to fill in the name of the FASTA file. Using the dropdown for the “FASTA File Path”, select the FASTA file in the Staging Area. Ensure the file type is a FASTA file type.&#x20;
+
+![GFF/FASTA Genome Import](../../.gitbook/assets/GFF\_FASTA\_Genome\_import.png)
+
+The name of the Scientific Name may be filled in, as is a suggested name for the Genome data object that will be created by the import. You can edit the name of the output Genome Object Name, Scientific Name, and any advanced options as needed. Click the green "Run" button. When the import is finished, your Data Panel will update to show the new Genome object, and a report will appear in the Import App.
+
+## Uploading a Genome from other sources
+
+You can upload data into your KBase Staging Area using [Globus](../globus.md), or by supplying a URL for a publicly accessible FTP location, Google Drive, Dropbox, or a direct HTTP link to import into the Narrative. Options for adding data to your Staging Area are described [here](../../getting-started/narrative/add-data.md).
+
+![Drag and Drop, Upload with Globus, Upload with URL options to upload and import data into KBase](<../../.gitbook/assets/Staging\_Upload options.png>)
+
+### **Drag & Drop Limitations**
+
+The drag & drop option from your local computer works for many files, but there is a size limit that depends on your computer and browser. For larger files (around 20 gigabases), use the [Globus Online transfer](../globus.md).&#x20;
 
 ### Bulk Import
 
 Both GenBank and GFF genomes can be imported as one of the supported bulk import types. You can select multiple assemblies simultaneously from the staging area to import them at once. See the bulk import section of [the guide to importing data into the Narrative.](https://docs.kbase.us/getting-started/narrative/add-data)&#x20;
 
-## Importing a GenBank-formatted file from your computer
+## Uploading a Genome using a URL&#x20;
 
-For this example, we will use the _E. coli_ K-12 MG1655 genome GenBank file from NCBI. By clicking on the following link you can download the _E. coli_ K-12 MG1655 genome to your computer: [ftp://ftp.ncbi.nlm.nih.gov/genomes/archive/old\_refseq/Bacteria/Escherichia\_coli\_K\_12\_substr\_\_MG1655\_uid57779/NC\_000913.gbk](ftp://ftp.ncbi.nlm.nih.gov/genomes/archive/old\_refseq/Bacteria/Escherichia\_coli\_K\_12\_substr\_\_MG1655\_uid57779/NC\_000913.gbk)
+Open the __ [_Import_ tab in the **Data Browser**](../../getting-started/narrative/add-data.md) and click on the _Upload with URL_ button (below the drag & drop area) to open an Upload App Cell.
 
-After downloading the file, open the __ [_Import_ tab in the **Data Browser**](../../getting-started/narrative/add-data.md) and drag the genome file into your Staging Area.
+The Data Browser will close and the “Upload a File to Staging from Web” App will appear in your Narrative. Alternatively, you can open the app directly from the **Apps Panel**. From the app, click on the dropdown for the URL Type and select the URL type.
 
-![](<../../.gitbook/assets/image10 (1).jpg>)
+![Upload File to Staging from Web App](../../.gitbook/assets/UploadwithURL\_app.png)
 
-### **Drag & Drop Limitations**
+{% hint style="info" %}
+When uploading a GenBank Genome, you will only need to use one link. When uploading a GFF Genome, you will need to use two links for the GFF file and the FASTA file.&#x20;
+{% endhint %}
 
-The drag & drop option from your local computer works for many files, but there is a size limit that depends on your computer and browser. For larger files (around 20 gigabases), use the [Globus Online transfer](../globus.md). Open the _Import As..._ pulldown menu to the right of the filename in your Staging Area and select “GenBank Genome.”
+In the App, click the "+" button for the URLs and paste in the name of the Genome file (GenBank or GFF). Hit the "+" button again and paste in the name of the FASTA file.
 
-![](<../../.gitbook/assets/image11 (1).png>)
+Then click the green "Run" button to start the upload. After the App completes the files will appear in your Staging Area, which you can access via the _Import_ tab in the **Data Browser**.
 
-Click the import icon (up arrow) to the right of “GenBank Genome.” The Data Browser will close and an app called “Import GenBank File as Genome from Staging Area” will be added to your Narrative.
-
-![](<../../.gitbook/assets/image6 (1).png>)
-
-Notice that the name of the Genome file is filled in, as is a suggested name for the Genome and Assembly data objects that will be created by the import, which _can_ be changed. Adjust the source of the GenBank file or any of the advanced options if needed, then click the green "Run" button to start the import. When the import is finished, your **Data Panel** will update to show the new Genome and Assembly objects, and a report will appear in the import app cell.
-
-![](<../../.gitbook/assets/image1 (2).png>)
-
-![](<../../.gitbook/assets/image2 (2).png>)
-
-## Import a GenBank-formatted file from other sources
-
-In the Staging Area, beneath the box for Drag & Drop, are other options for getting data.
-
-![](<../../.gitbook/assets/user\_refresh (1).png>)
-
-You can import data into your KBase workspace using [Globus](../globus.md), or by supplying a URL for a publicly accessible FTP location, Google Drive, Dropbox, or a direct HTTP link. Options for adding data to the Staging Area are described [here](../../getting-started/narrative/add-data.md).
-
-## Uploading a GFF file to your Staging area from an FTP link
-
-For this example, we use the _E. coli_ K-12 MG1655 genome GFF and FASTA files from NCBI.
-
-Open the _Import_ tab in the **Data Browser** and click on the blue "here" link (below the drag & drop area) to open an upload app.
-
-![](../../.gitbook/assets/databrowser\_appupload.png)
-
-The Data Browser will close and the app called “Upload a File to Staging from Web” will appear in your Narrative. Alternatively, you can open the app directly from the **Apps Panel**. From the app, click on the dropdown for the URL Type and select ‘FTP Link’.
-
-We will use the following two links for the GFF and FASTA files:\
-[ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/005/845/GCA\_000005845.2\_ASM584v2/GCA\_000005845.2\_ASM584v2\_genomic.gff.gz](ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/005/845/GCA\_000005845.2\_ASM584v2/GCA\_000005845.2\_ASM584v2\_genomic.gff.gz)\
-[ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/005/845/GCA\_000005845.2\_ASM584v2/GCA\_000005845.2\_ASM584v2\_genomic.fna.gz](ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/005/845/GCA\_000005845.2\_ASM584v2/GCA\_000005845.2\_ASM584v2\_genomic.fna.gz)
-
-In the upload app, click the "+" button for the URLs and paste in the name of the GFF file. Hit the "+" button again and paste in the name of the FASTA file.
-
-Then click the green "Run" button to start the upload. After the app completes the files will appear in your Staging Area, which you can access via the _Import_ tab in the **Data Browser**.
-
-## Importing a GFF and FASTA file from the Staging Area
-
-The GFF and FASTA files are now in your Staging Area. Now you need to import them to your Narrative to use them in analyses.
-
-In your Staging Area, open the _Import As..._ pulldown menu to the right of the GFF filename and select “GFF Genome."
-
-Copy the name of the FASTA file as it will be needed shortly.
-
-Now click the import button to the right of “GFF Genome”. The data slide-out will close and an app called “Import GFF/FASTA File as Genome from Staging Area” will be added to your Narrative. The GFF File Path name will be filled in.
-
-You will need to fill in the name of the FASTA file. In the line for “FASTA File Path”, type or paste in the name of the FASTA file copied from the Staging Area. The FASTA file name is similar to the GFF file name and can be copied from the GFF File Path and pasted in the FASTA line. Ensure the file type is a FASTA file type.&#x20;
-
-Notice that the name of the Scientific Name is filled in, as is a suggested name for the Genome data object that will be created by the import. You can edit the name of the output Genome Object Name, Scientific Name, and any advanced options as needed. When ready, click the green "Run" button. When the import is finished, your Data Panel will update to show the new Genome object, and a report will appear in the import app cell.
-
-##
+The genome file(s) are now in your Staging Area. Now you need to import them to your Narrative to use them in analyses.
