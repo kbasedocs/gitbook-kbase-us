@@ -10,7 +10,7 @@ The _Import_ tab lets you drag & drop data files from your computer into the Sta
 
 ![Data Panel and Import to Staging Area](../../.gitbook/assets/DataPanel\_import.png)
 
-The first step in uploading your data is to locate the **Data Panel** along the left side of the Narrative Interface window and click the red “Add Data” button, the circular red “+” icon, or the arrow at the upper right of the panel to access the slide-out **Data Browser**. The Data Browser has several tabs that allow you to access data within KBase and the _Import_ tab for uploading your own data.&#x20;
+The first step in uploading your data is to locate the **Data Panel** along the left side of the Narrative Interface window and click the “Add Data” button, the circular “+” icon, or the arrow at the upper right of the panel to access the slide-out **Data Browser**. The Data Browser has several tabs that allow you to access data within KBase and the _Import_ tab for uploading your own data.&#x20;
 
 To close the Import panel and return to the Narrative Interface, simply click the “Close” button on the bottom right of the import panel.&#x20;
 

@@ -174,13 +174,14 @@ When you import selected, there will be a new cell type which contains a tab for
 
 The bulk import is still under development and not all file types are accounted for. If you select multiple files and there are unsupported types included, you will get a bulk import cell for the supported types along with individual import cells for the unsupported types.
 
-As of November 2021, the supported types for bulk upload are:
+Supported file types include:
 
-* FASTA Assembly
-* FASTQ Reads (interleaved and non-interleaved)
-* Genbank Genome
-* GFF & FASTA Metagenomes
-* SRA Reads
+* Assembly - FASTA
+* SRA Reads&#x20;
+* FASTQ Reads Interleaved - FASTQ Interleaved reads
+* FASTQ Reads Noninterleaved - FASTQ paired-end reads or FASTQ single-end reads library
+* GenBank Genome - GenBank
+* GFF Metagenome - FASTA and GFF3
 
 ## Getting more information about files in your Staging Area
 
