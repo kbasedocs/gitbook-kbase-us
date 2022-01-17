@@ -1,6 +1,8 @@
-# Data Type Descriptions
+# Data Types
 
 Data within KBase covers a wide range of data types relevant to systems biology research, including genomes and their annotations, metagenomes, expression, and protein-protein interactions, inferred models of organismal and community metabolism and gene regulation, even geographical information about populations.
+
+## Data Type Descriptions
 
 KBase handles data as objects versus files for interoperability with KBase Apps. The following are data types and their adjacent file types:&#x20;
 

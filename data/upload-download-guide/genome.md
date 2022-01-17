@@ -30,9 +30,9 @@ Using a file on your computer, open the [_Import_ tab within the **Data Browser*
 
 Open the _Import As..._ pulldown menu to the right of the filename in your Staging Area and select “GenBank Genome.”
 
-Click the import icon (up arrow) to the right of “GenBank Genome.”&#x20;
+Make sure the correct file type is selected and the checkbox is active, then click the “Import Selected” button.
 
-![](../../.gitbook/assets/GenBank\_Staging\_import.png)
+![Import GenBank Genome](../../.gitbook/assets/Import\_genbank.png)
 
 The Data Browser will close and the “Import GenBank File as Genome from Staging Area” App will be added to your Narrative.
 
@@ -46,11 +46,11 @@ Click the green "Run" button to start the import. When the import is finished, y
 
 Open the __ [_Import_ tab in the **Data Browser**](../../getting-started/narrative/add-data.md) and drag and drop _both_ the genome _and_ corresponding FASTA file into your Staging Area. In your Staging Area, open the _Import As..._ pulldown menu to the right of the GFF filename and select “GFF Genome."
 
-![Importing a GFF and FASTA Genome from the Staging Area](../../.gitbook/assets/GFF\_staging\_import.png)
+![](../../.gitbook/assets/Import\_GFFgenome.png)
 
 Note the name of the corresponding FASTA file.
 
-Now click the import button (up arrow) to the right of “GFF Genome”. The data slide-out will close and the “Import GFF/FASTA File as Genome from Staging Area” App will be added to your Narrative. The GFF File Path name will be filled in.
+Make sure the correct file type is selected and the checkbox is active, then click the "Import Selected" button. The data slide-out will close and the “Import GFF/FASTA File as Genome from Staging Area” App will be added to your Narrative. The GFF File Path name will be filled in.
 
 You will need to fill in the name of the FASTA file. Using the dropdown for the “FASTA File Path”, select the FASTA file in the Staging Area. Ensure the file type is a FASTA file type.&#x20;
 

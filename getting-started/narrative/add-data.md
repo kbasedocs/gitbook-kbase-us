@@ -18,7 +18,7 @@ The first four tabs of the **Data Browser** (_My Data_, _Shared With Me_, _Publi
 * The _My Data_ tab shows data objects that you have added to your project. You may need to refresh this tab to see your most recently added data.
 * The _Shared With Me_ and _Public_ tabs display datasets that others have loaded and made accessible to you (or to everyone). Data within each group is searchable and can be filtered. Since there are a large number of public datasets, you may wish to filter them by data type (using the pulldown selector on the left) or narrow the list by searching (in the “Search data” text box) for specific text in the data objects’ names.
 * The _Example_ tab shows datasets that have been pre-loaded for use with particular apps. These can be handy for trying out the Narrative Interface.
-* The _Import_ tab allows you to upload your own datasets for analysis. This is explained in more detail below.
+* The _Import_ tab allows you to upload your own datasets for analysis.
 
 ## Data available in KBase
 
@@ -60,7 +60,7 @@ It’s more robust and extensible this way. Unlike our previous importer, the st
 
 {% hint style="info" %}
 **What's the difference between 'Upload' and 'Import'?**\
-In this documentation, we will use “Upload” to refer to getting data from your computer into your Staging Area and “Import” to refer to the process of converting a data file from your Staging Area into a data object in your Narrative that you can analyze with any of our analysis apps. Sometimes we use the term “Import” to cover the whole Upload+Import process.
+In this documentation, we will use “Upload” to refer to getting data from your computer into your Staging Area and “Import” to refer to the process of converting a data file from your Staging Area into a data object in your Narrative that you can analyze with any of our analysis apps. Sometimes we use the term “Import” to cover the Upload+Import process.
 {% endhint %}
 
 ## Drag & Drop data files into your Staging Area
@@ -72,7 +72,7 @@ The drag & drop from your local computer works for many files, but there is a si
 
 Find the file(s) you want to import into your KBase account, and drag them into the drop zone (the rectangular area surrounded by a dashed line). You can select multiple files from your computer and drag them all at once. (In the example below, the user is dragging two files into the dashed area.) You can also select a folder of data files and drag the folder into the Staging Area drop zone.
 
-![](../../.gitbook/assets/image10.jpg)
+![](../../.gitbook/assets/Import\_drag\&drop.png)
 
 If you don’t like using drag & drop, you can instead click in the upload area to open a file chooser and select a file from your computer to upload.
 
@@ -80,17 +80,15 @@ While files are being uploaded to your Staging Area, you’ll see a green progre
 
 ![](../../.gitbook/assets/image5.png)
 
-When the file is done uploading, you will see it appear in the list of files in your Staging Area. If you don’t see your file, try clicking the reload icon on the left above the file list to refresh the view.
+When the file is done uploading, you will see it appear in the list of files in your Staging Area. If you don’t see your file, try clicking the refresh button.
 
-![](<../../.gitbook/assets/refresh\_databrowser (1).png>)
+![Staging Area](../../.gitbook/assets/Import\_stagingarea.png)
 
 By default, these are sorted by age, with the most recently uploaded file at the top. To sort the list by other fields, such as name or size, click a column header.
 
-![](<../../.gitbook/assets/image21 (1).png>)
-
 {% hint style="warning" %}
 **90-day lifetime for files in your Staging Area**\
-Your Staging Area is meant to be a temporary holding area for data you want to import into your KBase account. After adding files to your Staging Area, be sure to import them into your Narrative soon, as files in the Staging Area are automatically removed after 90 days. (Data objects that you have imported to your Narrative last indefinitely.)
+Your Staging Area is meant to be a temporary holding area for data you want to import into your KBase account. After adding files to your Staging Area, be sure to import them into your Narrative soon, as files in the Staging Area are automatically removed after 90 days. Data objects imported into a Narrative will exist indefinitely.
 {% endhint %}
 
 ## Transferring data from a Globus endpoint
@@ -126,13 +124,13 @@ The files in your Staging Area are ready to import into your Narrative as KBase 
 
 ![](../../.gitbook/assets/image11.png)
 
-When you click the import icon, the Data Browser slides shut and an Import app cell (tailored to the chosen format) is created in your Narrative, with the appropriate parameters filled in. For example, here’s an import app created by choosing “GenBank” as the import format:
+When you click the import icon, the Data Browser slides shut and an Import App cell for each data type or a Bulk Import App cell will be created in your Narrative, with the appropriate parameters filled in. For example, here’s an import app created by choosing “GenBank” as the import format:
 
 ![](../../.gitbook/assets/image6.png)
 
 {% hint style="info" %}
 **Importing different types of data**\
-This example shows how to import GenBank data. Please see the [Upload/Download Guide](../../data/upload-download-guide/) for detailed instructions for other supported data types.
+This example shows how to import GenBank data. Please see the [Upload/Download Guide](../../data/upload-download-guide/) for detailed instructions for other supported data types and importing multiple files.
 {% endhint %}
 
 If the GenBank file came from a different source, use the pulldown menu to select it. You can change the output object name, if desired, and then click the "Run" button to start the import. When the import is done, you should see the message “Finished with success” near the top of the app cell, and some information about the app run.
@@ -140,7 +138,9 @@ If the GenBank file came from a different source, use the pulldown menu to selec
 ![](<../../.gitbook/assets/image2 (1).png>)
 
 If you look at your Data Panel, you should see the new data object created by the import.\
-[![](../../.gitbook/assets/image1.png)](https://kbase.us/wp-content/uploads/2018/01/image1.png)
+
+
+![](../../.gitbook/assets/image1.png)
 
 You can now use this data object as input into the relevant KBase apps. If you want to see which apps accept a particular data type as input, you can click the “…” menu in the data object cell that appears when you hover over it, and then use the “Show Apps with this as input” icon to filter the apps in the Apps Panel.
 
@@ -160,19 +160,15 @@ If the importer objected to something in your file, check the [Data Upload/Downl
 \
 In some cases, the cause of an import error will not be obvious. If you can’t figure out why your import isn’t working, please contact us (via the [Help Board](../../troubleshooting/support.md#contact-us)) for help. Note, however, that no one besides you has access to your Staging Area, so we will not be able to see the files you uploaded to your Staging Area. You may need to attach your input file to your Help Board ticket in order for us to diagnose the problem.
 
-### [Using Bulk Import](../../data/upload-download-guide/bulk-import-guide/)
+### Bulk Import for Multiple files
 
-Multiple files can be imported together in a single Import App as part of a bulk import feature that is being developed. When you select the file type, you will be able to check multiple files in the staging area and import them all by clicking "Import Selected."&#x20;
+Multiple files can be imported together in a single Import App as part of [the bulk import feature](../../data/upload-download-guide/uploads/). When you select the file type from "Import As...," you will be able to check multiple files in the staging area and import them all by clicking "Import Selected."&#x20;
 
 ![Bulk Import Staging Area. You can select the appropriate type for multiple files, then "Import Selected" to import them simultaneously. ](../../.gitbook/assets/screen-shot-2021-08-04-at-11.37.27-am.png)
 
 When you import selected, there will be a new cell type which contains a tab for each different file type you selected from the staging area. You will fill out the same parameters for each file type by clicking the file type in the "Data Types" column on the left; these are the same parameters as single imports.
 
 ![Bulk Import Cell. File types can be selected under the data type column to set the parameters for each type.](../../.gitbook/assets/screen-shot-2021-08-04-at-11.37.42-am.png)
-
-#### [Limitations](../../data/upload-download-guide/bulk-import-guide/limitations.md)
-
-The bulk import is still under development and not all file types are accounted for. If you select multiple files and there are unsupported types included, you will get a bulk import cell for the supported types along with individual import cells for the unsupported types.
 
 Supported file types include:
 
@@ -185,11 +181,11 @@ Supported file types include:
 
 ## Getting more information about files in your Staging Area
 
-The list of files in your Staging Area includes their name, size, and age (from when they were uploaded). If you have a lot of files in your Staging Area, you may want to use the Search box to locate specific files.
+The list of files in your Staging Area includes their name, size, and age (from when they were uploaded). If you have many files in your Staging Area, use the Search box to locate specific files.
 
-![](../../.gitbook/assets/image21.png)
+![](../../.gitbook/assets/Import\_StagingSearch.png)
 
-Compressed or zipped files have a little double-arrow icon next to the filename. You can click that icon to unpack these files. For how to upload and import file types, follow [this guide](../../data/upload-download-guide/compressed-files.md).&#x20;
+Compressed or zipped files have a little double-arrow icon next to the filename. You can click this icon to unpack these files. For how to upload and import file types, follow [this guide](../../data/upload-download-guide/compressed-files.md).&#x20;
 
 For more information about a file in your staging area, click the arrow to the left of the filename to open a tab like this:
 

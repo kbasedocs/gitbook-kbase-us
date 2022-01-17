@@ -16,11 +16,13 @@ Files can be uploaded into your KBase Staging Area from your local computer or d
 
 ### Single-end library in FASTQ or SRA format
 
-Using a file on your computer, open the [_Import_ tab within the **Data Browser**](../../getting-started/narrative/add-data.md)**.** Then drag & drop the single-end library into your Staging Area. Open the pulldown menu to the right of the filename in the Staging Area and select “FASTQ Reads" or "SRA Reads."
+Using a file on your computer, open the [_Import_ tab within the **Data Browser**](../../getting-started/narrative/add-data.md)**.** Then drag & drop the single-end library into your Staging Area. Open the pulldown menu to the right of the filename in the Staging Area and select “FASTQ Reads Interleaved" (or NonInterleaved) or "SRA Reads."
 
-![](../../.gitbook/assets/FASTQreads\_staging\_import.png)
+![FASTQ Single End Library](../../.gitbook/assets/Import\_FASTQ\_single.png)
 
-Now click the import icon (up arrow) to the right of data type selection. The slide-out Data Browser will close and an app called “Import FASTQ/SRA File as Reads from Staging Area” will be added to your Narrative.
+![SRA Single End Library](../../.gitbook/assets/Import\_sra.png)
+
+Make sure the correct file type is selected and the checkbox is active, then click "Import Selected". The slide-out Data Browser will close and an app called “Import FASTQ/SRA File as Reads from Staging Area” will be added to your Narrative.
 
 Notice that the name of the Reads Library file is already filled in, as is a suggested Reads Object Name that will be created by the import (you can change that if you like). Adjust the Sequencing Technology and any of the advanced options if needed. Note that this was a metagenomic sample, we would _uncheck_ the box next to Single Genome. When ready, click the green "Run" button to start the import. When the import is finished, your Data Panel will update to show the new SingleEndLibrary object, and a report will appear in the import app cell.
 
@@ -30,7 +32,9 @@ There are two ways that KBase and [GenBank SRA](https://www.ncbi.nlm.nih.gov/sra
 
 Open the __ [_Import_ tab in the **Data Browser**](../../getting-started/narrative/add-data.md#uploading-data-from-external-sources) and drag either one interleaved file or two paired files into the Staging Area.
 
-Open the pulldown menu to the right of the filename under the _Import As..._ column in your Staging Area and select “FASTQ Reads” for the first file in the pair. Then click the import icon (up arrow) to the right of “FASTQ Reads”. The Data Browser slide-out will close and the “Import FASTQ/SRA File as Reads from Staging Area” App will open.
+Open the pulldown menu to the right of the filename under the _Import As..._ column in your Staging Area and select “FASTQ Reads NonInterleaved” for the first file in the pair. Make sure the correct file type is selected and the checkbox is active, then click "Import Selected". The Data Browser slide-out will close and the “Import FASTQ/SRA File as Reads from Staging Area” App will open.
+
+![](../../.gitbook/assets/Import\_fastqreads.png)
 
 Notice that the name of the FASTA/FASTQ file is filled in. A suggested Reads Object Name is also created by the import and can be changed.
 

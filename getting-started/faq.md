@@ -22,7 +22,7 @@ Is there a better way for handling large datasets? For large files or collection
 
 ## Can I import more than one file into a Narrative at the same time?
 
-Yes, bulk import allows you to check multiple files in the staging area and import them all by clicking "Import Selected." More instructions on this feature are [described in the Narrative UI Guide](narrative/add-data.md#using-bulk-import).&#x20;
+Yes, bulk import allows you to check multiple files in the staging area and import them all by clicking "Import Selected." More instructions on this feature are [described in the Narrative Guide](narrative/add-data.md#using-bulk-import).&#x20;
 
 ## How many users can view a Narrative?&#x20;
 

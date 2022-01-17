@@ -18,15 +18,13 @@ Using a file on your computer, open the [_Import_ tab within the **Data Browser*
 
 Open the _Import As_ pulldown menu to the right of the filename in your Staging Area and select “Assembly.”
 
-![Selecting data type via Import As dropdown menu](../../.gitbook/assets/Assembly\_staging\_import.png)
+![Import Fasta Assembly File](../../.gitbook/assets/Import\_fasta\_assembly.png)
 
-Now click the import icon to the right of “Assembly”. The data slide-out will close and an app called “Import FASTA File as Assembly from Staging Area” will be added to your Narrative.
+Make sure the correct file type is selected and the checkbox is active, then click the “Import Selected” button. The data slide-out will close and an app called “Import FASTA File as Assembly from Staging Area” will be added to your Narrative.
 
 ![Import Assembly / FASTA file Import App Cell](../../.gitbook/assets/Assembly\_AppCell\_import.png)
 
 The name of the Assembly file is filled in, as is a suggested name for the Assembly data object that will be created by the import (you can change the Assembly object name). Adjust the minimum contig length if needed and then click the green "Run" button to start the import. When the import is finished, your Data Panel will update to show the new Assembly object, and a report will appear in the Import App.
-
-![Created Assembly object from import](../../.gitbook/assets/Assembly\_Object\_import.png)
 
 ## Upload an Assembly from other sources
 
