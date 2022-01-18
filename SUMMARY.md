@@ -31,7 +31,7 @@
   * [Data Upload and Download Guide](data/upload-download-guide/README.md)
     * [Data Types](data/upload-download-guide/data-types.md)
     * [Importing Data](data/upload-download-guide/uploads/README.md)
-      * [Bulk Import Limitations](data/upload-download-guide/uploads/limitations.md)
+      * [Bulk Import Limitations](data/upload-download-guide/uploads/bulk-limitations.md)
     * [Assembly](data/upload-download-guide/assembly.md)
     * [Genome](data/upload-download-guide/genome.md)
     * [FASTQ/SRA Reads](data/upload-download-guide/reads.md)
