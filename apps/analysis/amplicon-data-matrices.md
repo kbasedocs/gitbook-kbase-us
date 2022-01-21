@@ -28,9 +28,6 @@ Statistical comparisons can be calculated, such as clustering (hierarchical or k
 * [Perform NMDS Analysis App](https://narrative.kbase.us/#catalog/apps/kb\_Amplicon/run\_metaMDS/beta) ([in beta](../beta.md)) – performs Non-metric Multidimensional Scaling Analysis on amplicon matrix data to visualize it in two dimensions
 * [Perform Categorical Variable Statistics Analysis App](https://kbase.us/applist/apps/GenericsAPI/perform\_variable\_stats/release) – perform Categorical Variable Statistics Analysis on an amplicon matrix object
 * [Perform Similarity Percentage (SIMPER) Statistics Analysis App](https://kbase.us/applist/apps/GenericsAPI/perform\_simper/release) – performs similarity percentage or SIMPER (Clarke 1993) analysis based on the decomposition of Bray-Curtis dissimilarity index
-* ANOSIM
-* PERMANOVA&#x20;
-* Dispersion
 
 ### Functional Prediction for Amplicon Matrices
 
