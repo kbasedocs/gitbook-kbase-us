@@ -4,41 +4,9 @@ KBase has a suite of analysis apps and data that support the reconstruction, pre
 
 The [“Microbial Metabolic Model Reconstruction and Analysis” Narrative tutorial](./#narrative-tutorial) lets you see some of this functionality in action.
 
-Below are answers to common questions about KBase’s metabolic modeling tools, including:
+Below are answers to common questions about KBase’s metabolic modeling tools.
 
-* [Can Prokka be used for metabolic modeling?](../)
-* [What does the KBase gapfilling app do?](faq-metabolic-modeling.md#q-what-does-the-kbase-gapfilling-app-do)
-* [How does the underlying gapfilling algorithm work (i.e., what kind of programming formulation does it use)?](faq-metabolic-modeling.md#q-how-does-the-underlying-gapfilling-algorithm-work-i-e-what-kind-of-programming-formulation-does-it-use)
-* [What is the solver used in your gapfill optimization?](faq-metabolic-modeling.md#q-what-is-the-solver-used-in-your-gapfill-optimization)
-* [How do I choose a media condition for gapfilling, and what is the default media used?](faq-metabolic-modeling.md#q-how-do-i-choose-a-media-condition-for-gapfilling-and-what-is-the-default-media-used)
-* [What is “complete” media?](faq-metabolic-modeling.md#q-what-is-complete-media)
-* [How can I see the compounds comprising a media used in gapfilling?](faq-metabolic-modeling.md#q-how-can-i-see-the-compounds-comprising-a-media-used-in-gapfilling)
-* [Which reactions were added in the gapfilling process and why were they added?](faq-metabolic-modeling.md#q-which-reactions-were-added-in-the-gapfilling-process-and-why-were-they-added)
-* [What conventions are used for metabolic IDs, reaction IDs, etc?](faq-metabolic-modeling.md#q-what-conventions-are-used-for-metabolic-ids-reaction-ids-etc)&#x20;
-* [When I import a metabolic model, how do I associate it with a genome?](faq-metabolic-modeling.md#q-when-i-import-a-metabolic-model-how-do-i-associate-it-with-a-genome)
-* [When viewing a model, what do the compartment IDs mean?](faq-metabolic-modeling.md#q-when-viewing-a-model-what-do-the-compartment-ids-mean)
-* [After merging models, why do I end up with one or two more compartments?](faq-metabolic-modeling.md#q-after-merging-models-why-do-i-sometimes-end-up-with-one-or-two-more-compartments)
-* [What should I know about performing metabolic modeling on plants?](faq-metabolic-modeling.md#q-what-should-i-know-about-performing-metabolic-modeling-on-plants)
-* [How can I find and download all the biochemical compounds or reactions in KBase, as well as linked information such as Enzyme Commission (E.C.) Numbers?](faq-metabolic-modeling.md#q-how-can-i-find-and-download-all-the-biochemical-compounds-and-reactions-in-kbase-as-well-as-linked-information-such-as-enzyme-commission-e-c-numbers)
-* [Do the media in KBase include sources other than carbon (e.g., nitrogen, phosphorus, sulfur)?](faq-metabolic-modeling.md#q-do-the-media-in-kbase-include-sources-other-than-carbon-e-g-nitrogen-phosphorus-sulfur)
-* [How can I specify my own media?](faq-metabolic-modeling.md#q-how-can-i-specify-my-own-media)
-* [How are units of flux measured within the media?](faq-metabolic-modeling.md#q-how-are-units-of-flux-measured-within-the-media)
-* [What is the unit of measurement for the estimated biomass from a metabolic model?](faq-metabolic-modeling.md#q-what-is-the-unit-of-measurement-for-the-estimated-biomass-from-a-metabolic-model)
-* [How is media data structured in KBase?](faq-metabolic-modeling.md#q-how-is-media-data-structured-in-kbase)
-* [What is the function of the .gffba file? What is the difference between the .gffba output and Flux Balance Analysis output?](faq-metabolic-modeling.md#q-what-is-the-function-of-the-gffba-file-what-is-the-difference-between-the-gffba-output-and-flux-balance-analysis-output)
-* [How can I determine if my metabolic model will grow in a certain media?](faq-metabolic-modeling.md#q-how-can-i-determine-if-my-metabolic-model-will-grow-in-a-certain-media)
-* [After running flux balance analysis, what does the sign of a reaction flux mean?](faq-metabolic-modeling.md#q-after-running-flux-balance-analysis-what-does-the-sign-of-a-reaction-flux-mean)
-* [What do the various reaction classifiers mean?](faq-metabolic-modeling.md#q-what-do-the-various-reaction-classifiers-mean)
-* [Can I customize the flux boundaries of reactions in my model?](faq-metabolic-modeling.md#q-can-i-customize-the-flux-boundaries-of-reactions-in-my-model)
-* [How can I edit my media or metabolic model (add or delete reactions, compounds, or biomass)?](faq-metabolic-modeling.md#q-how-can-i-edit-my-media-or-metabolic-model-add-or-delete-reactions-compounds-or-biomass)
-* [Why did gapfilling fail for a model containing a custom media or custom biomass reaction? What can I do about it?](faq-metabolic-modeling.md#q-why-did-gapfilling-fail-for-a-model-containing-a-custom-media-or-custom-biomass-reaction-what-can-i-do-about-it)
-* [What if my source and translated metabolic models are the same after running the “Propagate Genome-scale Model to Close Genome” app?](faq-metabolic-modeling.md#q-what-if-my-source-and-translated-metabolic-models-are-the-same-after-running-the-propagate-genome-scale-model-to-close-genome-app)
-* [What do the “Prediction class” values mean in the output table generated by the “Simulate Growth on Phenotype Data” app?](faq-metabolic-modeling.md#q-what-do-the-prediction-class-values-mean-in-the-output-table-generated-by-the-simulate-growth-on-phenotype-data-app)
-* [What do the different colors mean in the visualization of metabolic pathways?](faq-metabolic-modeling.md#q-what-do-the-different-colors-mean-in-the-visualization-of-metabolic-pathways)
-* [Why did I get false negatives after simulating growth, and what can I do about it?](faq-metabolic-modeling.md#q-why-did-i-get-false-negatives-after-simulating-growth-and-what-can-i-do-about-it)
-* [Is it possible to use KBase to integrate RNA sequencing data into existing genome-scale models? ](faq-metabolic-modeling.md#q-is-it-possible-to-use-kbase-to-integrate-rna-sequencing-data-into-existing-genome-scale-models)
-
-For more information—including descriptions of the underlying algorithms, inputs, and outputs—see the [Metabolic Modeling Apps](../../apps/analysis/metabolic-modeling.md).
+For more information — including descriptions of the underlying algorithms, inputs, and outputs — see the [Metabolic Modeling Apps](../../apps/analysis/metabolic-modeling.md).
 
 ## Can Prokka annotations be used for metabolic modeling?&#x20;
 

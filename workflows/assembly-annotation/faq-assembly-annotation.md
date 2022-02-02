@@ -51,3 +51,7 @@ Manual curation of annotations is not supported on-system. RAST and Prokka are l
 Tools available for plant annotations include [Annotate Plant Transcripts with Metabolic Functions](https://kbase.us/applist/apps/kb\_plant\_rast/annotate\_plant\_transcripts/release) and [Annotate Plant Enzymes with OrthoFinder](https://kbase.us/applist/apps/kb\_orthofinder/annotate\_plant\_transcripts/release). These tools use the PlantSEED curated Database.&#x20;
 
 For fungi, it is recommended to use external tools and then import the annotated genomes into KBase.&#x20;
+
+## Are there tools specialized for fungal data?
+
+Currently there is a tool to construct draft metabolic models of fungal species ([Build Fungal Model](https://kbase.us/applist/apps/kb\_fungalmodeling/built\_fungal\_model/release)) that uses highly curated published fungal models as the underlying biochemistry data.
