@@ -76,7 +76,7 @@ When the jobs are completed successfully, you’ll be able to see all the inform
 
 ![Result tab of the Bulk Import Cell](../../../.gitbook/assets/BulkImport\_ResultObject.png)
 
-## What data types does this apply to?
+### What data types does this apply to?
 
 While this will be applicable to all data types and file extensions in the future, bulk import currently supports the following:
 
@@ -91,7 +91,7 @@ While this will be applicable to all data types and file extensions in the futur
 When selected files are not supported data types for Bulk Import within the Staging Area, separate, single import app cells will open in the Narrative for each type and file.
 {% endhint %}
 
-## What are the limitations?
+### What are the limitations?
 
 This is a new feature in KBase, and the current release should be considered a beta version with future development still to come. Some of the most notable limitations are listed here. This is not a comprehensive list but does contain the known bugs, issues, and limitations that are the highest priority for future releases. Please report any new bugs you find to the Help Board.
 
