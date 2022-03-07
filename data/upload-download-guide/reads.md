@@ -16,7 +16,7 @@ Files can be uploaded into your KBase Staging Area from your local computer or d
 
 ### Single-end library in FASTQ or SRA format
 
-Using a file on your computer, open the [_Import_ tab within the **Data Browser**](../../getting-started/narrative/add-data.md)**.** Then drag & drop the single-end library into your Staging Area. Open the pulldown menu to the right of the filename in the Staging Area and select “FASTQ Reads Interleaved" (or NonInterleaved) or "SRA Reads."
+Using a file on your computer, open the [_Import_ tab within the **Data Browser**](../../getting-started/narrative/add-data.md)**.** Then drag & drop the single-end library into your Staging Area. Open the pulldown menu to the right of the filename in the Staging Area and select “FASTQ Reads NonInterleaved" or "SRA Reads."
 
 ![FASTQ Single End Library](../../.gitbook/assets/Import\_FASTQ\_single.png)
 
@@ -28,7 +28,7 @@ Notice that the name of the Reads Library file is already filled in, as is a sug
 
 ### Paired-end library in FASTQ format
 
-There are two ways that KBase and [GenBank SRA](https://www.ncbi.nlm.nih.gov/sra/docs/submitformats/) recognize a paired-end library. A paired-end library can be either two files which typically have the same name and are designated as forward and reverse or is interleaved. Interleaved files use an 8-line format where forward and reverse reads alternate.
+There are two ways that KBase and [GenBank SRA](https://www.ncbi.nlm.nih.gov/sra/docs/submitformats/) recognize a paired-end library. A paired-end library can be either two files which typically have the same name and are designated as forward and reverse or a single interleaved file. Interleaved files use an 8-line format where forward and reverse reads alternate.
 
 Open the __ [_Import_ tab in the **Data Browser**](../../getting-started/narrative/add-data.md#uploading-data-from-external-sources) and drag either one interleaved file or two paired files into the Staging Area.
 
