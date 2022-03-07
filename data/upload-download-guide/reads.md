@@ -18,7 +18,7 @@ Files can be uploaded into your KBase Staging Area from your local computer or d
 
 Using a file on your computer, open the [_Import_ tab within the **Data Browser**](../../getting-started/narrative/add-data.md)**.** Then drag & drop the single-end library into your Staging Area. Open the pulldown menu to the right of the filename in the Staging Area and select “FASTQ Reads NonInterleaved" or "SRA Reads."
 
-![FASTQ Single End Library](../../.gitbook/assets/Import\_FASTQ\_single.png)
+![FASTQ Single-end Library](../../.gitbook/assets/StagingArea\_Import\_SingleEnd.png)
 
 ![SRA Single End Library](../../.gitbook/assets/Import\_sra.png)
 
