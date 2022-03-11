@@ -60,6 +60,10 @@ If your reads are in a publicly accessible URL, you can bypass the Staging Area 
 * [Import Single-End Reads From Web](https://narrative.kbase.us/#catalog/apps/kb\_uploadmethods/load\_single\_end\_reads\_from\_URL/release)
 * [Import Paired-End Reads From Web](https://narrative.kbase.us/#catalog/apps/kb\_uploadmethods/load\_paired\_end\_reads\_from\_URL/release)
 
+Note that directly importing these files into KBase from the web behaves the essentially the same as uploading to staging and importing from staging, except the transfer is carried out under the hood by the importer app. As a result, you should use whatever link is available that you would use to directly download the file if you wanted to save it to your computer. For SRA reads, this generally means navigating to the Data Access tab of the run browser for the reads you want to import, as seen here:
+
+![For these example reads, you would copy the SRA-download link inline with the run information](<../../.gitbook/assets/Screen Shot 2022-03-10 at 4.53.27 PM.png>)
+
 ### **Drag & Drop Limitations**
 
 The drag & drop from your local computer works for many files, but there is a size limit that depends on your computer and browser. Some users have reported problems around 20GB. For larger files, use [Globus Online transfer](../globus.md).
