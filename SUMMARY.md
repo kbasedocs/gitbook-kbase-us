@@ -59,6 +59,7 @@
     * [Metabolic Modeling](apps/analysis/metabolic-modeling.md)
     * [Metagenomics & Community Exploration](apps/analysis/metagenomics.md)
     * [Amplicon / Data Matrices](apps/analysis/amplicon-data-matrices.md)
+    * [Chemical Abundance](apps/analysis/chemical-abundance.md)
     * [Expression and Transcriptomics](apps/analysis/expression.md)
   * [Apps in Beta](apps/beta.md)
 * [Running Common Workflows](workflows/README.md)
