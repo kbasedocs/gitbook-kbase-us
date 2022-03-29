@@ -61,7 +61,7 @@
     * [Amplicon / Data Matrices](apps/analysis/amplicon-data-matrices.md)
     * [Chemical Abundance](apps/analysis/chemical-abundance.md)
     * [Expression and Transcriptomics](apps/analysis/expression.md)
-    * [Statistical, matrix, and Generics App](apps/analysis/statistical-matrix-and-generics-app.md)
+    * [Statistical, matrix, and Generics Apps](apps/analysis/statistical-matrix-and-generics-apps.md)
   * [Apps in Beta](apps/beta.md)
 * [Running Common Workflows](workflows/README.md)
   * [Assembling and Annotating Microbial Genomes](workflows/assembly-annotation/README.md)
