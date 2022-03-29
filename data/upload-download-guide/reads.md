@@ -56,13 +56,19 @@ In the Staging Area, beneath the box for Drag and Drop, there are other options 
 
 If your reads are in a publicly accessible URL, you can bypass the Staging Area and directly import reads into your Narrative using one of these three apps (which you can find in the Apps panel or the [App Catalog](https://kbase.us/applist/)):
 
-* [Import SRA File as Reads From Web](https://narrative.kbase.us/#catalog/apps/kb\_uploadmethods/import\_sra\_as\_reads\_from\_web/release)
-* [Import Single-End Reads From Web](https://narrative.kbase.us/#catalog/apps/kb\_uploadmethods/load\_single\_end\_reads\_from\_URL/release)
-* [Import Paired-End Reads From Web](https://narrative.kbase.us/#catalog/apps/kb\_uploadmethods/load\_paired\_end\_reads\_from\_URL/release)
+* [Import SRA File as Reads From Web](https://kbase.us/applist/apps/kb\_uploadmethods/import\_sra\_as\_reads\_from\_web/release)
+* [Import Single-End Reads From Web](https://kbase.us/applist/apps/kb\_uploadmethods/load\_single\_end\_reads\_from\_URL/release)
+* [Import Paired-End Reads From Web](https://kbase.us/applist/apps/kb\_uploadmethods/load\_paired\_end\_reads\_from\_URL/release)
 
-Note that directly importing these files into KBase from the web behaves the essentially the same as uploading to staging and importing from staging, except the transfer is carried out under the hood by the importer app. As a result, you should use whatever link is available that you would use to directly download the file if you wanted to save it to your computer. For SRA reads, this generally means navigating to the Data Access tab of the run browser for the reads you want to import, as seen here:
+Note that directly importing these files into KBase from the web behaves the essentially the same as uploading to the Staging Area and then importing to a Narrative, except the transfer is carried out by the Importer App. Use the link available to directly download the file as if you were going to save it to your computer.&#x20;
 
-![For these example reads, you would copy the SRA-download link inline with the run information](<../../.gitbook/assets/Screen Shot 2022-03-10 at 4.53.27 PM.png>)
+For SRA reads from NCBI, this generally means navigating to the _Data access_ tab of the _Run Browser in the NCBI Sequence Read Archive_ (SRA) for the reads to import, as seen here:
+
+![For this example, SRR18272216, navigate to the Data access tab and copy the SRA-download link under Name and paste the full link into the Import from Web App. ](../../.gitbook/assets/SRAdownload\_example.png)
+
+Copy the SRA-download link located under the _Name_ heading and paste the link into the URL input within the Importer App.&#x20;
+
+For how to search and download or locate download links for SRA sequences, [see the NCBI Search and Download](https://www.ncbi.nlm.nih.gov/sra/docs/sradownload/) documentation.&#x20;
 
 ### **Drag & Drop Limitations**
 
