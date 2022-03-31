@@ -79,9 +79,11 @@ The Narratives Navigator offers many launch points. To the left of the **My Narr
 
 The top-level menu (accessed by clicking the three small horizontal lines on the upper left of the window) offers additional possibilities:
 
-![](../../.gitbook/assets/toplevelmenu.png)
+![](../../.gitbook/assets/NarrativeNavigator\_TopLevelMenu.png)
 
 _Narrative Interface_ goes to the main Narrative Interface, which allows you to create, edit, run, and share Narratives.
+
+_New Narrative_ opens a new Narrative in a new window. &#x20;
 
 _JGI Search_ goes to the [Data Search](https://narrative.kbase.us/#jgi-search?q=) tab that can also be reached by the Search icon in the side bar.
 
@@ -93,7 +95,29 @@ _KBase Services Status_ goes to [a page that describes the current version of th
 
 _Contact KBase_ lets you [contact the KBase Help Desk](https://www.kbase.us/support/) with your question, bug report, or feature suggestion.
 
-_Help ("?"_ ) brings you to the [Narrative User Guide](./).
+_Support ("?"_ ) brings you to the [Narrative User Guide](./).
+
+### Beyond Narratives
+
+In the tabs below Narratives, the top-level menu will look like this:&#x20;
+
+![](../../.gitbook/assets/Narrative\_TopLevelMenu.png)
+
+_KBase Services Status_ directs to information on service versions and performance.&#x20;
+
+_KBase UI Plugins_ lists user interface plugins and their version info and links to GitHub.&#x20;
+
+_Developer_ links to developer tools and the configuration editor.&#x20;
+
+_Public Search_ can be used to locate data and filter by data types.&#x20;
+
+_About_ directs to information about the KBase User Interface and current version. &#x20;
+
+_KBase (home)_ will open a new window to [kbase.us](https://www.kbase.us).
+
+_Docs_ will open a new window to the KBase Documentation site at [docs.kbase.us](https://app.gitbook.com/o/-LrErV7S3Qxyj1T85yxI/s/-LrEs-tqcRLeDlhbWQs-/).&#x20;
+
+_Support_ will open [www.kbase.us/support](https://www.kbase.us/support/) to access the [Help Board](../../troubleshooting/support.md) or contact the KBase team.&#x20;
 
 In the next section, we’ll discuss [how to create a new Narrative](create.md).
 
