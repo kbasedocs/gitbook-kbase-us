@@ -4,8 +4,6 @@ description: How to link environmental sampling metadata with experimental data.
 
 # Linking Metadata
 
-## Test Header
-
 {% hint style="info" %}
 SampleSets are still a work in progress. Watch your inbox for notifications from KBase Outreach when these workflows go live.&#x20;
 
