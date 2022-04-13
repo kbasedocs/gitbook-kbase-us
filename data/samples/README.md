@@ -4,6 +4,8 @@ description: How to link environmental sampling metadata with experimental data.
 
 # Linking Metadata
 
+## Test Header
+
 {% hint style="info" %}
 SampleSets are still a work in progress. Watch your inbox for notifications from KBase Outreach when these workflows go live.&#x20;
 
@@ -25,3 +27,9 @@ Managing Linked Data
 Once a [SampleSet](../upload-download-guide/sampleset.md) is in system, it can be used when uploading [amplicon](../upload-download-guide/amplicon-matrix.md) or [chemical abundance](../upload-download-guide/chemical-abundance-matrix.md) matrices into KBase. This allows the amplicon and chemical abundance analysis to remain linked to the sample metadata and enrich analysis.
 
 When uploading and importing either an amplicon matrix or chemical abundance matrix, select the corresponding SampleSet from the dropdown menu for the input before running the Import App.
+
+### Additional Data Links
+
+Additional existing data can be linked to samples. The app "Link Workspace Objects to Samples" provides a graphical interface for creating the links. In this app, you can select the SampleSet to create links from, then choose the Sample from the set and object from the Narrative. You can add multiple Samples and objects by clicking the + button.&#x20;
+
+If you have a large number of links to create, it would be advisable to use the "Batch Link Workspace Objects to Samples" app.&#x20;
