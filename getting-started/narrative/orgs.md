@@ -45,8 +45,9 @@ There are options to edit and share an organization after it has been created.&#
 ## Viewing Narratives in an Org
 
 * If you haven't opened the Narrative before, there will be a "Click for Access/View Access" button
-* Click the button, now you can view the Narrative&#x20;
-* To open the Narrative, click on the Narrative name
+  * Click the "Click for View Access" button
+  * You will be able to open and view the Narrative when the "No Access" line disappears
+  * To open a Narrative, click on the Narrative name
 
 ![Access a Narrative by clicking the "Click for View Access" button to be able to view the Narrative. ](../../.gitbook/assets/ClickForViewAccess.gif)
 

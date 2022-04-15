@@ -30,7 +30,11 @@ In the [previous section](explore-data.md), we described the process of adding a
 
 ![](../../.gitbook/assets/screen-shot-2017-01-30-at-12.25.07-pm.png)
 
-As described in the previous section, the blue "< Add" button next to these icons lets you add the data object to your Narrative. You can add more more data to your Narrative from the _Example_ tab to try out various KBase apps.
+As described in the previous section, the blue "< Add" button next to these icons lets you add the data object to your Narrative. You can add more more data to your Narrative from the _My Data_, _Shared with Me_, _Public_, and _Example_ tabs to try out with various KBase Apps.
+
+![](../../.gitbook/assets/AddDatatoNarrative.gif)
+
+
 
 ## Uploading data from external sources
 
