@@ -6,12 +6,12 @@ description: Sign up and get started using KBase
 
 ## **Signing Up**
 
-To create a KBase account, you will need to use one of our supported identity providers. Sign up for a free KBase account **** using your existing Google, [ORCiD ![](../../.gitbook/assets/orcidid\_icon128x128.png)](https://orcid.org) , or [Globus](https://www.globusid.org/login) identity. For more detailed guidance, see the [Step-by-Step Signup Guide](step-by-step.md).
+To create a KBase account, you will need to use one of our supported identity providers. Sign up for a free KBase account **** using your existing Google, [ORCiD <img src="../../.gitbook/assets/orcidid_icon128x128.png" alt="" data-size="line">](https://orcid.org) , or [Globus](https://www.globusid.org/login) identity. For more detailed guidance, see the [Step-by-Step Signup Guide](step-by-step.md).
 
 After you link your Google, ORCiD, or Globus account, you will be able to sign in and use the KBase Narrative Interface to perform your computational systems biology analyses.
 
 {% hint style="info" %}
-KBase is an ORCiD [Member Organization](https://orcid.org/members/0010f00002IL95pAAD-lawrence-berkeley-national-laboratory). Sign in or link your[![](../../.gitbook/assets/orcidid\_icon128x128.png)to KBase](linking-orcid.md).&#x20;
+KBase is an ORCiD [Member Organization](https://orcid.org/members/0010f00002IL95pAAD-lawrence-berkeley-national-laboratory). Sign in or link your[<img src="../../.gitbook/assets/orcidid_icon128x128.png" alt="" data-size="line">to KBase](linking-orcid.md).&#x20;
 {% endhint %}
 
 ### **Terms and Conditions**

@@ -47,13 +47,16 @@ There are options to edit and share an organization after it has been created.&#
 * If you haven't opened the Narrative before, there will be a "Click for Access/View Access" button
 * Click the button, now you can view the Narrative&#x20;
 * To open the Narrative, click on the Narrative name
+
+![Access a Narrative by clicking the "Click for View Access" button to be able to view the Narrative. ](../../.gitbook/assets/ClickForViewAccess.gif)
+
 * There are several icons that may appear in the Narrative cell:
-  * **globe** ![](../../.gitbook/assets/public.png) - Narrative is shared publicly with all KBase users
-  * **pencil** ![](../../.gitbook/assets/editacces.png) - Narrative is shared with you with _edit access_
-  * **open lock** ![](../../.gitbook/assets/openlock.png) - Narrative is shared with you with _access_ to edit and share
-  * **closed lock** ![](../../.gitbook/assets/closedlock.png) - private
-  * **eye** ![](../../.gitbook/assets/viewonly.png) - View-Only access
-  * **crown** ![](../../.gitbook/assets/owner.png) - you are the owner
+  * **globe** <img src="../../.gitbook/assets/public.png" alt="" data-size="line"> - Narrative is shared publicly with all KBase users
+  * **pencil** <img src="../../.gitbook/assets/editacces.png" alt="" data-size="line"> - Narrative is shared with you with _edit access_
+  * **open lock** <img src="../../.gitbook/assets/openlock.png" alt="" data-size="line"> - Narrative is shared with you with _access_ to edit and share
+  * **closed lock** <img src="../../.gitbook/assets/closedlock.png" alt="" data-size="line"> - private
+  * **eye** <img src="../../.gitbook/assets/viewonly.png" alt="" data-size="line"> - View-Only access
+  * **crown** <img src="../../.gitbook/assets/owner.png" alt="" data-size="line"> - you are the owner
 
 ## Administering an Organization
 

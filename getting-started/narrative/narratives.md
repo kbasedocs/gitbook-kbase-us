@@ -79,7 +79,7 @@ The Narratives Navigator offers many launch points. To the left of the **My Narr
 
 The top-level menu (accessed by clicking the three small horizontal lines on the upper left of the window) offers additional possibilities:
 
-![](../../.gitbook/assets/NarrativeNavigator\_TopLevelMenu.png)
+<img src="../../.gitbook/assets/NarrativeNavigator_TopLevelMenu.png" alt="" data-size="original">
 
 _Narrative Interface_ goes to the main Narrative Interface, which allows you to create, edit, run, and share Narratives.
 

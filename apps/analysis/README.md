@@ -5,7 +5,7 @@
 ### The App Catalog lists currently available Apps.&#x20;
 
 * External [App Catalog](https://kbase.us/applist/) (no user account or sign-in required for browsing).
-* Within KBase by clicking on the Catalog icon in the Menu ![](<../../.gitbook/assets/catalog\_dashboardmenu (1).png>)&#x20;
+* Within KBase by clicking on the Catalog icon in the Menu <img src="../../.gitbook/assets/catalog_dashboardmenu (1).png" alt="" data-size="line">&#x20;
 * In a Narrative by clicking the right arrow at the top of the Apps Panel.
 
 The majority of KBase Apps fall into the following categories:
