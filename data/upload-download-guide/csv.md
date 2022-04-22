@@ -22,7 +22,7 @@ This approach treats the file as a directory or manifest containing the upload i
 
 1. **File Path(s)** – These will be relative to your home directory of the Staging Area, so only need to include the file name if the files are at the top level. If they are within a folder called “folder1” then the file input fields should be "folder1/file1", "folder1/file2", etc.
 2. **Object name** – Designate an object name for the imported file, which will be the object name to use as the input for analysis Apps.
-3. **Parameters** – Any required parameters.&#x20;
+3. **Parameters** – Any required input parameters.&#x20;
 
 #### Assembly Example
 
@@ -42,12 +42,12 @@ Templates for Bulk Import Directory Files
 Example Assemblies for Testing
 {% endfile %}
 
-Use either the plain-text CSV or TSV file or the Excel file template. In the template files you will see 3 rows are already filled; these are required for the staging service to parse the file. In the Excel file, the top two rows are hidden to simplify the view. The third row displays the inputs, outputs, and parameters included in the Importer App.&#x20;
+Use either the plain-text CSV or TSV file or the Excel file template. In the template files 3 rows are already filled; these are required for the staging service to parse the file. In the Excel file, the top two rows are hidden to simplify the view. The third row displays the column headers for inputs, outputs, and parameters included in the Importer App.&#x20;
 
-From here, fill out the spreadsheet as if you were filling out the Importer App. All text fields should match exactly to the display text in the Importer. For file path, it will be relative to the home directory, so you don’t need to include "username/" if the files are at the top level. If they are within a folder called “folder1” then the file input fields should be /folder1/file1, /folder1/file2, etc.
+From here, fill out the spreadsheet as if you were filling out the Importer App. Each row corresponds to one data object to import. Some data objects will include more than one file, such as a GFF Genome. All text fields should match exactly to the display text in the Importer. For the file path, it will be relative to the home directory. If the files are at the top level, only include the file name i.e., "file.extension". If they are within a folder called “folder1” then the file input fields should be "folder1/file1.ext", "folder1/file2.ext", etc.
 
 {% hint style="info" %}
-To import multiple data types simultaneously, you can either create a CSV/TSV for each type, or a tab for each type in a single Excel file.&#x20;
+To import multiple data types at once, either create a CSV/TSV for each type, or a tab for each type in a single Excel file.&#x20;
 {% endhint %}
 
 ## Importing a CSV file
@@ -56,11 +56,11 @@ Using a file on your computer, open the [_Import_ tab within the **Data Browser*
 
 ![Drag and Drop a CSV file](../../.gitbook/assets/screen-shot-2020-10-20-at-9.43.48-am.png)
 
-Once the file appears in the Staging Area, select "Import Selection" under the Import As column. Make sure only the directory file is selected (do not have the independent files also selected). Then click Import Selected at the bottom right corner. &#x20;
+Once the file appears in the Staging Area, select "_**Import Specification**_" from the dropdown in the _Import As..._ column. Make sure only the directory file is selected with a filled checkbox (do not select the independent files). Click _**Import Selected**_ at the bottom right corner. &#x20;
 
 ![](<../../.gitbook/assets/Screen Shot 2022-04-21 at 12.55.45 PM.png>)
 
-Once the import specifications file has been read, it will create a bulk import cell in your Narrative and you can proceed as usual with [a bulk import](uploads/#bulk-import-guide). Here you can verify the file names and import settings. Click "Run" on the upper lefthand corner of the App to import the files from the directory into the Narrative.&#x20;
+Once the import specifications file has been read, it will create a bulk import cell in your Narrative and you can proceed as usual following[ the bulk import](uploads/#bulk-import-guide) directions. Verify the file names and import settings within the App. Click "Run" on the upper lefthand corner of the App to import the files from the directory into the Narrative.&#x20;
 
 ![](<../../.gitbook/assets/Screen Shot 2022-04-21 at 12.56.11 PM.png>)
 
