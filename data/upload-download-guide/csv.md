@@ -60,7 +60,7 @@ This will create a Bulk Import App. Fill out the parameters for the import. Then
 
 This will create a pop-up file to prompt the template creation. Select the import type(s), if multiple use key controls (such as command-hold and select with Mac or control-shift and select on Microsoft). Choose the output type as either Comma-separated (CSV), Tab-separated (TSV), or Excel (XLS). Then select the appropriate output destination within the Staging Area. Click Generate template! to create the templates selected. &#x20;
 
-![](../../.gitbook/assets/template\_CSV\_draft.png)
+![](../../.gitbook/assets/template\_generation\_csv.png)
 
 Navigate back to the Staging Area through the "Add Data" or plus button in the Data Panel. Refresh the Staging Area if you do not see the template file in the destination you designated in the step before. Now you can download the file using the download button between to the Import As selection and trash icon.
 
