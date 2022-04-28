@@ -32,7 +32,7 @@ This approach treats the file as a directory or manifest containing the upload i
 
 ## Formatting the bulk import directory file
 
-To create your bulk import CSV, you can begin by downloading the template files here:
+To create your bulk import file, you can begin by downloading the template files here:
 
 {% file src="../../.gitbook/assets/bulk_import_csv_templates.zip" %}
 Templates for Bulk Import Directory Files
@@ -49,6 +49,26 @@ From here, fill out the spreadsheet as if you were filling out the Importer App.
 {% hint style="info" %}
 To import multiple data types at once, either create a CSV/TSV for each type, or a tab for each type in a single Excel file.&#x20;
 {% endhint %}
+
+## Creating a template from the Narrative
+
+To create a template CSV, TSV or Excel file from the Narrative, follow Bulk Import directions. Drag and drop your files or folders to upload to Staging. Once the files appear in the Staging Area, select at least one that represents each file type you wish to import, select the Import As file type and make sure the check box is active, then click "Import Selected." Note - if you are selecting only one file type, ensure you select two files of this type to trigger the Bulk Import App.&#x20;
+
+This will create a Bulk Import App. Fill out the parameters for the import. Then click on the "Generate CSV Template" button. &#x20;
+
+![Import from Staging Area Bulk Import App](../../.gitbook/assets/template\_creation\_draft.png)
+
+This will create a pop-up file to prompt the template creation. Select the import type(s), if multiple use key controls (such as command-hold and select with Mac or control-shift and select on Microsoft). Choose the output type as either Comma-separated (CSV), Tab-separated (TSV), or Excel (XLS). Then select the appropriate output destination within the Staging Area. Click Generate template! to create the templates selected. &#x20;
+
+![](../../.gitbook/assets/template\_CSV\_draft.png)
+
+Navigate back to the Staging Area through the "Add Data" or plus button in the Data Panel. Refresh the Staging Area if you do not see the template file in the destination you designated in the step before. Now you can download the file using the download button between to the Import As selection and trash icon.
+
+![](../../.gitbook/assets/template\_download\_draft.png)
+
+Open the downloaded template file. In the template files 3 rows are already filled; these are required for the staging service to parse the file. In the Excel file, the top two rows are hidden to simplify the view. The third row displays the column headers for inputs, outputs, and parameters included in the Importer App. The following rows are for each of the files to import, the files selected before will be included here.&#x20;
+
+From here, continue out the spreadsheet as if you were filling out the Importer App with the remaining files to import. Each row corresponds to one data object to import. Some data objects will include more than one file, such as a GFF Genome. All text fields should match exactly to the display text in the Importer. Use the pre-filled rows for parameters to fill out the rest of the rows that have designated file paths.&#x20;
 
 ## Importing a CSV file
 
