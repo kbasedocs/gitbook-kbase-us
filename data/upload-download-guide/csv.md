@@ -12,20 +12,26 @@ Import using a directory is still under development. The templates and process a
 {% endhint %}
 
 {% hint style="info" %}
-A TSV (tab-separated values) file with a .tsv or .tab file extension, a CSV (comma-separated values) file with a .csv extension, or an Excel spreadsheet with a .xls extension can be used to upload multiple files at once.&#x20;
+A TSV (tab-separated values) file with a .tsv or .tab file extension, a CSV (comma-separated values) file with a .csv extension, or an Excel spreadsheet with a .xls extension can be used to upload multiple files at once. &#x20;
 
-This approach treats the file as a directory or manifest containing the upload information for multiple files. The TSV, CSV, or Excel file must be formatted exactly to import correctly.&#x20;
+This approach treats the Import Specification file as a directory or manifest containing the upload information for multiple files. The TSV, CSV, or Excel file must be formatted exactly to import correctly.&#x20;
 {% endhint %}
 
-#### Directory files (TSV, CSV, Excel) require _several_ columns for uploading sequencing data when selecting files. These will vary for each data type,  but make sure you have the following information:&#x20;
+#### Import Specification files (TSV, CSV, Excel) require _several_ columns for uploading sequencing data when selecting files. These will vary for each data type, but make sure you have the following information:&#x20;
 
 * **File Path(s)** – These will be relative to your home directory of the Staging Area, so only need to include the file name if the files are at the top level. If they are within a folder called “folder1” then the file input fields should be "folder1/file1", "folder1/file2", etc.
 * **Object name** – Designate an object name for the imported file, which will be the object name to use as the input for analysis Apps.
 * **Parameters** – Any required input parameters.&#x20;
 
+{% hint style="info" %}
+Use the bulk Importer App with a subset of the files to generate an Import Specification template. Download and modify the template locally to include all file paths and parameters. Then upload the Import Specification file to import all files at once.&#x20;
+{% endhint %}
+
 ## Creating an import specification template from the Narrative
 
-To create an import specification template CSV, TSV or Excel file for many files from the Narrative, begin with the Bulk Import directions using a subset of the files or file types to import. Drag and drop all files or folders to upload to Staging.&#x20;
+To create an import specification template CSV, TSV or Excel file for many files from the Narrative, begin with the Bulk Import directions using a subset of the files or file types to import.&#x20;
+
+Drag and drop all files or folders to upload to Staging.&#x20;
 
 Once the files appear in the Staging Area, select at least one that represents each file type you wish to import, select the **Import As** file type and make sure the check box is active, then click "Import Selected." _Note - if you are selecting only one file type, ensure you select two files of this type to open the bulk Importer App._&#x20;
 
@@ -55,7 +61,7 @@ Using a file on your computer, open the [_Import_ tab within the **Data Browser*
 
 ![Drag and Drop a CSV file](../../.gitbook/assets/screen-shot-2020-10-20-at-9.43.48-am.png)
 
-Once the file appears in the Staging Area, select "_**Import Specification**_" from the dropdown in the _Import As..._ column. Make sure **only the directory file is selected** with a filled checkbox (do not select the independent files). Click _**Import Selected**_ at the bottom right corner. &#x20;
+Once the file appears in the Staging Area, select "_**Import Specification**_" from the dropdown in the _Import As..._ column. Make sure **only the Import Specification file is selected** with a filled checkbox (do not select the independent files). Click _**Import Selected**_ at the bottom right corner. &#x20;
 
 ![](<../../.gitbook/assets/Screen Shot 2022-04-21 at 12.55.45 PM.png>)
 
