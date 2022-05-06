@@ -60,7 +60,7 @@ Alternatively, a beta version of the App might already be in KBase. In the Apps 
 
 ## Will my data be made public?
 
-All user data in KBase is [private by default until you share it](https://www.kbase.us/data-policy-and-sources/). You can keep all your data private if you wish. We do encourage users to make data public in the interest of FAIR - Findable, Accessible, Interoperable, and Reusable - data practices.
+All user data in KBase is [private by default until you share it](https://www.kbase.us/data-policy-and-sources/). You can keep all your data private if you wish. We do encourage users to make data public in the interest of FAIR - [Findable, Accessible, Interoperable, and Reusable](https://www.go-fair.org/fair-principles/) - data practices.
 
 ## What organisms are available in KBase?&#x20;
 
