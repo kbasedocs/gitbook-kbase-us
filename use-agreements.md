@@ -23,3 +23,7 @@ Users will follow the [KBase Use Agreement](https://www.kbase.us/use-agreement/)
 KBase compute resources are available in a fair sharing system that enables equitable access for all users to KBase compute resources. If a user submits multiple jobs at once, they are staggered in the job queue with other users. This means that some jobs may take longer to finish than if they were submitted alone.&#x20;
 
 To check the status of the job queue and wait times for KBase Apps, in the Narrative here: [https://narrative.kbase.us/#catalog/queue](https://narrative.kbase.us/#catalog/queue)
+
+### Licensing
+
+**Software**  ⏤ **** Software developed by the KBase project team or contributed by community developers to KBase, is stored and maintained in the public KBase GitHub code repository under the MIT Open Source License (“License”).
