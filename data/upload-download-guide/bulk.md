@@ -37,23 +37,27 @@ Once the files appear in the Staging Area, select at least one that represents e
 
 This will create a bulk Importer App in the Narrative. Fill out the parameters for the import. These parameters will need to be applied to each file within the data type using the Import Specification template. Then click on the "Generate Import Template" button. &#x20;
 
-![Import from Staging Area Bulk Import App](../../.gitbook/assets/template\_creation\_draft.png)
+![Import from Staging Area Bulk Import App](../../.gitbook/assets/CreateImportSpecTemplate.png)
 
 This will create a pop-up file to prompt the template creation. Select the import type(s), if multiple use key controls (such as command-hold and select with Mac or control-shift and select on Microsoft). Choose the output type as either Comma-separated (CSV), Tab-separated (TSV), or Excel (XLS). Then select or rename the output destination within the Staging Area. Click "Generate template!" to create the templates selected. &#x20;
 
-![](../../.gitbook/assets/template\_generation\_csv.png)
+![](../../.gitbook/assets/create\_importspectemplate.png)
 
 {% hint style="info" %}
 To import multiple data types at once, either create a CSV/TSV for each type, or a tab for each type in a single Excel file.&#x20;
 {% endhint %}
 
-A pop-up will confirm the Import Specification template has been generated and its location in the Staging Area. Navigate back to the Staging Area  and click "Refresh" if you do not see the template  in the destination designated in the previous step. Download the Import Specification template using the download button on the left of the trash icon.
+A pop-up will confirm the Import Specification template has been generated and its location in the Staging Area.&#x20;
 
-![](../../.gitbook/assets/template\_download\_draft.png)
+![](../../.gitbook/assets/importspectemplate\_generated.png)
+
+Navigate back to the Staging Area  and click "Refresh" if you do not see the folder or template in the destination designated in the previous step. Download the Import Specification template using the download button on the left of the trash icon.
+
+![](../../.gitbook/assets/importspectemplate\_folder.png)
 
 Open the Import Specification template. In the template files 3 rows are already filled; these are required for the staging service to parse the file. In the Excel file, the top two rows are hidden to simplify the view. The third row displays the column headers for inputs, outputs, and parameters included in the Importer App. The following rows are for each of the files to import, the files selected before will be included here.&#x20;
 
-From here, continue out the spreadsheet as if you were filling out the Importer App with the remaining files to import. Each row corresponds to one data object to import. Some data objects will include more than one file path, such as a GFF Genome that requires both GFF and FASTA files. All text fields should match exactly to the display text in the Importer. Use the pre-filled parameters to fill out the rest of the rows with designated file paths.&#x20;
+Continue filling out the spreadsheet as if you would the Importer App with the remaining files to import. Each row corresponds to one data object to import. Some data objects will include more than one file path. For instance, a GFF Genome requires both GFF and FASTA files. All text fields should match exactly to the display text in the Importer. Use the pre-filled parameters to fill out the rest of the rows with designated file paths.&#x20;
 
 ## Importing a bulk Import Specification file
 
