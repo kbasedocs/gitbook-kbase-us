@@ -44,7 +44,7 @@
     * [Chemical Abundance Matrix](data/upload-download-guide/chemical-abundance-matrix.md)
     * [SampleSet](data/upload-download-guide/sampleset.md)
     * [Compressed/Zipped Files](data/upload-download-guide/compressed-files.md)
-    * [Bulk Import Specification](data/upload-download-guide/csv.md)
+    * [Bulk Import Specification](data/upload-download-guide/bulk.md)
     * [Downloading Data](data/upload-download-guide/downloads.md)
   * [Searching, Adding, and Uploading Data](data/search-add-upload.md)
   * [Filtering, Managing, and Viewing Data](data/filter-manage-view.md)
