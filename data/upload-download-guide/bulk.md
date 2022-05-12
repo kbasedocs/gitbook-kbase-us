@@ -14,32 +14,36 @@ Import using a directory is still under development. The templates and process a
 {% hint style="info" %}
 A TSV (tab-separated values) file with a .tsv or .tab file extension, a CSV (comma-separated values) file with a .csv extension, or an Excel spreadsheet with a .xls extension can be used to upload multiple files at once. &#x20;
 
-This approach treats the Import Specification file as a directory or manifest containing the upload information for multiple files. The TSV, CSV, or Excel file must be formatted exactly to import correctly.&#x20;
+This approach treats the Import Specification file as a directory or manifest containing the upload information for multiple files to fill out an import cell. The TSV, CSV, or Excel file must be formatted exactly to import correctly.&#x20;
 {% endhint %}
 
 #### Import Specification files (TSV, CSV, Excel) require _several_ columns for uploading sequencing data when selecting files. These will vary for each data type, but make sure you have the following information:&#x20;
 
-* **File Path(s)** – These will be relative to your home directory of the Staging Area, so only need to include the file name if the files are at the top level. If they are within a folder called “folder1” then the file input fields should be "folder1/file1", "folder1/file2", etc.
+* **File Path(s)** – These will be relative to your home directory of the Staging Area, so you only need to include the file name if the files are at the top level. If they are within a folder called “folder1” then the file input fields should be "folder1/file1", "folder1/file2", etc.
 * **Object name** – Designate an object name for the imported file, which will be the object name to use as the input for analysis Apps.
 * **Parameters** – Any required input parameters.&#x20;
 
 {% hint style="info" %}
-Use the bulk Importer App with a subset of the files to generate an Import Specification template. Download and modify the template locally to include all file paths and parameters. Then upload the Import Specification file to import all files at once.&#x20;
+Use the bulk Importer App with a subset of files to generate an Import Specification template. Download and modify the template locally to fill out file paths and parameters. Then upload the Import Specification file to import all files at once.&#x20;
 {% endhint %}
 
 ## Creating an import specification template from the Narrative
 
 To create an import specification template CSV, TSV or Excel file for many files from the Narrative, begin with the Bulk Import directions using a subset of the files or file types to import.&#x20;
 
-Drag and drop all files or folders to upload to Staging.&#x20;
+Drag and drop all files or a folder containing the files to upload to Staging.&#x20;
 
-Once the files appear in the Staging Area, select at least one that represents each file type you wish to import, select the **Import As** file type and make sure the check box is active, then click "Import Selected." _Note - if you are selecting only one file type, ensure you select two files of this type to open the bulk Importer App._&#x20;
+Once the files appear in the Staging Area, select at least one that represents each file type you wish to import, select the **Import As** file type and make sure the check box is active, then click "Import Selected."&#x20;
 
-This will create a bulk Importer App in the Narrative. Fill out the parameters for the import. These parameters will need to be applied to each file within the data type using the Import Specification template. Then click on the "Generate Import Template" button. &#x20;
+This will create a bulk Importer App in the Narrative. Fill out the parameters for the import. Then click the "Create Import Template" button. &#x20;
 
 ![Import from Staging Area Bulk Import App](../../.gitbook/assets/CreateImportSpecTemplate.png)
 
 This will create a pop-up file to prompt the template creation. Select the import type(s), if multiple use key controls (such as command-hold and select with Mac or control-shift and select on Microsoft). Choose the output type as either Comma-separated (CSV), Tab-separated (TSV), or Excel (XLS). Then select or rename the output destination within the Staging Area. Click "Generate template!" to create the templates selected. &#x20;
+
+{% hint style="warning" %}
+If you have an Import Specification Template within the destination that you designate in the pop-up, it will be overwritten with the newly created template.&#x20;
+{% endhint %}
 
 ![](../../.gitbook/assets/create\_importspectemplate.png)
 
@@ -61,7 +65,7 @@ Continue filling out the spreadsheet as if you would the Importer App with the r
 
 ## Importing a bulk Import Specification file
 
-Using a file on your computer, open the [_Import_ tab within the **Data Browser**](../../getting-started/narrative/add-data.md)**.** Then drag & drop the directory file along with the files to be imported.
+Open the [_Import_ tab within the **Data Browser**](../../getting-started/narrative/add-data.md)**.** Then drag & drop the Import Specification file and the files to be imported if they are not already in the Staging Area.&#x20;
 
 ![Drag and Drop a CSV file](../../.gitbook/assets/screen-shot-2020-10-20-at-9.43.48-am.png)
 
@@ -77,9 +81,9 @@ Once the Importer App has run, the App will signal that the files have been impo
 
 ### Limitations
 
-If you upload an invalid file, you will receive an error that lists the problem encountered. For some errors that can be fixed through the GUI, the app cell will still be created but you must correct the error before running the import.
+If you upload an invalid file, you will receive an error that lists the problem encountered. For errors that can be fixed through the GUI; the Importer cell will be created but you must correct the error before running the import.
 
-At this stage of development only a single set of parameters can be used per import job. While we plan to add multi-parameter support in the future and have made the spreadsheet templates forward-compatible, the import specifications will apply parameters from the first row to all files.
+At this stage of development only a single set of parameters can be used per import job. While we plan to add multi-parameter support in the future and have made the Import Specification templates forward-compatible, the import will apply parameters from the first row to all files.
 
 _Troubleshooting tips:_
 
@@ -89,4 +93,4 @@ _Troubleshooting tips:_
 * Only one file or Excel tab is allowed per data type. Do not include rows for the same data type in more than one Excel tab, more than one file, a tab and an Excel file, etc.&#x20;
 * In CSV and TSV files, white space around non-numerical data is ignored, and whitespace prior to numerical data is ignored.&#x20;
 * In CSV and TSV files, you can use quotes (") to surround text that contains the separator character (respectively a comma or a tab).
-* If individual files are selected in addition to the import specification file, there will be an error that results in disabling the dropdown selection of each file in the Importer App.&#x20;
+* If individual files in an import specification are selected along with the import specification, a bug will occur where extra rows that cannot be filled in are added to the bulk import cell for the individual files. To workaround this issue, either do not select files that are within the selected import specification or delete the uncompletable rows from the import cell.
