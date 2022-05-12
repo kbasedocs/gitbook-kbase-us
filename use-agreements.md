@@ -20,9 +20,9 @@ Users will follow the [KBase Use Agreement](https://www.kbase.us/use-agreement/)
 
 ### Service Level Agreement & Compute Resources
 
-KBase compute resources are available in a fair sharing system that enables equitable access for all users to KBase compute resources. If a user submits multiple jobs at once, they are staggered in the job queue with other users. This means that some jobs may take longer to finish than if they were submitted alone.&#x20;
+KBase compute resources are available in a [fair-sharing system](https://batchdocs.web.cern.ch/fairshare/fairshare.html#:\~:text=Fair%2Dshare,belong%20to%20the%20same%20group) that enables equitable access for all users to KBase compute resources. Submitted jobs, will be staggered in the job queue with other users based on [user priority](https://htcondor.readthedocs.io/en/latest/users-manual/priorities-and-preemption.html). This means that some jobs may take longer to finish based on previously submitted jobs and available machine slots.&#x20;
 
-To check the status of the job queue and wait times for KBase Apps, in the Narrative here: [https://narrative.kbase.us/#catalog/queue](https://narrative.kbase.us/#catalog/queue)
+To check the status of the job queue and wait times for KBase Apps, view [the Job Log](getting-started/narrative/job-browser.md#job-log).&#x20;
 
 ### Licensing
 
