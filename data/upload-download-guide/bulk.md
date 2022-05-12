@@ -63,6 +63,12 @@ Open the Import Specification template. In the template files 3 rows are already
 
 Continue filling out the spreadsheet as if you would the Importer App with the remaining files to import. Each row corresponds to one data object to import. Some data objects will include more than one file path. For instance, a GFF Genome requires both GFF and FASTA files. All text fields should match exactly to the display text in the Importer. Use the pre-filled parameters to fill out the rest of the rows with designated file paths.&#x20;
 
+{% hint style="info" %}
+To manually fill in the Scientific name into a template, navigate to an Import cell with a GenBank Genome Data type. Under Parameters, go to the 'Scientific name', search for the genus/species name you want and select it. Click the copy button on the right. You can now paste the name into the template.&#x20;
+{% endhint %}
+
+![Search for the Scientific name where the orange arrow is located, then copy using the icon to the right with the orange circle.](../../.gitbook/assets/Sciname\_lookup.png)
+
 ## Importing a bulk Import Specification file
 
 Open the [_Import_ tab within the **Data Browser**](../../getting-started/narrative/add-data.md)**.** Then drag & drop the Import Specification file and the files to be imported if they are not already in the Staging Area.&#x20;
