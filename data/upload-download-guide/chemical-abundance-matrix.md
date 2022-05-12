@@ -18,15 +18,21 @@ A Chemical Abundance Matrix can be uploaded from a TSV (tab-separated values) fi
 Each Chemical Type can be either a specific compound or element, aggregate (totals), exometabolites (measurements of compounds or elements that are consumed or excreted into the medium).&#x20;
 {% endhint %}
 
+{% embed url="https://www.youtube.com/watch?v=zSAhBEKFt1o" %}
+Chemical Abundance Upload Webinar
+{% endembed %}
+
 ## Formatting chemical abundance matrices
 
 The [Create Chemical Abundance Matrix Template App](https://kbase.us/applist/apps/GenericsAPI/build\_chemical\_abundance\_template/release) creates an Excel spreadsheet for direct download that can be populated with chemical abundance data. While Chemical abundance data works best and more meaningful when linked with an existing SampleSet in the system, linking a SampleSet is not required (See section Linking SampleSet). While Chemical abundance data works best and more meaningful when linked with an [existing SampleSet](sampleset.md) in the system, linking a SampleSet is not required.
 
-The minimal set of metadata in a chemical abundance matrix includes an ID field, a chemical type (aggregate, exometabolite, specific, etc), and one or more of the following: database ID, mass, formula, inchikey, inchistring, smiles, or compound name. Additional metadata such as units are strongly encouraged to provide with proper information that fits your scientific use cases or be kept as ‘unknown’, but the columns are not validated so you are able enter the values as free text in whatever manner fits your uses. Providing additional metadata may enhance the downstream analysis of use cases for you and other readers.
+The minimal set of metadata in a chemical abundance matrix includes an ID (unique value) field, a chemical type (aggregate, exometabolite, specific), and one or more of the following:  Compound ID (e.g; ModelSEED, KEGG, ChEBI), mass, formula, inchikey, inchi, smiles, or compound name. Additional metadata such as units are strongly encouraged to provide with proper information that fits your scientific use cases or be kept as ‘unknown’.  (see section "Template Fields Descriptions" for an explanation of each field)  Providing additional metadata may enhance the downstream analysis of use cases for you and other readers.
 
 If a SampleSet exists, it can be applied to the chemical abundance data. Chemical abundance data needs to be formatted to ensure Samples are correctly linked.
 
-![Create Chemical Abundance Matrix Template](../../.gitbook/assets/ChemicalAbundanceMatrix\_create.png)
+Note that linking to Samples is not required, but highly recommended. When linking to using this app, the template will be automatically populated with Sample IDs to ensure the chemical abundance data is properly linked to corresponding Samples in the system.
+
+![Create Chemical Abundance Matrix Template](../../.gitbook/assets/Picture1.gif)
 
 This App generates a spreadsheet onto which you can copy your data to ensure it links to the SampleSet when uploaded.&#x20;
 
@@ -84,6 +90,8 @@ Under Parameters, select the Chemical Abundance Matrix using the FilePath dropdo
 
 Fill in the Matrix Object Name and click the "Run" button to add the metabolomics data to the Narrative.
 
+![](../../.gitbook/assets/Picture2.gif)
+
 ## Using the Uploaded Data
 
-Once you've uploaded your chemical abundance data, you can explore apps using that type of data or use one of our use case demonstration Narratives. See the chemical abundance section of in Using Apps for more info.
+Once you've uploaded your chemical abundance data, you can explore apps using that type of data or use one of our use case demonstration Narratives. See [the chemical abundance section of in Using Apps for more info.](https://docs.kbase.us/apps/analysis/chemical-abundance)
