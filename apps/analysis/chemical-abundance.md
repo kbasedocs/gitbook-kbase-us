@@ -14,10 +14,10 @@ As both chemical abundance and amplicon matrices are similar, similar apps for c
 
 You can view a few public Narratives that demonstrate popular use cases for chemical abundance tables in KBase.
 
-▪Metabolomics (and other omics) data representation in Escher pathway maps [https://narrative.kbase.us/narrative/55494 ](https://narrative.kbase.us/narrative/55494)
-
-▪Cheminformatics expansion of known metabolites (based on known compounds in a metabolic model ) and mapping onto unknown peaks from metabolomics data ( PNNL Summer School workflows - WHONDRS): [https://narrative.kbase.us/narrative/61753](https://narrative.kbase.us/narrative/61753)
-
-▪Reconcile metabolic models to exo-metabolite data - Web of Microbes - [https://narrative.kbase.us/narrative/39597](https://narrative.kbase.us/narrative/39597)
-
-▪ A metabolomics driven flux balance analysis prioritizing on metabolomics data is being developed and will be added soon.
+* Metabolomics (and other omics) data representation in Escher pathway maps
+  * [https://narrative.kbase.us/narrative/55494](https://narrative.kbase.us/narrative/55494)
+  * [https://narrative.kbase.us/narrative/86637](https://narrative.kbase.us/narrative/86637)&#x20;
+* Cheminformatics expansion of known metabolites (based on known compounds in a metabolic model ) and mapping onto unknown peaks from metabolomics data ( PNNL Summer School workflows - WHONDRS
+  * [https://narrative.kbase.us/narrative/61753](https://narrative.kbase.us/narrative/61753)
+* Reconcile metabolic models to exo-metabolite data - Web of Microbes
+  * [https://narrative.kbase.us/narrative/39597](https://narrative.kbase.us/narrative/39597)
