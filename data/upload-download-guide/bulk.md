@@ -8,7 +8,7 @@ description: >-
 # Bulk Import Specification
 
 {% hint style="danger" %}
-Import using a directory is still under development. The templates and process are subject to change prior to release.
+Import using the Import Specification feature is still under development. The templates and process are subject to change prior to release.
 {% endhint %}
 
 {% hint style="info" %}
@@ -79,7 +79,7 @@ Once the file appears in the Staging Area, select "_**Import Specification**_" f
 
 ![](<../../.gitbook/assets/Screen Shot 2022-04-21 at 12.55.45 PM.png>)
 
-Once the Import Specification file has been read, it will create a bulk Importer App in your Narrative and you can proceed as usual following[ the bulk import](uploads/#bulk-import-guide) directions. Verify the file names and import settings within the App. Click "Run" on the upper lefthand corner of the App to import the files from the directory into the Narrative.&#x20;
+Once the Import Specification file has been read, it will create a bulk Importer App in your Narrative and you can proceed as usual following[ the bulk import](uploads/#bulk-import-guide) directions. Verify the file names and import settings within the App. Click "Run" on the upper lefthand corner of the App to import the files from the Import Specification into the Narrative.&#x20;
 
 ![](<../../.gitbook/assets/Screen Shot 2022-04-21 at 12.56.11 PM.png>)
 
