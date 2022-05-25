@@ -8,7 +8,7 @@ description: How to upload FASTA files into KBase.
 An assembly file is a single file containing one or more contiguous DNA sequences in FASTA format. It can be uploaded to KBase from your local computer (with file extension .fasta, .fna, .fa, or .fas) or directly from a publicly accessible FTP or HTTP URL.&#x20;
 {% endhint %}
 
-“Assembly” is the KBase data type for assembled, unannotated DNA sequence contigs. If you want to upload annotated sequences in GenBank or GFF format, please see the [Genome](genome.md) page.
+“Assembly” is the KBase data type for assembled, unannotated DNA sequence contigs or  predicted coding sequences. If you want to upload annotated sequences in GenBank or GFF format, please see the [Genome](genome.md) page.
 
 ![](../../.gitbook/assets/Assembly\_Import.gif)
 
