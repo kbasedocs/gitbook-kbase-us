@@ -87,9 +87,11 @@ Once the Importer App has run, the App will signal that the files have been impo
 
 ### Limitations
 
+Currently, 500 rows or data objects per import is supported with good performance. The absolute limit is 10000 rows.&#x20;
+
 If you upload an invalid file, you will receive an error that lists the problem encountered. For errors that can be fixed through the GUI, the Importer cell will be created but you must correct the error before running the import.
 
-At this stage of development only a single set of parameters can be used per import job. While we plan to add multi-parameter support in the future and have made the Import Specification templates forward-compatible, the import will apply parameters from the first row to all files.
+At this stage of development only a single set of parameters can be used per import job. While we plan to add multi-parameter support in the future and have made the Import Specification templates forward-compatible, the import will apply parameters from the first row to all files.&#x20;
 
 _Troubleshooting tips:_
 
@@ -99,4 +101,5 @@ _Troubleshooting tips:_
 * Only one file or Excel tab is allowed per data type. Do not include rows for the same data type in more than one Excel tab, more than one file, a tab and an Excel file, etc.&#x20;
 * In CSV and TSV files, white space around non-numerical data is ignored, and whitespace prior to numerical data is ignored.&#x20;
 * In CSV and TSV files, you can use quotes (") to surround text that contains the separator character (respectively a comma or a tab).
-* If individual files in an import specification are selected along with the import specification, a bug will occur where extra rows that cannot be filled in are added to the bulk import cell for the individual files. To workaround this issue, either do not select files that are within the selected import specification or delete the uncompletable rows from the import cell.
+* If individual files in an import specification are selected along with the import specification, a bug will occur where extra rows that cannot be filled in are added to the bulk import cell for the individual files. To workaround this issue, either do not select files that are within the selected import specification or delete the uncompletable row(s) from the import cell.
+* If the scientific name lookup ignores spaces, the workaround is to create (and optionally delete) a new bulk import cell for the scientific name input.&#x20;
