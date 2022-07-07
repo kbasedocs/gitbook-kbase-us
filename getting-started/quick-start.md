@@ -18,7 +18,7 @@ To begin using KBase, you will first need to [Sign up for a KBase Account](sign-
 
 ### **Step 2. Sign in to KBase**
 
-After you sign in, you will be taken to your Narratives (details of which can be found [here](https://kbase.us/narrative-guide/your-dashboard/)). From Narratives, you can open your existing Narratives, access others that have been shared with you, and create new Narratives. These Narratives can be accessed at [narrative.kbase.us](https://narrative.kbase.us).
+After you sign in, you will be taken to your Narratives (details of which can be found [here](https://kbase.us/narrative-guide/your-dashboard/)). From Narratives, you can open your existing Narratives, access others that have been shared with you, and create new Narratives. These Narratives can be accessed at [narrative.kbase.us](https://narrative.kbase.us/).
 
 \
 If you are a new user, your Narratives dash will be mostly empty, since you haven’t created any Narratives yet.

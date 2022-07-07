@@ -18,7 +18,7 @@ A Sample in KBase represents physical material from an experiment with attribute
 
 ### IGSN SESAR
 
-The [SESAR](https://www.geosamples.org) (System for Earth SAmple Registration) format is one format that can be used in KBase for uploading Samples. Their samples use a [controlled vocabulary for fields of data and metadata](https://www.geosamples.org/vocabularies) that can be used in KBase.
+The [SESAR](https://www.geosamples.org/) (System for Earth SAmple Registration) format is one format that can be used in KBase for uploading Samples. Their samples use a [controlled vocabulary for fields of data and metadata](https://www.geosamples.org/vocabularies) that can be used in KBase.
 
 Download a template of the SESAR format below and fill in your own data, or generate a new dataset file [based on their documentation](https://www.geosamples.org/resources/help). The .xlsx file has pre-filled options for the columns with [controlled vocabulary](../samples/ontology.md), whereas the CSV file is a much smaller file that only contains a heading with the possible fields.
 

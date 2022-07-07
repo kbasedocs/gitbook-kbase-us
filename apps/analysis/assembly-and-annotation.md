@@ -31,10 +31,10 @@ Genomes can be [annotated](https://kbase.us/applist/#Genome%20Annotation) with P
 
 * [Annotate Domains in a Genome](https://kbase.us/applist/apps/DomainAnnotation/annotate\_domains\_in\_a\_genome/release) – identifies protein domains from widely used domain libraries (COGs, TIGRfams, Pfam).
 * [Annotate Assembly with Prokka](https://kbase.us/applist/apps/ProkkaAnnotation/annotate\_contigs/release) – combines multiple open-source annotation tools in a quick and thorough annotation pipeline for prokaryotic sequences for genomes, plasmids, and metagenomes.
-* [Annotate Microbial Assembly](https://kbase.us/applist/apps/RAST\_SDK/annotate\_contigset/release) – uses components from the RAST ([Rapid Annotations using Subsystems Technology](http://rast.nmpdr.org)) toolkit to annotate an assembled bacterial or archaeal genome.
+* [Annotate Microbial Assembly](https://kbase.us/applist/apps/RAST\_SDK/annotate\_contigset/release) – uses components from the RAST ([Rapid Annotations using Subsystems Technology](http://rast.nmpdr.org/)) toolkit to annotate an assembled bacterial or archaeal genome.
 * [Annotate Microbial Genome](https://kbase.us/applist/apps/RAST\_SDK/reannotate\_microbial\_genome/release) – uses RAST to annotate a prokaryotic genome, to update the annotations of a genome, or to perform computations on a set of genomes so that they are consistent.
 * [Annotate Plant Coding Sequences with Metabolic Functions](https://kbase.us/applist/apps/kb\_plant\_rast/annotate\_plant\_transcripts/release) – performs functional annotation of plant cDNA or protein sequences.
-* [Bulk Annotate Genomes/Assemblies](https://kbase.us/applist/apps/RAST\_SDK/bulk\_annotate\_genomes\_assemblies/release) – uses components from the RAST ([Rapid Annotations using Subsystems Technology](http://rast.nmpdr.org)) toolkit to annotate a set of genomes or assemblies.&#x20;
+* [Bulk Annotate Genomes/Assemblies](https://kbase.us/applist/apps/RAST\_SDK/bulk\_annotate\_genomes\_assemblies/release) – uses components from the RAST ([Rapid Annotations using Subsystems Technology](http://rast.nmpdr.org/)) toolkit to annotate a set of genomes or assemblies.&#x20;
 
 _The output of the annotation apps is a Genome, which is displayed in a tabular genome viewer (see below) that shows information about the Genome as well as a list of contigs and the genes that were called on each contig._
 

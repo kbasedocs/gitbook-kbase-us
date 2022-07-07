@@ -20,7 +20,7 @@ After you click that Link button, you will be returned to the Linked Sign-in Acc
 
 If you have a Google (gmail) account, you can link it to your KBase account.
 
-To do this, you must first sign in to KBase with your current KBase account login. If you are not already signed in to KBase, go to the [sign-in page](https://narrative.kbase.us), click the Sign In button. Go through the normal sign-in process.
+To do this, you must first sign in to KBase with your current KBase account login. If you are not already signed in to KBase, go to the [sign-in page](https://narrative.kbase.us/), click the Sign In button. Go through the normal sign-in process.
 
 On the left sidebar of your menu, click the “Account” icon, and then choose the tab labeled “Linked Sign-In Accounts”.
 

@@ -34,7 +34,7 @@ The gapfilling app always has reasons for adding the reactions it does, but thos
 
 ## **What is the solver used in your Gapfill optimization?**
 
-The Gapfill optimization uses the [SCIP solver](http://scip.zib.de).&#x20;
+The Gapfill optimization uses the [SCIP solver](http://scip.zib.de/).&#x20;
 
 We actually use two solvers in KBase. We use GLPK for most pure-linear optimizations. We use SCIP for larger more complex problems, particularly when integer variables are involved. Gapfilling is an example of a problem where we use SCIP.
 
@@ -122,7 +122,7 @@ The Plant Metabolic Modeling in KBase is based on the metabolic subsystems descr
 
 ## **How can I find and download all the biochemical compounds and reactions in KBase, as well as linked information such as Enzyme Commission (E.C.) Numbers?**
 
-The biochemistry compounds and reactions can found in the [KBase ModelSEED Biochemistry Database ](https://github.com/ModelSEED/ModelSEEDDatabase/tree/v1.0/Biochemistry)for a reference list of reactions and compounds or using [Biochemistry Search](https://narrative.kbase.us/#biochem-search). This spreadsheet includes the EC numbers. You can also consult the [Enzyme database](http://enzyme.expasy.org) to see a description of each type of characterized enzyme that has an EC number.
+The biochemistry compounds and reactions can found in the [KBase ModelSEED Biochemistry Database ](https://github.com/ModelSEED/ModelSEEDDatabase/tree/v1.0/Biochemistry)for a reference list of reactions and compounds or using [Biochemistry Search](https://narrative.kbase.us/#biochem-search). This spreadsheet includes the EC numbers. You can also consult the [Enzyme database](http://enzyme.expasy.org/) to see a description of each type of characterized enzyme that has an EC number.
 
 ## **Does media in KBase include sources other than carbon (e.g., nitrogen, phosphorus, sulfur)?**
 

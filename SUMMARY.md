@@ -1,7 +1,7 @@
 # Table of contents
 
 * [KBase Documentation](README.md)
-* [KBase Terms & Conditions](use-agreements.md)
+* [KBase Terms & Conditions](terms-conditions.md)
 * [Getting Started](getting-started/README.md)
   * [Signing Up and Signing In](getting-started/sign-up/README.md)
     * [Step-by-Step Signup Guide](getting-started/sign-up/step-by-step.md)

@@ -6,7 +6,7 @@ description: Sign up and get started using KBase
 
 ## **Signing Up**
 
-To create a KBase account, you will need to use one of our supported identity providers. Sign up for a free KBase account **** using your existing Google, [ORCiD <img src="../../.gitbook/assets/orcidid_icon128x128.png" alt="" data-size="line">](https://orcid.org) , or [Globus](https://www.globusid.org/login) identity. For more detailed guidance, see the [Step-by-Step Signup Guide](step-by-step.md).
+To create a KBase account, you will need to use one of our supported identity providers. Sign up for a free KBase account **** using your existing Google, [ORCiD <img src="../../.gitbook/assets/orcidid_icon128x128.png" alt="" data-size="line">](https://orcid.org/) , or [Globus](https://www.globusid.org/login) identity. For more detailed guidance, see the [Step-by-Step Signup Guide](step-by-step.md).
 
 After you link your Google, ORCiD, or Globus account, you will be able to sign in and use the KBase Narrative Interface to perform your computational systems biology analyses.
 

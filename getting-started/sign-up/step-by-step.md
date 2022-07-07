@@ -1,12 +1,12 @@
 # Step-by-Step Signup Guide
 
-This page provides step-by-step instructions for signing up to use KBase. You will use your existing account at Google or [Globus](https://www.globusid.org/login) or [ORCiD](https://orcid.org), and it will be linked to your new KBase account.
+This page provides step-by-step instructions for signing up to use KBase. You will use your existing account at Google or [Globus](https://www.globusid.org/login) or [ORCiD](https://orcid.org/), and it will be linked to your new KBase account.
 
 1\. From the [KBase Narrative login](https://narrative.kbase.us/#login), click the “Sign Up” button.
 
 ![](../../.gitbook/assets/kbase\_signup.gif)
 
-2\. Use your existing Google, [ORCiD](https://orcid.org), or [Globus](https://www.globusid.org/login) account to sign up for KBase.&#x20;
+2\. Use your existing Google, [ORCiD](https://orcid.org/), or [Globus](https://www.globusid.org/login) account to sign up for KBase.&#x20;
 
 ![](../../.gitbook/assets/kbase\_signup\_opt.png)
 

@@ -4,7 +4,7 @@ description: A how-to on large file transfer into KBase.
 
 # Transferring Data with Globus
 
-Transfer large files (\~20GB and more) to KBase using [Globus](https://www.globus.org). Drag & drop from your local computer works for many files, but there is a size limit dependent on your computer and browser.&#x20;
+Transfer large files (\~20GB and more) to KBase using [Globus](https://www.globus.org/). Drag & drop from your local computer works for many files, but there is a size limit dependent on your computer and browser.&#x20;
 
 Globus is a data management and file transfer system that can facilitate bulk transfer of data (large data files or a large number of files) between two endpoints. The endpoints that apply here are KBase, JGI, and your local computer. The KBase endpoint is called “KBase Bulk Share,” and JGI has their own way to link to Globus. To do any transfer using Globus, you will need a [Globus account](https://www.globusid.org/create).&#x20;
 

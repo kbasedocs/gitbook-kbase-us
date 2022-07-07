@@ -12,7 +12,7 @@ You can ignore the information on this page. For details about setting up a new 
 
 If you already had a KBase account prior to June 9, 2017, then the first time you want to sign into KBase after the authentication change, you will need to go through a few steps to convert your existing KBase (through Globus) account to the new system. After going through the conversion, you’ll be able to sign in to KBase with your existing account or your Google account, if you choose to link your KBase account. To see what you’ll need to do, continue reading below.
 
-When you go to [KBase](https://narrative.kbase.us) to sign in, you will see this:
+When you go to [KBase](https://narrative.kbase.us/) to sign in, you will see this:
 
 ![](../../.gitbook/assets/kbase\_login.png)
 
@@ -52,7 +52,7 @@ Note – the system changes mean that your profile may look a bit bare-bones. Pl
 
 The first time you sign into KBase after the authentication change, you will need to go through all the steps described above. Subsequently, if you choose to sign-in using your Google credentials, the process will look like this:
 
-1\. Go to [narrative.kbase.us](https://narrative.kbase.us)
+1\. Go to [narrative.kbase.us](https://narrative.kbase.us/)
 
 ![](../../.gitbook/assets/kbase\_login.png)
 

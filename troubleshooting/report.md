@@ -1,12 +1,12 @@
 # How to Report Issues
 
-To report issues, suggest new features, or get help using KBase tools, please go to our [Help Board](https://kbase-jira.atlassian.net) and create a ticket.&#x20;
+To report issues, suggest new features, or get help using KBase tools, please go to our [Help Board](https://kbase-jira.atlassian.net/) and create a ticket.&#x20;
 
 ![](../.gitbook/assets/submitajiratickettohelpdesk.gif)
 
 ## Create a Ticket
 
-On the [KBase Help Board](https://kbase-jira.atlassian.net), click the blue **Create** button in the menu. A window pops up to gather information about your issue. _Required fields are marked with a red \*_; the other fields are optional.&#x20;
+On the [KBase Help Board](https://kbase-jira.atlassian.net/), click the blue **Create** button in the menu. A window pops up to gather information about your issue. _Required fields are marked with a red \*_; the other fields are optional.&#x20;
 
 1. Choose the **issue type** (_Bug,_ _Question_, or _New Feature_)
 2. Enter a **short summary**
