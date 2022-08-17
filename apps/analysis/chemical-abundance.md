@@ -8,7 +8,7 @@ description: >-
 
 ## Data Cleaning and Statistical Analysis
 
-As both chemical abundance and amplicon matrices are similar, similar apps for cleaning, normalizing, and performing statistical comparisons can be done on both types. See the previous page on Amplicon Matrices for information on using these apps.
+As both chemical abundance and amplicon matrices are similar, similar apps for cleaning, normalizing, and performing statistical comparisons can be done on both types. See the previous page on [Data Matrices](matrix.md) for information on using these apps.
 
 ## Popular Use Cases of Chemical Abundance Data
 

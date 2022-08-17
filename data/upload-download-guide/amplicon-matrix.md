@@ -8,7 +8,7 @@ description: Generating and handling Amplicon Matrices to link to Samples
 
 Any approach to creating an amplicon matrix should be usable in KBase, but may require additional curation. Amplicon matrices or taxonomic abundance matrices include OTU (operational taxonomic units) and ASV (amplicon sequence variants).&#x20;
 
-We recommend to upload raw counts as analysis ([rarefaction, standardization, and normalization](../../apps/analysis/amplicon-data-matrices.md)) will be tracked and provenance maintained on system. There are a number of [tools in KBase to analyze Amplicon Matrices and metadata](../../apps/analysis/amplicon-data-matrices.md).&#x20;
+We recommend to upload raw counts as analysis ([rarefaction, standardization, and normalization](../../apps/analysis/matrix.md)) will be tracked and provenance maintained on system. There are a number of [tools in KBase to analyze Amplicon Matrices and metadata](../../apps/analysis/matrix.md).&#x20;
 
 {% hint style="info" %}
 Amplicon matrices can be uploaded from a TSV (tab-separated values) file with a .tsv file extension.
