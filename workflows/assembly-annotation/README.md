@@ -21,7 +21,7 @@ Steps for [assembly and annotation](../../apps/analysis/assembly-and-annotation.
 ## Narrative Tutorials
 
 * [Microbial Genome Assembly and Annotation Tutorial](https://narrative.kbase.us/narrative/ws.18188.obj.6) – guides through assembling a set of NGS short reads into contigs and annotate the assembled contigs, assigning biological functions derived from RAST&#x20;
-* [Genome Analysis Tools and Features](https://narrative.kbase.us/narrative/48493) – a how-to guide for various tools to analyze genomic sequencing data in KBase from quality control and assessment of NGS reads, de novo assembly, and genome annotation.
+* [Genome Analysis Tools and Features](https://narrative.kbase.us/narrative/48493) – a how-to guide for various tools to analyze genomic sequencing data in KBase from quality control and assessment of NGS reads, de novo assembly, and genome annotation
 * [Genome Analysis 1: Drafting Isolate Genomes](https://narrative.kbase.us/narrative/83666) – demonstrates how to draft isolate genomes from quality assessment to assembly and annotation
 * [Genome Analysis 2: Identifying Features of Interest in Genomes](https://narrative.kbase.us/narrative/83681) – shows how to build a workflow for searching and identifying features within your genomes
 * Genome Analysis 3: Domain Annotation and Feature Profiling – guides users through annotating protein families and analyzing features across a set of genomes for comparative analysis
