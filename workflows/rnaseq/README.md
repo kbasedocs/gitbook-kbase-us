@@ -36,8 +36,8 @@ The RNA-seq pipeline in KBase is modular and consists of three steps. You can pi
 
 * __[_E. coli_ RNA-seq Analysis Tutorial](https://narrative.kbase.us/narrative/ws.50093.obj.1) – bacterium-based example of an RNAseq workflow using a HISAT2/StringTie/DESeq2 pipeline
 * __[_Arabidopsis_ RNA-seq Analysis Tutorial ](https://narrative.kbase.us/narrative/ws.19391.obj.1)– plant-based example of an RNAseq workflow using a HISAT2/StringTie/DESeq2 pipeline
-* [Case Study: Genome-wide Transcriptomics and Plant Primary Metabolism in response to Drought Stress in Sorghum ](https://kbase.us/n/101788/79/) – example of using KBase to integrate full genome RNA-seq analysis and a metabolic model to generate a reaction matrix.&#x20;
-  * Kumari et al. (2021) A KBase case study on genome-wide transcriptomics and plant primary metabolism in response to drought stress in Sorghum. Current Plant Biology 28. [https://doi.org/10.1016/j.cpb.2021.100229](https://doi.org/10.1016/j.cpb.2021.100229)
+* [Case Study: Genome-wide Transcriptomics and Plant Primary Metabolism in response to Drought Stress in Sorghum](https://kbase.us/n/101788/79/) – plant-based example of using KBase to integrate full genome RNA-seq analysis and a metabolic model to generate a reaction matrix&#x20;
+  * Kumari et al. (2021) _A KBase case study on genome-wide transcriptomics and plant primary metabolism in response to drought stress in Sorghum_. Current Plant Biology 28. [https://doi.org/10.1016/j.cpb.2021.100229](https://doi.org/10.1016/j.cpb.2021.100229)
 
 ## **Video Tutorial**&#x20;
 
