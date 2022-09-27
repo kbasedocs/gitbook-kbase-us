@@ -309,4 +309,13 @@ If in the gap-filling problem, you decide to maximize the production of a differ
 
 TLDR: it is very important to analyze the gap-filling results critically to understand if some reactions are truly missing or are being added to satisfy a biomass precursor that is not relevant to your organism. I also recommend you do further literature research on the subject since multiple gap-filling algorithms exist that employ different methodologies.
 
+## Is there a tutorial, public narrative, publication, or documentation of using a high-quality, curated metabolic model to develop a new metabolic model for a genome of a different strain of the same species?
+
+We have an app Propagate Model to New Genome which can be used to do that. The [app catalog page](https://narrative.kbase.us/#catalog/apps/fba\_tools/propagate\_model\_to\_new\_genome/release) has good documentation about using the app.
+
+There’s a public Narrative by Chris Henry that you can view as an example here: [![](https://narrative.kbase.us/favicon.ico)KBase](https://narrative.kbase.us/narrative/13806). For context, it is part of this publication: [https://onlinelibrary.wiley.com/doi/full/10.1002/jcp.25428](https://onlinelibrary.wiley.com/doi/full/10.1002/jcp.25428).
+
+In addition, check out this protocol paper: [https://link.springer.com/protocol/10.1007/978-1-0716-1585-0\_13](https://link.springer.com/protocol/10.1007/978-1-0716-1585-0\_13)\
+
+
 #### We welcome your [feedback](https://www.kbase.us/support) on the information provided in this FAQ. If you have a question about the metabolic modeling tools and data in KBase that is not answered here, or the answer provided didn’t work for you, please [contact us](https://www.kbase.us/support).
