@@ -7,8 +7,8 @@ description: >-
 
 # Bulk Import Specification
 
-{% hint style="danger" %}
-Import using the Import Specification feature is still under development. The templates and process are subject to change prior to release.
+{% hint style="warning" %}
+Import Specification applies to [select data types](uploads/#what-data-types-does-this-apply-to).&#x20;
 {% endhint %}
 
 {% hint style="info" %}
