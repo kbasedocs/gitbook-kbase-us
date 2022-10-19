@@ -2,7 +2,7 @@
 
 Data within KBase covers a wide range of data types relevant to systems biology research, including genomes and their annotations, metagenomes, expression, and protein-protein interactions, inferred models of organismal and community metabolism and gene regulation, even geographical information about populations.
 
-Remember to follow the KBase [Data Policy and Sources](https://www.kbase.us/data-policy-and-sources/) agreement.&#x20;
+Remember to follow the KBase [Data Policy and Sources](https://www.kbase.us/about/terms-and-conditions-v2/#data\_policy) agreement.&#x20;
 
 ## Data Type Descriptions
 
