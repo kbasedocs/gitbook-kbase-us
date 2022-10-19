@@ -29,7 +29,7 @@ We are also considering adding support for other identity providers. If there’
 
 ![](../../.gitbook/assets/screen-shot-2017-06-07-at-3.50.33-pm.png)
 
-5\. You must now agree to the [KBase User Agreement](https://www.kbase.us/terms-and-conditions/) and [KBase Data Policy](https://www.kbase.us/data-policy-and-sources/).&#x20;
+5\. You must now agree to the [KBase User Agreement](https://www.kbase.us/about/terms-and-conditions-v2/#use\_agreement) and [KBase Data Policy](https://www.kbase.us/about/terms-and-conditions-v2/#data\_policy).&#x20;
 
 Note: If you already had a KBase account, these documents have not changed since you last agreed to them. This is a reconfirmation required by the new authentication process.
 

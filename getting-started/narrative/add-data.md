@@ -10,7 +10,7 @@ From the Data Panel, you can access the data slide-out, which allows you to sear
 
 {% hint style="info" %}
 **Data Privacy**\
-Any data that you upload to KBase is kept private unless you explicitly choose to share it. You can share any of your Narratives (including their associated data) with one or more specific users, or make it publicly available to all KBase users. Please see the [Sharing](share.md) page for more information about how to do that. The [Terms and Conditions page](https://kbase.us/terms-and-conditions/) describes the KBase data policy.
+Any data that you upload to KBase is kept private unless you explicitly choose to share it. You can share any of your Narratives (including their associated data) with one or more specific users, or make it publicly available to all KBase users. Please see the [Sharing](share.md) page for more information about how to do that. The [Terms and Conditions page](https://www.kbase.us/about/terms-and-conditions-v2/#data\_policy) describes the KBase data policy.
 {% endhint %}
 
 The first four tabs of the **Data Browser** (_My Data_, _Shared With Me_, _Public_, and _Example_) let you search data that is already in KBase. The _Import_ tab lets you import data from your computer to your Narrative so that you can analyze it in KBase.

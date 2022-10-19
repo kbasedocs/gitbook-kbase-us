@@ -16,7 +16,7 @@ KBase is an ORCiD [Member Organization](https://orcid.org/members/0010f00002IL95
 
 ### **Terms and Conditions**
 
-KBase is sponsored by the U.S. Department of Energy and is free for all to use (even if you are not in the United States). When you link an identity to KBase, you will need to accept our [Terms & Conditions](https://www.kbase.us/terms-and-conditions/), including our [User Agreement](https://www.kbase.us/use-agreement/). You may also want to review our [Privacy Policy](https://www.kbase.us/privacy-policy/) and [Data Policy](https://www.kbase.us/data-policy-and-sources/). Users shall follow the [KBase Code of Conduct](https://www.kbase.us/kbase-code-of-conduct/).&#x20;
+KBase is sponsored by the U.S. Department of Energy and is free for all to use (even if you are not in the United States). When you link an identity to KBase, you will need to accept our [Terms & Conditions](https://www.kbase.us/about/terms-and-conditions-v2/), including our [User Agreement](https://www.kbase.us/about/terms-and-conditions-v2/#use\_agreement). You may also want to review our [Privacy Policy](https://www.kbase.us/about/terms-and-conditions-v2/#privacy\_policy) and [Data Policy](https://www.kbase.us/about/terms-and-conditions-v2/#data\_policy). Users shall follow the [KBase Code of Conduct](https://www.kbase.us/kbase-code-of-conduct/).&#x20;
 
 [Sign up for a free KBase account](https://narrative.kbase.us/#signup)
 

@@ -43,8 +43,6 @@ Clicking on the link in the email will take you to a Globus file transfer window
 
 Double click on the directories until you get o the file you want. Click on the file name to highlight it and then click on the "Transfer or Sync to..." link on the right.
 
-&#x20;[![](http://kbase.us/wp-content/uploads/2019/07/globus-5.png)](http://kbase.us/wp-content/uploads/2019/07/globus-5.png)&#x20;
-
 The newly created JGI endpoint is filled in on the left.
 
 Set the “To” endpoint (right) to “KBase Bulk Share”, which is the KBase Staging Area. If you do not see a directory with your name, add /username (i.e. /landml for the user below) to the Path for the KBase endpoint.
