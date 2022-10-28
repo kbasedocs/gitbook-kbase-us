@@ -46,6 +46,10 @@ Your transfer request will be submitted to Globus. If there are network or other
 
 Some government institutions have a firewall between users and the outside world. In an effort to increase security, many web links can be blocked, including Globus traffic. If you see a message that ends with “Details: 500 Command failed….”, a firewall may be the cause.
 
+### No ACL Rules
+
+Another common error seen when using Globus shows and "No ACL rules" error on the KBase Bulk Share endpoint in the Globus UI. The most common cause for this error is multiple Globus accounts where the wrong account is linked to KBase. Be sure to log out of all Globus accounts, then link the correct account at [https://narrative.kbase.us/#/auth2/account](https://narrative.kbase.us/#/auth2/account). If you still get this error, contact the help desk.&#x20;
+
 ### **Uploading data from JGI**
 
 If you are a JGI user, you can transfer public genome reads and assemblies (and your private data and annotated genomes) from JGI to your KBase account—see [this page](jgi-transfer.md) for instructions.
