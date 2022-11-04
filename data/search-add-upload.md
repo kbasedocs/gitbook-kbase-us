@@ -16,6 +16,6 @@ You can add data to a Narrative through a variety of methods. The **Data Browser
 * _Example_ shows datasets that have been pre-loaded by the KBase team.&#x20;
 * _Import_ allows you to upload your own datasets or external datasets for analysis.
 
-Add data by navigating to the Data Browser tab and hover over the data object to reveal the _<_ _Add_ button. Click on the _< Add_ button to import the data object into the Narrative. Now you can view the data object and run analysis.&#x20;
+Add data by navigating to the Data Browser tab and hover over the data object to reveal the _<_ _Add_ button. Click on the "_< Add_" button to import the data object into the Narrative. Now you can view the data object and run analysis.&#x20;
 
 ![Add Data already in KBase. ](<../.gitbook/assets/AddDatatoNarrative (1).gif>)

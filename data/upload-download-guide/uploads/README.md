@@ -58,13 +58,13 @@ Bulk import currently only supports _one parameter set per data type_. If you ne
 
 ![](../../../.gitbook/assets/screen-shot-2021-08-04-at-11.37.27-am.png)
 
-You’ll see a new import cell created for bulk imports. This cell contains a tab for each of the data types you selected from the Staging Area, which you can view by clicking on the available types within the Data type column on the left. This cell is a bulk wrapper for existing import apps, so you can fill out the parameters the same as you would for a single import.&#x20;
+You’ll see a new import cell created for bulk imports. This cell contains a tab for each of the data types you selected from the Staging Area, which you can view by clicking on the available types within the **Data type column** on the left. This cell is a bulk wrapper for existing import apps, so you can fill out the parameters the same as you would for a single import.&#x20;
 
 ![Bulk Import App in the Narrative](<../../../.gitbook/assets/BulkImport\_missinginputs (1).png>)
 
-Once you have filled out all file paths and parameters, run the import. While the import is running you can see all the logs and status details in the Job Status tab, formatted for the bulk import.&#x20;
+Once you have filled out all file paths and parameters, run the import. While the import is running you can see all the logs and status details in the **Job Status tab,** formatted for the bulk import.&#x20;
 
-Expand each of the child jobs by clicking on the corresponding line to view details, then expand further to see individual logs. When the bulk import cell is set to run, each child job for the individual data object will have a status, including Actions to cancel or retry individual jobs.
+Expand each of the child jobs by clicking on the corresponding line to view details, then expand further to see individual logs. When the bulk import cell is set to run, each child job for the individual data object will have a status, including **Actions** to _cancel_ or _retry_ individual jobs.
 
 ![Running Bulk Import App](../../../.gitbook/assets/BulkImport\_JobStatus.png)
 
@@ -72,7 +72,7 @@ Alternatively, queued and running jobs can be cancelled using the bulk action dr
 
 ![Bulk Action Dropdown](<../../../.gitbook/assets/BulkImport\_CancelRetryAll (1).png>)
 
-When the jobs are completed successfully, you’ll be able to see all the information on the data object, repackaged for viewability in bulk. The first new feature is a table of all successful jobs. Clicking on object names adds a viewer widget to the Narrative. All the reports are available under the "Reports" tree. The full list is collapsed by default to conserve memory. The list can be expanded to show each report, and each report can be viewed in a separate window.&#x20;
+When the jobs are completed successfully, you’ll be able to see all the information on the data object, repackaged for viewability in bulk. The first new feature is a table of all successful jobs. Clicking on object names adds a viewer widget to the Narrative. All the reports are available under the **Reports** tree. The full list is collapsed by default to conserve memory. The list can be expanded to show each report, and each report can be viewed in a separate window.&#x20;
 
 ![Result tab of the Bulk Import Cell](../../../.gitbook/assets/BulkImport\_ResultObject.png)
 

@@ -1,4 +1,4 @@
-# Narratives – Navigator
+# Narratives Navigator
 
 Welcome to Narratives! You may notice there are a few changes when you sign in to narrative.kbase.us. Let's get you up to speed with a tour.&#x20;
 
@@ -38,7 +38,7 @@ The Narratives Navigator offers many launch points. To the left of the **My Narr
 
 ### **Narratives**
 
-* Takes you to your accessible **Narratives** through the Narrative Navigator and features described above.
+* Takes you to your accessible **Narratives** through the **Narrative Navigator** and features described above.
 
 ### **Orgs**
 
@@ -53,7 +53,7 @@ The Narratives Navigator offers many launch points. To the left of the **My Narr
 
 ### **Search**
 
-* The **Data Search** tab gives you the ability to search JGI data (Beta) as well as KBase user and reference data.
+* The **Data Search** tab gives you the ability to search JGI data (_Beta_) as well as KBase user and reference data.
 * It allows you to search for data present in your own Narratives, those shared with you, and those made public by their owners.
 * It also enables you to search for reads and assemblies contained in the Joint Genome Institute (JGI) Genomes Online Database (GOLD) and add them directly to your Narratives.
 

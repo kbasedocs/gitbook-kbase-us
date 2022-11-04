@@ -87,9 +87,9 @@ Once the Importer App has run, the App will signal that the files have been impo
 
 ### Limitations
 
-Currently, 500 rows or data objects per import is supported with good performance. The absolute limit is 10000 rows.&#x20;
+Currently, 500 rows or data objects per import is supported with good performance. The current limit is 10000 rows.&#x20;
 
-If you upload an invalid file, you will receive an error that lists the problem encountered. For errors that can be fixed through the GUI, the Importer cell will be created but you must correct the error before running the import.
+If you upload an invalid file, you will receive an error that lists the problem encountered. For errors that can be fixed through the interface, the Importer cell will be created but you must correct the error before running the import.
 
 At this stage of development only a single set of parameters can be used per import job. While we plan to add multi-parameter support in the future and have made the Import Specification templates forward-compatible, the import will apply parameters from the first row to all files.&#x20;
 
