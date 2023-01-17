@@ -8,6 +8,12 @@ Below are answers to common questions about KBase’s metabolic modeling tools.
 
 For more information — including descriptions of the underlying algorithms, inputs, and outputs — see the [Metabolic Modeling Apps](../../apps/analysis/metabolic-modeling.md).
 
+## What _is_ Flux Balance Analysis?
+
+One of the best papers on the fundamentals of FBA is the aptly titled ["What is Flux Balance Analysis" by Jeffrey Orth, Ines Thiele, and Bernhard Palsson. ](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3108565/)We highly recommend starting there to understand how FBA works in general.
+
+For a detailed description of Model SEED, which KBase uses for modeling, see [High-throughput generation, optimization and analysis of genome-scale metabolic models by Chris Henry, et al.](https://pubmed.ncbi.nlm.nih.gov/20802497/)
+
 ## Can Prokka annotations be used for metabolic modeling?&#x20;
 
 You can use Prokka to annotate, but we recommend using RAST for metabolic models because we use the RAST functional roles as a controlled vocabulary to derive metabolic reactions.
