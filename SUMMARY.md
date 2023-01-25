@@ -89,6 +89,7 @@
     * [Modeling App Errors](troubleshooting/job-errors/modeling.md)
 * [Developing Apps](development/README.md)
   * [The KBase SDK](development/kbase-sdk.md)
+  * [Create a KBase Developer Account](development/create-a-kbase-developer-account.md)
   * [KBase GitHub Repository](development/github-repository.md)
 
 ## External Links
