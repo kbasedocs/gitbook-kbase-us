@@ -17,9 +17,9 @@ The following instructions outline how to create a [KBase Developer Account](htt
    __![](https://lh4.googleusercontent.com/7htIgaaGceW4DZsfNZvMXWxhUd8O6HaL0Mu6b1LROTv1fTsgLwTv0EwsOBWvpleL6GhRe\_JIrJBHWxLeR57yzxlA2Ee4kOivjYN6YqGk1Iz4J4AYn7UydZ0IbkdJIgSgyS87v9toexgdom-\_vZ6-VmXrtRrv3bgu7y0Gd-WkoxwkAeg1O-PnvORQYGpVP\_427muaFLG7LQ)
 5. Click the Create Collaborator button when complete.&#x20;
 6. **Email **_**engage@kbase.us**_** to let us know that you have requested a collaborator account!**&#x20;
-7. Once your account has been approved, you will receive an email to set your password with instructions. \
+7. Once your account has been approved, you will receive an email to set your password. Follow the instructions to _change_ your initial password. \
    ![](https://lh5.googleusercontent.com/wa5MwwzBDhDKwpZX2YW6rvtbJz2jhUIJa2vZKjPXO7qJPgYqrKshow7Wc7NLhMj4gBkXIYDs6-fY-Bu3DcWIXlYcQt5u8TtRnC-u5gk3PkIpmn3yN\_dgIVZMmNXHdGzWRNAG1\_7LfiGBglem6Yw5Pcwwwl6hmqH7RE5T03A9KJ-0rf24zL-agLZmpLFwz9SxUNuQuuxY9g)
-8. Once you have changed your initial password, you can now login to [https://accounts.cels.anl.gov](https://accounts.cels.anl.gov). \
+8. You can now login to [https://accounts.cels.anl.gov](https://accounts.cels.anl.gov). \
    ![](https://lh6.googleusercontent.com/4moAjPiLXI97bZxJVJ0N8b\_HKjlGxL1ll-f4fmHTkehVH7ARf\_\_W8Wn7ICk0z-clzV8xFtquBfi7p2\_Y04UgN1YTrscnrdhe0Ro\_lLdlM7xghIUf9TObCoWLqI84GYr8cghT-THXCdNiq3QWG6C5kl8sJ7TchYuIJ8gE-92rEsKgDde-RB1cf24e0IIkMyqyjMeo9k5LQg)
 
 ### Join the KBase-Developers Project
