@@ -12,7 +12,7 @@ KBase has a multitude of tools designed to analyze [microbial communities](https
 * [Using Metagenomes to Discover Novel Microbial Linages in KBase](https://narrative.kbase.us/narrative/64677) – demonstrates the application of bioinformatic tools for metagenome assembly and genome binning. This Narrative highlights the effective use of employing multiple genome binners and a bin optimization approach. __&#x20;
 * [Metagenome-Assembled Genome Extraction from a Compost Microbiome Enrichment](https://narrative.kbase.us/narrative/33233) – demonstrates an in-depth example of metagenome-assembled genome extraction and analysis to obtain high-quality genomes.
   * Chivian et al. (2023) _Metagenome-assembled genome extraction and analysis from microbiomes using KBase_. Nature Protocols 18, 208-238. [https://doi.org/10.1038/s41596-022-00747-x](https://rdcu.be/cZJQm)
-* Compare and contrast the enriched environment sample analysis to [a Moab Desert Crust](https://narrative.kbase.us/narrative/62384) environmental sample.&#x20;
+  * Compare and contrast the enriched environment sample analysis to [a Moab Desert Crust](https://narrative.kbase.us/narrative/62384) environmental sample.&#x20;
 * [The PlantSEED Resource in KBase](https://narrative.kbase.us/narrative/39144) – shows the streamlined process of annotating plant genome sequences, automatically constructing metabolic models based on genome annotations, and using models to test annotations.
 
 {% embed url="https://youtu.be/5K4fZinIOsM" %}
