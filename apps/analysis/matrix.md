@@ -4,7 +4,7 @@ description: >-
   analyzing amplicon matrices and OTU tables.
 ---
 
-# Amplicon / Data Matrices
+# Data Matrices - Amplicon, Stats
 
 ### Data Cleaning
 
@@ -47,4 +47,4 @@ Douglas, G.M., Maffei, V.J., Zaneveld, J.R. _et al._ (2020). PICRUSt2 for predic
 [PICRUSt2: An improved and extensible approach for metagenome inference](https://www.biorxiv.org/content/10.1101/672295v1.full.pdf) (preprint)
 {% endhint %}
 
-Most of the relevant KBase Apps can be found in the Utilities section of the Apps panel and filtered through searching with "GenericsAPI" or [GenericsAPI Module Catalog](https://narrative.kbase.us/#catalog/modules/GenericsAPI).&#x20;
+Most of the relevant KBase Apps can be found in the Utilities section of the Apps panel and filtered through searching with "GenericsAPI" or the [GenericsAPI Module Catalog](https://narrative.kbase.us/#catalog/modules/GenericsAPI).&#x20;

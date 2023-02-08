@@ -10,9 +10,9 @@ Here is an example outline of the major workflows and datatypes in KBase. The un
 
 Find example workflows here:
 
-1. [Assembling and Annotating Microbial Genomes](assembly-annotation/)
-2. [Comparative Genomics and Phylogenetic Analysis](comparative-genomics/)
+1. [Assembling & Annotating Microbial Genomes](assembly-annotation/)
+2. [Comparative Genomics & Phylogenetic Analysis](comparative-genomics/)
 3. [Constructing Metabolic Models](metabolic-models/)
 4. [Metagenomic & Community Analysis](metagenomic-analysis/)
 5. [RNAseq & Expression Analysis](rnaseq/)
-6. [Samples and Metadata](../data/samples/)
+6. [Samples & Metadata](../data/samples/)
