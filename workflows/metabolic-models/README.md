@@ -31,9 +31,10 @@ The [video tutorial](https://www.youtube.com/watch?v=AQ2KsrQrq9s\&list=PLh7Q4Sqp
 ## **Narrative Tutorials**
 
 * ****[Microbial Metabolic Model Reconstruction and Analysis Tutorial](https://narrative.kbase.us/narrative/ws.18302.obj.61) – Guides through a workflow on how to draft a metabolic model and use KBase Apps to gapfill, run flux balance analysis and simulate growth.&#x20;
-* [Constructing and Analyzing Metabolic Flux Models of Microbial Communities](metabolic-flux-models.md) –Provides a case study on current research in modeling the growth and behavior of microbial communities.
+* [Constructing and Analyzing Metabolic Flux Models of Microbial Communities](metabolic-flux-models.md) – Provides a case study on current research in modeling the growth and behavior of microbial communities.
 * Modeling Central Metabolism and Energy Biosynthesis across Microbial Life: [Publication](http://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-016-2887-8); [Narrative](https://narrative.kbase.us/narrative/ws.15253.obj.1)
 * Microbial Community Metabolic Modeling: A Community Data-Driven Network Reconstruction: [Publication](http://onlinelibrary.wiley.com/doi/10.1002/jcp.25428/full); [Narrative](https://narrative.kbase.us/narrative/ws.13807.obj.1)
+* Case Study: Genome-wide Transcriptomics and Plant Primary Metabolism in response to Drought Stress in Sorghum – plant-based example of using KBase to integrate full genome RNA-seq analysis and a metabolic model to generate a reaction matrix. [Publication](https://doi.org/10.1016/j.cpb.2021.100229); [Narrative](https://kbase.us/n/101788/79/).&#x20;
 
 ### Metabolomics
 
