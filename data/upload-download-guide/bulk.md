@@ -93,6 +93,7 @@ If you upload an invalid file, you will receive an error that lists the problem 
 
 At this stage of development only a single set of parameters can be used per import job. While we plan to add multi-parameter support in the future and have made the Import Specification templates forward-compatible, the import will apply parameters from the first row to all files.&#x20;
 
+{% hint style="info" %}
 _Troubleshooting tips:_
 
 * Do not change the first 3 rows of the TSV or CSV file or the first row or hidden rows of Excel files. This will cause errors or incorrect data.&#x20;
@@ -103,3 +104,4 @@ _Troubleshooting tips:_
 * In CSV and TSV files, you can use quotes (") to surround text that contains the separator character (respectively a comma or a tab).
 * If individual files in an import specification are selected along with the import specification, a bug will occur where extra rows that cannot be filled in are added to the bulk import cell for the individual files. To workaround this issue, either do not select files that are within the selected import specification or delete the uncompletable row(s) from the import cell.
 * If the scientific name lookup ignores spaces, the workaround is to create (and optionally delete) a new bulk import cell for the scientific name input.&#x20;
+{% endhint %}

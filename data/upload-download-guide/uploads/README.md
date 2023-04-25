@@ -23,7 +23,7 @@ If you have a small screen, you might not be able to see that button. Another wa
 The import type selection dropdown can detect the data type of the file based on its extension _where possible_. Some types will not automatically select, such as .fasta or .fastq. In these cases more than one importer can use the FASTA file extension. However, suggested importers will be listed at the top of the drop down under “Suggested Types.”&#x20;
 
 {% hint style="warning" %}
-Just released! Learn how to import multiple files under the [Bulk Import Guide](./#bulk-import-guide)
+Learn how to import multiple files under the [Bulk Import Guide](./#bulk-import-guide)
 {% endhint %}
 
 For example, files with the extension FASTQ can import as a single interleaved file, as a pair of forward and reverse non-interleaved files to create a PairedEndLibrary, or as a single non-interleaved file to create a SingleEndLibrary.&#x20;
@@ -34,7 +34,7 @@ To import a file, make sure you have an import type selected and the check box i
 
 ## **Drag & Drop Limitations**
 
-The drag & drop from your local computer works for many files, but there is a size limit dependent on your computer and browser. For larger files around 20GB, use the [Globus Online transfer](../../globus.md) or a direct upload with a URL.
+The drag & drop from your local computer works for many files, but there is a size limit (about 5GB) dependent on your computer and browser. For larger files around 20GB, use the [Globus Online transfer](../../globus.md) or a direct upload with a URL.
 
 ![Using Globus to upload large data files to the Staging Area](../../../.gitbook/assets/Globus\_upload.png)
 
@@ -53,7 +53,7 @@ If you are a JGI user, you can transfer public genome reads and assemblies (incl
 To import multiple files, ensure all the files you want to import have an import type selected and the check box is active, then click "Import Selected."&#x20;
 
 {% hint style="info" %}
-Bulk import currently only supports _one parameter set per data type_. If you need to upload files of a given data type with different parameters, perform a separate set of bulk imports for each parameter set.
+Bulk import currently supports _one parameter set per data type_. If you need to upload files of a given data type with different parameters, perform a separate set of bulk imports for each parameter set.
 {% endhint %}
 
 ![](../../../.gitbook/assets/screen-shot-2021-08-04-at-11.37.27-am.png)
@@ -93,7 +93,7 @@ When selected files are not supported data types for Bulk Import within the Stag
 
 ### What are the limitations?
 
-This is a new feature in KBase, and the current release should be considered a beta version with future development still to come. Some of the most notable limitations are listed here. This is not a comprehensive list but does contain the known bugs, issues, and limitations that are the highest priority for future releases. Please report any new bugs you find to the Help Board.
+This is a new feature in KBase, and the current release should be considered a beta version with future development still to come. Some of the most notable limitations are listed below. This is not a comprehensive list, but does contain the known bugs, issues, and limitations that are the highest priority for future releases. Please report any new bugs you find to the Help Board.
 
 View [common bugs and limitations](bulk-limitations.md).&#x20;
 
