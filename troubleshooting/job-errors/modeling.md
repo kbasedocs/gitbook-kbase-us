@@ -16,9 +16,9 @@ description: >-
 Use your Browser's search tool to paste in your error message to locate your error message, information about the error and next steps.&#x20;
 {% endhint %}
 
-You can always submit a ticket for help, questions, or follow-up to the [KBase Help Board](https://kbase-jira.atlassian.net/jira/your-work).&#x20;
+You can always submit a ticket for help, questions, or followup to the [KBase Help Board](https://kbase-jira.atlassian.net/jira/your-work).&#x20;
 
-## ****[**Bulk Download Modeling Objects**](https://narrative.kbase.us/#catalog/apps/fba\_tools/bulk\_download\_modeling\_objects/release)****
+## [**Bulk Download Modeling Objects**](https://narrative.kbase.us/#catalog/apps/fba\_tools/bulk\_download\_modeling\_objects/release)
 
 #### `Must provide one and only one of workspace name`&#x20;
 
