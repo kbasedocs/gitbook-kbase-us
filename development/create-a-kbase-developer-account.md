@@ -9,7 +9,7 @@ The following instructions outline how to create a [KBase Developer Account](htt
    ![](https://lh5.googleusercontent.com/D\_5FSgEQSnCUEtnmbs7k5t-LuY8tOrYTY3x4vK2Vu06LXa9PjMBEVcOLTU21HDUZ8HO4x9pThbLWxvD7vXbZMGyVYg-yvZbWD9rkiMCyRoiIsVxbIqYIR8IpVon7FPS-fW1pnC54RQrfF63MYX-VU8NcDmOuELbXEy6eZOB58SjyMGfEr4CRj77IS7eMx5m-YUNhWTwfwA)
 3. Fill out sponsor form with the following information: \
    _Sponsor E-mail_: chenry@anl.gov\
-   _Reason for Account_: KBase developer account for \[enter KBase dev username here]\
+   _Reason for Account_: KBase developer account for \[your KBase dev username here]\
    Then click 'Verify Sponsor E-mail'.\
    ![](https://lh3.googleusercontent.com/7D\_usiOP4kYnZ3XVMQNwdZjSGWlCwwtAfUNWM3C0o8DsjlGkEKs8-wSW743KsgNbbjPtL-6LiABKH5TmtSCZHUTibPACb2-8B7xTBYu9YXZ6zgu2DfXj0sadTNO9kdy2C1ujQ7zGvoFvzlYmPwUi6KHy14uWOThERQyE7dBf3PIsYSnVVwL2iavnmkiq83yvjfkDkdZIEw)
 4. Fill out the Argonne Collaborator Registration form. \
