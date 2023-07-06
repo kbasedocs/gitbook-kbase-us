@@ -9,12 +9,12 @@ The following instructions outline how to create a [KBase Developer Account](htt
    ![](https://lh5.googleusercontent.com/D\_5FSgEQSnCUEtnmbs7k5t-LuY8tOrYTY3x4vK2Vu06LXa9PjMBEVcOLTU21HDUZ8HO4x9pThbLWxvD7vXbZMGyVYg-yvZbWD9rkiMCyRoiIsVxbIqYIR8IpVon7FPS-fW1pnC54RQrfF63MYX-VU8NcDmOuELbXEy6eZOB58SjyMGfEr4CRj77IS7eMx5m-YUNhWTwfwA)
 3. Fill out sponsor form with the following information: \
    _Sponsor E-mail_: chenry@anl.gov\
-   _Reason for Account_: KBase developer account\
+   _Reason for Account_: KBase developer account for \[enter KBase dev username here]\
    Then click 'Verify Sponsor E-mail'.\
    ![](https://lh3.googleusercontent.com/7D\_usiOP4kYnZ3XVMQNwdZjSGWlCwwtAfUNWM3C0o8DsjlGkEKs8-wSW743KsgNbbjPtL-6LiABKH5TmtSCZHUTibPACb2-8B7xTBYu9YXZ6zgu2DfXj0sadTNO9kdy2C1ujQ7zGvoFvzlYmPwUi6KHy14uWOThERQyE7dBf3PIsYSnVVwL2iavnmkiq83yvjfkDkdZIEw)
 4. Fill out the Argonne Collaborator Registration form. \
    _Please note: Make sure to set “Are you a US citizen” correctly. If you are not, you will be required to fill out additional information and provide full documentation._\
-   __![](https://lh4.googleusercontent.com/7htIgaaGceW4DZsfNZvMXWxhUd8O6HaL0Mu6b1LROTv1fTsgLwTv0EwsOBWvpleL6GhRe\_JIrJBHWxLeR57yzxlA2Ee4kOivjYN6YqGk1Iz4J4AYn7UydZ0IbkdJIgSgyS87v9toexgdom-\_vZ6-VmXrtRrv3bgu7y0Gd-WkoxwkAeg1O-PnvORQYGpVP\_427muaFLG7LQ)
+   ![](https://lh4.googleusercontent.com/7htIgaaGceW4DZsfNZvMXWxhUd8O6HaL0Mu6b1LROTv1fTsgLwTv0EwsOBWvpleL6GhRe\_JIrJBHWxLeR57yzxlA2Ee4kOivjYN6YqGk1Iz4J4AYn7UydZ0IbkdJIgSgyS87v9toexgdom-\_vZ6-VmXrtRrv3bgu7y0Gd-WkoxwkAeg1O-PnvORQYGpVP\_427muaFLG7LQ)
 5. Click the Create Collaborator button when complete.&#x20;
 6. **Email **_**engage@kbase.us**_** to let us know that you have requested a collaborator account!**&#x20;
 7. Once your account has been approved, you will receive an email to set your password. Follow the instructions to _change_ your initial password. \
@@ -31,4 +31,4 @@ The following instructions outline how to create a [KBase Developer Account](htt
    ![](https://lh5.googleusercontent.com/ZYVCeXUiB3C5lghDsa5n\_ebIbxzLW76Sv59IqxXO3aa3ybU2McPd4X4ia02zR43UUFiY9QgPW27MOMEAn08cX59c7KsuuzWRx2nWD34LDpsqK9UvmvIZKi5OliRc95YGAXYEqUrMfwqVs02PyrxUpVO8tpicbJRqh8nDLLV-cefs1lrHLo05xpiOgHw3OA12Tz1oCo0eTA)
 4. Click on the 'Request Membership' button.\
    ![](https://lh4.googleusercontent.com/ElVrHoD6BDWRzhqvqDpu70\_4Soc9hXX1DVqduyjP\_MxukImtSnsHYSYqjbbpaJ6nd9s0rocdkSXpBId\_2dUuaCapdehSYpqQGDmr70XRmRHjd3D84GS\_rTFJDvOGmSAN62CIEfnFDFEIk-jBnwweIy\_JArEiMR4lr-sepKjEf\_6RLaH5LqySmafLG1qfrsVdJtglDzsWMw)
-5. **Using the same thread as started above, email **_**engage@kbase.us**_** to let us know that you have requested to join the KBase-Developers Group.**
+5. **Using the same thread as started above, email **_**engage@kbase.us**_** to let us know that you have requested to join the KBase-Developers Group along with your KBase developer username.**
