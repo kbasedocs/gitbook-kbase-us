@@ -4,7 +4,7 @@ KBase provides users with a unified resource for analyzing a range of public dat
 
 Please review [KBase's Data Policy](https://www.kbase.us/about/terms-and-conditions-v2/#data\_policy) and the sources of our public reference data.
 
-To search public data in KBase, use the __ [_Public_ tab in the **Data Browser** ](../getting-started/narrative/explore-data.md) **** within the Narrative Interface.
+To search public data in KBase, use the [_Public_ tab in the **Data Browser** ](../getting-started/narrative/explore-data.md) within the Narrative Interface.
 
 ![](<../.gitbook/assets/selectingpublictab\_databrowser (1).gif>)
 

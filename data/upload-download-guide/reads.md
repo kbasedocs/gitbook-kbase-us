@@ -30,7 +30,7 @@ Notice that the name of the Reads Library file is already filled in, as is a sug
 
 There are two ways that KBase and [GenBank SRA](https://www.ncbi.nlm.nih.gov/sra/docs/submitformats/) recognize a paired-end library. A paired-end library can be either two files which typically have the same name and are designated as forward and reverse or a single interleaved file. Interleaved files use an 8-line format where forward and reverse reads alternate.
 
-Open the __ [_Import_ tab in the **Data Browser**](../../getting-started/narrative/add-data.md#uploading-data-from-external-sources) and drag either one interleaved file or two paired files into the Staging Area.
+Open the [_Import_ tab in the **Data Browser**](../../getting-started/narrative/add-data.md#uploading-data-from-external-sources) and drag either one interleaved file or two paired files into the Staging Area.
 
 Open the pulldown menu to the right of the filename under the _Import As..._ column in your Staging Area and select “FASTQ Reads NonInterleaved” for the first file in the pair. Make sure the correct file type is selected and the checkbox is active, then click "Import Selected". The Data Browser slide-out will close and the “Import FASTQ/SRA File as Reads from Staging Area” App will open.
 
@@ -82,4 +82,4 @@ FASTQ and SRA reads can be imported as one of the supported bulk import types. Y
 
 If you are a JGI user, you can transfer public genome reads and assemblies (as well as your private data and annotated genomes) from JGI to your KBase account—see [this page](../jgi-transfer.md) for instructions.
 
-## ****
+##

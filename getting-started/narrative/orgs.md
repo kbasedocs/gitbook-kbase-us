@@ -26,7 +26,7 @@ On the Orgs page, click "Create Organization" button on the right side. This wil
 * ID ⏤ the unique URL for the Organization; can only contain lower case letters (a-z), numeric digits (0-9) and the dash "-"
 * Logo URL (optional) ⏤ include the link to a publicly available image&#x20;
 * Home Page URL (optional) ⏤ input your lab or group's website URL to link and share
-* Hidden? ⏤ check for the Organization to be _Hidden - will be visible **only** for members of this organization_ or __ leave unchecked to remain _Visible - will be visible to all KBase users_.
+* Hidden? ⏤ check for the Organization to be _Hidden - will be visible **only** for members of this organization_ or leave unchecked to remain _Visible - will be visible to all KBase users_.
 * Research Interests ⏤ list your Organization's research interests here
 * Description ⏤ provide a description of your Organization
 

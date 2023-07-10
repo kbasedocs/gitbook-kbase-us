@@ -26,4 +26,4 @@ To check the status of the job queue and wait times for KBase Apps, view [the Jo
 
 ### Licensing
 
-**Software**  ⏤ **** Software developed by the KBase project team or contributed by community developers to KBase, is stored and maintained in the public KBase GitHub code repository under the MIT Open Source License (“License”).
+**Software**  ⏤ Software developed by the KBase project team or contributed by community developers to KBase, is stored and maintained in the public KBase GitHub code repository under the MIT Open Source License (“License”).

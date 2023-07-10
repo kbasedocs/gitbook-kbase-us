@@ -9,7 +9,7 @@ KBase has a multitude of tools designed to analyze [microbial communities](https
 ## Narrative Tutorials
 
 * [Genome Extraction from Shotgun Metagenome Sequence Data](https://narrative.kbase.us/narrative/33233) – this is a good example for understanding a metagenomic pipeline.
-* [Using Metagenomes to Discover Novel Microbial Linages in KBase](https://narrative.kbase.us/narrative/64677) – demonstrates the application of bioinformatic tools for metagenome assembly and genome binning. This Narrative highlights the effective use of employing multiple genome binners and a bin optimization approach. __&#x20;
+* [Using Metagenomes to Discover Novel Microbial Linages in KBase](https://narrative.kbase.us/narrative/64677) – demonstrates the application of bioinformatic tools for metagenome assembly and genome binning. This Narrative highlights the effective use of employing multiple genome binners and a bin optimization approach.&#x20;
 * [Metagenome-Assembled Genome Extraction from a Compost Microbiome Enrichment](https://narrative.kbase.us/narrative/33233) – demonstrates an in-depth example of metagenome-assembled genome extraction and analysis to obtain high-quality genomes.
   * Chivian et al. (2023) _Metagenome-assembled genome extraction and analysis from microbiomes using KBase_. Nature Protocols 18, 208-238. [https://doi.org/10.1038/s41596-022-00747-x](https://rdcu.be/cZJQm)
   * Compare and contrast the enriched environment sample analysis to [a Moab Desert Crust](https://narrative.kbase.us/narrative/62384) environmental sample.&#x20;

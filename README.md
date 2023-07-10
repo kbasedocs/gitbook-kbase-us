@@ -12,13 +12,15 @@ description: >-
 
 Arkin AP, Cottingham RW, Henry CS, Harris NL, Stevens RL, Maslov S, et al. KBase: The United States Department of Energy Systems Biology Knowledgebase. Nature Biotechnology. 2018;36: 566. doi: 10.1038/nbt.4163
 
-## Funding: 
+## Funding:&#x20;
 
-This work is supported as part of the Genomic Sciences Program DOE Systems Biology Knowledgebase \(KBase\) funded by the [U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research ](http://science.energy.gov/ber/)under Award Numbers DE-AC02-05CH11231, DE-AC02-06CH11357, DE-AC05-00OR22725, and DE-AC02-98CH10886.
+This work is supported as part of the Genomic Sciences Program DOE Systems Biology Knowledgebase (KBase) funded by the [U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research ](http://science.energy.gov/ber/)under Award Numbers DE-AC02-05CH11231, DE-AC02-06CH11357, DE-AC05-00OR22725, and DE-AC02-98CH10886.
 
-![](.gitbook/assets/doe_logo.svg)
+<div align="center">
 
+<img src=".gitbook/assets/doe_logo.svg" alt="">
 
+</div>
 
 
 

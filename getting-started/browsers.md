@@ -6,11 +6,7 @@ The KBase website and Narrative Interface should work on most modern web browser
 
 The following desktop web browsers have been tested against the KBase web site and Narrative user interface. If you experience any issue using these browsers with our site please report it through the [Help Board](https://kbase-jira.atlassian.net/).&#x20;
 
-|    OS   | Supported Browsers                                                |
-| :-----: | ----------------------------------------------------------------- |
-|   Mac   | <p>Chrome</p><p>Firefox</p><p>Safari 10 (macOS Sierra) and up</p> |
-| Windows | <p>Firefox</p><p>Microsoft Edge - not recommended</p>             |
-|  Linux  | <p>Chrome</p><p>Firefox</p>                                       |
+<table data-header-hidden><thead><tr><th width="187" align="center">OS</th><th>Supported Browsers</th></tr></thead><tbody><tr><td align="center">OS</td><td>Supported Browsers</td></tr><tr><td align="center">Mac</td><td><p>Chrome</p><p>Firefox</p><p>Safari 10 (macOS Sierra) and up</p></td></tr><tr><td align="center">Windows</td><td><p>Firefox</p><p>Microsoft Edge - not recommended</p></td></tr><tr><td align="center">Linux</td><td><p>Chrome</p><p>Firefox</p></td></tr></tbody></table>
 
 {% hint style="warning" %}
 **Ad blockers may prevent KBase from working in your web browser**

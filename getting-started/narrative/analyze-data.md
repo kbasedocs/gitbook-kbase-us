@@ -6,7 +6,11 @@ Once exploring available [KBase Apps ](https://kbase.us/applist/)and determining
 
 To add a KBase analysis app, find the app of interest and click its name or the icon to the left of the app name. A box (called a _cell_) containing the chosen app will appear in the main Narrative panel.
 
-![](../../.gitbook/assets/app\_addtonarrative.gif)
+<div align="center">
+
+<img src="../../.gitbook/assets/app_addtonarrative.gif" alt="">
+
+</div>
 
 A few things to notice about the app cell:
 

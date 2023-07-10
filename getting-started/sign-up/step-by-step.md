@@ -8,7 +8,11 @@ This page provides step-by-step instructions for signing up to use KBase. You wi
 
 2\. Use your existing Google, [ORCiD](https://orcid.org/), or [Globus](https://www.globusid.org/login) account to sign up for KBase.&#x20;
 
-![](../../.gitbook/assets/kbase\_signup\_opt.png)
+<div align="center">
+
+<img src="../../.gitbook/assets/kbase_signup_opt.png" alt="">
+
+</div>
 
 {% hint style="info" %}
 **What if I don't have a Google, ORCiD, or Globus account?**
@@ -23,7 +27,11 @@ We are also considering adding support for other identity providers. If there’
 3\. If want to use your Google account, click on the “Sign in with Google” button; you will be prompted to choose a Google account (if you have more than one) and sign in to it (if you aren’t already signed in).\
 
 
-![](../../.gitbook/assets/google\_signin.png)
+<div align="left">
+
+<img src="../../.gitbook/assets/google_signin.png" alt="">
+
+</div>
 
 4\. The KBase account creation form will prompt you to enter some required information, which includes choosing a username and identifying your organization and department.
 

@@ -44,7 +44,7 @@ Click the green "Run" button to start the import. When the import is finished, y
 
 ## Importing a GFF-formatted Genome
 
-Open the __ [_Import_ tab in the **Data Browser**](../../getting-started/narrative/add-data.md) and drag and drop _both_ the genome _and_ corresponding FASTA file into your Staging Area. In your Staging Area, open the _Import As..._ pulldown menu to the right of the GFF filename and select “GFF Genome."
+Open the [_Import_ tab in the **Data Browser**](../../getting-started/narrative/add-data.md) and drag and drop _both_ the genome _and_ corresponding FASTA file into your Staging Area. In your Staging Area, open the _Import As..._ pulldown menu to the right of the GFF filename and select “GFF Genome."
 
 ![](../../.gitbook/assets/Import\_GFFgenome.png)
 
@@ -74,7 +74,7 @@ Both GenBank and GFF genomes can be imported as one of the supported bulk import
 
 ## Uploading a Genome using a URL&#x20;
 
-Open the __ [_Import_ tab in the **Data Browser**](../../getting-started/narrative/add-data.md) and click on the _Upload with URL_ button (below the drag & drop area) to open an Upload App Cell.
+Open the [_Import_ tab in the **Data Browser**](../../getting-started/narrative/add-data.md) and click on the _Upload with URL_ button (below the drag & drop area) to open an Upload App Cell.
 
 The Data Browser will close and the “Upload a File to Staging from Web” App will appear in your Narrative. Alternatively, you can open the app directly from the **Apps Panel**. From the app, click on the dropdown for the URL Type and select the URL type.
 

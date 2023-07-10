@@ -29,10 +29,7 @@ For the Tab-Separated Values file format, the chemical compounds and reactions t
 
 ### **FBAModelCompounds**
 
-| id        | name                               | formula     | charge | aliases |
-| --------- | ---------------------------------- | ----------- | ------ | ------- |
-|  cpd00113 |  Isopentenyldiphosphate            |  C5H10O7P2  |  -2    |         |
-|  cpd02590 |  all-trans-Heptaprenyl diphosphate |  C35H58O7P2 |  -2    |         |
+<table data-header-hidden><thead><tr><th width="150">id</th><th width="301">name</th><th width="160">formula</th><th>charge</th><th>aliases</th></tr></thead><tbody><tr><td>id</td><td>name</td><td>formula</td><td>charge</td><td>aliases</td></tr><tr><td> cpd00113</td><td> Isopentenyldiphosphate</td><td> C5H10O7P2</td><td> -2</td><td></td></tr><tr><td> cpd02590</td><td> all-trans-Heptaprenyl diphosphate</td><td> C35H58O7P2</td><td> -2</td><td></td></tr></tbody></table>
 
 * **id**: Compound identifier; see the KBase Biochemistry reference for a list of compounds \[link]
 * **name**: Name of chemical compound
@@ -48,10 +45,7 @@ Importing an FBA model into KBase requires specified reaction IDs for the biomas
 Scroll table below from left to right to see complete format
 {% endhint %}
 
-| id           | direction | compartment | gpr                    | name                               | enzyme | pathway | reference | equation                                                                                            |
-| ------------ | --------- | ----------- | ---------------------- | ---------------------------------- | ------ | ------- | --------- | --------------------------------------------------------------------------------------------------- |
-| rxn00001\_c0 | ->        | c0          | fig\|211586.9.peg.3751 | Pyrophosphate phosphohydrolase\_c0 |        |         |           | (1) cpd00001\[c0] + (1) cpd00012\[c0] -> (2) cpd00067\[c0] + (2) cpd00009\[c0]                      |
-| rxn00056\_c0 | <->       | c0          | fig\|211586.9.peg.1038 | Fe(II):oxygen oxidoreductase\_c0   |        |         |           | (4) cpd00067\[c0] + (4) cpd10515\[c0] + (1) cpd00007\[c0] <-> (4) cpd10516\[c0] + (2) cpd00001\[c0] |
+<table data-header-hidden><thead><tr><th width="162">id</th><th width="150">direction</th><th width="150">compartment</th><th width="150">gpr</th><th width="215">name</th><th width="150">enzyme</th><th width="150">pathway</th><th width="150">reference</th><th>equation</th></tr></thead><tbody><tr><td>id</td><td>direction</td><td>compartment</td><td>gpr</td><td>name</td><td>enzyme</td><td>pathway</td><td>reference</td><td>equation</td></tr><tr><td>rxn00001_c0</td><td>-></td><td>c0</td><td>fig|211586.9.peg.3751</td><td>Pyrophosphate phosphohydrolase_c0</td><td></td><td></td><td></td><td>(1) cpd00001[c0] + (1) cpd00012[c0] -> (2) cpd00067[c0] + (2) cpd00009[c0]</td></tr><tr><td>rxn00056_c0</td><td>&#x3C;-></td><td>c0</td><td>fig|211586.9.peg.1038</td><td>Fe(II):oxygen oxidoreductase_c0</td><td></td><td></td><td></td><td>(4) cpd00067[c0] + (4) cpd10515[c0] + (1) cpd00007[c0] &#x3C;-> (4) cpd10516[c0] + (2) cpd00001[c0]</td></tr></tbody></table>
 
 * **id**: Reaction identifier; see the [KBase Biochemistry reference for a list of reactions](https://github.com/ModelSEED/ModelSEEDDatabase/tree/v1.0/Biochemistry)
 * **direction**: Directionality of chemical reaction specified as forward (->), reversed (<-), or equilibrium (<->)

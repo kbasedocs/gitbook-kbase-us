@@ -59,11 +59,19 @@ Notice that the data object now appears in the Data Panel. Once you finish addin
 
 Don’t forget to periodically save your Narrative by clicking the “Save” button at the top right of the interface.
 
-![](<../.gitbook/assets/savenarrative (1).gif>)
+<div align="center">
+
+<img src="../.gitbook/assets/savenarrative (1).gif" alt="">
+
+</div>
 
 ### **Step 6. Choose an App**&#x20;
 
-![](../.gitbook/assets/app-panel-open.png)
+<div align="center">
+
+<img src="../.gitbook/assets/app-panel-open.png" alt="">
+
+</div>
 
 Once you have added data to your Narrative, you can analyze it using one or more of the KBase apps listed in the **App Panel** below your data.
 

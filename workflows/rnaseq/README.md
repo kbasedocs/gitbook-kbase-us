@@ -11,10 +11,10 @@ KBase offers a powerful suite of [expression analysis tools](https://kbase.us/ap
 
 KBase requires a reference genome to guide the analysis of short reads.&#x20;
 
-1. ****[**Import Genome**](../../data/upload-download-guide/genome.md)****
-2. ****[**Import Short Reads**](../../data/upload-download-guide/reads.md)**:** The reads must be a set of single-end, paired-end, or interleaved paired-end reads in FASTA, FASTQ, or SRA format.
-3. ****[**Create a SampleSet**](../../data/upload-download-guide/sampleset.md)**:** Run the [Create RNA-seq Sample Set](https://narrative.kbase.us/#catalog/apps/KBaseRNASeq/describe\_rnaseq\_experiment/release) App to group together your reads into an RNA-seq sample set with associated experimental metadata to run RNA-seq Apps in batch mode wherever appropriate.
-4. ****[**QC SampleSet**](../../apps/analysis/expression.md#reads-management)**:** Run [FastQC](https://narrative.kbase.us/#appcatalog/app/kb\_fastqc/runFastQC/release) to assess the read quality of the reads set from the previous step and if needed, run [Trimmomatic](https://narrative.kbase.us/#appcatalog/app/kb\_trimmomatic/run\_trimmomatic/release), [Cutadapt](https://narrative.kbase.us/#appcatalog/app/kb\_cutadapt/remove\_adapters/release), or [PRINSEQ](https://narrative.kbase.us/#appcatalog/app/kb\_PRINSEQ/execReadLibraryPRINSEQ/release) to pre-process or filter the reads before starting RNA-seq analysis.
+1. [**Import Genome**](../../data/upload-download-guide/genome.md)
+2. [**Import Short Reads**](../../data/upload-download-guide/reads.md)**:** The reads must be a set of single-end, paired-end, or interleaved paired-end reads in FASTA, FASTQ, or SRA format.
+3. [**Create a SampleSet**](../../data/upload-download-guide/sampleset.md)**:** Run the [Create RNA-seq Sample Set](https://narrative.kbase.us/#catalog/apps/KBaseRNASeq/describe\_rnaseq\_experiment/release) App to group together your reads into an RNA-seq sample set with associated experimental metadata to run RNA-seq Apps in batch mode wherever appropriate.
+4. [**QC SampleSet**](../../apps/analysis/expression.md#reads-management)**:** Run [FastQC](https://narrative.kbase.us/#appcatalog/app/kb\_fastqc/runFastQC/release) to assess the read quality of the reads set from the previous step and if needed, run [Trimmomatic](https://narrative.kbase.us/#appcatalog/app/kb\_trimmomatic/run\_trimmomatic/release), [Cutadapt](https://narrative.kbase.us/#appcatalog/app/kb\_cutadapt/remove\_adapters/release), or [PRINSEQ](https://narrative.kbase.us/#appcatalog/app/kb\_PRINSEQ/execReadLibraryPRINSEQ/release) to pre-process or filter the reads before starting RNA-seq analysis.
 {% endhint %}
 
 ### RNA-seq Pipeline
@@ -34,8 +34,8 @@ The RNA-seq pipeline in KBase is modular and consists of three steps. You can pi
 
 ## **Narrative Tutorials**
 
-* __[_E. coli_ RNA-seq Analysis Tutorial](https://narrative.kbase.us/narrative/ws.50093.obj.1) – bacterium-based example of an RNAseq workflow using a HISAT2/StringTie/DESeq2 pipeline
-* __[_Arabidopsis_ RNA-seq Analysis Tutorial ](https://narrative.kbase.us/narrative/ws.19391.obj.1)– plant-based example of an RNAseq workflow using a HISAT2/StringTie/DESeq2 pipeline
+* [_E. coli_ RNA-seq Analysis Tutorial](https://narrative.kbase.us/narrative/ws.50093.obj.1) – bacterium-based example of an RNAseq workflow using a HISAT2/StringTie/DESeq2 pipeline
+* [_Arabidopsis_ RNA-seq Analysis Tutorial ](https://narrative.kbase.us/narrative/ws.19391.obj.1)– plant-based example of an RNAseq workflow using a HISAT2/StringTie/DESeq2 pipeline
 * [Case Study: Genome-wide Transcriptomics and Plant Primary Metabolism in response to Drought Stress in Sorghum](https://kbase.us/n/101788/79/) – plant-based example of using KBase to integrate full genome RNA-seq analysis and a metabolic model to generate a reaction matrix&#x20;
   * Kumari et al. (2021) _A KBase case study on genome-wide transcriptomics and plant primary metabolism in response to drought stress in Sorghum_. Current Plant Biology 28. [https://doi.org/10.1016/j.cpb.2021.100229](https://doi.org/10.1016/j.cpb.2021.100229)
 

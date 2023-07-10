@@ -15,7 +15,7 @@ Amplicon matrices can be uploaded from a TSV (tab-separated values) file with a 
 
 When uploading, ensure that **rows are taxa** and **columns are samples**. A _column for taxonomy is optional_.
 
-Consensus sequences must also be included as a FASTA file with extension .fa, .fasta. Sequence names **must match **_**exactly**_** ** with the taxa names in the amplicon matrix.&#x20;
+Consensus sequences must also be included as a FASTA file with extension .fa, .fasta. Sequence names **must match **_**exactly**_ with the taxa names in the amplicon matrix.&#x20;
 {% endhint %}
 
 Two files are _needed_ for uploading amplicon data:

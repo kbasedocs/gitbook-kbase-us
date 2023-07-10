@@ -48,7 +48,11 @@ By default, the apps are sorted by category. Try the options in the “Organize 
 
 Once you have added an app to the Narrative, you will need to select a data object as the Input Object and set Parameters. When working within an application, a red bar or banner will highlight empty fields and errors.&#x20;
 
-![](../../.gitbook/assets/app\_emptyfield.png)
+<div align="center">
+
+<img src="../../.gitbook/assets/app_emptyfield.png" alt="">
+
+</div>
 
 ### **More info**
 

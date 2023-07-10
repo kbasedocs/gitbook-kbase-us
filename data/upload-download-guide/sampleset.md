@@ -62,7 +62,7 @@ Samples data is uploaded to the Staging Area and then imported into a Narrative.
 
 Samples must be in [SESAR or ENIGMA formats](sampleset.md#formatting-samplesets) to not limit analysis as these standards are required to validate most of the data. Non-validated data can be uploaded as user terms, but this will not allow comparisons across Samples. We recommend to change the column headers to correspond with the relevant SESAR or ENIGMA headers, and ensure the data matches.
 
-### __[_Data Validation_](../samples/ontology.md)__
+### [_Data Validation_](../samples/ontology.md)
 
 SampleSets that are uploaded to KBase are validated to ensure the data format is correct. If data does not match format requirements, the upload may result in an [error](sampleset.md#error-report-display).&#x20;
 

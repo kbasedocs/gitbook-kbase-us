@@ -2,7 +2,7 @@
 
 Linking Accounts can be helpful for data transfers, ease of signing in, and sharing data. You can link your KBase Account to Google, Globus, and ORCiD.&#x20;
 
-To do this, **** first sign into KBase and go through the normal sign-in process.
+To do this, first sign into KBase and go through the normal sign-in process.
 
 On the left sidebar menu, click the “Account” icon, and then choose the tab labeled “Linked Sign-In Accounts”.
 
@@ -48,7 +48,11 @@ Now when you want to sign in to KBase, you can also use the “Sign in with Goog
 
 This will bring you straight to the “Choose an account” Google page:
 
-![](../../.gitbook/assets/googlechooseanaccount.png)
+<div align="center">
+
+<img src="../../.gitbook/assets/googlechooseanaccount.png" alt="">
+
+</div>
 
 After you choose your linked Google account, you’ll be signed in to KBase! (Note that if you had signed out of that Google account, you will be directed to sign into it again before you login to KBase.)
 

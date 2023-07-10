@@ -12,14 +12,14 @@ KBase has a suite of [Apps supporting the reconstruction, prediction, and design
   * Red pathways is increased and blue pathways&#x20;
 * [Gapfill Metabolic Model](https://kbase.us/applist/apps/fba\_tools/gapfill\_metabolic\_model/release) – Fill in missing reactions based on stoichiometry
 * [Run Flux Balance Analysis](https://kbase.us/applist/apps/fba\_tools/run\_flux\_balance\_analysis/release) – Predict metabolic fluxes
-* [Compare FBA solutions](https://kbase.us/applist/apps/fba\_tools/compare\_fba\_solutions/release) – __ Determine optimal conditions of flux&#x20;
+* [Compare FBA solutions](https://kbase.us/applist/apps/fba\_tools/compare\_fba\_solutions/release) – Determine optimal conditions of flux&#x20;
 * [Check Model Mass Balance](https://kbase.us/applist/apps/fba\_tools/check\_model\_mass\_balance/release) – Ensure accuracy&#x20;
 * [Compare Models](https://kbase.us/applist/apps/fba\_tools/compare\_models/release) – View multiple models side by side
 
 ### Editing Models
 
 * [Edit Metabolic Model](https://kbase.us/applist/apps/fba\_tools/edit\_metabolic\_model/release) – Build unique models suited to specific experiments.&#x20;
-* __[Create or Edit Media](https://kbase.us/applist/apps/fba\_tools/edit\_media/release) – Create specialized growth conditions
+* [Create or Edit Media](https://kbase.us/applist/apps/fba\_tools/edit\_media/release) – Create specialized growth conditions
 * [Bulk Download Modeling Objects](https://kbase.us/applist/apps/fba\_tools/bulk\_download\_modeling\_objects/release) – Save modeling data for future analysis&#x20;
 
 ### Comparative Genomics

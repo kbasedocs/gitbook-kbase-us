@@ -32,7 +32,7 @@ Data in KBase should reference appropriate and relevant related data e.g., a Gen
 
 ### **FAIR data management**
 
-[**Findable, Accessible, Interoperable, Reusable**](https://www.nature.com/articles/sdata201618) **** data meets the criteria set out in the linked paper. FAIR overlaps with many of the other principles set out here but is an emerging standard for data management. Further, we wish to ensure data of the same type are comparable i.e., data are in comparable units derived from similar “workflows” so for example, numbers from two different data sets can be fairly combined.&#x20;
+[**Findable, Accessible, Interoperable, Reusable**](https://www.nature.com/articles/sdata201618) data meets the criteria set out in the linked paper. FAIR overlaps with many of the other principles set out here but is an emerging standard for data management. Further, we wish to ensure data of the same type are comparable i.e., data are in comparable units derived from similar “workflows” so for example, numbers from two different data sets can be fairly combined.&#x20;
 
 ### **Open source software and data**
 
@@ -50,4 +50,4 @@ If you want to develop Apps using the SDK, please apply for a KBase developer ac
 
 KBase is based loosely on a service-oriented architecture that bundles related functionality into a set of independently scalable services that are managed to provide responsive interaction via the Narrative Interface.
 
-For more details, please see the KBase [architecture overview](https://github.com/kbase/KBaseDeveloperBootstrap/blob/master/README.md), which **** outlines the components and relationships between KBase’s user interfaces, services and databases.
+For more details, please see the KBase [architecture overview](https://github.com/kbase/KBaseDeveloperBootstrap/blob/master/README.md), which outlines the components and relationships between KBase’s user interfaces, services and databases.

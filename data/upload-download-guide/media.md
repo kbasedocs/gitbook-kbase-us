@@ -31,7 +31,7 @@ The combination of maximum and minimum flux will dictate whether uptake and/or e
 
 Minimum and maximum flux are measured in mmol per gram cell dry weight per hour.
 
-Note: **** When creating a media Excel file, the name of the worksheet that contains your media conditions **must** be named “MediaCompounds” or it will not upload. By default, the first sheet of any Excel file is called “Sheet1.” To rename it, find the worksheet tabs at the bottom left of the Excel file. Double-click on the default name and type in “MediaCompounds.”
+Note: When creating a media Excel file, the name of the worksheet that contains your media conditions **must** be named “MediaCompounds” or it will not upload. By default, the first sheet of any Excel file is called “Sheet1.” To rename it, find the worksheet tabs at the bottom left of the Excel file. Double-click on the default name and type in “MediaCompounds.”
 
 Below is an example of a media file in TSV format. In this case, the compound IDs in the first column are from the [KBase ModelSEED Biochemistry Database](https://github.com/ModelSEED/ModelSEEDDatabase/tree/v1.0/Biochemistry) (scroll to the right to see full table):
 

@@ -105,7 +105,7 @@ UE: Possible issues
 * The options haven't been selected correctly. For example, using an interleaved fastq file but failing to check the Interleaved box. _The documentation on_ [_FASTQ/SRA Reads_](../../data/upload-download-guide/reads.md) _may be helpful._
 * The file might not have the right filename to be recognized.
   * The file is an SRA file and not FASTQ.&#x20;
-* DOS-style carriage-return line files along with new-lines. Our fasta validation doesn't handle this properly. _To remove the carriage return characters use this_ [_unix command:_](https://support.nesi.org.nz/hc/en-gb/articles/218032857-Converting-from-Windows-style-to-UNIX-style-line-endings) _ **`tr -d '\015' < 1.fastq >cleaned_1.fastq`**_
+* DOS-style carriage-return line files along with new-lines. Our fasta validation doesn't handle this properly. _To remove the carriage return characters use this_ [_unix command:_](https://support.nesi.org.nz/hc/en-gb/articles/218032857-Converting-from-Windows-style-to-UNIX-style-line-endings) _**`tr -d '\015' < 1.fastq >cleaned_1.fastq`**_
 
 #### `Reading FASTQ record failed - non-blank lines are not a multiple of four.`
 
@@ -231,7 +231,7 @@ UE: The genome does not exist in the narrative&#x20;
 
 _Fix the genome name and try resubmitting the job._&#x20;
 
-## [**Unpack a Compressed File in Staging Area**](https://narrative.kbase.us/#catalog/apps/kb\_uploadmethods/unpack\_staging\_file) ****&#x20;
+## [**Unpack a Compressed File in Staging Area**](https://narrative.kbase.us/#catalog/apps/kb\_uploadmethods/unpack\_staging\_file)&#x20;
 
 #### `Error running command:pigz ...`&#x20;
 
