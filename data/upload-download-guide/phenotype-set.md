@@ -12,7 +12,7 @@ description: >-
 A Phenotype Set can be uploaded from a TSV (tab-separated values) file with a .tsv or .tab file extension, or from Excel spreadsheet with a .xls extension. The spreadsheet needs to have exactly these five columns:
 
 * **Gene knockout (geneko)** – List of genes knocked out in the phenotype; use 'none' for wild-type phenotypes. Gene IDs should be in the same format that appears in your metabolic model (e.g., kb|g.220339.CDS.2927)
-* **Workspace information (mediaws)** – Workspace where the media for the phenotype data was loaded into KBase. The workspace information can be found by running the command `print(os.environ['KBase_WORKSPACE_ID'])`in a code cell. The output should be formatted `username:narrative_#############.`
+* **Workspace information (mediaws)** – Workspace where the media for the phenotype data was loaded into KBase. The workspace information can be found by running the command `print(os.environ['KB_WORKSPACE_ID'])`in a code cell. The output should be formatted `username:narrative_#############.`
 * **Media** – ID of the media condition loaded in KBase where the phenotype was observed.
 * **Additional Compounds (addtlCpd)** – Additional media compound IDs to be added alongside the primary media formulation. See the [KBase ModelSEED Biochemistry Database ](https://github.com/ModelSEED/ModelSEEDDatabase/tree/v1.0/Biochemistry)for a reference list of reactions and compounds or use [Biochemistry Search](https://narrative.kbase.us/#biochem-search).
 * **Growth** – Indication of whether or not the organism grew in the specified media with the specified knockouts. 1 meaning growth; 0 meaning no growth.
