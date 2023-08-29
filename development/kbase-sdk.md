@@ -14,7 +14,7 @@ The [KBase Software Development Kit (SDK)](https://kbase.github.io/kb\_sdk\_docs
 
 You need a user account to be able to access KBase’s user interfaces, APIs, workspaces, and more.
 
-### 2. [Create a KBase developer account](https://app.gitbook.com/o/-LrErV7S3Qxyj1T85yxI/s/-LrEs-tqcRLeDlhbWQs-/\~/changes/nXYhXHaHX1yQ3OHjwYau/development/create-a-kbase-developer-account)
+### 2. [Create a KBase developer account](create-a-kbase-developer-account.md)
 
 ### 3. Read the [SDK Documentation](https://kbase.github.io/kb\_sdk\_docs/)
 
