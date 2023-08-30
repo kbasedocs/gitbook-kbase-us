@@ -43,7 +43,7 @@ The top-level menu (accessed by clicking the three small horizontal lines on the
 * _Public Search_ can be used to locate data and filter by data types.&#x20;
 * _About_ directs to information about the KBase User Interface and current version. &#x20;
 * _KBase (home)_ will open a new window to [kbase.us](https://www.kbase.us).
-* _Docs_ will open a new window to the KBase Documentation site at [docs.kbase.us](http://localhost:5000/o/-LrErV7S3Qxyj1T85yxI/s/-LrEs-tqcRLeDlhbWQs-/).&#x20;
+* _Docs_ will open a new window to the KBase Documentation site at [docs.kbase.us](http://127.0.0.1:5000/o/-LrErV7S3Qxyj1T85yxI/s/-LrEs-tqcRLeDlhbWQs-/).&#x20;
 * _Support_ will open [www.kbase.us/support](https://www.kbase.us/support/) to access the [Help Board](../../troubleshooting/support.md) or contact the KBase team.&#x20;
 * In the next section, we’ll discuss [how to create a new Narrative](create.md).
 
