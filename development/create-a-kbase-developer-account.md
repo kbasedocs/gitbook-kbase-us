@@ -32,3 +32,7 @@ The following instructions outline how to create a [KBase Developer Account](htt
 4. Click on the 'Request Membership' button.\
    ![](https://lh4.googleusercontent.com/ElVrHoD6BDWRzhqvqDpu70\_4Soc9hXX1DVqduyjP\_MxukImtSnsHYSYqjbbpaJ6nd9s0rocdkSXpBId\_2dUuaCapdehSYpqQGDmr70XRmRHjd3D84GS\_rTFJDvOGmSAN62CIEfnFDFEIk-jBnwweIy\_JArEiMR4lr-sepKjEf\_6RLaH5LqySmafLG1qfrsVdJtglDzsWMw)
 5. **Using the same thread as started above, email **_**engage@kbase.us**_** to let us know that you have requested to join the KBase-Developers Group along with your KBase developer username.**
+
+{% hint style="warning" %}
+**Note - KBase Developer accounts must be renewed on a yearly basis. You will receive a notification email from KBase staff regarding your renewal. If your account expires prior to renewal, please register with the SAME USERNAME, and we will do our best to expedite your permissions to the same account.**
+{% endhint %}
